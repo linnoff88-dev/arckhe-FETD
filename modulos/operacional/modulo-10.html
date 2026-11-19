@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 10: Sistema Completo + Evolução | Trilha Operacional | FETD</title>
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: { 'operacional': '#3B82F6' },
+          fontFamily: { sans: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <style>
+    * { transition: background-color 200ms ease-in-out; }
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <nav class="sticky top-0 z-50 bg-white/90 dark:bg-neutral-800/90 backdrop-blur-sm border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="../../index.html" class="text-2xl font-bold bg-gradient-to-r from-operacional to-blue-600 bg-clip-text text-transparent">🎓 FETD</a>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-operacional">Início</a>
+          <a href="../../trilhas/operacional.html" class="text-neutral-700 dark:text-neutral-300 hover:text-operacional">Trilha Operacional</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm">
+        <a href="../../index.html" class="text-operacional hover:text-blue-700">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <a href="../../trilhas/operacional.html" class="text-operacional hover:text-blue-700">Trilha Operacional</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Módulo 10</span>
+      </nav>
+    </div>
+  </div>
+
+  <section class="bg-gradient-to-r from-operacional to-blue-600 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="px-3 py-1 bg-white/20 rounded-full text-sm font-semibold">Módulo 10 de 10</span>
+        <span class="px-3 py-1 bg-white/20 rounded-full text-sm font-semibold">⏱️ 2h</span>
+      </div>
+      <h1 class="text-4xl lg:text-5xl font-extrabold mb-4">Sistema Completo + Evolução</h1>
+      <p class="text-xl text-white/90 mb-6 max-w-3xl">Consolidar tudo e planejar próximos passos profissionais</p>
+    </div>
+  </section>
+
+  <section class="py-16 bg-white dark:bg-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="flex justify-end mb-8">
+        <a href="../../downloads/operacional/modulo-10.md" download class="px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 inline-flex items-center gap-2">
+          <span>📥 Download MD</span>
+        </a>
+      </div>
+
+      <div class="bg-operacional/10 dark:bg-operacional/20 border-l-4 border-operacional p-6 rounded-lg mb-12">
+        <h3 class="text-xl font-bold text-operacional mb-2">🎯 Objetivo deste Módulo</h3>
+        <p class="text-neutral-700 dark:text-neutral-300">Consolidar tudo e planejar próximos passos profissionais</p>
+      </div>
+
+      
+<div class="mb-16">
+  <h2 class="text-3xl font-bold mb-6">Conteúdo em Desenvolvimento</h2>
+  <div class="bg-operacional/10 dark:bg-operacional/20 p-8 rounded-xl">
+    <p class="text-lg mb-4">
+      Este módulo está sendo desenvolvido com conteúdo rico e detalhado.
+    </p>
+    <p class="text-neutral-700 dark:text-neutral-300 mb-4">
+      <strong>Objetivo:</strong> Consolidar tudo e planejar próximos passos profissionais
+    </p>
+    <p class="text-neutral-700 dark:text-neutral-300">
+      <strong>Entregável:</strong> Portfólio de Automações + Certificado
+    </p>
+  </div>
+</div>
+
+
+      <div class="mb-16">
+        <div class="bg-gradient-to-r from-operacional/20 to-blue-500/20 p-8 rounded-2xl">
+          <h2 class="text-3xl font-bold mb-6">🎉 Parabéns por Completar o Módulo 10!</h2>
+          <div class="bg-white dark:bg-neutral-800 p-6 rounded-xl mb-6">
+            <h4 class="font-bold mb-3">✅ Entregável deste módulo:</h4>
+            <p class="text-neutral-700 dark:text-neutral-300">Portfólio de Automações + Certificado</p>
+          </div>
+        </div>
+      </div>      <!-- Seção de Progresso -->
+      <div class="mb-8 bg-white dark:bg-neutral-800 rounded-2xl p-8 border-2 border-operacional/30">
+        <div class="text-center mb-6">
+          <h3 class="text-2xl font-bold mb-2">Você completou este módulo?</h3>
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Marque como concluído para acompanhar seu progresso na trilha
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center gap-4">
+          <button
+            id="btn-concluir-modulo"
+            data-trilha="operacional"
+            data-modulo="10"
+            class="px-10 py-4 bg-operacional text-white rounded-lg font-bold text-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
+            ✓ Marcar como Concluído
+          </button>
+
+          <div id="progresso-info" class="text-center">
+            <!-- Será preenchido pelo JavaScript -->
+          </div>
+        </div>
+
+        <div class="mt-6 pt-6 border-t border-neutral-200 dark:border-neutral-700">
+          <div class="flex items-center justify-center gap-2 text-sm text-neutral-600 dark:text-neutral-400">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+            <span>Seu progresso é salvo no navegador e persiste entre sessões</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="bg-gradient-to-r from-operacional to-blue-600 text-white rounded-2xl p-8">
+        <div class="flex justify-between items-center flex-wrap gap-4">
+          <a href="modulo-09.html" class="px-6 py-3 bg-white/20 hover:bg-white/30 rounded-lg font-semibold transition-all">
+            ← Módulo 9
+          </a>
+          <a href="../../trilhas/operacional.html" class="px-6 py-3 bg-white text-operacional rounded-lg font-semibold hover:bg-yellow-300 transition-all">Voltar à Trilha →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-neutral-900 dark:bg-black text-neutral-300 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+      <p>&copy; 2025 FETD - Formação em Engenharia de Intenção</p>
+    </div>
+  </footer>
+
+  <script src="../../js/app.js"></script>
+</body>
+</html>

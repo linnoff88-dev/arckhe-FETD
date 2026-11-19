@@ -1,0 +1,1658 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÓDULO 7: Documentação e Arquivos Automáticos</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 20px;
+        }
+        h4 {
+            color: #555;
+        }
+        code {
+            background-color: #ecf0f1;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #c7254e;
+        }
+        pre {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        pre code {
+            background-color: transparent;
+            color: #ecf0f1;
+            padding: 0;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            padding-left: 20px;
+            margin-left: 0;
+            color: #555;
+            font-style: italic;
+            background-color: #ecf0f1;
+            padding: 10px 20px;
+            border-radius: 0 5px 5px 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        ul, ol {
+            padding-left: 30px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: #2c3e50;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #ecf0f1;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MÓDULO 7: Documentação e Arquivos Automáticos</h1>
+<p><strong>Objetivo:</strong> Gerar documentos, relatórios e apresentações automaticamente</p>
+<hr />
+<h2>1. O Problema da Documentação Manual (E Como Ele Está Matando Sua Produtividade)</h2>
+<h3>A Verdade Dolorosa</h3>
+<p>Quantas horas você perdeu ESTA SEMANA:
+- Criando relatórios semanais/mensais com os mesmos formatos?
+- Copiando dados de uma planilha para um documento Word?
+- Ajustando formatação de apresentações?
+- Procurando aquele arquivo "versão_final_final_AGORA_VAI.docx"?</p>
+<p><strong>Estatística chocante:</strong> Profissionais gastam em média <strong>4-6 horas por semana</strong> apenas criando documentação repetitiva.</p>
+<p>São <strong>200-300 horas por ano</strong>. Quase <strong>2 MESES de trabalho</strong> fazendo coisas que poderiam ser automatizadas.</p>
+<h3>Os 3 Pecados Capitais da Documentação Manual</h3>
+<p><strong>1. Erro Humano</strong>
+- Copiar dado errado da planilha
+- Esquecer de atualizar um número
+- Trocar nome de cliente/projeto
+- Resultado: Apresentação com dados de outubro quando era para ser novembro</p>
+<p><strong>2. Falta de Padronização</strong>
+- Cada pessoa formata de um jeito
+- Logos em lugares diferentes
+- Fontes e tamanhos aleatórios
+- Resultado: Empresa parece amadora</p>
+<p><strong>3. Desperdício de Tempo</strong>
+- Fazer a mesma coisa toda semana/mês
+- "Ah, só vou copiar o documento do mês passado e alterar os números"
+- 40 minutos depois você ainda está ajustando formatação
+- Resultado: Tempo que poderia estar fazendo trabalho estratégico</p>
+<h3>O Que Vamos Resolver HOJE</h3>
+<p>Neste módulo você vai aprender:</p>
+<ol>
+<li><strong>Templates inteligentes</strong> que se preenchem sozinhos</li>
+<li><strong>IA para gerar documentos complexos</strong> em 30 segundos</li>
+<li><strong>Automação de relatórios</strong> 100% automáticos</li>
+<li><strong>Organização automática</strong> de arquivos no Drive</li>
+<li><strong>Versionamento</strong> que funciona (nunca mais "final_v8.docx")</li>
+</ol>
+<p><strong>Meta realista:</strong> Reduzir de 4-6h/semana para 30min-1h/semana em documentação.</p>
+<p>São <strong>3-5 horas economizadas por semana = Meio dia de trabalho!</strong></p>
+<hr />
+<h2>2. Templates Inteligentes (Copy, Paste, Repeat... NUNCA MAIS!)</h2>
+<h3>A Regra de Ouro dos Templates</h3>
+<p><strong>Se você criou o mesmo tipo de documento 3+ vezes, você PRECISA de um template.</strong></p>
+<p>Exemplos comuns:
+- Relatório semanal/mensal
+- Ata de reunião
+- Proposta comercial
+- Contrato padrão
+- Procedimento operacional
+- Apresentação de resultados</p>
+<h3>Google Docs com Variáveis (Tutorial Completo)</h3>
+<p><strong>Conceito:</strong> Criar documento modelo com "placeholders" que são substituídos automaticamente.</p>
+<p><strong>Exemplo:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="x">Relatório Semanal - </span><span class="cp">{{</span><span class="nv">SEMANA</span><span class="cp">}}</span>
+
+<span class="x">Cliente: </span><span class="cp">{{</span><span class="nv">NOME_CLIENTE</span><span class="cp">}}</span>
+<span class="x">Período: </span><span class="cp">{{</span><span class="nv">DATA_INICIO</span><span class="cp">}}</span><span class="x"> a </span><span class="cp">{{</span><span class="nv">DATA_FIM</span><span class="cp">}}</span>
+
+<span class="x">Resumo Executivo:</span>
+<span class="x">- Vendas: R$ </span><span class="cp">{{</span><span class="nv">VALOR_VENDAS</span><span class="cp">}}</span>
+<span class="x">- Meta: R$ </span><span class="cp">{{</span><span class="nv">VALOR_META</span><span class="cp">}}</span><span class="x"> (</span><span class="cp">{{</span><span class="nv">PERCENTUAL_META</span><span class="cp">}}</span><span class="x">%)</span>
+<span class="x">- Status: </span><span class="cp">{{</span><span class="nv">STATUS</span><span class="cp">}}</span>
+
+<span class="x">Observações:</span>
+<span class="cp">{{</span><span class="nv">OBSERVACOES</span><span class="cp">}}</span>
+</code></pre></div>
+
+<p><strong>Como funciona:</strong></p>
+<p><strong>Opção 1: Manual (rápido)</strong>
+1. Crie template com {{VARIÁVEIS}}
+2. Ctrl+H (Localizar e Substituir)
+3. Substitua {{VARIÁVEL}} pelo valor real
+4. Salve como novo documento</p>
+<p><strong>Opção 2: Apps Script (automático - melhor)</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">gerarRelatorio</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="c1">// 1. Abrir template</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">templateId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;ID_DO_SEU_TEMPLATE&quot;</span><span class="p">;</span><span class="w"> </span><span class="c1">// Copie da URL do template</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">template</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFileById</span><span class="p">(</span><span class="nx">templateId</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">copia</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">template</span><span class="p">.</span><span class="nx">makeCopy</span><span class="p">(</span><span class="s2">&quot;Relatório &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleDateString</span><span class="p">());</span>
+
+<span class="w">  </span><span class="c1">// 2. Abrir documento copiado</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">doc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">openById</span><span class="p">(</span><span class="nx">copia</span><span class="p">.</span><span class="nx">getId</span><span class="p">());</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">corpo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">doc</span><span class="p">.</span><span class="nx">getBody</span><span class="p">();</span>
+
+<span class="w">  </span><span class="c1">// 3. Buscar dados (pode ser de Sheets, por exemplo)</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">planilha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">SpreadsheetApp</span><span class="p">.</span><span class="nx">openById</span><span class="p">(</span><span class="s2">&quot;ID_DA_SUA_PLANILHA&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">dados</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">planilha</span><span class="p">.</span><span class="nx">getSheetByName</span><span class="p">(</span><span class="s2">&quot;Dados&quot;</span><span class="p">).</span><span class="nx">getRange</span><span class="p">(</span><span class="s2">&quot;A2:E2&quot;</span><span class="p">).</span><span class="nx">getValues</span><span class="p">()[</span><span class="mf">0</span><span class="p">];</span>
+
+<span class="w">  </span><span class="c1">// 4. Substituir variáveis</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{NOME_CLIENTE}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">0</span><span class="p">]);</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{VALOR_VENDAS}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;R$ &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">1</span><span class="p">].</span><span class="nx">toFixed</span><span class="p">(</span><span class="mf">2</span><span class="p">));</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{VALOR_META}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;R$ &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">2</span><span class="p">].</span><span class="nx">toFixed</span><span class="p">(</span><span class="mf">2</span><span class="p">));</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{PERCENTUAL_META}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">((</span><span class="nx">dados</span><span class="p">[</span><span class="mf">1</span><span class="p">]</span><span class="o">/</span><span class="nx">dados</span><span class="p">[</span><span class="mf">2</span><span class="p">])</span><span class="o">*</span><span class="mf">100</span><span class="p">).</span><span class="nx">toFixed</span><span class="p">(</span><span class="mf">0</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;%&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{STATUS}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">3</span><span class="p">]);</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{OBSERVACOES}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">4</span><span class="p">]);</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{SEMANA}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Semana &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">().</span><span class="nx">getWeek</span><span class="p">());</span>
+
+<span class="w">  </span><span class="c1">// 5. Salvar e fechar</span>
+<span class="w">  </span><span class="nx">doc</span><span class="p">.</span><span class="nx">saveAndClose</span><span class="p">();</span>
+
+<span class="w">  </span><span class="c1">// 6. Retornar link</span>
+<span class="w">  </span><span class="nx">Logger</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Relatório gerado: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">copia</span><span class="p">.</span><span class="nx">getUrl</span><span class="p">());</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><strong>Resultado:</strong> Aperta botão → Relatório pronto em 5 segundos.</p>
+<h3>10 Templates Operacionais Prontos para Usar</h3>
+<h4>1. Relatório Semanal</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">RELATÓRIO</span><span class="w"> </span><span class="s">SEMANAL</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">SEMANA</span><span class="w"> </span><span class="p">{{</span><span class="n">NUMERO_SEMANA</span><span class="p">}}</span><span class="o">/</span><span class="p">{{</span><span class="n">ANO</span><span class="p">}}</span>
+
+<span class="n">Cliente</span><span class="o">/</span><span class="n">Projeto</span><span class="p">:</span><span class="w"> </span><span class="p">{{</span><span class="n">NOME_PROJETO</span><span class="p">}}</span>
+<span class="n">Responsável</span><span class="p">:</span><span class="w"> </span><span class="p">{{</span><span class="n">NOME_RESPONSAVEL</span><span class="p">}}</span>
+<span class="n">Período</span><span class="p">:</span><span class="w"> </span><span class="p">{{</span><span class="n">DATA_INICIO</span><span class="p">}}</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="p">{{</span><span class="n">DATA_FIM</span><span class="p">}}</span>
+
+📊<span class="w"> </span><span class="n">NÚMEROS</span><span class="w"> </span><span class="n">DA</span><span class="w"> </span><span class="n">SEMANA</span>
+
+<span class="n">Entregas</span><span class="w"> </span><span class="s">Realizadas:</span><span class="w"> </span><span class="s">{{QTD_ENTREGAS}}</span>
+<span class="n">Tarefas</span><span class="w"> </span><span class="s">Concluídas:</span><span class="w"> </span><span class="s">{{QTD_TAREFAS_CONCLUIDAS}}</span>
+<span class="n">Tarefas</span><span class="w"> </span><span class="s">Pendentes:</span><span class="w"> </span><span class="s">{{QTD_TAREFAS_PENDENTES}}</span>
+<span class="c">% de Conclusão: {{PERCENTUAL_CONCLUSAO}}%</span>
+
+✅<span class="w"> </span><span class="n">PRINCIPAIS</span><span class="w"> </span><span class="n">REALIZAÇÕES</span>
+
+<span class="mf">1.</span><span class="w"> </span><span class="p">{{</span><span class="n">REALIZACAO_1</span><span class="p">}}</span>
+<span class="mf">2.</span><span class="w"> </span><span class="p">{{</span><span class="n">REALIZACAO_2</span><span class="p">}}</span>
+<span class="mf">3.</span><span class="w"> </span><span class="p">{{</span><span class="n">REALIZACAO_3</span><span class="p">}}</span>
+
+⚠️<span class="w"> </span><span class="n">BLOQUEIOS</span><span class="w"> </span><span class="n">E</span><span class="w"> </span><span class="n">DESAFIOS</span>
+
+<span class="p">{{</span><span class="n">BLOQUEIOS</span><span class="p">}}</span>
+
+📅<span class="w"> </span><span class="n">PRÓXIMOS</span><span class="w"> </span><span class="n">PASSOS</span>
+
+<span class="p">{{</span><span class="n">PROXIMOS_PASSOS</span><span class="p">}}</span>
+
+<span class="o">---</span>
+<span class="n">Gerado</span><span class="w"> </span><span class="s">automaticamente</span><span class="w"> </span><span class="s">em</span><span class="w"> </span><span class="s">{{DATA_GERACAO}}</span>
+</code></pre></div>
+
+<h4>2. Ata de Reunião</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">ATA DE REUNIÃO</span>
+
+<span class="x">Data: </span><span class="cp">{{</span><span class="nv">DATA_REUNIAO</span><span class="cp">}}</span>
+<span class="x">Horário: </span><span class="cp">{{</span><span class="nv">HORA_INICIO</span><span class="cp">}}</span><span class="x"> às </span><span class="cp">{{</span><span class="nv">HORA_FIM</span><span class="cp">}}</span>
+<span class="x">Local: </span><span class="cp">{{</span><span class="nv">LOCAL</span><span class="cp">}}</span>
+
+<span class="x">Participantes:</span>
+<span class="cp">{{</span><span class="nv">LISTA_PARTICIPANTES</span><span class="cp">}}</span>
+
+<span class="x">Pauta:</span>
+<span class="cp">{{</span><span class="nv">PAUTA</span><span class="cp">}}</span>
+
+<span class="x">Decisões Tomadas:</span>
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">DECISAO_1</span><span class="cp">}}</span>
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">DECISAO_2</span><span class="cp">}}</span>
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">DECISAO_3</span><span class="cp">}}</span>
+
+<span class="x">Ações e Responsáveis:</span>
+<span class="x">⏳ </span><span class="cp">{{</span><span class="nv">ACAO_1</span><span class="cp">}}</span><span class="x"> - Responsável: </span><span class="cp">{{</span><span class="nv">RESPONSAVEL_1</span><span class="cp">}}</span><span class="x"> - Prazo: </span><span class="cp">{{</span><span class="nv">PRAZO_1</span><span class="cp">}}</span>
+<span class="x">⏳ </span><span class="cp">{{</span><span class="nv">ACAO_2</span><span class="cp">}}</span><span class="x"> - Responsável: </span><span class="cp">{{</span><span class="nv">RESPONSAVEL_2</span><span class="cp">}}</span><span class="x"> - Prazo: </span><span class="cp">{{</span><span class="nv">PRAZO_2</span><span class="cp">}}</span>
+<span class="x">⏳ </span><span class="cp">{{</span><span class="nv">ACAO_3</span><span class="cp">}}</span><span class="x"> - Responsável: </span><span class="cp">{{</span><span class="nv">RESPONSAVEL_3</span><span class="cp">}}</span><span class="x"> - Prazo: </span><span class="cp">{{</span><span class="nv">PRAZO_3</span><span class="cp">}}</span>
+
+<span class="x">Próxima Reunião:</span>
+<span class="x">📅 </span><span class="cp">{{</span><span class="nv">DATA_PROXIMA_REUNIAO</span><span class="cp">}}</span>
+
+<span class="x">---</span>
+<span class="x">Ata gerada por: </span><span class="cp">{{</span><span class="nv">AUTOR</span><span class="cp">}}</span>
+</code></pre></div>
+
+<h4>3. Proposta Comercial</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">PROPOSTA COMERCIAL</span>
+
+<span class="x">Para: </span><span class="cp">{{</span><span class="nv">NOME_CLIENTE</span><span class="cp">}}</span>
+<span class="x">CNPJ: </span><span class="cp">{{</span><span class="nv">CNPJ_CLIENTE</span><span class="cp">}}</span>
+<span class="x">Contato: </span><span class="cp">{{</span><span class="nv">CONTATO_CLIENTE</span><span class="cp">}}</span>
+
+<span class="x">Válida até: </span><span class="cp">{{</span><span class="nv">DATA_VALIDADE</span><span class="cp">}}</span>
+
+<span class="x">Sobre Nós:</span>
+<span class="cp">{{</span><span class="nv">TEXTO_INSTITUCIONAL</span><span class="cp">}}</span>
+
+<span class="x">Escopo do Projeto:</span>
+<span class="cp">{{</span><span class="nv">DESCRICAO_ESCOPO</span><span class="cp">}}</span>
+
+<span class="x">Entregas:</span>
+<span class="x">✓ </span><span class="cp">{{</span><span class="nv">ENTREGA_1</span><span class="cp">}}</span>
+<span class="x">✓ </span><span class="cp">{{</span><span class="nv">ENTREGA_2</span><span class="cp">}}</span>
+<span class="x">✓ </span><span class="cp">{{</span><span class="nv">ENTREGA_3</span><span class="cp">}}</span>
+
+<span class="x">Prazo Total: </span><span class="cp">{{</span><span class="nv">PRAZO_TOTAL</span><span class="cp">}}</span>
+
+<span class="x">Investimento:</span>
+<span class="cp">{{</span><span class="nv">DESCRICAO_INVESTIMENTO</span><span class="cp">}}</span>
+<span class="x">Valor Total: R$ </span><span class="cp">{{</span><span class="nv">VALOR_TOTAL</span><span class="cp">}}</span>
+<span class="x">Condições de Pagamento: </span><span class="cp">{{</span><span class="nv">CONDICOES_PAGAMENTO</span><span class="cp">}}</span>
+
+<span class="x">Próximos Passos:</span>
+<span class="cp">{{</span><span class="nv">PROXIMOS_PASSOS</span><span class="cp">}}</span>
+
+<span class="x">Atenciosamente,</span>
+
+<span class="cp">{{</span><span class="nv">NOME_VENDEDOR</span><span class="cp">}}</span>
+<span class="cp">{{</span><span class="nv">CARGO_VENDEDOR</span><span class="cp">}}</span>
+<span class="cp">{{</span><span class="nv">CONTATO_VENDEDOR</span><span class="cp">}}</span>
+</code></pre></div>
+
+<h4>4. Contrato Padrão (Estrutura Base)</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">CONTRATO DE PRESTAÇÃO DE SERVIÇOS</span>
+
+<span class="x">CONTRATANTE:</span>
+<span class="x">Nome/Razão Social: </span><span class="cp">{{</span><span class="nv">NOME_CONTRATANTE</span><span class="cp">}}</span>
+<span class="x">CNPJ/CPF: </span><span class="cp">{{</span><span class="nv">DOC_CONTRATANTE</span><span class="cp">}}</span>
+<span class="x">Endereço: </span><span class="cp">{{</span><span class="nv">ENDERECO_CONTRATANTE</span><span class="cp">}}</span>
+
+<span class="x">CONTRATADA:</span>
+<span class="x">Nome/Razão Social: </span><span class="cp">{{</span><span class="nv">NOME_CONTRATADA</span><span class="cp">}}</span>
+<span class="x">CNPJ/CPF: </span><span class="cp">{{</span><span class="nv">DOC_CONTRATADA</span><span class="cp">}}</span>
+<span class="x">Endereço: </span><span class="cp">{{</span><span class="nv">ENDERECO_CONTRATADA</span><span class="cp">}}</span>
+
+<span class="x">DO OBJETO:</span>
+<span class="cp">{{</span><span class="nv">DESCRICAO_OBJETO</span><span class="cp">}}</span>
+
+<span class="x">DO PRAZO:</span>
+<span class="x">Início: </span><span class="cp">{{</span><span class="nv">DATA_INICIO</span><span class="cp">}}</span>
+<span class="x">Término: </span><span class="cp">{{</span><span class="nv">DATA_TERMINO</span><span class="cp">}}</span>
+
+<span class="x">DO VALOR E PAGAMENTO:</span>
+<span class="x">Valor Total: R$ </span><span class="cp">{{</span><span class="nv">VALOR_TOTAL</span><span class="cp">}}</span>
+<span class="x">Forma de Pagamento: </span><span class="cp">{{</span><span class="nv">FORMA_PAGAMENTO</span><span class="cp">}}</span>
+
+<span class="x">DAS OBRIGAÇÕES:</span>
+<span class="cp">{{</span><span class="nv">OBRIGACOES</span><span class="cp">}}</span>
+
+<span class="x">DAS PENALIDADES:</span>
+<span class="cp">{{</span><span class="nv">PENALIDADES</span><span class="cp">}}</span>
+
+<span class="x">Local e Data: </span><span class="cp">{{</span><span class="nv">CIDADE</span><span class="cp">}}</span><span class="x">, </span><span class="cp">{{</span><span class="nv">DATA_ASSINATURA</span><span class="cp">}}</span>
+
+<span class="x">________________________</span>
+<span class="cp">{{</span><span class="nv">NOME_CONTRATANTE</span><span class="cp">}}</span>
+
+<span class="x">________________________</span>
+<span class="cp">{{</span><span class="nv">NOME_CONTRATADA</span><span class="cp">}}</span>
+</code></pre></div>
+
+<h4>5. Checklist de Processo</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">CHECKLIST - </span><span class="cp">{{</span><span class="nv">NOME_PROCESSO</span><span class="cp">}}</span>
+
+<span class="x">Responsável: </span><span class="cp">{{</span><span class="nv">RESPONSAVEL</span><span class="cp">}}</span>
+<span class="x">Data: </span><span class="cp">{{</span><span class="nv">DATA</span><span class="cp">}}</span>
+
+<span class="x">ETAPA 1: </span><span class="cp">{{</span><span class="nv">NOME_ETAPA_1</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_1_1</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_1_2</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_1_3</span><span class="cp">}}</span>
+
+<span class="x">ETAPA 2: </span><span class="cp">{{</span><span class="nv">NOME_ETAPA_2</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_2_1</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_2_2</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_2_3</span><span class="cp">}}</span>
+
+<span class="x">ETAPA 3: </span><span class="cp">{{</span><span class="nv">NOME_ETAPA_3</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_3_1</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_3_2</span><span class="cp">}}</span>
+<span class="x">☐ </span><span class="cp">{{</span><span class="nv">ITEM_3_3</span><span class="cp">}}</span>
+
+<span class="x">OBSERVAÇÕES:</span>
+<span class="cp">{{</span><span class="nv">OBSERVACOES</span><span class="cp">}}</span>
+
+<span class="x">APROVAÇÃO:</span>
+<span class="x">☐ Processo concluído</span>
+<span class="x">Data de conclusão: ___/___/___</span>
+<span class="x">Responsável: _______________</span>
+</code></pre></div>
+
+<h4>6. Procedimento Operacional Padrão (POP)</h4>
+<div class="codehilite"><pre><span></span><code><span class="k">PROC</span><span class="nv">EDIMENTO</span><span class="w"> </span><span class="nv">OPERACIONAL</span><span class="w"> </span><span class="nv">PADRÃO</span>
+
+<span class="nl">Código:</span><span class="w"> </span><span class="err">{{</span><span class="nf">CODIGO_POP</span><span class="err">}}</span>
+<span class="nl">Versão:</span><span class="w"> </span><span class="err">{{</span><span class="nf">VERSAO</span><span class="err">}}</span>
+<span class="nf">Data</span><span class="w"> </span><span class="nv">de</span><span class="w"> </span><span class="nv">criação</span><span class="p">:</span><span class="w"> </span><span class="err">{{</span><span class="nv">DATA_CRIACAO</span><span class="err">}}</span>
+<span class="err">Ú</span><span class="nf">ltima</span><span class="w"> </span><span class="nv">revisão</span><span class="p">:</span><span class="w"> </span><span class="err">{{</span><span class="nv">DATA_REVISAO</span><span class="err">}}</span>
+
+<span class="nl">Título:</span><span class="w"> </span><span class="err">{{</span><span class="nf">TITULO_POP</span><span class="err">}}</span>
+
+<span class="err">1</span><span class="nf">.</span><span class="w"> </span><span class="nv">OBJETIVO</span>
+<span class="err">{{</span><span class="nf">OBJETIVO</span><span class="err">}}</span>
+
+<span class="err">2</span><span class="nf">.</span><span class="w"> </span><span class="nv">APLICAÇÃO</span>
+<span class="err">{{</span><span class="nf">APLICACAO</span><span class="err">}}</span>
+
+<span class="err">3</span><span class="nf">.</span><span class="w"> </span><span class="nv">RESPONSABILIDADES</span>
+<span class="err">{{</span><span class="nf">RESPONSABILIDADES</span><span class="err">}}</span>
+
+<span class="err">4</span><span class="nf">.</span><span class="w"> </span><span class="nv">PROCEDIMENTO</span>
+
+<span class="err">4</span><span class="nf">.1.</span><span class="w"> </span><span class="err">{{</span><span class="nv">PASSO_1_TITULO</span><span class="err">}}</span>
+<span class="err">{{</span><span class="nf">PASSO_1_DESCRICAO</span><span class="err">}}</span>
+
+<span class="err">4</span><span class="nf">.2.</span><span class="w"> </span><span class="err">{{</span><span class="nv">PASSO_2_TITULO</span><span class="err">}}</span>
+<span class="err">{{</span><span class="nf">PASSO_2_DESCRICAO</span><span class="err">}}</span>
+
+<span class="err">4</span><span class="nf">.3.</span><span class="w"> </span><span class="err">{{</span><span class="nv">PASSO_3_TITULO</span><span class="err">}}</span>
+<span class="err">{{</span><span class="nf">PASSO_3_DESCRICAO</span><span class="err">}}</span>
+
+<span class="err">5</span><span class="nf">.</span><span class="w"> </span><span class="nv">DOCUMENTOS</span><span class="w"> </span><span class="nv">DE</span><span class="w"> </span><span class="nv">REFERÊNCIA</span>
+<span class="err">{{</span><span class="nf">DOCUMENTOS_REFERENCIA</span><span class="err">}}</span>
+
+<span class="err">6</span><span class="nf">.</span><span class="w"> </span><span class="nv">REGISTROS</span>
+<span class="err">{{</span><span class="nf">REGISTROS</span><span class="err">}}</span>
+
+<span class="nf">Elaborado</span><span class="w"> </span><span class="nv">por</span><span class="p">:</span><span class="w"> </span><span class="err">{{</span><span class="nv">ELABORADOR</span><span class="err">}}</span>
+<span class="nf">Aprovado</span><span class="w"> </span><span class="nv">por</span><span class="p">:</span><span class="w"> </span><span class="err">{{</span><span class="nv">APROVADOR</span><span class="err">}}</span>
+</code></pre></div>
+
+<h4>7. Apresentação de Resultados</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">APRESENTAÇÃO DE RESULTADOS - </span><span class="cp">{{</span><span class="nv">PERIODO</span><span class="cp">}}</span>
+
+<span class="cp">{{</span><span class="nv">LOGO_EMPRESA</span><span class="cp">}}</span>
+
+<span class="x">Indicadores Principais:</span>
+
+<span class="x">📈 Receita: R$ </span><span class="cp">{{</span><span class="nv">RECEITA</span><span class="cp">}}</span><span class="x"> (</span><span class="cp">{{</span><span class="nv">VAR_RECEITA</span><span class="cp">}}</span><span class="x">% vs. mês anterior)</span>
+<span class="x">🎯 Meta: R$ </span><span class="cp">{{</span><span class="nv">META</span><span class="cp">}}</span><span class="x"> (</span><span class="cp">{{</span><span class="nv">PERC_META</span><span class="cp">}}</span><span class="x">% atingido)</span>
+<span class="x">👥 Novos Clientes: </span><span class="cp">{{</span><span class="nv">NOVOS_CLIENTES</span><span class="cp">}}</span>
+<span class="x">💰 Ticket Médio: R$ </span><span class="cp">{{</span><span class="nv">TICKET_MEDIO</span><span class="cp">}}</span>
+
+<span class="x">Destaques do Período:</span>
+
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">DESTAQUE_1</span><span class="cp">}}</span>
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">DESTAQUE_2</span><span class="cp">}}</span>
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">DESTAQUE_3</span><span class="cp">}}</span>
+
+<span class="x">Desafios:</span>
+
+<span class="x">⚠️ </span><span class="cp">{{</span><span class="nv">DESAFIO_1</span><span class="cp">}}</span>
+<span class="x">⚠️ </span><span class="cp">{{</span><span class="nv">DESAFIO_2</span><span class="cp">}}</span>
+
+<span class="x">Plano de Ação:</span>
+
+<span class="x">→ </span><span class="cp">{{</span><span class="nv">ACAO_1</span><span class="cp">}}</span>
+<span class="x">→ </span><span class="cp">{{</span><span class="nv">ACAO_2</span><span class="cp">}}</span>
+<span class="x">→ </span><span class="cp">{{</span><span class="nv">ACAO_3</span><span class="cp">}}</span>
+
+<span class="x">Projeção para </span><span class="cp">{{</span><span class="nv">PROXIMO_PERIODO</span><span class="cp">}}</span><span class="x">:</span>
+<span class="cp">{{</span><span class="nv">PROJECAO</span><span class="cp">}}</span>
+</code></pre></div>
+
+<h4>8. Email Formal de Envio</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">Assunto: </span><span class="cp">{{</span><span class="nv">ASSUNTO</span><span class="cp">}}</span>
+
+<span class="x">Prezado(a) </span><span class="cp">{{</span><span class="nv">NOME_DESTINATARIO</span><span class="cp">}}</span><span class="x">,</span>
+
+<span class="cp">{{</span><span class="nv">SAUDACAO_PERSONALIZADA</span><span class="cp">}}</span>
+
+<span class="cp">{{</span><span class="nv">CONTEXTO</span><span class="cp">}}</span>
+
+<span class="x">Segue em anexo:</span>
+<span class="x">- </span><span class="cp">{{</span><span class="nv">DOCUMENTO_1</span><span class="cp">}}</span>
+<span class="x">- </span><span class="cp">{{</span><span class="nv">DOCUMENTO_2</span><span class="cp">}}</span>
+<span class="x">- </span><span class="cp">{{</span><span class="nv">DOCUMENTO_3</span><span class="cp">}}</span>
+
+<span class="cp">{{</span><span class="nv">CALL_TO_ACTION</span><span class="cp">}}</span>
+
+<span class="x">Prazo: </span><span class="cp">{{</span><span class="nv">PRAZO</span><span class="cp">}}</span>
+
+<span class="x">Qualquer dúvida, estou à disposição.</span>
+
+<span class="x">Atenciosamente,</span>
+
+<span class="cp">{{</span><span class="nv">NOME_REMETENTE</span><span class="cp">}}</span>
+<span class="cp">{{</span><span class="nv">CARGO_REMETENTE</span><span class="cp">}}</span>
+<span class="cp">{{</span><span class="nv">TELEFONE_REMETENTE</span><span class="cp">}}</span>
+<span class="cp">{{</span><span class="nv">EMAIL_REMETENTE</span><span class="cp">}}</span>
+</code></pre></div>
+
+<h4>9. Relatório de Incidente</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">RELATÓRIO DE INCIDENTE</span>
+
+<span class="x">ID: </span><span class="cp">{{</span><span class="nv">ID_INCIDENTE</span><span class="cp">}}</span>
+<span class="x">Data/Hora: </span><span class="cp">{{</span><span class="nv">DATA_HORA_INCIDENTE</span><span class="cp">}}</span>
+<span class="x">Reportado por: </span><span class="cp">{{</span><span class="nv">REPORTADOR</span><span class="cp">}}</span>
+
+<span class="x">DESCRIÇÃO DO INCIDENTE:</span>
+<span class="cp">{{</span><span class="nv">DESCRICAO</span><span class="cp">}}</span>
+
+<span class="x">IMPACTO:</span>
+<span class="x">Severidade: </span><span class="cp">{{</span><span class="nv">SEVERIDADE</span><span class="cp">}}</span><span class="x"> (Crítico/Alto/Médio/Baixo)</span>
+<span class="x">Sistemas Afetados: </span><span class="cp">{{</span><span class="nv">SISTEMAS_AFETADOS</span><span class="cp">}}</span>
+<span class="x">Usuários Impactados: </span><span class="cp">{{</span><span class="nv">USUARIOS_IMPACTADOS</span><span class="cp">}}</span>
+
+<span class="x">CAUSA RAIZ:</span>
+<span class="cp">{{</span><span class="nv">CAUSA_RAIZ</span><span class="cp">}}</span>
+
+<span class="x">AÇÕES IMEDIATAS:</span>
+<span class="cp">{{</span><span class="nv">ACOES_IMEDIATAS</span><span class="cp">}}</span>
+
+<span class="x">RESOLUÇÃO:</span>
+<span class="cp">{{</span><span class="nv">RESOLUCAO</span><span class="cp">}}</span>
+<span class="x">Data/Hora de Resolução: </span><span class="cp">{{</span><span class="nv">DATA_HORA_RESOLUCAO</span><span class="cp">}}</span>
+
+<span class="x">AÇÕES PREVENTIVAS:</span>
+<span class="cp">{{</span><span class="nv">ACOES_PREVENTIVAS</span><span class="cp">}}</span>
+
+<span class="x">Responsável pela Análise: </span><span class="cp">{{</span><span class="nv">RESPONSAVEL_ANALISE</span><span class="cp">}}</span>
+</code></pre></div>
+
+<h4>10. Feedback de Desempenho</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">FEEDBACK DE DESEMPENHO</span>
+
+<span class="x">Colaborador: </span><span class="cp">{{</span><span class="nv">NOME_COLABORADOR</span><span class="cp">}}</span>
+<span class="x">Cargo: </span><span class="cp">{{</span><span class="nv">CARGO</span><span class="cp">}}</span>
+<span class="x">Período Avaliado: </span><span class="cp">{{</span><span class="nv">PERIODO</span><span class="cp">}}</span>
+<span class="x">Avaliador: </span><span class="cp">{{</span><span class="nv">NOME_AVALIADOR</span><span class="cp">}}</span>
+<span class="x">Data: </span><span class="cp">{{</span><span class="nv">DATA_AVALIACAO</span><span class="cp">}}</span>
+
+<span class="x">PONTOS FORTES:</span>
+
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">PONTO_FORTE_1</span><span class="cp">}}</span>
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">PONTO_FORTE_2</span><span class="cp">}}</span>
+<span class="x">✅ </span><span class="cp">{{</span><span class="nv">PONTO_FORTE_3</span><span class="cp">}}</span>
+
+<span class="x">ÁREAS DE MELHORIA:</span>
+
+<span class="x">📍 </span><span class="cp">{{</span><span class="nv">AREA_MELHORIA_1</span><span class="cp">}}</span>
+<span class="x">   Sugestão: </span><span class="cp">{{</span><span class="nv">SUGESTAO_1</span><span class="cp">}}</span>
+
+<span class="x">📍 </span><span class="cp">{{</span><span class="nv">AREA_MELHORIA_2</span><span class="cp">}}</span>
+<span class="x">   Sugestão: </span><span class="cp">{{</span><span class="nv">SUGESTAO_2</span><span class="cp">}}</span>
+
+<span class="x">METAS PARA PRÓXIMO PERÍODO:</span>
+
+<span class="x">🎯 </span><span class="cp">{{</span><span class="nv">META_1</span><span class="cp">}}</span>
+<span class="x">🎯 </span><span class="cp">{{</span><span class="nv">META_2</span><span class="cp">}}</span>
+<span class="x">🎯 </span><span class="cp">{{</span><span class="nv">META_3</span><span class="cp">}}</span>
+
+<span class="x">PLANO DE DESENVOLVIMENTO:</span>
+<span class="cp">{{</span><span class="nv">PLANO_DESENVOLVIMENTO</span><span class="cp">}}</span>
+
+<span class="x">Próximo Feedback: </span><span class="cp">{{</span><span class="nv">DATA_PROXIMO_FEEDBACK</span><span class="cp">}}</span>
+
+<span class="x">________________________</span>
+<span class="x">Assinatura do Avaliador</span>
+
+<span class="x">________________________</span>
+<span class="x">Assinatura do Colaborador</span>
+</code></pre></div>
+
+<h3>Como Criar Seus Próprios Templates</h3>
+<p><strong>Passo 1: Identifique documentos repetitivos</strong> (1 semana observando)
+- Quais documentos você cria mais de 1x por mês?
+- Anote modelo e frequência</p>
+<p><strong>Passo 2: Extraia estrutura comum</strong> (30min por template)
+- Abra 3-5 versões antigas do mesmo tipo de documento
+- Destaque o que SEMPRE repete
+- Destaque o que VARIA (serão suas variáveis)</p>
+<p><strong>Passo 3: Crie template genérico</strong> (20min)
+- Google Docs novo
+- Cole estrutura comum
+- Substitua partes variáveis por {{NOME_VARIAVEL}}
+- Use nomes descritivos: {{VALOR_TOTAL}} não {{X}}</p>
+<p><strong>Passo 4: Teste</strong> (10min)
+- Faça uma cópia
+- Preencha variáveis manualmente (Ctrl+H)
+- Veja se ficou bom
+- Ajuste formatação</p>
+<p><strong>Passo 5: Automatize (opcional mas recomendado)</strong> (1-2h - uma vez só)
+- Use Apps Script (código acima)
+- Conecte com Google Sheets (dados ficam lá)
+- Crie botão "Gerar Documento"</p>
+<hr />
+<h2>3. IA para Gerar Documentos (Seu Escritor Profissional 24/7)</h2>
+<h3>O Poder da IA para Documentação</h3>
+<p><strong>Cenário real:</strong> Você precisa criar manual de procedimento de 10 páginas para novo processo.</p>
+<p><strong>Antigamente:</strong>
+- 4-6 horas escrevendo
+- Mais 2 horas formatando
+- Mais 1 hora revisando
+- Total: <strong>7-9 horas</strong></p>
+<p><strong>Com IA:</strong>
+- 5 minutos descrevendo processo para IA
+- 30 segundos gerando documento
+- 20 minutos revisando e ajustando
+- Total: <strong>25-30 minutos</strong></p>
+<p><strong>Economia: 6-8 horas</strong> (quase 1 dia de trabalho!).</p>
+<h3>Estrutura de Prompt para Documentos</h3>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">documento</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="n">Relatório</span><span class="o">/</span><span class="n">Manual</span><span class="o">/</span><span class="n">Procedimento</span><span class="o">/</span><span class="n">Apresentação</span><span class="o">/</span><span class="n">etc</span><span class="p">]</span>
+<span class="n">Público</span><span class="o">-</span><span class="n">alvo</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="n">Quem</span><span class="w"> </span><span class="n">vai</span><span class="w"> </span><span class="n">ler</span><span class="o">?</span><span class="w"> </span><span class="n">Técnico</span><span class="o">?</span><span class="w"> </span><span class="n">Executivo</span><span class="o">?</span><span class="w"> </span><span class="n">Cliente</span><span class="o">?</span><span class="p">]</span>
+<span class="nl">Objetivo</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="n">Informar</span><span class="o">/</span><span class="n">Convencer</span><span class="o">/</span><span class="n">Instruir</span><span class="o">/</span><span class="n">Documentar</span><span class="p">]</span>
+<span class="nl">Tom</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="n">Formal</span><span class="o">/</span><span class="n">Técnico</span><span class="o">/</span><span class="n">Acessível</span><span class="o">/</span><span class="n">Persuasivo</span><span class="p">]</span>
+<span class="nl">Tamanho</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="n">Número</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">páginas</span><span class="w"> </span><span class="n">ou</span><span class="w"> </span><span class="n">palavras</span><span class="p">]</span>
+<span class="n">Estrutura</span><span class="w"> </span><span class="n">desejada</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="n">Tópicos</span><span class="w"> </span><span class="n">principais</span><span class="p">]</span>
+<span class="n">Informações</span><span class="o">-</span><span class="n">chave</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="n">Dados</span><span class="w"> </span><span class="n">específicos</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">incluir</span><span class="p">]</span>
+<span class="n">Formato</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">saída</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="n">Markdown</span><span class="o">/</span><span class="n">Google</span><span class="w"> </span><span class="n">Docs</span><span class="o">/</span><span class="n">Lista</span><span class="o">/</span><span class="n">Prosa</span><span class="p">]</span>
+</code></pre></div>
+
+<h3>10 Prompts para Diferentes Tipos de Documentos</h3>
+<h4>1. Relatório Executivo</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Relatório</span><span class="w"> </span><span class="n">Executivo</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Diretoria</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Apresentar</span><span class="w"> </span><span class="n">resultados</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">trimestre</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">solicitar</span><span class="w"> </span><span class="n">aprovação</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">budget</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Formal</span><span class="o">,</span><span class="w"> </span><span class="n">objetivo</span><span class="o">,</span><span class="w"> </span><span class="n">baseado</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="n">dados</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">2</span><span class="o">-</span><span class="mi">3</span><span class="w"> </span><span class="n">páginas</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="mi">1</span><span class="o">.</span><span class="w"> </span><span class="n">Resumo</span><span class="w"> </span><span class="n">Executivo</span><span class="w"> </span><span class="o">(</span><span class="mi">5</span><span class="w"> </span><span class="n">linhas</span><span class="o">)</span>
+<span class="mi">2</span><span class="o">.</span><span class="w"> </span><span class="n">Principais</span><span class="w"> </span><span class="n">Métricas</span><span class="w"> </span><span class="o">(</span><span class="n">bullet</span><span class="w"> </span><span class="n">points</span><span class="w"> </span><span class="n">com</span><span class="w"> </span><span class="n">números</span><span class="o">)</span>
+<span class="mi">3</span><span class="o">.</span><span class="w"> </span><span class="n">Destaques</span><span class="w"> </span><span class="n">Positivos</span>
+<span class="mi">4</span><span class="o">.</span><span class="w"> </span><span class="n">Desafios</span><span class="w"> </span><span class="n">Enfrentados</span>
+<span class="mi">5</span><span class="o">.</span><span class="w"> </span><span class="n">Solicitação</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Budget</span><span class="w"> </span><span class="o">(</span><span class="n">R$</span><span class="w"> </span><span class="mf">50.000</span><span class="w"> </span><span class="n">para</span><span class="w"> </span><span class="n">expansão</span><span class="o">)</span>
+<span class="mi">6</span><span class="o">.</span><span class="w"> </span><span class="n">Próximos</span><span class="w"> </span><span class="n">Passos</span>
+
+<span class="n">Informações</span><span class="o">:</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Receita</span><span class="w"> </span><span class="n">trimestre</span><span class="o">:</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mf">1.2</span><span class="n">M</span><span class="w"> </span><span class="o">(+</span><span class="mi">15</span><span class="o">%</span><span class="w"> </span><span class="n">vs</span><span class="w"> </span><span class="n">trim</span><span class="w"> </span><span class="n">anterior</span><span class="o">)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Novos</span><span class="w"> </span><span class="n">clientes</span><span class="o">:</span><span class="w"> </span><span class="mi">23</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Churn</span><span class="o">:</span><span class="w"> </span><span class="mi">3</span><span class="o">%</span>
+<span class="o">-</span><span class="w"> </span><span class="n">NPS</span><span class="o">:</span><span class="w"> </span><span class="mi">78</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Budget</span><span class="w"> </span><span class="n">solicitado</span><span class="w"> </span><span class="n">para</span><span class="o">:</span><span class="w"> </span><span class="n">contratar</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="n">vendedores</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">campanha</span><span class="w"> </span><span class="n">marketing</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">o</span><span class="w"> </span><span class="n">relatório</span><span class="w"> </span><span class="n">completo</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="n">português</span><span class="o">,</span><span class="w"> </span><span class="n">pronto</span><span class="w"> </span><span class="n">para</span><span class="w"> </span><span class="n">apresentar</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>2. Manual de Processo</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Manual</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Procedimento</span><span class="w"> </span><span class="n">Operacional</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Equipe</span><span class="w"> </span><span class="n">operacional</span><span class="w"> </span><span class="o">(</span><span class="n">nível</span><span class="w"> </span><span class="n">técnico</span><span class="w"> </span><span class="n">médio</span><span class="o">)</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Instruir</span><span class="w"> </span><span class="n">passo</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">passo</span><span class="w"> </span><span class="n">como</span><span class="w"> </span><span class="n">realizar</span><span class="w"> </span><span class="n">processo</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">onboarding</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">cliente</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Claro</span><span class="o">,</span><span class="w"> </span><span class="n">didático</span><span class="o">,</span><span class="w"> </span><span class="n">objetivo</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">4</span><span class="o">-</span><span class="mi">5</span><span class="w"> </span><span class="n">páginas</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="mi">1</span><span class="o">.</span><span class="w"> </span><span class="n">Objetivo</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">Procedimento</span>
+<span class="mi">2</span><span class="o">.</span><span class="w"> </span><span class="n">Pré</span><span class="o">-</span><span class="n">requisitos</span>
+<span class="mi">3</span><span class="o">.</span><span class="w"> </span><span class="n">Materiais</span><span class="w"> </span><span class="n">Necessários</span>
+<span class="mi">4</span><span class="o">.</span><span class="w"> </span><span class="n">Passo</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">Passo</span><span class="w"> </span><span class="n">Detalhado</span><span class="w"> </span><span class="o">(</span><span class="n">mínimo</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="n">passos</span><span class="o">)</span>
+<span class="mi">5</span><span class="o">.</span><span class="w"> </span><span class="n">Pontos</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Atenção</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">Cuidados</span>
+<span class="mi">6</span><span class="o">.</span><span class="w"> </span><span class="n">O</span><span class="w"> </span><span class="n">Que</span><span class="w"> </span><span class="n">Fazer</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="n">Caso</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Erro</span>
+<span class="mi">7</span><span class="o">.</span><span class="w"> </span><span class="n">Checklist</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Validação</span>
+
+<span class="n">Contexto</span><span class="o">:</span>
+<span class="n">Onboarding</span><span class="w"> </span><span class="n">inclui</span><span class="o">:</span><span class="w"> </span><span class="n">criação</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">conta</span><span class="o">,</span><span class="w"> </span><span class="n">envio</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">documentos</span><span class="o">,</span><span class="w"> </span><span class="n">configuração</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">acesso</span><span class="o">,</span><span class="w"> </span><span class="n">treinamento</span><span class="w"> </span><span class="n">inicial</span><span class="o">.</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">manual</span><span class="w"> </span><span class="n">completo</span><span class="o">,</span><span class="w"> </span><span class="n">detalhado</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">prático</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>3. Procedimento Operacional Padrão (POP)</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Procedimento</span><span class="w"> </span><span class="n">Operacional</span><span class="w"> </span><span class="n">Padrão</span><span class="w"> </span><span class="o">(</span><span class="n">POP</span><span class="o">)</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Operadores</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">produção</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Padronizar</span><span class="w"> </span><span class="n">processo</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">controle</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">qualidade</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Técnico</span><span class="o">,</span><span class="w"> </span><span class="n">normativo</span><span class="o">,</span><span class="w"> </span><span class="n">preciso</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="n">páginas</span>
+<span class="n">Estrutura</span><span class="w"> </span><span class="o">(</span><span class="n">formato</span><span class="w"> </span><span class="n">POP</span><span class="w"> </span><span class="n">oficial</span><span class="o">):</span>
+<span class="mi">1</span><span class="o">.</span><span class="w"> </span><span class="n">Objetivo</span>
+<span class="mi">2</span><span class="o">.</span><span class="w"> </span><span class="n">Aplicação</span>
+<span class="mi">3</span><span class="o">.</span><span class="w"> </span><span class="n">Documentos</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Referência</span>
+<span class="mi">4</span><span class="o">.</span><span class="w"> </span><span class="n">Definições</span>
+<span class="mi">5</span><span class="o">.</span><span class="w"> </span><span class="n">Responsabilidades</span>
+<span class="mi">6</span><span class="o">.</span><span class="w"> </span><span class="n">Procedimento</span><span class="w"> </span><span class="o">(</span><span class="n">descritivo</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">fluxograma</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="n">texto</span><span class="o">)</span>
+<span class="mi">7</span><span class="o">.</span><span class="w"> </span><span class="n">Registros</span>
+<span class="mi">8</span><span class="o">.</span><span class="w"> </span><span class="n">Anexos</span>
+
+<span class="n">Processo</span><span class="o">:</span><span class="w"> </span><span class="n">Inspeção</span><span class="w"> </span><span class="n">visual</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">peças</span><span class="w"> </span><span class="n">metálicas</span><span class="w"> </span><span class="o">(</span><span class="mi">3</span><span class="w"> </span><span class="n">pontos</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">verificação</span><span class="o">:</span><span class="w"> </span><span class="n">dimensão</span><span class="o">,</span><span class="w"> </span><span class="n">acabamento</span><span class="o">,</span><span class="w"> </span><span class="n">marcação</span><span class="o">)</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">POP</span><span class="w"> </span><span class="n">profissional</span><span class="w"> </span><span class="n">seguindo</span><span class="w"> </span><span class="n">normas</span><span class="w"> </span><span class="n">ISO</span><span class="w"> </span><span class="n">se</span><span class="w"> </span><span class="n">possível</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>4. Análise de Dados</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Análise</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Dados</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Gerência</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Analisar</span><span class="w"> </span><span class="n">queda</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="mi">12</span><span class="o">%</span><span class="w"> </span><span class="n">nas</span><span class="w"> </span><span class="n">vendas</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">outubro</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">propor</span><span class="w"> </span><span class="n">ações</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Analítico</span><span class="o">,</span><span class="w"> </span><span class="n">propositivo</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="n">páginas</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="mi">1</span><span class="o">.</span><span class="w"> </span><span class="n">Contexto</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">Problema</span>
+<span class="mi">2</span><span class="o">.</span><span class="w"> </span><span class="n">Dados</span><span class="w"> </span><span class="n">Analisados</span><span class="w"> </span><span class="o">(</span><span class="n">apresentar</span><span class="w"> </span><span class="n">números</span><span class="o">)</span>
+<span class="mi">3</span><span class="o">.</span><span class="w"> </span><span class="n">Principais</span><span class="w"> </span><span class="n">Hipóteses</span><span class="w"> </span><span class="o">(</span><span class="n">mínimo</span><span class="w"> </span><span class="mi">4</span><span class="o">)</span>
+<span class="mi">4</span><span class="o">.</span><span class="w"> </span><span class="n">Análise</span><span class="w"> </span><span class="n">Detalhada</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Cada</span><span class="w"> </span><span class="n">Hipótese</span>
+<span class="mi">5</span><span class="o">.</span><span class="w"> </span><span class="n">Conclusões</span>
+<span class="mi">6</span><span class="o">.</span><span class="w"> </span><span class="n">Recomendações</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Ação</span><span class="w"> </span><span class="o">(</span><span class="n">pelo</span><span class="w"> </span><span class="n">menos</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="n">ações</span><span class="w"> </span><span class="n">concretas</span><span class="o">)</span>
+
+<span class="n">Dados</span><span class="o">:</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Vendas</span><span class="w"> </span><span class="kd">set</span><span class="o">:</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mi">450</span><span class="n">k</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Vendas</span><span class="w"> </span><span class="n">out</span><span class="o">:</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mi">396</span><span class="n">k</span><span class="w"> </span><span class="o">(-</span><span class="mi">12</span><span class="o">%)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Tráfego</span><span class="w"> </span><span class="n">site</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mi">5</span><span class="o">%</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Taxa</span><span class="w"> </span><span class="n">conversão</span><span class="o">:</span><span class="w"> </span><span class="o">-</span><span class="mi">8</span><span class="o">%</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Ticket</span><span class="w"> </span><span class="n">médio</span><span class="o">:</span><span class="w"> </span><span class="o">+</span><span class="mi">2</span><span class="o">%</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Principais</span><span class="w"> </span><span class="n">produtos</span><span class="w"> </span><span class="n">afetados</span><span class="o">:</span><span class="w"> </span><span class="n">Categoria</span><span class="w"> </span><span class="n">Premium</span><span class="w"> </span><span class="o">(-</span><span class="mi">25</span><span class="o">%)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Categoria</span><span class="w"> </span><span class="n">Econômica</span><span class="w"> </span><span class="n">cresceu</span><span class="w"> </span><span class="o">+</span><span class="mi">5</span><span class="o">%</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">análise</span><span class="w"> </span><span class="n">profissional</span><span class="w"> </span><span class="n">com</span><span class="w"> </span><span class="n">insights</span><span class="w"> </span><span class="n">acionáveis</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>5. Apresentação de Resultados</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Apresentação</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="n">Slides</span><span class="w"> </span><span class="o">(</span><span class="n">roteiro</span><span class="o">)</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Time</span><span class="w"> </span><span class="n">comercial</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Motivar</span><span class="w"> </span><span class="n">equipe</span><span class="w"> </span><span class="n">mostrando</span><span class="w"> </span><span class="n">resultados</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">lançar</span><span class="w"> </span><span class="n">desafio</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">próximo</span><span class="w"> </span><span class="n">mês</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Inspirador</span><span class="o">,</span><span class="w"> </span><span class="n">energético</span><span class="o">,</span><span class="w"> </span><span class="n">celebratório</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">10</span><span class="o">-</span><span class="mi">12</span><span class="w"> </span><span class="n">slides</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="n">Slide</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span><span class="w"> </span><span class="n">Título</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">Frase</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Impacto</span>
+<span class="n">Slides</span><span class="w"> </span><span class="mi">2</span><span class="o">-</span><span class="mi">3</span><span class="o">:</span><span class="w"> </span><span class="n">Números</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">Mês</span><span class="w"> </span><span class="o">(</span><span class="n">grandes</span><span class="o">,</span><span class="w"> </span><span class="n">visuais</span><span class="o">)</span>
+<span class="n">Slide</span><span class="w"> </span><span class="mi">4</span><span class="o">:</span><span class="w"> </span><span class="n">Ranking</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Vendedores</span><span class="w"> </span><span class="o">(</span><span class="n">Top</span><span class="w"> </span><span class="mi">3</span><span class="o">)</span>
+<span class="n">Slide</span><span class="w"> </span><span class="mi">5</span><span class="o">:</span><span class="w"> </span><span class="n">Cases</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Sucesso</span>
+<span class="n">Slide</span><span class="w"> </span><span class="mi">6</span><span class="o">:</span><span class="w"> </span><span class="n">Lições</span><span class="w"> </span><span class="n">Aprendidas</span>
+<span class="n">Slide</span><span class="w"> </span><span class="mi">7</span><span class="o">:</span><span class="w"> </span><span class="n">Desafios</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">Próximo</span><span class="w"> </span><span class="n">Mês</span>
+<span class="n">Slides</span><span class="w"> </span><span class="mi">8</span><span class="o">-</span><span class="mi">9</span><span class="o">:</span><span class="w"> </span><span class="n">Plano</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Ação</span>
+<span class="n">Slide</span><span class="w"> </span><span class="mi">10</span><span class="o">:</span><span class="w"> </span><span class="n">Meta</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">Mês</span><span class="w"> </span><span class="o">(</span><span class="n">grande</span><span class="o">,</span><span class="w"> </span><span class="n">ousada</span><span class="o">)</span>
+<span class="n">Slide</span><span class="w"> </span><span class="mi">11</span><span class="o">-</span><span class="mi">12</span><span class="o">:</span><span class="w"> </span><span class="n">Mensagem</span><span class="w"> </span><span class="n">Motivacional</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">Agradecimento</span>
+
+<span class="n">Dados</span><span class="o">:</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Vendas</span><span class="w"> </span><span class="n">totais</span><span class="o">:</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mi">580</span><span class="n">k</span><span class="w"> </span><span class="o">(</span><span class="n">superamos</span><span class="w"> </span><span class="n">meta</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mi">500</span><span class="n">k</span><span class="o">!)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Top</span><span class="w"> </span><span class="n">vendedor</span><span class="o">:</span><span class="w"> </span><span class="n">João</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mi">95</span><span class="n">k</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Maior</span><span class="w"> </span><span class="n">contrato</span><span class="w"> </span><span class="n">fechado</span><span class="o">:</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mi">120</span><span class="n">k</span><span class="w"> </span><span class="o">(</span><span class="n">Cliente</span><span class="w"> </span><span class="n">XPTO</span><span class="o">)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Meta</span><span class="w"> </span><span class="n">próximo</span><span class="w"> </span><span class="n">mês</span><span class="o">:</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mi">650</span><span class="n">k</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">roteiro</span><span class="w"> </span><span class="n">completo</span><span class="w"> </span><span class="n">com</span><span class="w"> </span><span class="n">texto</span><span class="w"> </span><span class="n">sugerido</span><span class="w"> </span><span class="n">para</span><span class="w"> </span><span class="n">cada</span><span class="w"> </span><span class="n">slide</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>6. Resumo Executivo</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Resumo</span><span class="w"> </span><span class="n">Executivo</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">CEO</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Resumir</span><span class="w"> </span><span class="n">documento</span><span class="w"> </span><span class="n">técnico</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="mi">40</span><span class="w"> </span><span class="n">páginas</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="n">página</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Muito</span><span class="w"> </span><span class="n">objetivo</span><span class="o">,</span><span class="w"> </span><span class="n">estratégico</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="n">Máximo</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="n">página</span><span class="w"> </span><span class="o">(</span><span class="mi">300</span><span class="w"> </span><span class="n">palavras</span><span class="o">)</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Contexto</span><span class="w"> </span><span class="o">(</span><span class="mi">2</span><span class="w"> </span><span class="n">linhas</span><span class="o">)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Principal</span><span class="w"> </span><span class="n">Conclusão</span><span class="w"> </span><span class="o">(</span><span class="n">destaque</span><span class="o">)</span>
+<span class="o">-</span><span class="w"> </span><span class="mi">3</span><span class="o">-</span><span class="mi">4</span><span class="w"> </span><span class="n">Pontos</span><span class="w"> </span><span class="n">Críticos</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Recomendação</span><span class="w"> </span><span class="n">Final</span><span class="w"> </span><span class="o">(</span><span class="n">clara</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">direta</span><span class="o">)</span>
+
+<span class="n">Documento</span><span class="w"> </span><span class="n">original</span><span class="o">:</span>
+<span class="o">[</span><span class="n">Cole</span><span class="w"> </span><span class="n">aqui</span><span class="w"> </span><span class="n">trecho</span><span class="w"> </span><span class="n">ou</span><span class="w"> </span><span class="n">principais</span><span class="w"> </span><span class="n">pontos</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">documento</span><span class="w"> </span><span class="n">longo</span><span class="o">]</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">resumo</span><span class="w"> </span><span class="n">executivo</span><span class="w"> </span><span class="n">que</span><span class="w"> </span><span class="n">CEO</span><span class="w"> </span><span class="n">possa</span><span class="w"> </span><span class="n">ler</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="n">minutos</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">tomar</span><span class="w"> </span><span class="n">decisão</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>7. Ata de Reunião</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Ata</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Reunião</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Participantes</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">gestores</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Documentar</span><span class="w"> </span><span class="n">decisões</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">ações</span><span class="w"> </span><span class="n">da</span><span class="w"> </span><span class="n">reunião</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Objetivo</span><span class="o">,</span><span class="w"> </span><span class="n">factual</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">1</span><span class="o">-</span><span class="mi">2</span><span class="w"> </span><span class="n">páginas</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Cabeçalho</span><span class="w"> </span><span class="o">(</span><span class="n">data</span><span class="o">,</span><span class="w"> </span><span class="n">hora</span><span class="o">,</span><span class="w"> </span><span class="n">local</span><span class="o">,</span><span class="w"> </span><span class="n">participantes</span><span class="o">)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Pauta</span><span class="w"> </span><span class="n">discutida</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Resumo</span><span class="w"> </span><span class="n">das</span><span class="w"> </span><span class="n">discussões</span><span class="w"> </span><span class="o">(</span><span class="n">bullet</span><span class="w"> </span><span class="n">points</span><span class="o">)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Decisões</span><span class="w"> </span><span class="n">tomadas</span><span class="w"> </span><span class="o">(</span><span class="n">destacar</span><span class="o">)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Ações</span><span class="w"> </span><span class="n">definidas</span><span class="w"> </span><span class="o">(</span><span class="n">responsável</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">prazo</span><span class="w"> </span><span class="n">para</span><span class="w"> </span><span class="n">cada</span><span class="o">)</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Data</span><span class="w"> </span><span class="n">da</span><span class="w"> </span><span class="n">próxima</span><span class="w"> </span><span class="n">reunião</span>
+
+<span class="n">Notas</span><span class="w"> </span><span class="n">da</span><span class="w"> </span><span class="n">reunião</span><span class="w"> </span><span class="o">(</span><span class="n">podem</span><span class="w"> </span><span class="n">ser</span><span class="w"> </span><span class="n">bagunçadas</span><span class="o">):</span>
+<span class="o">[</span><span class="n">Cole</span><span class="w"> </span><span class="n">aqui</span><span class="w"> </span><span class="n">suas</span><span class="w"> </span><span class="n">anotações</span><span class="o">/</span><span class="n">transcrição</span><span class="w"> </span><span class="n">da</span><span class="w"> </span><span class="n">reunião</span><span class="o">]</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">ata</span><span class="w"> </span><span class="n">formal</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">organizada</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>8. Proposta de Projeto</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Proposta</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Projeto</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Cliente</span><span class="w"> </span><span class="n">potencial</span><span class="w"> </span><span class="o">(</span><span class="n">Diretor</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">TI</span><span class="o">)</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Convencer</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">contratar</span><span class="w"> </span><span class="n">nosso</span><span class="w"> </span><span class="n">serviço</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">consultoria</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Profissional</span><span class="o">,</span><span class="w"> </span><span class="n">consultivo</span><span class="o">,</span><span class="w"> </span><span class="n">baseado</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="n">valor</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">5</span><span class="o">-</span><span class="mi">7</span><span class="w"> </span><span class="n">páginas</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="mi">1</span><span class="o">.</span><span class="w"> </span><span class="n">Sobre</span><span class="w"> </span><span class="n">Nós</span><span class="w"> </span><span class="o">(</span><span class="n">credibilidade</span><span class="o">)</span>
+<span class="mi">2</span><span class="o">.</span><span class="w"> </span><span class="n">Entendimento</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">Desafio</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="n">Cliente</span>
+<span class="mi">3</span><span class="o">.</span><span class="w"> </span><span class="n">Nossa</span><span class="w"> </span><span class="n">Proposta</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Solução</span>
+<span class="mi">4</span><span class="o">.</span><span class="w"> </span><span class="n">Metodologia</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Trabalho</span>
+<span class="mi">5</span><span class="o">.</span><span class="w"> </span><span class="n">Entregas</span><span class="w"> </span><span class="n">Detalhadas</span>
+<span class="mi">6</span><span class="o">.</span><span class="w"> </span><span class="n">Timeline</span>
+<span class="mi">7</span><span class="o">.</span><span class="w"> </span><span class="n">Investimento</span><span class="w"> </span><span class="o">(</span><span class="n">valor</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">ROI</span><span class="w"> </span><span class="n">esperado</span><span class="o">)</span>
+<span class="mi">8</span><span class="o">.</span><span class="w"> </span><span class="n">Diferenciais</span>
+<span class="mi">9</span><span class="o">.</span><span class="w"> </span><span class="n">Cases</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Sucesso</span><span class="w"> </span><span class="n">Similares</span>
+<span class="mi">10</span><span class="o">.</span><span class="w"> </span><span class="n">Próximos</span><span class="w"> </span><span class="n">Passos</span>
+
+<span class="n">Cliente</span><span class="o">:</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Empresa</span><span class="o">:</span><span class="w"> </span><span class="n">Indústria</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">médio</span><span class="w"> </span><span class="n">porte</span><span class="o">,</span><span class="w"> </span><span class="mi">200</span><span class="w"> </span><span class="n">funcionários</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Problema</span><span class="o">:</span><span class="w"> </span><span class="n">Sistema</span><span class="w"> </span><span class="n">legado</span><span class="w"> </span><span class="n">travando</span><span class="w"> </span><span class="n">crescimento</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Budget</span><span class="w"> </span><span class="n">estimado</span><span class="o">:</span><span class="w"> </span><span class="n">R$</span><span class="w"> </span><span class="mi">80</span><span class="o">-</span><span class="mi">120</span><span class="n">k</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">proposta</span><span class="w"> </span><span class="n">persuasiva</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">profissional</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>9. Comunicado Interno</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Comunicado</span><span class="w"> </span><span class="n">Interno</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Todos</span><span class="w"> </span><span class="n">colaboradores</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Anunciar</span><span class="w"> </span><span class="n">mudança</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">horário</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">funcionamento</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Institucional</span><span class="w"> </span><span class="n">mas</span><span class="w"> </span><span class="n">acessível</span><span class="o">,</span><span class="w"> </span><span class="n">transparente</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="n">página</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="mi">1</span><span class="o">.</span><span class="w"> </span><span class="n">Título</span><span class="w"> </span><span class="n">chamativo</span>
+<span class="mi">2</span><span class="o">.</span><span class="w"> </span><span class="n">O</span><span class="w"> </span><span class="n">que</span><span class="w"> </span><span class="n">vai</span><span class="w"> </span><span class="n">mudar</span>
+<span class="mi">3</span><span class="o">.</span><span class="w"> </span><span class="n">Por</span><span class="w"> </span><span class="n">que</span><span class="w"> </span><span class="n">estamos</span><span class="w"> </span><span class="n">mudando</span><span class="w"> </span><span class="o">(</span><span class="n">razões</span><span class="w"> </span><span class="n">claras</span><span class="o">)</span>
+<span class="mi">4</span><span class="o">.</span><span class="w"> </span><span class="n">Quando</span><span class="w"> </span><span class="n">entra</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="n">vigor</span>
+<span class="mi">5</span><span class="o">.</span><span class="w"> </span><span class="n">Como</span><span class="w"> </span><span class="n">funciona</span><span class="w"> </span><span class="n">na</span><span class="w"> </span><span class="n">prática</span>
+<span class="mi">6</span><span class="o">.</span><span class="w"> </span><span class="n">Exceções</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">Casos</span><span class="w"> </span><span class="n">especiais</span>
+<span class="mi">7</span><span class="o">.</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="n">quem</span><span class="w"> </span><span class="n">recorrer</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="n">caso</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">dúvida</span>
+<span class="mi">8</span><span class="o">.</span><span class="w"> </span><span class="n">Agradecimento</span>
+
+<span class="n">Mudança</span><span class="o">:</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Horário</span><span class="w"> </span><span class="n">atual</span><span class="o">:</span><span class="w"> </span><span class="mi">8</span><span class="n">h</span><span class="o">-</span><span class="mi">17</span><span class="n">h</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Novo</span><span class="w"> </span><span class="n">horário</span><span class="o">:</span><span class="w"> </span><span class="mi">9</span><span class="n">h</span><span class="o">-</span><span class="mi">18</span><span class="n">h</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Motivo</span><span class="o">:</span><span class="w"> </span><span class="n">Pesquisa</span><span class="w"> </span><span class="n">interna</span><span class="w"> </span><span class="n">mostrou</span><span class="w"> </span><span class="n">que</span><span class="w"> </span><span class="mi">75</span><span class="o">%</span><span class="w"> </span><span class="n">prefere</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">alinhamento</span><span class="w"> </span><span class="n">com</span><span class="w"> </span><span class="n">horário</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">clientes</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Início</span><span class="o">:</span><span class="w"> </span><span class="mi">01</span><span class="o">/</span><span class="mi">12</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">comunicado</span><span class="w"> </span><span class="n">claro</span><span class="w"> </span><span class="n">que</span><span class="w"> </span><span class="n">minimize</span><span class="w"> </span><span class="n">resistências</span><span class="o">.</span>
+</code></pre></div>
+
+<h4>10. Documento Técnico</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">Tipo</span><span class="o">:</span><span class="w"> </span><span class="n">Documentação</span><span class="w"> </span><span class="n">Técnica</span>
+<span class="n">Público</span><span class="o">:</span><span class="w"> </span><span class="n">Desenvolvedores</span>
+<span class="n">Objetivo</span><span class="o">:</span><span class="w"> </span><span class="n">Documentar</span><span class="w"> </span><span class="n">API</span><span class="w"> </span><span class="n">REST</span>
+<span class="n">Tom</span><span class="o">:</span><span class="w"> </span><span class="n">Técnico</span><span class="o">,</span><span class="w"> </span><span class="n">preciso</span><span class="o">,</span><span class="w"> </span><span class="n">completo</span>
+<span class="n">Tamanho</span><span class="o">:</span><span class="w"> </span><span class="mi">3</span><span class="o">-</span><span class="mi">4</span><span class="w"> </span><span class="n">páginas</span>
+<span class="n">Estrutura</span><span class="o">:</span>
+<span class="mi">1</span><span class="o">.</span><span class="w"> </span><span class="n">Visão</span><span class="w"> </span><span class="n">Geral</span><span class="w"> </span><span class="n">da</span><span class="w"> </span><span class="n">API</span>
+<span class="mi">2</span><span class="o">.</span><span class="w"> </span><span class="n">Autenticação</span>
+<span class="mi">3</span><span class="o">.</span><span class="w"> </span><span class="n">Endpoints</span><span class="w"> </span><span class="o">(</span><span class="n">para</span><span class="w"> </span><span class="n">cada</span><span class="o">:</span><span class="w"> </span><span class="n">método</span><span class="o">,</span><span class="w"> </span><span class="n">URL</span><span class="o">,</span><span class="w"> </span><span class="n">parâmetros</span><span class="o">,</span><span class="w"> </span><span class="n">exemplo</span><span class="w"> </span><span class="n">request</span><span class="o">,</span><span class="w"> </span><span class="n">exemplo</span><span class="w"> </span><span class="n">response</span><span class="o">)</span>
+<span class="mi">4</span><span class="o">.</span><span class="w"> </span><span class="n">Códigos</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Erro</span>
+<span class="mi">5</span><span class="o">.</span><span class="w"> </span><span class="n">Rate</span><span class="w"> </span><span class="n">Limiting</span>
+<span class="mi">6</span><span class="o">.</span><span class="w"> </span><span class="n">Exemplos</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Uso</span><span class="w"> </span><span class="o">(</span><span class="n">código</span><span class="o">)</span>
+<span class="mi">7</span><span class="o">.</span><span class="w"> </span><span class="n">FAQs</span>
+
+<span class="n">API</span><span class="o">:</span>
+<span class="o">-</span><span class="w"> </span><span class="n">RESTful</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Autenticação</span><span class="w"> </span><span class="n">via</span><span class="w"> </span><span class="n">Bearer</span><span class="w"> </span><span class="n">Token</span>
+<span class="o">-</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="n">endpoints</span><span class="w"> </span><span class="n">principais</span><span class="o">:</span><span class="w"> </span><span class="n">listar</span><span class="w"> </span><span class="n">usuários</span><span class="o">,</span><span class="w"> </span><span class="n">criar</span><span class="w"> </span><span class="n">usuário</span><span class="o">,</span><span class="w"> </span><span class="n">atualizar</span><span class="o">,</span><span class="w"> </span><span class="n">deletar</span><span class="o">,</span><span class="w"> </span><span class="n">buscar</span><span class="w"> </span><span class="n">por</span><span class="w"> </span><span class="n">ID</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Retorna</span><span class="w"> </span><span class="n">JSON</span>
+
+<span class="n">Gere</span><span class="w"> </span><span class="n">documentação</span><span class="w"> </span><span class="n">completa</span><span class="w"> </span><span class="n">estilo</span><span class="w"> </span><span class="n">Swagger</span><span class="o">/</span><span class="n">OpenAPI</span><span class="o">.</span>
+</code></pre></div>
+
+<h3>Como Refinar Documentos Gerados por IA</h3>
+<p><strong>Checklist pós-geração:</strong></p>
+<ol>
+<li><strong>Leia criticamente</strong></li>
+<li>IA inventou dados? (remova ou substitua)</li>
+<li>Tom está adequado?</li>
+<li>
+<p>Linguagem natural ou robótica?</p>
+</li>
+<li>
+<p><strong>Personalize</strong></p>
+</li>
+<li>Adicione exemplos específicos da sua empresa</li>
+<li>Ajuste nomes, valores, datas</li>
+<li>
+<p>Inclua jargões/termos internos</p>
+</li>
+<li>
+<p><strong>Formate</strong></p>
+</li>
+<li>Aplique template visual da empresa</li>
+<li>Adicione logo, cores corporativas</li>
+<li>
+<p>Ajuste fontes e tamanhos</p>
+</li>
+<li>
+<p><strong>Valide tecnicamente</strong></p>
+</li>
+<li>Peça para colega revisar</li>
+<li>Confira números e datas</li>
+<li>
+<p>Teste instruções (em caso de manuais)</p>
+</li>
+<li>
+<p><strong>Aprimore prompt</strong></p>
+</li>
+<li>Anote o que ficou faltando</li>
+<li>Melhore prompt para próxima vez</li>
+<li>Crie biblioteca de prompts testados</li>
+</ol>
+<hr />
+<h2>4. Automação de Relatórios (100% no Piloto Automático)</h2>
+<h3>O Santo Graal: Relatório Que Se Faz Sozinho</h3>
+<p><strong>Cenário ideal:</strong>
+- Segunda-feira, 8h da manhã
+- Você abre email
+- Tem relatório semanal completo, formatado, com todos os dados atualizados
+- Você NÃO FEZ NADA</p>
+<p><strong>Não é sonho. É totalmente possível com:</strong>
+- Google Sheets (dados)
+- Google Docs (template)
+- Apps Script (automação)
+- Zapier (orquestração - opcional)</p>
+<h3>Arquitetura de Relatório Automático</h3>
+<p><strong>Componentes:</strong></p>
+<ol>
+<li><strong>Fonte de Dados</strong> (Google Sheets)</li>
+<li>
+<p>Dados atualizados automaticamente (via IMPORTRANGE, API, Zapier, etc.)</p>
+</li>
+<li>
+<p><strong>Template de Documento</strong> (Google Docs)</p>
+</li>
+<li>
+<p>Estrutura pronta com {{VARIÁVEIS}}</p>
+</li>
+<li>
+<p><strong>Script de Geração</strong> (Apps Script)</p>
+</li>
+<li>Busca dados do Sheets</li>
+<li>Preenche template</li>
+<li>
+<p>Gera documento final</p>
+</li>
+<li>
+<p><strong>Agendamento</strong> (Trigger do Apps Script)</p>
+</li>
+<li>
+<p>Roda automaticamente (ex: toda segunda, 7h)</p>
+</li>
+<li>
+<p><strong>Distribuição</strong> (Apps Script + Gmail)</p>
+</li>
+<li>Envia por email automaticamente</li>
+</ol>
+<h3>Tutorial Completo: Relatório Semanal 100% Automático</h3>
+<h4>Passo 1: Preparar Planilha de Dados</h4>
+<p><strong>Estrutura sugerida (aba "Dados"):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Semana</th>
+<th>Vendas</th>
+<th>Meta</th>
+<th>% Meta</th>
+<th>Novos Clientes</th>
+<th>Observações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>47</td>
+<td>45000</td>
+<td>50000</td>
+<td>90%</td>
+<td>5</td>
+<td>Boa semana</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dados podem vir de:</strong>
+- IMPORTRANGE de outras planilhas
+- Zapier (de CRM, e-commerce, etc.)
+- Apps Script (de API externa)</p>
+<h4>Passo 2: Criar Template no Docs</h4>
+<div class="codehilite"><pre><span></span><code><span class="x">RELATÓRIO SEMANAL - SEMANA </span><span class="cp">{{</span><span class="nv">SEMANA</span><span class="cp">}}</span>
+
+<span class="x">📊 NÚMEROS DA SEMANA</span>
+
+<span class="x">Vendas: R$ </span><span class="cp">{{</span><span class="nv">VENDAS</span><span class="cp">}}</span>
+<span class="x">Meta: R$ </span><span class="cp">{{</span><span class="nv">META</span><span class="cp">}}</span>
+<span class="x">Atingimento: </span><span class="cp">{{</span><span class="nv">PERCENTUAL</span><span class="cp">}}</span><span class="x">%</span>
+
+<span class="x">Novos Clientes: </span><span class="cp">{{</span><span class="nv">NOVOS_CLIENTES</span><span class="cp">}}</span>
+
+<span class="x">💬 OBSERVAÇÕES</span>
+
+<span class="cp">{{</span><span class="nv">OBSERVACOES</span><span class="cp">}}</span>
+
+<span class="x">---</span>
+<span class="x">Relatório gerado automaticamente em </span><span class="cp">{{</span><span class="nv">DATA_GERACAO</span><span class="cp">}}</span>
+</code></pre></div>
+
+<p>Salve e copie o ID da URL.</p>
+<h4>Passo 3: Script de Geração</h4>
+<p>No Google Sheets, vá em <strong>Extensões → Apps Script</strong> e cole:</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">gerarRelatorioSemanal</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="c1">// IDs (substitua pelos seus)</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">TEMPLATE_ID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;SEU_TEMPLATE_ID_AQUI&quot;</span><span class="p">;</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">PASTA_DESTINO_ID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;ID_DA_PASTA_ONDE_SALVAR&quot;</span><span class="p">;</span>
+
+<span class="w">  </span><span class="c1">// 1. Buscar dados da última semana</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">planilha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">SpreadsheetApp</span><span class="p">.</span><span class="nx">getActiveSpreadsheet</span><span class="p">();</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">aba</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">planilha</span><span class="p">.</span><span class="nx">getSheetByName</span><span class="p">(</span><span class="s2">&quot;Dados&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">ultimaLinha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">aba</span><span class="p">.</span><span class="nx">getLastRow</span><span class="p">();</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">dados</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">aba</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">ultimaLinha</span><span class="p">,</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">6</span><span class="p">).</span><span class="nx">getValues</span><span class="p">()[</span><span class="mf">0</span><span class="p">];</span>
+
+<span class="w">  </span><span class="c1">// 2. Fazer cópia do template</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">template</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFileById</span><span class="p">(</span><span class="nx">TEMPLATE_ID</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">semana</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">0</span><span class="p">];</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">nomeArquivo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Relatório Semanal - Semana &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">semana</span><span class="p">;</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">pastaDestino</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFolderById</span><span class="p">(</span><span class="nx">PASTA_DESTINO_ID</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">novoDoc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">template</span><span class="p">.</span><span class="nx">makeCopy</span><span class="p">(</span><span class="nx">nomeArquivo</span><span class="p">,</span><span class="w"> </span><span class="nx">pastaDestino</span><span class="p">);</span>
+
+<span class="w">  </span><span class="c1">// 3. Abrir documento e substituir variáveis</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">doc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">openById</span><span class="p">(</span><span class="nx">novoDoc</span><span class="p">.</span><span class="nx">getId</span><span class="p">());</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">corpo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">doc</span><span class="p">.</span><span class="nx">getBody</span><span class="p">();</span>
+
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{SEMANA}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">semana</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{VENDAS}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;R$ &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">1</span><span class="p">].</span><span class="nx">toLocaleString</span><span class="p">(</span><span class="s1">&#39;pt-BR&#39;</span><span class="p">));</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{META}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;R$ &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">2</span><span class="p">].</span><span class="nx">toLocaleString</span><span class="p">(</span><span class="s1">&#39;pt-BR&#39;</span><span class="p">));</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{PERCENTUAL}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">3</span><span class="p">]);</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{NOVOS_CLIENTES}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">4</span><span class="p">]);</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{OBSERVACOES}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="mf">5</span><span class="p">]);</span>
+<span class="w">  </span><span class="nx">corpo</span><span class="p">.</span><span class="nx">replaceText</span><span class="p">(</span><span class="s2">&quot;{{DATA_GERACAO}}&quot;</span><span class="p">,</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleDateString</span><span class="p">(</span><span class="s1">&#39;pt-BR&#39;</span><span class="p">));</span>
+
+<span class="w">  </span><span class="c1">// 4. Salvar</span>
+<span class="w">  </span><span class="nx">doc</span><span class="p">.</span><span class="nx">saveAndClose</span><span class="p">();</span>
+
+<span class="w">  </span><span class="c1">// 5. Enviar por email</span>
+<span class="w">  </span><span class="nx">enviarPorEmail</span><span class="p">(</span><span class="nx">novoDoc</span><span class="p">.</span><span class="nx">getUrl</span><span class="p">(),</span><span class="w"> </span><span class="nx">semana</span><span class="p">);</span>
+
+<span class="w">  </span><span class="nx">Logger</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Relatório gerado: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">novoDoc</span><span class="p">.</span><span class="nx">getUrl</span><span class="p">());</span>
+<span class="p">}</span>
+
+<span class="kd">function</span><span class="w"> </span><span class="nx">enviarPorEmail</span><span class="p">(</span><span class="nx">linkRelatorio</span><span class="p">,</span><span class="w"> </span><span class="nx">semana</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">destinatarios</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;chefe@empresa.com, equipe@empresa.com&quot;</span><span class="p">;</span><span class="w"> </span><span class="c1">// Ajuste</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">assunto</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;📊 Relatório Semanal - Semana &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">semana</span><span class="p">;</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">corpo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Olá,&lt;br&gt;&lt;br&gt;&quot;</span><span class="w"> </span><span class="o">+</span>
+<span class="w">              </span><span class="s2">&quot;Segue relatório semanal atualizado:&lt;br&gt;&lt;br&gt;&quot;</span><span class="w"> </span><span class="o">+</span>
+<span class="w">              </span><span class="s2">&quot;&lt;a href=&#39;&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">linkRelatorio</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;&#39;&gt;📄 Clique aqui para visualizar&lt;/a&gt;&lt;br&gt;&lt;br&gt;&quot;</span><span class="w"> </span><span class="o">+</span>
+<span class="w">              </span><span class="s2">&quot;Qualquer dúvida, estou à disposição.&lt;br&gt;&lt;br&gt;&quot;</span><span class="w"> </span><span class="o">+</span>
+<span class="w">              </span><span class="s2">&quot;Atenciosamente,&lt;br&gt;&quot;</span><span class="w"> </span><span class="o">+</span>
+<span class="w">              </span><span class="s2">&quot;Sistema Automático&quot;</span><span class="p">;</span>
+
+<span class="w">  </span><span class="nx">MailApp</span><span class="p">.</span><span class="nx">sendEmail</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">to</span><span class="o">:</span><span class="w"> </span><span class="nx">destinatarios</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">subject</span><span class="o">:</span><span class="w"> </span><span class="nx">assunto</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">htmlBody</span><span class="o">:</span><span class="w"> </span><span class="nx">corpo</span>
+<span class="w">  </span><span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h4>Passo 4: Agendar Execução Automática</h4>
+<ol>
+<li>No Apps Script, clique no ícone do <strong>Relógio</strong> (Acionadores)</li>
+<li>"Adicionar acionador"</li>
+<li>Configurar:</li>
+<li>Função: <code>gerarRelatorioSemanal</code></li>
+<li>Origem do evento: <strong>Acionado por tempo</strong></li>
+<li>Tipo: <strong>Acionador de timer semanal</strong></li>
+<li>Dia da semana: <strong>Segunda-feira</strong></li>
+<li>Hora do dia: <strong>7h às 8h</strong></li>
+<li>Salvar</li>
+</ol>
+<p><strong>Pronto!</strong> Agora toda segunda-feira, entre 7h-8h:
+1. Script busca dados da semana
+2. Gera relatório preenchido
+3. Salva no Drive
+4. Envia por email para equipe</p>
+<p><strong>Você não faz NADA. Automático pra sempre.</strong></p>
+<h3>Mais Exemplos de Relatórios Automáticos</h3>
+<p><strong>1. Relatório de Vendas Diário</strong>
+- Trigger: Todo dia, 18h
+- Dados: Vendas do dia (de CRM ou e-commerce)
+- Envia: Para gerente comercial</p>
+<p><strong>2. Resumo Mensal Executivo</strong>
+- Trigger: Dia 1 de cada mês, 8h
+- Dados: Consolidado do mês anterior
+- Envia: Para diretoria</p>
+<p><strong>3. Status de Projetos (Semanal)</strong>
+- Trigger: Sexta-feira, 16h
+- Dados: Tarefas concluídas/pendentes (de Trello/Asana via Zapier)
+- Envia: Para gerente de projetos</p>
+<hr />
+<h2>5. Organização e Versionamento (Nunca Mais "final_v9_AGORA_VAI_MESMO.docx")</h2>
+<h3>O Caos dos Arquivos</h3>
+<p><strong>Cenário real que você já viveu:</strong></p>
+<div class="codehilite"><pre><span></span><code>Pasta &quot;Propostas Cliente XPTO&quot;:
+<span class="k">-</span> Proposta_XPTO.docx
+<span class="k">-</span> Proposta_XPTO_v2.docx
+<span class="k">-</span> Proposta_XPTO_final.docx
+<span class="k">-</span> Proposta_XPTO_final_revisado.docx
+<span class="k">-</span> Proposta_XPTO_final_APROVADA.docx
+<span class="k">-</span> Proposta_XPTO_final_APROVADA_ajustes.docx
+<span class="k">-</span> Proposta_XPTO_ESSA_É_A_BOA.docx
+</code></pre></div>
+
+<p><strong>E você não lembra qual é a versão certa.</strong></p>
+<h3>Regras de Ouro de Nomenclatura</h3>
+<p><strong>Formato padrão:</strong></p>
+<div class="codehilite"><pre><span></span><code>TIPO_Cliente-Projeto_YYYY-MM-DD_Versao.extensao
+</code></pre></div>
+
+<p><strong>Exemplos:</strong></p>
+<div class="codehilite"><pre><span></span><code>Proposta_ACME-SitNovo_2024-11-15_v1.docx
+Contrato_XYZ-Consultoria_2024-11-20_Final.pdf
+Relatorio_VendasNovembro_2024-12-01_v3.docx
+</code></pre></div>
+
+<p><strong>Componentes:</strong>
+1. <strong>TIPO:</strong> Proposta, Contrato, Relatório, Apresentação, etc.
+2. <strong>Cliente/Projeto:</strong> Nome curto e claro
+3. <strong>Data:</strong> Formato YYYY-MM-DD (ordena cronologicamente automaticamente)
+4. <strong>Versão:</strong> v1, v2, v3 ou Final, Revisao, Aprovado
+5. <strong>Extensão:</strong> .docx, .pdf, .pptx</p>
+<p><strong>Vantagens:</strong>
+- Ordem cronológica automática
+- Fácil identificar tipo e cliente
+- Versão clara</p>
+<h3>Google Drive: Organização Automática</h3>
+<h4>Estrutura de Pastas Recomendada</h4>
+<div class="codehilite"><pre><span></span><code>📁 Drive da Empresa
+├── 📁 01_Clientes
+│   ├── 📁 Cliente_ACME
+│   │   ├── 📁 Propostas
+│   │   ├── 📁 Contratos
+│   │   ├── 📁 Projetos
+│   │   └── 📁 Comunicação
+│   └── 📁 Cliente_XYZ
+├── 📁 02_Projetos
+│   ├── 📁 Projeto_Alpha
+│   └── 📁 Projeto_Beta
+├── 📁 03_Operacional
+│   ├── 📁 Relatórios
+│   ├── 📁 Procedimentos
+│   └── 📁 Templates
+├── 📁 04_Administrativo
+└── 📁 05_Arquivados
+</code></pre></div>
+
+<p><strong>Dicas:</strong>
+- Prefixos numéricos mantêm ordem
+- Máximo 3 níveis de profundidade
+- Nomes curtos e claros
+- Pasta "Arquivados" para projetos finalizados</p>
+<h4>Automatizar Organização com Apps Script</h4>
+<p><strong>Exemplo: Mover arquivos automaticamente</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">organizarArquivosPorTipo</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">pastaOrigem</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFolderById</span><span class="p">(</span><span class="s2">&quot;ID_PASTA_BAGUNÇADA&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">pastaPropostas</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFolderById</span><span class="p">(</span><span class="s2">&quot;ID_PASTA_PROPOSTAS&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">pastaRelatorios</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFolderById</span><span class="p">(</span><span class="s2">&quot;ID_PASTA_RELATORIOS&quot;</span><span class="p">);</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">arquivos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">pastaOrigem</span><span class="p">.</span><span class="nx">getFiles</span><span class="p">();</span>
+
+<span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="nx">arquivos</span><span class="p">.</span><span class="nx">hasNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">arquivo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">arquivos</span><span class="p">.</span><span class="nx">next</span><span class="p">();</span>
+<span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">nome</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">arquivo</span><span class="p">.</span><span class="nx">getName</span><span class="p">();</span>
+
+<span class="w">    </span><span class="c1">// Mover propostas</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">nome</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s2">&quot;Proposta&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">arquivo</span><span class="p">.</span><span class="nx">moveTo</span><span class="p">(</span><span class="nx">pastaPropostas</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="c1">// Mover relatórios</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">nome</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s2">&quot;Relatorio&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nx">nome</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s2">&quot;Relatório&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">arquivo</span><span class="p">.</span><span class="nx">moveTo</span><span class="p">(</span><span class="nx">pastaRelatorios</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><strong>Configure para rodar 1x por dia e mantém Drive sempre organizado.</strong></p>
+<h3>Versionamento Nativo do Google Docs</h3>
+<p><strong>Vantagem:</strong> Google Docs/Sheets salva TODAS as versões automaticamente.</p>
+<p><strong>Como acessar:</strong>
+1. Arquivo → Histórico de versões → Ver histórico de versões
+2. Veja todas alterações com data/hora/autor
+3. Restaure versão antiga com 1 clique</p>
+<p><strong>Nunca mais precisa de "v2", "v3", "final"</strong> → Sempre edita o mesmo arquivo, Google guarda histórico.</p>
+<p><strong>Nomear versões importantes:</strong>
+1. Arquivo → Histórico de versões
+2. Clique nos 3 pontinhos ao lado de versão
+3. "Nomear esta versão": Ex: "Aprovado pelo Cliente"</p>
+<h3>Backup Automático</h3>
+<p><strong>Google Drive JÁ FAZ backup</strong>, mas para segurança extra:</p>
+<p><strong>Opção 1: Google Takeout (Backup manual periódico)</strong>
+1. takeout.google.com
+2. Selecione "Drive"
+3. Baixe ZIP com tudo</p>
+<p><strong>Opção 2: Apps Script (Backup seletivo)</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">backupPastaImportante</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">pastaOrigem</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFolderById</span><span class="p">(</span><span class="s2">&quot;ID_PASTA_IMPORTANTE&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">pastaBackup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFolderById</span><span class="p">(</span><span class="s2">&quot;ID_PASTA_BACKUP&quot;</span><span class="p">);</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">arquivos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">pastaOrigem</span><span class="p">.</span><span class="nx">getFiles</span><span class="p">();</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">dataBackup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleDateString</span><span class="p">(</span><span class="s1">&#39;pt-BR&#39;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\//g</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;-&#39;</span><span class="p">);</span>
+
+<span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="nx">arquivos</span><span class="p">.</span><span class="nx">hasNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">arquivo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">arquivos</span><span class="p">.</span><span class="nx">next</span><span class="p">();</span>
+<span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">nomeCopia</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;[BACKUP_&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">dataBackup</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;] &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">arquivo</span><span class="p">.</span><span class="nx">getName</span><span class="p">();</span>
+<span class="w">    </span><span class="nx">arquivo</span><span class="p">.</span><span class="nx">makeCopy</span><span class="p">(</span><span class="nx">nomeCopia</span><span class="p">,</span><span class="w"> </span><span class="nx">pastaBackup</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><strong>Configure para rodar semanalmente.</strong></p>
+<h3>Compartilhamento Inteligente</h3>
+<p><strong>Níveis de permissão:</strong>
+- <strong>Visualizador:</strong> Só vê (clientes externos)
+- <strong>Comentador:</strong> Vê + comenta (revisores)
+- <strong>Editor:</strong> Edita (equipe interna)</p>
+<p><strong>Compartilhar com link:</strong>
+- Botão "Compartilhar" → "Obter link"
+- Escolha permissão
+- Copie link</p>
+<p><strong>Automatizar compartilhamento via Script:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">compartilharComCliente</span><span class="p">(</span><span class="nx">arquivoId</span><span class="p">,</span><span class="w"> </span><span class="nx">emailCliente</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">arquivo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFileById</span><span class="p">(</span><span class="nx">arquivoId</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">arquivo</span><span class="p">.</span><span class="nx">addViewer</span><span class="p">(</span><span class="nx">emailCliente</span><span class="p">);</span>
+
+<span class="w">  </span><span class="c1">// Enviar email notificando</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">link</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">arquivo</span><span class="p">.</span><span class="nx">getUrl</span><span class="p">();</span>
+<span class="w">  </span><span class="nx">MailApp</span><span class="p">.</span><span class="nx">sendEmail</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">to</span><span class="o">:</span><span class="w"> </span><span class="nx">emailCliente</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">subject</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Documento Compartilhado&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Olá, segue documento: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">link</span>
+<span class="w">  </span><span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<hr />
+<h2>6. Apresentações Automatizadas (Slides que Se Fazem Sozinhos)</h2>
+<h3>Google Slides + Dados Dinâmicos</h3>
+<p><strong>Conceito:</strong> Apresentação conectada a planilha → Números se atualizam automaticamente.</p>
+<p><strong>Como fazer (manualmente):</strong>
+1. Crie apresentação
+2. Insira → Gráfico → "De Planilhas"
+3. Selecione Google Sheets
+4. Escolha intervalo
+5. Insere gráfico vinculado</p>
+<p><strong>Quando dados mudarem na planilha:</strong>
+- Abra apresentação
+- Clique no gráfico
+- "Atualizar" → Pronto!</p>
+<p><strong>Automatizar atualização via Apps Script:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">atualizarGraficosSlides</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">apresentacaoId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;ID_DA_SUA_APRESENTACAO&quot;</span><span class="p">;</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">apresentacao</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">SlidesApp</span><span class="p">.</span><span class="nx">openById</span><span class="p">(</span><span class="nx">apresentacaoId</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">slides</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">apresentacao</span><span class="p">.</span><span class="nx">getSlides</span><span class="p">();</span>
+
+<span class="w">  </span><span class="nx">slides</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">slide</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">graficos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">slide</span><span class="p">.</span><span class="nx">getSheetsCharts</span><span class="p">();</span>
+<span class="w">    </span><span class="nx">graficos</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">grafico</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">grafico</span><span class="p">.</span><span class="nx">refresh</span><span class="p">();</span><span class="w"> </span><span class="c1">// Atualiza gráfico</span>
+<span class="w">    </span><span class="p">});</span>
+<span class="w">  </span><span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><strong>Configure para rodar antes de apresentações importantes.</strong></p>
+<h3>Templates Reutilizáveis</h3>
+<p><strong>Crie biblioteca de slides padrão:</strong></p>
+<ul>
+<li>Slide de Capa</li>
+<li>Slide de Agenda</li>
+<li>Slide de Números (2 métricas)</li>
+<li>Slide de Números (4 métricas)</li>
+<li>Slide de Gráfico Grande</li>
+<li>Slide de Tabela</li>
+<li>Slide de Citação</li>
+<li>Slide de Agradecimento</li>
+</ul>
+<p><strong>Mantenha em apresentação "Master Template" e copie quando precisar.</strong></p>
+<h3>Gerar Slides com IA (Apps Script + OpenAI API)</h3>
+<p><strong>Script avançado (exemplo conceitual):</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">gerarApresentacaoComIA</span><span class="p">(</span><span class="nx">tema</span><span class="p">,</span><span class="w"> </span><span class="nx">slides</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="c1">// 1. Gerar roteiro com ChatGPT</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">prompt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Crie roteiro de apresentação sobre: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">tema</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;. &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">slides</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot; slides.&quot;</span><span class="p">;</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">roteiro</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">chamarChatGPT</span><span class="p">(</span><span class="nx">prompt</span><span class="p">);</span><span class="w"> </span><span class="c1">// Função que chama API OpenAI</span>
+
+<span class="w">  </span><span class="c1">// 2. Criar apresentação em branco</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">apresentacao</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">SlidesApp</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s2">&quot;Apresentação - &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">tema</span><span class="p">);</span>
+
+<span class="w">  </span><span class="c1">// 3. Para cada slide do roteiro, criar slide real</span>
+<span class="w">  </span><span class="c1">// (parsear resposta da IA e criar slides)</span>
+
+<span class="w">  </span><span class="c1">// 4. Retornar link</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">apresentacao</span><span class="p">.</span><span class="nx">getUrl</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="kd">function</span><span class="w"> </span><span class="nx">chamarChatGPT</span><span class="p">(</span><span class="nx">prompt</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">apiKey</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;SUA_API_KEY_OPENAI&quot;</span><span class="p">;</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;https://api.openai.com/v1/chat/completions&quot;</span><span class="p">;</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">payload</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">model</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;gpt-4&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">messages</span><span class="o">:</span><span class="w"> </span><span class="p">[{</span><span class="nx">role</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;user&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">content</span><span class="o">:</span><span class="w"> </span><span class="nx">prompt</span><span class="p">}]</span>
+<span class="w">  </span><span class="p">};</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">options</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;post&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Bearer &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">apiKey</span><span class="p">},</span>
+<span class="w">    </span><span class="nx">contentType</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">payload</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">payload</span><span class="p">)</span>
+<span class="w">  </span><span class="p">};</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">UrlFetchApp</span><span class="p">.</span><span class="nx">fetch</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span><span class="w"> </span><span class="nx">options</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">json</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">getContentText</span><span class="p">());</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">json</span><span class="p">.</span><span class="nx">choices</span><span class="p">[</span><span class="mf">0</span><span class="p">].</span><span class="nx">message</span><span class="p">.</span><span class="nx">content</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<hr />
+<h2>7. Exercícios Práticos (Implemente HOJE!)</h2>
+<h3>Exercício 1: Criar 3 Templates (60 minutos)</h3>
+<p><strong>Tarefa:</strong> Identifique 3 documentos que você cria repetidamente e crie templates.</p>
+<p><strong>Sugestões:</strong>
+1. Relatório semanal/mensal
+2. Ata de reunião
+3. Email padrão de envio</p>
+<p><strong>Passo a passo:</strong>
+1. Escolha os 3 tipos
+2. Para cada um:
+   - Abra 2-3 versões antigas
+   - Identifique estrutura comum
+   - Crie Google Doc com {{VARIÁVEIS}}
+   - Salve na pasta "Templates"
+   - Nomeie: "TEMPLATE - [tipo]"</p>
+<p><strong>Checklist:</strong>
+- [ ] 3 templates criados
+- [ ] Salvos em pasta organizada
+- [ ] Testou usar 1 deles</p>
+<h3>Exercício 2: Automatizar 1 Relatório (90 minutos)</h3>
+<p><strong>Tarefa:</strong> Escolha 1 relatório que você faz toda semana/mês e automatize.</p>
+<p><strong>Passo a passo:</strong>
+1. Crie planilha com dados necessários
+2. Crie template do relatório em Docs
+3. Copie script de geração (adapte do exemplo acima)
+4. Teste rodar manualmente
+5. (Opcional) Configure trigger para rodar automaticamente</p>
+<p><strong>Checklist:</strong>
+- [ ] Planilha de dados criada
+- [ ] Template pronto
+- [ ] Script funcionando
+- [ ] Testado geração de 1 relatório</p>
+<h3>Exercício 3: Gerar 1 Documento com IA (30 minutos)</h3>
+<p><strong>Tarefa:</strong> Use ChatGPT para gerar um documento completo.</p>
+<p><strong>Opções:</strong>
+- Manual de procedimento
+- Análise de dados
+- Proposta
+- Apresentação (roteiro)</p>
+<p><strong>Passo a passo:</strong>
+1. Escolha tipo de documento
+2. Escreva prompt detalhado (use templates acima)
+3. Gere no ChatGPT
+4. Copie para Google Docs
+5. Revise e ajuste
+6. Formate</p>
+<p><strong>Checklist:</strong>
+- [ ] Documento gerado
+- [ ] Revisado e personalizado
+- [ ] Formatado profissionalmente
+- [ ] Comparado tempo gasto vs. fazer manual</p>
+<hr />
+<h2>8. Dicas Avançadas de Produtividade em Documentação</h2>
+<h3>Atalhos Essenciais do Google Docs (Economize Horas)</h3>
+<p><strong>Navegação:</strong>
+- <code>Ctrl + Alt + N/P</code> - Próximo/Anterior comentário
+- <code>Ctrl + Alt + M</code> - Inserir comentário
+- <code>Ctrl + Alt + Shift + H</code> - Ver histórico de revisões
+- <code>Ctrl + F</code> - Buscar texto
+- <code>Ctrl + H</code> - Buscar e substituir</p>
+<p><strong>Formatação rápida:</strong>
+- <code>Ctrl + Alt + 1/2/3</code> - Título 1, 2, 3
+- <code>Ctrl + Alt + 0</code> - Texto normal
+- <code>Ctrl + B/I/U</code> - Negrito/Itálico/Sublinhado
+- <code>Ctrl + K</code> - Inserir link
+- <code>Ctrl + Shift + V</code> - Colar sem formatação</p>
+<p><strong>Produtividade:</strong>
+- <code>Ctrl + /</code> - Buscar nos menus (super útil!)
+- <code>Ctrl + Alt + C</code> - Contar palavras
+- <code>Ctrl + Enter</code> - Quebra de página
+- <code>@</code> - Mencionar pessoa ou inserir item especial</p>
+<p><strong>Truque ninja: Comandos de voz (Chrome)</strong>
+1. Ferramentas → Digitação por voz
+2. Fale em português
+3. Comandos: "Novo parágrafo", "Ponto", "Vírgula", "Selecionar tudo"</p>
+<p><strong>Resultado:</strong> Ditar documento 3x mais rápido que digitar.</p>
+<h3>Uso de Variáveis e Macros no Google Docs</h3>
+<p>Embora Google Docs não tenha macros VBA como Excel, você pode criar "pseudo-variáveis" com Building Blocks (blocos de construção).</p>
+<p><strong>Método 1: Blocos Reutilizáveis</strong></p>
+<ol>
+<li>Escreva trecho que usa muito (assinatura, rodapé, seção padrão)</li>
+<li>Selecione o texto</li>
+<li>Ferramentas → Blocos de construção → Salvar como bloco</li>
+<li>Dê um nome (ex: "assinatura_padrao")</li>
+</ol>
+<p><strong>Para usar:</strong>
+1. Digite <code>@</code> no documento
+2. Comece a digitar o nome do bloco
+3. Selecione e insere automaticamente</p>
+<p><strong>Exemplo de uso:</strong>
+- Assinatura de email
+- Rodapé com disclaimer legal
+- Seções padrão de relatórios</p>
+<h3>Colaboração Inteligente: Comentários e Sugestões</h3>
+<p><strong>Tipos de edição:</strong></p>
+<ol>
+<li><strong>Modo Edição (padrão):</strong> Altera direto</li>
+<li><strong>Modo Sugestão:</strong> Mudanças ficam como propostas</li>
+<li><strong>Modo Visualização:</strong> Só lê</li>
+</ol>
+<p><strong>Para trocar:</strong> Botão no canto superior direito (lápis/caneta)</p>
+<p><strong>Melhores práticas de colaboração:</strong></p>
+<p><strong>Para revisor:</strong>
+- Use modo Sugestão para mudanças estruturais
+- Use Comentários para dúvidas/discussões
+- Mencione pessoa (@nome) para notificar</p>
+<p><strong>Para autor:</strong>
+- Aceite/Rejeite sugestões (não deixe acumular)
+- Responda comentários
+- Resolva discussões quando concluídas</p>
+<p><strong>Atalho para aceitar todas sugestões:</strong>
+1. Ferramentas → Revisar sugestões
+2. Use setas ou <code>J/K</code> para navegar
+3. <code>A</code> aceita, <code>R</code> rejeita</p>
+<p><strong>Histórico de versões:</strong>
+- Arquivo → Histórico de versões → Ver histórico
+- Restaure versões antigas com 1 clique
+- Nomeie versões importantes: "Aprovado pelo cliente"</p>
+<h3>Automatização com Add-ons Úteis</h3>
+<p><strong>1. Autocomplete (autocorretor inteligente)</strong>
+- Corrige erros comuns automaticamente
+- Aprende com seu estilo de escrita</p>
+<p><strong>2. Remove Line Breaks</strong>
+- Remove quebras de linha extras ao colar texto
+- Útil quando copia de PDF</p>
+<p><strong>3. Doc Tools</strong>
+- Encontrar e substituir avançado (suporta regex)
+- Capitalizar textos
+- Remover espaços extras</p>
+<p><strong>4. Table Formatter</strong>
+- Formata tabelas automaticamente
+- Aplica estilos consistentes</p>
+<p><strong>Como instalar:</strong>
+1. Extensões → Complementos → Obter complementos
+2. Busque pelo nome
+3. Instale
+4. Use pelo menu Extensões</p>
+<h3>Geração de Sumário Automático</h3>
+<p><strong>Para documentos longos (&gt; 5 páginas):</strong></p>
+<p><strong>Passo 1: Use estilos de título corretamente</strong>
+- Título 1 para capítulos principais
+- Título 2 para seções
+- Título 3 para subseções</p>
+<p><strong>Passo 2: Inserir sumário</strong>
+1. Clique onde quer o sumário
+2. Inserir → Sumário
+3. Escolha estilo (com links ou com números de página)</p>
+<p><strong>Vantagem:</strong> Sumário atualiza automaticamente quando você:
+- Adiciona/remove seções
+- Renomeia títulos
+- Reorganiza documento</p>
+<p><strong>Para atualizar:</strong> Clique no sumário → Atualizar</p>
+<h3>Campos Dinâmicos (Datas, Número de Páginas, etc.)</h3>
+<p><strong>Inserir data que atualiza automaticamente:</strong>
+1. Inserir → Data e hora
+2. Escolha se quer que atualize sempre ou fique fixa</p>
+<p><strong>Inserir número de páginas:</strong>
+1. Inserir → Número de páginas → Contagem de páginas
+2. Ou: <code>Inserir → Cabeçalhos e rodapés → Número da página</code></p>
+<p><strong>Campos úteis:</strong>
+- Contagem de palavras (atualiza automaticamente)
+- Número de página atual / total de páginas
+- Título do documento (se mudar título, atualiza em todos lugares)</p>
+<p><strong>Exemplo de rodapé profissional:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="p">[</span><span class="n">Nome</span><span class="w"> </span><span class="n">Empresa</span><span class="p">]</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Confidencial</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Página</span><span class="w"> </span><span class="p">[</span><span class="n">X</span><span class="p">]</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="p">[</span><span class="n">Y</span><span class="p">]</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Atualizado</span><span class="w"> </span><span class="n">em</span><span class="w"> </span><span class="p">[</span><span class="n">DD</span><span class="o">/</span><span class="n">MM</span><span class="o">/</span><span class="n">AAAA</span><span class="p">]</span>
+</code></pre></div>
+
+<p>Insira os campos automaticamente:
+- Nome Empresa: digite manualmente
+- "Página X de Y": Inserir → Número de páginas
+- Data: Inserir → Data</p>
+<h3>Conversão e Exportação Inteligente</h3>
+<p><strong>Exportar para PDF com opções:</strong></p>
+<p><strong>Método 1: Básico</strong>
+- Arquivo → Download → PDF</p>
+<p><strong>Método 2: Avançado (Apps Script para múltiplos documentos)</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">exportarParaPDF</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">doc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">getActiveDocument</span><span class="p">();</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">docId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">doc</span><span class="p">.</span><span class="nx">getId</span><span class="p">();</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">nome</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">doc</span><span class="p">.</span><span class="nx">getName</span><span class="p">();</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">pdf</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFileById</span><span class="p">(</span><span class="nx">docId</span><span class="p">).</span><span class="nx">getAs</span><span class="p">(</span><span class="s1">&#39;application/pdf&#39;</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">pdf</span><span class="p">.</span><span class="nx">setName</span><span class="p">(</span><span class="nx">nome</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;_&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">().</span><span class="nx">toLocaleDateString</span><span class="p">(</span><span class="s1">&#39;pt-BR&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;.pdf&quot;</span><span class="p">);</span>
+
+<span class="w">  </span><span class="c1">// Salvar em pasta específica</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">pasta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DriveApp</span><span class="p">.</span><span class="nx">getFolderById</span><span class="p">(</span><span class="s2">&quot;ID_DA_PASTA_PDF&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">pasta</span><span class="p">.</span><span class="nx">createFile</span><span class="p">(</span><span class="nx">pdf</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><strong>Exportar para Word (.docx):</strong>
+- Arquivo → Download → Microsoft Word</p>
+<p><strong>Dica:</strong> Para manter formatação, exporte via Google Docs. Para editar no Word, exporte .docx.</p>
+<h3>Modelos de Documentos por Tipo de Projeto</h3>
+<p><strong>Modelo 1: Relatório Técnico (Projetos de TI/Engenharia)</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="nv">Capa</span>:
+<span class="o">-</span><span class="w"> </span><span class="nv">Logo</span>
+<span class="o">-</span><span class="w"> </span><span class="nv">T</span>í<span class="nv">tulo</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="nv">Projeto</span>
+<span class="o">-</span><span class="w"> </span><span class="nv">Vers</span>ã<span class="nv">o</span>
+<span class="o">-</span><span class="w"> </span><span class="nv">Data</span>
+<span class="o">-</span><span class="w"> </span><span class="nv">Autor</span>
+
+<span class="nv">Sum</span>á<span class="nv">rio</span><span class="w"> </span><span class="ss">(</span><span class="nv">autom</span>á<span class="nv">tico</span><span class="ss">)</span>
+
+<span class="mi">1</span>.<span class="w"> </span><span class="nv">Resumo</span><span class="w"> </span><span class="nv">Executivo</span>
+<span class="mi">2</span>.<span class="w"> </span><span class="nv">Introdu</span>çã<span class="nv">o</span>
+<span class="w">   </span><span class="mi">2</span>.<span class="mi">1</span><span class="w"> </span><span class="nv">Contexto</span>
+<span class="w">   </span><span class="mi">2</span>.<span class="mi">2</span><span class="w"> </span><span class="nv">Objetivos</span>
+<span class="mi">3</span>.<span class="w"> </span><span class="nv">Metodologia</span>
+<span class="mi">4</span>.<span class="w"> </span><span class="nv">Resultados</span>
+<span class="w">   </span><span class="mi">4</span>.<span class="mi">1</span><span class="w"> </span><span class="nv">An</span>á<span class="nv">lise</span>
+<span class="w">   </span><span class="mi">4</span>.<span class="mi">2</span><span class="w"> </span><span class="nv">Descobertas</span>
+<span class="mi">5</span>.<span class="w"> </span><span class="nv">Conclus</span>õ<span class="nv">es</span>
+<span class="mi">6</span>.<span class="w"> </span><span class="nv">Recomenda</span>çõ<span class="nv">es</span>
+<span class="mi">7</span>.<span class="w"> </span><span class="nv">Anexos</span>
+</code></pre></div>
+
+<p><strong>Modelo 2: Manual de Usuário</strong></p>
+<div class="codehilite"><pre><span></span><code>Capa + Sumário
+
+1. Visão Geral
+   - O que é o sistema
+   - Para quem é
+2. Primeiros Passos
+   - Como acessar
+   - Login
+3. Funcionalidades Principais
+   (1 seção por funcionalidade)
+   - O que faz
+   - Como usar (passo a passo)
+   - Capturas de tela
+   - Dicas
+4. Solução de Problemas (FAQ)
+5. Contato para Suporte
+</code></pre></div>
+
+<p><strong>Modelo 3: Documentação de API</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="mf">1.</span><span class="w"> </span><span class="nb">Int</span><span class="n">rodução</span>
+<span class="mf">2.</span><span class="w"> </span><span class="n">Autenticação</span>
+<span class="mf">3.</span><span class="w"> </span><span class="kr">End</span><span class="n">points</span>
+<span class="w">   </span><span class="n">Para</span><span class="w"> </span><span class="n">cada</span><span class="w"> </span><span class="kr">end</span><span class="n">point</span><span class="p">:</span>
+<span class="w">   </span><span class="o">-</span><span class="w"> </span><span class="n">Nome</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="n">descrição</span>
+<span class="w">   </span><span class="o">-</span><span class="w"> </span><span class="n">Método</span><span class="w"> </span><span class="n">HTTP</span><span class="w"> </span><span class="p">(</span><span class="kr">GET</span><span class="o">/</span><span class="nb">POS</span><span class="n">T</span><span class="o">/</span><span class="n">etc</span><span class="p">)</span>
+<span class="w">   </span><span class="o">-</span><span class="w"> </span><span class="n">URL</span>
+<span class="w">   </span><span class="o">-</span><span class="w"> </span><span class="n">Parâmetros</span>
+<span class="w">   </span><span class="o">-</span><span class="w"> </span><span class="n">Exemplo</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Request</span>
+<span class="w">   </span><span class="o">-</span><span class="w"> </span><span class="n">Exemplo</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Response</span>
+<span class="w">   </span><span class="o">-</span><span class="w"> </span><span class="n">Códigos</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">erro</span><span class="w"> </span><span class="nb">pos</span><span class="n">síveis</span>
+<span class="mf">4.</span><span class="w"> </span><span class="n">Rate</span><span class="w"> </span><span class="n">Limiting</span>
+<span class="mf">5.</span><span class="w"> </span><span class="n">Changelog</span><span class="w"> </span><span class="p">(</span><span class="n">histórico</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">versões</span><span class="p">)</span>
+</code></pre></div>
+
+<h3>Checklist de Qualidade para Documentos</h3>
+<p><strong>Antes de enviar qualquer documento importante, verifique:</strong></p>
+<p><strong>Conteúdo:</strong>
+- [ ] Todas informações estão corretas e atualizadas?
+- [ ] Números/datas conferidos?
+- [ ] Nomes de pessoas/empresas corretos?
+- [ ] Links funcionando?
+- [ ] Anexos incluídos (se mencionados)?</p>
+<p><strong>Formatação:</strong>
+- [ ] Fonte consistente (recomendado: Arial 11 ou Calibri 11)
+- [ ] Margens adequadas (2.5cm sugerido)
+- [ ] Espaçamento entre linhas (1.15 ou 1.5)
+- [ ] Títulos formatados como Título 1/2/3 (não só negrito)
+- [ ] Alinhamento correto (justificado para textos longos)</p>
+<p><strong>Elementos visuais:</strong>
+- [ ] Logo da empresa (se documento externo)
+- [ ] Cabeçalho/Rodapé (com data, nº página)
+- [ ] Sumário (se &gt; 5 páginas)
+- [ ] Tabelas formatadas consistentemente
+- [ ] Imagens com qualidade adequada</p>
+<p><strong>Revisão:</strong>
+- [ ] Corretor ortográfico rodado
+- [ ] Lido em voz alta (pega erros que leitura silenciosa não pega)
+- [ ] Segunda pessoa revisou (se documento importante)
+- [ ] Versão final salva com nomenclatura correta</p>
+<p><strong>Distribuição:</strong>
+- [ ] Formato certo (PDF para externos, Google Docs para internos colaborativos)
+- [ ] Permissões de acesso configuradas
+- [ ] Email de envio revisado
+- [ ] Destinatários confirmados</p>
+<h3>Integração com Outras Ferramentas</h3>
+<p><strong>Google Docs + Slack:</strong></p>
+<p>Apps Script para notificar Slack quando documento é atualizado:</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">notificarSlack</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">doc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">getActiveDocument</span><span class="p">();</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">doc</span><span class="p">.</span><span class="nx">getUrl</span><span class="p">();</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">nome</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">doc</span><span class="p">.</span><span class="nx">getName</span><span class="p">();</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">webhookUrl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;SUA_WEBHOOK_URL_DO_SLACK&quot;</span><span class="p">;</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">payload</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="s2">&quot;text&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;📄 Documento atualizado: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">nome</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;\n&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">url</span>
+<span class="w">  </span><span class="p">};</span>
+
+<span class="w">  </span><span class="nx">UrlFetchApp</span><span class="p">.</span><span class="nx">fetch</span><span class="p">(</span><span class="nx">webhookUrl</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;post&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">contentType</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">payload</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">payload</span><span class="p">)</span>
+<span class="w">  </span><span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><strong>Google Docs + Trello:</strong></p>
+<p>Criar card no Trello quando documento é criado:</p>
+<p>Via Zapier:
+- Trigger: Google Docs - "New Document in Folder"
+- Action: Trello - "Create Card"</p>
+<p><strong>Google Docs + Notion:</strong></p>
+<p>Copiar documento do Docs para Notion (via Zapier ou Make):
+- Útil para centralizar documentação</p>
+<p><strong>Google Docs + Google Calendar:</strong></p>
+<p>Incluir link de documento em eventos do Calendar (para atas de reunião):</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">criarEventoComDoc</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">doc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DocumentApp</span><span class="p">.</span><span class="nx">getActiveDocument</span><span class="p">();</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">docUrl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">doc</span><span class="p">.</span><span class="nx">getUrl</span><span class="p">();</span>
+
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">evento</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">CalendarApp</span><span class="p">.</span><span class="nx">getDefaultCalendar</span><span class="p">().</span><span class="nx">createEvent</span><span class="p">(</span>
+<span class="w">    </span><span class="s1">&#39;Reunião Semanal&#39;</span><span class="p">,</span>
+<span class="w">    </span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;December 15, 2024 10:00:00&#39;</span><span class="p">),</span>
+<span class="w">    </span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">(</span><span class="s1">&#39;December 15, 2024 11:00:00&#39;</span><span class="p">),</span>
+<span class="w">    </span><span class="p">{</span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Ata: &#39;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">docUrl</span><span class="p">}</span>
+<span class="w">  </span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<hr />
+<h2>RESUMO DO MÓDULO: O Que Você Aprendeu</h2>
+<p>✅ <strong>O problema da documentação manual:</strong> 4-6h/semana desperdiçadas
+✅ <strong>Templates inteligentes:</strong> 10 modelos prontos + como criar seus
+✅ <strong>IA para documentos:</strong> 10 prompts para diferentes tipos
+✅ <strong>Automação de relatórios:</strong> Sistema 100% automático
+✅ <strong>Organização de arquivos:</strong> Nomenclatura + estrutura + versionamento
+✅ <strong>Apresentações automatizadas:</strong> Slides conectados a dados
+✅ <strong>Exercícios práticos:</strong> 3 implementações reais</p>
+<hr />
+<h2>RESULTADO ESPERADO</h2>
+<p><strong>Antes:</strong>
+- ⏱ 4-6 horas/semana em documentação
+- 😫 Copiar/colar dados manualmente
+- 📝 Erros e inconsistências
+- 🗂 Drive bagunçado</p>
+<p><strong>Depois:</strong>
+- ⏱ 30min-1h/semana (só revisão)
+- 🤖 Relatórios automáticos
+- ✅ Documentos padronizados e precisos
+- 📁 Tudo organizado e encontrável</p>
+<p><strong>Economia:</strong> <strong>3-5 horas por semana = Meio dia de trabalho!</strong></p>
+<hr />
+<h2>PRÓXIMO PASSO</h2>
+<p><strong>Parabéns!</strong> Você completou os 3 módulos centrais da <strong>Trilha Operacional Produtivo</strong>:</p>
+<p>✅ Módulo 5: Emails automatizados (7-8h economizadas/semana)
+✅ Módulo 6: Planilhas inteligentes (3-5h economizadas/semana)
+✅ Módulo 7: Documentação automática (3-5h economizadas/semana)</p>
+<p><strong>Total potencial: 13-18 horas economizadas por semana!</strong></p>
+<p>Isso é <strong>quase meio mês de trabalho por ano</strong> recuperado.</p>
+<p>Continue implementando, automatizando e otimizando. Seu futuro eu agradece!</p>
+<hr />
+<p><strong>© 2025 FETD - Formação em Engenharia de Intenção</strong></p>
+    </div>
+</body>
+</html>

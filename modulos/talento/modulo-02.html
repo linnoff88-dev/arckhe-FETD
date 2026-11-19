@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 2: Construindo Seu Perfil Profissional | Trilha Talento Emergente | FETD</title>
+  <meta name="description" content="Criar um perfil que chama atenção de recrutadores e abre portas">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'talento': '#F59E0B',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+    .preload * {
+      transition: none !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white/95 dark:bg-neutral-800/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-700 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="../../index.html" class="text-2xl font-bold bg-gradient-to-r from-talento to-amber-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+            🎓 FETD
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-talento transition-colors font-medium">Início</a>
+          <a href="../../trilhas/talento.html" class="text-neutral-700 dark:text-neutral-300 hover:text-talento transition-colors font-medium">Trilha Talento Emergente</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 hover:bg-talento/10 transition-colors">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm font-medium" aria-label="Breadcrumb">
+        <a href="../../index.html" class="text-talento hover:opacity-80 transition-opacity">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <a href="../../trilhas/talento.html" class="text-talento hover:opacity-80 transition-opacity">Trilha Talento Emergente</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Módulo 2</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Módulo -->
+  <section class="bg-gradient-to-br from-talento via-talento to-amber-600 py-20 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-white/5 bg-[size:20px_20px]"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white relative z-10">
+
+      <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg">Módulo 2 de 10</span>
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg flex items-center gap-2">
+          <span>⏱️</span>
+          <span>60-75 minutos</span>
+        </span>
+      </div>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+        Módulo 2: Construindo Seu Perfil Profissional
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/95 mb-8 max-w-3xl font-medium leading-relaxed">
+        Criar um perfil que chama atenção de recrutadores e abre portas
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 text-white/90">
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">📚</span> Teoria</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">💭</span> Reflexão</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">🛠️</span> Prática</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <section class="py-16 bg-white dark:bg-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Download Button -->
+      <div class="flex justify-end mb-8">
+        <a href="../../downloads/talento/modulo-02.md" download class="px-6 py-3 bg-gradient-to-r from-talento to-amber-600 text-white rounded-lg font-bold hover:opacity-90 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
+          <span class="text-xl">📥</span>
+          <span>Download MD</span>
+        </a>
+      </div>
+
+
+      <!-- Objetivo do Módulo -->
+      <div class="bg-talento/10 dark:bg-talento/20 border-l-4 border-talento p-6 rounded-lg mb-12 shadow-lg">
+        <h3 class="text-xl font-bold text-talento mb-2 flex items-center gap-2">
+          <span class="text-2xl">🎯</span>
+          <span>Objetivo deste Módulo</span>
+        </h3>
+        <p class="text-neutral-700 dark:text-neutral-300 text-lg">
+          Criar um perfil que chama atenção de recrutadores e abre portas
+        </p>
+      </div>
+
+
+
+      <!-- Seção: Introdução: Seu Perfil É Sua Vitrine Digital -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Introdução: Seu Perfil É Sua Vitrine Digital</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">No módulo anterior, você descobriu que o mercado mudou radicalmente. Empresas contratam por habilidades demonstradas, não por diplomas ou anos de experiência. Mas aqui está a verdade brutal: <strong class="font-bold">se você não mostra suas habilidades de forma eficaz, para o mercado elas não existem</strong>.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Imagine essa situação: um recrutador de uma startup que paga R$ 7.000/mês para um Analista de Automação Júnior está procurando candidatos no LinkedIn. Ele digita "automação make zapier" e encontra 2.847 perfis. Ele vai analisar quantos desses perfis? No máximo 20-30.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">E quanto tempo ele gasta olhando cada perfil antes de decidir se vai continuar lendo ou passar para o próximo?</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Entre 6 e 8 segundos.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Isso mesmo. Você tem menos de 10 segundos para capturar a atenção de alguém que pode mudar sua vida profissional. Se o seu perfil não comunicar valor claramente nesses primeiros segundos, você perdeu a oportunidade.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">A boa notícia? A maioria dos perfis é terrível. Se você aplicar o que vai aprender neste módulo, estará automaticamente no top 5% dos candidatos.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Neste módulo você vai aprender exatamente como construir um perfil profissional que:
+- Faz recrutadores pararem o scroll e prestarem atenção
+- Demonstra competência mesmo sem anos de experiência formal
+- Posiciona você como alguém que resolve problemas reais
+- Gera oportunidades de forma passiva (pessoas te encontram e te procuram)
+- Funciona como máquina de oportunidades 24/7</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vamos cobrir quatro pilares essenciais:
+1. <strong class="font-bold">LinkedIn Otimizado:</strong> Como ser encontrado e escolhido
+2. <strong class="font-bold">Portfólio Digital:</strong> Mostrar valor de forma tangível
+3. <strong class="font-bold">Vídeo Apresentação:</strong> Impacto 10x maior que texto
+4. <strong class="font-bold">Networking Estratégico:</strong> Construir relacionamentos que geram oportunidades</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 1. LinkedIn que Vende: Transforme Seu Perfil em Máquina de Oportunidades -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">1. LinkedIn que Vende: Transforme Seu Perfil em Máquina de Oportunidades</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.1 Por Que LinkedIn É Sua Prioridade Absoluta #1</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Antes de mais nada, vamos estabelecer um fato: <strong class="font-bold">LinkedIn não é apenas mais uma rede social profissional</strong>. É o lugar onde acontece a maior parte das contratações em tecnologia e áreas relacionadas no Brasil.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Dados concretos do mercado brasileiro (2024-2025):</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">87% dos recrutadores</strong> usam LinkedIn como ferramenta primária para encontrar candidatos</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">70% das contratações em tech</strong> começam com uma busca no LinkedIn (não em portais de emprego tradicionais)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Perfis com <strong class="font-bold">foto profissional</strong> recebem 14x mais visualizações que perfis sem foto</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Perfis <strong class="font-bold">100% completos</strong> recebem 40x mais oportunidades que perfis incompletos</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Profissionais que <strong class="font-bold">postam conteúdo regularmente</strong> (2-3x por semana) recebem 5x mais mensagens de recrutadores</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">92% dos recrutadores</strong> procuram candidatos fora de portais de emprego tradicionais - eles vão direto ao LinkedIn</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Mas aqui está o grande segredo que a maioria não entende: <strong class="font-bold">LinkedIn não é um currículo digital</strong>. É uma <strong class="font-bold">ferramenta de marketing pessoal</strong>.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Pense assim:
+- <strong class="font-bold">Currículo:</strong> Lista passiva e estática do que você fez no passado
+- <strong class="font-bold">LinkedIn:</strong> Vitrine ativa e dinâmica do que você pode fazer e do valor que entrega</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Um currículo espera alguém pedir para vê-lo. Um LinkedIn bem construído atrai oportunidades constantemente, sem você fazer nada.</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.2 Headline: A Linha Que Define Se Você É Clicado ou Ignorado</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Sua headline do LinkedIn é disparado o elemento mais importante do seu perfil. Ela aparece:
+- Em <strong class="font-bold">todas as buscas</strong> que recrutadores fazem
+- Quando você <strong class="font-bold">comenta em posts</strong> (milhares de pessoas podem ver)
+- Em <strong class="font-bold">"Pessoas que você talvez conheça"</strong> (recomendações automáticas)
+- No topo do seu perfil quando alguém <strong class="font-bold">visita sua página</strong>
+- Em <strong class="font-bold">notificações</strong> quando você aparece no radar de recrutadores</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O erro mortal que 95% das pessoas cometem:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>❌ "Estudante de Administração"
+   Problema: Não diz o que você FAZ, só o que você ESTUDA</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ "Em busca de oportunidades"
+   Problema: Todo mundo está. Você não se diferencia.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ "Profissional de TI"
+   Problema: Vago demais. TI é um universo enorme.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ "Analista Jr."
+   Problema: Não comunica especialização ou valor.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ "Formado em Ciência da Computação | Buscando primeiro emprego"
+   Problema: Foca no que você NÃO tem (experiência) em vez do que você oferece
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Essas headlines são <strong class="font-bold">invisíveis</strong>. Elas não comunicam nada específico, não demonstram valor, não chamam atenção. São genéricas ao ponto de serem inúteis.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Headlines que realmente funcionam (exemplos reais de candidatos contratados):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>✅ "Especialista em Automação No-Code | Make & Zapier | Economizo 20h/semana para empresas"
+   
+   Por que funciona:
+   - Específico (automação no-code, não "tech")
+   - Ferramentas concretas (Make & Zapier)
+   - Resultado mensurável (20h/semana)
+   - Fala a linguagem do negócio (economia)</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ "Prompt Engineer | Otimizo processos com IA | ChatGPT + Claude + Gemini"
+   
+   Por que funciona:
+   - Posição específica e quente (Prompt Engineer)
+   - Valor claro (otimização de processos)
+   - Stack tecnológico visível (as 3 IAs principais)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ "Analista de Dados com IA | Transformo planilhas em insights acionáveis | 15+ empresas atendidas"
+   
+   Por que funciona:
+   - Diferenciação (dados COM IA, não análise tradicional)
+   - Transformação clara (planilhas → insights)
+   - Prova social (15+ empresas)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ "Notion Expert | Organizo conhecimento para startups | +20 workspaces criados | ROI em <60 dias"
+   
+   Por que funciona:
+   - Especialização clara (Notion)
+   - Nicho definido (startups)
+   - Volume demonstrado (20 workspaces)
+   - Resultado de negócio (ROI rápido)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">A estrutura vencedora de headline (use este template):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>[O que você faz] | [Ferramentas/tecnologias que domina] | [Resultado que entrega]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Opcionalmente adicione:
++ [Prova social ou diferenciador]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplos específicos por área de atuação:</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Se você foca em IA:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+"AI Operations Specialist | ChatGPT + Claude + Perplexity | Acelero produtividade em 300%"
+"Especialista em Prompt Engineering | Automação de análises com IA | 50+ processos otimizados"
+"IA para Atendimento | Reduzo tempo de resposta em 80% | Chatbots + Automação"
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Se você foca em automação:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+"Automation Engineer | Make + Zapier + n8n | Elimino 15-25h de trabalho manual/semana"
+"Especialista No-Code | Integro sistemas sem programar | 100+ automações criadas"
+"Consultor de Automação | Processos repetitivos → Fluxos automáticos | ROI <3 meses"
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Se você foca em dados:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+"Data Analyst com IA | Python + Excel + ChatGPT | Insights que geram ROI real"
+"Analista de Dados | Dashboards automatizados | Decisões baseadas em dados"
+"BI com IA | Transformo dados brutos em estratégia de negócio"
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Se você foca em Notion/Organização:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+"Knowledge Manager | Notion + IA | Organizo empresas caóticas em 2-3 semanas"
+"Especialista Notion | Sistemas de produtividade para startups | 30+ clientes"
+"Consultor de Processos | Notion + Automação | Onboarding 3x mais rápido"
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exercício prático imediato:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Pare agora e escreva <strong class="font-bold">3 versões diferentes</strong> da sua headline seguindo a estrutura. Não continue lendo até fazer isso. Use um documento, post-it, qualquer coisa. Depois:</p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Poste as 3 versões em um grupo do LinkedIn pedindo feedback</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Teste cada versão por 1 semana e veja qual gera mais visualizações de perfil</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Escolha a vencedora e refine ainda mais</li>
+          </ol>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.3 Seção "Sobre": Onde Interesse Vira Ação</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">A seção "Sobre" do LinkedIn é onde você transforma o interesse inicial (gerado pela headline) em <strong class="font-bold">ação</strong> (recrutador te chamar para conversar ou enviar vaga).</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Recrutadores que clicaram no seu perfil vão ler esta seção para responder três perguntas:
+1. "Essa pessoa realmente sabe fazer o que diz?"
+2. "Ela pode resolver os problemas que eu tenho?"
+3. "Vale a pena gastar meu tempo entrando em contato?"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Se você não responder essas três perguntas de forma clara e convincente, eles fecham seu perfil e passam para o próximo candidato.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O erro fatal que 90% comete:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>❌ Exemplo de seção "Sobre" RUIM:</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">"Sou uma pessoa dedicada, proativa e comprometida, que busca sempre aprender e crescer profissionalmente. Tenho muito interesse em tecnologia e inovação, e gostaria de trabalhar em uma empresa inovadora onde possa desenvolver minhas habilidades e contribuir para o sucesso da equipe.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Sou comunicativo, trabalho bem em equipe, e estou sempre disposto a enfrentar novos desafios. Busco uma oportunidade onde possa aplicar meus conhecimentos e crescer na carreira."
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Problemas deste exemplo:</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Genérico:</strong> Poderia ser de qualquer pessoa em qualquer área
+2. <strong class="font-bold">Centrado em você:</strong> "Eu quero", "Eu busco" (recrutador quer saber o que VOCÊ oferece, não o que você quer)
+3. <strong class="font-bold">Sem especificidade:</strong> "Tecnologia e inovação" não diz nada
+4. <strong class="font-bold">Soft skills vazias:</strong> "Dedicado, proativo" - todo mundo diz isso
+5. <strong class="font-bold">Sem prova:</strong> Não há evidência de nada do que é afirmado
+6. <strong class="font-bold">Não responde:</strong> "Por que eu deveria te contratar?"</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O que realmente funciona: 3 templates comprovados</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Template 1: Problema → Solução → Prova Social</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Empresas perdem entre 15-20 horas por semana com tarefas repetitivas que poderiam ser automatizadas. Emails que precisam de resposta padrão. Dados que precisam ser transferidos entre sistemas manualmente. Relatórios que levam horas para compilar. [PROBLEMA ESPECÍFICO]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Eu ajudo startups e PMEs a recuperar esse tempo criando automações inteligentes usando Make, Zapier e IA. [SOLUÇÃO CLARA]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Nos últimos 6 meses, trabalhei com: [PROVA QUANTIFICADA]
+• 8 empresas (e-commerce, SaaS, consultorias)
+• Economizei em média 18 horas/semana por cliente
+• ROI médio de 300% nos primeiros 2 meses
+• Taxa de satisfação: 100% (todos renovaram contrato)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Meu processo: [COMO VOCÊ TRABALHA]
+1. Auditoria de processos (identific0 gargalos)
+2. Mapeamento de automações prioritárias
+3. Implementação e testes
+4. Treinamento da equipe
+5. Monitoramento e otimização contínua</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ferramentas que domino: [STACK TÉCNICO]
+✅ Make & Zapier (automação)
+✅ ChatGPT & Claude (IA)
+✅ Notion & Airtable (bases de dados)
+✅ Google Workspace completo
+✅ APIs e webhooks</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Procurando automatizar processos? [CALL TO ACTION]
+Mande mensagem! Respondo em <24h.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Pode ver depoimentos de clientes nas recomendações abaixo 👇
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Template 2: História Pessoal → Transformação → Oferta</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Há 10 meses, eu era assistente administrativo ganhando R$ 2.200/mês, passando 6 horas/dia fazendo trabalho manual repetitivo: copiar dados entre planilhas, enviar emails padrão, gerar relatórios manualmente. [HISTÓRIA RELATÁVEL]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Cansado da frustração, decidi aprender automação e IA. Estudei 3h/dia por 4 meses. Criei 12 projetos práticos. Automatizei meu próprio trabalho (reduzi 6h/dia para 45min/dia). Documentei tudo no LinkedIn. [JORNADA DE TRANSFORMAÇÃO]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Os resultados: [EVIDÊNCIA CONCRETA]
+• Meu chefe viu o que fiz e me promoveu
+• Comecei a fazer freelances à noite (primeiro: R$ 800)
+• Em 6 meses estava ganhando mais freelance que no CLT
+• Hoje coordeno automação em uma startup (R$ 6.500/mês)
+• Trabalho 100% remoto
+• Ainda faço consultoria nos fins de semana (R$ 2.000-4.000/mês extra)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Minha missão agora: [PROPÓSITO]
+Ajudar outras pessoas a fazer a mesma transição que eu fiz.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Se você está preso em trabalho repetitivo e quer acelerar sua transição de carreira para tech, posso compartilhar exatamente:
+✅ O que funcionou (e economizou 6 meses de tentativa e erro)
+✅ O que NÃO funcionou (erros que cometi)
+✅ Roadmap detalhado que segui
+✅ Recursos gratuitos que usei</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Minha DM está aberta. Vamos trocar ideias? [OFERTA GENUÍNA]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Template 3: Especialização → Resultados → Processo → Prova Social</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Eu transformo empresas caóticas em organizações eficientes usando Notion + IA. [ESPECIALIZAÇÃO CLARA]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">O problema que resolvo: [DEFINIÇÃO DO PROBLEMA]
+Startups crescem rápido e viram bagunça. Informação espalhada em 10 ferramentas diferentes. Processos na cabeça das pessoas. Novos funcionários levam 2 meses para se ambientar. Tempo perdido procurando informações: 10-15h/semana.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Meu processo: [METODOLOGIA]
+1️⃣ Auditoria completa: entrevisto time, identifico gargalos (1 semana)
+2️⃣ Arquitetura da informação: desenho sistema completo no Notion (3-5 dias)
+3️⃣ Implementação: wiki interna, gestão de projetos, CRM, base de clientes (1-2 semanas)
+4️⃣ Integração: conecto com Slack, Gmail, CRM existente (2-3 dias)
+5️⃣ Treinamento: garanto que toda equipe adota o sistema (1 semana)
+6️⃣ Suporte: 30 dias de ajustes e otimizações</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Resultados típicos dos meus clientes: [OUTCOMES MENSURÁVEIS]
+📊 40% menos tempo procurando informações
+📈 Onboarding de novos funcionários 3x mais rápido (de 8 semanas para 2-3)
+💰 ROI em menos de 2 meses
+⭐ Taxa de adoção: 95%+ (vs 30% média de mercado)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Casos recentes: [PROVA SOCIAL]
+• Startup SaaS (35 pessoas): reduziu 12h/semana em reuniões
+• Agência digital (18 pessoas): onboarding de 6 semanas para 10 dias
+• E-commerce (22 pessoas): centralizou informação de 8 ferramentas em 1</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Depoimentos completos nas recomendações abaixo 👇</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Stack técnico: [FERRAMENTAS]
+• Notion (expert level)
+• Make/Zapier (integrações)
+• ChatGPT/Claude (IA para templates e automação)
+• Airtable, Google Workspace</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quer organizar sua empresa e parar de perder tempo? [CTA DIRETO]
+Me chama! Primeira consultoria de 30min é gratuita.
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Elementos obrigatórios em qualquer template:</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Comece com problema ou resultado</strong> (não com "Eu sou...")</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Use números concretos</strong> (horas economizadas, % de melhoria, quantidade de projetos, R$ economizados)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Liste ferramentas específicas</strong> (não "conhecimento em tecnologias diversas")</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Inclua processo</strong> (mostre COMO você trabalha, não só o QUE você faz)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Tenha prova social</strong> (números de clientes, resultados, depoimentos)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">CTA claro</strong> (Call-to-Action: diga exatamente o que você quer que façam)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Use formatação</strong> (emojis moderados, bullets, espaçamento - facilita leitura escaneável)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Foque no valor para o cliente</strong> (não no que VOCÊ quer, mas no que VOCÊ oferece)</li>
+          </ol>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.4 Experiência: Como Mostrar Valor Mesmo Sem "Experiência Formal"</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">A maior objeção de quem está começando: "Mas eu não tenho experiência profissional. O que eu coloco na seção de experiência?"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Aqui está a verdade libertadora: <strong class="font-bold">você não precisa de anos de CLT para preencher a seção de experiência</strong>. Você precisa <strong class="font-bold">demonstrar que sabe fazer</strong> o que diz que sabe.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Projetos pessoais SÃO experiência. Trabalho voluntário É experiência. Freelances de R$ 300 SÃO experiência. Até automatizar processos da sua própria vida é experiência demonstrável.</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Regra de ouro:</span> <span class="text-neutral-700 dark:text-neutral-300">Se você FEZ, você pode (e deve) listar.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Formato profissional para projetos pessoais:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>🔧 Automação Freelance
+Jan 2024 - Presente | Freelancer Autônomo</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Crio automações personalizadas para pequenas e médias empresas usando Make, Zapier e integrações com IA.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Realizações:
+• 15+ automações implementadas para clientes de diversos setores
+• Economia média documentada: 12 horas/semana por cliente
+• Taxa de satisfação: 100% (todos os clientes renovaram ou indicaram)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Projetos destacados:
+→ E-commerce de moda: automatizei processo de pedidos (Shopify → Planilha → Email → Logística)
+   Resultado: de 8h/dia de trabalho manual para 20min/dia
+   
+→ Agência de marketing: integrei CRM + Email + Notion + Slack
+   Resultado: time economiza 15h/semana em tarefas administrativas
+   
+→ Consultoria: criei sistema de relatórios automáticos
+   Resultado: relatórios que levavam 4h agora são gerados em 10min</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ferramentas: Make, Zapier, Google Sheets, Airtable, Notion, ChatGPT API</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Link para portfolio com cases detalhados]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Formato para projetos de IA/Prompts:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>🤖 Projetos de IA e Prompt Engineering
+Jun 2024 - Presente | Portfólio Pessoal</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Desenvolvo e documento prompts avançados e workflows com IA para diversos casos de uso profissionais.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Realizações:
+• 20+ prompts avançados documentados (análise de dados, criação de conteúdo, automação)
+• Biblioteca pública de prompts com 350+ downloads no GitHub
+• 5 empresas usando meus templates de prompts em produção</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Casos de uso desenvolvidos:
+→ Análise de vendas: prompt que analisa 5.000+ linhas e identifica padrões de churn
+→ Geração de relatórios: template que transforma dados brutos em executive summary
+→ Customer insights: workflow que extrai sentimentos e temas de 1.000+ reviews
+→ Automação de email: sistema que categoriza e responde 80% dos emails automaticamente</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Stack: ChatGPT (GPT-4), Claude 3, Gemini Pro, Perplexity, Code Interpreter</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Alguns templates disponíveis em: [link GitHub ou Notion público]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Formato para trabalho voluntário:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>📊 Consultor de Dados (Voluntário)
+Mar 2024 - Mai 2024 | ONG Educação para Todos</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Realizei análise de dados pro-bono para identificar padrões de evasão escolar e otimizar programas de retenção.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Escopo do projeto:
+• Analisei base histórica de 5.000+ alunos (3 anos de dados)
+• Identifiquei 7 indicadores principais de risco de evasão
+• Criei modelo preditivo simples usando ChatGPT + Excel
+• Desenvolvi dashboard automatizado no Google Sheets
+• Treinei equipe para usar e atualizar o sistema</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Resultados mensuráveis:
+📉 Redução de 23% na evasão no trimestre seguinte à implementação
+⏱️ Equipe economiza 8 horas/semana que gastava compilando dados manualmente
+📊 Dashboard usado semanalmente em reuniões de planejamento
+🎯 100% das recomendações foram implementadas</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ferramentas utilizadas: Excel, ChatGPT, Google Sheets, Data Studio, Python básico</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Depoimento da coordenadora disponível nas recomendações 👇
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Formato para projetos pessoais (sim, contam!):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>🏠 Automação e Otimização Pessoal
+Fev 2024 - Presente | Projeto de Aprendizado Prático</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Aplico ferramentas de automação e IA para otimizar minha própria vida, testando tecnologias e construindo portfólio demonstrável.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Sistemas criados:
+→ Finanças pessoais automatizadas
+   • Extrato bancário → Planilha categorizada automaticamente
+   • Alertas automáticos quando gasto ultrapassa orçamento
+   • Relatório mensal gerado e enviado todo dia 1º
+   Economia de tempo: 5h/mês → 10min/mês
+   
+→ Sistema de aprendizado
+   • Notion integrado com Readwise, Pocket, YouTube
+   • IA resume artigos e vídeos automaticamente
+   • Flashcards gerados automaticamente para revisão espaçada
+   Resultado: consumo e retenho 3x mais conteúdo
+   
+→ Produtividade e tarefas
+   • Inbox universal (email, WhatsApp, Slack → Notion)
+   • Priorização automática baseada em contexto
+   • Lembretes inteligentes
+   Aumento de produtividade mensurável: 40%</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Aprendizados documentados:
+• 12 posts no LinkedIn ensinando o que aprendi
+• 1.200+ pessoas alcançadas
+• 3 pessoas replicaram meus sistemas</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ferramentas: Make, Zapier, Notion, ChatGPT, Google Apps, Python</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Portfolio visual: [link Notion público com screenshots e vídeos]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Formato para cursos e certificações (quando relevante):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>📜 Formação e Certificações em IA e Automação
+2024 | Aprendizado Contínuo</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Certificações profissionais:
+✅ Make Academy - Advanced Automation (Completed)
+✅ ChatGPT Prompt Engineering (Deeplearning.ai)
+✅ Google Data Analytics Certificate
+✅ Notion Essentials Badge</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Projetos de certificação:
+Cada certificação incluiu projeto final prático aplicado a caso real:
+• Make: Sistema de onboarding automatizado (implementado em 2 empresas)
+• ChatGPT: Biblioteca de 50+ prompts para análise de dados
+• Google Analytics: Dashboard de métricas para e-commerce
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Dica pro:</span> <span class="text-neutral-700 dark:text-neutral-300">Para cada experiência, sempre inclua:</span></p>
+          </div>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">O que você fez</strong> (ação específica)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Como você fez</strong> (ferramentas, processo)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Resultado</strong> (impacto mensurável em horas, R$, % ou outro KPI)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Prova</strong> (link, depoimento, screenshot, vídeo)</li>
+          </ol>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.5 Habilidades (Skills): O Que Adicionar e Por Quê</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">A seção de Skills do LinkedIn não é decorativa. É uma das formas principais que recrutadores usam para <strong class="font-bold">encontrar</strong> candidatos.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quando um recrutador procura "Make automation" no LinkedIn, o algoritmo mostra perfis que:
+1. Têm "Make" e "automation" nas skills
+2. Têm endorsements nessas skills
+3. Têm conteúdo relacionado no perfil</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Regra:</span> <span class="text-neutral-700 dark:text-neutral-300">Adicione <strong class="font-bold">mínimo 10-15 skills</strong>, idealmente 20-30.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Categorias de skills para adicionar:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Hard Skills (ferramentas específicas) - PRIORIDADE MÁXIMA:</strong>
+- Make.com
+- Zapier
+- ChatGPT
+- Claude AI
+- Gemini
+- Prompt Engineering
+- Notion
+- Airtable
+- Google Sheets
+- Google Apps Script
+- Automação de Processos
+- No-Code Development
+- Análise de Dados
+- Python (se souber)
+- APIs e Webhooks
+- Data Analysis with AI</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Soft Skills (comportamentos) - COMPLEMENTARES:</span> <span class="text-neutral-700 dark:text-neutral-300">- Resolução de Problemas
+- Pensamento Analítico
+- Comunicação Clara
+- Aprendizado Rápido
+- Proatividade
+- Orientação a Resultados
+- Gestão de Tempo
+- Trabalho Remoto</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Dica:</span> <span class="text-neutral-700 dark:text-neutral-300">Peça para conexões te darem "endorsement" nas top 5 skills. Perfis com endorsements aparecem melhor nas buscas.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Como pedir endorsement:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Mensagem curta:
+"Oi [Nome]! Vi que você tem skill X no perfil. 
+Dei endorsement pra você. 
+Pode fazer o mesmo pras minhas (Make, ChatGPT, Automação)? 
+Valeu!"</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Taxa de resposta: 70%+.</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.6 Recomendações: Prova Social Que Vale Ouro</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Recomendações no LinkedIn são <strong class="font-bold">prova social poderosa</strong>. Um perfil com 3-5 recomendações é visto como 10x mais confiável que um sem nenhuma.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">De quem pedir recomendações (em ordem de prioridade):</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Clientes freelance</strong> (mesmo que tenham pagado R$ 500)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Colegas de trabalho</strong> (mesmo que você ainda seja júnior)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Pessoas que você ajudou</strong> (gratuitamente ou informalmente)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Membros de comunidades</strong> onde você contribui</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Professores/mentores</strong> (se relevantes)</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Template para pedir recomendação (taxa de resposta: 70-80%):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Oi [Nome]!</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Lembra que [descreva brevemente o que você fez para a pessoa - ex: "automatizei o processo de relatórios pra você há 2 meses"]?</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Estou montando meu portfólio profissional no LinkedIn e seria incrível ter uma recomendação sua falando sobre o projeto.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Pode ser bem curto (3-4 linhas) - só mencionando:
+1. Qual era o problema/situação
+2. O que eu fiz
+3. Qual foi o resultado</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Se ajudar, posso te mandar um rascunho que você só edita e posta (economiza seu tempo).</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Leva 3 minutos e me ajuda MUITO!</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Valeu demais,
+[Seu nome]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">PS: Se precisar de algo no futuro, é só chamar!
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Se oferecer ajuda com rascunho:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>[Depois que a pessoa aceitar ajudar]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Valeu! Aqui vai um rascunho que você pode editar como quiser:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">"Contratei [Seu Nome] para [descrever o trabalho].</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">O processo foi [adjetivo positivo - rápido/profissional/eficiente]. [Ele/Ela] entregou [resultado específico] em [prazo].</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">O impacto foi [resultado mensurável - ex: economizamos 10h/semana].</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Recomendo fortemente para quem precisa de [tipo de trabalho]."</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Fique à vontade para mudar o que quiser!
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Meta:</span> <span class="text-neutral-700 dark:text-neutral-300">Ter pelo menos 3-5 recomendações antes de começar a aplicar para vagas sérias.</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.7 Conteúdo: A Estratégia Secreta para Ser Descoberto</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Até agora falamos de otimizar o perfil para quando alguém te encontra. Mas e se você pudesse fazer recrutadores te <strong class="font-bold">descobrirem</strong> sem precisar aplicar para vagas?</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">É exatamente isso que postar conteúdo no LinkedIn faz.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Por que conteúdo é a estratégia #1:</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Alcance orgânico:</strong> Cada post pode ser visto por centenas ou milhares de pessoas</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Algoritmo favorece:</strong> LinkedIn prioriza quem cria conteúdo original</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Demonstra expertise:</strong> Você mostra que sabe SEM precisar dizer "sou expert"</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Atrai oportunidades:</strong> Recrutadores veem seus posts e te procuram</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Constrói autoridade:</strong> Pessoas começam a te ver como referência</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Network exponencial:</strong> Cada post te conecta com mais pessoas relevantes</li>
+          </ol>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Dados reais:</span> <span class="text-neutral-700 dark:text-neutral-300">- Profissionais que postam 2-3x/semana recebem <strong class="font-bold">5x mais</strong> mensagens de recrutadores
+- Um post viral pode gerar <strong class="font-bold">20-50 conexões</strong> de recrutadores/founders
+- Conteúdo educativo tem <strong class="font-bold">3x mais engajamento</strong> que conteúdo "busco oportunidades"</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O que postar (4 tipos de conteúdo que funcionam):</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Tipo 1: Projetos que você fez (com evidências visuais)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>🚀 Acabei de automatizar o processo de onboarding de uma startup</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">ANTES:
+• 8 horas/semana de trabalho manual
+• 12 passos diferentes
+• Risco alto de esquecer algo</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">DEPOIS:
+• 15 minutos/semana
+• Tudo automatizado
+• Zero erros</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">COMO FUNCIONA:
+✅ Novo funcionário preenche formulário
+✅ Sistema cria conta em todas ferramentas (Gmail, Slack, Notion, Trello)
+✅ Envia emails de boas-vindas personalizados
+✅ Cria tarefas automáticas para gestor
+✅ Agenda reuniões de onboarding
+✅ Gera checklist personalizado</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">FERRAMENTAS:
+Make + Google Workspace + Notion + Slack</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">ROI: Investimento de R$ 1.200 se pagou em 3 semanas.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Alguém mais automatiza onboarding? Como faz?</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Adicione: prints do Make, GIF mostrando automação funcionando, vídeo curto]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Por que funciona:
+- Específico (não vago)
+- Visual (prints/vídeos chamam atenção)
+- Quantificado (números claros)
+- Termina com pergunta (engajamento)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Tipo 2: Aprendizados (ensine o que você aprendeu)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Gastei 40 horas testando ChatGPT vs Claude para análise de dados.</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Aqui está o que descobri:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Continuação no primeiro comentário para aumentar engajamento]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">VELOCIDADE:
+ChatGPT é 30-40% mais rápido para análises simples.
+Claude pode ser mais lento, mas raramente erra.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">TAMANHO DE DATASET:
+ChatGPT: até ~50K palavras confortavelmente
+Claude: até ~200K palavras (4x maior contexto!)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">PRECISÃO:
+ChatGPT: ocasionalmente "inventa" dados
+Claude: extremamente preciso, admite quando não sabe</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">GRÁFICOS:
+ChatGPT: gera com Code Interpreter
+Claude: só análise textual (sem visualização)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">MELHOR PARA QUEM:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Use ChatGPT se:
+✅ Precisa de velocidade
+✅ Quer gráficos automáticos
+✅ Dataset pequeno-médio</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Use Claude se:
+✅ Dados grandes
+✅ Precisa de precisão máxima
+✅ Análise profunda > velocidade</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">MINHA RECOMENDAÇÃO:
+Use OS DOIS!</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">ChatGPT para exploração rápida.
+Claude para validação e análise final.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quem trabalha com dados + IA? Qual prefere?</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Salve este post se trabalha com dados]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Por que funciona:
+- Educativo (agrega valor real)
+- Comparativo (ajuda decisões)
+- Acionável (dá recomendação clara)
+- Engaja (pergunta opinião)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Tipo 3: Resultados/números (mostre seu progresso)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Update: 6 meses como Freelancer de Automação</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">NÚMEROS:
+📊 12 clientes atendidos
+💰 R$ 18.400 faturados
+⏱️ 280 horas economizadas (para clientes)
+🎯 100% taxa de satisfação (todos renovaram)
+⭐ 8 indicações recebidas</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">APRENDIZADOS:</p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Comece cobrando BARATO</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Primeiro cliente: R$ 400</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Cliente atual: R$ 2.500</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Experiência > dinheiro no início</li>
+          </ol>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Nicho > Generalista</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Inicialmente: "faço qualquer automação"</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Hoje: "automação para e-commerce"</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Resultado: 3x mais fácil vender</li>
+          </ol>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Portfólio > Currículo</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Ninguém pediu meu CV.</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Todo mundo pediu exemplos de projetos.</li>
+          </ol>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Network > Aplicações</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">80% dos clientes: indicação ou LinkedIn</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">20%: plataformas de freelance</li>
+          </ol>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Processo claro = Mais vendas</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Documentei cada passo do meu processo.</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Taxa de fechamento: 40% → 75%</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">PRÓXIMOS 6 MESES:
+- Subir preço (R$ 3.500-5.000)
+- Focar 100% em e-commerce
+- Contratar ajudante
+- Criar curso (ensinar outros)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Alguém mais fazendo essa transição? Vamos trocar experiências!
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Por que funciona:
+- Transparente (números reais)
+- Inspirador (mostra que é possível)
+- Educativo (compartilha lições)
+- Relatável (erros e acertos)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Tipo 4: Carrossel educativo (5-10 slides)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Crie apresentação no Canva ensinando algo. Exemplos:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">"5 Automações que economizam 10h/semana"
+"Como usei IA para triplicar minha produtividade"  
+"Notion para iniciantes: guia completo em 7 slides"
+"De R$ 2.000 para R$ 7.000: minha jornada em tech"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Estrutura:
+- Slide 1: Gancho (número chamativo ou pergunta)
+- Slides 2-8: Conteúdo (1 ideia por slide, visual)
+- Slide 9: Recap + CTA
+- Slide 10: "Siga para mais"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Carrosséis têm <strong class="font-bold">3x mais engajamento</strong> que posts de texto.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Frequência ideal de postagem:</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Mínimo:</strong> 2-3 posts por semana</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Ideal:</strong> 1 post por dia (5-7x por semana)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Ótimo:</strong> 2 posts por dia (manhã + tarde)</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Melhor horário para postar (dados Brasil):</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Manhã:</strong> 7h-9h (antes do trabalho começar)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Almoço:</strong> 12h-13h30 (hora do almoço)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Tarde:</strong> 17h-19h (fim do expediente)</span></li>
+          </ul>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Sábado/domingo:</span> <span class="text-neutral-700 dark:text-neutral-300">Manhã (10h-12h) tem ótimo engajamento (pessoas relaxando)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Hack de crescimento:</span> <span class="text-neutral-700 dark:text-neutral-300">Comente em posts de influencers/fundadores da sua área.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Comentários inteligentes e úteis (não "Muito bom!" mas análises, complementos, perguntas relevantes) te dão visibilidade para centenas ou milhares de pessoas.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">30min/dia comentando estrategicamente > 2h escrevendo posts.</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 2. Portfólio Digital que Impressiona e Converte -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">2. Portfólio Digital que Impressiona e Converte</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">LinkedIn é ótimo para ser encontrado. Mas quando alguém se interessa em você, precisa de um lugar para ver <strong class="font-bold">projetos em detalhes</strong>.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Portfolio digital serve para:
+1. <strong class="font-bold">Demonstrar competência</strong> de forma tangível
+2. <strong class="font-bold">Mostrar processo</strong> (não só resultado final)  
+3. <strong class="font-bold">Diferenciar você</strong> dos outros 200 candidatos
+4. <strong class="font-bold">Dar prova social</strong> (depoimentos, resultados)
+5. <strong class="font-bold">Ser compartilhável</strong> (link fácil de mandar)</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.1 Onde Hospedar Seu Portfólio (3 opções)</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção 1: Notion (RECOMENDADO para começar)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vantagens:
+- ✅ Grátis
+- ✅ Bonito visualmente
+- ✅ Fácil de atualizar
+- ✅ Pode tornar público com 1 clique
+- ✅ Mobile-friendly automaticamente
+- ✅ Templates prontos disponíveis</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Desvantagens:
+- ❌ URL não é customizável (notion.site/seu-nome-123abc)
+- ❌ Menos SEO que site próprio</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quando usar: <strong class="font-bold">SEMPRE no início</strong>. 95% das pessoas devem começar aqui.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção 2: GitHub (para projetos técnicos)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vantagens:
+- ✅ Grátis
+- ✅ Credibilidade técnica
+- ✅ Versionamento automático
+- ✅ Bom para código/automações/scripts
+- ✅ Recrutadores tech valorizam</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Desvantagens:
+- ❌ Menos visual
+- ❌ Curva de aprendizado
+- ❌ Não ideal para não-técnicos</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quando usar: Se você cria automações, scripts, ou quer demonstrar conhecimento técnico.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção 3: Site próprio (mais profissional)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ferramentas no-code:
+- Carrd.co (grátis/barato, super simples)
+- Notion + Super.so (Notion com domínio customizado)
+- Webflow (mais complexo, muito bonito)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vantagens:
+- ✅ URL própria (seuNome.com)
+- ✅ Mais profissional
+- ✅ SEO melhor
+- ✅ Controle total do design</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Desvantagens:
+- ❌ Custa (domínio R$ 40/ano mínimo)
+- ❌ Mais trabalho para manter
+- ❌ Overkill para início</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quando usar: Depois de ter 10-15 clientes pagos e querer se posicionar como expert.</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Minha recomendação:</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Mês 1-3:</strong> Notion gratuito
+2. <strong class="font-bold">Mês 4-6:</strong> Notion + domínio (via Super.so - R$ 12/mês)
+3. <strong class="font-bold">Mês 7+:</strong> Site próprio se quiser</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.2 Estrutura Completa do Portfólio Profissional</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Página Inicial (Homepage):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>[Header]
+# Olá, sou [Seu Nome] 👋</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Eu ajudo [tipo de empresa] a [resultado específico] usando [ferramentas].</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Imagem profissional sua ou do seu workspace]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Nos últimos [período]:
+✅ [Número] projetos concluídos
+✅ [Número] horas economizadas para clientes
+✅ ROI médio de [%] 
+✅ [% ou número] taxa de satisfação</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[2 CTAs lado a lado]
+[Botão: Ver Projetos]  [Botão: Entre em Contato]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Seção rápida: "Como Eu Trabalho"]
+1. Discovery (entendo seu problema)
+2. Proposta (solução customizada)
+3. Implementação (entrego em X dias/semanas)
+4. Suporte (garanto que funciona)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Depoimentos - 2-3 quotes curtos com foto do cliente]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Página de Projetos (a mais importante!):</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Para cada projeto (mínimo 3-5, ideal 8-10):</p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>---</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">📊 [TÍTULO DO PROJETO - ex: Automação de Relatórios de Vendas para E-commerce]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Imagem hero - screenshot do resultado ou logo do cliente anonimizado]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">CLIENTE</strong>
+E-commerce de moda feminina | 30 funcionários | R$ 2M ano</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">PROBLEMA</strong>
+O time de vendas gastava 12 horas/semana criando relatórios manualmente.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Situação detalhada:
+• Dados espalhados em 3 sistemas (Shopify, Google Ads, Meta Ads)
+• Cada relatório levava 3-4 horas para compilar
+• Erros frequentes em fórmulas
+• Gerente tomava decisões com dados de 1 semana atrás
+• Custo estimado: R$ 3.500/mês em horas de trabalho</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">SOLUÇÃO</strong>
+Criei automação completa que roda a cada 24h:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Arquitetura:
+1. Extrai dados de Shopify via API
+2. Puxa métricas de Google Ads  
+3. Consolida dados de Meta Ads
+4. Processa tudo em Google Sheets com fórmulas customizadas
+5. Gera dashboard visual automático no Data Studio
+6. Envia relatório por email toda segunda 8h da manhã</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Diagrama visual do fluxo - pode ser do Make mesmo]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ferramentas utilizadas:
+• Make.com (orquestração)
+• Shopify API
+• Google Ads API
+• Meta Ads API
+• Google Sheets (processamento)
+• Google Data Studio (visualização)
+• Gmail (distribuição)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Tempo de implementação: 2 semanas</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">RESULTADO</strong>
+⏱️ Tempo economizado: 12h/semana → 30min/semana (apenas revisão)
+📈 Decisões 3x mais rápidas (dados em tempo real vs 1 semana atrás)
+💰 ROI: Investimento se pagou em 6 semanas
+📊 Precisão: de ~85% (erros humanos) para 99.8%
+⭐ Feedback: "Revolucionou nossa operação"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Screenshot do dashboard]
+[Screenshot do email automático]
+[GIF ou vídeo curto mostrando automação rodando]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">DEPOIMENTO DO CLIENTE</strong>
+"[Nome], gerente de vendas, reduziu nosso tempo de relatórios em 95%. 
+O sistema que [Seu Nome] criou nos dá visibilidade que nunca tivemos. 
+Conseguimos reagir ao mercado em dias ao invés de semanas.
+ROI absurdo." - [Nome], [Cargo], [Empresa]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Foto do cliente se possível, ou logo da empresa]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">APRENDIZADOS TÉCNICOS</strong>
+• Como integrar Shopify API com Make
+• Tratamento de dados inconsistentes entre plataformas
+• Otimização de fórmulas Google Sheets para grandes volumes
+• Setup de refresh automático no Data Studio</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">PRÓXIMOS PASSOS PARA ESTE CLIENTE</strong>
+• Expandir automação para estoque
+• Integrar com sistema de logística
+• Adicionar previsão de vendas com IA</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">SEMPRE incluir em cada projeto:</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Contexto do cliente</strong> (quem, tamanho, setor)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Problema específico</strong> (não "precisavam de automação" - seja detalhado)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Solução técnica</strong> (como você resolveu, passo-a-passo)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Ferramentas usadas</strong> (lista completa)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Resultados mensuráveis</strong> (horas, R$, %, tempo)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Evidências visuais</strong> (prints, vídeos, GIFs, diagramas)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Depoimento</strong> (se possível - mas não é obrigatório)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ <strong class="font-bold">Aprendizados</strong> (mostra que você reflete e evolui)</li>
+          </ol>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.3 Tipos de Projetos Para Incluir (mesmo sem clientes pagos!)</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Categoria 1: Projetos pessoais úteis</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>🏠 Sistema de Finanças Pessoais Automatizado</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">PROBLEMA (pessoal):
+Gastava 3-4 horas/mês controlando finanças manualmente</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">SOLUÇÃO:
+Automação completa:
+• Email com fatura → extrai dados automaticamente
+• Categoriza gastos usando IA
+• Atualiza planilha de controle
+• Alerta se ultrapassar orçamento
+• Gera relatório mensal automático</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">RESULTADO:
+3-4h/mês → 10min/mês
+Economia de R$ 800/mês (identificou gastos desnecessários)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Screenshots do sistema funcionando]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Isso demonstra:
+- Iniciativa
+- Capacidade técnica
+- Aplicação prática
+- Resultados mensuráveis</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Categoria 2: Projetos voluntários/gratuitos</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Faça automações/análises para:
+- ONGs
+- Negócios de amigos/família
+- Comunidades online que você participa
+- Projetos open-source</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Em troca peça:
+- Depoimento
+- Permissão para usar como case (anonimizado se preciso)
+- Indicação</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Categoria 3: Estudos de caso hipotéticos</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>📚 Como Eu Automatizaria: Processo de Vendas de uma SaaS</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Análise completa de como você automatizaria algo]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Inclua:
+• Mapeamento do processo atual
+• Identificação de gargalos
+• Solução proposta (detalhada)
+• Ferramentas que usaria
+• ROI estimado
+• Diagrama do fluxo</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Crie de verdade no Make - modo teste]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Isso mostra capacidade estratégica, não só execução.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Categoria 4: Contribuições públicas</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Templates de Notion que você criou e compartilhou</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Biblioteca de prompts no GitHub</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Automações compartilhadas na comunidade Make</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Tutoriais que você escreveu/gravou</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Meta final: Ter 5-8 projetos bem documentados no portfólio antes de buscar trabalho sério.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 3. Vídeo Apresentação de 60 Segundos: 10x Mais Impacto -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">3. Vídeo Apresentação de 60 Segundos: 10x Mais Impacto</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Texto é bom. Vídeo é <strong class="font-bold">10x melhor</strong>.</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Por quê:</span> <span class="text-neutral-700 dark:text-neutral-300">- Humanos processam visual 60.000x mais rápido que texto
+- Vídeo comunica personalidade (crucial para trabalho remoto)
+- Recrutadores LEMBRAM de você (vs esquecem texto)
+- Demonstra confiança e comunicação (soft skills valiosas)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Dados:</span> <span class="text-neutral-700 dark:text-neutral-300">- Perfis com vídeo recebem <strong class="font-bold">20x mais visualizações</strong>
+- <strong class="font-bold">75% dos recrutadores</strong> assistem vídeos de candidatos quando disponível
+- Vídeos geram <strong class="font-bold">5x mais mensagens</strong> de recrutadores</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.1 Ferramentas (gratuitas!)</h3>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Loom</strong> (melhor para começar - super fácil)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">OBS</strong> (mais avançado, controle total)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Zoom</strong> (gravar você mesmo apresentando)</span></li>
+          </ul>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.2 Estrutura Exata do Vídeo Perfeito (60 segundos)</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Segundos 0-10: GANCHO (prenda atenção)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>"Oi! Sou [Nome] e nos últimos 6 meses eu automatizei processos 
+que economizaram mais de 200 horas para empresas.</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Deixa eu te mostrar um exemplo rápido..."
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">O que fazer:
+- Olhe na câmera
+- Fale com energia (não monotonia!)
+- Número chamativo logo no início
+- Prometa valor ("deixa eu mostrar")</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Segundos 10-40: DEMONSTRAÇÃO (mostre, não conte)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>[Compartilha tela]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">"Aqui você vê uma automação que criei para um e-commerce.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quando entra um pedido no Shopify [aponta na tela],
+o sistema automaticamente:
+- Salva na planilha
+- Calcula o frete
+- Envia email pro cliente
+- Cria tarefa pro time</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Tudo isso em 10 segundos. Antes levava 15 minutos por pedido.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Com 50 pedidos/dia, são 12 horas economizadas por dia."
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">O que fazer:
+- Compartilhe tela mostrando algo REAL
+- Aponte com cursor/setas
+- Fale devagar e claro
+- Use números específicos</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Segundos 40-55: PROPOSTA DE VALOR (por que te contratar)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>[Volta para câmera]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">"Se sua empresa perde tempo com tarefas repetitivas,
+eu posso ajudar a automatizar e economizar 
+10-20 horas por semana.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Trabalho com Make, Zapier, IA, Notion -
+o que a empresa já usar."
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">O que fazer:
+- Fale benefício direto
+- Seja específico sobre o que oferece
+- Mencione ferramentas (keywords para busca)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Segundos 55-60: CTA (o que fazer agora)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>"Me manda mensagem no LinkedIn!
+Link na descrição.</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vamos conversar!"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Sorri, acena]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">O que fazer:
+- CTA claro e simples
+- Tom amigável
+- Finaliza bem (não corta abrupto)</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.3 Dicas Técnicas de Gravação</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">✅ FAZER:</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Luz boa:</strong> Natural (de frente para janela) ou ring light barata</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Áudio limpo:</strong> Fone de ouvido com microfone (não use mic do laptop)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Fundo profissional:</strong> Parede lisa, ou workspace organizado - não cama bagunçada</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Falar com energia:</strong> Você está vendendo. Energia > monotonia</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Olhar para câmera:</strong> Não para tela - cria conexão</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Vestir-se bem:</strong> Casual profissional (não precisa terno, mas não pijama)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Testar antes:</strong> Grave 3-4 takes, escolha o melhor</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">❌ EVITAR:</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Ler script (parece robótico - use tópicos, fale naturalmente)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Vídeo muito longo (+90s - atenção cai)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Muito texto na tela (distrai)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Música de fundo alta (compete com sua voz)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Gírias excessivas ou linguagem informal demais</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Câmera tremendo (use tripé ou apoio)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Barulho de fundo (cachorro, TV, trânsito)</span></li>
+          </ul>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.4 Onde Postar o Vídeo</h3>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">LinkedIn</strong> (fixar no topo do perfil - "Featured")</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">YouTube</strong> (título otimizado para busca - "Automação Make Zapier IA")</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Portfólio Notion</strong> (embed do YouTube/Loom)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Assinatura de email</strong> (link pro vídeo)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Aplicações de emprego</strong> (link quando pedirem "fale sobre você")</li>
+          </ol>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Dica pro:</span> <span class="text-neutral-700 dark:text-neutral-300">Faça versões diferentes:
+- 60s: apresentação geral (LinkedIn)
+- 90s: mais detalhado (portfólio)
+- 3min: case study completo (YouTube)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 4. Networking Estratégico (Para Introvertidos) -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">4. Networking Estratégico (Para Introvertidos)</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Última peça do puzzle: relacionamentos.</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Verdade dura:</span> <span class="text-neutral-700 dark:text-neutral-300">70-80% das melhores oportunidades vêm de <strong class="font-bold">network, não de aplicações</strong>.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Mas você não precisa ser extrovertido ou "bom de papo". Precisa ser <strong class="font-bold">estratégico e genuíno</strong>.</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">4.1 Networking Digital (80% do esforço aqui)</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">LinkedIn (estratégia detalhada):</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 1: Conectar com pessoas certas</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Adicione 5-10 pessoas relevantes POR DIA:
+- Founders de startups na sua área de interesse
+- Recrutadores de empresas que você admira
+- Profissionais 1-2 níveis acima de você (não CEOs famosos - muito distante)
+- Pessoas que comentam em posts de influencers da área</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Mensagem de conexão (template):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Oi [Nome]!</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vi que você [algo específico - fundou X, trabalha com Y, postou sobre Z].</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Estou começando em [sua área] e aprendi muito com [algo específico deles - post, projeto, empresa].</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Adoraria conectar e acompanhar seu trabalho!
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Taxa de aceitação: 60-70%</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">O que NÃO fazer:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+❌ "Oi, vamos conectar?"
+❌ "Olá! Gostaria de fazer parte da sua rede."
+❌ Não enviar mensagem (só clicar conectar)
+❌ Pitch de venda imediato
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 2: Engajar com conteúdo deles</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Depois de conectar:
+- Dia 3-5: Comente em post deles (comentário útil, não "legal!")
+- Semana 2: Compartilhe conteúdo relevante que eles gostariam
+- Mês 1: Envie mensagem leve sobre projeto/post deles</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 3: Dar valor antes de pedir</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Oi [Nome]!</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vi que você está [fazendo X, enfrentando desafio Y].</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Criei uma automação simples que poderia ajudar com isso.
+[Descrever brevemente]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Posso compartilhar sem compromisso, só pra agregar.
+Quer dar uma olhada?
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quando você DÁ primeiro, portas se abrem.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Comunidades Online Estratégicas:</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Discord/Slack:</span> <span class="text-neutral-700 dark:text-neutral-300">- Startups Brasil
+- No-code makers
+- AI builders
+- Remote work communities</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Como participar:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Entre (óbvio)
+2. LURK por 2-3 dias (leia, não fale)
+3. Responda perguntas de outros (ajude!)
+4. Compartilhe projetos/aprendizados
+5. Seja consistente (apareça 2-3x/semana mínimo)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Regra de ouro:</span> <span class="text-neutral-700 dark:text-neutral-300">Dê 10x mais do que pede.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ajude 10 pessoas. Depois, quando VOCÊ precisar, elas vão querer ajudar.</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">4.2 Networking Presencial (20% do esforço, mas vale)</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Eventos recomendados:</span> <span class="text-neutral-700 dark:text-neutral-300">- Meetups de tech (meetup.com)
+- Startup weekends
+- Hackathons (mesmo sem saber programar - vá como "business/ops")
+- Palestras em universidades e aceleradoras
+- Workshops de ferramentas (Make, Notion, etc.)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Como se apresentar (elevator pitch de 15 segundos):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>"Oi, sou [Nome].</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Trabalho com automação e IA ajudando empresas a economizar tempo.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">E você, o que faz?"
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Curto. Direto. Focado no valor. Depois deixa a pessoa falar.</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Erro:</span> <span class="text-neutral-700 dark:text-neutral-300">Falar 5 minutos sobre você sem deixar o outro falar.</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Certo:</span> <span class="text-neutral-700 dark:text-neutral-300">15 segundos sobre você, depois PERGUNTAS sobre o outro.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Pessoas gostam de quem se interessa nelas, não de quem só fala de si.</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">4.3 Follow-up: Onde 90% das Pessoas Falham</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Conhecer pessoas não é networking. <strong class="font-bold">Manter contato</strong> é networking.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Sistema de follow-up:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Após conhecer alguém novo:</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Dia 1:</strong> Conecta no LinkedIn, menciona onde se conheceram</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Dia 3:</strong> Comenta em post deles</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Semana 2:</strong> Compartilha algo útil (artigo, tool, vaga) relevante para eles</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Mês 1:</strong> Mensagem perguntando como está indo projeto que mencionaram</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Não seja chato. Seja útil.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Diferença:
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+❌ Chato: "E aí, lembrou de mim? Tem vaga aí?"
+✅ Útil: "Vi que você trabalha com X. Achei este artigo que pode ser útil: [link]"
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Template de follow-up que funciona:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Oi [Nome]!</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Lembra que conversamos sobre [tópico] no [evento]?</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Fiquei pensando e criei [algo útil relacionado].</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Achei que você ia gostar: [link/anexo]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Como está indo [projeto que eles mencionaram]?</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Abraço!
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Frequência:</span> <span class="text-neutral-700 dark:text-neutral-300">Toque base a cada 4-6 semanas. Não toda semana (chato) nem nunca (esquece).</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Exercício Prático Final -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Exercício Prático Final</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Duração total:</span> <span class="text-neutral-700 dark:text-neutral-300">4-5 horas (pode dividir em 2-3 sessões)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Objetivo:</span> <span class="text-neutral-700 dark:text-neutral-300">Ter perfil profissional COMPLETO e operacional</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Parte 1: LinkedIn Completo (2h)</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Atualizar foto profissional (15min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Tire ou use ferramenta IA para melhorar</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Fundo neutro, boa luz, roupa profissional</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Headline otimizada (20min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Escreva 3 versões usando template</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Teste em grupo, escolha 1</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Seção "Sobre" reescrita (45min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Use um dos 3 templates</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Mínimo 300 palavras</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Inclua números, processo, CTA</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Adicionar 2-3 "experiências" (40min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Projetos pessoais/freelance/voluntário</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Resultado mensurável em cada um</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Links para evidências</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Parte 2: Portfólio Notion (2h)</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Criar conta Notion (5min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Usar template de portfólio (10min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Busque "portfolio template" no Notion</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Página inicial com intro (20min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Documentar 2-3 projetos COMPLETOS (85min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Problema, solução, resultado</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Prints, vídeos, evidências</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Depoimento se tiver</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Parte 3: Vídeo 60s (1h)</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Escrever script (tópicos, não texto exato) (15min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Setup (luz, áudio, fundo) (10min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Gravar 3-5 takes (20min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Escolher melhor, editar se preciso (10min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Upload LinkedIn + YouTube (5min)</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Entrega ao final:</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] LinkedIn 100% completo</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Link do portfólio Notion funcionando</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Vídeo publicado no LinkedIn</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Conectado com 10+ pessoas relevantes</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Primeiro post publicado</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Isso te coloca no TOP 5% dos candidatos.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Se você fizer APENAS este exercício, já vai ter mais oportunidades que 95% das pessoas buscando emprego.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Conclusão do Módulo -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Conclusão do Módulo</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Você acabou de aprender a construir um perfil profissional que:
+✅ Atrai recrutadores organicamente
+✅ Demonstra competência sem precisar de diploma
+✅ Gera oportunidades passivamente
+✅ Te diferencia de milhares de concorrentes</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Mas conhecimento sem ação é zero.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Não passe para o próximo módulo até:
+1. LinkedIn atualizado
+2. Portfólio com pelo menos 2 projetos
+3. Vídeo gravado</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Leva 4-5 horas. Invista essas horas AGORA.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Essas 5 horas podem mudar sua trajetória profissional para sempre.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Próximos Passos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Próximos Passos</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">No <strong class="font-bold">Módulo 3: Primeiras Ferramentas de IA</strong>, você vai dominar:
+- ChatGPT, Claude e Gemini (quando usar cada um)
+- Prompt engineering profissional (estrutura CRISP)
+- IA para análise de dados (sem código)
+- Automação de tarefas com IA</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Mas só avance quando terminar o exercício deste módulo.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Nos vemos lá! 🚀</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">© 2025 FETD - Formação em Engenharia de Intenção</strong></p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer / Navegação -->
+  <section class="py-12 bg-gradient-to-br from-neutral-100 to-neutral-50 dark:from-neutral-900 dark:to-neutral-800 border-t border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center">
+        <a href="../../trilhas/talento.html" class="px-6 py-3 bg-gradient-to-r from-talento to-amber-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2">
+          <span>←</span>
+          <span>Voltar para Trilha</span>
+        </a>
+        <a href="modulo-03.html" class="px-6 py-3 bg-gradient-to-r from-talento to-amber-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"><span>Próximo Módulo</span><span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    // Remove preload class
+    window.addEventListener('load', () => {
+      document.body.classList.remove('preload');
+    });
+
+    // Dark mode toggle
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+    // Check localStorage
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      themeToggleLightIcon.classList.remove('hidden');
+      document.documentElement.classList.add('dark');
+    } else {
+      themeToggleDarkIcon.classList.remove('hidden');
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+
+      if (localStorage.getItem('color-theme')) {
+        if (localStorage.getItem('color-theme') === 'light') {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        }
+      } else {
+        if (document.documentElement.classList.contains('dark')) {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        } else {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>

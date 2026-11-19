@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 1: Do Código Invisível ao Solucionador Visível | Trilha Técnico Comunicador | FETD</title>
+  <meta name="description" content="Entender que seu valor não está no código que escreve, mas nos problemas que resolve para as pessoas">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'tecnico': '#F97316',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+    .preload * {
+      transition: none !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white/95 dark:bg-neutral-800/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-700 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="../../index.html" class="text-2xl font-bold bg-gradient-to-r from-tecnico to-orange-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+            🎓 FETD
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-tecnico transition-colors font-medium">Início</a>
+          <a href="../../trilhas/tecnico.html" class="text-neutral-700 dark:text-neutral-300 hover:text-tecnico transition-colors font-medium">Trilha Técnico Comunicador</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 hover:bg-tecnico/10 transition-colors">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm font-medium" aria-label="Breadcrumb">
+        <a href="../../index.html" class="text-tecnico hover:opacity-80 transition-opacity">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <a href="../../trilhas/tecnico.html" class="text-tecnico hover:opacity-80 transition-opacity">Trilha Técnico Comunicador</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Módulo 1</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Módulo -->
+  <section class="bg-gradient-to-br from-tecnico via-tecnico to-orange-600 py-20 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-white/5 bg-[size:20px_20px]"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white relative z-10">
+
+      <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg">Módulo 1 de 10</span>
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg flex items-center gap-2">
+          <span>⏱️</span>
+          <span>45-60 minutos</span>
+        </span>
+      </div>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+        Módulo 1: Do Código Invisível ao Solucionador Visível
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/95 mb-8 max-w-3xl font-medium leading-relaxed">
+        Entender que seu valor não está no código que escreve, mas nos problemas que resolve para as pessoas
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 text-white/90">
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">📚</span> Teoria</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">💭</span> Reflexão</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">🛠️</span> Prática</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <section class="py-16 bg-white dark:bg-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Download Button -->
+      <div class="flex justify-end mb-8">
+        <a href="../../downloads/tecnico/modulo-01.md" download class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
+          <span class="text-xl">📥</span>
+          <span>Download MD</span>
+        </a>
+      </div>
+
+
+      <!-- Objetivo do Módulo -->
+      <div class="bg-tecnico/10 dark:bg-tecnico/20 border-l-4 border-tecnico p-6 rounded-lg mb-12 shadow-lg">
+        <h3 class="text-xl font-bold text-tecnico mb-2 flex items-center gap-2">
+          <span class="text-2xl">🎯</span>
+          <span>Objetivo deste Módulo</span>
+        </h3>
+        <p class="text-neutral-700 dark:text-neutral-300 text-lg">
+          Entender que seu valor não está no código que escreve, mas nos problemas que resolve para as pessoas
+        </p>
+      </div>
+
+
+
+      <!-- Seção: Introdução: O Técnico Invisível -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Introdução: O Técnico Invisível</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Se você é desenvolvedor, DevOps, engenheiro de dados ou qualquer profissional técnico, provavelmente já viveu esta situação:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Você trabalha 10 horas por dia.</strong>
+Resolve bugs críticos. Automatiza processos. Otimiza sistemas. Melhora performance. Escreve código limpo e elegante.</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Mas quando chega a reunião de resultados:</span> <span class="text-neutral-700 dark:text-neutral-300">- O time de vendas apresenta números
+- O marketing mostra campanhas
+- O produto fala de features
+- <strong class="font-bold">E você? Ninguém sabe o que você fez.</strong></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Seu trabalho é <strong class="font-bold">invisível</strong>.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: O Problema Fundamental -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">O Problema Fundamental</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">A Ilusão do "Código Fala Por Si"</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">❌ MITO:</span> <span class="text-neutral-700 dark:text-neutral-300">"Se eu escrever código excelente, serei reconhecido e promovido."</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">✅ REALIDADE:</span> <span class="text-neutral-700 dark:text-neutral-300">Código excelente é <strong class="font-bold">obrigação</strong>, não diferencial.</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Dados do mercado (2024-2025):</span> <span class="text-neutral-700 dark:text-neutral-300">- 73% dos desenvolvedores seniores dizem que <strong class="font-bold">comunicação é mais importante que habilidade técnica</strong> para promoção
+- Desenvolvedores que documentam e compartilham conhecimento ganham em média <strong class="font-bold">40% mais</strong> que os que não o fazem
+- 85% das promoções para tech lead/staff engineer vão para técnicos que <strong class="font-bold">mostram impacto visível</strong>, não apenas os tecnicamente melhores</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">A verdade dura:</span> <span class="text-neutral-700 dark:text-neutral-300">O dev que resolve o problema E mostra que resolveu → promovido
+O dev que resolve o problema em silêncio → continua resolvendo problemas</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">O Custo da Invisibilidade</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Cenário 1: João, o Dev Invisível</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">João é excelente. Resolve bugs críticos em horas. Refatora código legado. Automatiza testes.</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Mas:</span> <span class="text-neutral-700 dark:text-neutral-300">- Ninguém sabe o que ele fez (não documenta)
+- Resolve mesmas perguntas 100x (não cria FAQ/bot)
+- Conhecimento morre com ele (não compartilha)
+- Trabalha sozinho (não colabora visivelmente)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado após 3 anos:</span> <span class="text-neutral-700 dark:text-neutral-300">- Mesmo salário
+- Mesma posição
+- Visto como "operacional"
+- Queimado e frustrado</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Cenário 2: Ana, a Dev Solucionadora</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ana tem habilidade técnica similar a João.</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Mas ela:</span> <span class="text-neutral-700 dark:text-neutral-300">- Documenta cada solução no blog interno
+- Cria chatbot que responde dúvidas comuns
+- Automatiza processos E ensina o time a usar
+- Posta no LinkedIn problemas que resolveu
+- Compartilha código no GitHub com READMEs claros</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado após 3 anos:</span> <span class="text-neutral-700 dark:text-neutral-300">- 2 promoções (Jr → Pleno → Sênior)
+- +60% de salário
+- Ofertas de emprego toda semana
+- Convidada para palestrar
+- Consultoria freelance $150/hora</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Diferença:</span> <span class="text-neutral-700 dark:text-neutral-300">Ana não é melhor tecnicamente. Ela <strong class="font-bold">mostra o valor que entrega</strong>.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: A Verdade Sobre Crescimento Técnico -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">A Verdade Sobre Crescimento Técnico</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">O Gráfico da Carreira</h3>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Salário
+  │
+  │                    ╱────────────  Técnico Solucionador
+  │                 ╱              (automatiza + comunica + ajuda)
+  │              ╱
+  │           ╱
+  │        ╱
+  │     ╱─────────────────────────  Técnico Executor
+  │                                 (só executa bem)
+  │
+  └──────────────────────────────────────────────&gt; Tempo
+    0        3        5        7        10 anos</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Por quê?</strong></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Técnico Executor:</span> <span class="text-neutral-700 dark:text-neutral-300">- Valor limitado = suas próprias mãos
+- Não escala
+- Dependência do time nele
+- Gargalo humano</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Técnico Solucionador:</span> <span class="text-neutral-700 dark:text-neutral-300">- Valor multiplicado = automações + conteúdo + mentoria
+- Escala infinitamente
+- Libera o time
+- Criador de leverage</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Os 3 Pilares do Técnico Solucionador -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Os 3 Pilares do Técnico Solucionador</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Pilar 1: 🔧 Automatizar - Resolver 1x, Funciona para Sempre</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Mindset errado:</span> <span class="text-neutral-700 dark:text-neutral-300">"Vou fazer esse script rápido só pra mim"</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Mindset correto:</span> <span class="text-neutral-700 dark:text-neutral-300">"Vou criar uma automação que resolve isso pra todo mundo"</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplos:</strong></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">❌ Script pessoal:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>bash
+#!/bin/bash
+# deploy.sh (só você sabe usar)
+git pull
+npm run build
+scp -r dist/ server:/var/www/
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Problema:
+- Só você sabe usar
+- Alguém pergunta "como fazer deploy?" → você explica
+- Repete explicação 50x
+- Vira gargalo</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">✅ Automação compartilhável:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>bash
+# deploy.sh com interface clara
+echo "🚀 Iniciando deploy..."
+echo "Ambiente (staging/production):"
+read ENV</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">if [ "$ENV" != "staging" ] && [ "$ENV" != "production" ]; then
+  echo "❌ Ambiente inválido! Use staging ou production"
+  exit 1
+fi</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">echo "✅ Fazendo build..."
+npm run build</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">echo "📦 Enviando para $ENV..."
+rsync -avz dist/ server-$ENV:/var/www/</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">echo "✅ Deploy completo! Acesse: https://app-$ENV.com"
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">MELHOR AINDA:</span> <span class="text-neutral-700 dark:text-neutral-300">Workflow visual (GitHub Actions)
+- Qualquer um clica botão
+- Você documentou no README
+- Nunca mais precisa explicar</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">- 0 perguntas sobre deploy
+- Time independente
+- Você livre para trabalho de valor</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Pilar 2: 📢 Comunicar - Mostrar Solução de Forma Clara</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Não basta resolver. Precisa mostrar que resolveu.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Formas de comunicar (escolha 1+):</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">1. Documentação Visual</strong>
+- README com GIFs/screenshots
+- "Como usar em 3 passos"
+- Troubleshooting visual</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">2. Post Técnico (LinkedIn/Blog)</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+🐛 Problema que 90% dos devs enfrentam:
+[Descrever a dor]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ Como resolvi em 2 horas:
+[Sua solução]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">💻 Código completo aqui:
+[Link GitHub]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Isso te ajudou? Comenta!
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">3. Vídeo Rápido (Loom/YouTube)</strong>
+- 5 minutos explicando
+- Mostra funcionando
+- Compartilha no Slack</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">4. Chatbot com a Resposta</strong>
+- RAG treinado na sua doc
+- Responde 24/7
+- Você nunca mais responde aquilo</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Impacto:</span> <span class="text-neutral-700 dark:text-neutral-300">- 1 post → 500 pessoas ajudadas
+- 1 vídeo → assiste quando quiser
+- 1 bot → responde infinitamente</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">vs</p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Explicar pessoalmente → 1 pessoa por vez</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Pilar 3: 🤝 Ajudar - Ensinar Outros a Se Ajudarem</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Técnico executor:</span> <span class="text-neutral-700 dark:text-neutral-300">"Vou resolver isso pra você"
+<strong class="font-bold">Técnico solucionador:</strong> "Vou te ensinar + criar ferramenta pra você resolver sozinho"</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplo Real: Carlos, DevOps em Startup</strong></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Antes:</span> <span class="text-neutral-700 dark:text-neutral-300">- Time pergunta: "Como ver logs de produção?"
+- Carlos acessa servidor e manda logs
+- Repete 10x/dia
+- 2h/dia fazendo isso</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Depois:</span> <span class="text-neutral-700 dark:text-neutral-300"><strong class="font-bold">1. Criou portal simples (Retool):</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Campo de busca]
+Serviço: [dropdown]
+Data: [datepicker]
+Keyword: [text input]
+[Botão: Buscar Logs]</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Resultados em tempo real]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">2. Documentou no Confluence:</span> <span class="text-neutral-700 dark:text-neutral-300">- "Como usar o portal de logs"
+- Vídeo de 2 min
+- Troubleshooting comum</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">3. Postou no Slack:</span> <span class="text-neutral-700 dark:text-neutral-300">"🎉 Lançamos portal de logs!
+Agora vocês consultam sozinhos.
+Tutorial: [link]
+Qualquer dúvida, me chamem!"</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">- Primeira semana: 20 perguntas ainda
+- Segunda semana: 5 perguntas
+- Terceira semana: 0 perguntas
+- <strong class="font-bold">Economizou: 10h/semana</strong></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Feedback:</span> <span class="text-neutral-700 dark:text-neutral-300">- Time: "Isso mudou minha vida!"
+- Gestor: "Carlos, quero te promover a líder"
+- Carlos: Tempo livre para projetos estratégicos</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: A Mudança de Mentalidade -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">A Mudança de Mentalidade</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">De Executor para Solucionador</h3>
+
+
+          <div class="overflow-x-auto mb-8 shadow-lg rounded-lg">
+            <table class="w-full border-collapse">
+              <thead>
+                <tr class="bg-gradient-to-r from-tecnico to-tecnico/80 text-white">
+                  <th class="px-6 py-4 text-left font-bold">Executor</th>
+                  <th class="px-6 py-4 text-left font-bold">Solucionador</th>
+                </tr>
+              </thead>
+              <tbody class="bg-white dark:bg-neutral-800">
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">----------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">--------------</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">"Fiz deploy"</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">"Automatizei deploy, economizando 5h/semana do time"</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">"Resolvi o bug"</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">"Resolvi bug + documentei solução + criei teste para nunca mais acontecer"</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">"Configurei o servidor"</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">"Configurei servidor + criei Ansible playbook + ensinei 3 pessoas"</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">"Otimizei query"</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">"Otimizei query + escrevi post sobre o problema + compartilhei no blog"</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Trabalha sozinho</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Multiplica impacto</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Conhecimento morre com ele</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Conhecimento vira ativo da empresa</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Visto como custo</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Visto como investimento</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Cases Reais: Técnicos que Viraram Solucionadores -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Cases Reais: Técnicos que Viraram Solucionadores</h2>
+
+
+        <div class="bg-tecnico/10 dark:bg-tecnico/20 border-2 border-tecnico/30 p-6 rounded-xl mb-8 shadow-lg hover:shadow-xl transition-all">
+          <h3 class="text-xl font-bold text-tecnico mb-4 flex items-center gap-2">
+            <span class="text-2xl">💼</span>
+            <span>Case 1: João, DevOps que Virou Consultor</span>
+          </h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Background:</span> <span class="text-neutral-700 dark:text-neutral-300">- 5 anos como DevOps
+- Excelente tecnicamente
+- Salário ok, mas estagnado</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">O que fez:</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Automatizou infraestrutura</strong> (Terraform + Ansible)
+2. <strong class="font-bold">Documentou TUDO</strong> no GitHub (READMEs incríveis)
+3. <strong class="font-bold">Criou blog</strong> mostrando problemas que resolveu
+4. <strong class="font-bold">Postou no LinkedIn</strong> 3x/semana (micro-tutoriais)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado em 6 meses:</span> <span class="text-neutral-700 dark:text-neutral-300">- Blog: 10.000 visitas/mês
+- LinkedIn: 3.000 seguidores técnicos
+- <strong class="font-bold">5 ofertas de emprego</strong> (+40-60% salário)
+- <strong class="font-bold">3 propostas de consultoria</strong> ($150-200/hora)
+- Virou referência em DevOps com Kubernetes</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Fator chave:</span> <span class="text-neutral-700 dark:text-neutral-300">Não guardou conhecimento. Compartilhou tudo.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="bg-tecnico/10 dark:bg-tecnico/20 border-2 border-tecnico/30 p-6 rounded-xl mb-8 shadow-lg hover:shadow-xl transition-all">
+          <h3 class="text-xl font-bold text-tecnico mb-4 flex items-center gap-2">
+            <span class="text-2xl">💼</span>
+            <span>Case 2: Ana, Dev que Criou Chatbot e Foi Promovida</span>
+          </h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Background:</span> <span class="text-neutral-700 dark:text-neutral-300">- Desenvolvedora plena
+- Time sempre perguntava mesmas coisas
+- Frustrada virando "suporte interno"</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">O que fez:</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Listou top 20 perguntas</strong> mais repetidas
+2. <strong class="font-bold">Criou chatbot com RAG</strong> (Botpress + docs do projeto)
+3. <strong class="font-bold">Integrou no Slack</strong> (bot responde automaticamente)
+4. <strong class="font-bold">Treinou time</strong> a usar e melhorar o bot</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado em 3 meses:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">80% das perguntas</strong> respondidas pelo bot
+- Economizou <strong class="font-bold">15h/semana</strong> dela + 10h do time
+- Gestor viu impacto → <strong class="font-bold">promoção para sênior</strong>
+- Salário +35%</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Fator chave:</span> <span class="text-neutral-700 dark:text-neutral-300">Resolveu problema escalável, não só técnico.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="bg-tecnico/10 dark:bg-tecnico/20 border-2 border-tecnico/30 p-6 rounded-xl mb-8 shadow-lg hover:shadow-xl transition-all">
+          <h3 class="text-xl font-bold text-tecnico mb-4 flex items-center gap-2">
+            <span class="text-2xl">💼</span>
+            <span>Case 3: Pedro, SRE que Virou Líder Técnico</span>
+          </h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Background:</span> <span class="text-neutral-700 dark:text-neutral-300">- SRE competente
+- Apagava incêndios sozinho
+- Não era visto como líder</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">O que fez:</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Criou runbooks detalhados</strong> para cada incidente
+2. <strong class="font-bold">Automatizou troubleshooting</strong> comum (scripts + dashboards)
+3. <strong class="font-bold">Facilitou post-mortems</strong> (blameless, documentados)
+4. <strong class="font-bold">Treinou 5 pessoas</strong> do time
+5. <strong class="font-bold">Escreveu ADRs</strong> (Architecture Decision Records)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado em 1 ano:</span> <span class="text-neutral-700 dark:text-neutral-300">- Time <strong class="font-bold">independente</strong> (resolve 70% dos incidentes sozinho)
+- MTTR (Mean Time to Recovery) <strong class="font-bold">reduziu 60%</strong>
+- Visto como <strong class="font-bold">líder técnico estratégico</strong>
+- <strong class="font-bold">Promovido a Staff Engineer</strong> (2 níveis acima)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Fator chave:</span> <span class="text-neutral-700 dark:text-neutral-300">Multiplicou sua expertise através de outros.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Os 3 Mitos que Te Impedem de Começar -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Os 3 Mitos que Te Impedem de Começar</h2>
+
+
+        <div class="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg mb-8 shadow-md hover:shadow-lg transition-shadow">
+          <h3 class="text-xl font-bold text-red-700 dark:text-red-400 mb-4 flex items-center gap-2">
+            <span class="text-2xl">❌</span>
+            <span>❌ Mito 1: "Não tenho tempo para isso"</span>
+          </h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Realidade:</span> <span class="text-neutral-700 dark:text-neutral-300">Você não tem tempo para NÃO fazer isso.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Cálculo simples:</strong></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Sem sistema:</span> <span class="text-neutral-700 dark:text-neutral-300">- Responder mesma pergunta: 5 min
+- Vezes por semana: 10x
+- Total: <strong class="font-bold">50 min/semana = 43h/ano</strong></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Com sistema (criar 1x):</span> <span class="text-neutral-700 dark:text-neutral-300">- Criar doc/bot: 2h (uma vez)
+- Tempo respondendo depois: <strong class="font-bold">0</strong>
+- Economia: <strong class="font-bold">41h/ano</strong></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">ROI:</span> <span class="text-neutral-700 dark:text-neutral-300">2h investidas → 41h economizadas = <strong class="font-bold">2.050% de retorno</strong></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">E isso é <strong class="font-bold">apenas 1 problema</strong>. Imagine 10 problemas automatizados.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg mb-8 shadow-md hover:shadow-lg transition-shadow">
+          <h3 class="text-xl font-bold text-red-700 dark:text-red-400 mb-4 flex items-center gap-2">
+            <span class="text-2xl">❌</span>
+            <span>❌ Mito 2: "Meu código já é minha documentação"</span>
+          </h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Realidade:</span> <span class="text-neutral-700 dark:text-neutral-300">Código documenta "como", não "por quê".</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">O que o código NÃO diz:</span> <span class="text-neutral-700 dark:text-neutral-300">- Por que essa decisão foi tomada?
+- Que alternativas foram consideradas?
+- Que problemas isso resolve?
+- Como usar em cenários reais?
+- Que pegadinhas evitar?</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplo:</strong></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Código:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>python
+def calculate_discount(price, user_type):
+    if user_type == "premium":
+        return price * 0.8
+    return price * 0.95
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Isso NÃO responde:</span> <span class="text-neutral-700 dark:text-neutral-300">- Por que premium é 20% e regular 5%?
+- Quando mudou de 10% para 5%?
+- Que impacto de negócio isso tem?</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Documentação:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>markdown</span></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Cálculo de Desconto -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Cálculo de Desconto</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Contexto:</span> <span class="text-neutral-700 dark:text-neutral-300">Mudança em Jan/2024 após análise de retenção.</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Regras:</span> <span class="text-neutral-700 dark:text-neutral-300">- Premium: 20% (down de 25% para melhorar margem)
+- Regular: 5% (up de 0% para aumentar conversão)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Decisão baseada em:</span> <span class="text-neutral-700 dark:text-neutral-300">- A/B test mostrou 18% mais conversão com 5% regular
+- Margem de premium ainda lucrativa com 20%</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Código:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">src/pricing/discount.py:calculate_discount()</code>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Agora qualquer um entende o PORQUÊ.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg mb-8 shadow-md hover:shadow-lg transition-shadow">
+          <h3 class="text-xl font-bold text-red-700 dark:text-red-400 mb-4 flex items-center gap-2">
+            <span class="text-2xl">❌</span>
+            <span>❌ Mito 3: "Isso é trabalho extra, não faz parte do meu job"</span>
+          </h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Realidade:</span> <span class="text-neutral-700 dark:text-neutral-300">Técnicos seniores/líderes fazem isso <strong class="font-bold">naturalmente</strong>.</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Job description de Senior/Staff Engineer:</span> <span class="text-neutral-700 dark:text-neutral-300">- "Document architecture decisions" ✅
+- "Mentor junior developers" ✅
+- "Improve team productivity" ✅
+- "Share knowledge across organization" ✅</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tradução:</span> <span class="text-neutral-700 dark:text-neutral-300">Tudo que estamos falando.</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Você pode:</span> <span class="text-neutral-700 dark:text-neutral-300">- Esperar virar sênior para começar (leva anos)
+- Começar agora e <strong class="font-bold">acelerar a promoção</strong></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Dados:</span> <span class="text-neutral-700 dark:text-neutral-300">Devs que já fazem isso antes de serem promovidos:
+- Promovidos <strong class="font-bold">2x mais rápido</strong>
+- Recebem <strong class="font-bold">ofertas melhores</strong>
+- Têm <strong class="font-bold">mais leverage</strong> em negociações</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Por Que Agora é o Momento Perfeito -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Por Que Agora é o Momento Perfeito</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">IA Democratizou a Criação de Conteúdo</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Antes (2022):</span> <span class="text-neutral-700 dark:text-neutral-300">- Escrever post técnico: 3-4 horas
+- Criar vídeo: dia inteiro (edição, etc)
+- Fazer documentação: ninguém fazia</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Agora (2025):</span> <span class="text-neutral-700 dark:text-neutral-300">- ChatGPT escreve rascunho: <strong class="font-bold">10 minutos</strong>
+- Loom grava + transcreve: <strong class="font-bold">15 minutos</strong>
+- NotebookLM transforma doc em podcast: <strong class="font-bold">5 minutos</strong></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">Criar conteúdo ficou <strong class="font-bold">10x mais rápido</strong>.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Ferramentas No-Code Explodiram</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Antes:</span> <span class="text-neutral-700 dark:text-neutral-300">Criar chatbot = semanas de código</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Agora:</span> <span class="text-neutral-700 dark:text-neutral-300">Botpress/Voiceflow = <strong class="font-bold">30 minutos</strong>, sem código</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Antes:</span> <span class="text-neutral-700 dark:text-neutral-300">Automação = programar tudo</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Agora:</span> <span class="text-neutral-700 dark:text-neutral-300">Zapier/n8n = <strong class="font-bold">visual</strong>, conecta qualquer coisa</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">Técnicos podem criar ferramentas <strong class="font-bold">sem perder tempo codando tudo do zero</strong>.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: O Efeito Bola de Neve -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">O Efeito Bola de Neve</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Como 1 Ação Leva a Oportunidades Exponenciais</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Você cria:</span> <span class="text-neutral-700 dark:text-neutral-300">1 automação útil</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Publica:</span> <span class="text-neutral-700 dark:text-neutral-300">GitHub (código) + LinkedIn (post explicando)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">- 500 pessoas veem
+- 50 dão like/comentam
+- 5 compartilham
+- 2 mandam DM agradecendo
+- 1 oferece consultoria</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Você documenta:</span> <span class="text-neutral-700 dark:text-neutral-300">Solução de problema comum</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Publica:</span> <span class="text-neutral-700 dark:text-neutral-300">Blog + Dev.to</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">- Google indexa
+- 1000 pessoas encontram via busca
+- 10 comentam "isso me salvou"
+- 3 oferecem emprego
+- 1 convida para palestrar</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Efeito composto:</span> <span class="text-neutral-700 dark:text-neutral-300">6 meses fazendo isso = <strong class="font-bold">centenas de oportunidades</strong></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Sua Jornada Começa Aqui -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Sua Jornada Começa Aqui</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Exercício: Identifique Seu Primeiro Projeto</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Responda essas perguntas:</strong></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">1. Problemas que você já resolveu 10+ vezes:</span> <span class="text-neutral-700 dark:text-neutral-300">- Qual erro/dúvida você responde repetidamente?
+- Que processo manual você faz toda semana?
+- Que configuração você sempre precisa explicar?</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Exemplo:</span> <span class="text-neutral-700 dark:text-neutral-300">- "Como configurar ambiente local"
+- "Erro de CORS no frontend"
+- "Como fazer deploy"</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">2. Conhecimento que só você tem:</span> <span class="text-neutral-700 dark:text-neutral-300">- Que parte do sistema só você entende?
+- Que decisão técnica só você sabe o porquê?
+- Que ferramenta só você domina?</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Exemplo:</span> <span class="text-neutral-700 dark:text-neutral-300">- "Por que usamos PostgreSQL e não MongoDB"
+- "Como funciona nosso sistema de cache"
+- "Quando usar fila vs API direta"</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">3. Ferramentas que poderiam ajudar o time:</span> <span class="text-neutral-700 dark:text-neutral-300">- Que portal/dashboard facilitaria a vida?
+- Que bot/automação economizaria tempo?
+- Que documentação falta?</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Exemplo:</span> <span class="text-neutral-700 dark:text-neutral-300">- "Portal para ver logs sem acessar servidor"
+- "Bot que responde dúvidas de deploy"
+- "Wiki sobre arquitetura do sistema"</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Seu Primeiro Passo (Escolha 1)</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção A: Automação Simples</strong>
+- Escolha 1 processo manual chato
+- Crie script/workflow que automatiza
+- Documente em README claro
+- Compartilhe com 1 pessoa do time</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tempo:</span> <span class="text-neutral-700 dark:text-neutral-300">2-3 horas
+<strong class="font-bold">Impacto:</strong> Imediato e visível</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção B: Documentação de Problema</strong>
+- Escolha 1 problema que você resolve sempre
+- Escreva doc: Problema → Solução → Código
+- Publique (Confluence, Notion, GitHub)
+- Próxima vez que perguntarem: manda o link</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tempo:</span> <span class="text-neutral-700 dark:text-neutral-300">1-2 horas
+<strong class="font-bold">Impacto:</strong> Economiza tempo para sempre</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção C: Post Técnico</strong>
+- Escolha 1 aprendizado recente
+- Escreva post: O que era difícil → Como resolveu
+- Publique (LinkedIn, Dev.to, blog)
+- Compartilhe com network</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tempo:</span> <span class="text-neutral-700 dark:text-neutral-300">1 hora (com ChatGPT)
+<strong class="font-bold">Impacto:</strong> Visibilidade + ajuda dezenas de pessoas</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: A Transformação em 90 Dias -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">A Transformação em 90 Dias</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">O que esperar se seguir o sistema:</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Semana 1-2: Fundação</strong>
+- 1 automação criada
+- 2 documentações escritas
+- 3 posts publicados
+- Feedback inicial do time</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Semana 3-4: Tração</strong>
+- Time começando a usar suas soluções
+- Menos interrupções
+- Primeiros "isso me ajudou!" externos</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Mês 2: Visibilidade</strong>
+- Reconhecimento interno
+- Ofertas de ajudar outros projetos
+- Network crescendo
+- Primeiras oportunidades externas</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Mês 3: Momentum</strong>
+- Visto como referência em algo
+- Promovido OU ofertas melhores
+- Sistema funcionando sozinho
+- Você virou solucionador</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Compromisso -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Compromisso</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">O Que Você VAI Fazer Nos Próximos 7 Dias?</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tarefa 1 (2h):</span> <span class="text-neutral-700 dark:text-neutral-300">Escolher 1 problema e criar solução
+- [ ] Automação OU
+- [ ] Documentação OU
+- [ ] Ferramenta</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tarefa 2 (1h):</span> <span class="text-neutral-700 dark:text-neutral-300">Compartilhar publicamente
+- [ ] Post LinkedIn OU
+- [ ] Artigo blog OU
+- [ ] Vídeo Loom</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tarefa 3 (30min):</span> <span class="text-neutral-700 dark:text-neutral-300">Medir impacto
+- [ ] Quantas pessoas usaram?
+- [ ] Quanto tempo economizou?
+- [ ] Que feedback recebeu?</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Reflexão Final -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Reflexão Final</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Duas carreiras possíveis:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Carreira A: Executor Invisível</strong>
+- 10 anos fazendo tasks bem
+- Código excelente que ninguém vê
+- Conhecimento que morre com você
+- Crescimento lento
+- Dependente de chefe te notar</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Carreira B: Solucionador Visível</strong>
+- Resolve problemas + mostra que resolveu
+- Cria sistemas que escalam
+- Conhecimento ajuda centenas
+- Crescimento acelerado
+- Oportunidades te procuram</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Você escolhe.</strong></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Próximo módulo:</span> <span class="text-neutral-700 dark:text-neutral-300">Vamos criar sua primeira automação que resolve problema de verdade.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Recursos Adicionais -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Recursos Adicionais</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Para ler:</span> <span class="text-neutral-700 dark:text-neutral-300">- "The Staff Engineer's Path" - Tanya Reilly
+- "An Elegant Puzzle" - Will Larson</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Para seguir:</span> <span class="text-neutral-700 dark:text-neutral-300">- @cassidoo (dev advocate que ensina bem)
+- @swyx (learn in public)
+- @kelseyhightower (tech talks excelentes)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Para usar:</span> <span class="text-neutral-700 dark:text-neutral-300">- GitHub - seu portfolio
+- LinkedIn - sua vitrine
+- Dev.to - seu blog técnico</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Lembre-se:</span> <span class="text-neutral-700 dark:text-neutral-300">Você não precisa ser o melhor técnico do mundo.
+Você precisa ser o técnico que resolve problemas das pessoas de forma visível.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Isso já te coloca no top 10%.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">🚀 <strong class="font-bold">Vamos para o Módulo 2: Criar sua primeira automação!</strong></p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer / Navegação -->
+  <section class="py-12 bg-gradient-to-br from-neutral-100 to-neutral-50 dark:from-neutral-900 dark:to-neutral-800 border-t border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center">
+        <a href="../../trilhas/tecnico.html" class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2">
+          <span>←</span>
+          <span>Voltar para Trilha</span>
+        </a>
+        <a href="modulo-02.html" class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"><span>Próximo Módulo</span><span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    // Remove preload class
+    window.addEventListener('load', () => {
+      document.body.classList.remove('preload');
+    });
+
+    // Dark mode toggle
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+    // Check localStorage
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      themeToggleLightIcon.classList.remove('hidden');
+      document.documentElement.classList.add('dark');
+    } else {
+      themeToggleDarkIcon.classList.remove('hidden');
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+
+      if (localStorage.getItem('color-theme')) {
+        if (localStorage.getItem('color-theme') === 'light') {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        }
+      } else {
+        if (document.documentElement.classList.contains('dark')) {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        } else {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>

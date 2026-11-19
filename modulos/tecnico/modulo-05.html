@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 5: Blog Técnico com IA - Conteúdo em Escala | Trilha Técnico Comunicador | FETD</title>
+  <meta name="description" content="Criar sistema de produção de conteúdo técnico que roda quase sozinho com IA">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'tecnico': '#F97316',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+    .preload * {
+      transition: none !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white/95 dark:bg-neutral-800/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-700 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="../../index.html" class="text-2xl font-bold bg-gradient-to-r from-tecnico to-orange-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+            🎓 FETD
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-tecnico transition-colors font-medium">Início</a>
+          <a href="../../trilhas/tecnico.html" class="text-neutral-700 dark:text-neutral-300 hover:text-tecnico transition-colors font-medium">Trilha Técnico Comunicador</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 hover:bg-tecnico/10 transition-colors">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm font-medium" aria-label="Breadcrumb">
+        <a href="../../index.html" class="text-tecnico hover:opacity-80 transition-opacity">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <a href="../../trilhas/tecnico.html" class="text-tecnico hover:opacity-80 transition-opacity">Trilha Técnico Comunicador</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Módulo 5</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Módulo -->
+  <section class="bg-gradient-to-br from-tecnico via-tecnico to-orange-600 py-20 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-white/5 bg-[size:20px_20px]"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white relative z-10">
+
+      <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg">Módulo 5 de 10</span>
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg flex items-center gap-2">
+          <span>⏱️</span>
+          <span>60 minutos</span>
+        </span>
+      </div>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+        Módulo 5: Blog Técnico com IA - Conteúdo em Escala
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/95 mb-8 max-w-3xl font-medium leading-relaxed">
+        Criar sistema de produção de conteúdo técnico que roda quase sozinho com IA
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 text-white/90">
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">📚</span> Teoria</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">💭</span> Reflexão</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">🛠️</span> Prática</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <section class="py-16 bg-white dark:bg-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Download Button -->
+      <div class="flex justify-end mb-8">
+        <a href="../../downloads/tecnico/modulo-05.md" download class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
+          <span class="text-xl">📥</span>
+          <span>Download MD</span>
+        </a>
+      </div>
+
+
+      <!-- Objetivo do Módulo -->
+      <div class="bg-tecnico/10 dark:bg-tecnico/20 border-l-4 border-tecnico p-6 rounded-lg mb-12 shadow-lg">
+        <h3 class="text-xl font-bold text-tecnico mb-2 flex items-center gap-2">
+          <span class="text-2xl">🎯</span>
+          <span>Objetivo deste Módulo</span>
+        </h3>
+        <p class="text-neutral-700 dark:text-neutral-300 text-lg">
+          Criar sistema de produção de conteúdo técnico que roda quase sozinho com IA
+        </p>
+      </div>
+
+
+
+      <!-- Seção: O Que Você Vai Aprender -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎯 O Que Você Vai Aprender</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ Criar blog técnico em 15 minutos (zero infraestrutura)
+✅ Sistema de ideias infinitas com IA
+✅ Escrever posts técnicos em 30 minutos com IA
+✅ Distribuição automática (Dev.to, LinkedIn, Medium)
+✅ SEO técnico para aparecer no Google</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">Blog funcionando + sistema semanal de 1h que gera 4 posts/mês</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🔥 Por Que Blog Técnico Importa -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🔥 Por Que Blog Técnico Importa</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Dados reais:</span> <span class="text-neutral-700 dark:text-neutral-300">- Devs que bloguem ganham <strong class="font-bold">30-50% a mais</strong>
+- 73% dos recrutadores buscam no Google antes de contratar
+- Seu blog aparece em buscas por anos (conteúdo evergreen)
+- Network técnico de qualidade
+- Autoridade na sua área</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">O problema:</span> <span class="text-neutral-700 dark:text-neutral-300">"Não tenho tempo"</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Solução:</span> <span class="text-neutral-700 dark:text-neutral-300">IA escreve 80%, você adiciona os 20% de expertise real</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Setup do Blog (15 minutos) -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📝 Setup do Blog (15 minutos)</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Opção 1: Hashnode (Recomendado)</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Por quê:</span> <span class="text-neutral-700 dark:text-neutral-300">- ✅ Grátis para sempre
+- ✅ Domínio custom gratuito
+- ✅ SEO otimizado
+- ✅ Comunidade embutida
+- ✅ Backup automático
+- ✅ Newsletter integrada
+- ✅ Analytics incluído</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Setup:</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Acesse <a href="https://hashnode.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">hashnode.com</a></li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Crie conta (GitHub login)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Create Blog → escolha nome (<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">seu-nome.hashnode.dev</code>)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Customize (logo, cores, bio)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Write first post!</li>
+          </ol>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Custom domain (opcional):</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Comprar: blog.seunome.dev ($12/ano)
+Adicionar em Settings → Domain
+DNS: CNAME apontando para hashnode.network
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Opção 2: Dev.to (Zero Setup)</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Pros:</span> <span class="text-neutral-700 dark:text-neutral-300">- ✅ Audiência pronta (milhões de devs)
+- ✅ Zero setup
+- ✅ Boa distribuição</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Cons:</span> <span class="text-neutral-700 dark:text-neutral-300">- ❌ Não é "seu" (vive na plataforma)
+- ❌ Menos controle
+- ❌ Sem custom domain</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Quando usar:</span> <span class="text-neutral-700 dark:text-neutral-300">Começar rápido, testar ideias</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Opção 3: GitHub Pages + Jekyll</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Para quem:</span> <span class="text-neutral-700 dark:text-neutral-300">Quer controle total, sabe Git</span></p>
+          </div>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code># Setup rápido
+gem install jekyll bundler
+jekyll new meu-blog
+cd meu-blog
+bundle exec jekyll serve</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"># Publicar no GitHub Pages
+# Criar repo: username.github.io
+git push origin main
+# Live em: username.github.io
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Sistema de Ideias Infinitas -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">💡 Sistema de Ideias Infinitas</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Problema: "Sobre o que escrever?"</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Solução:</span> <span class="text-neutral-700 dark:text-neutral-300">Capturar aprendizados do dia a dia</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Regra de ouro:</span> <span class="text-neutral-700 dark:text-neutral-300">Se você gastou 1h+ debugando algo, vire post!</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Template de Captura (Notion/Obsidian)</h3>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code># Banco de Ideias</code></pre>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: TIL (Today I Learned) - Viram posts rápidos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">TIL (Today I Learned) - Viram posts rápidos</h2>
+
+        <div class="mb-6">
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Docker layer caching economiza 5min de build</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] GitHub Actions matrix para testar múltiplas versões</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Python dataclasses > dicts para configs</span></li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Problemas Resolvidos - Viram tutoriais -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Problemas Resolvidos - Viram tutoriais</h2>
+
+        <div class="mb-6">
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Deploy falhando com erro 502 (resolvido mudando timeout)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Database migration travando em produção</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] CI/CD ficando lento (otimizamos de 20min → 5min)</span></li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Comparações - Público adora -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Comparações - Público adora</h2>
+
+        <div class="mb-6">
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Docker vs Podman em produção</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Terraform vs Pulumi (6 meses de uso real)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Pytest vs Unittest (por que mudamos)</span></li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Opiniões - Geram engajamento -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Opiniões - Geram engajamento</h2>
+
+        <div class="mb-6">
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Por que paramos de usar microservices</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Testes e2e são overrated</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Docs > código bonito</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></li>
+          </ul>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Usando IA para Gerar Ideias</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Prompt para ChatGPT:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Sou desenvolvedor [Backend/DevOps/Frontend] trabalhando com [suas techs].</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Gere 20 ideias de posts técnicos sobre:
+- Problemas comuns em [área]
+- Tutoriais práticos
+- Comparações de ferramentas
+- Otimizações</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Formato:
+- Título chamativo
+- Gancho (por que ler)
+- Promessa (o que vai aprender)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Output esperado:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+1. "Como reduzir build do Docker de 10min para 2min"
+   Gancho: Build lento é o #1 problema de produtividade
+   Promessa: 3 técnicas simples que funcionam</span></p>
+          </div>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">"Debugando 502 em produção sem downtime"</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Gancho: 502 = pânico 3h da manhã</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Promessa: Checklist passo a passo</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: ✍️ Escrevendo com IA (30 minutos) -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">✍️ Escrevendo com IA (30 minutos)</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Framework: IA Draft → Você Refina → Publica</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 1: Outline com IA (5 min)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Prompt:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Crie outline detalhado para post técnico:</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Título: "Como otimizamos CI/CD de 20min para 5min"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Audiência: Devs que sofrem com CI lento</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Estrutura:
+1. Intro (hook do problema)
+2. Contexto (nosso cenário)
+3. Problema (por que 20min é ruim)
+4. Solução (3 otimizações específicas)
+5. Resultados (métricas antes/depois)
+6. Conclusão (take-aways)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Incluir:
+- Dados reais (inventar placeholders)
+- Code snippets
+- Screenshots (placeholders)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 2: IA Escreve Draft (10 min)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Usando o outline anterior, escreva o post completo.</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Tom: Conversacional mas técnico
+Estilo: Tutorial prático, não teoria
+Tamanho: 1200-1500 palavras</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Use:
+- Emojis sutis (✅❌⚡)
+- Code blocks com syntax highlighting
+- Listas e bullets
+- Negrito para destacar</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">NÃO:
+- Jargão desnecessário
+- Parágrafos longos
+- Introdução genérica
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 3: Você Adiciona Expertise (10 min)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Aqui entra o diferencial:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Adicione:</strong>
+- Métricas REAIS do seu contexto
+- Code snippets do SEU código
+- Screenshots reais
+- Erros que você cometeu
+- Aprendizados específicos</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Remova:</strong>
+- Frases genéricas da IA
+- Explicações óbvias
+- Disclaimers desnecessários</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 4: Revisão Final (5 min)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Checklist rápido:
+- [ ] Título claro e searchable
+- [ ] Intro responde "por que ler?"
+- [ ] Code snippets testados
+- [ ] Conclusão com ação clara
+- [ ] Tags relevantes (max 5)
+- [ ] Cover image atraente</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Criando Cover Images com IA -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎨 Criando Cover Images com IA</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção 1: Canva (mais fácil)</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Template "Blog Banner"</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Título do post</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Screenshot de código (Carbon.now.sh)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Export PNG</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção 2: Unsplash + Texto</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code># Script rápido
+from PIL import Image, ImageDraw, ImageFont
+import requests</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"># Download de imagem tech
+img_url = "https://unsplash.com/photos/tech-background"
+img = Image.open(requests.get(img_url, stream=True).raw)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"># Adicionar título
+draw = ImageDraw.Draw(img)
+font = ImageFont.truetype("Arial.ttf", 60)
+draw.text((50, 50), "Título do Post", fill="white", font=font)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">img.save("cover.png")
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 📤 Distribuição Automática -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📤 Distribuição Automática</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Cross-posting Inteligente</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Estratégia:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Publica no seu blog (canonical URL)
+2. Cross-post em Dev.to (com canonical link)
+3. Post resumo no LinkedIn (com link)
+4. Tweet thread com highlights</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Ferramentas:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">1. Hashnode → Dev.to (automático)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Hashnode tem integração nativa:
+- Settings → Integrations → Dev.to
+- Conectar conta
+- Posts publicam automaticamente em ambos</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">2. RSS → LinkedIn (Zapier/IFTTT)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Trigger: New RSS item (seu blog)
+Action: Create LinkedIn post</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Template:
+"Novo post: {{title}}</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">{{summary}}</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Leia completo: {{link}}</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">#DevOps #Automation"
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">3. Buffer/Hootsuite para agendar</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Escreve 4 posts no domingo</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Agenda 1/semana</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Buffer distribui automaticamente</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: SEO Técnico para Devs -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🔍 SEO Técnico para Devs</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Keywords que Funcionam</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Fórmula:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">[Tecnologia] + [Ação] + [Contexto]</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Bom:</strong>
+- "Docker multi-stage build tutorial"
+- "GitHub Actions cache dependencies"
+- "Kubernetes troubleshooting CrashLoopBackOff"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Ruim:</strong>
+- "How to code" (muito genérico)
+- "My thoughts on Python" (não searchable)</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Template de Post SEO-Friendly</h3>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code># [Tecnologia]: Como [Ação] [Resultado]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">> [Sumário de 1 linha com keyword principal]</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: O Problema -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">O Problema</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Descrever problema comum com keywords naturais]</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Solução Passo a Passo -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Solução Passo a Passo</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">1. [Passo com keyword]</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Explicação + code]</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">2. [Outro passo com keyword]</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Explicação + code]</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Conclusão -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Conclusão</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Resumo com call-to-action]</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tags:</span> <span class="text-neutral-700 dark:text-neutral-300">#docker #devops #tutorial #automation
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Checklist SEO</h3>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Título com keyword principal (50-60 caracteres)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] URL limpa (<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">/docker-multi-stage-build</code>)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Meta description (150-160 caracteres)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] H2/H3 com variações da keyword</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Links internos (outros posts seus)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Links externos (docs oficiais)</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Alt text em imagens</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Code snippets com linguagem especificada</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Métricas que Importam -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📊 Métricas que Importam</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Não foque em:</span> <span class="text-neutral-700 dark:text-neutral-300">- Total de views (vaidade)
+- Likes/reactions</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Foque em:</span> <span class="text-neutral-700 dark:text-neutral-300">- 🎯 <strong class="font-bold">Comentários técnicos</strong> (prova que leram)
+- 💼 <strong class="font-bold">Mensagens de recrutadores</strong> mencionando posts
+- 🔗 <strong class="font-bold">Backlinks</strong> (outros blogs linkando)
+- 🔍 <strong class="font-bold">Tráfego orgânico</strong> (Google Search Console)
+- 📈 <strong class="font-bold">Email subscribers</strong> (se tiver newsletter)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Meta 6 meses:</span> <span class="text-neutral-700 dark:text-neutral-300">- 10-15 posts publicados
+- 1.000-2.000 views/mês orgânico
+- 3-5 comentários/post em média
+- 50-100 email subscribers
+- Aparecendo no Google para 5-10 keywords</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🗓️ Calendário Editorial Automatizado -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🗓️ Calendário Editorial Automatizado</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Sistema Semanal (1h total)</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Domingo 30min:</span> <span class="text-neutral-700 dark:text-neutral-300">- Revisar semana (commits, tickets, aprendizados)
+- IA gera 3 ideias baseadas no trabalho da semana
+- Escolher 1 para escrever</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Terça 30min:</span> <span class="text-neutral-700 dark:text-neutral-300">- IA escreve draft completo
+- Você revisa e adiciona expertise
+- Agendar publicação para quinta</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">4 posts/mês, 1h/semana</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Notion Template</h3>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>| Status | Ideia | Outline | Draft | Publicado | Link |
+|--------|-------|---------|-------|-----------|------|
+| ✅ Done | Post X | ✅ | ✅ | 2025-01-20 | [link] |
+| 🟡 Writing | Post Y | ✅ | 🔄 | - | - |
+| 📋 Planned | Post Z | ✅ | - | - | - |
+| 💡 Idea | Post W | - | - | - | - |</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Exercício Prático -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎓 Exercício Prático</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Desafio: Primeiro Post em 60 Minutos</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Minuto 0-15: Setup</strong>
+- Criar conta Hashnode/Dev.to
+- Configurar perfil
+- Escolher tema</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Minuto 15-25: Ideia e Outline</strong>
+- Pegar 1 problema que você resolveu essa semana
+- IA gera outline</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Minuto 25-45: Escrever</strong>
+- IA draft
+- Você adiciona expertise real
+- Code snippets testados</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Minuto 45-55: Polir</strong>
+- Cover image
+- Tags
+- SEO check</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Minuto 55-60: Publicar!</strong>
+- Publish
+- Compartilhar no LinkedIn
+- Tweet</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Meta:</span> <span class="text-neutral-700 dark:text-neutral-300">Post publicado + 5 reações no LinkedIn</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Dicas de Ouro -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">💡 Dicas de Ouro</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">1. Quantidade > Perfeição (no início)</h3>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Posts mediocres publicados > posts perfeitos não publicados</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Primeiros 10 posts são aprendizado</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Melhora conforme pratica</span></li>
+          </ul>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">2. Reutilize Conteúdo</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">1 problema resolvido = 5 formatos:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Post de blog (long-form)
+2. TIL no GitHub (short)
+3. Thread no Twitter (social)
+4. Post LinkedIn (resumo + link)
+5. YouTube short (screencast)</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">3. Responda Perguntas Reais</h3>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Stack Overflow que você respondeu → vira post</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Slack/Discord answer → vira post</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Code review comment longo → vira post</span></li>
+          </ul>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">4. "Tutorial Hell" Reverso</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Não faça: "Tutorial de X para iniciantes"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Faça: "Como resolvi Y usando X em produção"</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">5. Série > Posts Isolados</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Exemplo:</span> <span class="text-neutral-700 dark:text-neutral-300">- "Otimizando CI/CD - Parte 1: Caching"
+- "Otimizando CI/CD - Parte 2: Paralelização"
+- "Otimizando CI/CD - Parte 3: Monitoramento"</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vantagens:
+- Mais fácil escrever (tópico dividido)
+- Pessoas voltam para próxima parte
+- Vira guia completo</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Próximos Passos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🚀 Próximos Passos</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Semana 1:</span> <span class="text-neutral-700 dark:text-neutral-300">Setup + Primeiro post
+<strong class="font-bold">Semana 2-4:</strong> 1 post/semana
+<strong class="font-bold">Mês 2:</strong> Achar cadência confortável
+<strong class="font-bold">Mês 3:</strong> Otimizar sistema com IA
+<strong class="font-bold">Mês 6:</strong> Blog estabelecido, tráfego orgânico</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Próximo passo no Módulo 6:</span> <span class="text-neutral-700 dark:text-neutral-300">Vamos criar <strong class="font-bold">apresentações e vídeos técnicos</strong> usando NotebookLM, HeyGen e outras ferramentas de IA!</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 📚 Recursos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📚 Recursos</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Plataformas:</span> <span class="text-neutral-700 dark:text-neutral-300">- <a href="https://hashnode.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Hashnode</a>
+- <a href="https://dev.to" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Dev.to</a>
+- <a href="https://medium.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Medium</a></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">IA Writing:</span> <span class="text-neutral-700 dark:text-neutral-300">- ChatGPT / Claude
+- <a href="https://grammarly.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Grammarly</a>
+- <a href="http://hemingwayapp.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Hemingway Editor</a></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Cover Images:</span> <span class="text-neutral-700 dark:text-neutral-300">- <a href="https://canva.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Canva</a>
+- <a href="https://carbon.now.sh" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Carbon</a> (code screenshots)
+- <a href="https://unsplash.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Unsplash</a></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Distribuição:</span> <span class="text-neutral-700 dark:text-neutral-300">- <a href="https://buffer.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Buffer</a>
+- <a href="https://zapier.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Zapier</a></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tempo:</span> <span class="text-neutral-700 dark:text-neutral-300">3-4h (setup + primeiros 2 posts)
+<strong class="font-bold">Manutenção:</strong> 1h/semana</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Próximo módulo:</span> <span class="text-neutral-700 dark:text-neutral-300">Módulo 6 - Apresentações e Vídeos com IA (NotebookLM, HeyGen, Podscap)</span></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer / Navegação -->
+  <section class="py-12 bg-gradient-to-br from-neutral-100 to-neutral-50 dark:from-neutral-900 dark:to-neutral-800 border-t border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center">
+        <a href="../../trilhas/tecnico.html" class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2">
+          <span>←</span>
+          <span>Voltar para Trilha</span>
+        </a>
+        <a href="modulo-06.html" class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"><span>Próximo Módulo</span><span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    // Remove preload class
+    window.addEventListener('load', () => {
+      document.body.classList.remove('preload');
+    });
+
+    // Dark mode toggle
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+    // Check localStorage
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      themeToggleLightIcon.classList.remove('hidden');
+      document.documentElement.classList.add('dark');
+    } else {
+      themeToggleDarkIcon.classList.remove('hidden');
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+
+      if (localStorage.getItem('color-theme')) {
+        if (localStorage.getItem('color-theme') === 'light') {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        }
+      } else {
+        if (document.documentElement.classList.contains('dark')) {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        } else {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>

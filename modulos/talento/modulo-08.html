@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 8: Canva e Design Básico | Trilha Talento Emergente | FETD</title>
+  <meta name="description" content="Criar materiais visuais profissionais sem ser designer">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'talento': '#F59E0B',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+    .preload * {
+      transition: none !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white/95 dark:bg-neutral-800/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-700 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="../../index.html" class="text-2xl font-bold bg-gradient-to-r from-talento to-amber-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+            🎓 FETD
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-talento transition-colors font-medium">Início</a>
+          <a href="../../trilhas/talento.html" class="text-neutral-700 dark:text-neutral-300 hover:text-talento transition-colors font-medium">Trilha Talento Emergente</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 hover:bg-talento/10 transition-colors">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm font-medium" aria-label="Breadcrumb">
+        <a href="../../index.html" class="text-talento hover:opacity-80 transition-opacity">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <a href="../../trilhas/talento.html" class="text-talento hover:opacity-80 transition-opacity">Trilha Talento Emergente</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Módulo 8</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Módulo -->
+  <section class="bg-gradient-to-br from-talento via-talento to-amber-600 py-20 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-white/5 bg-[size:20px_20px]"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white relative z-10">
+
+      <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg">Módulo 8 de 10</span>
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg flex items-center gap-2">
+          <span>⏱️</span>
+          <span>60 minutos</span>
+        </span>
+      </div>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+        Módulo 8: Canva e Design Básico
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/95 mb-8 max-w-3xl font-medium leading-relaxed">
+        Criar materiais visuais profissionais sem ser designer
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 text-white/90">
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">📚</span> Teoria</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">💭</span> Reflexão</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">🛠️</span> Prática</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <section class="py-16 bg-white dark:bg-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Download Button -->
+      <div class="flex justify-end mb-8">
+        <a href="../../downloads/talento/modulo-08.md" download class="px-6 py-3 bg-gradient-to-r from-talento to-amber-600 text-white rounded-lg font-bold hover:opacity-90 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
+          <span class="text-xl">📥</span>
+          <span>Download MD</span>
+        </a>
+      </div>
+
+
+      <!-- Objetivo do Módulo -->
+      <div class="bg-talento/10 dark:bg-talento/20 border-l-4 border-talento p-6 rounded-lg mb-12 shadow-lg">
+        <h3 class="text-xl font-bold text-talento mb-2 flex items-center gap-2">
+          <span class="text-2xl">🎯</span>
+          <span>Objetivo deste Módulo</span>
+        </h3>
+        <p class="text-neutral-700 dark:text-neutral-300 text-lg">
+          Criar materiais visuais profissionais sem ser designer
+        </p>
+      </div>
+
+
+
+      <!-- Seção: Introdução: O Poder do Visual -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Introdução: O Poder do Visual</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Visual vende. Conteúdo com imagem tem 94% mais views que só texto.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Canva democratizou design.</strong> Você não precisa ser designer para criar conteúdo profissional.</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Dados 2024-2025:</span> <span class="text-neutral-700 dark:text-neutral-300">- Posts LinkedIn com imagem: +200% engajamento
+- Apresentações visuais: +43% persuasivas
+- Portfolios com design: +65% callbacks
+- Profissionais que dominam Canva: economizam 5-8h/semana vs contratar designer</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">O que você vai aprender:</span> <span class="text-neutral-700 dark:text-neutral-300">- Canva básico ao avançado
+- Princípios de design (aplicáveis)
+- Posts LinkedIn que param scroll
+- Apresentações que impressionam
+- Brand kit pessoal profissional
+- Templates que economizam horas</span></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 0. Contexto de Mercado: A Democratização do Design -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">0. Contexto de Mercado: A Democratização do Design</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">0.1 Concorrentes e Comparação</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O mercado de design tools para não-designers explodiu:</strong></p>
+
+
+          <div class="overflow-x-auto mb-8 shadow-lg rounded-lg">
+            <table class="w-full border-collapse">
+              <thead>
+                <tr class="bg-gradient-to-r from-talento to-talento/80 text-white">
+                  <th class="px-6 py-4 text-left font-bold">Ferramenta</th>
+                  <th class="px-6 py-4 text-left font-bold">Foco</th>
+                  <th class="px-6 py-4 text-left font-bold">Pontos Fortes</th>
+                  <th class="px-6 py-4 text-left font-bold">Limitações</th>
+                  <th class="px-6 py-4 text-left font-bold">Preço</th>
+                </tr>
+              </thead>
+              <tbody class="bg-white dark:bg-neutral-800">
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">------------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">---------------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">------------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">-------</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Canva</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Design simplificado all-in-one</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Templates infinitos, fácil, colaboração</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Limitado pra design complexo, formatos</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis - $13/mês</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Adobe Express</strong> (ex-Spark)</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Adobe simplificado</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Integra Adobe, qualidade superior, templates</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Mais caro, curva aprendizado maior</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis - $10/mês</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Figma</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Design profissional + prototipo</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Poder máximo, vetorial, collaboration perfeita</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Complexo iniciantes, overkill pra social media</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis - $15/mês</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Visme</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Apresentações + infográficos</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Infográficos excelentes, charts interativos</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Menos templates que Canva, menos conhecido</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis - $25/mês</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Crello (VistaCreate)</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Canva competitor</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Parecido Canva, mais vídeos animados</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Menor biblioteca templates, menos intuitivo</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis - $10/mês</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">PicMonkey</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Photo editing + design</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Edição foto superior, touch-up tools</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Menos templates, foco foto vs design gráfico</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$8-13/mês</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Snappa</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Social media graphics</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Rápido, simples, resize automático</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Limitado vs Canva, menos features</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis - $10/mês</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Desygner</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Multi-format design</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">PDFs editáveis, muitos formatos</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Interface confusa, menos popular</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis - $10/mês</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Adobe Photoshop</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Pro photo editing</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Poder máximo, padrão indústria</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Complexo, caro, overkill pra não-designer</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$20-55/mês</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-talento/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Adobe Illustrator</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Pro vector design</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Melhor ferramenta vetorial mundo</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Muito complexo, caro, curva aprendizado íngreme</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$20-55/mês</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Por que Canva domina não-designers:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Simplicidade absurda</strong> (drag-and-drop, qualquer um usa em 5min)
+✅ <strong class="font-bold">Templates infinitos</strong> (500k+ templates pra tudo: posts, apresentações, logos, etc)
+✅ <strong class="font-bold">Biblioteca assets gigante</strong> (fotos stock, ícones, ilustrações, fontes)
+✅ <strong class="font-bold">Grátis robusto</strong> (plano free já resolve 80% necessidades)
+✅ <strong class="font-bold">Brand Kit</strong> (cores, fontes, logos = consistência marca) [Pro]
+✅ <strong class="font-bold">Magic Resize</strong> (1 design → 20 formatos automático) [Pro]
+✅ <strong class="font-bold">Colaboração real-time</strong> (Google Docs pra design)
+✅ <strong class="font-bold">Mobile excelente</strong> (edita designs complexos no celular)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Quando Canva NÃO é ideal:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Design profissional complexo:</strong> Figma/Adobe são superiores (controle fino, vetorial avançado)
+❌ <strong class="font-bold">Edição foto avançada:</strong> Photoshop/Lightroom necessários (cor grading, compositing)
+❌ <strong class="font-bold">Print profissional:</strong> Adobe Illustrator melhor (CMYK, formatos específicos)
+❌ <strong class="font-bold">Animações/motion design:</strong> After Effects, Premiere são o padrão
+❌ <strong class="font-bold">UI/UX design:</strong> Figma domina (protótipos interativos, design systems)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Tendência mercado (2024-2025):</strong></p>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Canva:</strong> Dominando (150M+ usuários, crescimento 50%/ano), adicionando IA, vídeo, sites</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Adobe Express:</strong> Crescendo (bundling Creative Cloud), mas Canva já tem rede de efeitos</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Figma:</strong> Mantém designers profissionais, mas muito complexo pra massa</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Visme/Crello:</strong> Nicho (infográficos, animações), não ameaçam Canva</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Adobe Photoshop/Illustrator:</strong> Ainda padrão pro, mas caindo pra uso casual (Canva roubou)</span></li>
+          </ul>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Escolha Canva se:</span> <span class="text-neutral-700 dark:text-neutral-300">- Não é designer profissional
+- Precisa criar conteúdo visual rápido (posts, apresentações, docs)
+- Quer templates prontos (não criar do zero)
+- Orçamento limitado (plano grátis resolve)
+- Time colabora em designs</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Escolha Figma se:</span> <span class="text-neutral-700 dark:text-neutral-300">- Designer profissional/aspirante
+- Precisa UI/UX (websites, apps)
+- Quer controle total vetorial
+- Prototipagem interativa</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Escolha Adobe se:</span> <span class="text-neutral-700 dark:text-neutral-300">- Trabalha em agência/design house
+- Clientes exigem arquivos Adobe
+- Precisa features avançadas (CMYK, pantone, etc)
+- Já domina Adobe (curva aprendizado superada)</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">0.2 Por Que Dominar Ferramentas de Design (Mesmo Não Sendo Designer)</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">A pergunta:</span> <span class="text-neutral-700 dark:text-neutral-300">"Não sou designer... por que aprender Canva?"</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Resposta:</span> <span class="text-neutral-700 dark:text-neutral-300">Visual é 50% do profissionalismo hoje. Quem domina Canva tem vantagem absurda.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Dados reais:</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Profissional SEM Canva:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">LinkedIn posts:</strong> Só texto (engajamento baixo, passa batido)
+- <strong class="font-bold">Apresentações:</strong> PowerPoint padrão feio (audiência desliga)
+- <strong class="font-bold">Portfolio:</strong> PDF texto (não diferencia de 100 outros)
+- <strong class="font-bold">Propostas:</strong> Google Docs genérico (não impressiona)
+- <strong class="font-bold">Resultado:</strong> Profissional, mas invisível</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Profissional COM Canva dominado:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">LinkedIn posts:</strong> Visual chamativo (para scroll, +200% engajamento)
+- <strong class="font-bold">Apresentações:</strong> Design moderno (audiência presta atenção, lembra depois)
+- <strong class="font-bold">Portfolio:</strong> PDF visual rico (destaca instantaneamente)
+- <strong class="font-bold">Propostas:</strong> Branded, profissional (cliente: "uau, essa pessoa é séria")
+- <strong class="font-bold">Resultado:</strong> Profissional E memorável</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">IMPACTO REAL:</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Freelancer/Creator:</span> <span class="text-neutral-700 dark:text-neutral-300">- Sem Canva: Contrata designer = R$ 200-500 por peça × 10 peças/mês = <strong class="font-bold">R$ 2.000-5.000/mês</strong>
+- Com Canva: Cria você mesmo = R$ 13/mês Pro (opcional) = <strong class="font-bold">economia R$ 2.000-5.000/mês</strong>
+- <strong class="font-bold">ROI:</strong> 15.000%+ no primeiro mês</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Profissional corporativo:</span> <span class="text-neutral-700 dark:text-neutral-300">- Sem Canva: Depende de designer (2-5 dias espera por peça, fila, revisões)
+- Com Canva: Cria em 20min, itera sozinho, zero dependência
+- <strong class="font-bold">Ganho:</strong> Velocidade 10x, autonomia total</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Busca de emprego:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Currículo padrão Word:</strong> 2% callback
+- <strong class="font-bold">Currículo Canva visual:</strong> 8-12% callback (4-6x mais)
+- <strong class="font-bold">Portfolio PDF Canva:</strong> 15-20% callback</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Vendas/Propostas:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Proposta Google Docs:</strong> 15-20% conversão
+- <strong class="font-bold">Proposta Canva branded:</strong> 35-50% conversão (2-3x mais)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">ROI absurdo pra esforço mínimo:</span> <span class="text-neutral-700 dark:text-neutral-300">- Tempo dominar Canva básico: <strong class="font-bold">2-3 horas</strong>
+- Tempo economizado depois: <strong class="font-bold">5-10h/semana</strong> (não espera designer, cria rápido)
+- Benefício vitalício: <strong class="font-bold">Visual profissional em tudo que faz</strong></span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">0.3 O Futuro: IA Vai Fazer Todo Design Pra Nós?</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">A pergunta:</span> <span class="text-neutral-700 dark:text-neutral-300">"IA já cria imagens (DALL-E, Midjourney)... Canva não vai sumir?"</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Resposta:</span> <span class="text-neutral-700 dark:text-neutral-300">IA vai POTENCIALIZAR Canva, não substituir. Design exige contexto humano.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O que está vindo (2025-2027):</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">🔮 <strong class="font-bold">Canva AI (já começando 2025):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Canva Magic Design:
+- "Crie post LinkedIn sobre automação no-code"
+- IA gera 10 opções visuais completas (texto + design)
+- Você escolhe, ajusta detalhes, publica</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Magic Write:
+- "Escreva copy pra post sobre produtividade"
+- IA escreve variações, você seleciona melhor</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Magic Edit:
+- "Remova background dessa foto"
+- IA remove em 2 segundos (antes: $1 Pro feature, agora: grátis)
+- "Muda cor camiseta pra azul"
+- IA edita foto profissionalmente</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Magic Expand:
+- Foto pequena → IA expande bordas (cria conteúdo realista)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Já existe (2025):</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Canva AI:</strong> Text to Image, background remover, Magic Write, Magic Resize
+- <strong class="font-bold">Integração DALL-E/Stable Diffusion:</strong> Gera imagens custom dentro do Canva
+- <strong class="font-bold">Smart templates:</strong> IA sugere template baseado em conteúdo</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">🔮 <strong class="font-bold">Canva totalmente IA-powered (2026-2027):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Você: "Cria apresentação vendas produto X, 10 slides, estilo moderno minimalista"</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Canva IA:
+- Analisa produto (site, docs)
+- Gera estrutura apresentação (storytelling otimizado)
+- Cria 10 slides completos (texto + visual + data viz)
+- Aplica seu Brand Kit automaticamente
+- Otimiza pra persuasão (baseado em 100M+ apresentações analisadas)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Você: Revisa, ajusta detalhes estratégicos (mensagem, dados), publica
+Tempo: 10min vs 3h manual
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">🔮 <strong class="font-bold">Design auto-adaptável (2027+):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-talento/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Canva futuro:
+- Aprende SEU estilo (analisa designs anteriores)
+- Auto-cria conteúdo consistente com sua marca
+- "IA, cria 30 posts LinkedIn pro próximo mês"
+  → IA gera calendário visual completo, você só aprova/ajusta
+- Adapta designs pra múltiplos contextos automaticamente
+  → 1 design → IA cria versões Instagram, LinkedIn, Twitter, email, etc</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">ENTÃO POR QUE DOMINAR CANVA AGORA?</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Razão 1: IA amplifica DESIGN INTENCIONAL, não cria do nada</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">IA precisa direção. Você define:
+- <strong class="font-bold">O QUÊ</strong> comunicar (mensagem, objetivo)
+- <strong class="font-bold">PARA QUEM</strong> (audiência, contexto)
+- <strong class="font-bold">COMO</strong> (tom, estilo, emoção)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">IA executa, mas você direciona.</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Exemplo:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Prompt ruim (sem contexto design):
+"Cria post LinkedIn"</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">IA: [Gera algo genérico, sem personalidade]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Prompt bom (entende design):
+"Cria post LinkedIn:
+- Tema: Produtividade remota
+- Audiência: Profissionais tech 25-35 anos
+- Estilo: Moderno, minimalista, cores frias
+- Emoção: Inspirador, não corporativo
+- Formato: Carrossel 5 slides
+- Brand colors: #1A73E8, #FFFFFF"</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">IA: [Gera opções relevantes, alinhadas, usáveis]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Quem domina Canva sabe O QUE pedir. Quem não sabe... aceita qualquer coisa que IA cria.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Razão 2: Fundamentos design são atemporais</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Princípios que você aprende (hierarquia visual, contraste, alinhamento, espaço negativo) funcionam em:
+- Canva hoje
+- Ferramenta IA amanhã
+- Qualquer mídia visual</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Ferramenta muda, princípios ficam.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Razão 3: IA atual (2025) ainda é limitada</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Realidade:
+- IA cria bem, mas você refina (ajusta cores, espaçamento, mensagem)
+- IA não entende contexto específico do SEU negócio
+- Designs IA às vezes são genéricos (falta personalidade)
+- Você ainda valida se visual comunica a mensagem certa</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Razão 4: Vantagem competitiva AGORA (enquanto IA não é perfeita)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">95% das pessoas:
+- Não usam Canva (dependem designer OU usam PowerPoint feio)
+- Não aproveitam IA (não sabem prompt engineering pra design)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Você dominando Canva + IA = produz conteúdo visual 100x mais rápido que concorrente.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">IA democratiza depois (2027+), mas você já está 3 anos à frente.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Cenário mais provável (2025-2030):</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Não será:</span> <span class="text-neutral-700 dark:text-neutral-300">IA cria design perfeito, você nunca abre Canva</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Será:</span> <span class="text-neutral-700 dark:text-neutral-300">Híbrido humano + IA</span></p>
+          </div>
+
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Você:</strong> Define estratégia visual, mensagem, brand, contexto</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">IA (Canva Magic):</strong> Gera variações, executa, otimiza</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-talento flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><strong class="font-bold">Canva:</strong> Plataforma que conecta você + IA + templates + colaboração</span></li>
+          </ul>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Analogia fotografia:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Antes: Câmera manual complexa (só fotógrafos profissionais)
+2025: iPhone com IA (qualquer um tira foto boa) + ajustes manuais
+Futuro: IA gera foto ideal (você descreve, IA cria), mas você decide conceito</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Design é igual:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Você sempre define CONCEITO (mensagem, objetivo, brand).
+IA/Canva executa TÉCNICA (layout, cores, composição).</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">SUA ESTRATÉGIA:</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-talento marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Domine fundamentos AGORA</strong> (este módulo: princípios design, Canva básico)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Use Canva AI gradualmente</strong> (já disponível: Magic Design, text to image)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Aprenda prompt engineering pra design</strong> (como pedir o que quer)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Construa Brand Kit</strong> (cores, fontes, estilo = IA usa automaticamente)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Adapte</strong> (IA gera, você refina e valida)</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">A habilidade mais valiosa não é "usar Canva".</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">É "pensar visualmente, comunicar através de design, aplicar princípios".</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Isso funciona em Canva, em ferramenta IA futura, em qualquer mídia visual.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Canva é MEIO de praticar. Habilidade é o FIM.</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 1. Canva do Zero ao Profissional -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">1. Canva do Zero ao Profissional</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.1 Interface e Fundamentos</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Planos:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Free:</strong> 250k+ templates, básico robusto, ótimo pra começar
+- <strong class="font-bold">Pro ($13/mês):</strong> Background remover, brand kit, resize mágico, templates premium
+- <strong class="font-bold">Teams ($30/mês):</strong> Colaboração, brand kit compartilhado</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Recomendação inicial:</span> <span class="text-neutral-700 dark:text-neutral-300">Free é suficiente. Upgrade quando monetizar.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Interface explicada:</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Home:</span> <span class="text-neutral-700 dark:text-neutral-300">- Templates (pré-prontos editáveis)
+- Projetos (seus designs)
+- Brand Kit (cores, fontes, logos) [Pro]</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Editor:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Canvas:</strong> Área de trabalho
+- <strong class="font-bold">Sidebar esquerda:</strong> Elements, text, uploads, etc
+- <strong class="font-bold">Toolbar superior:</strong> Sharing, download, resize
+- <strong class="font-bold">Properties direita:</strong> Edita elemento selecionado</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Tipos de design:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Posts redes sociais:</strong> Instagram, LinkedIn, Facebook
+- <strong class="font-bold">Apresentações:</strong> Slides profissionais
+- <strong class="font-bold">Documentos:</strong> PDFs, reports, ebooks
+- <strong class="font-bold">Vídeos:</strong> Reels, TikTok, YouTube shorts
+- <strong class="font-bold">Marketing:</strong> Flyers, business cards, banners
+- <strong class="font-bold">Print:</strong> Cartazes, convites</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Custom size:</span> <span class="text-neutral-700 dark:text-neutral-300">Qualquer dimensão que precisar</span></p>
+          </div>
+
+        </div>
+
+        <div class="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-6 rounded-lg mb-8 shadow-md">
+          <h3 class="text-xl font-bold text-yellow-700 dark:text-yellow-400 mb-4 flex items-center gap-2">
+            <span class="text-2xl">💡</span>
+            <span>1.2 Dimensões Importantes (Memorize)</span>
+          </h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">LinkedIn:</span> <span class="text-neutral-700 dark:text-neutral-300">- Post horizontal: 1200 × 627 px
+- Post quadrado: 1080 × 1080 px
+- Carrossel: 1080 × 1080 px (cada slide)
+- Banner profile: 1584 × 396 px</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Instagram:</span> <span class="text-neutral-700 dark:text-neutral-300">- Feed quadrado: 1080 × 1080 px
+- Feed vertical: 1080 × 1350 px
+- Story: 1080 × 1920 px
+- Reel: 1080 × 1920 px</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Apresentações:</span> <span class="text-neutral-700 dark:text-neutral-300">- 16:9 (padrão): 1920 × 1080 px
+- 4:3 (antigo): 1024 × 768 px</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Documents:</span> <span class="text-neutral-700 dark:text-neutral-300">- A4: 210 × 297 mm
+- US Letter: 8,5 × 11 polegadas</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">YouTube:</span> <span class="text-neutral-700 dark:text-neutral-300">- Thumbnail: 1280 × 720 px
+- Banner: 2560 × 1440 px</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Dica:</span> <span class="text-neutral-700 dark:text-neutral-300">Canva tem presets. Você só escolhe "LinkedIn Post" e dimensão correta já vem.</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.3 Elementos Essenciais</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Text:</span> <span class="text-neutral-700 dark:text-neutral-300">- Heading (título grande)
+- Subheading (subtítulo)
+- Body (texto corrido)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Fontes padrão boas (gratuitas):</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Sans-serif (moderna, clean):</strong>
+  * Montserrat
+  * Poppins
+  * Inter
+  * Roboto
+- <strong class="font-bold">Serif (tradicional, elegante):</strong>
+  * Playfair Display
+  * Merriweather
+  * Lora</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Elements:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Shapes:</strong> Retângulos, círculos, linhas
+- <strong class="font-bold">Icons:</strong> 1M+ ícones grátis
+- <strong class="font-bold">Illustrations:</strong> Ilustrações modernas
+- <strong class="font-bold">Photos:</strong> Stock photos (muitas grátis)
+- <strong class="font-bold">Videos:</strong> Stock videos
+- <strong class="font-bold">Audio:</strong> Música de fundo</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Graphics:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Charts:</strong> Gráficos de dados
+- <strong class="font-bold">Frames:</strong> Molduras para fotos
+- <strong class="font-bold">Grids:</strong> Layouts de imagens</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Uploads:</span> <span class="text-neutral-700 dark:text-neutral-300">- Suas imagens
+- Logos
+- Fotos pessoais</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">1.4 Atalhos de Teclado Canva</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Essenciais:</span> <span class="text-neutral-700 dark:text-neutral-300">- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + C</code> - Copy
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + V</code> - Paste
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + D</code> - Duplicate
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Z</code> - Undo
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Shift + Z</code> - Redo
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Delete/Backspace</code> - Delete elemento
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + G</code> - Group elementos
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Shift + G</code> - Ungroup</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Alinhamento:</span> <span class="text-neutral-700 dark:text-neutral-300">- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Shift + L</code> - Align left
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Shift + R</code> - Align right
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Shift + C</code> - Center horizontal
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Shift + M</code> - Center vertical</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Camadas:</span> <span class="text-neutral-700 dark:text-neutral-300">- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + ]</code> - Bring forward
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + [</code> - Send backward
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Shift + ]</code> - Bring to front
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + Shift + [</code> - Send to back</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Zoom:</span> <span class="text-neutral-700 dark:text-neutral-300">- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + =</code> - Zoom in
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + -</code> - Zoom out
+- <code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">Ctrl/Cmd + 0</code> - Fit to screen</span></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 2. Princípios de Design (Aplicáveis Agora) -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">2. Princípios de Design (Aplicáveis Agora)</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.1 Menos é Mais</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Regra:</span> <span class="text-neutral-700 dark:text-neutral-300">Simplifique até não poder mais. Então simplifique mais um pouco.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Aplicado:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Ruim (Poluído):</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+- 5 fontes diferentes
+- 10 cores
+- 20 elementos
+- Sem espaço em branco
+- Tudo competindo por atenção
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Bom (Limpo):</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+- 2 fontes (1 heading, 1 body)
+- 3 cores (1 principal, 1 secundária, 1 neutro)
+- 5-7 elementos
+- Muito espaço em branco
+- Hierarquia clara
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplo LinkedIn Post:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ Ruim:
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Background gradiente complexo]
+[Fonte 1] TÍTULO EM CAPS
+[Fonte 2] subtítulo diferente
+[Fonte 3] texto corpo
+[5 ícones coloridos]
+[Foto de fundo]
+[Borda decorada]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ Bom:
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Background sólido branco ou cor suave]
+[Fonte única - Montserrat]
+  - Heading: Bold, 72pt
+  - Body: Regular, 36pt
+[1 ícone simples]
+[Muito espaço em branco]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Teste:</span> <span class="text-neutral-700 dark:text-neutral-300">Remova elementos um por um. Ainda funciona? Continue removendo.</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.2 Hierarquia Visual</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O que olhamos primeiro? Segundo? Terceiro?</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Design bom guia o olho numa ordem lógica.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Ferramentas de hierarquia:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">1. Tamanho</strong>
+- Mais importante = Maior
+- Secundário = Médio
+- Terciário = Menor</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Exemplo:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+TÍTULO PRINCIPAL
+(72pt, bold)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Subtítulo explicativo
+(36pt, regular)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Texto de apoio adicional aqui
+(24pt, light)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">2. Cor</strong>
+- Elemento chave: Cor de destaque (brand color)
+- Secundário: Neutro (cinza escuro)
+- Background: Claro ou muito escuro (contraste)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">3. Peso (weight)</strong>
+- Importante: Bold, Black
+- Médio: Regular, Medium
+- Menos importante: Light</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">4. Posicionamento</strong>
+- Topo/Centro: Mais atenção
+- Cantos: Menos atenção
+- Regra dos terços (fotografia): Elementos principais nos pontos de interseção</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">5. Contraste</strong>
+- Alto contraste = Destaque
+- Baixo contraste = Background</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.3 Contraste</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Texto PRECISA ser legível.</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Teste simples:</span> <span class="text-neutral-700 dark:text-neutral-300">Afasta 2 metros do monitor. Consegue ler? Se não, contraste insuficiente.</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Combinações que funcionam:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Bom contraste:</strong>
+- Texto preto (#000000) em fundo branco (#FFFFFF)
+- Texto branco (#FFFFFF) em fundo escuro (#1A1A1A)
+- Texto azul escuro (#003366) em amarelo claro (#FFF9C4)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Mau contraste (evite):</strong>
+- Texto cinza claro em fundo branco
+- Texto amarelo em fundo branco
+- Texto vermelho em fundo verde (pesadelo visual)</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Tool:</span> <span class="text-neutral-700 dark:text-neutral-300">WebAIM Contrast Checker (online, grátis)</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.4 Alinhamento</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Tudo deve alinhar com algo.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Ruim:</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+    Título desalinhado
+  Subtítulo em outro lugar
+       Texto começando aleatório
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Bom:</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Título alinhado
+Subtítulo alinhado
+Texto alinhado
+[Todos na mesma margem esquerda]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Tipos:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Esquerda:</strong> Padrão texto (mais legível)
+- <strong class="font-bold">Centro:</strong> Títulos, posts simétricos
+- <strong class="font-bold">Direita:</strong> Raramente (datas, legendas)
+- <strong class="font-bold">Justificado:</strong> Texto corrido (evite em títulos)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Grid system:</span> <span class="text-neutral-700 dark:text-neutral-300">Canva tem grid (View → Show rulers). Use.</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.5 Repetição (Consistência)</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Use mesmos elementos repetidamente.</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Aplica a:</span> <span class="text-neutral-700 dark:text-neutral-300">- Fontes (mesma em todos designs)
+- Cores (palette consistente)
+- Espaçamento (mesmo padding)
+- Shapes (mesmo estilo ícones)
+- Layout (mesma estrutura)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Por quê:</span> <span class="text-neutral-700 dark:text-neutral-300">Cria identidade visual. Reconhecível como "seu".</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplo carrossel LinkedIn:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Slide 1-6:
+- Mesmo background color
+- Mesma fonte (Montserrat)
+- Mesmos tamanhos (título 72pt, corpo 32pt)
+- Mesmo ícone style
+- Números de slide (1/6, 2/6...) sempre canto superior direito</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">Coeso, profissional, branded.</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">2.6 Proximidade</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Elementos relacionados ficam próximos. Não relacionados, distantes.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Ruim:</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+João Silva
+Desenvolvedor</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Contato
+joao@email.com</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Espaçamento igual entre tudo]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Bom:</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+João Silva
+Desenvolvedor
+[Grupo 1 - próximo]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Contato
+joao@email.com
+[Grupo 2 - próximo]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Espaço grande entre grupos]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Cérebro agrupa automaticamente. Use isso.</strong></p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 3. Posts LinkedIn que Param Scroll -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">3. Posts LinkedIn que Param Scroll</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.1 Anatomia do Post LinkedIn Perfeito</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Estrutura:</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide 1 (Gancho):</span> <span class="text-neutral-700 dark:text-neutral-300">- Headline impactante (número, pergunta, statement polêmico)
+- Visual chamativo
+- Promessa de valor</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slides 2-5 (Conteúdo):</span> <span class="text-neutral-700 dark:text-neutral-300">- 1 ideia por slide (máximo)
+- Visual + texto mínimo
+- Bullet points > parágrafos
+- Progresso visual (1/6, 2/6, etc)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide 6 (CTA):</span> <span class="text-neutral-700 dark:text-neutral-300">- Call to action claro
+- Próximos passos
+- Engajamento (curtir, comentar, compartilhar)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplo real (template):</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide 1:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Background gradiente sutil azul→roxo]
+[Número grande] 5 ERROS
+[Subtítulo] que matam sua produtividade
+[Ícone simples relevante]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide 2:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Background branco]
+[Número grande] 1
+[Título] Não planejar o dia
+[Texto curto] Começar sem saber prioridades = desperdício
+[Ícone calendário]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slides 3-5:</span> <span class="text-neutral-700 dark:text-neutral-300">[Mesmo formato]</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide 6:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Background cor brand]
+[Texto branco] Qual desses você comete?
+[CTA] Comenta 👇 + Salva pra revisar depois
+[Seu nome/logo]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.2 Templates LinkedIn Prontos (Canva)</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Busca no Canva:</span> <span class="text-neutral-700 dark:text-neutral-300">- "LinkedIn carousel"
+- "LinkedIn post"
+- "Professional carousel"</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Edita:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Escolhe template
+2. Muda cores pro seu brand
+3. Muda texto pro seu conteúdo
+4. Troca imagens/ícones
+5. Download (PNG ou PDF)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Cria template próprio:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Design slide 1 perfeito
+2. Duplicate 5 vezes
+3. Muda só conteúdo (mantém estrutura)
+4. Salva como template
+5. Reusa infinitamente</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Economia: 2h design → 15min usando template</strong></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.3 Cores que Funcionam (Baseado em Data)</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Top performers LinkedIn (2024):</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Palettes profissionais:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">1. Navy + Orange (confiança + energia)</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Primary: #003366 (azul navy)
+Secondary: #FF6B35 (laranja vibrante)
+Neutral: #F5F5F5 (cinza claro)
+Text: #1A1A1A (quase preto)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">2. Forest Green + Gold (crescimento + valor)</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Primary: #2D5016 (verde floresta)
+Secondary: #DAA520 (dourado)
+Neutral: #FAFAFA (branco off)
+Text: #2C2C2C (cinza escuro)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">3. Purple + Cyan (criativo + tech)</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Primary: #6A0DAD (roxo)
+Secondary: #00CED1 (cyan)
+Neutral: #FFFFFF (branco puro)
+Text: #000000 (preto)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">4. Monochrome + Accent (minimalista)</strong>
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Primary: #000000 (preto)
+Secondary: #FF4081 (rosa vibrante)
+Neutral: #FFFFFF (branco)
+Text: #333333 (cinza escuro)
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Tools:</span> <span class="text-neutral-700 dark:text-neutral-300">- Coolors.co (gera palettes)
+- Adobe Color (harmonias)
+- Canva Color Palette Generator (upload foto → extrai cores)</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.4 Tipografia LinkedIn</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Melhores fontes (testadas):</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Headlines:</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Montserrat</strong> (Bold/Black) - Moderna, clean, profissional
+2. <strong class="font-bold">Poppins</strong> (Bold) - Geométrica, friendly
+3. <strong class="font-bold">Inter</strong> (Bold) - Tech, startup vibe
+4. <strong class="font-bold">Raleway</strong> (Bold) - Elegante, sofisticado
+5. <strong class="font-bold">Bebas Neue</strong> (Regular) - Impacto, caps only</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Body:</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Open Sans</strong> - Legível, neutro
+2. <strong class="font-bold">Lato</strong> - Clean, profissional
+3. <strong class="font-bold">Roboto</strong> - Google, familiar
+4. <strong class="font-bold">Source Sans Pro</strong> - Adobe, versátil</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Regra combinação:</span> <span class="text-neutral-700 dark:text-neutral-300">- Sans com sans (ok, se contrast weight)
+- Serif com sans (clássico, funciona)
+- Nunca 3+ fontes</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Tamanhos LinkedIn (1080×1080):</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Headline:</strong> 64-96 pt
+- <strong class="font-bold">Subheading:</strong> 36-48 pt
+- <strong class="font-bold">Body:</strong> 24-32 pt
+- <strong class="font-bold">Caption:</strong> 16-20 pt</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">3.5 Ícones e Illustrations</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Bibliotecas grátis (Canva integra):</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Icons:</span> <span class="text-neutral-700 dark:text-neutral-300">- Flaticon (1M+ ícones)
+- Icons8 (estilo consistente)
+- Feather Icons (linha fina, elegante)
+- Material Icons (Google, familiar)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Illustrations:</span> <span class="text-neutral-700 dark:text-neutral-300">- unDraw (customizável, moderno)
+- DrawKit (mão desenhado)
+- Humaaans (personagens modulares)
+- Open Doodles (sketchy, friendly)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Regra:</span> <span class="text-neutral-700 dark:text-neutral-300">Escolha 1 estilo. Use consistente.</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Exemplo:</span> <span class="text-neutral-700 dark:text-neutral-300">Se usa ícones linha fina, TODOS ícones linha fina. Não mistura com ícones sólidos.</span></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 4. Apresentações que Impressionam -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">4. Apresentações que Impressionam</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">4.1 Estrutura Apresentação Profissional</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide 1 - Capa:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Título Apresentação
+[Visual impactante]
+Seu Nome | Data
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide 2 - Agenda:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+O que vamos ver:
+1. [Tópico 1]
+2. [Tópico 2]
+3. [Tópico 3]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Slides 3-X - Conteúdo:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Regra 1 ideia/slide:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ Ruim (muito texto):
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Parágrafo enorme explicando conceito X com múltiplas sub-ideias e detalhes...]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ Bom:
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Título do conceito]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">• Ponto 1 (curto)
+• Ponto 2 (curto)
+• Ponto 3 (curto)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Visual relevante]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide Penúltimo - Resumo:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Recapitulando:</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✓ [Key point 1]
+✓ [Key point 2]
+✓ [Key point 3]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Slide Final - CTA:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Próximos Passos</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Ação clara]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Contato:
+email@exemplo.com
+linkedin.com/in/seuperfil
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">4.2 Templates Apresentação Canva</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Busca:</span> <span class="text-neutral-700 dark:text-neutral-300">- "Business presentation"
+- "Startup pitch deck"
+- "Professional slides"</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Top templates (free):</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Minimalist</strong> - Clean, professional, safe choice
+2. <strong class="font-bold">Gradient</strong> - Modern, tech vibe
+3. <strong class="font-bold">Dark mode</strong> - Impacto, diferenciado
+4. <strong class="font-bold">Pastel</strong> - Suave, criativo</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Customiza:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Muda cores brand
+2. Troca imagens (Unsplash integrado)
+3. Adiciona logo
+4. Ajusta texto</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">4.3 Regra 10/20/30 (Guy Kawasaki)</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">10 slides:</span> <span class="text-neutral-700 dark:text-neutral-300">Máximo em pitch
+<strong class="font-bold">20 minutos:</strong> Duração ideal
+<strong class="font-bold">30pt:</strong> Fonte mínima</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Aplica a qualquer apresentação:</span> <span class="text-neutral-700 dark:text-neutral-300">Força concisão.</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">4.4 Data Visualization</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Gráficos profissionais no Canva:</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Tipos:</span> <span class="text-neutral-700 dark:text-neutral-300">- <strong class="font-bold">Bar chart:</strong> Comparação entre categorias
+- <strong class="font-bold">Line chart:</strong> Evolução no tempo
+- <strong class="font-bold">Pie chart:</strong> Proporções (use com moderação, max 5 fatias)
+- <strong class="font-bold">Donut chart:</strong> Melhor que pie (centro livre pra label)
+- <strong class="font-bold">Area chart:</strong> Volume no tempo</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Inserir:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Elements → Charts
+2. Escolhe tipo
+3. Edita dados (planilha simples)
+4. Customiza cores</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Best practices:</span> <span class="text-neutral-700 dark:text-neutral-300">- 1 gráfico por slide
+- Título claro
+- Eixos labeled
+- Fonte legível (mín 18pt)
+- Cores de alto contraste
+- Destaca dados principais (cor diferente)</span></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 5. Brand Kit Pessoal -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">5. Brand Kit Pessoal</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">5.1 O que é Brand Kit</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Sua identidade visual consistente:</span> <span class="text-neutral-700 dark:text-neutral-300">- Logo/wordmark (seu nome estilizado)
+- Palette de cores (2-4 cores)
+- Fontes (1-2 fontes)
+- Elementos visuais (ícones, shapes)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Por que:</span> <span class="text-neutral-700 dark:text-neutral-300">Reconhecimento. Profissionalismo. Coesão.</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">5.2 Criando Seu Brand Kit</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 1: Logo/Wordmark</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Opções:
+1. <strong class="font-bold">Iniciais:</strong> JS (João Silva)
+2. <strong class="font-bold">Nome completo:</strong> João Silva [font especial]
+3. <strong class="font-bold">Ícone + nome:</strong> [symbol] João Silva</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">No Canva:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Cria design (500×500)
+2. Text → seu nome
+3. Font interessante (test 10-20)
+4. Adiciona shape/ícone se quiser
+5. Ajusta spacing, alignment
+6. Download (PNG transparente)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 2: Cores</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Escolhe <strong class="font-bold">2-3 cores:</strong>
+- <strong class="font-bold">Primary:</strong> Sua marca (usará 60%)
+- <strong class="font-bold">Secundary:</strong> Complementar (30%)
+- <strong class="font-bold">Accent:</strong> Destaque (10%)</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Ferramentas:</span> <span class="text-neutral-700 dark:text-neutral-300">- Coolors.co: Gera palettes
+- Adobe Color: Harmonias (complementar, análogo, etc)
+- Canva: Upload foto você → extrai cores</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Salva códigos hex:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Primary: #3A86FF
+Secondary: #FF006E
+Accent: #FFBE0B
+Neutral: #F8F9FA
+Text: #2B2D42
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 3: Fontes</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Escolhe <strong class="font-bold">2 fontes max:</strong>
+- <strong class="font-bold">Heading:</strong> Bold, impacto (Montserrat Bold)
+- <strong class="font-bold">Body:</strong> Legível, clean (Open Sans Regular)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 4: Documenta</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Cria PDF "Brand Guidelines":
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+[Página 1: Logo]
+- Logo principal
+- Variações (cor, preto, branco)
+- Tamanho mínimo
+- Espaçamento</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Página 2: Cores]
+- Palette visual
+- Códigos hex
+- Quando usar cada</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Página 3: Tipografia]
+- Fontes (nome, weights)
+- Tamanhos (H1, H2, body)
+- Exemplos</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Página 4: Exemplos]
+- Post LinkedIn
+- Business card
+- Apresentação slide
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Tempo: 2h criar. Benefício: lifetime consistency.</strong></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">5.3 Aplicando Brand Kit</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Todo design seu usa:</span> <span class="text-neutral-700 dark:text-neutral-300">- Mesmas cores
+- Mesmas fontes
+- Mesmo logo (canto, watermark sutil)
+- Mesmo estilo visual</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">Portfólio coeso. LinkedIn recognizable. Profissional.</span></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 6. Biblioteca de Assets Gratuitos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">6. Biblioteca de Assets Gratuitos</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">6.1 Imagens (Stock Photos)</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Dentro do Canva:</span> <span class="text-neutral-700 dark:text-neutral-300">- Unsplash (integrado)
+- Pexels (integrado)
+- Pixabay (integrado)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Fora (download e upload):</span> <span class="text-neutral-700 dark:text-neutral-300">- Burst by Shopify
+- StockSnap
+- Kaboompics</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Busca eficaz:</span> <span class="text-neutral-700 dark:text-neutral-300">- Termos específicos ("woman laptop coffee shop" > "work")
+- Filtra por orientação (horizontal/vertical/square)
+- Evita clichês (não usa foto que todo mundo usa)</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">6.2 Ícones</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Top libraries:</span> <span class="text-neutral-700 dark:text-neutral-300">- Flaticon (dentro Canva)
+- Icons8 (precisa download)
+- Feather Icons
+- Font Awesome</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Escolha estilo:</span> <span class="text-neutral-700 dark:text-neutral-300">- Filled (sólido, impacto)
+- Outline (linha, elegante)
+- Hand-drawn (casual, friendly)
+- 3D (moderno, depth)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Consistência é chave.</strong></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">6.3 Fontes (Google Fonts)</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Top 20 (gratuitas):</strong></p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Sans-serif:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Inter - Moderna, tech
+2. Roboto - Neutra, confiável
+3. Open Sans - Legível, professional
+4. Lato - Clean, corporativo
+5. Montserrat - Bold, impacto
+6. Poppins - Geométrica, friendly
+7. Raleway - Elegante, thin/bold contrast
+8. Source Sans Pro - Adobe, versátil
+9. Nunito - Rounded, approachable
+10. Work Sans - Grotesque, moderno</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Serif:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Playfair Display - Elegante, editorial
+2. Merriweather - Legível, clássico
+3. Lora - Calligraphy touch, warm
+4. Libre Baskerville - Traditional, reliable
+5. Crimson Text - Book-like, sophisticated</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Display:</span> <span class="text-neutral-700 dark:text-neutral-300">1. Bebas Neue - Caps, impact
+2. Righteous - Retro, bold
+3. Anton - Heavy, attention
+4. Permanent Marker - Handwritten, casual
+5. Pacifico - Script, playful</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-talento">6.4 Paletas de Cores</h3>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Tools:</span> <span class="text-neutral-700 dark:text-neutral-300">1. <strong class="font-bold">Coolors.co</strong> - Gera palettes aleatórias, refina
+2. <strong class="font-bold">Adobe Color</strong> - Roda de cores, harmonias
+3. <strong class="font-bold">Colormind</strong> - AI-powered palettes
+4. <strong class="font-bold">Paletton</strong> - Visualiza combinações
+5. <strong class="font-bold">Canva Color Palette Generator</strong> - Extrai de foto</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Inspiração:</span> <span class="text-neutral-700 dark:text-neutral-300">- Dribbble (designs profissionais)
+- Behance (portfolios)
+- Pinterest (busca "color palette [nicho]")</span></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 7. Exercício Prático (60min) -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">7. Exercício Prático (60min)</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">PARTE 1: Brand Kit (20min)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Crie seu brand kit pessoal:
+1. Logo/wordmark (seu nome)
+2. Palette 3 cores
+3. Escolhe 2 fontes
+4. Cria 1 página "Brand Guidelines" (Canva)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">PARTE 2: Posts LinkedIn (20min)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Cria carrossel 6 slides:
+1. Tema: Algo que você aprendeu (neste curso ou outro)
+2. Slide 1: Gancho (número, pergunta)
+3. Slides 2-5: Conteúdo (1 ideia/slide)
+4. Slide 6: CTA
+5. Usa seu brand kit</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">PARTE 3: Apresentação (20min)</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Cria mini apresentação 5 slides:
+1. Capa: Sobre você
+2. Quem sou
+3. O que faço
+4. Projetos
+5. Contato</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Usa template Canva, customiza com brand.</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">ENTREGA:</span> <span class="text-neutral-700 dark:text-neutral-300">- Brand Guidelines (PDF)
+- Carrossel LinkedIn (PNG cada slide)
+- Apresentação (PDF)</span></p>
+          </div>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">BÔNUS:</span> <span class="text-neutral-700 dark:text-neutral-300">Posta carrossel no LinkedIn! Tag #canva #design #conteudo</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Isso é portfolio. Mostra em entrevistas.</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Próximos Passos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-talento/20 bg-gradient-to-r from-talento/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Próximos Passos</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Módulo 9: Primeiros Freelances</strong>
+- Onde encontrar trabalhos
+- Como precificar
+- Proposta que converte
+- Evitar ciladas</p>
+
+
+          <div class="bg-talento/5 dark:bg-talento/10 p-4 rounded-lg mb-4 border-l-4 border-talento">
+            <p class="text-lg"><span class="font-bold text-talento text-xl">Prepare-se para:</span> <span class="text-neutral-700 dark:text-neutral-300">Monetizar tudo que aprendeu!</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Nos vemos lá! 🚀</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">© 2025 FETD - Formação em Engenharia de Intenção</strong></p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer / Navegação -->
+  <section class="py-12 bg-gradient-to-br from-neutral-100 to-neutral-50 dark:from-neutral-900 dark:to-neutral-800 border-t border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center">
+        <a href="../../trilhas/talento.html" class="px-6 py-3 bg-gradient-to-r from-talento to-amber-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2">
+          <span>←</span>
+          <span>Voltar para Trilha</span>
+        </a>
+        <a href="modulo-09.html" class="px-6 py-3 bg-gradient-to-r from-talento to-amber-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"><span>Próximo Módulo</span><span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    // Remove preload class
+    window.addEventListener('load', () => {
+      document.body.classList.remove('preload');
+    });
+
+    // Dark mode toggle
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+    // Check localStorage
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      themeToggleLightIcon.classList.remove('hidden');
+      document.documentElement.classList.add('dark');
+    } else {
+      themeToggleDarkIcon.classList.remove('hidden');
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+
+      if (localStorage.getItem('color-theme')) {
+        if (localStorage.getItem('color-theme') === 'light') {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        }
+      } else {
+        if (document.documentElement.classList.contains('dark')) {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        } else {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>

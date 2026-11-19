@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 6: Apresentações e Vídeos com IA - Comunicação Multiplataforma | Trilha Técnico Comunicador | FETD</title>
+  <meta name="description" content="Criar apresentações, podcasts e vídeos técnicos usando IA, adaptando para diferentes formas de consumo de informação">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'tecnico': '#F97316',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+    .preload * {
+      transition: none !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white/95 dark:bg-neutral-800/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-700 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="../../index.html" class="text-2xl font-bold bg-gradient-to-r from-tecnico to-orange-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+            🎓 FETD
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-tecnico transition-colors font-medium">Início</a>
+          <a href="../../trilhas/tecnico.html" class="text-neutral-700 dark:text-neutral-300 hover:text-tecnico transition-colors font-medium">Trilha Técnico Comunicador</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 hover:bg-tecnico/10 transition-colors">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm font-medium" aria-label="Breadcrumb">
+        <a href="../../index.html" class="text-tecnico hover:opacity-80 transition-opacity">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <a href="../../trilhas/tecnico.html" class="text-tecnico hover:opacity-80 transition-opacity">Trilha Técnico Comunicador</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Módulo 6</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Módulo -->
+  <section class="bg-gradient-to-br from-tecnico via-tecnico to-orange-600 py-20 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-white/5 bg-[size:20px_20px]"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white relative z-10">
+
+      <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg">Módulo 6 de 10</span>
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg flex items-center gap-2">
+          <span>⏱️</span>
+          <span>90 minutos</span>
+        </span>
+      </div>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+        Módulo 6: Apresentações e Vídeos com IA - Comunicação Multiplataforma
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/95 mb-8 max-w-3xl font-medium leading-relaxed">
+        Criar apresentações, podcasts e vídeos técnicos usando IA, adaptando para diferentes formas de consumo de informação
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 text-white/90">
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">📚</span> Teoria</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">💭</span> Reflexão</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">🛠️</span> Prática</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <section class="py-16 bg-white dark:bg-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Download Button -->
+      <div class="flex justify-end mb-8">
+        <a href="../../downloads/tecnico/modulo-06.md" download class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
+          <span class="text-xl">📥</span>
+          <span>Download MD</span>
+        </a>
+      </div>
+
+
+      <!-- Objetivo do Módulo -->
+      <div class="bg-tecnico/10 dark:bg-tecnico/20 border-l-4 border-tecnico p-6 rounded-lg mb-12 shadow-lg">
+        <h3 class="text-xl font-bold text-tecnico mb-2 flex items-center gap-2">
+          <span class="text-2xl">🎯</span>
+          <span>Objetivo deste Módulo</span>
+        </h3>
+        <p class="text-neutral-700 dark:text-neutral-300 text-lg">
+          Criar apresentações, podcasts e vídeos técnicos usando IA, adaptando para diferentes formas de consumo de informação
+        </p>
+      </div>
+
+
+
+      <!-- Seção: O Que Você Vai Aprender -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎯 O Que Você Vai Aprender</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ Usar NotebookLM para transformar docs em podcasts automáticos
+✅ Criar avatares de apresentação com HeyGen
+✅ Converter vídeos longos em shorts com Podscap
+✅ Apresentações automáticas com Gamma/Tome
+✅ Adaptar conteúdo para diferentes estilos de aprendizado</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">Sistema completo de criação de conteúdo visual/audio em múltiplos formatos</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🔥 Por Que Múltiplos Formatos Importam -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🔥 Por Que Múltiplos Formatos Importam</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O Problema:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Você escreveu documentação técnica perfeita, mas:
+- ❌ 40% do time prefere vídeo
+- ❌ 30% prefere ouvir (podcast/áudio)
+- ❌ 20% prefere slides
+- ❌ 10% lê docs completas</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">A Solução:</span> <span class="text-neutral-700 dark:text-neutral-300">1 conteúdo → 5 formatos com IA</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Os 4 Estilos de Aprendizado</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Visual:</span> <span class="text-neutral-700 dark:text-neutral-300">Preferem diagramas, slides, infográficos
+<strong class="font-bold">Auditivo:</strong> Preferem podcasts, vídeos narrados
+<strong class="font-bold">Leitura/Escrita:</strong> Preferem docs, artigos
+<strong class="font-bold">Cinestésico:</strong> Preferem hands-on, exemplos práticos</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Nossa abordagem:</span> <span class="text-neutral-700 dark:text-neutral-300">Criar TODOS os formatos com mínimo esforço usando IA!</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🎙️ NotebookLM: Docs → Podcast Automático -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎙️ NotebookLM: Docs → Podcast Automático</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">O Que é NotebookLM</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Ferramenta do Google que transforma documentos em podcasts conversacionais com 2 apresentadores de IA.</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Caso de uso:</span> <span class="text-neutral-700 dark:text-neutral-300">- Documentação técnica → Podcast de 10 min
+- Post-mortem → Discussão em áudio
+- Guia de onboarding → Áudio para ouvir no carro</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Como Usar</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 1: Upload de Documentos</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Acesse <a href="https://notebooklm.google.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">notebooklm.google.com</a></li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Create new notebook</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Upload fontes:</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- PDFs (documentação)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Markdown files (READMEs)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Google Docs</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- URLs (blog posts)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Até 50 fontes por notebook</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 2: Gerar Podcast</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>1. Selecione documentos relevantes
+2. Click "Generate Audio Overview"
+3. Aguarde 3-5 minutos
+4. Download MP3 (10-15 min típico)</code></pre>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">O que acontece:</span> <span class="text-neutral-700 dark:text-neutral-300">- 2 apresentadores de IA discutem o conteúdo
+- Tom conversacional e acessível
+- Explicam conceitos técnicos de forma simples
+- Adicionam exemplos e analogias</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplo Real:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code># Input: README.md do projeto de deploy</code></pre>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Deploy Automation Bot -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Deploy Automation Bot</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Automatiza deploys via Slack...
+[documentação técnica completa]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Output:</span> <span class="text-neutral-700 dark:text-neutral-300">Podcast de 12 minutos
+- Apresentador 1: "Então, esse bot de deploy resolve um problema interessante..."
+- Apresentador 2: "Exato! Imagina fazer deploy manual 50 vezes por mês..."
+- [Discussão natural sobre o projeto]</span></p>
+          </div>
+
+        </div>
+
+        <div class="bg-tecnico/10 dark:bg-tecnico/20 border-2 border-tecnico/30 p-6 rounded-xl mb-8 shadow-lg hover:shadow-xl transition-all">
+          <h3 class="text-xl font-bold text-tecnico mb-4 flex items-center gap-2">
+            <span class="text-2xl">💼</span>
+            <span>Casos de Uso Práticos</span>
+          </h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">1. Onboarding de Novos Devs</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Input:
+- CONTRIBUTING.md
+- ARCHITECTURE.md
+- FAQ.md</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Output: Podcast de 20 min explicando o projeto</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Benefício:
+- Novo dev ouve durante commute
+- Entende contexto antes de ler código
+- Menos overhead do time
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">2. Post-Mortems Explicados</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Input: Documento do incidente</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Output: Discussão sobre:
+- O que aconteceu
+- Por que aconteceu
+- O que aprendemos
+- Como prevenir</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Compartilhar: Time todo ouve e entende
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">3. Transformar Documentação Chata</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Input: 50 páginas de API docs</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Output: Série de podcasts por tema
+- Ep 1: Autenticação (10 min)
+- Ep 2: Endpoints principais (12 min)
+- Ep 3: Rate limiting e errors (8 min)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Time inteiro pode consumir no ritmo deles
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Dicas de Ouro para NotebookLM</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Funciona melhor com:</strong>
+- Docs bem estruturados (headers claros)
+- Tópicos específicos (não muito amplos)
+- 5-20 páginas de conteúdo</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Evite:</strong>
+- Docs sem estrutura
+- Apenas código (sem contexto)
+- Tópicos muito fragmentados</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Prompt para melhorar input:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Se seus docs são ruins, use ChatGPT antes:</p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Reorganize esta documentação técnica para ser mais acessível:</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Cole documentação]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Formato:
+- Intro clara do problema
+- Seções bem definidas
+- Exemplos práticos
+- Conclusão com takeaways
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🎬 HeyGen: Avatares de Apresentação -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎬 HeyGen: Avatares de Apresentação</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">O Que é HeyGen</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Cria vídeos com avatares de IA apresentando seu conteúdo. Você pode usar avatar genérico ou clonar sua própria aparência.</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Casos de uso:</span> <span class="text-neutral-700 dark:text-neutral-300">- Vídeos de treinamento técnico
+- Apresentação de features
+- Tutoriais sem aparecer
+- Multi-idioma (avatar fala 40+ línguas)</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Setup Rápido</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção 1: Avatar Genérico (Grátis)</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><a href="https://heygen.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">heygen.com</a> → Sign up (1 crédito grátis)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Create Video</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Escolher avatar (100+ opções)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Escrever script ou upload</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Generate (2-5 min)</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Opção 2: Clone de Voz/Rosto (Pago)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Plan: $29/mês</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Benefícios:
+- Avatar com sua aparência
+- Voz clonada (2 min de sample)
+- Aparenta ser você falando</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Setup:
+1. Upload vídeo de 2 min (você falando)
+2. HeyGen treina modelo (24h)
+3. Use avatar personalizado
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Workflow Prático</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Cenário:</span> <span class="text-neutral-700 dark:text-neutral-300">Explicar nova feature do produto</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 1: Escrever Script com IA</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Prompt para ChatGPT:</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Escreva script de vídeo de 2 minutos explicando:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Feature: Sistema de cache automático em APIs
+Audiência: Desenvolvedores backend
+Tom: Técnico mas acessível
+Formato: Problema → Solução → Demo</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Incluir:
+- Hook inicial (por que importa)
+- Explicação técnica simples
+- Exemplo de código
+- Call to action
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 2: HeyGen Generate</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>1. Cole script no HeyGen
+2. Escolha avatar técnico
+3. Selecione voz (masculino/feminino)
+4. Background: código blur ou office
+5. Generate → 5 min depois vídeo pronto</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo 3: Polimento (Opcional)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>- Adicionar B-roll (screenshots de código)
+- Legenda automática
+- Música de fundo sutil
+- Export MP4</code></pre>
+          </div>
+
+        </div>
+
+        <div class="bg-tecnico/10 dark:bg-tecnico/20 border-2 border-tecnico/30 p-6 rounded-xl mb-8 shadow-lg hover:shadow-xl transition-all">
+          <h3 class="text-xl font-bold text-tecnico mb-4 flex items-center gap-2">
+            <span class="text-2xl">💼</span>
+            <span>Casos de Uso Avançados</span>
+          </h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">1. Apresentações Multi-Idioma</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Script em português → HeyGen traduz e gera vídeo em:
+- Inglês
+- Espanhol
+- Francês
+- 40+ idiomas</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Mesmo avatar, mesma qualidade
+Time global consome no idioma deles
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">2. Série de Tutoriais</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Template reutilizável:
+- Intro padrão (15 seg)
+- Conteúdo variável (2-3 min)
+- Outro padrão (10 seg)</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Criar 10 vídeos em 1 dia:
+10 scripts → HeyGen batch → 10 vídeos prontos
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">3. Treinamento Escalável</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Problema: Treinar 100 novos devs
+Solução tradicional: 50h de senior dev</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Com HeyGen:
+- 10 vídeos de 5 min cada
+- Cobre onboarding completo
+- Assiste no own pace
+- Rewatchable</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Economia: 45h de senior dev
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Dicas de HeyGen</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Scripts efetivos:</strong>
+- Máximo 150 palavras/minuto
+- Pausas naturais (vírgulas, pontos)
+- Evite termos muito técnicos seguidos
+- Use analogias</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">❌ <strong class="font-bold">Evite:</strong>
+- Scripts longos (> 5 min = tediosos)
+- Mono-tom (variar intensidade)
+- Só falar (adicionar visuals)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 📱 Podscap: Vídeo Longo → Shorts Virais -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📱 Podscap: Vídeo Longo → Shorts Virais</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">O Que é Podscap</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Transforma vídeos longos (30-60 min) em clips curtos otimizados para TikTok/YouTube Shorts/Reels.</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Ideal para:</span> <span class="text-neutral-700 dark:text-neutral-300">- Gravou apresentação de 1h → 10 clips de 60 seg
+- Podcast longo → Highlights
+- Tutorial extenso → Dicas rápidas</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Como Funciona</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Setup:</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><a href="https://podscap.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">podscap.com</a> (ou alternativas: OpusClip, Vizard)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Upload vídeo longo (YouTube URL ou MP4)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">AI identifica momentos "virais"</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Gera clips de 30-90 seg automaticamente</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Adiciona legendas, zoom, cortes</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Passo a Passo:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>1. Grave apresentação técnica (ex: demo de 30 min)
+2. Upload no Podscap
+3. AI analisa e sugere 15-20 clips
+4. Review clips (aceitar/rejeitar)
+5. Customizar:
+   - Legendas (estilo, posição)
+   - Aspect ratio (9:16 para Shorts, 1:1 para Instagram)
+   - Adicionar CTA (final do clip)
+6. Download todos os clips
+7. Schedule em Shorts/TikTok/Reels</code></pre>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Workflow Real</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplo: Tech Talk sobre DevOps</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Input: Vídeo de 45 min sobre CI/CD optimization</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Podscap identifica:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Clip 1 (60 seg): "3 erros comuns em pipelines de CI"
+Clip 2 (45 seg): "Como reduzimos build de 20min → 5min"
+Clip 3 (50 seg): "Demonstração: Cache layers no Docker"
+Clip 4 (55 seg): "Por que GitHub Actions > Jenkins"
+Clip 5 (40 seg): "Métricas que importam em CI/CD"
+...
+[15 clips no total]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Output:
+- 15 vídeos prontos para distribuir
+- Legendas automáticas
+- Hooks otimizados
+- CTAs (link na bio)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Distribuição:
+- 3 clips/semana no YouTube Shorts
+- 2 clips/semana no LinkedIn
+- 1 clip/semana no TikTok</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">→ 5 semanas de conteúdo de 1 gravação!
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Otimizando para Virality</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">O que Podscap procura:</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Momentos de alto valor:</strong>
+- "Aqui está o segredo..."
+- "3 coisas que mudaram tudo..."
+- "O maior erro que vejo é..."
+- Demos funcionando
+- Antes/depois comparisons</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ <strong class="font-bold">Elementos técnicos:</strong>
+- Mudança de tom de voz
+- Gestos enfáticos
+- Tela mudando (demos)
+- Reações genuínas</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Dicas para gravar pensando em clips:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Estrutura de fala:</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">"Sabe aquele problema de [X]? [PAUSA]
+A maioria das pessoas faz [Y]. [PAUSA]
+Mas a verdadeira solução é [Z]." [MOSTRAR NA TELA]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">→ Isso vira clip perfeito de 45 seg
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Alternativas a Podscap</h3>
+
+
+          <div class="overflow-x-auto mb-8 shadow-lg rounded-lg">
+            <table class="w-full border-collapse">
+              <thead>
+                <tr class="bg-gradient-to-r from-tecnico to-tecnico/80 text-white">
+                  <th class="px-6 py-4 text-left font-bold">Tool</th>
+                  <th class="px-6 py-4 text-left font-bold">Melhor Para</th>
+                  <th class="px-6 py-4 text-left font-bold">Preço</th>
+                </tr>
+              </thead>
+              <tbody class="bg-white dark:bg-neutral-800">
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">-------------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">-------</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">OpusClip</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Podcasts e talks</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$29/mês</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Vizard</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Webinars técnicos</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$20/mês</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Chopcast</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Vídeos longos do YouTube</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$49/mês</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Descript</strong> (manual)</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Controle total</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$12/mês</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Gamma/Tome: Slides Automáticos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎨 Gamma/Tome: Slides Automáticos</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Por Que IA para Slides</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Problema tradicional:</span> <span class="text-neutral-700 dark:text-neutral-300">- 4-6 horas criando slides perfeitos
+- Design inconsistente
+- Muito texto
+- Foco errado (beleza > conteúdo)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Solução IA:</span> <span class="text-neutral-700 dark:text-neutral-300">- Outline → Slides prontos em 3 minutos
+- Design profissional automático
+- Conteúdo visual otimizado</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Gamma.ai</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Melhor para:</span> <span class="text-neutral-700 dark:text-neutral-300">Apresentações técnicas completas</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Workflow:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>1. gamma.app → Sign up (3 presentations free)
+2. "Generate with AI"
+3. Prompt:</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">"Create technical presentation:</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Topic: Kubernetes Best Practices
+   Audience: Backend developers
+   Length: 15 slides
+   Tone: Technical but accessible</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Include:
+   - Common problems
+   - 5 best practices with code examples
+   - Real-world case study
+   - Metrics and results"</p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">AI generates full deck (2 min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Customize (change images, adjust text)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Present ou export PDF/PPT</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></li>
+          </ol>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Output:</span> <span class="text-neutral-700 dark:text-neutral-300">Slides com:
+- Design profissional consistente
+- Code snippets formatados
+- Diagramas automáticos
+- Transitions suaves
+- Mobile-responsive</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Tome.app</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Melhor para:</span> <span class="text-neutral-700 dark:text-neutral-300">Storytelling visual</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Diferencial:</span> <span class="text-neutral-700 dark:text-neutral-300">- Mais visual (menos texto)
+- Ótimo para demos/showcases
+- Embeds interativos</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Exemplo:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Prompt: "Showcase our new deployment bot"</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Tome gera:
+Slide 1: Título + visual hero
+Slide 2: Problem (screenshot chat caótico)
+Slide 3: Solution (demo do bot)
+Slide 4-6: Features (1 por slide, muito visual)
+Slide 7: Results (métricas grandes e claras)
+Slide 8: Call-to-action
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Sistema Completo: 1 Conteúdo → 10 Formatos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎯 Sistema Completo: 1 Conteúdo → 10 Formatos</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Workflow Unificado</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Input:</span> <span class="text-neutral-700 dark:text-neutral-300">Você resolveu 1 problema técnico</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Etapa 1: Documentar (30 min)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>- Escrever post blog (com IA)
+- Incluir: problema, solução, código, métricas
+- Publicar no blog</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Etapa 2: NotebookLM → Podcast (10 min)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>- Upload post no NotebookLM
+- Generate audio
+- Download MP3
+- Publicar: Spotify (via Anchor.fm grátis)</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Etapa 3: Gamma → Slides (10 min)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>- Post → Gamma
+- Generate presentation
+- Ajustar com screenshots
+- Export PDF</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Etapa 4: HeyGen → Vídeo Apresentação (15 min)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>- Resumir post em script 3 min
+- HeyGen gera vídeo
+- Upload YouTube</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Etapa 5: Podscap → Shorts (5 min)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>- Vídeo do HeyGen → Podscap
+- Gerar 5-8 clips de 60 seg
+- Schedule em Shorts/Reels</code></pre>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Total:</span> <span class="text-neutral-700 dark:text-neutral-300">1h20min → 10 formatos de conteúdo</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Resultado Final</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">De <strong class="font-bold">1 problema resolvido</strong>, você criou:</p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ Post de blog (SEO, evergreen)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ Podcast de 12 min (Spotify, Apple Podcasts)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ Apresentação PDF (compartilhável)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ Vídeo YouTube 3 min (long-form)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ 8 YouTube Shorts (viral potential)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ 8 LinkedIn vídeos (professional reach)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ 8 TikToks/Reels (younger devs)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ Thread Twitter (resumo)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ Post LinkedIn (teaser + link)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">✅ Email newsletter (se tiver lista)</li>
+          </ol>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Distribuição:</span> <span class="text-neutral-700 dark:text-neutral-300">4-6 semanas de conteúdo multi-formato!</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Métricas de Impacto -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📊 Métricas de Impacto</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Medir por formato:</strong></p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Blog:</span> <span class="text-neutral-700 dark:text-neutral-300">Google Analytics
+- Pageviews
+- Time on page
+- Organic search traffic</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Podcast:</span> <span class="text-neutral-700 dark:text-neutral-300">Spotify/Apple Analytics
+- Total listens
+- Completion rate (% que ouviu até o fim)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Vídeos:</span> <span class="text-neutral-700 dark:text-neutral-300">YouTube Analytics
+- Watch time
+- Click-through rate
+- Comments (engagement)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Shorts:</span> <span class="text-neutral-700 dark:text-neutral-300">Platform analytics
+- Views (viral potential)
+- Shares (most important metric)
+- Profile visits (conversion)</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Meta 3 meses:</span> <span class="text-neutral-700 dark:text-neutral-300">- Blog: 500-1K views/mês
+- Podcast: 100-200 listens/ep
+- YouTube: 50-100 views/vídeo
+- Shorts: 1-2K views/clip (alguns > 10K)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🛠️ Stack Completa de Ferramentas -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🛠️ Stack Completa de Ferramentas</h2>
+
+        <div class="mb-6">
+
+          <div class="overflow-x-auto mb-8 shadow-lg rounded-lg">
+            <table class="w-full border-collapse">
+              <thead>
+                <tr class="bg-gradient-to-r from-tecnico to-tecnico/80 text-white">
+                  <th class="px-6 py-4 text-left font-bold">Ferramenta</th>
+                  <th class="px-6 py-4 text-left font-bold">Propósito</th>
+                  <th class="px-6 py-4 text-left font-bold">Preço</th>
+                  <th class="px-6 py-4 text-left font-bold">Quando Usar</th>
+                </tr>
+              </thead>
+              <tbody class="bg-white dark:bg-neutral-800">
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">------------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">-----------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">-------</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">-------------</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">NotebookLM</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Docs → Podcast</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Always</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">HeyGen</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Avatar vídeos</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$29/mês</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Apresentações</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Podscap</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Vídeo → Shorts</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$29/mês</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Reaproveitar conteúdo</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Gamma</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Slides auto</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis (limit)</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Presentations</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Tome</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Visual storytelling</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Grátis (limit)</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Showcases</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Descript</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Edição vídeo/áudio</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$12/mês</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Controle total</td>
+                </tr>
+                <tr class="bg-neutral-50 dark:bg-neutral-900 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Riverside.fm</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Gravar podcasts</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$15/mês</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Entrevistas</td>
+                </tr>
+                <tr class="bg-white dark:bg-neutral-800 hover:bg-tecnico/5 transition-colors">
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700"><strong class="font-bold">Loom</strong></td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Screencasts</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">$8/mês</td>
+                  <td class="px-6 py-4 border-b border-neutral-200 dark:border-neutral-700">Demos rápidas</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Budget mínimo:</span> <span class="text-neutral-700 dark:text-neutral-300">$0 (usar versões grátis)
+<strong class="font-bold">Budget ideal:</strong> $50/mês (unlock tudo)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Exercício Prático -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎓 Exercício Prático</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Desafio: Sistema Completo em 2 Horas</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Escolha 1 problema técnico que você resolveu</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Hora 1: Criar Núcleo</strong>
+- [ ] Escrever post blog (500-800 palavras)
+- [ ] Upload no NotebookLM → Podcast
+- [ ] Criar slides no Gamma</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Hora 2: Distribuir</strong>
+- [ ] Script para HeyGen (3 min)
+- [ ] Gerar vídeo avatar
+- [ ] Upload YouTube
+- [ ] Podscap → 5 shorts
+- [ ] Schedule 1 short/dia próxima semana</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Meta:</span> <span class="text-neutral-700 dark:text-neutral-300">Sistema funcionando + 1 semana de conteúdo agendado</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Dicas de Ouro -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">💡 Dicas de Ouro</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">1. Ordem Importa</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Sempre:
+1. <strong class="font-bold">Blog/Docs</strong> (núcleo, SEO)
+2. <strong class="font-bold">Podcast</strong> (auditivo)
+3. <strong class="font-bold">Slides</strong> (visual)
+4. <strong class="font-bold">Vídeo</strong> (combinação)
+5. <strong class="font-bold">Shorts</strong> (distribuição)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Blog é a fonte da verdade, resto é distribuição.</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">2. Batch Production</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Não faça: 1 conteúdo toda semana
+Faça: 4 conteúdos em 1 dia/mês</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Dia de criação (1x/mês, 6h):</span> <span class="text-neutral-700 dark:text-neutral-300">- Manhã: 4 posts de blog (IA)
+- Tarde: 4 podcasts + 4 decks de slides
+- Noite: 4 vídeos HeyGen</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">= 1 mês de conteúdo</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">3. Templates Reusáveis</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Crie uma vez, use sempre:</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Template Gamma:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Slide 1: Problem (visual de caos)
+Slide 2-3: Context (tech stack)
+Slide 4-6: Solution (code + explicação)
+Slide 7: Results (métricas grandes)
+Slide 8: CTA
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Duplicate → Muda conteúdo → Done</p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">4. Pessoas ≠ Formatos</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">DevOps Team:</span> <span class="text-neutral-700 dark:text-neutral-300">Prefere vídeos curtos (busy)
+<strong class="font-bold">Junior Devs:</strong> Prefere tutoriais longos (aprendizado)
+<strong class="font-bold">Managers:</strong> Prefere slides (compartilhar up)
+<strong class="font-bold">Commuters:</strong> Prefere podcasts</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Estratégia:</span> <span class="text-neutral-700 dark:text-neutral-300">Criar TODOS, deixar pessoa escolher</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">5. Qualidade vs Quantidade</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Primeiros 3 meses:</span> <span class="text-neutral-700 dark:text-neutral-300">Quantidade
+- Teste formatos
+- Veja o que funciona
+- Aprenda ferramentas</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Depois:</span> <span class="text-neutral-700 dark:text-neutral-300">Qualidade
+- Foque em formatos que funcionam
+- Melhore o que já faz bem
+- Scale o que dá resultado</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Próximos Passos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🚀 Próximos Passos</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Semana 1:</span> <span class="text-neutral-700 dark:text-neutral-300">Setup ferramentas (NotebookLM, Gamma, HeyGen trial)
+<strong class="font-bold">Semana 2-4:</strong> 1 conteúdo/semana em 3 formatos
+<strong class="font-bold">Mês 2:</strong> Adicionar Podscap, criar shorts
+<strong class="font-bold">Mês 3:</strong> Sistema completo, batch production</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Próximo Módulo 7:</span> <span class="text-neutral-700 dark:text-neutral-300">Vamos aplicar tudo isso em <strong class="font-bold">redes sociais técnicas</strong> (LinkedIn, Twitter, Dev.to) para construir audiência e ajudar pessoas em escala!</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 📚 Recursos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📚 Recursos</h2>
+
+        <div class="mb-6">
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">IA de Apresentação:</span> <span class="text-neutral-700 dark:text-neutral-300">- <a href="https://gamma.app" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Gamma.ai</a>
+- <a href="https://tome.app" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Tome.app</a>
+- <a href="https://beautiful.ai" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Beautiful.ai</a></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Podcast/Áudio:</span> <span class="text-neutral-700 dark:text-neutral-300">- <a href="https://notebooklm.google.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">NotebookLM</a>
+- <a href="https://descript.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Descript</a>
+- <a href="https://riverside.fm" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Riverside.fm</a></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Vídeo/Avatar:</span> <span class="text-neutral-700 dark:text-neutral-300">- <a href="https://heygen.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">HeyGen</a>
+- <a href="https://synthesia.io" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Synthesia</a>
+- <a href="https://d-id.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">D-ID</a></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Shorts/Clips:</span> <span class="text-neutral-700 dark:text-neutral-300">- <a href="https://podscap.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Podscap</a>
+- <a href="https://opusclip.com" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">OpusClip</a>
+- <a href="https://vizard.ai" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">Vizard</a></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tempo:</span> <span class="text-neutral-700 dark:text-neutral-300">2-3h setup inicial
+<strong class="font-bold">Manutenção:</strong> 2-3h/mês (batch)
+<strong class="font-bold">ROI:</strong> Alcance 10x maior, audiências diversas</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Próximo módulo:</span> <span class="text-neutral-700 dark:text-neutral-300">Módulo 7 - Redes Sociais Técnicas em Escala</span></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer / Navegação -->
+  <section class="py-12 bg-gradient-to-br from-neutral-100 to-neutral-50 dark:from-neutral-900 dark:to-neutral-800 border-t border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center">
+        <a href="../../trilhas/tecnico.html" class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2">
+          <span>←</span>
+          <span>Voltar para Trilha</span>
+        </a>
+        <a href="modulo-07.html" class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"><span>Próximo Módulo</span><span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    // Remove preload class
+    window.addEventListener('load', () => {
+      document.body.classList.remove('preload');
+    });
+
+    // Dark mode toggle
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+    // Check localStorage
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      themeToggleLightIcon.classList.remove('hidden');
+      document.documentElement.classList.add('dark');
+    } else {
+      themeToggleDarkIcon.classList.remove('hidden');
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+
+      if (localStorage.getItem('color-theme')) {
+        if (localStorage.getItem('color-theme') === 'light') {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        }
+      } else {
+        if (document.documentElement.classList.contains('dark')) {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        } else {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>

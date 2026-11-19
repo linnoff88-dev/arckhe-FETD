@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilha Operacional Produtivo | FETD</title>
+  <meta name="description" content="Automatize 80% das suas tarefas e recupere 15-20 horas por semana. Trilha completa para profissionais operacionais.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'operacional': '#3B82F6',
+            'comunicador': '#10B981',
+            'talento': '#F59E0B',
+            'tecnico': '#F97316',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+    .preload * {
+      transition: none !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white/90 dark:bg-neutral-800/90 backdrop-blur-sm border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="../index.html" class="text-2xl font-bold bg-gradient-to-r from-operacional to-comunicador bg-clip-text text-transparent">
+            🎓 FETD
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-operacional transition-colors">Início</a>
+          <a href="../index.html#trilhas" class="text-neutral-700 dark:text-neutral-300 hover:text-operacional transition-colors">Trilhas</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 hover:bg-neutral-200 dark:hover:bg-neutral-600 transition-colors">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm" aria-label="Breadcrumb">
+        <a href="../index.html" class="text-operacional hover:text-blue-700 transition-colors">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Trilha Operacional</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-operacional to-blue-600 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+
+      <!-- Barra de Progresso -->
+      <div id="barra-progresso-trilha" data-trilha="operacional" class="mb-8">
+        <!-- Será preenchido pelo JavaScript -->
+      </div>
+
+      <div class="flex items-center gap-4 mb-6">
+        <span class="inline-block px-4 py-2 bg-white/20 rounded-full text-sm font-semibold">
+          🔵 Trilha 1
+        </span>
+        <span class="inline-block px-4 py-2 bg-white/20 rounded-full text-sm font-semibold">
+          10 Módulos
+        </span>
+        <span class="inline-block px-4 py-2 bg-white/20 rounded-full text-sm font-semibold">
+          10-12 Semanas
+        </span>
+      </div>
+
+      <h1 class="text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+        🔵 Operacional Produtivo
+      </h1>
+
+      <p class="text-3xl font-bold text-yellow-300 mb-6">
+        "Pare de Perder Tempo com Tarefas Manuais"
+      </p>
+
+      <p class="text-xl text-white/90 mb-8 max-w-3xl">
+        Automatize 80% das suas tarefas repetitivas e recupere 15-20 horas por semana. Transforme trabalho manual em sistemas inteligentes que funcionam sozinhos.
+      </p>
+
+      <!-- Stats -->
+      <div class="grid md:grid-cols-4 gap-6 mb-12">
+        <div class="bg-white/10 backdrop-blur p-6 rounded-xl">
+          <div class="text-4xl font-bold">15-20h</div>
+          <div class="text-sm text-white/80">Economizadas/Semana</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur p-6 rounded-xl">
+          <div class="text-4xl font-bold">80%</div>
+          <div class="text-sm text-white/80">Tarefas Automatizadas</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur p-6 rounded-xl">
+          <div class="text-4xl font-bold">10+</div>
+          <div class="text-sm text-white/80">Automações Criadas</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur p-6 rounded-xl">
+          <div class="text-4xl font-bold">100%</div>
+          <div class="text-sm text-white/80">Prático e Aplicável</div>
+        </div>
+      </div>
+
+      <a href="../modulos/operacional/modulo-01.html" class="inline-block px-10 py-5 bg-white text-operacional rounded-lg font-bold text-xl hover:bg-yellow-300 hover:text-neutral-900 transition-all shadow-2xl">
+        🚀 Começar Módulo 1
+      </a>
+    </div>
+  </section>
+
+  <!-- Para Quem É -->
+  <section class="py-20 bg-white dark:bg-neutral-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">Esta Trilha é Para Você Se...</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-operacional/10 dark:bg-operacional/20 p-8 rounded-2xl">
+          <h3 class="text-2xl font-bold mb-4 text-operacional">✓ Você se identifica com:</h3>
+          <ul class="space-y-3 text-neutral-700 dark:text-neutral-300">
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">•</span>
+              <span>Trabalha com tarefas administrativas e repetitivas</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">•</span>
+              <span>Passa horas em emails, planilhas, documentos</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">•</span>
+              <span>Sente sobrecarga e falta de tempo</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">•</span>
+              <span>Quer trabalhar de forma mais inteligente</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">•</span>
+              <span>Busca reconhecimento profissional</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-neutral-100 dark:bg-neutral-900 p-8 rounded-2xl">
+          <h3 class="text-2xl font-bold mb-4">✗ Não é para você se:</h3>
+          <ul class="space-y-3 text-neutral-600 dark:text-neutral-400">
+            <li class="flex items-start gap-2">
+              <span>•</span>
+              <span>Seu trabalho é 100% criativo e único</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>•</span>
+              <span>Você já automatizou tudo</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>•</span>
+              <span>Busca conhecimento técnico profundo</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>•</span>
+              <span>Quer aprender programação avançada</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O Que Você Vai Conseguir -->
+  <section class="py-20 bg-neutral-50 dark:bg-neutral-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">Em 10 Semanas Você Vai:</h2>
+        <p class="text-xl text-neutral-600 dark:text-neutral-400">Resultados concretos e mensuráveis</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+        <div class="bg-white dark:bg-neutral-800 p-8 rounded-2xl border-2 border-operacional/30 hover:border-operacional transition-all">
+          <div class="text-4xl mb-4">⏱️</div>
+          <h3 class="text-2xl font-bold mb-3">Recuperar 15-20 Horas/Semana</h3>
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Elimine trabalho manual repetitivo e ganhe tempo para focar no que realmente importa: crescimento profissional e vida pessoal.
+          </p>
+        </div>
+
+        <div class="bg-white dark:bg-neutral-800 p-8 rounded-2xl border-2 border-operacional/30 hover:border-operacional transition-all">
+          <div class="text-4xl mb-4">🤖</div>
+          <h3 class="text-2xl font-bold mb-3">Criar 10+ Automações</h3>
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Sistemas funcionando 24/7: emails organizados, relatórios automáticos, documentos gerados sozinhos, e muito mais.
+          </p>
+        </div>
+
+        <div class="bg-white dark:bg-neutral-800 p-8 rounded-2xl border-2 border-operacional/30 hover:border-operacional transition-all">
+          <div class="text-4xl mb-4">📊</div>
+          <h3 class="text-2xl font-bold mb-3">Dominar Ferramentas No-Code</h3>
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Zapier, Make, n8n, Google Sheets com IA, sistemas de produtividade - tudo sem programar uma linha de código.
+          </p>
+        </div>
+
+        <div class="bg-white dark:bg-neutral-800 p-8 rounded-2xl border-2 border-operacional/30 hover:border-operacional transition-all">
+          <div class="text-4xl mb-4">⭐</div>
+          <h3 class="text-2xl font-bold mb-3">Ganhar Reconhecimento</h3>
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Apresente seus resultados para gestão, torne-se referência em produtividade, abra portas para promoção.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Garantia -->
+      <div class="mt-16 bg-gradient-to-r from-operacional/10 to-blue-500/10 dark:from-operacional/20 dark:to-blue-500/20 p-8 rounded-2xl max-w-4xl mx-auto border-2 border-operacional/30">
+        <div class="text-center">
+          <div class="text-5xl mb-4">💎</div>
+          <h3 class="text-2xl font-bold mb-4">Garantia de Resultado</h3>
+          <p class="text-lg text-neutral-700 dark:text-neutral-300">
+            Se você não economizar pelo menos <span class="font-bold text-operacional">10 horas na primeira semana</span>, revisamos sua estratégia até conseguir. Queremos seu sucesso real, não só conclusão de curso.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Módulos da Trilha -->
+  <section class="py-20 bg-white dark:bg-neutral-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">Os 10 Módulos da Trilha</h2>
+        <p class="text-xl text-neutral-600 dark:text-neutral-400">Progressão lógica do básico ao avançado</p>
+      </div>
+
+      <div class="space-y-6 max-w-4xl mx-auto">
+
+        <!-- Módulo 1 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="1">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                1
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">A Virada - Por Que Agora é Diferente</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                Entenda a revolução em curso, os 3 mitos (agência, dinheiro, audiência), e como pessoas comuns estão transformando carreiras com automação.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 30 min</span>
+                <span>📝 2 exercícios</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-01.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 1 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 2 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="2">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                2
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">Golden Ratio - A Fórmula 60/30/10</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                O framework que funciona: 60% automação, 30% IA, 10% humano. Matriz impacto × esforço e o que automatizar primeiro.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 45 min</span>
+                <span>📝 3 exercícios</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-02.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 2 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 3 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="3">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                3
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">Seu Primeiro Assistente - IA na Prática</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                ChatGPT, Claude, Gemini: quando usar cada um. Framework LRP e templates de prompts operacionais.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 1h</span>
+                <span>📝 5 exercícios práticos</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-03.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 3 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 4 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="4">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                4
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">Ferramentas No-Code - Zapier e Make</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                Criar automações sem código. Conectar ferramentas e criar fluxos que funcionam 24/7 sem programação.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 1h 30min</span>
+                <span>📝 3 exercícios</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-04.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 4 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 5 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="5">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                5
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">Automação de Emails e Comunicação</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                Organizar, filtrar e responder emails automaticamente. Economizar 5-8 horas por semana só com emails.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 1h 15min</span>
+                <span>📝 4 exercícios</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-05.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 5 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 6 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="6">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                6
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">Planilhas Inteligentes com IA</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                Google Sheets com superpoderes. Fórmulas inteligentes, análises automáticas e dashboards que se atualizam sozinhos.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 1h 30min</span>
+                <span>📝 5 exercícios</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-06.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 6 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 7 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="7">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                7
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">Documentação e Arquivos Automáticos</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                Gerar documentos, relatórios e apresentações automaticamente. Templates inteligentes que se preenchem sozinhos.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 1h</span>
+                <span>📝 3 exercícios</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-07.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 7 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 8 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="8">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                8
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">Reuniões e Agenda Automatizados</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                Agendamento inteligente, transcrições automáticas, e ações pós-reunião sem esforço manual.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 1h</span>
+                <span>📝 3 exercícios</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-08.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 8 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 9 -->
+        <div class="bg-gradient-to-r from-operacional/10 to-operacional/5 dark:from-operacional/20 dark:to-operacional/10 p-8 rounded-2xl border-2 border-operacional hover:shadow-xl transition-all" data-modulo="9">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                9
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="badge-status inline-block px-3 py-1 bg-operacional/20 text-operacional rounded-full text-xs font-semibold mb-2">DISPONÍVEL</span>
+              <h3 class="text-2xl font-bold mb-2">Framework 4R's - Entregar Resultados</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                Comunicar resultados para gestão. Framework 4R's: Result, Roadmap, Risk, Review. Transformar tempo economizado em reconhecimento.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 1h</span>
+                <span>📝 2 exercícios</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-09.html" class="inline-block mt-4 px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 9 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Módulo 10 -->
+        <div class="bg-gradient-to-r from-yellow-400/20 to-operacional/20 dark:from-yellow-400/30 dark:to-operacional/30 p-8 rounded-2xl border-2 border-yellow-500 hover:shadow-xl transition-all">
+          <div class="flex items-start gap-6">
+            <div class="flex-shrink-0">
+              <div class="w-16 h-16 bg-gradient-to-br from-yellow-500 to-operacional text-white rounded-xl flex items-center justify-center text-2xl font-bold">
+                10
+              </div>
+            </div>
+            <div class="flex-1">
+              <span class="inline-block px-3 py-1 bg-yellow-500/20 text-yellow-700 dark:text-yellow-400 rounded-full text-xs font-semibold mb-2">PROJETO FINAL</span>
+              <h3 class="text-2xl font-bold mb-2">Sistema Completo + Evolução</h3>
+              <p class="text-neutral-600 dark:text-neutral-400 mb-4">
+                Projeto final: integrar todas as automações em um sistema completo. Planejar evolução contínua e carreira pós-FETD.
+              </p>
+              <div class="flex items-center gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <span>⏱️ 2h</span>
+                <span>📝 Projeto Final</span>
+                <span>📥 Download MD</span>
+              </div>
+              <a href="../modulos/operacional/modulo-10.html" class="inline-block mt-4 px-6 py-3 bg-gradient-to-r from-yellow-500 to-operacional text-white rounded-lg font-semibold hover:opacity-90 transition-all">
+                Começar Módulo 10 →
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section class="py-20 bg-gradient-to-r from-operacional to-blue-600">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+      <h2 class="text-4xl font-bold mb-6">Pronto Para Transformar Seu Trabalho?</h2>
+      <p class="text-xl mb-8">
+        Comece agora e veja resultados na primeira semana
+      </p>
+      <a href="../modulos/operacional/modulo-01.html" class="inline-block px-10 py-5 bg-white text-operacional rounded-lg font-bold text-xl hover:bg-yellow-300 hover:text-neutral-900 transition-all shadow-2xl">
+        🚀 Começar Módulo 1 Agora
+      </a>
+      <p class="mt-6 text-sm text-white/80">
+        100% online • 100% prático • 100% gratuito
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-neutral-900 dark:bg-black text-neutral-300 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-xl font-bold text-white mb-4">FETD</h3>
+          <p class="text-sm">Formação em Engenharia de Intenção</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Trilhas</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="operacional.html" class="hover:text-white transition-colors">Operacional Produtivo</a></li>
+            <li><a href="comunicador.html" class="hover:text-white transition-colors">Comunicador Estratégico</a></li>
+            <li><a href="talento.html" class="hover:text-white transition-colors">Talento Emergente</a></li>
+            <li><a href="tecnico.html" class="hover:text-white transition-colors">Técnico Comunicador</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Links</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="../index.html" class="hover:text-white transition-colors">Início</a></li>
+            <li><a href="../index.html#trilhas" class="hover:text-white transition-colors">Todas as Trilhas</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-neutral-800 mt-8 pt-8 text-center text-sm">
+        <p>&copy; 2025 FETD - Formação em Engenharia de Intenção.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 3: Seu Primeiro Assistente - IA na Prática | Trilha Operacional | FETD</title>
+  <meta name="description" content="Domine IAs generativas para tarefas operacionais usando o Framework LRP. ChatGPT, Claude e Gemini na prática.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'operacional': '#3B82F6',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+    .preload * {
+      transition: none !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white/90 dark:bg-neutral-800/90 backdrop-blur-sm border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="../../index.html" class="text-2xl font-bold bg-gradient-to-r from-operacional to-blue-600 bg-clip-text text-transparent">
+            🎓 FETD
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-operacional transition-colors">Início</a>
+          <a href="../../trilhas/operacional.html" class="text-neutral-700 dark:text-neutral-300 hover:text-operacional transition-colors">Trilha Operacional</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm" aria-label="Breadcrumb">
+        <a href="../../index.html" class="text-operacional hover:text-blue-700">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <a href="../../trilhas/operacional.html" class="text-operacional hover:text-blue-700">Trilha Operacional</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Módulo 3</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Módulo -->
+  <section class="bg-gradient-to-r from-operacional to-blue-600 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+
+      <div class="flex items-center gap-3 mb-4">
+        <span class="px-3 py-1 bg-white/20 rounded-full text-sm font-semibold">Módulo 3 de 10</span>
+        <span class="px-3 py-1 bg-white/20 rounded-full text-sm font-semibold">⏱️ 2 horas</span>
+      </div>
+
+      <h1 class="text-4xl lg:text-5xl font-extrabold mb-4">
+        Seu Primeiro Assistente - IA na Prática
+      </h1>
+
+      <p class="text-xl text-white/90 mb-6 max-w-3xl">
+        Domine ChatGPT, Claude e Gemini usando o Framework LRP. Aprenda 15 prompts práticos, evite 10 erros comuns e crie sua biblioteca pessoal de prompts.
+      </p>
+
+      <div class="flex items-center gap-4">
+        <span class="text-white/80">📚 Teoria</span>
+        <span class="text-white/80">•</span>
+        <span class="text-white/80">💭 Reflexão</span>
+        <span class="text-white/80">•</span>
+        <span class="text-white/80">🛠️ Prática</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <section class="py-16 bg-white dark:bg-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Download Button -->
+      <div class="flex justify-end mb-8">
+        <a href="../../downloads/operacional/modulo-03.md" download class="px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 inline-flex items-center gap-2">
+          <span>📥</span>
+          <span>Download MD</span>
+        </a>
+      </div>
+
+      <!-- Objetivo -->
+      <div class="bg-operacional/10 dark:bg-operacional/20 border-l-4 border-operacional p-6 rounded-lg mb-12">
+        <h3 class="text-xl font-bold text-operacional mb-2">🎯 Objetivo deste Módulo</h3>
+        <div class="text-neutral-700 dark:text-neutral-300">
+          <p class="mb-4">Você vai aprender a usar IAs generativas de forma profissional. Não é "conversar com robô", é ter assistentes que multiplicam sua produtividade em tarefas operacionais reais.</p>
+
+          <p class="font-semibold mb-2">Ao final deste módulo, você terá:</p>
+          <ul class="space-y-2 ml-4">
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">✓</span>
+              <span>Clareza sobre qual IA usar para cada tipo de tarefa</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">✓</span>
+              <span>Domínio do Framework LRP para extrair resultados superiores</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">✓</span>
+              <span>15 prompts práticos prontos para usar</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">✓</span>
+              <span>Sua biblioteca pessoal de prompts customizados</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-operacional">✓</span>
+              <span>Conhecimento para evitar os 10 erros mais comuns</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Seção 1 -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-6">1. ChatGPT, Claude, Gemini: Quando Usar Cada Um</h2>
+
+        <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
+          Existem dezenas de IAs disponíveis, mas <strong>3 dominam o mercado profissional</strong>. Cada uma tem pontos fortes específicos e casos de uso ideais.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
+          <!-- ChatGPT -->
+          <div class="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-xl border-2 border-green-500">
+            <div class="text-4xl mb-3">💬</div>
+            <h3 class="text-2xl font-bold mb-3">ChatGPT</h3>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-4 font-semibold">
+              Melhor para: Criação de conteúdo, brainstorming, conversação natural
+            </p>
+
+            <div class="mb-4">
+              <p class="font-semibold text-sm mb-2">Pontos Fortes:</p>
+              <ul class="space-y-2 text-sm">
+                <li class="flex items-start gap-2">
+                  <span class="text-green-600">✓</span>
+                  <span>Escreve muito bem</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-600">✓</span>
+                  <span>Tom natural e criativo</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-600">✓</span>
+                  <span>Versatilidade geral</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-600">✓</span>
+                  <span>Plugins e extensões</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bg-white/50 dark:bg-black/20 p-3 rounded-lg text-sm">
+              <p class="font-semibold mb-1">Use quando:</p>
+              <p class="text-neutral-700 dark:text-neutral-300">Precisa escrever emails, criar textos, gerar ideias criativas</p>
+            </div>
+          </div>
+
+          <!-- Claude -->
+          <div class="bg-gradient-to-br from-purple-50 to-violet-50 dark:from-purple-900/20 dark:to-violet-900/20 p-6 rounded-xl border-2 border-purple-500">
+            <div class="text-4xl mb-3">🧠</div>
+            <h3 class="text-2xl font-bold mb-3">Claude</h3>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-4 font-semibold">
+              Melhor para: Análise profunda, tarefas complexas, raciocínio detalhado
+            </p>
+
+            <div class="mb-4">
+              <p class="font-semibold text-sm mb-2">Pontos Fortes:</p>
+              <ul class="space-y-2 text-sm">
+                <li class="flex items-start gap-2">
+                  <span class="text-purple-600">✓</span>
+                  <span>Raciocínio lógico superior</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-purple-600">✓</span>
+                  <span>Documentos longos (200k tokens)</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-purple-600">✓</span>
+                  <span>Seguir instruções complexas</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-purple-600">✓</span>
+                  <span>Menos alucinações</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bg-white/50 dark:bg-black/20 p-3 rounded-lg text-sm">
+              <p class="font-semibold mb-1">Use quando:</p>
+              <p class="text-neutral-700 dark:text-neutral-300">Precisa analisar relatórios, documentos grandes, tarefas com lógica e precisão</p>
+            </div>
+          </div>
+
+          <!-- Gemini -->
+          <div class="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 p-6 rounded-xl border-2 border-blue-500">
+            <div class="text-4xl mb-3">🔍</div>
+            <h3 class="text-2xl font-bold mb-3">Gemini</h3>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-4 font-semibold">
+              Melhor para: Pesquisa, dados atualizados, Google Workspace
+            </p>
+
+            <div class="mb-4">
+              <p class="font-semibold text-sm mb-2">Pontos Fortes:</p>
+              <ul class="space-y-2 text-sm">
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-600">✓</span>
+                  <span>Acesso web em tempo real</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-600">✓</span>
+                  <span>Integração Google</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-600">✓</span>
+                  <span>Bom com dados e números</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-600">✓</span>
+                  <span>Multimodal (texto, imagem)</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bg-white/50 dark:bg-black/20 p-3 rounded-lg text-sm">
+              <p class="font-semibold mb-1">Use quando:</p>
+              <p class="text-neutral-700 dark:text-neutral-300">Precisa de informações atuais, trabalha no Google Workspace</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 p-6 rounded-xl border-l-4 border-yellow-500">
+          <h4 class="font-bold text-lg mb-3 flex items-center gap-2">
+            <span>💡</span>
+            <span>Estratégia Profissional: Use as 3</span>
+          </h4>
+          <p class="text-neutral-700 dark:text-neutral-300 mb-4">
+            Não precisa escolher apenas uma. Use <strong>cada ferramenta para o que ela faz de melhor</strong>. Profissionais de alta performance usam as 3:
+          </p>
+          <div class="bg-white/50 dark:bg-black/20 p-4 rounded-lg">
+            <p class="font-semibold mb-2">Workflow típico de um projeto:</p>
+            <ol class="space-y-2 text-sm">
+              <li><strong>1. Gemini</strong> → Pesquisar contexto e dados atuais</li>
+              <li><strong>2. Claude</strong> → Analisar informações e estruturar raciocínio</li>
+              <li><strong>3. ChatGPT</strong> → Criar apresentação final com linguagem persuasiva</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção 2: Framework LRP -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-6">2. Framework LRP: Listen / Repeat / Poke</h2>
+
+        <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
+          Este é o <strong>método mais eficiente</strong> para extrair resultados de qualquer IA. Não é mágica, é metodologia testada por milhares de profissionais.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
+          <!-- Listen -->
+          <div class="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl border-2 border-blue-500">
+            <div class="text-4xl font-bold text-blue-600 mb-2">L</div>
+            <h3 class="text-xl font-bold mb-3">LISTEN (Escutar)</h3>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-4">
+              Dê contexto completo à IA. Ela não sabe quem você é, o que faz, qual seu objetivo.
+            </p>
+            <div class="bg-white dark:bg-neutral-800 p-3 rounded-lg text-sm">
+              <p class="font-semibold mb-2">Checklist:</p>
+              <ul class="space-y-1">
+                <li>• Quem você é</li>
+                <li>• Situação atual</li>
+                <li>• Objetivo específico</li>
+                <li>• Restrições</li>
+                <li>• Formato desejado</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Repeat -->
+          <div class="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-xl border-2 border-purple-500">
+            <div class="text-4xl font-bold text-purple-600 mb-2">R</div>
+            <h3 class="text-xl font-bold mb-3">REPEAT (Repetir)</h3>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-4">
+              Peça para a IA repetir com as palavras dela. Garante que ela entendeu corretamente.
+            </p>
+            <div class="bg-white dark:bg-neutral-800 p-3 rounded-lg text-sm">
+              <p class="font-semibold mb-2">Exemplo:</p>
+              <p class="italic">"Antes de sugerir, me diga com suas palavras: qual é o problema que estou tentando resolver?"</p>
+            </div>
+          </div>
+
+          <!-- Poke -->
+          <div class="bg-green-50 dark:bg-green-900/20 p-6 rounded-xl border-2 border-green-500">
+            <div class="text-4xl font-bold text-green-600 mb-2">P</div>
+            <h3 class="text-xl font-bold mb-3">POKE (Cutucar)</h3>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-4">
+              Refine iterativamente. A primeira resposta raramente é perfeita.
+            </p>
+            <div class="bg-white dark:bg-neutral-800 p-3 rounded-lg text-sm">
+              <p class="font-semibold mb-2">Exemplos:</p>
+              <ul class="space-y-1">
+                <li>• "Pode ser mais conciso?"</li>
+                <li>• "Dê 3 exemplos práticos"</li>
+                <li>• "Transforme em tabela"</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-r from-operacional/10 to-blue-500/10 dark:from-operacional/20 dark:to-blue-500/20 p-8 rounded-2xl">
+          <h4 class="text-xl font-bold mb-4">📊 Comparação: Com vs Sem Framework LRP</h4>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border-2 border-red-400">
+              <p class="font-bold text-red-700 dark:text-red-400 mb-3">❌ Sem LRP (método comum)</p>
+              <ul class="space-y-2 text-sm">
+                <li>• Tempo: 45 minutos</li>
+                <li>• Resultado: 60% adequado</li>
+                <li>• Iterações desperdiçadas: 5-7</li>
+                <li>• Frustração: Alta</li>
+                <li>• Probabilidade de desistir: 40%</li>
+              </ul>
+            </div>
+            <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border-2 border-green-500">
+              <p class="font-bold text-green-700 dark:text-green-400 mb-3">✅ Com LRP</p>
+              <ul class="space-y-2 text-sm">
+                <li>• Tempo: 12 minutos</li>
+                <li>• Resultado: 90% adequado</li>
+                <li>• Iterações produtivas: 3-4</li>
+                <li>• Frustração: Mínima</li>
+                <li>• Probabilidade de sucesso: 95%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção 3: Instruções Claras -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-6">3. Como Dar Instruções Claras</h2>
+
+        <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
+          A qualidade da resposta da IA é <strong>diretamente proporcional à qualidade da sua instrução</strong>. Lixo entra, lixo sai.
+        </p>
+
+        <div class="bg-white dark:bg-neutral-800 rounded-xl border-2 border-operacional/30 p-6 mb-6">
+          <h4 class="font-bold text-lg mb-4">📋 Anatomia de uma Instrução Perfeita</h4>
+          <div class="space-y-4">
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-operacional text-white rounded-full flex items-center justify-center font-bold">1</div>
+              <div>
+                <p class="font-bold">PAPEL</p>
+                <p class="text-sm text-neutral-600 dark:text-neutral-400">Defina quem é a IA nesse contexto</p>
+                <p class="text-sm italic mt-1">"Você é um especialista em automação de processos..."</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-operacional text-white rounded-full flex items-center justify-center font-bold">2</div>
+              <div>
+                <p class="font-bold">CONTEXTO</p>
+                <p class="text-sm text-neutral-600 dark:text-neutral-400">Descreva a situação atual</p>
+                <p class="text-sm italic mt-1">"Trabalho numa empresa de consultoria, recebo 50 planilhas por semana..."</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-operacional text-white rounded-full flex items-center justify-center font-bold">3</div>
+              <div>
+                <p class="font-bold">TAREFA</p>
+                <p class="text-sm text-neutral-600 dark:text-neutral-400">Defina o que você quer</p>
+                <p class="text-sm italic mt-1">"Preciso de um sistema que consolide automaticamente..."</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-operacional text-white rounded-full flex items-center justify-center font-bold">4</div>
+              <div>
+                <p class="font-bold">FORMATO</p>
+                <p class="text-sm text-neutral-600 dark:text-neutral-400">Especifique como quer a resposta</p>
+                <p class="text-sm italic mt-1">"Responda com: passo a passo numerado + exemplo..."</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-operacional text-white rounded-full flex items-center justify-center font-bold">5</div>
+              <div>
+                <p class="font-bold">RESTRIÇÕES</p>
+                <p class="text-sm text-neutral-600 dark:text-neutral-400">Defina limitações importantes</p>
+                <p class="text-sm italic mt-1">"Não posso usar ferramentas pagas. Só Google Workspace gratuito..."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção 4: 15 Prompts -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-6">4. 15 Templates de Prompts Operacionais</h2>
+
+        <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
+          Aqui estão <strong>15 prompts prontos</strong> que você pode copiar e adaptar para suas tarefas do dia a dia.
+        </p>
+
+        <div class="space-y-6">
+          <!-- Categoria A -->
+          <div class="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl border-l-4 border-blue-500">
+            <h3 class="text-xl font-bold mb-4">CATEGORIA A: ORGANIZAÇÃO E DADOS</h3>
+
+            <div class="space-y-4">
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 1: Organizar Dados Desorganizados</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Você é especialista em organização de dados. Tenho uma lista desorganizada com [descreva os dados].</p>
+                  <p class="mt-2">Preciso que você:</p>
+                  <p>1) Identifique padrões nos dados</p>
+                  <p>2) Sugira estrutura de categorização lógica</p>
+                  <p>3) Forneça template de planilha com colunas ideais</p>
+                  <p>4) Indique fórmulas para limpar/separar dados</p>
+                </div>
+                <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-2"><strong>Use quando:</strong> Recebeu dados bagunçados que precisa estruturar.</p>
+              </div>
+
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 2: Consolidar Múltiplas Fontes</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Você é especialista em consolidação de dados. Recebo informações de [número] fontes diferentes.</p>
+                  <p class="mt-2">Preciso de: 1) Planilha mestra, 2) Processo para consolidar semanalmente, 3) Validações, 4) Dashboard visual</p>
+                </div>
+                <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-2"><strong>Use quando:</strong> Tem dados espalhados que precisa unificar.</p>
+              </div>
+
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 3: Criar Sistema de Categorização</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Você é especialista em taxonomia. Tenho [tipo de item] que precisa ser categorizado.</p>
+                  <p class="mt-2">Preciso de sistema de categorias lógico, regras de classificação, exemplos e template.</p>
+                </div>
+                <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-2"><strong>Use quando:</strong> Precisa criar sistema para organizar emails, documentos, tarefas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categoria B -->
+          <div class="bg-green-50 dark:bg-green-900/20 p-6 rounded-xl border-l-4 border-green-500">
+            <h3 class="text-xl font-bold mb-4">CATEGORIA B: COMUNICAÇÃO</h3>
+
+            <div class="space-y-4">
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 4: Email Profissional Estruturado</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Escreva email profissional para [destinatário].</p>
+                  <p>Objetivo: [o que quer alcançar]</p>
+                  <p>Tom: [formal/amigável/direto]</p>
+                  <p>Estrutura: Assunto (3 opções), corpo (máx 150 palavras), call-to-action, fechamento</p>
+                </div>
+              </div>
+
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 5: Resumir Reunião em Ações</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Você é especialista em facilitação de reuniões. Minhas notas: [colar notas]</p>
+                  <p class="mt-2">Preciso de: 1) Resumo executivo, 2) Decisões, 3) Ações [O QUE|QUEM|QUANDO], 4) Pendências, 5) Próximos passos</p>
+                </div>
+              </div>
+
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 6: Reescrever para Diferentes Públicos</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Tenho este texto: [colar]. Preciso de 3 versões:</p>
+                  <p>VERSÃO 1 - Executiva (diretoria): 100 palavras, foco em ROI</p>
+                  <p>VERSÃO 2 - Técnica (TI): detalhes técnicos</p>
+                  <p>VERSÃO 3 - Acessível (operacional): linguagem simples</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categoria C -->
+          <div class="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-xl border-l-4 border-purple-500">
+            <h3 class="text-xl font-bold mb-4">CATEGORIA C: ANÁLISE E SÍNTESE</h3>
+
+            <div class="space-y-4">
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 7: Resumir Documento Longo</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Documento de [X páginas] sobre [tema]. Preciso de:</p>
+                  <p>1) Resumo executivo (7 linhas), 2) Principais pontos (bullets), 3) Dados importantes, 4) Ações recomendadas, 5) Alertas</p>
+                </div>
+              </div>
+
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 8: Extrair Insights de Dados</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Você é analista de dados. Dados: [colar]. Forneça:</p>
+                  <p>1) Tendências, 2) Anomalias, 3) Correlações, 4) Insights acionáveis, 5) Perguntas levantadas</p>
+                </div>
+              </div>
+
+              <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+                <p class="font-bold mb-2">PROMPT 9: Comparar Opções</p>
+                <div class="bg-neutral-50 dark:bg-neutral-900 p-3 rounded text-sm font-mono overflow-x-auto">
+                  <p>Consultor em análise comparativa. Preciso escolher entre [opções].</p>
+                  <p>Preciso: 1) Tabela comparativa, 2) Prós e contras, 3) Recomendação, 4) Riscos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categorias D e E resumidas -->
+          <div class="bg-yellow-50 dark:bg-yellow-900/20 p-6 rounded-xl border-l-4 border-yellow-500">
+            <h3 class="text-xl font-bold mb-4">CATEGORIA D: CRIAÇÃO DE CONTEÚDO</h3>
+            <div class="grid md:grid-cols-2 gap-3 text-sm">
+              <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+                <p class="font-bold">PROMPT 10: Gerar Relatório Periódico</p>
+                <p class="text-neutral-600 dark:text-neutral-400">Template de relatório reutilizável</p>
+              </div>
+              <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+                <p class="font-bold">PROMPT 11: Criar FAQ</p>
+                <p class="text-neutral-600 dark:text-neutral-400">Documentação de processos</p>
+              </div>
+              <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+                <p class="font-bold">PROMPT 12: Criar Checklist</p>
+                <p class="text-neutral-600 dark:text-neutral-400">Garantir execução consistente</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-orange-50 dark:bg-orange-900/20 p-6 rounded-xl border-l-4 border-orange-500">
+            <h3 class="text-xl font-bold mb-4">CATEGORIA E: FORMATAÇÃO E ORGANIZAÇÃO</h3>
+            <div class="grid md:grid-cols-3 gap-3 text-sm">
+              <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+                <p class="font-bold">PROMPT 13: Formatar Conteúdo</p>
+                <p class="text-neutral-600 dark:text-neutral-400">Reorganizar informações</p>
+              </div>
+              <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+                <p class="font-bold">PROMPT 14: Template Reutilizável</p>
+                <p class="text-neutral-600 dark:text-neutral-400">Padronizar processos</p>
+              </div>
+              <div class="bg-white dark:bg-neutral-800 p-3 rounded">
+                <p class="font-bold">PROMPT 15: Dados em Narrativa</p>
+                <p class="text-neutral-600 dark:text-neutral-400">Data storytelling</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção 5: Erros Comuns -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-6">5. Erros Comuns ao Usar IA e Como Evitar</h2>
+
+        <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
+          Aprenda com os erros que <strong>90% dos iniciantes cometem</strong> ao usar IA. Conhecer estes erros economiza meses de frustração.
+        </p>
+
+        <div class="space-y-4">
+          <div class="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border-l-4 border-red-500">
+            <h4 class="font-bold text-lg mb-3">❌ ERRO 1: Aceitar a Primeira Resposta</h4>
+            <p class="text-neutral-700 dark:text-neutral-300 mb-3">
+              IAs dão respostas "ok" na primeira vez. Respostas ÓTIMAS vêm depois de iterações. Você fica com resultado 60% quando poderia ter 90% com 2 minutos adicionais.
+            </p>
+            <div class="bg-green-50 dark:bg-green-900/30 p-3 rounded">
+              <p class="font-semibold text-green-700 dark:text-green-400">✅ Como evitar:</p>
+              <p class="text-sm">Sempre faça 2-3 refinamentos (POKEs). Crie hábito de perguntar: "Pode melhorar X?", "Adicione Y", "Simplifique Z".</p>
+            </div>
+          </div>
+
+          <div class="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border-l-4 border-red-500">
+            <h4 class="font-bold text-lg mb-3">❌ ERRO 2: Não Dar Contexto Suficiente</h4>
+            <p class="text-neutral-700 dark:text-neutral-300 mb-3">
+              IA não é telepata. Sem contexto, ela chuta respostas genéricas. Você refaz a pergunta 3-4 vezes até conseguir resposta útil. Perde 20 minutos.
+            </p>
+            <div class="bg-green-50 dark:bg-green-900/30 p-3 rounded">
+              <p class="font-semibold text-green-700 dark:text-green-400">✅ Como evitar:</p>
+              <p class="text-sm">Use framework LISTEN. Template mental: "Sou [cargo] em [empresa]. Enfrento [problema]. Uso [ferramentas]. Preciso [resultado]."</p>
+            </div>
+          </div>
+
+          <div class="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border-l-4 border-red-500">
+            <h4 class="font-bold text-lg mb-3">❌ ERRO 3: Copiar Sem Revisar (Confiar Cegamente)</h4>
+            <p class="text-neutral-700 dark:text-neutral-300 mb-3">
+              IAs inventam coisas (alucinações), erram detalhes, não conhecem sua empresa. Erros embaraçosos, retrabalho, perda de credibilidade.
+            </p>
+            <div class="bg-green-50 dark:bg-green-900/30 p-3 rounded">
+              <p class="font-semibold text-green-700 dark:text-green-400">✅ Como evitar:</p>
+              <p class="text-sm">Regra 80/20: IA te dá 80% do caminho, você adiciona 20% de: verificação factual, personalização, contexto humano, tom final.</p>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border-l-4 border-red-500">
+              <p class="font-bold mb-2">❌ ERRO 4: Usar IA para Tudo</p>
+              <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-2">Nem tudo precisa de IA. Ironicamente, usar demais torna você MENOS produtivo.</p>
+              <p class="text-xs font-semibold text-green-700 dark:text-green-400">✅ Lembre do Golden Ratio: 60% automação / 30% IA / 10% humano</p>
+            </div>
+
+            <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border-l-4 border-red-500">
+              <p class="font-bold mb-2">❌ ERRO 5: Não Salvar Prompts</p>
+              <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-2">Você recria prompts do zero toda vez. Perde dezenas de horas ao longo do tempo.</p>
+              <p class="text-xs font-semibold text-green-700 dark:text-green-400">✅ Crie Biblioteca de Prompts (Notion, Google Docs, Evernote)</p>
+            </div>
+
+            <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border-l-4 border-red-500">
+              <p class="font-bold mb-2">❌ ERRO 6: Prompt Gigante Sem Estrutura</p>
+              <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-2">IA se perde em parágrafo enorme sem organização.</p>
+              <p class="text-xs font-semibold text-green-700 dark:text-green-400">✅ Use estrutura visual (bullets, numeração)</p>
+            </div>
+
+            <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border-l-4 border-red-500">
+              <p class="font-bold mb-2">❌ ERRO 7: Desistir na 2ª Tentativa</p>
+              <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-2">IA é colaborativa. Acerta 100% depois de 3-5 iterações guiadas.</p>
+              <p class="text-xs font-semibold text-green-700 dark:text-green-400">✅ Mindset: "colaborar e refinar", não "pedir e receber"</p>
+            </div>
+
+            <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border-l-4 border-red-500">
+              <p class="font-bold mb-2">❌ ERRO 8: Não Especificar Formato</p>
+              <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-2">Resposta certa em formato errado exige 10min de reformatação.</p>
+              <p class="text-xs font-semibold text-green-700 dark:text-green-400">✅ Sempre especifique: tabela / bullets / checklist / HTML / CSV</p>
+            </div>
+
+            <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border-l-4 border-red-500">
+              <p class="font-bold mb-2">❌ ERRO 9: Compartilhar Dados Sensíveis</p>
+              <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-2">Riscos: vazamento, LGPD, NDA, compliance.</p>
+              <p class="text-xs font-semibold text-green-700 dark:text-green-400">✅ Sempre anonimize dados antes de colar</p>
+            </div>
+
+            <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border-l-4 border-red-500">
+              <p class="font-bold mb-2">❌ ERRO 10: Não Experimentar Diferentes IAs</p>
+              <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-2">Usar só 1 IA para tudo, mesmo quando outra seria melhor.</p>
+              <p class="text-xs font-semibold text-green-700 dark:text-green-400">✅ Teste mesma tarefa nas 3 principais e escolha a certa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção 6: Dicas Avançadas -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-6">6. Dicas Avançadas para Prompts Melhores</h2>
+
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-blue-50 dark:bg-blue-900/20 p-5 rounded-xl border-l-4 border-blue-500">
+            <h4 class="font-bold mb-2">🎯 DICA 1: Use "Pense Passo a Passo"</h4>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">
+              IAs performam melhor quando "pensam em voz alta". Adicione: "Pense passo a passo antes de responder."
+            </p>
+          </div>
+
+          <div class="bg-purple-50 dark:bg-purple-900/20 p-5 rounded-xl border-l-4 border-purple-500">
+            <h4 class="font-bold mb-2">🎯 DICA 2: Forneça Exemplos (Few-Shot)</h4>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">
+              Mostre 1-3 exemplos do que você quer ANTES de pedir o resultado. Aumenta precisão enormemente.
+            </p>
+          </div>
+
+          <div class="bg-green-50 dark:bg-green-900/20 p-5 rounded-xl border-l-4 border-green-500">
+            <h4 class="font-bold mb-2">🎯 DICA 3: Use Restrições Criativas</h4>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">
+              "Explique em 20 palavras", "Use apenas analogias de futebol". Restrições forçam criatividade.
+            </p>
+          </div>
+
+          <div class="bg-yellow-50 dark:bg-yellow-900/20 p-5 rounded-xl border-l-4 border-yellow-500">
+            <h4 class="font-bold mb-2">🎯 DICA 4: Peça Múltiplas Perspectivas</h4>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">
+              "Analise sob 3 perspectivas: financeira, cliente, equipe interna." Análise mais balanceada.
+            </p>
+          </div>
+
+          <div class="bg-red-50 dark:bg-red-900/20 p-5 rounded-xl border-l-4 border-red-500">
+            <h4 class="font-bold mb-2">🎯 DICA 5: Use Role-Playing (Persona)</h4>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">
+              "Você é consultor da McKinsey..." Persona define tom, profundidade, vocabulário.
+            </p>
+          </div>
+
+          <div class="bg-orange-50 dark:bg-orange-900/20 p-5 rounded-xl border-l-4 border-orange-500">
+            <h4 class="font-bold mb-2">🎯 DICA 6: IA Faz Perguntas Primeiro</h4>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">
+              "Antes de sugerir, me faça 5 perguntas para entender meu contexto." Solução muito mais precisa.
+            </p>
+          </div>
+
+          <div class="bg-cyan-50 dark:bg-cyan-900/20 p-5 rounded-xl border-l-4 border-cyan-500">
+            <h4 class="font-bold mb-2">🎯 DICA 7: Controlar Temperatura (ChatGPT)</h4>
+            <p class="text-sm text-neutral-700 dark:text-neutral-300">
+              Baixa (0.3-0.5) = consistente para análise. Alta (0.8-1.0) = criativo para brainstorming.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Exercícios -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold mb-6">🛠️ Exercícios Práticos</h2>
+
+        <div class="space-y-6">
+          <div class="bg-gradient-to-r from-operacional/10 to-blue-500/10 dark:from-operacional/20 dark:to-blue-500/20 p-6 rounded-xl">
+            <h3 class="text-xl font-bold mb-4">📋 Tarefa 1: Criar 5 Prompts Customizados</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 mb-4">
+              Para cada categoria (Organização, Comunicação, Análise, Criação, Formatação), crie um prompt adaptado para SUA realidade.
+            </p>
+            <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+              <p class="font-semibold mb-2">Processo:</p>
+              <ol class="space-y-2 text-sm">
+                <li>1. Identifique suas tarefas específicas de cada categoria</li>
+                <li>2. Use os templates como base</li>
+                <li>3. Customize com SEU contexto, ferramentas e restrições</li>
+                <li>4. Teste com Framework LRP</li>
+                <li>5. Salve na sua biblioteca</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-r from-purple-100 to-violet-100 dark:from-purple-900/20 dark:to-violet-900/20 p-6 rounded-xl">
+            <h3 class="text-xl font-bold mb-4">🧪 Tarefa 2: Aplicar Framework LRP Completo</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 mb-4">
+              Escolha 1 dos 5 prompts e documente cada etapa: LISTEN (contexto), REPEAT (confirmação), POKE (3-5 refinamentos).
+            </p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">
+              Meta: Qualidade 9/10 em menos de 15 minutos totais.
+            </p>
+          </div>
+
+          <div class="bg-gradient-to-r from-green-100 to-emerald-100 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-xl">
+            <h3 class="text-xl font-bold mb-4">💾 Tarefa 3: Criar Biblioteca de Prompts</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 mb-4">
+              Escolha ferramenta (Notion, Google Docs, Evernote) e documente seus 5 prompts com: nome, categoria, quando usar, IA recomendada, exemplo de uso.
+            </p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">
+              Compromisso: Sempre que criar prompt que funcione bem, adicionar em até 24h.
+            </p>
+          </div>
+
+          <div class="bg-gradient-to-r from-yellow-100 to-orange-100 dark:from-yellow-900/20 dark:to-orange-900/20 p-6 rounded-xl">
+            <h3 class="text-xl font-bold mb-4">🎯 Tarefa 4: Teste Comparativo das 3 IAs</h3>
+            <p class="text-neutral-700 dark:text-neutral-300 mb-4">
+              Execute mesma tarefa no ChatGPT, Claude e Gemini. Compare qualidade, tempo, pontos fortes/fracos. Decida qual usar para tarefas similares no futuro.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Entregável -->
+      <div class="mb-12">
+        <div class="bg-gradient-to-r from-operacional to-blue-600 text-white rounded-2xl p-8">
+          <h3 class="text-2xl font-bold mb-4">✅ Entregável do Módulo 3</h3>
+          <p class="mb-4"><strong>"Biblioteca de Prompts Pessoal + Framework LRP Aplicado"</strong> contendo:</p>
+
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="bg-white/10 p-4 rounded-lg">
+              <ul class="space-y-2">
+                <li class="flex items-start gap-2">
+                  <span class="text-green-300 text-xl">✓</span>
+                  <span>5 prompts customizados testados</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-300 text-xl">✓</span>
+                  <span>1 prompt com LRP documentado</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-300 text-xl">✓</span>
+                  <span>Biblioteca organizada</span>
+                </li>
+              </ul>
+            </div>
+            <div class="bg-white/10 p-4 rounded-lg">
+              <ul class="space-y-2">
+                <li class="flex items-start gap-2">
+                  <span class="text-green-300 text-xl">✓</span>
+                  <span>Comparativo ChatGPT/Claude/Gemini</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-green-300 text-xl">✓</span>
+                  <span>Lista de erros com plano de ação</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-6 border-t border-white/20">
+            <p class="font-semibold">Critério de Sucesso:</p>
+            <p>Você consegue pegar qualquer dos 5 prompts da sua biblioteca e obter resultado útil em menos de 5 minutos, sem frustração.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Conclusão -->
+      <div class="mb-12">
+        <div class="bg-neutral-100 dark:bg-neutral-800 rounded-2xl p-8 border-2 border-operacional/30">
+          <h3 class="text-2xl font-bold mb-6">🎉 O que você conquistou neste módulo:</h3>
+
+          <div class="grid md:grid-cols-2 gap-4 mb-6">
+            <ul class="space-y-2 text-neutral-700 dark:text-neutral-300">
+              <li class="flex items-start gap-2">
+                <span class="text-green-500">✓</span>
+                <span>Entendeu diferenças práticas entre ChatGPT, Claude e Gemini</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-500">✓</span>
+                <span>Dominou Framework LRP (Listen/Repeat/Poke)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-500">✓</span>
+                <span>Aprendeu anatomia de instruções claras</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-500">✓</span>
+                <span>Ganhou 15 templates de prompts prontos</span>
+              </li>
+            </ul>
+            <ul class="space-y-2 text-neutral-700 dark:text-neutral-300">
+              <li class="flex items-start gap-2">
+                <span class="text-green-500">✓</span>
+                <span>Conhece 10 erros comuns e como evitá-los</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-500">✓</span>
+                <span>Aprendeu 7 técnicas avançadas de prompting</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-500">✓</span>
+                <span>Criou biblioteca pessoal de prompts</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-500">✓</span>
+                <span>Testou as 3 principais IAs na prática</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bg-operacional/20 dark:bg-operacional/30 p-4 rounded-lg">
+            <p class="font-semibold text-operacional mb-2">➡️ Próximo Módulo:</p>
+            <p class="text-neutral-700 dark:text-neutral-300">
+              <strong>Ferramentas No-Code - Zapier e Make</strong><br>
+              Você vai aprender a conectar sistemas diferentes sem escrever uma linha de código. Suas primeiras 3 automações práticas que rodam sozinhas!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seção de Progresso -->
+      <div class="mb-8 bg-white dark:bg-neutral-800 rounded-2xl p-8 border-2 border-operacional/30">
+        <div class="text-center mb-6">
+          <h3 class="text-2xl font-bold mb-2">Você completou este módulo?</h3>
+          <p class="text-neutral-600 dark:text-neutral-400">
+            Marque como concluído para acompanhar seu progresso na trilha
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center gap-4">
+          <button
+            id="btn-concluir-modulo"
+            data-trilha="operacional"
+            data-modulo="3"
+            class="px-10 py-4 bg-operacional text-white rounded-lg font-bold text-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
+            ✓ Marcar como Concluído
+          </button>
+
+          <div id="progresso-info" class="text-center">
+            <!-- Será preenchido pelo JavaScript -->
+          </div>
+        </div>
+
+        <div class="mt-6 pt-6 border-t border-neutral-200 dark:border-neutral-700">
+          <div class="flex items-center justify-center gap-2 text-sm text-neutral-600 dark:text-neutral-400">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+            <span>Seu progresso é salvo no navegador e persiste entre sessões</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navegação -->
+      <div class="bg-gradient-to-r from-operacional to-blue-600 text-white rounded-2xl p-8">
+        <div class="flex justify-between items-center">
+          <a href="modulo-02.html" class="px-6 py-3 bg-white/20 hover:bg-white/30 rounded-lg font-semibold transition-all">
+            ← Módulo 2
+          </a>
+          <div class="text-center">
+            <p class="text-sm opacity-80 mb-1">Próximo Módulo</p>
+            <p class="font-bold">Módulo 4: Ferramentas No-Code</p>
+          </div>
+          <a href="modulo-04.html" class="px-6 py-3 bg-white text-operacional rounded-lg font-semibold hover:bg-yellow-300 hover:text-neutral-900 transition-all">
+            Módulo 4 →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-neutral-900 dark:bg-black text-neutral-300 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center text-sm">
+        <p>&copy; 2025 FETD - Formação em Engenharia de Intenção</p>
+        <p class="mt-2 text-neutral-400">Transformando intenção em resultado através de automação inteligente</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../../js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 9: Consultoria Interna - Virando Referência na Empresa | Trilha Técnico Comunicador | FETD</title>
+  <meta name="description" content="Aplicar tudo que aprendeu para virar "o consultor de todo mundo" dentro da sua empresa">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'tecnico': '#F97316',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+    .preload * {
+      transition: none !important;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="preload bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white/95 dark:bg-neutral-800/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-700 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="../../index.html" class="text-2xl font-bold bg-gradient-to-r from-tecnico to-orange-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+            🎓 FETD
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="../../index.html" class="text-neutral-700 dark:text-neutral-300 hover:text-tecnico transition-colors font-medium">Início</a>
+          <a href="../../trilhas/tecnico.html" class="text-neutral-700 dark:text-neutral-300 hover:text-tecnico transition-colors font-medium">Trilha Técnico Comunicador</a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-700 hover:bg-tecnico/10 transition-colors">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <nav class="flex text-sm font-medium" aria-label="Breadcrumb">
+        <a href="../../index.html" class="text-tecnico hover:opacity-80 transition-opacity">Início</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <a href="../../trilhas/tecnico.html" class="text-tecnico hover:opacity-80 transition-opacity">Trilha Técnico Comunicador</a>
+        <span class="mx-2 text-neutral-400">/</span>
+        <span class="text-neutral-600 dark:text-neutral-400">Módulo 9</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Módulo -->
+  <section class="bg-gradient-to-br from-tecnico via-tecnico to-orange-600 py-20 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-white/5 bg-[size:20px_20px]"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white relative z-10">
+
+      <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg">Módulo 9 de 10</span>
+        <span class="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-bold shadow-lg flex items-center gap-2">
+          <span>⏱️</span>
+          <span>60 minutos</span>
+        </span>
+      </div>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+        Módulo 9: Consultoria Interna - Virando Referência na Empresa
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/95 mb-8 max-w-3xl font-medium leading-relaxed">
+        Aplicar tudo que aprendeu para virar "o consultor de todo mundo" dentro da sua empresa
+      </p>
+
+      <div class="flex flex-wrap items-center gap-4 text-white/90">
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">📚</span> Teoria</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">💭</span> Reflexão</span>
+        <span class="text-white/60">•</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">🛠️</span> Prática</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <section class="py-16 bg-white dark:bg-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Download Button -->
+      <div class="flex justify-end mb-8">
+        <a href="../../downloads/tecnico/modulo-09.md" download class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transition-all">
+          <span class="text-xl">📥</span>
+          <span>Download MD</span>
+        </a>
+      </div>
+
+
+      <!-- Objetivo do Módulo -->
+      <div class="bg-tecnico/10 dark:bg-tecnico/20 border-l-4 border-tecnico p-6 rounded-lg mb-12 shadow-lg">
+        <h3 class="text-xl font-bold text-tecnico mb-2 flex items-center gap-2">
+          <span class="text-2xl">🎯</span>
+          <span>Objetivo deste Módulo</span>
+        </h3>
+        <p class="text-neutral-700 dark:text-neutral-300 text-lg">
+          Aplicar tudo que aprendeu para virar "o consultor de todo mundo" dentro da sua empresa
+        </p>
+      </div>
+
+
+
+      <!-- Seção: O Que Você Vai Aprender -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎯 O Que Você Vai Aprender</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">✅ Posicionar-se como consultor interno
+✅ Oferecer ajuda escalável (não virar gargalo)
+✅ Criar "office hours" técnicos
+✅ Documentar conhecimento institucional
+✅ Conseguir promoções/reconhecimento</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado:</span> <span class="text-neutral-700 dark:text-neutral-300">Ser a pessoa que todos procuram para resolver problemas técnicos</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🔥 De Executor para Consultor -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🔥 De Executor para Consultor</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">O Problema do Técnico Invisível</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Cenário comum:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Você: Resolve 10 problemas/semana sozinho
+Gestor: "O que você fez essa semana?"
+Você: "Uh... resolvi uns bugs..."
+Resultado: Sem reconhecimento, sem promoção
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Cenário consultor:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+Você: Resolve 3 problemas + ensina 10 pessoas a resolverem
+Gestor: "Equipe toda melhorou, o que mudou?"
+Todos: "Fulano criou um sistema/bot/doc que ajudou muito"
+Resultado: Promoção, raise, reconhecimento
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Mindset Shift</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">De:</span> <span class="text-neutral-700 dark:text-neutral-300">"Vou resolver esse problema"
+<strong class="font-bold">Para:</strong> "Vou resolver esse problema E criar sistema para que outros resolvam sozinhos"</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Office Hours Técnicos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎓 Office Hours Técnicos</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Conceito</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">1 hora/semana que você está disponível para ajudar qualquer um com problemas técnicos.</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Benefícios:</span> <span class="text-neutral-700 dark:text-neutral-300">- ✅ Previsível (não interrompe trabalho aleatoriamente)
+- ✅ Escalável (várias pessoas ao mesmo tempo)
+- ✅ Visível (todos sabem que você ajuda)</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Setup</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Formato 1: Slack/Teams (Async)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Canal: #office-hours-backend
+Horário: Terças 15-16h</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Regras:
+1. Poste pergunta com contexto
+2. [Seu nome] responde durante o horário
+3. Outros podem ajudar também
+4. FAQ vai sendo construído</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Template de pergunta:
+🔴 Problema: [descrição]
+🎯 Objetivo: [o que quer alcançar]
+✅ Já tentei: [o que fez]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Formato 2: Google Meet (Sync)</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Sextas 14-15h
+Meet link fixo</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Agenda compartilhada:
+- Pessoas adicionam tópicos
+- 10 min por tópico
+- Gravado e compartilhado depois</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Vira: Série de vídeos de troubleshooting
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Escalar Office Hours</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Problema:</span> <span class="text-neutral-700 dark:text-neutral-300">Muito popular → Não escala</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Solução: Train the Trainers</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Mês 1-2: Você lidera sozinho
+Mês 3: Convida 2 devs senior para co-hospedar
+Mês 4: Eles revezam com você
+Mês 6: Você apenas supervisiona, eles lideram</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Resultado: Cultura de ajuda mútua, não depende de você
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 📚 Sistema de Documentação Institucional -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📚 Sistema de Documentação Institucional</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Problema</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Conhecimento crítico na cabeça de 2-3 pessoas:
+- Como fazer deploy de emergência
+- Onde estão os segredos/keys
+- Como debugar problema X
+- Processos que "todo mundo sabe"</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Risco:</span> <span class="text-neutral-700 dark:text-neutral-300">Essas pessoas saem → Empresa para</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Solução: Runbook Vivo</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Estrutura no Notion/Confluence:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Runbooks/
+├── Operações Críticas
+│   ├── Deploy de Emergência
+│   ├── Rollback em Produção
+│   └── Restore de Backup
+│
+├── Troubleshooting
+│   ├── API retornando 502
+│   ├── Database slow queries
+│   └── CI/CD failing
+│
+└── Processos
+    ├── Onboarding novo dev
+    ├── Code review checklist
+    └── Release process</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Template de Runbook:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code># [Nome do Processo]</code></pre>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🚨 Quando usar -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🚨 Quando usar</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[Cenário específico]</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Pré-requisitos -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">✅ Pré-requisitos</h2>
+
+        <div class="mb-6">
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Acesso X</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[ ] Tool Y instalado</span></li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 📋 Passo a Passo -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📋 Passo a Passo</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">1. [Passo]</h3>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>comando aqui
+```
+**Output esperado:** [...]
+**Se der erro:** [troubleshooting]</code></pre>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">2. [Próximo passo]</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[continua...]</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: ⚠️ Cuidados -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">⚠️ Cuidados</h2>
+
+        <div class="mb-6">
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Nunca fazer X</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Sempre checar Y</span></li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 📞 Escalação -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📞 Escalação</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Se não funcionar, chamar: [pessoa/time]</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Métricas de Sucesso -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📊 Métricas de Sucesso</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Como saber que funcionou: [...]</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---
+Última atualização: 2025-01-19
+Responsável: [Seu nome]
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Auto-Updating Docs</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Bot que detecta docs desatualizados:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code># Roda semanalmente
+for doc in runbooks:
+    if doc.last_updated &gt; 90_days:
+        notify_slack(
+            f"⚠️ Runbook desatualizado: {doc.title}
+            Responsável: {doc.owner}
+            
+            Por favor revisar!"
+        )</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: 🤝 Programas de Mentoria Interno -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🤝 Programas de Mentoria Interno</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Formal Mentorship (1-on-1)</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Setup:</span> <span class="text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code>
+- 2 juniors/mid que você mentora
+- 30 min/semana cada
+- Objetivos trimestrais claros
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Estrutura da sessão:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>1. Check-in (5 min)
+   - Como foi a semana?
+   - Bloqueios?</code></pre>
+          </div>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Tópico técnico (15 min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Ensinar algo novo</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Code review de projeto pessoal</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Pair programming</li>
+          </ol>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Próximos passos (10 min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- O que vai fazer até próxima</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Recursos para estudar</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></li>
+          </ol>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Benefícios:</span> <span class="text-neutral-700 dark:text-neutral-300">- Eles aprendem rápido
+- Você solidifica conhecimento
+- Reconhecimento de liderança</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Informal "Ask Me Anything"</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Slack bot:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>/ask-senior [pergunta técnica]</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Bot:
+- Categoriza pergunta
+- Se AUTO → Responde da knowledge base
+- Se MANUAL → Marca você + sugere horário office hours
+- Se URGENTE → Notifica imediato</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Você responde quando pode, tudo documentado
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Métricas de Impacto (Para Promoção) -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">📊 Métricas de Impacto (Para Promoção)</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Rastreie Seu Impacto</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Notion/Google Sheets:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>| Semana | Pessoas Ajudadas | Horas Economizadas | Projetos Desbloqueados |
+|--------|------------------|--------------------|-----------------------|
+| 1      | 5                | 10h                | 2                     |
+| 2      | 8                | 15h                | 3                     |
+| ...    | ...              | ...                | ...                   |
+| Total  | 120              | 300h               | 45                    |</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Apresentar ao gestor trimestralmente:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Q1 2025 Impact Report</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">🎯 Consultoria Técnica:
+- 120 pessoas ajudadas diretamente
+- 300h economizadas do time (estimativa)
+- 45 projetos desbloqueados</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">🤖 Automações Criadas:
+- Deploy bot (84h/mês economizadas)
+- FAQ chatbot (40h/mês economizadas)
+- Onboarding automation (15h/novo dev)</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">📚 Documentação:
+- 15 runbooks criados
+- 25 posts técnicos publicados
+- 3 office hours sessions/mês</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">💡 Resultado:
+Time 30% mais produtivo em tarefas técnicas
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">KPIs de Consultor Interno</h3>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Leading indicators (curto prazo):</span> <span class="text-neutral-700 dark:text-neutral-300">- Mensagens/semana pedindo ajuda
+- Participantes em office hours
+- Views em documentação</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Lagging indicators (longo prazo):</span> <span class="text-neutral-700 dark:text-neutral-300">- Promoções no time
+- Redução de tickets de suporte técnico
+- Satisfação do time (survey)</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Conseguir Promoção/Reconhecimento -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">💼 Conseguir Promoção/Reconhecimento</h2>
+
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Documentar Tudo</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Brag document (arquivo privado):</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code># Conquistas 2025</code></pre>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Janeiro -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Janeiro</h2>
+
+        <div class="mb-6">
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Criei bot que economiza 84h/mês</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Ajudei 25 pessoas em office hours</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Publiquei 4 posts técnicos (1K views total)</span></li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Fevereiro -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Fevereiro</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">[continua...]</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Skills Desenvolvidas -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">Skills Desenvolvidas</h2>
+
+        <div class="mb-6">
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Liderança técnica</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Comunicação</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">Automação</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300">[...]</span></li>
+            <li class="flex items-start gap-3"><span class="w-2 h-2 rounded-full bg-tecnico flex-shrink-0 mt-2"></span><span class="flex-1 text-neutral-700 dark:text-neutral-300"><code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></span></li>
+          </ul>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Usar em:</span> <span class="text-neutral-700 dark:text-neutral-300">- 1-on-1 com gestor
+- Self-review de performance
+- Candidatura para promoção</span></p>
+          </div>
+
+        </div>
+
+        <div class="mb-8">
+          <h3 class="text-2xl font-semibold mb-4 text-tecnico">Proposta de Promoção</h3>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Template:</strong></p>
+
+
+          <div class="bg-neutral-900 dark:bg-black p-6 rounded-lg overflow-x-auto mb-6 shadow-xl border border-tecnico/30">
+            <div class="flex items-center gap-2 mb-3">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <pre class="text-sm text-green-400 font-mono"><code>Assunto: Proposta: Senior → Tech Lead</code></pre>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Contexto:
+Nos últimos 6 meses, expandi meu papel além de executar tasks
+para liderar tecnicamente e multiplicar impacto do time.</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Evidências:</p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Liderança Técnica</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Criei 3 sistemas que economizam 200h/mês do time</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Conduzo office hours semanais (avg 8 participantes)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Mentoria de 2 devs juniors</li>
+          </ol>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Impacto no Negócio</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Reduzi deployment time 80% (45min → 9min)</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Onboarding de novos devs: 3 dias → 1 dia</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- 70% menos tickets técnicos repetidos</li>
+          </ol>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">Influência e Comunicação</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- 30 posts técnicos publicados</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- GitHub com 150 stars</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2">- Reconhecido como referência em DevOps internamente</li>
+          </ol>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Proposta:
+Tech Lead focado em:
+- Arquitetura e technical direction
+- Mentoria e crescimento do time
+- Developer productivity e tooling</p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">Expectativa: +20% salário (benchmarks: [links])
+<code class="px-2 py-1 bg-neutral-200 dark:bg-neutral-700 rounded text-sm font-mono">`</code></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+        </div>
+      </div>
+
+
+      <!-- Seção: Resumo do Módulo -->
+      <div class="mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-tecnico/20 bg-gradient-to-r from-tecnico/10 to-transparent -mx-4 px-4 py-4 rounded-lg">🎯 Resumo do Módulo</h2>
+
+        <div class="mb-6">
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Consultoria Interna = Multiplicador de Impacto</strong></p>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed"><strong class="font-bold">Sistema completo:</strong></p>
+
+          <ol class="space-y-3 mb-6 list-decimal list-inside marker:text-tecnico marker:font-bold">
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Office Hours:</strong> 1h/semana ajudando múltiplos</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Runbooks:</strong> Documentar conhecimento crítico</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Mentoria:</strong> 2-3 pessoas crescendo com você</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Automações:</strong> Sistemas que escalam ajuda</li>
+            <li class="text-lg text-neutral-700 dark:text-neutral-300 pl-2"><strong class="font-bold">Métricas:</strong> Provar impacto quantitativamente</li>
+          </ol>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Resultado em 6 meses:</span> <span class="text-neutral-700 dark:text-neutral-300">- Conhecido como referência técnica
+- Time 30-50% mais produtivo
+- Caminho claro para tech lead/staff
+- Raise de 20-40%</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Próximo Módulo 10 (Final):</span> <span class="text-neutral-700 dark:text-neutral-300">Integrar TUDO em um <strong class="font-bold">sistema completo</strong> que roda quase sozinho!</span></p>
+          </div>
+
+          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">---</p>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Tempo:</span> <span class="text-neutral-700 dark:text-neutral-300">2-3h setup inicial
+<strong class="font-bold">Manutenção:</strong> 2-3h/semana
+<strong class="font-bold">ROI:</strong> Promoção + Reconhecimento + Impacto real</span></p>
+          </div>
+
+
+          <div class="bg-tecnico/5 dark:bg-tecnico/10 p-4 rounded-lg mb-4 border-l-4 border-tecnico">
+            <p class="text-lg"><span class="font-bold text-tecnico text-xl">Próximo módulo:</span> <span class="text-neutral-700 dark:text-neutral-300">Módulo 10 - Sistema Completo Integrado</span></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer / Navegação -->
+  <section class="py-12 bg-gradient-to-br from-neutral-100 to-neutral-50 dark:from-neutral-900 dark:to-neutral-800 border-t border-neutral-200 dark:border-neutral-700">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center">
+        <a href="../../trilhas/tecnico.html" class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2">
+          <span>←</span>
+          <span>Voltar para Trilha</span>
+        </a>
+        <a href="modulo-10.html" class="px-6 py-3 bg-gradient-to-r from-tecnico to-orange-600 text-white rounded-lg font-bold hover:opacity-90 shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"><span>Próximo Módulo</span><span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    // Remove preload class
+    window.addEventListener('load', () => {
+      document.body.classList.remove('preload');
+    });
+
+    // Dark mode toggle
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+    // Check localStorage
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      themeToggleLightIcon.classList.remove('hidden');
+      document.documentElement.classList.add('dark');
+    } else {
+      themeToggleDarkIcon.classList.remove('hidden');
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+
+      if (localStorage.getItem('color-theme')) {
+        if (localStorage.getItem('color-theme') === 'light') {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        }
+      } else {
+        if (document.documentElement.classList.contains('dark')) {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('color-theme', 'light');
+        } else {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('color-theme', 'dark');
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
