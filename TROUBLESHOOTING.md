@@ -151,7 +151,7 @@ time curl -s https://cdn.tailwindcss.com > /dev/null
 ### Teste 4: Validar GitHub Pages
 1. Fazer push de alteração
 2. Aguardar 2-3 minutos
-3. Abrir: https://inematds.github.io/FETD/
+3. Abrir: https://linnoff88-dev.github.io/
 4. Verificar console (F12) - não deve ter erros
 5. Verificar layout - deve estar formatado
 

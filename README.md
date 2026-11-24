@@ -1,4 +1,4 @@
-﻿# ðŸŽ“ FETD - FormaÃ§Ã£o em Engenharia de IntenÃ§Ã£o
+# ðŸŽ“ FETD - FormaÃ§Ã£o em Engenharia de IntenÃ§Ã£o
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -8,7 +8,7 @@
 
 **Domine IA, Redes e AutomaÃ§Ã£o para Transformar Sua Carreira na Nova Economia**
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen)](https://inematds.github.io/FETD/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen)](https://linnoff88-dev.github.io/
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ---
@@ -40,7 +40,7 @@ Diferente de cursos genÃ©ricos, o FETD adapta conteÃºdo, linguagem e exemplo
 
 ## ðŸš€ Demo
 
-**Acesse agora:** [https://inematds.github.io/FETD/](https://inematds.github.io/FETD/)
+**Acesse agora:** [https://linnoff88-dev.github.io/
 
 1. FaÃ§a o **quiz interativo** de 5 perguntas
 2. Descubra sua **trilha ideal**
@@ -118,7 +118,7 @@ FETD/
 ### 1. Clone o repositÃ³rio
 
 ```bash
-git clone https://github.com/inematds/FETD.git
+git clone https://github.com/linnoff88-dev/FETD.git
 cd FETD
 ```
 
@@ -233,8 +233,8 @@ python3 converter_md_para_html_rico_v2.py talento 1
 ## ðŸ“ž Contato
 
 **Criador:** [Seu Nome]
-**GitHub:** [@inematds](https://github.com/inematds)
-**Projeto:** [FETD](https://github.com/inematds/FETD)
+**GitHub:** [@linnoff88-dev](https://github.com/linnoff88-dev)
+**Projeto:** [FETD](https://github.com/linnoff88-dev/FETD)
 
 ---
 
@@ -265,7 +265,7 @@ Se este projeto te ajudou:
 
 **Feito com â¤ï¸ para democratizar o acesso ao conhecimento sobre IA e AutomaÃ§Ã£o**
 
-ðŸš€ **Comece agora:** [https://inematds.github.io/FETD/](https://inematds.github.io/FETD/)
+ðŸš€ **Comece agora:** [https://linnoff88-dev.github.io/
 
 ---
 
