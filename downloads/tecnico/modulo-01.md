@@ -1,18 +1,18 @@
 # Módulo 1: Do Código Invisível ao Solucionador Visível
 
-**Duração:** 45-60 minutos
-**Objetivo:** Entender que seu valor não está no código que escreve, mas nos problemas que resolve para as pessoas
+**Duraçêo:** 45-60 minutos
+**Objetivo:** Entender que seu valor nêo está no código que escreve, mas nos problemas que resolve para as pessoas
 
 ---
 
-## Introdução: O Técnico Invisível
+## Introduçêo: O Técnico Invisível
 
-Se você é desenvolvedor, DevOps, engenheiro de dados ou qualquer profissional técnico, provavelmente já viveu esta situação:
+Se você é desenvolvedor, DevOps, engenheiro de dados ou qualquer profissional técnico, provavelmente já viveu esta situaçêo:
 
 **Você trabalha 10 horas por dia.**
 Resolve bugs críticos. Automatiza processos. Otimiza sistemas. Melhora performance. Escreve código limpo e elegante.
 
-**Mas quando chega a reunião de resultados:**
+**Mas quando chega a reuniêo de resultados:**
 - O time de vendas apresenta números
 - O marketing mostra campanhas
 - O produto fala de features
@@ -24,16 +24,16 @@ Seu trabalho é **invisível**.
 
 ## O Problema Fundamental
 
-### A Ilusão do "Código Fala Por Si"
+### A Ilusêo do "Código Fala Por Si"
 
 **❌ MITO:** "Se eu escrever código excelente, serei reconhecido e promovido."
 
-**✅ REALIDADE:** Código excelente é **obrigação**, não diferencial.
+**✅ REALIDADE:** Código excelente é **obrigaçêo**, nêo diferencial.
 
 **Dados do mercado (2024-2025):**
-- 73% dos desenvolvedores seniores dizem que **comunicação é mais importante que habilidade técnica** para promoção
-- Desenvolvedores que documentam e compartilham conhecimento ganham em média **40% mais** que os que não o fazem
-- 85% das promoções para tech lead/staff engineer vão para técnicos que **mostram impacto visível**, não apenas os tecnicamente melhores
+- 73% dos desenvolvedores seniores dizem que **comunicaçêo é mais importante que habilidade técnica** para promoçêo
+- Desenvolvedores que documentam e compartilham conhecimento ganham em média **40% mais** que os que nêo o fazem
+- 85% das promoções para tech lead/staff engineer vêo para técnicos que **mostram impacto visível**, nêo apenas os tecnicamente melhores
 
 **A verdade dura:**
 O dev que resolve o problema E mostra que resolveu → promovido
@@ -43,19 +43,19 @@ O dev que resolve o problema em silêncio → continua resolvendo problemas
 
 ### O Custo da Invisibilidade
 
-**Cenário 1: João, o Dev Invisível**
+**Cenário 1: Joêo, o Dev Invisível**
 
-João é excelente. Resolve bugs críticos em horas. Refatora código legado. Automatiza testes.
+Joêo é excelente. Resolve bugs críticos em horas. Refatora código legado. Automatiza testes.
 
 **Mas:**
-- Ninguém sabe o que ele fez (não documenta)
-- Resolve mesmas perguntas 100x (não cria FAQ/bot)
-- Conhecimento morre com ele (não compartilha)
-- Trabalha sozinho (não colabora visivelmente)
+- Ninguém sabe o que ele fez (nêo documenta)
+- Resolve mesmas perguntas 100x (nêo cria FAQ/bot)
+- Conhecimento morre com ele (nêo compartilha)
+- Trabalha sozinho (nêo colabora visivelmente)
 
 **Resultado após 3 anos:**
 - Mesmo salário
-- Mesma posição
+- Mesma posiçêo
 - Visto como "operacional"
 - Queimado e frustrado
 
@@ -63,10 +63,10 @@ João é excelente. Resolve bugs críticos em horas. Refatora código legado. Au
 
 **Cenário 2: Ana, a Dev Solucionadora**
 
-Ana tem habilidade técnica similar a João.
+Ana tem habilidade técnica similar a Joêo.
 
 **Mas ela:**
-- Documenta cada solução no blog interno
+- Documenta cada soluçêo no blog interno
 - Cria chatbot que responde dúvidas comuns
 - Automatiza processos E ensina o time a usar
 - Posta no LinkedIn problemas que resolveu
@@ -79,7 +79,7 @@ Ana tem habilidade técnica similar a João.
 - Convidada para palestrar
 - Consultoria freelance $150/hora
 
-**Diferença:** Ana não é melhor tecnicamente. Ela **mostra o valor que entrega**.
+**Diferença:** Ana nêo é melhor tecnicamente. Ela **mostra o valor que entrega**.
 
 ---
 
@@ -105,8 +105,8 @@ Salário
 **Por quê?**
 
 **Técnico Executor:**
-- Valor limitado = suas próprias mãos
-- Não escala
+- Valor limitado = suas próprias mêos
+- Nêo escala
 - Dependência do time nele
 - Gargalo humano
 
@@ -126,7 +126,7 @@ Salário
 "Vou fazer esse script rápido só pra mim"
 
 **Mindset correto:**
-"Vou criar uma automação que resolve isso pra todo mundo"
+"Vou criar uma automaçêo que resolve isso pra todo mundo"
 
 **Exemplos:**
 
@@ -142,10 +142,10 @@ scp -r dist/ server:/var/www/
 Problema:
 - Só você sabe usar
 - Alguém pergunta "como fazer deploy?" → você explica
-- Repete explicação 50x
+- Repete explicaçêo 50x
 - Vira gargalo
 
-**✅ Automação compartilhável:**
+**✅ Automaçêo compartilhável:**
 ```bash
 # deploy.sh com interface clara
 echo "🚀 Iniciando deploy..."
@@ -167,7 +167,7 @@ echo "✅ Deploy completo! Acesse: https://app-$ENV.com"
 ```
 
 **MELHOR AINDA:** Workflow visual (GitHub Actions)
-- Qualquer um clica botão
+- Qualquer um clica botêo
 - Você documentou no README
 - Nunca mais precisa explicar
 
@@ -178,13 +178,13 @@ echo "✅ Deploy completo! Acesse: https://app-$ENV.com"
 
 ---
 
-### Pilar 2: 📢 Comunicar - Mostrar Solução de Forma Clara
+### Pilar 2: 📢 Comunicar - Mostrar Soluçêo de Forma Clara
 
-**Não basta resolver. Precisa mostrar que resolveu.**
+**Nêo basta resolver. Precisa mostrar que resolveu.**
 
 **Formas de comunicar (escolha 1+):**
 
-**1. Documentação Visual**
+**1. Documentaçêo Visual**
 - README com GIFs/screenshots
 - "Como usar em 3 passos"
 - Troubleshooting visual
@@ -195,7 +195,7 @@ echo "✅ Deploy completo! Acesse: https://app-$ENV.com"
 [Descrever a dor]
 
 ✅ Como resolvi em 2 horas:
-[Sua solução]
+[Sua soluçêo]
 
 💻 Código completo aqui:
 [Link GitHub]
@@ -232,7 +232,7 @@ vs
 **Exemplo Real: Carlos, DevOps em Startup**
 
 **Antes:**
-- Time pergunta: "Como ver logs de produção?"
+- Time pergunta: "Como ver logs de produçêo?"
 - Carlos acessa servidor e manda logs
 - Repete 10x/dia
 - 2h/dia fazendo isso
@@ -244,7 +244,7 @@ vs
 Serviço: [dropdown]
 Data: [datepicker]
 Keyword: [text input]
-[Botão: Buscar Logs]
+[Botêo: Buscar Logs]
 
 [Resultados em tempo real]
 ```
@@ -280,7 +280,7 @@ Qualquer dúvida, me chamem!"
 | Executor | Solucionador |
 |----------|--------------|
 | "Fiz deploy" | "Automatizei deploy, economizando 5h/semana do time" |
-| "Resolvi o bug" | "Resolvi bug + documentei solução + criei teste para nunca mais acontecer" |
+| "Resolvi o bug" | "Resolvi bug + documentei soluçêo + criei teste para nunca mais acontecer" |
 | "Configurei o servidor" | "Configurei servidor + criei Ansible playbook + ensinei 3 pessoas" |
 | "Otimizei query" | "Otimizei query + escrevi post sobre o problema + compartilhei no blog" |
 | Trabalha sozinho | Multiplica impacto |
@@ -291,7 +291,7 @@ Qualquer dúvida, me chamem!"
 
 ## Cases Reais: Técnicos que Viraram Solucionadores
 
-### Case 1: João, DevOps que Virou Consultor
+### Case 1: Joêo, DevOps que Virou Consultor
 
 **Background:**
 - 5 anos como DevOps
@@ -311,7 +311,7 @@ Qualquer dúvida, me chamem!"
 - **3 propostas de consultoria** ($150-200/hora)
 - Virou referência em DevOps com Kubernetes
 
-**Fator chave:** Não guardou conhecimento. Compartilhou tudo.
+**Fator chave:** Nêo guardou conhecimento. Compartilhou tudo.
 
 ---
 
@@ -331,10 +331,10 @@ Qualquer dúvida, me chamem!"
 **Resultado em 3 meses:**
 - **80% das perguntas** respondidas pelo bot
 - Economizou **15h/semana** dela + 10h do time
-- Gestor viu impacto → **promoção para sênior**
+- Gestor viu impacto → **promoçêo para sênior**
 - Salário +35%
 
-**Fator chave:** Resolveu problema escalável, não só técnico.
+**Fator chave:** Resolveu problema escalável, nêo só técnico.
 
 ---
 
@@ -343,7 +343,7 @@ Qualquer dúvida, me chamem!"
 **Background:**
 - SRE competente
 - Apagava incêndios sozinho
-- Não era visto como líder
+- Nêo era visto como líder
 
 **O que fez:**
 1. **Criou runbooks detalhados** para cada incidente
@@ -364,9 +364,9 @@ Qualquer dúvida, me chamem!"
 
 ## Os 3 Mitos que Te Impedem de Começar
 
-### ❌ Mito 1: "Não tenho tempo para isso"
+### ❌ Mito 1: "Nêo tenho tempo para isso"
 
-**Realidade:** Você não tem tempo para NÃO fazer isso.
+**Realidade:** Você nêo tem tempo para NêO fazer isso.
 
 **Cálculo simples:**
 
@@ -386,12 +386,12 @@ E isso é **apenas 1 problema**. Imagine 10 problemas automatizados.
 
 ---
 
-### ❌ Mito 2: "Meu código já é minha documentação"
+### ❌ Mito 2: "Meu código já é minha documentaçêo"
 
-**Realidade:** Código documenta "como", não "por quê".
+**Realidade:** Código documenta "como", nêo "por quê".
 
-**O que o código NÃO diz:**
-- Por que essa decisão foi tomada?
+**O que o código NêO diz:**
+- Por que essa decisêo foi tomada?
 - Que alternativas foram consideradas?
 - Que problemas isso resolve?
 - Como usar em cenários reais?
@@ -407,23 +407,23 @@ def calculate_discount(price, user_type):
     return price * 0.95
 ```
 
-**Isso NÃO responde:**
+**Isso NêO responde:**
 - Por que premium é 20% e regular 5%?
 - Quando mudou de 10% para 5%?
 - Que impacto de negócio isso tem?
 
-**Documentação:**
+**Documentaçêo:**
 ```markdown
 ## Cálculo de Desconto
 
-**Contexto:** Mudança em Jan/2024 após análise de retenção.
+**Contexto:** Mudança em Jan/2024 após análise de retençêo.
 
 **Regras:**
 - Premium: 20% (down de 25% para melhorar margem)
-- Regular: 5% (up de 0% para aumentar conversão)
+- Regular: 5% (up de 0% para aumentar conversêo)
 
-**Decisão baseada em:**
-- A/B test mostrou 18% mais conversão com 5% regular
+**Decisêo baseada em:**
+- A/B test mostrou 18% mais conversêo com 5% regular
 - Margem de premium ainda lucrativa com 20%
 
 **Código:** `src/pricing/discount.py:calculate_discount()`
@@ -433,7 +433,7 @@ def calculate_discount(price, user_type):
 
 ---
 
-### ❌ Mito 3: "Isso é trabalho extra, não faz parte do meu job"
+### ❌ Mito 3: "Isso é trabalho extra, nêo faz parte do meu job"
 
 **Realidade:** Técnicos seniores/líderes fazem isso **naturalmente**.
 
@@ -443,11 +443,11 @@ def calculate_discount(price, user_type):
 - "Improve team productivity" ✅
 - "Share knowledge across organization" ✅
 
-**Tradução:** Tudo que estamos falando.
+**Traduçêo:** Tudo que estamos falando.
 
 **Você pode:**
 - Esperar virar sênior para começar (leva anos)
-- Começar agora e **acelerar a promoção**
+- Começar agora e **acelerar a promoçêo**
 
 **Dados:**
 Devs que já fazem isso antes de serem promovidos:
@@ -459,12 +459,12 @@ Devs que já fazem isso antes de serem promovidos:
 
 ## Por Que Agora é o Momento Perfeito
 
-### IA Democratizou a Criação de Conteúdo
+### IA Democratizou a Criaçêo de Conteúdo
 
 **Antes (2022):**
 - Escrever post técnico: 3-4 horas
-- Criar vídeo: dia inteiro (edição, etc)
-- Fazer documentação: ninguém fazia
+- Criar vídeo: dia inteiro (ediçêo, etc)
+- Fazer documentaçêo: ninguém fazia
 
 **Agora (2025):**
 - ChatGPT escreve rascunho: **10 minutos**
@@ -484,7 +484,7 @@ Criar chatbot = semanas de código
 Botpress/Voiceflow = **30 minutos**, sem código
 
 **Antes:**
-Automação = programar tudo
+Automaçêo = programar tudo
 
 **Agora:**
 Zapier/n8n = **visual**, conecta qualquer coisa
@@ -495,23 +495,23 @@ Zapier/n8n = **visual**, conecta qualquer coisa
 
 ## O Efeito Bola de Neve
 
-### Como 1 Ação Leva a Oportunidades Exponenciais
+### Como 1 Açêo Leva a Oportunidades Exponenciais
 
 **Você cria:**
-1 automação útil
+1 automaçêo útil
 
 **Publica:**
 GitHub (código) + LinkedIn (post explicando)
 
 **Resultado:**
 - 500 pessoas veem
-- 50 dão like/comentam
+- 50 dêo like/comentam
 - 5 compartilham
 - 2 mandam DM agradecendo
 - 1 oferece consultoria
 
 **Você documenta:**
-Solução de problema comum
+Soluçêo de problema comum
 
 **Publica:**
 Blog + Dev.to
@@ -537,7 +537,7 @@ Blog + Dev.to
 **1. Problemas que você já resolveu 10+ vezes:**
 - Qual erro/dúvida você responde repetidamente?
 - Que processo manual você faz toda semana?
-- Que configuração você sempre precisa explicar?
+- Que configuraçêo você sempre precisa explicar?
 
 **Exemplo:**
 - "Como configurar ambiente local"
@@ -546,18 +546,18 @@ Blog + Dev.to
 
 **2. Conhecimento que só você tem:**
 - Que parte do sistema só você entende?
-- Que decisão técnica só você sabe o porquê?
+- Que decisêo técnica só você sabe o porquê?
 - Que ferramenta só você domina?
 
 **Exemplo:**
-- "Por que usamos PostgreSQL e não MongoDB"
+- "Por que usamos PostgreSQL e nêo MongoDB"
 - "Como funciona nosso sistema de cache"
 - "Quando usar fila vs API direta"
 
 **3. Ferramentas que poderiam ajudar o time:**
 - Que portal/dashboard facilitaria a vida?
-- Que bot/automação economizaria tempo?
-- Que documentação falta?
+- Que bot/automaçêo economizaria tempo?
+- Que documentaçêo falta?
 
 **Exemplo:**
 - "Portal para ver logs sem acessar servidor"
@@ -568,7 +568,7 @@ Blog + Dev.to
 
 ### Seu Primeiro Passo (Escolha 1)
 
-**Opção A: Automação Simples**
+**Opçêo A: Automaçêo Simples**
 - Escolha 1 processo manual chato
 - Crie script/workflow que automatiza
 - Documente em README claro
@@ -579,9 +579,9 @@ Blog + Dev.to
 
 ---
 
-**Opção B: Documentação de Problema**
+**Opçêo B: Documentaçêo de Problema**
 - Escolha 1 problema que você resolve sempre
-- Escreva doc: Problema → Solução → Código
+- Escreva doc: Problema → Soluçêo → Código
 - Publique (Confluence, Notion, GitHub)
 - Próxima vez que perguntarem: manda o link
 
@@ -590,7 +590,7 @@ Blog + Dev.to
 
 ---
 
-**Opção C: Post Técnico**
+**Opçêo C: Post Técnico**
 - Escolha 1 aprendizado recente
 - Escreva post: O que era difícil → Como resolveu
 - Publique (LinkedIn, Dev.to, blog)
@@ -601,17 +601,17 @@ Blog + Dev.to
 
 ---
 
-## A Transformação em 90 Dias
+## A Transformaçêo em 90 Dias
 
 ### O que esperar se seguir o sistema:
 
-**Semana 1-2: Fundação**
-- 1 automação criada
+**Semana 1-2: Fundaçêo**
+- 1 automaçêo criada
 - 2 documentações escritas
 - 3 posts publicados
 - Feedback inicial do time
 
-**Semana 3-4: Tração**
+**Semana 3-4: Traçêo**
 - Time começando a usar suas soluções
 - Menos interrupções
 - Primeiros "isso me ajudou!" externos
@@ -634,9 +634,9 @@ Blog + Dev.to
 
 ### O Que Você VAI Fazer Nos Próximos 7 Dias?
 
-**Tarefa 1 (2h):** Escolher 1 problema e criar solução
-- [ ] Automação OU
-- [ ] Documentação OU
+**Tarefa 1 (2h):** Escolher 1 problema e criar soluçêo
+- [ ] Automaçêo OU
+- [ ] Documentaçêo OU
 - [ ] Ferramenta
 
 **Tarefa 2 (1h):** Compartilhar publicamente
@@ -651,7 +651,7 @@ Blog + Dev.to
 
 ---
 
-## Reflexão Final
+## Reflexêo Final
 
 **Duas carreiras possíveis:**
 
@@ -671,7 +671,7 @@ Blog + Dev.to
 
 **Você escolhe.**
 
-**Próximo módulo:** Vamos criar sua primeira automação que resolve problema de verdade.
+**Próximo módulo:** Vamos criar sua primeira automaçêo que resolve problema de verdade.
 
 ---
 
@@ -694,9 +694,9 @@ Blog + Dev.to
 ---
 
 **Lembre-se:**
-Você não precisa ser o melhor técnico do mundo.
+Você nêo precisa ser o melhor técnico do mundo.
 Você precisa ser o técnico que resolve problemas das pessoas de forma visível.
 
 **Isso já te coloca no top 10%.**
 
-🚀 **Vamos para o Módulo 2: Criar sua primeira automação!**
+🚀 **Vamos para o Módulo 2: Criar sua primeira automaçêo!**

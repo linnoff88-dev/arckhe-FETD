@@ -14,7 +14,7 @@ TRILHAS = {
         'cor': 'comunicador',
         'cor_hex': '#10B981',
         'chamada': 'Atenda Mais, Venda Mais, Sem Perder a Qualidade',
-        'descricao': 'Triplique seu atendimento e aumente conversão em 50% usando IA e automação para comunicação com clientes',
+        'descricao': 'Triplique seu atendimento e aumente conversêo em 50% usando IA e automaçêo para comunicaçêo com clientes',
         'promessa_horas': '3x mais clientes',
         'promessa_percentual': '50% mais vendas',
         'promessa_automacoes': 'Follow-up perfeito',
@@ -22,30 +22,30 @@ TRILHAS = {
         'modulos': [
             {
                 'num': 1,
-                'titulo': 'A Revolução do Atendimento',
+                'titulo': 'A Revoluçêo do Atendimento',
                 'duracao': '30min',
-                'objetivo': 'Entender como IA e automação estão transformando vendas e atendimento',
+                'objetivo': 'Entender como IA e automaçêo estêo transformando vendas e atendimento',
                 'conteudo': 'Por que agora é diferente, casos reais de vendedores triplicando resultados, os 3 mitos do atendimento'
             },
             {
                 'num': 2,
                 'titulo': 'Golden Trinity - Atrair, Converter, Reter',
                 'duracao': '45min',
-                'objetivo': 'Dominar o framework de comunicação estratégica',
-                'conteudo': 'Framework ACR (Attract/Convert/Retain), matriz de priorização de clientes, automação inteligente de follow-up'
+                'objetivo': 'Dominar o framework de comunicaçêo estratégica',
+                'conteudo': 'Framework ACR (Attract/Convert/Retain), matriz de priorizaçêo de clientes, automaçêo inteligente de follow-up'
             },
             {
                 'num': 3,
                 'titulo': 'IA Como Assistente de Vendas',
                 'duracao': '1h',
                 'objetivo': 'Usar IA para qualificar leads e preparar abordagens',
-                'conteudo': 'ChatGPT para pesquisa de clientes, prompts para scripts de vendas, personalização em escala'
+                'conteudo': 'ChatGPT para pesquisa de clientes, prompts para scripts de vendas, personalizaçêo em escala'
             },
             {
                 'num': 4,
                 'titulo': 'CRM Simples e Automático',
                 'duracao': '1h 30min',
-                'objetivo': 'Criar sistema de gestão de clientes sem complexidade',
+                'objetivo': 'Criar sistema de gestêo de clientes sem complexidade',
                 'conteudo': 'Google Sheets como CRM, automações para registro de interações, dashboard de vendas automático'
             },
             {
@@ -59,15 +59,15 @@ TRILHAS = {
                 'num': 6,
                 'titulo': 'Mensagens Personalizadas em Escala',
                 'duracao': '1h 30min',
-                'objetivo': 'Atender muitos clientes mantendo personalização',
+                'objetivo': 'Atender muitos clientes mantendo personalizaçêo',
                 'conteudo': 'Templates inteligentes com IA, variáveis dinâmicas, tom de voz consistente'
             },
             {
                 'num': 7,
                 'titulo': 'WhatsApp e Redes Sociais Automáticos',
                 'duracao': '1h',
-                'objetivo': 'Automatizar presença em canais de comunicação',
-                'conteudo': 'Respostas automáticas inteligentes, triagem de mensagens, integração multi-canal'
+                'objetivo': 'Automatizar presença em canais de comunicaçêo',
+                'conteudo': 'Respostas automáticas inteligentes, triagem de mensagens, integraçêo multi-canal'
             },
             {
                 'num': 8,
@@ -78,9 +78,9 @@ TRILHAS = {
             },
             {
                 'num': 9,
-                'titulo': 'Framework ACA - Comunicação Perfeita',
+                'titulo': 'Framework ACA - Comunicaçêo Perfeita',
                 'duracao': '1h',
-                'objetivo': 'Dominar comunicação que gera resultados',
+                'objetivo': 'Dominar comunicaçêo que gera resultados',
                 'conteudo': 'Acknowledge/Compliment/Ask, objeções antecipadas, fechamento consultivo'
             },
             {
@@ -109,7 +109,7 @@ TRILHAS = {
                 'titulo': 'O Mercado que Te Espera',
                 'duracao': '30min',
                 'objetivo': 'Entender oportunidades para quem está começando',
-                'conteudo': 'Mercado em transformação, habilidades mais procuradas 2025, mitos sobre "falta de experiência"'
+                'conteudo': 'Mercado em transformaçêo, habilidades mais procuradas 2025, mitos sobre "falta de experiência"'
             },
             {
                 'num': 2,
@@ -130,7 +130,7 @@ TRILHAS = {
                 'titulo': 'Seu Primeiro Projeto Real',
                 'duracao': '2h',
                 'objetivo': 'Criar projeto #1 para o portfólio',
-                'conteudo': 'HANDS-ON: Automação de tarefas pessoais, documentação profissional, publicar no GitHub'
+                'conteudo': 'HANDS-ON: Automaçêo de tarefas pessoais, documentaçêo profissional, publicar no GitHub'
             },
             {
                 'num': 5,
@@ -172,7 +172,7 @@ TRILHAS = {
                 'titulo': 'Hunting - Caçando Oportunidades',
                 'duracao': '2h',
                 'objetivo': 'Estratégia completa para conseguir primeira vaga',
-                'conteudo': 'PROJETO FINAL: Aplicar para 50+ vagas, outreach direto, preparação para entrevistas, follow-up estratégico'
+                'conteudo': 'PROJETO FINAL: Aplicar para 50+ vagas, outreach direto, preparaçêo para entrevistas, follow-up estratégico'
             }
         ]
     },
@@ -192,12 +192,12 @@ TRILHAS = {
                 'num': 1,
                 'titulo': 'O Problema da Invisibilidade Técnica',
                 'duracao': '30min',
-                'objetivo': 'Entender por que expertise não gera oportunidades sozinha',
-                'conteudo': 'Paradoxo do técnico invisível, casos de transformação, custo da falta de comunicação'
+                'objetivo': 'Entender por que expertise nêo gera oportunidades sozinha',
+                'conteudo': 'Paradoxo do técnico invisível, casos de transformaçêo, custo da falta de comunicaçêo'
             },
             {
                 'num': 2,
-                'titulo': 'Golden Triangle - Expertise + Comunicação + Distribuição',
+                'titulo': 'Golden Triangle - Expertise + Comunicaçêo + Distribuiçêo',
                 'duracao': '45min',
                 'objetivo': 'Framework para construir autoridade técnica',
                 'conteudo': 'Triângulo ECD, matriz impacto vs. esforço para conteúdo, estratégia de posicionamento'
@@ -213,22 +213,22 @@ TRILHAS = {
                 'num': 4,
                 'titulo': 'Presença Técnica Automatizada',
                 'duracao': '1h 30min',
-                'objetivo': 'Sistema de geração de conteúdo consistente',
-                'conteudo': 'LinkedIn + Medium + GitHub, calendário editorial automático, reutilização de conteúdo'
+                'objetivo': 'Sistema de geraçêo de conteúdo consistente',
+                'conteudo': 'LinkedIn + Medium + GitHub, calendário editorial automático, reutilizaçêo de conteúdo'
             },
             {
                 'num': 5,
                 'titulo': 'Newsletter e Lista de Email Técnica',
                 'duracao': '1h 15min',
-                'objetivo': 'Construir audiência própria de tomadores de decisão',
-                'conteudo': 'Setup de newsletter gratuita, automação de envios, crescimento orgânico'
+                'objetivo': 'Construir audiência própria de tomadores de decisêo',
+                'conteudo': 'Setup de newsletter gratuita, automaçêo de envios, crescimento orgânico'
             },
             {
                 'num': 6,
                 'titulo': 'Palestras e Workshops Escaláveis',
                 'duracao': '1h 30min',
                 'objetivo': 'Compartilhar conhecimento para milhares simultaneamente',
-                'conteudo': 'Estrutura de talks técnicos, slides automatizados com IA, gravação e distribuição'
+                'conteudo': 'Estrutura de talks técnicos, slides automatizados com IA, gravaçêo e distribuiçêo'
             },
             {
                 'num': 7,
@@ -248,7 +248,7 @@ TRILHAS = {
                 'num': 9,
                 'titulo': 'Framework TSV - Technical Storytelling Value',
                 'duracao': '1h',
-                'objetivo': 'Comunicar impacto técnico para não-técnicos',
+                'objetivo': 'Comunicar impacto técnico para nêo-técnicos',
                 'conteudo': 'Traduzir complexidade, métricas de negócio, narrativa técnica persuasiva'
             },
             {
@@ -383,7 +383,7 @@ def criar_landing_page(trilha_key, trilha_data):
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold mb-4">Os 10 Módulos da Trilha</h2>
-        <p class="text-xl text-neutral-600 dark:text-neutral-400">Progressão lógica do básico ao avançado</p>
+        <p class="text-xl text-neutral-600 dark:text-neutral-400">Progressêo lógica do básico ao avançado</p>
       </div>
 
       <div class="space-y-6 max-w-4xl mx-auto">
@@ -433,7 +433,7 @@ def criar_landing_page(trilha_key, trilha_data):
   <footer class="bg-neutral-900 dark:bg-black text-neutral-300 py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center text-sm">
-        <p>&copy; 2025 FETD - Formação em Engenharia de Intenção</p>
+        <p>&copy; 2025 FETD - Formaçêo em Engenharia de Intençêo</p>
       </div>
     </div>
   </footer>
@@ -576,7 +576,7 @@ def criar_modulo(trilha_key, trilha_data, modulo_data):
 
   <footer class="bg-neutral-900 dark:bg-black text-neutral-300 py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center text-sm"><p>&copy; 2025 FETD - Formação em Engenharia de Intenção</p></div>
+      <div class="text-center text-sm"><p>&copy; 2025 FETD - Formaçêo em Engenharia de Intençêo</p></div>
     </div>
   </footer>
 
@@ -594,7 +594,7 @@ def criar_markdown(trilha_data, modulo_data):
     md = f'''# Módulo {num}: {modulo_data['titulo']}
 
 **Trilha:** {trilha_data['nome']}
-**Duração:** {modulo_data['duracao']}
+**Duraçêo:** {modulo_data['duracao']}
 **Objetivo:** {modulo_data['objetivo']}
 
 ---
@@ -613,7 +613,7 @@ Ao final deste módulo você terá criado/aprendido sobre: {modulo_data['conteud
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**
 '''
     return md
 

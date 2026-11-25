@@ -1,7 +1,7 @@
 # Módulo 10: Sistema Completo - De Técnico Invisível a Consultor Reconhecido
 
-**Duração:** 120 minutos
-**Nível:** Integração
+**Duraçêo:** 120 minutos
+**Nível:** Integraçêo
 **Objetivo:** Integrar todos os 9 módulos em um sistema semanal de 3-4 horas que constrói autoridade técnica
 
 ---
@@ -9,8 +9,8 @@
 ## 🎯 O Que Você Vai Criar
 
 ✅ Sistema semanal integrado (3-4h/semana)
-✅ Workflow automatizado de criação de conteúdo
-✅ Pipeline de problema → solução → distribuição
+✅ Workflow automatizado de criaçêo de conteúdo
+✅ Pipeline de problema → soluçêo → distribuiçêo
 ✅ Dashboard de impacto e métricas
 ✅ Plano de 90 dias para virar referência
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 🔥 Revisão: A Jornada Completa
+## 🔥 Revisêo: A Jornada Completa
 
 ### Módulo 1: Mindset
 **De:** Executor invisível
@@ -55,7 +55,7 @@
 
 ### Módulo 9: Consultoria Interna
 **Criou:** Office hours, runbooks, mentoria
-**Impacto:** Reconhecimento, promoção, raise
+**Impacto:** Reconhecimento, promoçêo, raise
 
 ---
 
@@ -85,7 +85,7 @@ Prompt ChatGPT:
 Gere:
 - 3 títulos de posts técnicos
 - 1 outline de tutorial
-- 2 ideias de automação
+- 2 ideias de automaçêo
 - 1 FAQ para adicionar no chatbot"
 ```
 
@@ -97,14 +97,14 @@ Gere:
 
 ### Terça (60 minutos)
 
-**Criação de Núcleo**
+**Criaçêo de Núcleo**
 
 ```
 ☑️ Escrever conteúdo principal (40 min)
 Escolher formato:
 - Post de blog (800-1200 palavras)
 - Runbook/tutorial
-- Atualização de projeto GitHub
+- Atualizaçêo de projeto GitHub
 - Video script (3-5 min)
 
 Com IA:
@@ -126,7 +126,7 @@ Com IA:
 
 ### Quarta (45 minutos)
 
-**Distribuição Multi-Canal**
+**Distribuiçêo Multi-Canal**
 
 ```
 ☑️ Adaptar para formatos secundários (30 min)
@@ -140,7 +140,7 @@ Do blog post, criar:
 Com IA:
 ChatGPT transforma 1 conteúdo → 4 formatos
 
-☑️ Agendar distribuição (15 min)
+☑️ Agendar distribuiçêo (15 min)
 - Buffer: LinkedIn + Twitter
 - Notion: Adicionar FAQ no knowledge base
 - Slack: Compartilhar no canal do time
@@ -184,7 +184,7 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 - Ou: Google Meet se tiver agendado
 - Documentar perguntas novas no FAQ
 
-☑️ Manutenção de sistemas (15 min)
+☑️ Manutençêo de sistemas (15 min)
 - Checar se bots funcionando
 - Atualizar FAQ se necessário
 - Review de métricas rápida
@@ -198,7 +198,7 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 
 ### Domingo (30 minutos)
 
-**Review & Otimização**
+**Review & Otimizaçêo**
 
 ```
 ☑️ Métricas da semana (15 min)
@@ -238,7 +238,7 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 [People Helped]
 | Data | Pessoa | Problema | Canal | Tempo | Auto? |
 |------|--------|----------|-------|-------|-------|
-| 01/19| João   | Deploy 502| Slack | 0min  | ✅   |
+| 01/19| Joêo   | Deploy 502| Slack | 0min  | ✅   |
 | 01/20| Maria  | K8s crash| Email | 15min | ❌   |
 | ...  | ...    | ...      | ...   | ...   | ...   |
 
@@ -250,7 +250,7 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 | ...  | ...  | ...    | ...    | ...    |
 ```
 
-### Visão Consolidada
+### Visêo Consolidada
 
 **Dashboard View:**
 
@@ -272,7 +272,7 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 - Blog subscribers: +15 (total: 120)
 
 🎯 Próximos 30 dias:
-- [ ] Criar 1 nova automação
+- [ ] Criar 1 nova automaçêo
 - [ ] 10 posts publicados
 - [ ] 100+ pessoas ajudadas
 - [ ] 1 talk/workshop interno
@@ -282,12 +282,12 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 
 ## 🚀 Plano de 90 Dias
 
-### Mês 1: Fundação
+### Mês 1: Fundaçêo
 
 **Semana 1-2: Setup**
 - [ ] Escolher stack principal (blog, GitHub, 1 rede social)
 - [ ] Criar 3 primeiros conteúdos (qualquer qualidade)
-- [ ] Setup básico de automação (1 bot simples)
+- [ ] Setup básico de automaçêo (1 bot simples)
 
 **Semana 3-4: Consistência**
 - [ ] Estabelecer rotina semanal
@@ -298,7 +298,7 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 **Meta mês 1:**
 - ✅ Sistema funcionando
 - ✅ 8-10 conteúdos publicados
-- ✅ 1 automação criada
+- ✅ 1 automaçêo criada
 - ✅ 30-50 pessoas alcançadas
 
 ---
@@ -310,7 +310,7 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 - [ ] Cross-posting funcionando
 - [ ] RAG chatbot implementado
 
-**Semana 7-8: Automação Avançada**
+**Semana 7-8: Automaçêo Avançada**
 - [ ] Sistema de respostas automáticas
 - [ ] Office hours iniciado
 - [ ] Primeiros vídeos/podcasts
@@ -331,21 +331,21 @@ ChatGPT transforma 1 conteúdo → 4 formatos
 - [ ] 5+ runbooks criados
 - [ ] Mentoria informal começando
 
-**Semana 11-12: Consolidação**
+**Semana 11-12: Consolidaçêo**
 - [ ] 1.000+ impressions/visualizações
 - [ ] 5-10 mensagens diretas/semana
-- [ ] Primeira menção pública como referência
+- [ ] Primeira mençêo pública como referência
 
 **Meta mês 3:**
 - ✅ 24-30 conteúdos total
 - ✅ 300-500 audiência acumulada
 - ✅ Reconhecido internamente
 - ✅ Sistemas rodando sozinhos (80% auto)
-- ✅ Base para promoção/raise
+- ✅ Base para promoçêo/raise
 
 ---
 
-## 🎯 Evolução de Carreira
+## 🎯 Evoluçêo de Carreira
 
 ### Marcos de Progresso
 
@@ -365,17 +365,17 @@ Indicadores:
 - Office hours com 8-12 participantes
 - 2-3 pessoas mentoradas
 - Time 30%+ produtivo em área técnica
-- Proposta de promoção preparada
+- Proposta de promoçêo preparada
 ```
 
 **Tech Lead / Staff (Mês 7-12)**
 ```
-Foco: Influência e direção técnica
+Foco: Influência e direçêo técnica
 Indicadores:
 - Lidera iniciativas de produtividade
 - 1.000+ audiência técnica
 - Convites para palestrar/escrever
-- Promoção efetivada
+- Promoçêo efetivada
 - 20-40% raise
 ```
 
@@ -383,9 +383,9 @@ Indicadores:
 
 ## 💡 Troubleshooting Comum
 
-### "Não tenho tempo"
+### "Nêo tenho tempo"
 
-**Solução:** Comece menor
+**Soluçêo:** Comece menor
 
 Semana 1-4: Apenas 1h/semana
 - Segunda 30min: Capturar 1 problema
@@ -393,7 +393,7 @@ Semana 1-4: Apenas 1h/semana
 
 Gradualmente aumentar.
 
-### "Não sei sobre o que escrever"
+### "Nêo sei sobre o que escrever"
 
 **Regra:** Se gastou 30min+ debugando, vira conteúdo.
 
@@ -419,7 +419,7 @@ Mês 4-6: Tráfego orgânico começa.
 
 **Lembrete:**
 
-Você não precisa ser expert mundial.
+Você nêo precisa ser expert mundial.
 
 Precisa saber 10% mais que quem está aprendendo.
 
@@ -431,16 +431,16 @@ Se ajudou 1 pessoa → conteúdo válido.
 
 ### Sistema Completo Funcionando
 
-**Criação de Conteúdo:**
+**Criaçêo de Conteúdo:**
 - [ ] Blog técnico ativo
 - [ ] GitHub com 3+ projetos documentados
 - [ ] 1-2 redes sociais ativas
 - [ ] Conteúdo multi-formato (texto, vídeo, áudio)
 
-**Automação:**
+**Automaçêo:**
 - [ ] FAQ bot/chatbot funcionando
 - [ ] Sistema de respostas automáticas
-- [ ] Distribuição cross-posting automatizada
+- [ ] Distribuiçêo cross-posting automatizada
 - [ ] Métricas sendo rastreadas
 
 **Consultoria:**
@@ -492,9 +492,9 @@ Se ajudou 1 pessoa → conteúdo válido.
 **Você aprendeu:**
 
 ✅ **Mindset:** De executor para solucionador
-✅ **Habilidades:** Automação, RAG, conteúdo, vídeo
+✅ **Habilidades:** Automaçêo, RAG, conteúdo, vídeo
 ✅ **Plataformas:** GitHub, Blog, LinkedIn, YouTube
-✅ **Sistemas:** Criação, distribuição, respostas automáticas
+✅ **Sistemas:** Criaçêo, distribuiçêo, respostas automáticas
 ✅ **Impacto:** Consultoria interna, reconhecimento, carreira
 
 **Sistema final:**
@@ -505,7 +505,7 @@ Se ajudou 1 pessoa → conteúdo válido.
 ├─ 100+ pessoas ajudadas/mês
 ├─ Automações economizando 200h+/mês (time)
 ├─ Crescimento de audiência 20-30%/mês
-└─ Caminho claro para promoção/raise
+└─ Caminho claro para promoçêo/raise
 
 ROI: 10-20x (tempo investido vs impacto gerado)
 ```
@@ -548,6 +548,6 @@ Daqui 90 dias, você será uma pessoa diferente profissionalmente.
 
 **Tempo para implementar tudo:** 90 dias
 **Esforço semanal:** 3-4h
-**ROI esperado:** Promoção + Reconhecimento + Impacto real em centenas de pessoas
+**ROI esperado:** Promoçêo + Reconhecimento + Impacto real em centenas de pessoas
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

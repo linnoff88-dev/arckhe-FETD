@@ -1,6 +1,6 @@
 # Perfis dos 4 Públicos-Alvo
 
-## 1. Profissionais Operacionais (não lidam com clientes)
+## 1. Profissionais Operacionais (nêo lidam com clientes)
 Profissionais de backoffice que executam tarefas administrativas e rotineiras sem contato direto com clientes.
 
 **Características**
@@ -15,16 +15,16 @@ Profissionais de backoffice que executam tarefas administrativas e rotineiras se
 - Pouco reconhecimento
 
 **Buscam**
-- Automação
+- Automaçêo
 - Produtividade
-- Organização
+- Organizaçêo
 
 ## 2. Profissionais que Lidam com Clientes (sem conhecimento técnico)
-Trabalham com atendimento, vendas ou suporte, mas não entendem de tecnologia.
+Trabalham com atendimento, vendas ou suporte, mas nêo entendem de tecnologia.
 
 **Características**
-- Alta demanda de comunicação
-- Pressão por rapidez
+- Alta demanda de comunicaçêo
+- Pressêo por rapidez
 - Dificuldade em organizar informações
 
 **Dores**
@@ -56,16 +56,16 @@ Iniciando carreira, sem vivência corporativa.
 - Virar empregáveis
 
 ## 4. Profissionais Técnicos com Dificuldade de Mercado
-São ótimos tecnicamente, mas têm dificuldade em comunicação e posicionamento.
+Sêo ótimos tecnicamente, mas têm dificuldade em comunicaçêo e posicionamento.
 
 **Características**
 - Altíssima capacidade técnica
-- Baixa habilidade de comunicação
+- Baixa habilidade de comunicaçêo
 - Pouca visibilidade
 
 **Dores**
-- Estagnação
-- Problemas de comunicação
+- Estagnaçêo
+- Problemas de comunicaçêo
 - Insegurança
 
 **Buscam**

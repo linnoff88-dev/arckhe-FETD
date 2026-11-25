@@ -7,10 +7,10 @@
 - **Palavras:** 6.340
 - **Tamanho:** 44KB
 - **Conteúdo:**
-  - Paradoxo da personalização em escala
+  - Paradoxo da personalizaçêo em escala
   - Templates inteligentes com IA (1200 palavras)
-  - Segmentação automática de audiência (800 palavras)
-  - Personalização multi-canal: E-mail, WhatsApp, LinkedIn (1000 palavras)
+  - Segmentaçêo automática de audiência (800 palavras)
+  - Personalizaçêo multi-canal: E-mail, WhatsApp, LinkedIn (1000 palavras)
   - Evitando o "Robô Óbvio" (600 palavras)
   - Cases reais + Exercícios práticos (800 palavras)
 
@@ -21,9 +21,9 @@
 - **Conteúdo:**
   - WhatsApp Business API completo (setup, custos, limitações)
   - Respostas automáticas inteligentes (chatbots eficazes)
-  - Triagem de mensagens (urgente vs não-urgente)
-  - Integração multi-canal (WhatsApp + CRM + Email)
-  - Automação LinkedIn/Instagram (com segurança)
+  - Triagem de mensagens (urgente vs nêo-urgente)
+  - Integraçêo multi-canal (WhatsApp + CRM + Email)
+  - Automaçêo LinkedIn/Instagram (com segurança)
   - Cases práticos + Setup passo a passo
 
 ### MÓDULO 8: Propostas e Contratos Instantâneos
@@ -33,12 +33,12 @@
 - **Conteúdo:**
   - Template de proposta perfeito (7 seções essenciais)
   - Auto-preenchimento com dados do CRM
-  - Geração de proposta com IA (ChatGPT API)
+  - Geraçêo de proposta com IA (ChatGPT API)
   - Assinaturas digitais (6 ferramentas comparadas)
   - Funil completo: proposta → assinatura → onboarding
   - Cases com ROI de 5.000%+
 
-### MÓDULO 9: Framework ACA - Comunicação Perfeita
+### MÓDULO 9: Framework ACA - Comunicaçêo Perfeita
 - **Arquivo:** modulo-9-framework-aca.md
 - **Palavras:** 5.577
 - **Tamanho:** 39KB
@@ -48,7 +48,7 @@
   - 5 camadas de Acknowledge (básico ao profundo)
   - 4 categorias de elogios eficazes
   - 4 tipos de perguntas estratégicas
-  - Aplicação em cada fase do funil Trinity
+  - Aplicaçêo em cada fase do funil Trinity
   - Respostas para objeções comuns
   - Exercícios práticos + role-play
 
@@ -57,18 +57,18 @@
 - **Palavras:** 6.605
 - **Tamanho:** 48KB
 - **Conteúdo:**
-  - Revisão dos 9 módulos anteriores
+  - Revisêo dos 9 módulos anteriores
   - PROJETO PRÁTICO: Máquina de vendas 24/7
   - Setup completo em 8 semanas:
     - Semana 1: CRM configurado
     - Semana 2: Captura multi-canal
-    - Semana 3: Automação de follow-up
+    - Semana 3: Automaçêo de follow-up
     - Semana 4: Propostas automáticas
-    - Semana 5-8: Dashboard e otimização
+    - Semana 5-8: Dashboard e otimizaçêo
   - Caso de sucesso completo (antes/depois)
-  - Plano de 90 dias pós-implementação
-  - Troubleshooting e evolução contínua
-  - Checklists completos de validação
+  - Plano de 90 dias pós-implementaçêo
+  - Troubleshooting e evoluçêo contínua
+  - Checklists completos de validaçêo
 
 ## 📊 ESTATÍSTICAS TOTAIS
 
@@ -80,12 +80,12 @@
 
 ✅ **Linguagem acessível e motivacional** - Tom "você consegue fazer isso"
 ✅ **Casos reais com resultados mensuráveis** - Múltiplos cases com ROI concreto
-✅ **Tutoriais passo a passo** - Implementação prática detalhada
+✅ **Tutoriais passo a passo** - Implementaçêo prática detalhada
 ✅ **Exercícios práticos** - Atividades hands-on em cada módulo
 ✅ **Templates/prompts prontos** - Exemplos copiáveis e adaptáveis
-✅ **Estrutura consistente** - Todos seguem padrão solicitado
+✅ **Estrutura consistente** - Todos seguem padrêo solicitado
 
-## 📁 LOCALIZAÇÃO DOS ARQUIVOS
+## 📁 LOCALIZAÇêO DOS ARQUIVOS
 
 **Diretório principal:**
 - `/home/nmaldaner/projetos/FETD/downloads/comunicador/`
@@ -103,6 +103,6 @@
 
 ---
 
-**Data de Criação:** 17 de Novembro de 2025
+**Data de Criaçêo:** 17 de Novembro de 2025
 **Status:** ✅ COMPLETO
 **Qualidade:** Alta - Todos os requisitos atendidos

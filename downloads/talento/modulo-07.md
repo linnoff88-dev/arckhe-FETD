@@ -1,44 +1,44 @@
-# Módulo 7: Slack e Comunicação Assíncrona
+# Módulo 7: Slack e Comunicaçêo Assíncrona
 
 **Trilha:** Talento Emergente
-**Duração:** 45 minutos
-**Objetivo:** Dominar ferramentas de comunicação profissional remota
+**Duraçêo:** 45 minutos
+**Objetivo:** Dominar ferramentas de comunicaçêo profissional remota
 
 ---
 
-## Introdução: A Nova Era do Trabalho Remoto
+## Introduçêo: A Nova Era do Trabalho Remoto
 
-Trabalho remoto exige comunicação eficaz. **Slack** é padrão em 80%+ das startups e scale-ups brasileiras.
+Trabalho remoto exige comunicaçêo eficaz. **Slack** é padrêo em 80%+ das startups e scale-ups brasileiras.
 
 **Dados 2024-2025:**
 - 70% empresas tech usam Slack
 - Profissionais gastam 2-4h/dia no Slack
-- Má comunicação assíncrona: -20% produtividade
-- Boa comunicação assíncrona: +35% produtividade
+- Má comunicaçêo assíncrona: -20% produtividade
+- Boa comunicaçêo assíncrona: +35% produtividade
 - Dominar Slack = diferencial em 90% das vagas remotas
 
 **O que você vai aprender:**
 - Slack profissional (etiqueta que impressiona)
-- Canais e organização
-- Comunicação assíncrona eficaz
+- Canais e organizaçêo
+- Comunicaçêo assíncrona eficaz
 - Bots e automações
 - Integrações (Slack + Make + Notion + IA)
 
-## 0. Contexto de Mercado: A Guerra das Ferramentas de Comunicação
+## 0. Contexto de Mercado: A Guerra das Ferramentas de Comunicaçêo
 
-### 0.1 Concorrentes e Comparação
+### 0.1 Concorrentes e Comparaçêo
 
-**O mercado de comunicação empresarial/team collaboration é brutal:**
+**O mercado de comunicaçêo empresarial/team collaboration é brutal:**
 
 | Ferramenta | Foco | Pontos Fortes | Limitações | Preço |
 |------------|------|---------------|------------|-------|
 | **Slack** | Team chat + integrations | Integrações (6k+ apps), busca poderosa, UX excelente | Caro pra grandes, threads confusos | Grátis - $12/mês |
 | **Microsoft Teams** | Chat + collaboration Microsoft | Incluso M365, videocall robusto, SharePoint integrado | UX ruim, lento, complexo | Incluso M365 |
-| **Discord** | Comunidades + gaming | Grátis robusto, voz/vídeo excelente, servidores massivos | Não é enterprise, menos profissional | Grátis - $10/mês |
-| **Telegram** | Messaging rápido | Super rápido, grátis ilimitado, canais gigantes, bots | Não é workspace, menos organização | Grátis |
-| **WhatsApp Business** | Clientes + pequenas equipes | Todo mundo usa, simples, grátis | Não escala, sem integrações enterprise | Grátis |
+| **Discord** | Comunidades + gaming | Grátis robusto, voz/vídeo excelente, servidores massivos | Nêo é enterprise, menos profissional | Grátis - $10/mês |
+| **Telegram** | Messaging rápido | Super rápido, grátis ilimitado, canais gigantes, bots | Nêo é workspace, menos organizaçêo | Grátis |
+| **WhatsApp Business** | Clientes + pequenas equipes | Todo mundo usa, simples, grátis | Nêo escala, sem integrações enterprise | Grátis |
 | **Mattermost** | Open source Slack | Self-hosted, grátis, privacidade total | Precisa manter, menos integrações | Grátis - $10/mês |
-| **Rocket.Chat** | Open source | Self-hosted, customizável, GDPR-compliant | Manutenção técnica, comunidade menor | Grátis - $7/mês |
+| **Rocket.Chat** | Open source | Self-hosted, customizável, GDPR-compliant | Manutençêo técnica, comunidade menor | Grátis - $7/mês |
 | **Google Chat** | Workspace integrado | Incluso Workspace, integra Gmail/Drive/Meet | Limitado vs Slack, menos integrações | Incluso Workspace |
 | **Zoom Team Chat** | Chat + video | Integra Zoom Meetings, simples | Menos features que Slack/Teams | Grátis - $15/mês |
 | **Chanty** | Small teams | Barato, simples, Kanban integrado | Pouco conhecido, menos integrações | $3-10/mês |
@@ -48,7 +48,7 @@ Trabalho remoto exige comunicação eficaz. **Slack** é padrão em 80%+ das sta
 ✅ **Integrações absurdas** (6.000+ apps: GitHub, Jira, Notion, Make, tudo)
 ✅ **Busca poderosa** (acha qualquer conversa/arquivo em segundos, até em PDFs)
 ✅ **UX/UI excelente** (mais intuitivo que Teams/outros)
-✅ **Workflows/Bots** (automação nativa poderosa)
+✅ **Workflows/Bots** (automaçêo nativa poderosa)
 ✅ **Cultura startup** (Slack = status quo em tech)
 ✅ **Mobile perfeito** (experiência igual desktop)
 ✅ **Threads** (organiza conversas sem poluir canal)
@@ -59,7 +59,7 @@ Trabalho remoto exige comunicação eficaz. **Slack** é padrão em 80%+ das sta
 ✅ **Incluso M365** (empresas já pagam, Slack = custo extra)
 ✅ **Governança/compliance** (enterprise features robustas)
 ✅ **Videocall integrado** (Slack precisa Zoom/Meet separado)
-✅ **SharePoint/OneDrive** (integração profunda ecosystem Microsoft)
+✅ **SharePoint/OneDrive** (integraçêo profunda ecosystem Microsoft)
 
 **Tendência mercado (2024-2025):**
 
@@ -67,7 +67,7 @@ Trabalho remoto exige comunicação eficaz. **Slack** é padrão em 80%+ das sta
 - **Teams:** Explodindo (200M+ usuários, bundling M365 vence)
 - **Discord:** Entrando workspace (Discord Communities pra empresas)
 - **Telegram:** Crescendo como alternativa grátis (especialmente fora EUA)
-- **WhatsApp Business:** Só muito pequeno (não escala)
+- **WhatsApp Business:** Só muito pequeno (nêo escala)
 
 **Escolha Slack se:**
 - Startup/tech/scale-up
@@ -82,32 +82,32 @@ Trabalho remoto exige comunicação eficaz. **Slack** é padrão em 80%+ das sta
 - Ecosystem Microsoft (SharePoint, OneDrive, etc)
 
 **Escolha Discord se:**
-- Comunidade/creators (não empresa tradicional)
+- Comunidade/creators (nêo empresa tradicional)
 - Precisa voz/vídeo grátis robusto
 - Orçamento zero (plano grátis generoso)
 
-### 0.2 Por Que Dominar Ferramentas de Comunicação
+### 0.2 Por Que Dominar Ferramentas de Comunicaçêo
 
 **A pergunta:** "Slack é só chat... por que preciso 'dominar'?"**
 
-**Resposta:** Diferença entre usar e DOMINAR = produtividade time + sua reputação profissional.
+**Resposta:** Diferença entre usar e DOMINAR = produtividade time + sua reputaçêo profissional.
 
 **Dados reais:**
 
 **Usuário BÁSICO Slack (90% das pessoas):**
 - Notificações sempre ligadas (interrompido 50+ vezes/dia)
 - Responde tudo imediatamente (zero deep work)
-- Perde contexto em threads (não sabe onde achar discussões)
-- DM pra tudo (não usa channels = conhecimento em silos)
-- **Resultado:** 3-4h/dia no Slack, sensação de "sempre trabalhando", pouco output real
+- Perde contexto em threads (nêo sabe onde achar discussões)
+- DM pra tudo (nêo usa channels = conhecimento em silos)
+- **Resultado:** 3-4h/dia no Slack, sensaçêo de "sempre trabalhando", pouco output real
 
 **Usuário AVANÇADO Slack (você após este módulo):**
 - Notificações estratégicas (só urgente, horários focados)
-- Comunicação assíncrona (responde em batches)
+- Comunicaçêo assíncrona (responde em batches)
 - Channels organizados (conhecimento acessível pra todos)
 - Threads sempre (conversas estruturadas)
 - Atalhos/automações (10x mais rápido)
-- **Resultado:** 1-1.5h/dia no Slack, comunicação eficaz, mais deep work
+- **Resultado:** 1-1.5h/dia no Slack, comunicaçêo eficaz, mais deep work
 
 **IMPACTO PRODUTIVIDADE:**
 
@@ -121,35 +121,35 @@ Trabalho remoto exige comunicação eficaz. **Slack** é padrão em 80%+ das sta
 - Avançado: 10 × 28h = **280h/semana time**
 - **Ganho:** +130h/semana = equivalente **3+ funcionários grátis**
 
-**IMPACTO REPUTAÇÃO:**
+**IMPACTO REPUTAÇêO:**
 
 ✨ **Profissional que domina Slack:**
 - Respostas claras, contextualizadas (cita mensagens, usa threads)
-- Compartilha conhecimento em channels públicos (não esconde em DMs)
-- Usa formatação (código, listas, negrito = legibilidade)
-- Comunica assíncrono (não espera resposta imediata, documenta decisões)
-- **Percepção:** "Pessoa organizada, eficiente, collaborativa"
+- Compartilha conhecimento em channels públicos (nêo esconde em DMs)
+- Usa formataçêo (código, listas, negrito = legibilidade)
+- Comunica assíncrono (nêo espera resposta imediata, documenta decisões)
+- **Percepçêo:** "Pessoa organizada, eficiente, collaborativa"
 
 ✨ **Profissional que usa Slack mal:**
 - Mensagens fragmentadas (10 mensagens de 1 linha vs 1 mensagem estruturada)
 - DM pra tudo (conhecimento morre em conversas privadas)
 - @channel desnecessário (interrompe todos por coisa trivial)
 - Sem contexto ("oi", "preciso falar", esperando resposta = tempo perdido)
-- **Percepção:** "Pessoa desorganizada, interrompe, dificulta colaboração"
+- **Percepçêo:** "Pessoa desorganizada, interrompe, dificulta colaboraçêo"
 
 **Resumo:**
 
-Não é sobre "saber usar Slack".
+Nêo é sobre "saber usar Slack".
 
 É sobre **comunicar profissionalmente em ambientes remotos/assíncronos**.
 
-Isso define sua reputação, produtividade time, e velocidade carreira.
+Isso define sua reputaçêo, produtividade time, e velocidade carreira.
 
-### 0.3 O Futuro: IA Vai Gerenciar Comunicação Pra Nós?
+### 0.3 O Futuro: IA Vai Gerenciar Comunicaçêo Pra Nós?
 
-**A pergunta:** "IA não vai ler Slack, sumarizar e responder pra mim?"
+**A pergunta:** "IA nêo vai ler Slack, sumarizar e responder pra mim?"
 
-**Resposta:** IA vai MUITO disso. Mas fundamentos de comunicação assíncrona permanecem críticos.
+**Resposta:** IA vai MUITO disso. Mas fundamentos de comunicaçêo assíncrona permanecem críticos.
 
 **O que está vindo (2025-2027):**
 
@@ -166,24 +166,24 @@ Slack AI integrado:
 ```
 
 **Já existe (2025):**
-- **Slack AI:** Resumos threads/canais, busca semântica ("acha discussão sobre bug X")
+- **Slack AI:** Resumos threads/canais, busca semântica ("acha discussêo sobre bug X")
 - **ChatGPT/Claude in Slack:** Responde perguntas, gera conteúdo
-- **Workflow Builder AI:** Cria automações baseado em descrição
+- **Workflow Builder AI:** Cria automações baseado em descriçêo
 
-🔮 **Agentes IA Comunicação (2026-2027):**
+🔮 **Agentes IA Comunicaçêo (2026-2027):**
 
 ```
 Seu agente IA Slack:
 - Monitora canais relevantes 24/7
 - Detecta menções, decisões que impactam você
 - Sumariza daily: "3 decisões críticas, 2 action items pra você, 1 bloqueio time"
-- Sugere respostas: "João perguntou X, sugestão de resposta baseado em contexto"
+- Sugere respostas: "Joêo perguntou X, sugestêo de resposta baseado em contexto"
 - Auto-responde rotineiro: "Você é mencionado sobre status projeto → IA puxa Notion, responde automaticamente"
 
 Você: Só decisões estratégicas, IA lida com rotineiro
 ```
 
-🔮 **Comunicação auto-organizada (2027+):**
+🔮 **Comunicaçêo auto-organizada (2027+):**
 
 ```
 Slack futuro:
@@ -195,22 +195,22 @@ Slack futuro:
   → IA consolida decisões, progresso projetos, blockers de todos canais
 ```
 
-**ENTÃO POR QUE DOMINAR SLACK AGORA?**
+**ENTêO POR QUE DOMINAR SLACK AGORA?**
 
-**Razão 1: IA amplifica boa comunicação, não salva má comunicação**
+**Razêo 1: IA amplifica boa comunicaçêo, nêo salva má comunicaçêo**
 
 **Exemplo:**
 ```
-Comunicação ruim:
+Comunicaçêo ruim:
 Mensagem 1: "oi"
 Mensagem 2: "vc ta ai?"
 Mensagem 3: "preciso falar"
 Mensagem 4: "é sobre o projeto"
 Mensagem 5: "tem um problema"
 
-IA: "Não consegui extrair contexto. Qual projeto? Qual problema?"
+IA: "Nêo consegui extrair contexto. Qual projeto? Qual problema?"
 
-Comunicação boa:
+Comunicaçêo boa:
 "Oi @pessoa!
 Contexto: Projeto X, sprint atual
 Problema: Deploy falhou (erro log: [link])
@@ -219,39 +219,39 @@ Preciso: Ajuda pra reverter migration OU fix deploy
 Urgência: Bloqueando release (previsto hoje 16h)
 CC: @team-backend pra visibilidade"
 
-IA: "Entendi. Sugestão: [solução baseada em docs internos]. Criado thread #incident-deploy-x, notificou DevOps."
+IA: "Entendi. Sugestêo: [soluçêo baseada em docs internos]. Criado thread #incident-deploy-x, notificou DevOps."
 ```
 
-**Razão 2: Fundamentos comunicação assíncrona são atemporais**
+**Razêo 2: Fundamentos comunicaçêo assíncrona sêo atemporais**
 
 Princípios que você aprende (contexto em mensagens, threads, channels vs DMs, documentar decisões) funcionam em:
 - Slack hoje
-- Microsoft Teams amanhã
+- Microsoft Teams amanhê
 - Ferramenta IA futura X
 
 **Ferramenta muda, princípios ficam.**
 
-**Razão 3: IA atual (2025) ainda precisa supervisão humana**
+**Razêo 3: IA atual (2025) ainda precisa supervisêo humana**
 
 Realidade:
 - IA resume bem, mas você decide o que é crítico
 - IA responde rotineiro, mas você valida tom/contexto
-- IA não entende política/nuance organizacional
-- Você ainda escreve mensagens importantes (decisões, conflitos, negociação)
+- IA nêo entende política/nuance organizacional
+- Você ainda escreve mensagens importantes (decisões, conflitos, negociaçêo)
 
-**Razão 4: Reputação profissional AGORA**
+**Razêo 4: Reputaçêo profissional AGORA**
 
-Enquanto IA não gerencia tudo (3-5 anos), sua comunicação Slack define como team vê você.
+Enquanto IA nêo gerencia tudo (3-5 anos), sua comunicaçêo Slack define como team vê você.
 
 Dominar agora = 3-5 anos vantagem competitiva (promoções, projetos, influência).
 
 **Cenário mais provável (2025-2030):**
 
-**Não será:** IA responde tudo, você nunca abre Slack
+**Nêo será:** IA responde tudo, você nunca abre Slack
 
 **Será:** Híbrido humano + IA
 
-- **Você:** Decisões, comunicação crítica, resolução conflitos, relacionamento
+- **Você:** Decisões, comunicaçêo crítica, resoluçêo conflitos, relacionamento
 - **IA:** Sumariza, responde rotineiro, organiza, conecta pontos
 - **Slack:** Plataforma que conecta você + IA + team
 
@@ -263,18 +263,18 @@ Futuro: IA lê email, sumariza, responde rotineiro (você só decisões)
 
 **Slack é igual:**
 
-Você sempre lida com comunicação CRÍTICA.
-IA/automação lida com ROTINEIRO/ORGANIZAÇÃO.
+Você sempre lida com comunicaçêo CRÍTICA.
+IA/automaçêo lida com ROTINEIRO/ORGANIZAÇêO.
 
 **SUA ESTRATÉGIA:**
 
-1. **Domine fundamentos AGORA** (etiqueta, threads, channels, comunicação assíncrona)
+1. **Domine fundamentos AGORA** (etiqueta, threads, channels, comunicaçêo assíncrona)
 2. **Use Slack AI gradualmente** (já disponível: test summaries, busca semântica)
-3. **Mantenha comunicação clara** (IA amplifica clareza, não cria de caos)
+3. **Mantenha comunicaçêo clara** (IA amplifica clareza, nêo cria de caos)
 4. **Aprenda automações** (Workflow Builder, bots, integrações Make)
 5. **Adapte** (incorpore IA onde economiza tempo, mantenha humano onde crítico)
 
-**A habilidade mais valiosa não é "usar Slack".**
+**A habilidade mais valiosa nêo é "usar Slack".**
 
 **É "comunicar assincronamente, documentar decisões, colaborar transparentemente".**
 
@@ -304,7 +304,7 @@ Slack é MEIO de praticar. Habilidade é o FIM.
 
 **Direct Messages (DMs):** Conversas 1:1 ou pequenos grupos
 
-**Threads:** Respostas organizadas (NÃO polui canal)
+**Threads:** Respostas organizadas (NêO polui canal)
 
 **Mentions:**
 - `@pessoa` - Notifica pessoa específica
@@ -342,25 +342,25 @@ Por quê: Mantém canal limpo. Facilita acompanhar discussões.
 
 Contexto: Precisamos definir timeline
 Pergunta: Você consegue entregar módulo Y até sexta?
-Urgência: Não urgente, responde quando puder
+Urgência: Nêo urgente, responde quando puder
 
 Obrigado!"
 ```
 
 ✅ **Status claro**
 ```
-🟢 Disponível (padrão)
+🟢 Disponível (padrêo)
 🟡 Ausente (afk, almoço)
-🔴 Não perturbe (deep work)
+🔴 Nêo perturbe (deep work)
 🟣 Férias
-🔵 Reunião
+🔵 Reuniêo
 ```
 
 Settings → Set a status
 
 ✅ **Reaja antes de responder**
 ```
-Alguém posta: "Revisem doc X até amanhã"
+Alguém posta: "Revisem doc X até amanhê"
 
 Você:
 1. Reage com 👀 (vi)
@@ -385,7 +385,7 @@ TypeError: undefined is not a function
 
 Use ` para inline code, ``` para blocos.
 
-**DON'T (Não faça):**
+**DON'T (Nêo faça):**
 
 ❌ **@channel sem necessidade**
 ```
@@ -434,10 +434,10 @@ Por quê: Outros aprendem também. Conhecimento fica documentado.
 
 ### 1.3 Atalhos de Teclado (Slack Ninja)
 
-**Navegação:**
+**Navegaçêo:**
 - `Ctrl/Cmd + K` - Jump to channel/DM (mais usado!)
 - `Alt + ↑/↓` - Canal anterior/próximo
-- `Ctrl/Cmd + [/]` - Navegação histórico
+- `Ctrl/Cmd + [/]` - Navegaçêo histórico
 - `Ctrl/Cmd + .` - Toggle right sidebar
 
 **Mensagens:**
@@ -447,11 +447,11 @@ Por quê: Outros aprendem também. Conhecimento fica documentado.
 - `E` - Adicionar emoji reaction
 - `M` - Mencionar pessoa
 
-**Marcação:**
+**Marcaçêo:**
 - `Shift + Esc` - Marca tudo como lido
-- `Esc` - Limpa mensagens não lidas do canal atual
+- `Esc` - Limpa mensagens nêo lidas do canal atual
 
-**Formatação:**
+**Formataçêo:**
 - `Ctrl/Cmd + B` - **Bold**
 - `Ctrl/Cmd + I` - *Italic*
 - `Ctrl/Cmd + Shift + X` - ~~Strikethrough~~
@@ -475,7 +475,7 @@ Desktop notifications:
 
 Do Not Disturb:
 - Schedule: 20:00 - 08:00 (ou seu horário)
-- Duration: Quando ativar manual, 1h padrão
+- Duration: Quando ativar manual, 1h padrêo
 
 Keywords: 
 - Seu nome
@@ -516,11 +516,11 @@ Organize canais em seções:
 
 Settings → Sidebar → Create new section
 
-## 2. Comunicação Assíncrona Eficaz
+## 2. Comunicaçêo Assíncrona Eficaz
 
-### 2.1 O que é Comunicação Assíncrona
+### 2.1 O que é Comunicaçêo Assíncrona
 
-**Síncrona:** Resposta imediata esperada (call, reunião, chat ao vivo)
+**Síncrona:** Resposta imediata esperada (call, reuniêo, chat ao vivo)
 
 **Assíncrona:** Resposta quando conveniente (email, Slack, Notion comments)
 
@@ -561,7 +561,7 @@ Settings → Sidebar → Create new section
 ```
 "Se tiver dúvidas, me chama"
 "Posso explicar melhor em call se preferir"
-"Não urgente, responde quando conseguir"
+"Nêo urgente, responde quando conseguir"
 ```
 
 **P - Priority (Urgência)**
@@ -569,14 +569,14 @@ Settings → Sidebar → Create new section
 🔴 Urgente: Preciso até EOD (end of day)
 🟡 Importante: Até esta semana
 🟢 Normal: Quando conseguir, próximos dias
-⚪ FYI: Só informando, sem ação necessária
+⚪ FYI: Só informando, sem açêo necessária
 ```
 
 **Exemplo completo:**
 ```
 📊 Sobre projeto X (Dashboard vendas)
 
-Preciso que você revise o Figma antes da reunião de amanhã.
+Preciso que você revise o Figma antes da reuniêo de amanhê.
 
 Link: [figma.com/...]
 Foco: UX do filtro de datas (slide 3-5)
@@ -584,7 +584,7 @@ Contexto: Cliente pediu simplificar
 
 Se tiver dúvidas, marca call comigo.
 
-🟡 Importante: Até amanhã 10h (reunião às 11h)
+🟡 Importante: Até amanhê 10h (reuniêo às 11h)
 ```
 
 **vs mensagem ruim:**
@@ -595,26 +595,26 @@ Se tiver dúvidas, marca call comigo.
 ### 2.3 Quando Usar Qual Canal
 
 **Slack DM:**
-- Questão rápida pra 1 pessoa
-- Feedback pessoal (não público)
+- Questêo rápida pra 1 pessoa
+- Feedback pessoal (nêo público)
 - Conversa casual 1:1
-- Coordenar algo que não interessa ao time
+- Coordenar algo que nêo interessa ao time
 
 **Slack Channel:**
-- Discussão que beneficia time
-- Decisões que precisam documentação
+- Discussêo que beneficia time
+- Decisões que precisam documentaçêo
 - Updates de projeto
 - Ajuda técnica (outros aprendem)
 
 **Thread:**
 - Resposta a mensagem específica
-- Discussão profunda sobre tópico
-- Não quer poluir canal principal
+- Discussêo profunda sobre tópico
+- Nêo quer poluir canal principal
 
-**Reunião síncrona (Call):**
-- Discussão complexa com muitas idas e voltas
+**Reuniêo síncrona (Call):**
+- Discussêo complexa com muitas idas e voltas
 - Brainstorming criativo
-- Decisão crítica e urgente
+- Decisêo crítica e urgente
 - Alinhar quando assíncrono falhando
 
 **Email:**
@@ -632,7 +632,7 @@ Se tiver dúvidas, marca call comigo.
 **1. Polly (Polls/Votações)**
 
 ```
-/polly "Qual horário melhor pra reunião?" "10h" "14h" "16h"
+/polly "Qual horário melhor pra reuniêo?" "10h" "14h" "16h"
 ```
 
 Cria poll interativa. Time vota com cliques.
@@ -640,7 +640,7 @@ Cria poll interativa. Time vota com cliques.
 **2. Simple Poll**
 
 ```
-/poll "Aprovam proposta X?" "Sim" "Não" "Preciso mais info"
+/poll "Aprovam proposta X?" "Sim" "Nêo" "Preciso mais info"
 ```
 
 **3. Standup Bot (Daily standup assíncrono)**
@@ -652,7 +652,7 @@ Config:
   * Algum bloqueio?
 - Respostas compiladas e postadas no canal
 
-**Substitui reunião diária de 30min por 5min assíncronos.**
+**Substitui reuniêo diária de 30min por 5min assíncronos.**
 
 **4. Donut (Team bonding)**
 
@@ -700,11 +700,11 @@ Trigger: Comando /ferias
 
 Slack → Tools → Workflow Builder → Create
 
-**Não precisa código!**
+**Nêo precisa código!**
 
 ### 3.2 Slack + Make (Automações Custom)
 
-**Automação 1: Novo lead → Slack notification**
+**Automaçêo 1: Novo lead → Slack notification**
 ```
 Google Forms - New response (Lead form)
 → Slack - Send Message
@@ -720,7 +720,7 @@ Google Forms - New response (Lead form)
     @vendedor, fazer follow-up!"
 ```
 
-**Automação 2: Deploy falhou → Alert Slack**
+**Automaçêo 2: Deploy falhou → Alert Slack**
 ```
 GitHub - Workflow Run Failed
 → Slack - Send Message
@@ -736,7 +736,7 @@ GitHub - Workflow Run Failed
     Logs: {{1.logs_url}}"
 ```
 
-**Automação 3: Task Notion completada → Celebrar no Slack**
+**Automaçêo 3: Task Notion completada → Celebrar no Slack**
 ```
 Notion - Watch Database Items (Tasks)
   Filter: Status = Done AND Priority = P1
@@ -751,7 +751,7 @@ Notion - Watch Database Items (Tasks)
     Great job! 🚀"
 ```
 
-**Automação 4: Slack → Notion (Capture ideas)**
+**Automaçêo 4: Slack → Notion (Capture ideas)**
 ```
 Slack - New Message
   Channel: #ideias
@@ -815,14 +815,14 @@ Slack - Reaction added (:white_check_mark:)
 
 **Meeting notes:**
 ```
-Slack - Scheduled Message (antes reunião)
-  "Reunião em 1h: [tópico]
+Slack - Scheduled Message (antes reuniêo)
+  "Reuniêo em 1h: [tópico]
    Notas: [link Notion]
    Agenda: [lista]"
 
 Google Calendar - Event ended
 → Slack - Reminder
-  "@participantes: Preencham notas reunião [link]"
+  "@participantes: Preencham notas reuniêo [link]"
 ```
 
 ### 4.2 Slack + IA (ChatGPT/Claude)
@@ -848,7 +848,7 @@ Slack - New Message
 - "Crie email de follow-up para [contexto]"
 - "Analise estes dados: [dados]"
 
-**Atenção:** Custo de API. Configure limits.
+**Atençêo:** Custo de API. Configure limits.
 
 ### 4.3 Slack + Google Workspace
 
@@ -926,7 +926,7 @@ from:@maria in:#projeto-x has:link after:2025-01-15
 **3. Scheduled messages**
 ```
 /remind @pessoa "fazer X" at 9am tomorrow
-/remind #canal "reunião em 10min" in 10 minutes
+/remind #canal "reuniêo em 10min" in 10 minutes
 ```
 
 Ou:
@@ -934,7 +934,7 @@ Ou:
 - Click ⌄ ao lado do Send
 - Schedule for later
 
-**Caso de uso:** Trabalha de noite, mas não quer notificar time → agenda pra 9am
+**Caso de uso:** Trabalha de noite, mas nêo quer notificar time → agenda pra 9am
 
 **4. Saved items**
 - Mensagem importante
@@ -961,16 +961,16 @@ Settings → Set a status
 4. Starre 3 canais mais usados
 5. Salve 2 searches úteis
 
-**PARTE 2: Comunicação (15min)**
+**PARTE 2: Comunicaçêo (15min)**
 
 1. Escreva 3 mensagens usando framework CRISP:
-   - Request de revisão
+   - Request de revisêo
    - Update de projeto
    - Dúvida técnica
-2. Pratique threads (não polua canal!)
+2. Pratique threads (nêo polua canal!)
 3. Use reações adequadamente
 
-**PARTE 3: Automação (15min)**
+**PARTE 3: Automaçêo (15min)**
 
 Escolha 1:
 - A) Configure Workflow Builder (onboarding ou request)
@@ -980,7 +980,7 @@ Escolha 1:
 **ENTREGA:**
 - Screenshots de cada parte
 - 3 mensagens escritas (exemplos reais ou simulados)
-- 1 automação funcionando
+- 1 automaçêo funcionando
 
 **BÔNUS:** Compartilha no LinkedIn dica de Slack que aprendeu. Tag #slack #comunicacaoassincrona
 
@@ -994,10 +994,10 @@ Escolha 1:
 - Apresentações impactantes
 - Brand kit pessoal
 
-**Prepare-se para:** Comunicação visual que destaca
+**Prepare-se para:** Comunicaçêo visual que destaca
 
 Nos vemos lá! 🚀
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

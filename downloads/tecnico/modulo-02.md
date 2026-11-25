@@ -1,25 +1,25 @@
 # Módulo 2: Automações que Resolvem Problemas de Verdade
 
-**Duração:** 75-90 minutos
-**Objetivo:** Criar automações práticas que as pessoas realmente usam (não scripts que só você entende)
+**Duraçêo:** 75-90 minutos
+**Objetivo:** Criar automações práticas que as pessoas realmente usam (nêo scripts que só você entende)
 
 ---
 
-## Introdução: A Diferença Entre Script e Automação
+## Introduçêo: A Diferença Entre Script e Automaçêo
 
 Você já criou um script bash que funciona perfeitamente... mas só você usa?
 
 **O problema:** Técnicos criam ferramentas para si mesmos.
-**A solução:** Criar automações que QUALQUER PESSOA usa.
+**A soluçêo:** Criar automações que QUALQUER PESSOA usa.
 
 **Diferença fundamental:**
 
-| Script Pessoal | Automação Real |
+| Script Pessoal | Automaçêo Real |
 |----------------|----------------|
-| Terminal, CLI complexo | Interface clara (botão, form, chat) |
+| Terminal, CLI complexo | Interface clara (botêo, form, chat) |
 | Você precisa explicar | Auto-explicativo |
 | Requer conhecimento técnico | Qualquer um usa |
-| Documentação = zero | Tutorial embutido |
+| Documentaçêo = zero | Tutorial embutido |
 | Só resolve SEU problema | Resolve problema de TODOS |
 
 **Exemplo real:**
@@ -30,13 +30,13 @@ Você já criou um script bash que funciona perfeitamente... mas só você usa?
 ```
 (Ninguém além de você sabe o que isso faz)
 
-**Automação que todos usam:**
+**Automaçêo que todos usam:**
 ```
 Portal Web:
 ┌─────────────────────────────┐
 │  🚀 Deploy Automático       │
 ├─────────────────────────────┤
-│  Ambiente: [Produção ▼]     │
+│  Ambiente: [Produçêo ▼]     │
 │  Incluir migration? [✓]     │
 │  Rodar testes? [✓]          │
 │  [  Iniciar Deploy  ]       │
@@ -56,16 +56,16 @@ Você responde mesmas perguntas 100x
 
 **Exemplos de perguntas repetidas:**
 - "Como fazer deploy?"
-- "Como acessar logs de produção?"
+- "Como acessar logs de produçêo?"
 - "Como configurar ambiente local?"
 - "Por que o build falhou?"
 - "Como reverter deploy?"
 
-**Solução: Chatbot que Responde Automaticamente**
+**Soluçêo: Chatbot que Responde Automaticamente**
 
 **Stack recomendada:**
 
-**Opção 1: Botpress (No-Code, Mais Rápido)**
+**Opçêo 1: Botpress (No-Code, Mais Rápido)**
 - Interface visual
 - RAG nativo (treina com suas docs)
 - Deploy em 30 min
@@ -74,13 +74,13 @@ Você responde mesmas perguntas 100x
 
 **Passo a passo:**
 1. Criar conta em Botpress Cloud
-2. Upload de documentação (markdown, PDFs)
+2. Upload de documentaçêo (markdown, PDFs)
 3. Treinar bot com perguntas/respostas
 4. Testar no playground
 5. Integrar com Slack/Discord
-6. Monitorar: que perguntas estão sendo feitas?
+6. Monitorar: que perguntas estêo sendo feitas?
 
-**Opção 2: n8n + ChatGPT API (Low-Code, Mais Flexível)**
+**Opçêo 2: n8n + ChatGPT API (Low-Code, Mais Flexível)**
 - Workflow visual
 - Conecta Slack → ChatGPT → Notion (knowledge base)
 - Mais controle
@@ -93,7 +93,7 @@ Trigger: Mensagem no Slack com palavra-chave
 Buscar resposta na base de conhecimento (Notion/Docs)
   ↓
 Se encontrou: Responder automaticamente
-Se não encontrou: Mandar ChatGPT gerar resposta genérica + tag você
+Se nêo encontrou: Mandar ChatGPT gerar resposta genérica + tag você
   ↓
 Adicionar thread no Slack com resposta
 ```
@@ -120,7 +120,7 @@ Adicionar thread no Slack com resposta
 - 30 min/dia revisando casos complexos
 - **Economizou: 1.5h/dia = 30h/mês**
 
-**Promoção:** 3 meses depois → Senior DevOps
+**Promoçêo:** 3 meses depois → Senior DevOps
 **Motivo:** "Escalou conhecimento do time"
 
 ---
@@ -132,18 +132,18 @@ Tarefas manuais chatas que todos fazem
 
 **Exemplos de processos chatos:**
 - Onboarding de novo dev (15 passos manuais)
-- Aprovação de PR (checklist repetitivo)
+- Aprovaçêo de PR (checklist repetitivo)
 - Deploy (build → test → deploy → notify)
-- Criação de ambiente (setup, permissões, configs)
+- Criaçêo de ambiente (setup, permissões, configs)
 - Backup e restore de databases
 
-**Solução: Workflow Automatizado Visual**
+**Soluçêo: Workflow Automatizado Visual**
 
 **Stack recomendada:**
 
 **Para Devs: GitHub Actions**
 
-**Exemplo: Automação de PR Review**
+**Exemplo: Automaçêo de PR Review**
 
 ```yaml
 name: PR Auto-Checks
@@ -179,11 +179,11 @@ jobs:
 **Resultado:**
 - PR automaticamente testado
 - Feedback imediato
-- Reviewer não perde tempo com basics
+- Reviewer nêo perde tempo com basics
 
 **Para Operações: n8n (Visual Workflow)**
 
-**Exemplo: Automação de Onboarding**
+**Exemplo: Automaçêo de Onboarding**
 
 ```
 Workflow Visual:
@@ -200,7 +200,7 @@ Workflow Visual:
 **Antes:** 2h de trabalho manual
 **Depois:** 5 min (você só preenche nome e email)
 
-**Para Não-Devs: Zapier (Super Simples)**
+**Para Nêo-Devs: Zapier (Super Simples)**
 
 **Exemplo: Notificar time de deploys**
 
@@ -254,15 +254,15 @@ Time depende de você para coisas simples
 **Exemplos de dependências:**
 - "Me dá acesso ao servidor"
 - "Como tá o status do sistema?"
-- "Qual versão está em produção?"
+- "Qual versêo está em produçêo?"
 - "Preciso ver os logs de ontem"
 - "Cria um ambiente de teste pra mim"
 
-**Solução: Portal Onde Pessoas Fazem Sozinhas**
+**Soluçêo: Portal Onde Pessoas Fazem Sozinhas**
 
 **Stack recomendada:**
 
-**Opção 1: Retool (Rápido, Poderoso)**
+**Opçêo 1: Retool (Rápido, Poderoso)**
 
 **O que é:**
 - Ferramenta de internal tools
@@ -301,19 +301,19 @@ Interface:
 │  Solicitar Acesso          │
 ├────────────────────────────┤
 │  Recurso: [Prod DB ▼]      │
-│  Duração: [2 horas ▼]      │
+│  Duraçêo: [2 horas ▼]      │
 │  Motivo: [Debug issue #123]│
 │  [  Solicitar  ]           │
 └────────────────────────────┘
 ```
 
 **Backend:**
-- Validação automática
+- Validaçêo automática
 - Aprova se for dev senior
-- Notifica security se for produção
+- Notifica security se for produçêo
 - Revoga acesso automaticamente após tempo
 
-**Opção 2: Streamlit (Para Python Devs)**
+**Opçêo 2: Streamlit (Para Python Devs)**
 
 **O que é:**
 - Python puro vira dashboard web
@@ -356,9 +356,9 @@ streamlit run app.py
 # Acessa via http://localhost:8501
 ```
 
-**Opção 3: Notion + Automação (Zero Code)**
+**Opçêo 3: Notion + Automaçêo (Zero Code)**
 
-**Para times não-técnicos:**
+**Para times nêo-técnicos:**
 
 Criar database no Notion:
 ```
@@ -367,21 +367,21 @@ Solicitações de Acesso
 ├─ Recurso solicitado
 ├─ Motivo
 ├─ Status [Pendente/Aprovado/Negado]
-└─ Data de expiração
+└─ Data de expiraçêo
 ```
 
-Automação (Zapier/n8n):
+Automaçêo (Zapier/n8n):
 ```
 Trigger: Nova linha no Notion
   ↓
-Se recurso = "Produção":
+Se recurso = "Produçêo":
   - Notificar security no Slack
-  - Esperar aprovação
+  - Esperar aprovaçêo
 Se recurso = "Staging":
   - Aprovar automaticamente
   - Executar script de acesso
   - Atualizar Notion com credenciais
-  - Agendar revogação
+  - Agendar revogaçêo
 ```
 
 **Case Real: Carla, SRE**
@@ -393,7 +393,7 @@ Se recurso = "Staging":
 **Criou:**
 Portal Retool:
 - Self-service request
-- Aprovação automática (regras pre-definidas)
+- Aprovaçêo automática (regras pre-definidas)
 - Acesso temporário (auto-revoga)
 - Audit log completo
 
@@ -435,14 +435,14 @@ Impossível errar.
 ### Princípio 2: Feedback Imediato
 
 **Ruim:**
-Script roda em silêncio. Você não sabe se travou ou está funcionando.
+Script roda em silêncio. Você nêo sabe se travou ou está funcionando.
 
 **Bom:**
 ```
 🔄 Iniciando deploy...
 ✅ Build completo (23s)
 ✅ Testes passaram (45s)
-🔄 Enviando para produção...
+🔄 Enviando para produçêo...
 ✅ Deploy completo!
 📊 Tempo total: 1m32s
 🌐 Acesse: https://app.com
@@ -464,7 +464,7 @@ Stack trace: [50 linhas de java stacktrace]
 ```
 ❌ Ops! Algo deu errado no deploy.
 
-Problema: Variável DATABASE_URL não configurada
+Problema: Variável DATABASE_URL nêo configurada
 
 Como resolver:
 1. Adicione DATABASE_URL nas secrets do GitHub
@@ -480,7 +480,7 @@ Pessoa consegue resolver sozinha.
 
 ### Princípio 4: Idempotência
 
-Automação rodada 2x deve ter mesmo resultado que 1x.
+Automaçêo rodada 2x deve ter mesmo resultado que 1x.
 
 **Ruim:**
 ```bash
@@ -491,7 +491,7 @@ createuser admin
 
 **Bom:**
 ```bash
-# Cria user (se não existir)
+# Cria user (se nêo existir)
 if ! user_exists admin; then
   createuser admin
 else
@@ -521,7 +521,7 @@ Notifica time no Slack
 
 ---
 
-## Projeto Prático: Crie Sua Primeira Automação
+## Projeto Prático: Crie Sua Primeira Automaçêo
 
 ### Passo 1: Identifique o Problema (10 min)
 
@@ -563,7 +563,7 @@ Pessoa pede → Você faz step 1 → step 2 → step 3 → Responde
 
 **Depois (automatizado):**
 ```
-Pessoa clica botão → Automação faz steps → Feedback automático
+Pessoa clica botêo → Automaçêo faz steps → Feedback automático
 ```
 
 **Exemplo real:**
@@ -586,7 +586,7 @@ Tempo: 20 min
 
 **Depois:**
 ```
-Dev: Clica botão no portal "Criar Ambiente"
+Dev: Clica botêo no portal "Criar Ambiente"
   ↓
 Script automático faz tudo
   ↓
@@ -598,12 +598,12 @@ Tempo: 2 min
 
 ### Passo 4: Implemente (MVP em 2h)
 
-**Dica:** Faça versão SIMPLES primeiro.
+**Dica:** Faça versêo SIMPLES primeiro.
 
 **MVP = Minimum Viable Product**
 
-Não precisa de:
-- ❌ Autenticação complexa
+Nêo precisa de:
+- ❌ Autenticaçêo complexa
 - ❌ UI perfeita
 - ❌ Tratamento de 100 edge cases
 
@@ -614,9 +614,9 @@ Precisa de:
 
 **Exemplo: Chatbot MVP**
 
-Versão MVP:
+Versêo MVP:
 - 5 perguntas mais comuns
-- Respostas fixas (não precisa de IA ainda)
+- Respostas fixas (nêo precisa de IA ainda)
 - Slack integration
 - Tempo: 1-2h
 
@@ -631,8 +631,8 @@ Depois você:
 
 Antes de mostrar para todo mundo:
 - Peça 1 colega testar
-- Veja ele usar (não explique nada!)
-- Anote: onde ele travou? O que não ficou claro?
+- Veja ele usar (nêo explique nada!)
+- Anote: onde ele travou? O que nêo ficou claro?
 - Ajuste
 
 ---
@@ -641,7 +641,7 @@ Antes de mostrar para todo mundo:
 
 README mínimo:
 ```markdown
-# Nome da Automação
+# Nome da Automaçêo
 
 ## O que faz
 Resolve [problema X] automaticamente
@@ -649,11 +649,11 @@ Resolve [problema X] automaticamente
 ## Como usar
 1. Acesse [URL ou comando]
 2. Preencha [campos]
-3. Clique [botão]
+3. Clique [botêo]
 
 ## Deu erro?
-- Erro A → Solução A
-- Erro B → Solução B
+- Erro A → Soluçêo A
+- Erro B → Soluçêo B
 
 ## Precisa de ajuda?
 Chama @seu-nome no Slack
@@ -666,7 +666,7 @@ Chama @seu-nome no Slack
 **Lançamento:**
 - Post no Slack:
 ```
-🎉 Lançamento: [Nome da Automação]!
+🎉 Lançamento: [Nome da Automaçêo]!
 
 Agora vocês podem [fazer X] sozinhos.
 
@@ -740,7 +740,7 @@ Qualquer dúvida, me chamem!
 
 ## Métricas de Sucesso
 
-Como saber se sua automação está funcionando?
+Como saber se sua automaçêo está funcionando?
 
 ### Métricas Quantitativas:
 
@@ -751,7 +751,7 @@ Depois: 2 min/tarefa × 10 tarefas/semana = 20 min/semana
 Economia: 180 min/semana = 3h/semana
 ```
 
-**2. Adoção**
+**2. Adoçêo**
 ```
 Semana 1: 5 pessoas usaram
 Semana 2: 12 pessoas usaram
@@ -759,11 +759,11 @@ Semana 3: 20 pessoas usaram
 → Crescimento consistente = sucesso
 ```
 
-**3. Redução de perguntas**
+**3. Reduçêo de perguntas**
 ```
 Antes: 15 perguntas/semana sobre deploy
 Depois: 3 perguntas/semana
-→ 80% redução = automação funcionando
+→ 80% reduçêo = automaçêo funcionando
 ```
 
 ### Métricas Qualitativas:
@@ -775,26 +775,26 @@ Depois: 3 perguntas/semana
 
 **Sinais indiretos:**
 - Outros times pedindo pra usar
-- Gestor mencionando em reunião
-- Pessoas sugerindo melhorias (= estão usando!)
+- Gestor mencionando em reuniêo
+- Pessoas sugerindo melhorias (= estêo usando!)
 
 ---
 
-## Checklist: Sua Automação Está Pronta?
+## Checklist: Sua Automaçêo Está Pronta?
 
 Antes de lançar, verifique:
 
 **Interface:**
-- [ ] Pessoa consegue usar sem explicação?
+- [ ] Pessoa consegue usar sem explicaçêo?
 - [ ] Botões/campos têm labels claros?
 - [ ] Tem feedback de progresso?
 
 **Funcionamento:**
 - [ ] Funciona 100% do tempo no caso comum?
-- [ ] Error messages são claros?
+- [ ] Error messages sêo claros?
 - [ ] Tem rollback se der erro?
 
-**Documentação:**
+**Documentaçêo:**
 - [ ] README existe?
 - [ ] Tem screenshots/GIF mostrando uso?
 - [ ] Lista troubleshooting comum?
@@ -820,7 +820,7 @@ Antes de lançar, verifique:
 Vamos criar chatbot com RAG que responde perguntas técnicas 24/7.
 
 **Lembre-se:**
-Automação perfeita não existe.
-Automação que resolve 80% dos casos + 20% você = excelente.
+Automaçêo perfeita nêo existe.
+Automaçêo que resolve 80% dos casos + 20% você = excelente.
 
 🚀 **Comece pequeno. Itere rápido. Escale depois.**

@@ -1,16 +1,16 @@
 # Módulo 8: Canva e Design Básico
 
 **Trilha:** Talento Emergente
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Objetivo:** Criar materiais visuais profissionais sem ser designer
 
 ---
 
-## Introdução: O Poder do Visual
+## Introduçêo: O Poder do Visual
 
 Visual vende. Conteúdo com imagem tem 94% mais views que só texto.
 
-**Canva democratizou design.** Você não precisa ser designer para criar conteúdo profissional.
+**Canva democratizou design.** Você nêo precisa ser designer para criar conteúdo profissional.
 
 **Dados 2024-2025:**
 - Posts LinkedIn com imagem: +200% engajamento
@@ -26,26 +26,26 @@ Visual vende. Conteúdo com imagem tem 94% mais views que só texto.
 - Brand kit pessoal profissional
 - Templates que economizam horas
 
-## 0. Contexto de Mercado: A Democratização do Design
+## 0. Contexto de Mercado: A Democratizaçêo do Design
 
-### 0.1 Concorrentes e Comparação
+### 0.1 Concorrentes e Comparaçêo
 
-**O mercado de design tools para não-designers explodiu:**
+**O mercado de design tools para nêo-designers explodiu:**
 
 | Ferramenta | Foco | Pontos Fortes | Limitações | Preço |
 |------------|------|---------------|------------|-------|
-| **Canva** | Design simplificado all-in-one | Templates infinitos, fácil, colaboração | Limitado pra design complexo, formatos | Grátis - $13/mês |
+| **Canva** | Design simplificado all-in-one | Templates infinitos, fácil, colaboraçêo | Limitado pra design complexo, formatos | Grátis - $13/mês |
 | **Adobe Express** (ex-Spark) | Adobe simplificado | Integra Adobe, qualidade superior, templates | Mais caro, curva aprendizado maior | Grátis - $10/mês |
 | **Figma** | Design profissional + prototipo | Poder máximo, vetorial, collaboration perfeita | Complexo iniciantes, overkill pra social media | Grátis - $15/mês |
 | **Visme** | Apresentações + infográficos | Infográficos excelentes, charts interativos | Menos templates que Canva, menos conhecido | Grátis - $25/mês |
 | **Crello (VistaCreate)** | Canva competitor | Parecido Canva, mais vídeos animados | Menor biblioteca templates, menos intuitivo | Grátis - $10/mês |
-| **PicMonkey** | Photo editing + design | Edição foto superior, touch-up tools | Menos templates, foco foto vs design gráfico | $8-13/mês |
+| **PicMonkey** | Photo editing + design | Ediçêo foto superior, touch-up tools | Menos templates, foco foto vs design gráfico | $8-13/mês |
 | **Snappa** | Social media graphics | Rápido, simples, resize automático | Limitado vs Canva, menos features | Grátis - $10/mês |
 | **Desygner** | Multi-format design | PDFs editáveis, muitos formatos | Interface confusa, menos popular | Grátis - $10/mês |
-| **Adobe Photoshop** | Pro photo editing | Poder máximo, padrão indústria | Complexo, caro, overkill pra não-designer | $20-55/mês |
+| **Adobe Photoshop** | Pro photo editing | Poder máximo, padrêo indústria | Complexo, caro, overkill pra nêo-designer | $20-55/mês |
 | **Adobe Illustrator** | Pro vector design | Melhor ferramenta vetorial mundo | Muito complexo, caro, curva aprendizado íngreme | $20-55/mês |
 
-**Por que Canva domina não-designers:**
+**Por que Canva domina nêo-designers:**
 
 ✅ **Simplicidade absurda** (drag-and-drop, qualquer um usa em 5min)
 ✅ **Templates infinitos** (500k+ templates pra tudo: posts, apresentações, logos, etc)
@@ -53,15 +53,15 @@ Visual vende. Conteúdo com imagem tem 94% mais views que só texto.
 ✅ **Grátis robusto** (plano free já resolve 80% necessidades)
 ✅ **Brand Kit** (cores, fontes, logos = consistência marca) [Pro]
 ✅ **Magic Resize** (1 design → 20 formatos automático) [Pro]
-✅ **Colaboração real-time** (Google Docs pra design)
+✅ **Colaboraçêo real-time** (Google Docs pra design)
 ✅ **Mobile excelente** (edita designs complexos no celular)
 
-**Quando Canva NÃO é ideal:**
+**Quando Canva NêO é ideal:**
 
-❌ **Design profissional complexo:** Figma/Adobe são superiores (controle fino, vetorial avançado)
-❌ **Edição foto avançada:** Photoshop/Lightroom necessários (cor grading, compositing)
+❌ **Design profissional complexo:** Figma/Adobe sêo superiores (controle fino, vetorial avançado)
+❌ **Ediçêo foto avançada:** Photoshop/Lightroom necessários (cor grading, compositing)
 ❌ **Print profissional:** Adobe Illustrator melhor (CMYK, formatos específicos)
-❌ **Animações/motion design:** After Effects, Premiere são o padrão
+❌ **Animações/motion design:** After Effects, Premiere sêo o padrêo
 ❌ **UI/UX design:** Figma domina (protótipos interativos, design systems)
 
 **Tendência mercado (2024-2025):**
@@ -69,13 +69,13 @@ Visual vende. Conteúdo com imagem tem 94% mais views que só texto.
 - **Canva:** Dominando (150M+ usuários, crescimento 50%/ano), adicionando IA, vídeo, sites
 - **Adobe Express:** Crescendo (bundling Creative Cloud), mas Canva já tem rede de efeitos
 - **Figma:** Mantém designers profissionais, mas muito complexo pra massa
-- **Visme/Crello:** Nicho (infográficos, animações), não ameaçam Canva
-- **Adobe Photoshop/Illustrator:** Ainda padrão pro, mas caindo pra uso casual (Canva roubou)
+- **Visme/Crello:** Nicho (infográficos, animações), nêo ameaçam Canva
+- **Adobe Photoshop/Illustrator:** Ainda padrêo pro, mas caindo pra uso casual (Canva roubou)
 
 **Escolha Canva se:**
-- Não é designer profissional
+- Nêo é designer profissional
 - Precisa criar conteúdo visual rápido (posts, apresentações, docs)
-- Quer templates prontos (não criar do zero)
+- Quer templates prontos (nêo criar do zero)
 - Orçamento limitado (plano grátis resolve)
 - Time colabora em designs
 
@@ -91,9 +91,9 @@ Visual vende. Conteúdo com imagem tem 94% mais views que só texto.
 - Precisa features avançadas (CMYK, pantone, etc)
 - Já domina Adobe (curva aprendizado superada)
 
-### 0.2 Por Que Dominar Ferramentas de Design (Mesmo Não Sendo Designer)
+### 0.2 Por Que Dominar Ferramentas de Design (Mesmo Nêo Sendo Designer)
 
-**A pergunta:** "Não sou designer... por que aprender Canva?"
+**A pergunta:** "Nêo sou designer... por que aprender Canva?"
 
 **Resposta:** Visual é 50% do profissionalismo hoje. Quem domina Canva tem vantagem absurda.
 
@@ -101,14 +101,14 @@ Visual vende. Conteúdo com imagem tem 94% mais views que só texto.
 
 **Profissional SEM Canva:**
 - **LinkedIn posts:** Só texto (engajamento baixo, passa batido)
-- **Apresentações:** PowerPoint padrão feio (audiência desliga)
-- **Portfolio:** PDF texto (não diferencia de 100 outros)
-- **Propostas:** Google Docs genérico (não impressiona)
+- **Apresentações:** PowerPoint padrêo feio (audiência desliga)
+- **Portfolio:** PDF texto (nêo diferencia de 100 outros)
+- **Propostas:** Google Docs genérico (nêo impressiona)
 - **Resultado:** Profissional, mas invisível
 
 **Profissional COM Canva dominado:**
 - **LinkedIn posts:** Visual chamativo (para scroll, +200% engajamento)
-- **Apresentações:** Design moderno (audiência presta atenção, lembra depois)
+- **Apresentações:** Design moderno (audiência presta atençêo, lembra depois)
 - **Portfolio:** PDF visual rico (destaca instantaneamente)
 - **Propostas:** Branded, profissional (cliente: "uau, essa pessoa é séria")
 - **Resultado:** Profissional E memorável
@@ -126,24 +126,24 @@ Visual vende. Conteúdo com imagem tem 94% mais views que só texto.
 - **Ganho:** Velocidade 10x, autonomia total
 
 **Busca de emprego:**
-- **Currículo padrão Word:** 2% callback
+- **Currículo padrêo Word:** 2% callback
 - **Currículo Canva visual:** 8-12% callback (4-6x mais)
 - **Portfolio PDF Canva:** 15-20% callback
 
 **Vendas/Propostas:**
-- **Proposta Google Docs:** 15-20% conversão
-- **Proposta Canva branded:** 35-50% conversão (2-3x mais)
+- **Proposta Google Docs:** 15-20% conversêo
+- **Proposta Canva branded:** 35-50% conversêo (2-3x mais)
 
 **ROI absurdo pra esforço mínimo:**
 - Tempo dominar Canva básico: **2-3 horas**
-- Tempo economizado depois: **5-10h/semana** (não espera designer, cria rápido)
+- Tempo economizado depois: **5-10h/semana** (nêo espera designer, cria rápido)
 - Benefício vitalício: **Visual profissional em tudo que faz**
 
 ### 0.3 O Futuro: IA Vai Fazer Todo Design Pra Nós?
 
-**A pergunta:** "IA já cria imagens (DALL-E, Midjourney)... Canva não vai sumir?"
+**A pergunta:** "IA já cria imagens (DALL-E, Midjourney)... Canva nêo vai sumir?"
 
-**Resposta:** IA vai POTENCIALIZAR Canva, não substituir. Design exige contexto humano.
+**Resposta:** IA vai POTENCIALIZAR Canva, nêo substituir. Design exige contexto humano.
 
 **O que está vindo (2025-2027):**
 
@@ -151,7 +151,7 @@ Visual vende. Conteúdo com imagem tem 94% mais views que só texto.
 
 ```
 Canva Magic Design:
-- "Crie post LinkedIn sobre automação no-code"
+- "Crie post LinkedIn sobre automaçêo no-code"
 - IA gera 10 opções visuais completas (texto + design)
 - Você escolhe, ajusta detalhes, publica
 
@@ -171,20 +171,20 @@ Magic Expand:
 
 **Já existe (2025):**
 - **Canva AI:** Text to Image, background remover, Magic Write, Magic Resize
-- **Integração DALL-E/Stable Diffusion:** Gera imagens custom dentro do Canva
+- **Integraçêo DALL-E/Stable Diffusion:** Gera imagens custom dentro do Canva
 - **Smart templates:** IA sugere template baseado em conteúdo
 
 🔮 **Canva totalmente IA-powered (2026-2027):**
 
 ```
-Você: "Cria apresentação vendas produto X, 10 slides, estilo moderno minimalista"
+Você: "Cria apresentaçêo vendas produto X, 10 slides, estilo moderno minimalista"
 
 Canva IA:
 - Analisa produto (site, docs)
-- Gera estrutura apresentação (storytelling otimizado)
+- Gera estrutura apresentaçêo (storytelling otimizado)
 - Cria 10 slides completos (texto + visual + data viz)
 - Aplica seu Brand Kit automaticamente
-- Otimiza pra persuasão (baseado em 100M+ apresentações analisadas)
+- Otimiza pra persuasêo (baseado em 100M+ apresentações analisadas)
 
 Você: Revisa, ajusta detalhes estratégicos (mensagem, dados), publica
 Tempo: 10min vs 3h manual
@@ -202,14 +202,14 @@ Canva futuro:
   → 1 design → IA cria versões Instagram, LinkedIn, Twitter, email, etc
 ```
 
-**ENTÃO POR QUE DOMINAR CANVA AGORA?**
+**ENTêO POR QUE DOMINAR CANVA AGORA?**
 
-**Razão 1: IA amplifica DESIGN INTENCIONAL, não cria do nada**
+**Razêo 1: IA amplifica DESIGN INTENCIONAL, nêo cria do nada**
 
-IA precisa direção. Você define:
+IA precisa direçêo. Você define:
 - **O QUÊ** comunicar (mensagem, objetivo)
 - **PARA QUEM** (audiência, contexto)
-- **COMO** (tom, estilo, emoção)
+- **COMO** (tom, estilo, emoçêo)
 
 IA executa, mas você direciona.
 
@@ -225,37 +225,37 @@ Prompt bom (entende design):
 - Tema: Produtividade remota
 - Audiência: Profissionais tech 25-35 anos
 - Estilo: Moderno, minimalista, cores frias
-- Emoção: Inspirador, não corporativo
+- Emoçêo: Inspirador, nêo corporativo
 - Formato: Carrossel 5 slides
 - Brand colors: #1A73E8, #FFFFFF"
 
 IA: [Gera opções relevantes, alinhadas, usáveis]
 ```
 
-Quem domina Canva sabe O QUE pedir. Quem não sabe... aceita qualquer coisa que IA cria.
+Quem domina Canva sabe O QUE pedir. Quem nêo sabe... aceita qualquer coisa que IA cria.
 
-**Razão 2: Fundamentos design são atemporais**
+**Razêo 2: Fundamentos design sêo atemporais**
 
 Princípios que você aprende (hierarquia visual, contraste, alinhamento, espaço negativo) funcionam em:
 - Canva hoje
-- Ferramenta IA amanhã
+- Ferramenta IA amanhê
 - Qualquer mídia visual
 
 **Ferramenta muda, princípios ficam.**
 
-**Razão 3: IA atual (2025) ainda é limitada**
+**Razêo 3: IA atual (2025) ainda é limitada**
 
 Realidade:
 - IA cria bem, mas você refina (ajusta cores, espaçamento, mensagem)
-- IA não entende contexto específico do SEU negócio
-- Designs IA às vezes são genéricos (falta personalidade)
+- IA nêo entende contexto específico do SEU negócio
+- Designs IA às vezes sêo genéricos (falta personalidade)
 - Você ainda valida se visual comunica a mensagem certa
 
-**Razão 4: Vantagem competitiva AGORA (enquanto IA não é perfeita)**
+**Razêo 4: Vantagem competitiva AGORA (enquanto IA nêo é perfeita)**
 
 95% das pessoas:
-- Não usam Canva (dependem designer OU usam PowerPoint feio)
-- Não aproveitam IA (não sabem prompt engineering pra design)
+- Nêo usam Canva (dependem designer OU usam PowerPoint feio)
+- Nêo aproveitam IA (nêo sabem prompt engineering pra design)
 
 Você dominando Canva + IA = produz conteúdo visual 100x mais rápido que concorrente.
 
@@ -263,13 +263,13 @@ IA democratiza depois (2027+), mas você já está 3 anos à frente.
 
 **Cenário mais provável (2025-2030):**
 
-**Não será:** IA cria design perfeito, você nunca abre Canva
+**Nêo será:** IA cria design perfeito, você nunca abre Canva
 
 **Será:** Híbrido humano + IA
 
 - **Você:** Define estratégia visual, mensagem, brand, contexto
 - **IA (Canva Magic):** Gera variações, executa, otimiza
-- **Canva:** Plataforma que conecta você + IA + templates + colaboração
+- **Canva:** Plataforma que conecta você + IA + templates + colaboraçêo
 
 **Analogia fotografia:**
 
@@ -280,7 +280,7 @@ Futuro: IA gera foto ideal (você descreve, IA cria), mas você decide conceito
 **Design é igual:**
 
 Você sempre define CONCEITO (mensagem, objetivo, brand).
-IA/Canva executa TÉCNICA (layout, cores, composição).
+IA/Canva executa TÉCNICA (layout, cores, composiçêo).
 
 **SUA ESTRATÉGIA:**
 
@@ -290,7 +290,7 @@ IA/Canva executa TÉCNICA (layout, cores, composição).
 4. **Construa Brand Kit** (cores, fontes, estilo = IA usa automaticamente)
 5. **Adapte** (IA gera, você refina e valida)
 
-**A habilidade mais valiosa não é "usar Canva".**
+**A habilidade mais valiosa nêo é "usar Canva".**
 
 **É "pensar visualmente, comunicar através de design, aplicar princípios".**
 
@@ -305,9 +305,9 @@ Canva é MEIO de praticar. Habilidade é o FIM.
 **Planos:**
 - **Free:** 250k+ templates, básico robusto, ótimo pra começar
 - **Pro ($13/mês):** Background remover, brand kit, resize mágico, templates premium
-- **Teams ($30/mês):** Colaboração, brand kit compartilhado
+- **Teams ($30/mês):** Colaboraçêo, brand kit compartilhado
 
-**Recomendação inicial:** Free é suficiente. Upgrade quando monetizar.
+**Recomendaçêo inicial:** Free é suficiente. Upgrade quando monetizar.
 
 **Interface explicada:**
 
@@ -330,7 +330,7 @@ Canva é MEIO de praticar. Habilidade é o FIM.
 - **Marketing:** Flyers, business cards, banners
 - **Print:** Cartazes, convites
 
-**Custom size:** Qualquer dimensão que precisar
+**Custom size:** Qualquer dimensêo que precisar
 
 ### 1.2 Dimensões Importantes (Memorize)
 
@@ -347,7 +347,7 @@ Canva é MEIO de praticar. Habilidade é o FIM.
 - Reel: 1080 × 1920 px
 
 **Apresentações:**
-- 16:9 (padrão): 1920 × 1080 px
+- 16:9 (padrêo): 1920 × 1080 px
 - 4:3 (antigo): 1024 × 768 px
 
 **Documents:**
@@ -358,7 +358,7 @@ Canva é MEIO de praticar. Habilidade é o FIM.
 - Thumbnail: 1280 × 720 px
 - Banner: 2560 × 1440 px
 
-**Dica:** Canva tem presets. Você só escolhe "LinkedIn Post" e dimensão correta já vem.
+**Dica:** Canva tem presets. Você só escolhe "LinkedIn Post" e dimensêo correta já vem.
 
 ### 1.3 Elementos Essenciais
 
@@ -367,7 +367,7 @@ Canva é MEIO de praticar. Habilidade é o FIM.
 - Subheading (subtítulo)
 - Body (texto corrido)
 
-**Fontes padrão boas (gratuitas):**
+**Fontes padrêo boas (gratuitas):**
 - **Sans-serif (moderna, clean):**
   * Montserrat
   * Poppins
@@ -429,7 +429,7 @@ Canva é MEIO de praticar. Habilidade é o FIM.
 
 ### 2.1 Menos é Mais
 
-**Regra:** Simplifique até não poder mais. Então simplifique mais um pouco.
+**Regra:** Simplifique até nêo poder mais. Entêo simplifique mais um pouco.
 
 **Aplicado:**
 
@@ -439,7 +439,7 @@ Canva é MEIO de praticar. Habilidade é o FIM.
 - 10 cores
 - 20 elementos
 - Sem espaço em branco
-- Tudo competindo por atenção
+- Tudo competindo por atençêo
 ```
 
 ✅ **Bom (Limpo):**
@@ -512,9 +512,9 @@ Texto de apoio adicional aqui
 - Menos importante: Light
 
 **4. Posicionamento**
-- Topo/Centro: Mais atenção
-- Cantos: Menos atenção
-- Regra dos terços (fotografia): Elementos principais nos pontos de interseção
+- Topo/Centro: Mais atençêo
+- Cantos: Menos atençêo
+- Regra dos terços (fotografia): Elementos principais nos pontos de interseçêo
 
 **5. Contraste**
 - Alto contraste = Destaque
@@ -524,7 +524,7 @@ Texto de apoio adicional aqui
 
 **Texto PRECISA ser legível.**
 
-**Teste simples:** Afasta 2 metros do monitor. Consegue ler? Se não, contraste insuficiente.
+**Teste simples:** Afasta 2 metros do monitor. Consegue ler? Se nêo, contraste insuficiente.
 
 **Combinações que funcionam:**
 
@@ -560,14 +560,14 @@ Texto alinhado
 ```
 
 **Tipos:**
-- **Esquerda:** Padrão texto (mais legível)
+- **Esquerda:** Padrêo texto (mais legível)
 - **Centro:** Títulos, posts simétricos
 - **Direita:** Raramente (datas, legendas)
 - **Justificado:** Texto corrido (evite em títulos)
 
 **Grid system:** Canva tem grid (View → Show rulers). Use.
 
-### 2.5 Repetição (Consistência)
+### 2.5 Repetiçêo (Consistência)
 
 **Use mesmos elementos repetidamente.**
 
@@ -593,11 +593,11 @@ Slide 1-6:
 
 ### 2.6 Proximidade
 
-**Elementos relacionados ficam próximos. Não relacionados, distantes.**
+**Elementos relacionados ficam próximos. Nêo relacionados, distantes.**
 
 ❌ **Ruim:**
 ```
-João Silva
+Joêo Silva
 Desenvolvedor
 
 Contato
@@ -608,7 +608,7 @@ joao@email.com
 
 ✅ **Bom:**
 ```
-João Silva
+Joêo Silva
 Desenvolvedor
 [Grupo 1 - próximo]
 
@@ -657,7 +657,7 @@ joao@email.com
 ```
 [Background branco]
 [Número grande] 1
-[Título] Não planejar o dia
+[Título] Nêo planejar o dia
 [Texto curto] Começar sem saber prioridades = desperdício
 [Ícone calendário]
 ```
@@ -755,7 +755,7 @@ Text: #333333 (cinza escuro)
 3. **Roboto** - Google, familiar
 4. **Source Sans Pro** - Adobe, versátil
 
-**Regra combinação:**
+**Regra combinaçêo:**
 - Sans com sans (ok, se contrast weight)
 - Serif com sans (clássico, funciona)
 - Nunca 3+ fontes
@@ -778,21 +778,21 @@ Text: #333333 (cinza escuro)
 
 **Illustrations:**
 - unDraw (customizável, moderno)
-- DrawKit (mão desenhado)
+- DrawKit (mêo desenhado)
 - Humaaans (personagens modulares)
 - Open Doodles (sketchy, friendly)
 
 **Regra:** Escolha 1 estilo. Use consistente.
 
-**Exemplo:** Se usa ícones linha fina, TODOS ícones linha fina. Não mistura com ícones sólidos.
+**Exemplo:** Se usa ícones linha fina, TODOS ícones linha fina. Nêo mistura com ícones sólidos.
 
 ## 4. Apresentações que Impressionam
 
-### 4.1 Estrutura Apresentação Profissional
+### 4.1 Estrutura Apresentaçêo Profissional
 
 **Slide 1 - Capa:**
 ```
-Título Apresentação
+Título Apresentaçêo
 [Visual impactante]
 Seu Nome | Data
 ```
@@ -838,14 +838,14 @@ Recapitulando:
 ```
 Próximos Passos
 
-[Ação clara]
+[Açêo clara]
 
 Contato:
 email@exemplo.com
 linkedin.com/in/seuperfil
 ```
 
-### 4.2 Templates Apresentação Canva
+### 4.2 Templates Apresentaçêo Canva
 
 **Busca:**
 - "Business presentation"
@@ -867,19 +867,19 @@ linkedin.com/in/seuperfil
 ### 4.3 Regra 10/20/30 (Guy Kawasaki)
 
 **10 slides:** Máximo em pitch
-**20 minutos:** Duração ideal
+**20 minutos:** Duraçêo ideal
 **30pt:** Fonte mínima
 
-**Aplica a qualquer apresentação:** Força concisão.
+**Aplica a qualquer apresentaçêo:** Força concisêo.
 
 ### 4.4 Data Visualization
 
 **Gráficos profissionais no Canva:**
 
 **Tipos:**
-- **Bar chart:** Comparação entre categorias
-- **Line chart:** Evolução no tempo
-- **Pie chart:** Proporções (use com moderação, max 5 fatias)
+- **Bar chart:** Comparaçêo entre categorias
+- **Line chart:** Evoluçêo no tempo
+- **Pie chart:** Proporções (use com moderaçêo, max 5 fatias)
 - **Donut chart:** Melhor que pie (centro livre pra label)
 - **Area chart:** Volume no tempo
 
@@ -907,16 +907,16 @@ linkedin.com/in/seuperfil
 - Fontes (1-2 fontes)
 - Elementos visuais (ícones, shapes)
 
-**Por que:** Reconhecimento. Profissionalismo. Coesão.
+**Por que:** Reconhecimento. Profissionalismo. Coesêo.
 
 ### 5.2 Criando Seu Brand Kit
 
 **Passo 1: Logo/Wordmark**
 
 Opções:
-1. **Iniciais:** JS (João Silva)
-2. **Nome completo:** João Silva [font especial]
-3. **Ícone + nome:** [symbol] João Silva
+1. **Iniciais:** JS (Joêo Silva)
+2. **Nome completo:** Joêo Silva [font especial]
+3. **Ícone + nome:** [symbol] Joêo Silva
 
 **No Canva:**
 1. Cria design (500×500)
@@ -976,7 +976,7 @@ Cria PDF "Brand Guidelines":
 [Página 4: Exemplos]
 - Post LinkedIn
 - Business card
-- Apresentação slide
+- Apresentaçêo slide
 ```
 
 **Tempo: 2h criar. Benefício: lifetime consistency.**
@@ -1007,8 +1007,8 @@ Cria PDF "Brand Guidelines":
 
 **Busca eficaz:**
 - Termos específicos ("woman laptop coffee shop" > "work")
-- Filtra por orientação (horizontal/vertical/square)
-- Evita clichês (não usa foto que todo mundo usa)
+- Filtra por orientaçêo (horizontal/vertical/square)
+- Evita clichês (nêo usa foto que todo mundo usa)
 
 ### 6.2 Ícones
 
@@ -1065,7 +1065,7 @@ Cria PDF "Brand Guidelines":
 4. **Paletton** - Visualiza combinações
 5. **Canva Color Palette Generator** - Extrai de foto
 
-**Inspiração:**
+**Inspiraçêo:**
 - Dribbble (designs profissionais)
 - Behance (portfolios)
 - Pinterest (busca "color palette [nicho]")
@@ -1089,9 +1089,9 @@ Cria carrossel 6 slides:
 4. Slide 6: CTA
 5. Usa seu brand kit
 
-**PARTE 3: Apresentação (20min)**
+**PARTE 3: Apresentaçêo (20min)**
 
-Cria mini apresentação 5 slides:
+Cria mini apresentaçêo 5 slides:
 1. Capa: Sobre você
 2. Quem sou
 3. O que faço
@@ -1103,7 +1103,7 @@ Usa template Canva, customiza com brand.
 **ENTREGA:**
 - Brand Guidelines (PDF)
 - Carrossel LinkedIn (PNG cada slide)
-- Apresentação (PDF)
+- Apresentaçêo (PDF)
 
 **BÔNUS:** Posta carrossel no LinkedIn! Tag #canva #design #conteudo
 
@@ -1125,4 +1125,4 @@ Nos vemos lá! 🚀
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

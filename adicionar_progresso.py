@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Script para adicionar seção de progresso em todos os módulos
+Script para adicionar seçêo de progresso em todos os módulos
 """
 
 import re
 
-# Seção de progresso HTML template
-SECAO_PROGRESSO = '''      <!-- Seção de Progresso -->
+# Seçêo de progresso HTML template
+SECAO_PROGRESSO = '''      <!-- Seçêo de Progresso -->
       <div class="mb-8 bg-white dark:bg-neutral-800 rounded-2xl p-8 border-2 border-operacional/30">
         <div class="text-center mb-6">
           <h3 class="text-2xl font-bold mb-2">Você completou este módulo?</h3>
@@ -48,19 +48,19 @@ for modulo in range(2, 11):
         with open(arquivo, 'r', encoding='utf-8') as f:
             conteudo = f.read()
 
-        # Procurar por navegação e adicionar seção de progresso antes
-        if '<!-- Seção de Progresso -->' not in conteudo:
+        # Procurar por navegaçêo e adicionar seçêo de progresso antes
+        if '<!-- Seçêo de Progresso -->' not in conteudo:
             secao = SECAO_PROGRESSO.format(modulo=modulo)
 
-            # Tentar encontrar a div de navegação
+            # Tentar encontrar a div de navegaçêo
             padrao_nav = r'(\n\s*<div class="bg-gradient-to-r from-operacional to-blue-600 text-white rounded-2xl p-8">)'
             if re.search(padrao_nav, conteudo):
                 conteudo = re.sub(padrao_nav, secao + r'\1', conteudo, count=1)
 
-            # Atualizar botão "Em breve" para link funcional (se existir)
+            # Atualizar botêo "Em breve" para link funcional (se existir)
             if modulo < 10:
                 proximo = modulo + 1
-                # Padrão: botão desabilitado
+                # Padrêo: botêo desabilitado
                 padrao_desabilitado = r'<button[^>]*disabled[^>]*>[\s\S]*?Módulo ' + str(proximo) + r'[^<]*<\/button>'
                 link_habilitado = f'<a href="modulo-{str(proximo).zfill(2)}.html" class="px-6 py-3 bg-white text-operacional rounded-lg font-semibold hover:bg-yellow-300 hover:text-neutral-900 transition-all">\n            Módulo {proximo} →\n          </a>'
                 conteudo = re.sub(padrao_desabilitado, link_habilitado, conteudo)
@@ -70,10 +70,10 @@ for modulo in range(2, 11):
 
             print(f'✅ Atualizado: modulo-{str(modulo).zfill(2)}.html')
         else:
-            print(f'⚠️  Já tem progresso ou sem navegação: modulo-{str(modulo).zfill(2)}.html')
+            print(f'⚠️  Já tem progresso ou sem navegaçêo: modulo-{str(modulo).zfill(2)}.html')
 
     except FileNotFoundError:
-        print(f'❌ Arquivo não encontrado: modulo-{str(modulo).zfill(2)}.html')
+        print(f'❌ Arquivo nêo encontrado: modulo-{str(modulo).zfill(2)}.html')
     except Exception as e:
         print(f'❌ Erro em modulo-{str(modulo).zfill(2)}.html: {e}')
 

@@ -1,20 +1,20 @@
-# Módulo 6: Apresentações e Vídeos com IA - Comunicação Multiplataforma
+# Módulo 6: Apresentações e Vídeos com IA - Comunicaçêo Multiplataforma
 
-**Duração:** 90 minutos
+**Duraçêo:** 90 minutos
 **Nível:** Intermediário
-**Objetivo:** Criar apresentações, podcasts e vídeos técnicos usando IA, adaptando para diferentes formas de consumo de informação
+**Objetivo:** Criar apresentações, podcasts e vídeos técnicos usando IA, adaptando para diferentes formas de consumo de informaçêo
 
 ---
 
 ## 🎯 O Que Você Vai Aprender
 
 ✅ Usar NotebookLM para transformar docs em podcasts automáticos
-✅ Criar avatares de apresentação com HeyGen
+✅ Criar avatares de apresentaçêo com HeyGen
 ✅ Converter vídeos longos em shorts com Podscap
 ✅ Apresentações automáticas com Gamma/Tome
 ✅ Adaptar conteúdo para diferentes estilos de aprendizado
 
-**Resultado:** Sistema completo de criação de conteúdo visual/audio em múltiplos formatos
+**Resultado:** Sistema completo de criaçêo de conteúdo visual/audio em múltiplos formatos
 
 ---
 
@@ -22,13 +22,13 @@
 
 **O Problema:**
 
-Você escreveu documentação técnica perfeita, mas:
+Você escreveu documentaçêo técnica perfeita, mas:
 - ❌ 40% do time prefere vídeo
 - ❌ 30% prefere ouvir (podcast/áudio)
 - ❌ 20% prefere slides
 - ❌ 10% lê docs completas
 
-**A Solução:** 1 conteúdo → 5 formatos com IA
+**A Soluçêo:** 1 conteúdo → 5 formatos com IA
 
 ### Os 4 Estilos de Aprendizado
 
@@ -48,8 +48,8 @@ Você escreveu documentação técnica perfeita, mas:
 Ferramenta do Google que transforma documentos em podcasts conversacionais com 2 apresentadores de IA.
 
 **Caso de uso:**
-- Documentação técnica → Podcast de 10 min
-- Post-mortem → Discussão em áudio
+- Documentaçêo técnica → Podcast de 10 min
+- Post-mortem → Discussêo em áudio
 - Guia de onboarding → Áudio para ouvir no carro
 
 ### Como Usar
@@ -59,7 +59,7 @@ Ferramenta do Google que transforma documentos em podcasts conversacionais com 2
 1. Acesse [notebooklm.google.com](https://notebooklm.google.com)
 2. Create new notebook
 3. Upload fontes:
-   - PDFs (documentação)
+   - PDFs (documentaçêo)
    - Markdown files (READMEs)
    - Google Docs
    - URLs (blog posts)
@@ -88,13 +88,13 @@ Ferramenta do Google que transforma documentos em podcasts conversacionais com 2
 ## Deploy Automation Bot
 
 Automatiza deploys via Slack...
-[documentação técnica completa]
+[documentaçêo técnica completa]
 ```
 
 **Output:** Podcast de 12 minutos
-- Apresentador 1: "Então, esse bot de deploy resolve um problema interessante..."
+- Apresentador 1: "Entêo, esse bot de deploy resolve um problema interessante..."
 - Apresentador 2: "Exato! Imagina fazer deploy manual 50 vezes por mês..."
-- [Discussão natural sobre o projeto]
+- [Discussêo natural sobre o projeto]
 
 ### Casos de Uso Práticos
 
@@ -119,7 +119,7 @@ Benefício:
 ```
 Input: Documento do incidente
 
-Output: Discussão sobre:
+Output: Discussêo sobre:
 - O que aconteceu
 - Por que aconteceu
 - O que aprendemos
@@ -128,13 +128,13 @@ Output: Discussão sobre:
 Compartilhar: Time todo ouve e entende
 ```
 
-**3. Transformar Documentação Chata**
+**3. Transformar Documentaçêo Chata**
 
 ```
 Input: 50 páginas de API docs
 
 Output: Série de podcasts por tema
-- Ep 1: Autenticação (10 min)
+- Ep 1: Autenticaçêo (10 min)
 - Ep 2: Endpoints principais (12 min)
 - Ep 3: Rate limiting e errors (8 min)
 
@@ -145,7 +145,7 @@ Time inteiro pode consumir no ritmo deles
 
 ✅ **Funciona melhor com:**
 - Docs bem estruturados (headers claros)
-- Tópicos específicos (não muito amplos)
+- Tópicos específicos (nêo muito amplos)
 - 5-20 páginas de conteúdo
 
 ❌ **Evite:**
@@ -155,23 +155,23 @@ Time inteiro pode consumir no ritmo deles
 
 **Prompt para melhorar input:**
 
-Se seus docs são ruins, use ChatGPT antes:
+Se seus docs sêo ruins, use ChatGPT antes:
 
 ```
-Reorganize esta documentação técnica para ser mais acessível:
+Reorganize esta documentaçêo técnica para ser mais acessível:
 
-[Cole documentação]
+[Cole documentaçêo]
 
 Formato:
 - Intro clara do problema
 - Seções bem definidas
 - Exemplos práticos
-- Conclusão com takeaways
+- Conclusêo com takeaways
 ```
 
 ---
 
-## 🎬 HeyGen: Avatares de Apresentação
+## 🎬 HeyGen: Avatares de Apresentaçêo
 
 ### O Que é HeyGen
 
@@ -179,13 +179,13 @@ Cria vídeos com avatares de IA apresentando seu conteúdo. Você pode usar avat
 
 **Casos de uso:**
 - Vídeos de treinamento técnico
-- Apresentação de features
+- Apresentaçêo de features
 - Tutoriais sem aparecer
 - Multi-idioma (avatar fala 40+ línguas)
 
 ### Setup Rápido
 
-**Opção 1: Avatar Genérico (Grátis)**
+**Opçêo 1: Avatar Genérico (Grátis)**
 
 1. [heygen.com](https://heygen.com) → Sign up (1 crédito grátis)
 2. Create Video
@@ -193,7 +193,7 @@ Cria vídeos com avatares de IA apresentando seu conteúdo. Você pode usar avat
 4. Escrever script ou upload
 5. Generate (2-5 min)
 
-**Opção 2: Clone de Voz/Rosto (Pago)**
+**Opçêo 2: Clone de Voz/Rosto (Pago)**
 
 ```
 Plan: $29/mês
@@ -223,11 +223,11 @@ Escreva script de vídeo de 2 minutos explicando:
 Feature: Sistema de cache automático em APIs
 Audiência: Desenvolvedores backend
 Tom: Técnico mas acessível
-Formato: Problema → Solução → Demo
+Formato: Problema → Soluçêo → Demo
 
 Incluir:
 - Hook inicial (por que importa)
-- Explicação técnica simples
+- Explicaçêo técnica simples
 - Exemplo de código
 - Call to action
 ```
@@ -270,9 +270,9 @@ Time global consome no idioma deles
 
 ```
 Template reutilizável:
-- Intro padrão (15 seg)
+- Intro padrêo (15 seg)
 - Conteúdo variável (2-3 min)
-- Outro padrão (10 seg)
+- Outro padrêo (10 seg)
 
 Criar 10 vídeos em 1 dia:
 10 scripts → HeyGen batch → 10 vídeos prontos
@@ -282,7 +282,7 @@ Criar 10 vídeos em 1 dia:
 
 ```
 Problema: Treinar 100 novos devs
-Solução tradicional: 50h de senior dev
+Soluçêo tradicional: 50h de senior dev
 
 Com HeyGen:
 - 10 vídeos de 5 min cada
@@ -315,7 +315,7 @@ Economia: 45h de senior dev
 Transforma vídeos longos (30-60 min) em clips curtos otimizados para TikTok/YouTube Shorts/Reels.
 
 **Ideal para:**
-- Gravou apresentação de 1h → 10 clips de 60 seg
+- Gravou apresentaçêo de 1h → 10 clips de 60 seg
 - Podcast longo → Highlights
 - Tutorial extenso → Dicas rápidas
 
@@ -332,12 +332,12 @@ Transforma vídeos longos (30-60 min) em clips curtos otimizados para TikTok/You
 **Passo a Passo:**
 
 ```
-1. Grave apresentação técnica (ex: demo de 30 min)
+1. Grave apresentaçêo técnica (ex: demo de 30 min)
 2. Upload no Podscap
 3. AI analisa e sugere 15-20 clips
 4. Review clips (aceitar/rejeitar)
 5. Customizar:
-   - Legendas (estilo, posição)
+   - Legendas (estilo, posiçêo)
    - Aspect ratio (9:16 para Shorts, 1:1 para Instagram)
    - Adicionar CTA (final do clip)
 6. Download todos os clips
@@ -355,7 +355,7 @@ Podscap identifica:
 
 Clip 1 (60 seg): "3 erros comuns em pipelines de CI"
 Clip 2 (45 seg): "Como reduzimos build de 20min → 5min"
-Clip 3 (50 seg): "Demonstração: Cache layers no Docker"
+Clip 3 (50 seg): "Demonstraçêo: Cache layers no Docker"
 Clip 4 (55 seg): "Por que GitHub Actions > Jenkins"
 Clip 5 (40 seg): "Métricas que importam em CI/CD"
 ...
@@ -367,12 +367,12 @@ Output:
 - Hooks otimizados
 - CTAs (link na bio)
 
-Distribuição:
+Distribuiçêo:
 - 3 clips/semana no YouTube Shorts
 - 2 clips/semana no LinkedIn
 - 1 clip/semana no TikTok
 
-→ 5 semanas de conteúdo de 1 gravação!
+→ 5 semanas de conteúdo de 1 gravaçêo!
 ```
 
 ### Otimizando para Virality
@@ -399,7 +399,7 @@ Estrutura de fala:
 
 "Sabe aquele problema de [X]? [PAUSA]
 A maioria das pessoas faz [Y]. [PAUSA]
-Mas a verdadeira solução é [Z]." [MOSTRAR NA TELA]
+Mas a verdadeira soluçêo é [Z]." [MOSTRAR NA TELA]
 
 → Isso vira clip perfeito de 45 seg
 ```
@@ -425,7 +425,7 @@ Mas a verdadeira solução é [Z]." [MOSTRAR NA TELA]
 - Muito texto
 - Foco errado (beleza > conteúdo)
 
-**Solução IA:**
+**Soluçêo IA:**
 - Outline → Slides prontos em 3 minutos
 - Design profissional automático
 - Conteúdo visual otimizado
@@ -501,7 +501,7 @@ Slide 8: Call-to-action
 
 ```
 - Escrever post blog (com IA)
-- Incluir: problema, solução, código, métricas
+- Incluir: problema, soluçêo, código, métricas
 - Publicar no blog
 ```
 
@@ -523,7 +523,7 @@ Slide 8: Call-to-action
 - Export PDF
 ```
 
-**Etapa 4: HeyGen → Vídeo Apresentação (15 min)**
+**Etapa 4: HeyGen → Vídeo Apresentaçêo (15 min)**
 
 ```
 - Resumir post em script 3 min
@@ -547,7 +547,7 @@ De **1 problema resolvido**, você criou:
 
 1. ✅ Post de blog (SEO, evergreen)
 2. ✅ Podcast de 12 min (Spotify, Apple Podcasts)
-3. ✅ Apresentação PDF (compartilhável)
+3. ✅ Apresentaçêo PDF (compartilhável)
 4. ✅ Vídeo YouTube 3 min (long-form)
 5. ✅ 8 YouTube Shorts (viral potential)
 6. ✅ 8 LinkedIn vídeos (professional reach)
@@ -556,7 +556,7 @@ De **1 problema resolvido**, você criou:
 9. ✅ Post LinkedIn (teaser + link)
 10. ✅ Email newsletter (se tiver lista)
 
-**Distribuição:** 4-6 semanas de conteúdo multi-formato!
+**Distribuiçêo:** 4-6 semanas de conteúdo multi-formato!
 
 ---
 
@@ -600,7 +600,7 @@ De **1 problema resolvido**, você criou:
 | **Podscap** | Vídeo → Shorts | $29/mês | Reaproveitar conteúdo |
 | **Gamma** | Slides auto | Grátis (limit) | Presentations |
 | **Tome** | Visual storytelling | Grátis (limit) | Showcases |
-| **Descript** | Edição vídeo/áudio | $12/mês | Controle total |
+| **Descript** | Ediçêo vídeo/áudio | $12/mês | Controle total |
 | **Riverside.fm** | Gravar podcasts | $15/mês | Entrevistas |
 | **Loom** | Screencasts | $8/mês | Demos rápidas |
 
@@ -639,18 +639,18 @@ Sempre:
 1. **Blog/Docs** (núcleo, SEO)
 2. **Podcast** (auditivo)
 3. **Slides** (visual)
-4. **Vídeo** (combinação)
-5. **Shorts** (distribuição)
+4. **Vídeo** (combinaçêo)
+5. **Shorts** (distribuiçêo)
 
-Blog é a fonte da verdade, resto é distribuição.
+Blog é a fonte da verdade, resto é distribuiçêo.
 
 ### 2. Batch Production
 
-Não faça: 1 conteúdo toda semana
+Nêo faça: 1 conteúdo toda semana
 Faça: 4 conteúdos em 1 dia/mês
 
-**Dia de criação (1x/mês, 6h):**
-- Manhã: 4 posts de blog (IA)
+**Dia de criaçêo (1x/mês, 6h):**
+- Manhê: 4 posts de blog (IA)
 - Tarde: 4 podcasts + 4 decks de slides
 - Noite: 4 vídeos HeyGen
 
@@ -664,7 +664,7 @@ Crie uma vez, use sempre:
 ```
 Slide 1: Problem (visual de caos)
 Slide 2-3: Context (tech stack)
-Slide 4-6: Solution (code + explicação)
+Slide 4-6: Solution (code + explicaçêo)
 Slide 7: Results (métricas grandes)
 Slide 8: CTA
 ```
@@ -708,7 +708,7 @@ Vamos aplicar tudo isso em **redes sociais técnicas** (LinkedIn, Twitter, Dev.t
 
 ## 📚 Recursos
 
-**IA de Apresentação:**
+**IA de Apresentaçêo:**
 - [Gamma.ai](https://gamma.app)
 - [Tome.app](https://tome.app)
 - [Beautiful.ai](https://beautiful.ai)
@@ -731,7 +731,7 @@ Vamos aplicar tudo isso em **redes sociais técnicas** (LinkedIn, Twitter, Dev.t
 ---
 
 **Tempo:** 2-3h setup inicial
-**Manutenção:** 2-3h/mês (batch)
+**Manutençêo:** 2-3h/mês (batch)
 **ROI:** Alcance 10x maior, audiências diversas
 
 **Próximo módulo:** Módulo 7 - Redes Sociais Técnicas em Escala

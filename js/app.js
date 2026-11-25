@@ -92,7 +92,7 @@ const quizData = [
   {
     question: "O que você mais quer conseguir?",
     options: [
-      { text: "Produtividade e organização, trabalhar menos horas", trilha: "operacional", emoji: "✅" },
+      { text: "Produtividade e organizaçêo, trabalhar menos horas", trilha: "operacional", emoji: "✅" },
       { text: "Vender mais e atender melhor meus clientes", trilha: "comunicador", emoji: "💰" },
       { text: "Conseguir minha primeira oportunidade profissional", trilha: "talento", emoji: "🎯" },
       { text: "Evoluir na carreira e ser reconhecido", trilha: "tecnico", emoji: "📈" }
@@ -263,7 +263,7 @@ function showResult() {
         'Automatizar 80% das tarefas repetitivas',
         'Recuperar 15-20 horas por semana',
         'Criar 10+ automações funcionando sozinhas',
-        'Ganhar reconhecimento e promoção'
+        'Ganhar reconhecimento e promoçêo'
       ],
       link: 'trilhas/operacional.html'
     },
@@ -272,7 +272,7 @@ function showResult() {
       color: 'comunicador',
       emoji: '🟢',
       chamada: 'Atenda Mais, Venda Mais, Sem Perder a Qualidade',
-      descricao: 'Você lida com clientes diariamente e perde oportunidades por falta de tempo. Sua trilha ideal vai te ensinar a atender 3x mais clientes e aumentar conversão em 50%.',
+      descricao: 'Você lida com clientes diariamente e perde oportunidades por falta de tempo. Sua trilha ideal vai te ensinar a atender 3x mais clientes e aumentar conversêo em 50%.',
       resultados: [
         'Atender 3x mais clientes no mesmo tempo',
         'Aumentar suas vendas em 50%',
@@ -305,7 +305,7 @@ function showResult() {
         'Comunicar valor técnico de forma clara',
         'Construir autoridade reconhecida na área',
         'Receber propostas 2-3x mais valorizadas',
-        'Transição: Executor → Consultor/Líder'
+        'Transiçêo: Executor → Consultor/Líder'
       ],
       link: 'trilhas/tecnico.html'
     }
@@ -354,7 +354,7 @@ function showResult() {
     </div>
 
     <div class="mt-8 text-center text-sm text-neutral-600 dark:text-neutral-400">
-      <p>💡 Não concorda com o resultado? Explore todas as <a href="#trilhas" class="text-${trilha.color} font-semibold hover:underline">4 trilhas disponíveis</a></p>
+      <p>💡 Nêo concorda com o resultado? Explore todas as <a href="#trilhas" class="text-${trilha.color} font-semibold hover:underline">4 trilhas disponíveis</a></p>
     </div>
   `;
 
@@ -416,7 +416,7 @@ function moduloConcluido(trilha, modulo) {
   return progresso[trilha]?.includes(modulo) || false;
 }
 
-// Calcular % de conclusão de uma trilha
+// Calcular % de conclusêo de uma trilha
 function calcularProgresso(trilha) {
   let progresso = JSON.parse(localStorage.getItem('fetd_progresso') || '{}');
   let concluidos = progresso[trilha]?.length || 0;
@@ -427,7 +427,7 @@ function calcularProgresso(trilha) {
   };
 }
 
-// Obter próximo módulo não concluído
+// Obter próximo módulo nêo concluído
 function proximoModulo(trilha) {
   let progresso = JSON.parse(localStorage.getItem('fetd_progresso') || '{}');
   let concluidos = progresso[trilha] || [];
@@ -443,7 +443,7 @@ function proximoModulo(trilha) {
 
 // Atualizar UI após marcar módulo como concluído
 function atualizarUIProgresso(trilha, modulo) {
-  // Atualizar botão de conclusão
+  // Atualizar botêo de conclusêo
   const btnConcluir = document.getElementById('btn-concluir-modulo');
   if (btnConcluir) {
     btnConcluir.innerHTML = '✓ Módulo Concluído!';

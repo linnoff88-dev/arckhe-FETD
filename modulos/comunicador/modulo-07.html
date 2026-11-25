@@ -13,7 +13,7 @@ A taxa de abertura do WhatsApp é de **98%** (sim, noventa e oito por cento). Co
 
 E tem mais: a taxa de resposta no WhatsApp é de **45-60%**, enquanto no e-mail raramente passa de 5%.
 
-Ou seja, **WhatsApp é o canal de comunicação mais eficaz que existe hoje**. O problema? Não escala. Ou melhor, não escalava.
+Ou seja, **WhatsApp é o canal de comunicaçêo mais eficaz que existe hoje**. O problema? Nêo escala. Ou melhor, nêo escalava.
 
 ### WhatsApp Tradicional vs Business vs Business API
 
@@ -23,28 +23,28 @@ Vamos esclarecer as diferenças porque muita gente confunde:
 - App verde que todo mundo tem no celular
 - Grátis
 - Pessoal
-- Limitação: apenas 1 dispositivo, comunicação manual
+- Limitaçêo: apenas 1 dispositivo, comunicaçêo manual
 - **Quando usar:** Nunca para negócios sérios
 
 **WhatsApp Business (app azul):**
-- Versão gratuita para pequenos negócios
+- Versêo gratuita para pequenos negócios
 - Permite perfil comercial, catálogo de produtos
 - Respostas rápidas e mensagens automáticas básicas
-- Limitação: ainda vinculado a 1 celular, sem integrações avançadas
+- Limitaçêo: ainda vinculado a 1 celular, sem integrações avançadas
 - **Quando usar:** Até ~50 conversas/dia, negócios bem pequenos
 
 **WhatsApp Business API:**
-- Solução oficial para médias e grandes empresas
+- Soluçêo oficial para médias e grandes empresas
 - Totalmente integrado com sistemas (CRM, chatbots, automações)
 - Múltiplos atendentes simultâneos
 - Mensagens em massa (com regras)
 - Templates pré-aprovados pelo WhatsApp
 - Custo: varia (R$ 0,05 a R$ 0,30 por mensagem + custo da plataforma)
-- **Quando usar:** 50+ conversas/dia, quando precisa de automação real
+- **Quando usar:** 50+ conversas/dia, quando precisa de automaçêo real
 
 ### Como Funciona a WhatsApp Business API
 
-Diferente do app que você instala no celular, a API é uma **conexão entre seu sistema e os servidores do WhatsApp**.
+Diferente do app que você instala no celular, a API é uma **conexêo entre seu sistema e os servidores do WhatsApp**.
 
 **Fluxo simplificado:**
 ```
@@ -62,10 +62,10 @@ Cliente recebe no WhatsApp dele
 **Vantagens:**
 ✅ Múltiplos atendentes usando o mesmo número
 ✅ Chatbot 24/7
-✅ Integração com CRM (histórico completo)
+✅ Integraçêo com CRM (histórico completo)
 ✅ Disparo de mensagens baseado em eventos (compra, abandono carrinho, etc)
 ✅ Analytics detalhado
-✅ Mensagens multimídia (imagem, vídeo, PDF, localização)
+✅ Mensagens multimídia (imagem, vídeo, PDF, localizaçêo)
 
 **Desvantagens:**
 ❌ Custo por mensagem
@@ -77,19 +77,19 @@ Cliente recebe no WhatsApp dele
 
 Existem três formas de acessar a API:
 
-**Opção 1: Diretamente com Facebook/Meta (gratuito, mas complexo)**
+**Opçêo 1: Diretamente com Facebook/Meta (gratuito, mas complexo)**
 - Requer conta Meta Business Manager
-- Processo de verificação comercial (1-2 semanas)
-- Precisa desenvolver ou contratar integração técnica
+- Processo de verificaçêo comercial (1-2 semanas)
+- Precisa desenvolver ou contratar integraçêo técnica
 - **Recomendado para:** Empresas com equipe técnica interna
 
-**Opção 2: Via provedor oficial (Twilio, Zenvia, Sinch, etc)**
+**Opçêo 2: Via provedor oficial (Twilio, Zenvia, Sinch, etc)**
 - Mais fácil de configurar
 - Já vem com painel de controle
 - Custo: taxa de mensagem + mensalidade do provedor
 - **Recomendado para:** Maioria das empresas
 
-**Opção 3: Plataformas de chatbot (Manychat, Botmaker, Typebot)**
+**Opçêo 3: Plataformas de chatbot (Manychat, Botmaker, Typebot)**
 - Mais simples e visual
 - Interface drag-and-drop para criar fluxos
 - Custo: geralmente mensalidade fixa
@@ -105,17 +105,17 @@ Existem três formas de acessar a API:
 **Passo 2: Solicitar Número WhatsApp**
 - No painel Twilio, vá em "Messaging" → "Try it out" → "Send a WhatsApp message"
 - Escolha número (formato: +1 XXX XXX XXXX)
-- Aguarde aprovação (geralmente instantâneo para testes, 1-3 dias para produção)
+- Aguarde aprovaçêo (geralmente instantâneo para testes, 1-3 dias para produçêo)
 
 **Passo 3: Configurar Perfil Comercial**
 - Nome da empresa
-- Descrição
+- Descriçêo
 - Categoria do negócio
 - Site
 - Logo (importante para credibilidade)
 
 **Passo 4: Criar Templates de Mensagem**
-Templates são mensagens pré-aprovadas que você pode enviar fora da janela de 24h.
+Templates sêo mensagens pré-aprovadas que você pode enviar fora da janela de 24h.
 
 Exemplo de template:
 ```
@@ -135,7 +135,7 @@ Posso ajudar com:
 2️⃣ Agendar conversa
 3️⃣ Ver cases de sucesso
 
-É só responder o número da opção!
+É só responder o número da opçêo!
 
 Variáveis:
 {{1}} = nome do lead
@@ -145,7 +145,7 @@ Variáveis:
 
 **IMPORTANTE:** WhatsApp leva 1-3 dias para aprovar cada template. Submeta vários de uma vez.
 
-**Passo 5: Integração com Chatbot ou CRM**
+**Passo 5: Integraçêo com Chatbot ou CRM**
 - Se usar Zapier: conecte Twilio → seu CRM
 - Se usar plataforma de chatbot: conecte diretamente
 - Configure webhooks para receber mensagens
@@ -154,7 +154,7 @@ Variáveis:
 - Envie mensagem de teste
 - Verifique se resposta automática funciona
 - Teste fluxo completo do chatbot
-- Valide integração com CRM
+- Valide integraçêo com CRM
 
 ### Custos Reais da WhatsApp API
 
@@ -162,8 +162,8 @@ Variáveis:
 
 1. **Mensagens iniciadas pelo negócio (você envia primeiro):**
    - Marketing: ~R$ 0,30 por mensagem
-   - Utilidade (confirmação pedido, senha, etc): ~R$ 0,08
-   - Autenticação: ~R$ 0,05
+   - Utilidade (confirmaçêo pedido, senha, etc): ~R$ 0,08
+   - Autenticaçêo: ~R$ 0,05
    - Service (atendimento): ~R$ 0,15
 
 2. **Mensagens iniciadas pelo usuário (cliente manda primeiro):**
@@ -192,33 +192,33 @@ Compare com: contratar 1 atendente (R$ 2.500/mês) que atende no máximo 100 con
 **1. Janela de 24 horas**
 - Depois que o cliente envia mensagem, você tem 24h para responder livremente
 - Após 24h, só pode enviar templates pré-aprovados
-- **Solução:** Crie templates para todas as situações comuns
+- **Soluçêo:** Crie templates para todas as situações comuns
 
 **2. Limite de mensagens ativas (que você inicia)**
 - Começa com limite baixo (1.000/dia)
 - Aumenta conforme qualidade do serviço e volume
 - Taxa de bloqueio/spam afeta limite
-- **Solução:** Mantenha qualidade alta, só envie para quem opted-in
+- **Soluçêo:** Mantenha qualidade alta, só envie para quem opted-in
 
 **3. Proibições**
 - ❌ Mensagens promocionais sem contexto
-- ❌ Envio em massa sem permissão
+- ❌ Envio em massa sem permissêo
 - ❌ Conteúdo enganoso ou sensacionalista
 - ❌ Vendas de produtos proibidos
-- **Solução:** Sempre peça permissão explícita antes de adicionar em lista
+- **Soluçêo:** Sempre peça permissêo explícita antes de adicionar em lista
 
 **4. Taxa de qualidade**
 - WhatsApp monitora bloqueios e denúncias
 - Se taxa de bloqueio > 2%, seu número pode ser banido
-- **Solução:** Só envie conteúdo relevante, facilite opt-out
+- **Soluçêo:** Só envie conteúdo relevante, facilite opt-out
 
 ---
 
-## Respostas Automáticas Inteligentes: Chatbots que Não Parecem Robôs
+## Respostas Automáticas Inteligentes: Chatbots que Nêo Parecem Robôs
 
 A diferença entre um chatbot irritante e um chatbot útil está em 3 coisas:
 1. **Contexto**: Sabe quem é a pessoa e o que ela quer
-2. **Linguagem natural**: Não parece script de telemarketing
+2. **Linguagem natural**: Nêo parece script de telemarketing
 3. **Escape rápido**: Deixa falar com humano quando necessário
 
 ### Anatomia de um Chatbot de WhatsApp Eficaz
@@ -228,7 +228,7 @@ A diferença entre um chatbot irritante e um chatbot útil está em 3 coisas:
 ```
 [Cliente envia mensagem]
     ↓
-[Saudação personalizada]
+[Saudaçêo personalizada]
 "Oi {{nome}}! Tudo bem?"
     ↓
 [Reconhecimento de contexto]
@@ -236,14 +236,14 @@ A diferença entre um chatbot irritante e um chatbot útil está em 3 coisas:
     ↓
 [Menu de opções]
 "Posso ajudar com:
-1️⃣ [Opção A]
-2️⃣ [Opção B]
-3️⃣ [Opção C]
+1️⃣ [Opçêo A]
+2️⃣ [Opçêo B]
+3️⃣ [Opçêo C]
 4️⃣ Falar com atendente"
     ↓
 [Fluxo específico baseado na resposta]
     ↓
-[Resolução ou encaminhamento para humano]
+[Resoluçêo ou encaminhamento para humano]
 ```
 
 ### Exemplo Real: Chatbot para Captura de Leads
@@ -271,7 +271,7 @@ Só para eu te ajudar melhor: o que te motivou a baixar? (pode ser bem direto!)
 [Lead responde: "Quero melhorar vendas da minha empresa"]
     ↓
 Bot:
-Entendi! Melhorar vendas é prioridade aí na {{empresa}} então.
+Entendi! Melhorar vendas é prioridade aí na {{empresa}} entêo.
 
 Qual o principal desafio hoje?
 
@@ -283,16 +283,16 @@ Qual o principal desafio hoje?
 [Lead: 1]
     ↓
 Bot:
-Geração de leads, anotado!
+Geraçêo de leads, anotado!
 
-Vocês já usam alguma ferramenta de automação ou é tudo manual hoje?
+Vocês já usam alguma ferramenta de automaçêo ou é tudo manual hoje?
 
 [Lead: "Tudo manual ainda"]
     ↓
 Bot:
 Entendo! Muitos clientes começaram exatamente aí.
 
-Deixa eu te mostrar algo legal: preparei um vídeo de 3min mostrando como empresas {{tamanho_empresa}} automatizaram geração de leads e saíram de {{metrica_antes}} para {{metrica_depois}}.
+Deixa eu te mostrar algo legal: preparei um vídeo de 3min mostrando como empresas {{tamanho_empresa}} automatizaram geraçêo de leads e saíram de {{metrica_antes}} para {{metrica_depois}}.
 
 [Link do vídeo]
 
@@ -306,7 +306,7 @@ Beleza?
 
 [Lead: "Beleza, vou ver"]
     ↓
-[24h depois - se não respondeu]
+[24h depois - se nêo respondeu]
 
 Bot:
 E aí {{nome}}, conseguiu dar uma olhada no material?
@@ -315,7 +315,7 @@ Qualquer dúvida, é só chamar!
 
 Se preferir, posso já te passar os horários disponíveis para uma call rápida:
 
-📅 Amanhã 14h
+📅 Amanhê 14h
 📅 Quinta 10h
 📅 Sexta 16h
 
@@ -330,24 +330,24 @@ Acabei de enviar o link do Google Meet por e-mail.
 
 Até lá! 👊
 
-[Se lead não responder em 48h]
+[Se lead nêo responder em 48h]
     ↓
 Bot:
 {{nome}}, imagino que esteja super corrido aí!
 
-Sem pressão, tá? Quando fizer sentido, estou por aqui.
+Sem pressêo, tá? Quando fizer sentido, estou por aqui.
 
 Se quiser, deixo você no loop das nossas atualizações semanais sobre {{topico_interesse}} (é 1 mensagem/semana, bem prática).
 
 Topa?
 
 [Se sim, adiciona em broadcast]
-[Se não, remove da automação ativa mas mantém no CRM]
+[Se nêo, remove da automaçêo ativa mas mantém no CRM]
 ```
 
 ### FAQ Automático: Respondendo Dúvidas Comuns Instantaneamente
 
-**80% das perguntas que você recebe são as mesmas 20 perguntas.**
+**80% das perguntas que você recebe sêo as mesmas 20 perguntas.**
 
 Configure respostas automáticas para:
 
@@ -378,9 +378,9 @@ Lead: "Quanto tempo demora?"
 Bot:
 Depende do escopo, mas geralmente:
 
-📦 Implementação básica: 7-14 dias
-📦 Implementação completa: 30-45 dias
-📦 Customização avançada: 60-90 dias
+📦 Implementaçêo básica: 7-14 dias
+📦 Implementaçêo completa: 30-45 dias
+📦 Customizaçêo avançada: 60-90 dias
 
 Para {{empresa}}, baseado no que você mencionou sobre {{contexto}}, meu palpite é que ficaria em torno de {{prazo_estimado}}.
 
@@ -410,17 +410,17 @@ Enquanto assiste, já vou adiantando: qual parte te interessa mais? Posso detalh
 
 ### Processamento de Linguagem Natural (NLP)
 
-Chatbots avançados entendem intenção, não apenas palavras-chave.
+Chatbots avançados entendem intençêo, nêo apenas palavras-chave.
 
 **Exemplo de NLP básico:**
 
 ```
 Lead: "Tô querendo melhorar as vendas aqui"
 Lead: "Preciso vender mais"
-Lead: "Como aumentar conversão?"
+Lead: "Como aumentar conversêo?"
 Lead: "Quero mais clientes"
 
-→ Todas detectadas como INTENÇÃO: Aumentar vendas
+→ Todas detectadas como INTENÇêO: Aumentar vendas
 → Acionam mesmo fluxo de resposta
 ```
 
@@ -437,9 +437,9 @@ Lead: "Quero mais clientes"
 **Sinais para transferir:**
 - Lead frustrado ("Quero falar com alguém!")
 - Pergunta muito específica/técnica
-- Negociação de valores (leads quentes)
-- Reclamação ou problema urgente
-- Após 3 tentativas de não entender
+- Negociaçêo de valores (leads quentes)
+- Reclamaçêo ou problema urgente
+- Após 3 tentativas de nêo entender
 
 **Mensagem de transferência:**
 
@@ -466,40 +466,40 @@ Como posso ajudar?
 
 ---
 
-## Triagem de Mensagens: Urgente vs Não-Urgente
+## Triagem de Mensagens: Urgente vs Nêo-Urgente
 
 Com volume alto de mensagens, você precisa priorizar. Nem tudo precisa de resposta imediata.
 
-### Sistema de Classificação Automática
+### Sistema de Classificaçêo Automática
 
 **Nível 1: CRÍTICO (resposta em minutos)**
 - Cliente com problema em produto/serviço ativo
 - Lead quente prestes a fechar
-- Menções a "urgente", "problema", "não funciona"
+- Menções a "urgente", "problema", "nêo funciona"
 - Valor alto em jogo
 
 **Nível 2: IMPORTANTE (resposta em horas)**
 - Leads qualificados fazendo perguntas
 - Solicitações de proposta
 - Dúvidas pré-venda
-- Follow-up de reunião
+- Follow-up de reuniêo
 
 **Nível 3: NORMAL (resposta em 24h)**
 - Leads frios explorando
 - Perguntas gerais
-- Solicitações de informação básica
+- Solicitações de informaçêo básica
 
 **Nível 4: BAIXA PRIORIDADE (pode ser só chatbot)**
 - FAQ simples
 - Confirmações automáticas
 - Opt-in/opt-out de listas
 
-### Automação da Triagem
+### Automaçêo da Triagem
 
 **Via palavras-chave:**
 
 ```
-SE mensagem contém ["urgente", "problema", "não funciona", "parou"]
+SE mensagem contém ["urgente", "problema", "nêo funciona", "parou"]
   → Prioridade: CRÍTICA
   → Notificar atendente via SMS
   → SLA: 15 minutos
@@ -510,10 +510,10 @@ SE mensagem contém ["proposta", "orçamento", "quanto custa", "preço"]
   → Atribuir para vendedor
   → SLA: 2 horas
 
-SE mensagem contém ["informação", "como funciona", "dúvida"]
+SE mensagem contém ["informaçêo", "como funciona", "dúvida"]
   → Prioridade: NORMAL
   → Chatbot responde
-  → Se não resolver, vai para fila humana
+  → Se nêo resolver, vai para fila humana
   → SLA: 24 horas
 ```
 
@@ -523,17 +523,17 @@ SE mensagem contém ["informação", "como funciona", "dúvida"]
 Mensagem: "Isso tá uma m***, nada funciona!"
 → Sentimento: NEGATIVO (90%)
 → Tom: FRUSTRADO
-→ Ação: ESCALAR IMEDIATAMENTE para gerente
+→ Açêo: ESCALAR IMEDIATAMENTE para gerente
 
 Mensagem: "Adorei o material, quero saber mais!"
 → Sentimento: POSITIVO (85%)
 → Tom: INTERESSADO
-→ Ação: Priorizar para vendedor
+→ Açêo: Priorizar para vendedor
 
 Mensagem: "Ok, vou pensar"
 → Sentimento: NEUTRO (50%)
 → Tom: INDECISO
-→ Ação: Sequência de nutrição automática
+→ Açêo: Sequência de nutriçêo automática
 ```
 
 ### Dashboard de Triagem
@@ -543,12 +543,12 @@ Mensagem: "Ok, vou pensar"
 **1. Zendesk + WhatsApp**
 - Tickets automáticos por prioridade
 - SLA configurável
-- Distribuição automática por atendente
+- Distribuiçêo automática por atendente
 - Custo: a partir de $49/agente/mês
 
 **2. Hubspot Service Hub**
-- Integração nativa com WhatsApp via parceiros
-- Automação de filas
+- Integraçêo nativa com WhatsApp via parceiros
+- Automaçêo de filas
 - Chatbot + transferência para humano
 - Custo: grátis até 2 usuários, depois $45/usuário/mês
 
@@ -560,15 +560,15 @@ Mensagem: "Ok, vou pensar"
 
 ---
 
-## Integração Multi-Canal: WhatsApp + CRM + Email
+## Integraçêo Multi-Canal: WhatsApp + CRM + Email
 
 O verdadeiro poder vem quando todos os canais conversam entre si.
 
-### Visão Unificada do Cliente
+### Visêo Unificada do Cliente
 
 **Problema:** Cliente manda e-mail, depois DM no Instagram, depois WhatsApp. Você perde contexto.
 
-**Solução:** CRM que centraliza tudo.
+**Soluçêo:** CRM que centraliza tudo.
 
 **Como funciona:**
 
@@ -578,21 +578,21 @@ O verdadeiro poder vem quando todos os canais conversam entre si.
 Timeline unificada:
 - 01/03 10h: Baixou e-book (site)
 - 01/03 10h: Recebeu e-mail de boas-vindas (automático)
-- 02/03 15h: Abriu e-mail (não clicou)
+- 02/03 15h: Abriu e-mail (nêo clicou)
 - 03/03 11h: Visitou página de preços (site)
 - 03/03 11h: Recebeu WhatsApp de follow-up (automático)
 - 03/03 14h: Respondeu WhatsApp interessado
-- 03/03 14h30: Atendente João conversou via WhatsApp
+- 03/03 14h30: Atendente Joêo conversou via WhatsApp
 - 04/03 9h: Enviada proposta por e-mail
-- 04/03 10h: João visualizou proposta (tracked)
-- 04/03 11h: João mandou DM no Instagram perguntando desconto
+- 04/03 10h: Joêo visualizou proposta (tracked)
+- 04/03 11h: Joêo mandou DM no Instagram perguntando desconto
 - 04/03 11h15: Atendente respondeu Instagram (viu contexto da proposta)
-- 05/03 16h: João fechou compra!
+- 05/03 16h: Joêo fechou compra!
 ```
 
-**Tudo registrado. Zero perda de informação.**
+**Tudo registrado. Zero perda de informaçêo.**
 
-### Setup de Integração Completa
+### Setup de Integraçêo Completa
 
 **Cenário real:** E-commerce de cursos online
 
@@ -600,7 +600,7 @@ Timeline unificada:
 - **CRM:** HubSpot (grátis até 1.000 contatos)
 - **WhatsApp:** Twilio API
 - **E-mail:** ActiveCampaign
-- **Automação:** Zapier ou Make
+- **Automaçêo:** Zapier ou Make
 
 **Fluxo integrado:**
 
@@ -608,7 +608,7 @@ Timeline unificada:
 ```
 [Visitante preenche formulário no site]
     ↓
-[Zapier captura submissão]
+[Zapier captura submissêo]
     ↓
 [Cria/atualiza contato no HubSpot]
     ↓
@@ -621,22 +621,22 @@ Timeline unificada:
 [Tudo registrado na timeline do HubSpot]
 ```
 
-**2. Nutrição Multi-Canal:**
+**2. Nutriçêo Multi-Canal:**
 ```
 DIA 1:
 - 10h: E-mail com e-book
 - 10h05: WhatsApp confirmando envio
 
 DIA 2:
-- Se abriu e-mail mas não clicou: WhatsApp perguntando se tem dúvida
-- Se não abriu e-mail: apenas aguarda
+- Se abriu e-mail mas nêo clicou: WhatsApp perguntando se tem dúvida
+- Se nêo abriu e-mail: apenas aguarda
 
 DIA 4:
 - Se visitou página de preços: WhatsApp + E-mail com proposta
-- Se não visitou: E-mail com case de sucesso
+- Se nêo visitou: E-mail com case de sucesso
 
 DIA 7:
-- Se não converteu: E-mail + WhatsApp com última chance / bônus
+- Se nêo converteu: E-mail + WhatsApp com última chance / bônus
 - Se converteu: E-mail de onboarding + WhatsApp de boas-vindas
 ```
 
@@ -646,7 +646,7 @@ DIA 7:
     ↓
 [HubSpot atualiza status para "cliente"]
     ↓
-[Remove de listas de prospecção]
+[Remove de listas de prospecçêo]
     ↓
 [Adiciona em lista de clientes]
     ↓
@@ -656,7 +656,7 @@ DIA 7:
     ↓
 [DIA 3: WhatsApp: "Conseguiu acessar tudo bem?"]
     ↓
-[DIA 7: E-mail: "Como estão os primeiros passos?"]
+[DIA 7: E-mail: "Como estêo os primeiros passos?"]
     ↓
 [DIA 30: WhatsApp: "Feedback sobre o curso?"]
 ```
@@ -665,41 +665,41 @@ DIA 7:
 
 **Problema:** Cliente recebe e-mail + WhatsApp + LinkedIn ao mesmo tempo = spam.
 
-**Solução:** Regras de supressão.
+**Soluçêo:** Regras de supressêo.
 
 **Exemplo de lógica:**
 
 ```
 SE enviou_whatsapp_nas_ultimas_4h == TRUE
-  → NÃO enviar e-mail até passar 4h
+  → NêO enviar e-mail até passar 4h
 
 SE abriu_whatsapp_mas_nao_respondeu
-  → Não enviar novo WhatsApp por 24h
+  → Nêo enviar novo WhatsApp por 24h
   → OK enviar e-mail
 
 SE respondeu_whatsapp == TRUE
-  → Pausar automações de e-mail (conversação ativa)
+  → Pausar automações de e-mail (conversaçêo ativa)
 
 SE marcou_como_spam OU pediu_para_parar
   → Remover de TODAS as automações
   → Flag no CRM
 ```
 
-### Template de Integração: Zapier (Sem Código)
+### Template de Integraçêo: Zapier (Sem Código)
 
 **Zap 1: Novo Lead → HubSpot + WhatsApp**
 
 ```
 Trigger: Novo envio de formulário (Typeform/Google Forms)
     ↓
-Ação 1: Criar/Atualizar contato no HubSpot
+Açêo 1: Criar/Atualizar contato no HubSpot
     ↓
-Ação 2: Adicionar à lista "Leads Novos"
+Açêo 2: Adicionar à lista "Leads Novos"
     ↓
-Ação 3: Enviar WhatsApp via Twilio
+Açêo 3: Enviar WhatsApp via Twilio
     Mensagem: "Oi {{nome}}! Vi que você se interessou por {{produto}}..."
     ↓
-Ação 4: Criar nota no HubSpot registrando envio do WhatsApp
+Açêo 4: Criar nota no HubSpot registrando envio do WhatsApp
 ```
 
 **Zap 2: Resposta WhatsApp → HubSpot**
@@ -707,35 +707,35 @@ Ação 4: Criar nota no HubSpot registrando envio do WhatsApp
 ```
 Trigger: Nova mensagem recebida no Twilio
     ↓
-Ação 1: Buscar contato no HubSpot pelo número
+Açêo 1: Buscar contato no HubSpot pelo número
     ↓
-Ação 2: Criar nota com conteúdo da mensagem
+Açêo 2: Criar nota com conteúdo da mensagem
     ↓
-Ação 3: Se mensagem contém palavras ["interessado", "quero", "comprar"]
+Açêo 3: Se mensagem contém palavras ["interessado", "quero", "comprar"]
     → Atribuir para vendedor
     → Notificar via Slack/E-mail
 ```
 
 ---
 
-## Automação LinkedIn e Instagram: Expandindo Além do WhatsApp
+## Automaçêo LinkedIn e Instagram: Expandindo Além do WhatsApp
 
-### LINKEDIN: Automação Profissional Segura
+### LINKEDIN: Automaçêo Profissional Segura
 
-**Cuidado:** LinkedIn é muito rigoroso com automação. Uso incorreto pode banir sua conta.
+**Cuidado:** LinkedIn é muito rigoroso com automaçêo. Uso incorreto pode banir sua conta.
 
 **Regras de ouro:**
 - Máximo 100 conexões/semana
-- Máximo 20 mensagens/dia para não-conexões (InMail)
-- Intervalo humano entre ações (não robótico)
+- Máximo 20 mensagens/dia para nêo-conexões (InMail)
+- Intervalo humano entre ações (nêo robótico)
 - Nunca use ferramentas que simulam cliques no navegador (alto risco)
 
 **Ferramentas Seguras (Cloud-Based):**
 
 **1. Expandi (Recomendado)**
-- Cloud-based (não depende do seu PC)
+- Cloud-based (nêo depende do seu PC)
 - Limites seguros automáticos
-- Personalização avançada
+- Personalizaçêo avançada
 - Custo: $99/mês
 
 **2. We-Connect**
@@ -746,19 +746,19 @@ Ação 3: Se mensagem contém palavras ["interessado", "quero", "comprar"]
 **3. Phantombuster**
 - Mais técnico
 - Muito flexível
-- Requer configuração
+- Requer configuraçêo
 - Custo: $59/mês
 
-### Fluxo de Automação LinkedIn Eficaz
+### Fluxo de Automaçêo LinkedIn Eficaz
 
-**Campanha: Captação de CEOs de Tech**
+**Campanha: Captaçêo de CEOs de Tech**
 
 **Step 1: Definir Perfil Ideal**
 ```
 - Cargo: CEO, Founder, Co-Founder
 - Setor: Technology, SaaS
 - Tamanho empresa: 10-200 funcionários
-- Localização: Brasil
+- Localizaçêo: Brasil
 ```
 
 **Step 2: Busca e Scraping**
@@ -775,9 +775,9 @@ Ação 3: Se mensagem contém palavras ["interessado", "quero", "comprar"]
 **Step 3: Sequência Automatizada**
 
 ```
-DIA 1: Visitar perfil (gera notificação para a pessoa)
+DIA 1: Visitar perfil (gera notificaçêo para a pessoa)
 DIA 2: Curtir 2-3 posts recentes
-DIA 3: Enviar pedido de conexão com nota:
+DIA 3: Enviar pedido de conexêo com nota:
 
 "Oi {{nome}}, vi que você também atua em {{setor}}! Admirei o crescimento da {{empresa}}. Vamos conectar?"
 
@@ -790,15 +790,15 @@ DIA 8 (se respondeu positivo): Compartilha conteúdo
 DIA 10: Soft pitch
 "{{nome}}, baseado no que conversamos, acho que {{sua_solucao}} pode ajudar a {{empresa}} a {{beneficio}}. Topa 15min de call para eu te mostrar como?"
 
-DIA 15 (se não respondeu): Última tentativa
-"{{nome}}, imagino que esteja super corrido! Se não fizer sentido agora, tranquilo. Fico por aqui quando precisar. Abs!"
+DIA 15 (se nêo respondeu): Última tentativa
+"{{nome}}, imagino que esteja super corrido! Se nêo fizer sentido agora, tranquilo. Fico por aqui quando precisar. Abs!"
 ```
 
-**Importante:** Tudo com intervalo humano (não enviar mensagem exatamente às 9h, variar entre 9h-11h)
+**Importante:** Tudo com intervalo humano (nêo enviar mensagem exatamente às 9h, variar entre 9h-11h)
 
-### INSTAGRAM: Automação de DMs e Engajamento
+### INSTAGRAM: Automaçêo de DMs e Engajamento
 
-**Limitações:** Instagram tem API muito restrita. Automação deve ser sutil.
+**Limitações:** Instagram tem API muito restrita. Automaçêo deve ser sutil.
 
 **O que pode automatizar (seguro):**
 ✅ Respostas automáticas para DMs de quem interage com story
@@ -806,10 +806,10 @@ DIA 15 (se não respondeu): Última tentativa
 ✅ Mensagens de boas-vindas para novos seguidores
 ✅ Auto-resposta para palavras-chave
 
-**O que NÃO deve automatizar (alto risco de ban):**
+**O que NêO deve automatizar (alto risco de ban):**
 ❌ Seguir/Deixar de seguir em massa
 ❌ Curtir/Comentar em massa
-❌ Enviar DMs frias para não-seguidores
+❌ Enviar DMs frias para nêo-seguidores
 
 **Ferramenta Recomendada: ManyChat para Instagram**
 
@@ -825,13 +825,13 @@ DIA 15 (se não respondeu): Última tentativa
 **Resposta a Story com Enquete:**
 ```
 Story: "Você já automatiza seu atendimento?"
-[Sim] [Não]
+[Sim] [Nêo]
 
-Se responder "Não":
+Se responder "Nêo":
 → DM automática:
 "{{nome}}, sério que ainda é tudo manual? 😱
 
-Deve ser bem cansativo! Posso te mostrar como algumas empresas estão automatizando 70% do atendimento sem perder qualidade.
+Deve ser bem cansativo! Posso te mostrar como algumas empresas estêo automatizando 70% do atendimento sem perder qualidade.
 
 Quer ver?"
 ```
@@ -854,7 +854,7 @@ Me conta: o que você tá buscando resolver?"
 ```
 Alguém segue seu perfil
     ↓
-[Aguarda 10min - não parecer robô]
+[Aguarda 10min - nêo parecer robô]
     ↓
 DM:
 "Oi {{nome}}, bem-vindo(a)!
@@ -868,7 +868,7 @@ O que te trouxe até aqui?"
 [Se pessoa responder, conversa continua manual ou semi-automatizada]
 ```
 
-### Instagram Stories Interativos para Qualificação
+### Instagram Stories Interativos para Qualificaçêo
 
 **Estratégia:** Use stories para segmentar audiência automaticamente.
 
@@ -885,7 +885,7 @@ O que te trouxe até aqui?"
 **Story 3:** Caixinha de perguntas
 "Manda sua dúvida sobre [tema] que eu respondo!"
 
-**Automação:**
+**Automaçêo:**
 ```
 [Pessoa responde caixinha]
     ↓
@@ -908,14 +908,14 @@ O que te trouxe até aqui?"
 Escola com 30 leads/dia entrando pelo site. Apenas 12% agendavam aula experimental.
 
 **Problema:**
-Equipe de vendas ligava para leads, mas 80% não atendiam telefone.
+Equipe de vendas ligava para leads, mas 80% nêo atendiam telefone.
 
-**Solução:**
+**Soluçêo:**
 
 **Setup implementado:**
 1. Instalou WhatsApp Business API via Twilio
 2. Integrou com CRM (RD Station)
-3. Criou chatbot de qualificação
+3. Criou chatbot de qualificaçêo
 
 **Fluxo:**
 ```
@@ -977,37 +977,37 @@ Endereço: [link maps]
 Até lá!"
 
 [Sistema agenda automaticamente no calendário]
-[Envia confirmação por e-mail]
+[Envia confirmaçêo por e-mail]
 [Dia anterior: lembra por WhatsApp]
 ```
 
 **Resultado em 60 dias:**
 - Agendamentos: 12% → 51%
 - Show-up (comparecimento): 40% → 78%
-- Conversão em matrícula: 25% → 34%
-- Redução de 60% no tempo da equipe com agendamentos
+- Conversêo em matrícula: 25% → 34%
+- Reduçêo de 60% no tempo da equipe com agendamentos
 
 ---
 
-### CASE 2: E-commerce - Recuperação de Carrinho Abandonado Multi-Canal
+### CASE 2: E-commerce - Recuperaçêo de Carrinho Abandonado Multi-Canal
 
 **Contexto:**
 Loja de suplementos com 65% de abandono de carrinho.
 
 **Problema:**
-E-mail de carrinho abandonado tinha 8% de recuperação.
+E-mail de carrinho abandonado tinha 8% de recuperaçêo.
 
-**Solução:**
+**Soluçêo:**
 Sequência multi-canal E-mail + WhatsApp + Instagram
 
 **Setup:**
 
-**Integração:**
+**Integraçêo:**
 - Shopify (loja)
 - ActiveCampaign (e-mail)
 - Twilio (WhatsApp)
 - ManyChat (Instagram)
-- Zapier (integração)
+- Zapier (integraçêo)
 
 **Fluxo:**
 
@@ -1018,7 +1018,7 @@ Sequência multi-canal E-mail + WhatsApp + Instagram
 15 MINUTOS DEPOIS - E-mail
 Assunto: "{{nome}}, esqueceu algo?"
 
-[Se abre e-mail mas não converte]
+[Se abre e-mail mas nêo converte]
     ↓
 2 HORAS DEPOIS - WhatsApp
 "Oi {{nome}}!
@@ -1027,7 +1027,7 @@ Vi que você tava olhando o {{produto}}.
 
 Ficou alguma dúvida? Posso ajudar!"
 
-[Se não responde WhatsApp em 12h]
+[Se nêo responde WhatsApp em 12h]
     ↓
 DIA SEGUINTE - Instagram DM (se seguidor)
 "Fala {{nome}}!
@@ -1036,9 +1036,9 @@ Vi que você quase levou o {{produto}}!
 
 Preparei um cupom especial de 10% OFF só pra você: VOLTA10
 
-Vale até amanhã! 😊"
+Vale até amanhê! 😊"
 
-[Se ainda não converte]
+[Se ainda nêo converte]
     ↓
 3 DIAS DEPOIS - E-mail + WhatsApp simultâneos
 "{{nome}}, última chance!
@@ -1051,7 +1051,7 @@ Bora? {{link_carrinho}}"
 ```
 
 **Resultado em 90 dias:**
-- Recuperação de carrinho: 8% → 34%
+- Recuperaçêo de carrinho: 8% → 34%
 - Receita adicional: R$ 127.000/mês
 - ROI de 28:1 (para cada R$ 1 gasto em ferramentas, retornou R$ 28)
 
@@ -1060,19 +1060,19 @@ Bora? {{link_carrinho}}"
 ### CASE 3: Consultoria B2B - LinkedIn + WhatsApp Integrado
 
 **Contexto:**
-Consultor de transformação digital buscando grandes empresas.
+Consultor de transformaçêo digital buscando grandes empresas.
 
 **Problema:**
 Cold outreach no LinkedIn tinha taxa de resposta de 3%.
 
-**Solução:**
-Sequência LinkedIn → E-mail → WhatsApp com personalização profunda
+**Soluçêo:**
+Sequência LinkedIn → E-mail → WhatsApp com personalizaçêo profunda
 
 **Setup:**
 
 1. **Pesquisa e Filtragem (Phantombuster + LinkedIn Sales Navigator)**
    - Busca: CTOs de empresas 500+ funcionários
-   - Filtra quem postou sobre transformação digital nos últimos 30 dias
+   - Filtra quem postou sobre transformaçêo digital nos últimos 30 dias
 
 2. **Enriquecimento de Dados**
    - Extrai e-mail corporativo (Hunter.io)
@@ -1085,10 +1085,10 @@ Sequência LinkedIn → E-mail → WhatsApp com personalização profunda
 DIA 1 - LinkedIn: Curtir 2 posts recentes
 
 DIA 3 - LinkedIn: Comentário genuíno em post
-"{{nome}}, excelente ponto sobre {{tema_post}}. Vivenciei situação similar em [Cliente X] e aplicamos [abordagem]. Os resultados foram [X]. Seria interessante trocar experiências!"
+"{{nome}}, excelente ponto sobre {{tema_post}}. Vivenciei situaçêo similar em [Cliente X] e aplicamos [abordagem]. Os resultados foram [X]. Seria interessante trocar experiências!"
 
-DIA 5 - LinkedIn: Pedido de conexão
-"{{nome}}, seus insights sobre {{tema}} são valiosos. Também atuo com transformação digital em {{setor}}. Vamos conectar?"
+DIA 5 - LinkedIn: Pedido de conexêo
+"{{nome}}, seus insights sobre {{tema}} sêo valiosos. Também atuo com transformaçêo digital em {{setor}}. Vamos conectar?"
 
 DIA 7 (se aceitou) - LinkedIn InMail
 "{{nome}}, valeu por aceitar!
@@ -1105,14 +1105,14 @@ DIA 10 (se respondeu positivo) - E-mail
 DIA 12 - E-mail follow-up
 "{{nome}}, o que achou da análise?
 
-Se fizer sentido, podemos agendar 30min para discutir aplicação prática aí na {{empresa}}."
+Se fizer sentido, podemos agendar 30min para discutir aplicaçêo prática aí na {{empresa}}."
 
-DIA 15 (se não respondeu e-mail) - WhatsApp (se conseguiu número)
+DIA 15 (se nêo respondeu e-mail) - WhatsApp (se conseguiu número)
 "Oi {{nome}}, {{seu_nome}} aqui!
 
 Tentei falar por LinkedIn e e-mail mas imagino que esteja cheio de demandas.
 
-Sobre aquela análise de transformação digital que preparei para {{empresa}} - vale 15min de call esta semana?
+Sobre aquela análise de transformaçêo digital que preparei para {{empresa}} - vale 15min de call esta semana?
 
 Posso mostrar cases bem parecidos com o cenário de vocês."
 ```
@@ -1125,7 +1125,7 @@ Posso mostrar cases bem parecidos com o cenário de vocês."
 
 ---
 
-## Setup Prático: Checklist de Implementação
+## Setup Prático: Checklist de Implementaçêo
 
 ### SEMANA 1: WhatsApp Business API
 
@@ -1135,18 +1135,18 @@ Posso mostrar cases bem parecidos com o cenário de vocês."
 - [ ] Solicitar número WhatsApp Business
 
 **Terça:**
-- [ ] Configurar perfil comercial (nome, logo, descrição)
+- [ ] Configurar perfil comercial (nome, logo, descriçêo)
 - [ ] Criar 5 templates principais:
   - [ ] Boas-vindas
   - [ ] Follow-up
-  - [ ] Confirmação
+  - [ ] Confirmaçêo
   - [ ] Lembrete
-  - [ ] Reativação
-- [ ] Submeter para aprovação
+  - [ ] Reativaçêo
+- [ ] Submeter para aprovaçêo
 
 **Quarta:**
-- [ ] Enquanto aguarda aprovação, mapear fluxos
-- [ ] Desenhar árvore de decisão do chatbot
+- [ ] Enquanto aguarda aprovaçêo, mapear fluxos
+- [ ] Desenhar árvore de decisêo do chatbot
 - [ ] Listar FAQs (top 10 perguntas)
 
 **Quinta:**
@@ -1155,11 +1155,11 @@ Posso mostrar cases bem parecidos com o cenário de vocês."
 - [ ] Conectar com WhatsApp API
 
 **Sexta:**
-- [ ] Construir primeiro fluxo (boas-vindas + qualificação)
+- [ ] Construir primeiro fluxo (boas-vindas + qualificaçêo)
 - [ ] Testar com 3 números diferentes
 - [ ] Ajustar com base nos testes
 
-### SEMANA 2: Integração CRM + E-mail
+### SEMANA 2: Integraçêo CRM + E-mail
 
 **Segunda:**
 - [ ] Escolher CRM (HubSpot Free, Pipedrive, Agendor)
@@ -1173,18 +1173,18 @@ Posso mostrar cases bem parecidos com o cenário de vocês."
 
 **Quarta:**
 - [ ] Conectar WhatsApp ao CRM (via Zapier ou nativo)
-- [ ] Testar criação automática de contatos
+- [ ] Testar criaçêo automática de contatos
 - [ ] Validar registro de conversas
 
 **Quinta:**
 - [ ] Integrar e-mail marketing ao CRM
 - [ ] Criar 3 sequências básicas:
   - [ ] Boas-vindas
-  - [ ] Nutrição
-  - [ ] Reativação
+  - [ ] Nutriçêo
+  - [ ] Reativaçêo
 
 **Sexta:**
-- [ ] Configurar regras de supressão (não enviar e-mail se WhatsApp ativo)
+- [ ] Configurar regras de supressêo (nêo enviar e-mail se WhatsApp ativo)
 - [ ] Testar fluxo completo: formulário → CRM → WhatsApp → E-mail
 - [ ] Documentar processos
 
@@ -1196,16 +1196,16 @@ Posso mostrar cases bem parecidos com o cenário de vocês."
 - [ ] Enriquecer dados (e-mail, empresa, cargo)
 
 **Quarta:**
-- [ ] Configurar ferramenta de automação LinkedIn
+- [ ] Configurar ferramenta de automaçêo LinkedIn
 - [ ] Criar sequência de 7 dias
 - [ ] Iniciar primeira campanha (limite: 20 conexões/dia)
 
 **Quinta-Sexta:**
 - [ ] Instagram: Conectar ManyChat
 - [ ] Configurar respostas automáticas para stories
-- [ ] Criar 3 stories interativos para qualificação
+- [ ] Criar 3 stories interativos para qualificaçêo
 
-### SEMANA 4: Testes e Otimização
+### SEMANA 4: Testes e Otimizaçêo
 
 **Segunda-Terça:**
 - [ ] Coletar dados das 3 semanas
@@ -1234,7 +1234,7 @@ Acompanhe semanalmente:
 - Taxa de leitura (deve ser >80%)
 - Taxa de resposta (meta: >40%)
 - Tempo médio de primeira resposta
-- Taxa de conversão por fluxo
+- Taxa de conversêo por fluxo
 
 **E-mail:**
 - Taxa de entrega (>95%)
@@ -1243,14 +1243,14 @@ Acompanhe semanalmente:
 - Taxa de descadastro (<0.5%)
 
 **LinkedIn:**
-- Taxa de aceitação de conexão (meta: >30%)
+- Taxa de aceitaçêo de conexêo (meta: >30%)
 - Taxa de resposta (meta: >15%)
 - Reuniões agendadas/100 contatos
-- Taxa de conversão em cliente
+- Taxa de conversêo em cliente
 
-**Integração:**
+**Integraçêo:**
 - % de leads com dados completos
-- Tempo médio do lead até conversão
+- Tempo médio do lead até conversêo
 - Custo por lead por canal
 - ROI por canal
 
@@ -1258,13 +1258,13 @@ Acompanhe semanalmente:
 
 ## EXERCÍCIO PRÁTICO FINAL
 
-**Desafio:** Monte SEU sistema de comunicação multi-canal em 7 dias.
+**Desafio:** Monte SEU sistema de comunicaçêo multi-canal em 7 dias.
 
 **DIA 1:** Escolha 2 canais principais (ex: WhatsApp + E-mail)
 
 **DIA 2:** Configure ferramentas básicas
 
-**DIA 3:** Crie 1 template para cada situação:
+**DIA 3:** Crie 1 template para cada situaçêo:
 - Boas-vindas
 - Follow-up
 - Proposta
@@ -1283,7 +1283,7 @@ Acompanhe semanalmente:
 
 No **Módulo 8**, você vai aprender a transformar todo esse relacionamento em **propostas e contratos instantâneos**.
 
-Porque de nada adianta ter conversação perfeita se você demora 3 dias para enviar uma proposta e mais 1 semana para o cliente assinar.
+Porque de nada adianta ter conversaçêo perfeita se você demora 3 dias para enviar uma proposta e mais 1 semana para o cliente assinar.
 
 Prepare-se para automatizar a parte mais crítica: o fechamento.
 
@@ -1294,10 +1294,10 @@ Nos vemos lá! 🚀
 **RESUMO MÓDULO 7:**
 
 ✅ WhatsApp API: setup completo, custos, limitações
-✅ Chatbots inteligentes que não parecem robôs
-✅ Triagem automática: urgente vs não-urgente
-✅ Integração CRM + E-mail + WhatsApp funcionando
-✅ Automação LinkedIn e Instagram (com segurança)
+✅ Chatbots inteligentes que nêo parecem robôs
+✅ Triagem automática: urgente vs nêo-urgente
+✅ Integraçêo CRM + E-mail + WhatsApp funcionando
+✅ Automaçêo LinkedIn e Instagram (com segurança)
 ✅ 3 cases reais com resultados mensuráveis
 ✅ Checklist prático de 4 semanas
 

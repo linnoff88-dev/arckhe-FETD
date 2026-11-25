@@ -1,6 +1,6 @@
 # Módulo 9: Consultoria Interna - Virando Referência na Empresa
 
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Objetivo:** Aplicar tudo que aprendeu para virar "o consultor de todo mundo" dentro da sua empresa
 
 ---
@@ -8,7 +8,7 @@
 ## 🎯 O Que Você Vai Aprender
 
 ✅ Posicionar-se como consultor interno
-✅ Oferecer ajuda escalável (não virar gargalo)
+✅ Oferecer ajuda escalável (nêo virar gargalo)
 ✅ Criar "office hours" técnicos
 ✅ Documentar conhecimento institucional
 ✅ Conseguir promoções/reconhecimento
@@ -26,7 +26,7 @@
 Você: Resolve 10 problemas/semana sozinho
 Gestor: "O que você fez essa semana?"
 Você: "Uh... resolvi uns bugs..."
-Resultado: Sem reconhecimento, sem promoção
+Resultado: Sem reconhecimento, sem promoçêo
 ```
 
 **Cenário consultor:**
@@ -34,7 +34,7 @@ Resultado: Sem reconhecimento, sem promoção
 Você: Resolve 3 problemas + ensina 10 pessoas a resolverem
 Gestor: "Equipe toda melhorou, o que mudou?"
 Todos: "Fulano criou um sistema/bot/doc que ajudou muito"
-Resultado: Promoção, raise, reconhecimento
+Resultado: Promoçêo, raise, reconhecimento
 ```
 
 ### Mindset Shift
@@ -51,7 +51,7 @@ Resultado: Promoção, raise, reconhecimento
 1 hora/semana que você está disponível para ajudar qualquer um com problemas técnicos.
 
 **Benefícios:**
-- ✅ Previsível (não interrompe trabalho aleatoriamente)
+- ✅ Previsível (nêo interrompe trabalho aleatoriamente)
 - ✅ Escalável (várias pessoas ao mesmo tempo)
 - ✅ Visível (todos sabem que você ajuda)
 
@@ -70,7 +70,7 @@ Regras:
 4. FAQ vai sendo construído
 
 Template de pergunta:
-🔴 Problema: [descrição]
+🔴 Problema: [descriçêo]
 🎯 Objetivo: [o que quer alcançar]
 ✅ Já tentei: [o que fez]
 ```
@@ -91,9 +91,9 @@ Vira: Série de vídeos de troubleshooting
 
 ### Escalar Office Hours
 
-**Problema:** Muito popular → Não escala
+**Problema:** Muito popular → Nêo escala
 
-**Solução: Train the Trainers**
+**Soluçêo: Train the Trainers**
 
 ```
 Mês 1-2: Você lidera sozinho
@@ -101,24 +101,24 @@ Mês 3: Convida 2 devs senior para co-hospedar
 Mês 4: Eles revezam com você
 Mês 6: Você apenas supervisiona, eles lideram
 
-Resultado: Cultura de ajuda mútua, não depende de você
+Resultado: Cultura de ajuda mútua, nêo depende de você
 ```
 
 ---
 
-## 📚 Sistema de Documentação Institucional
+## 📚 Sistema de Documentaçêo Institucional
 
 ### Problema
 
 Conhecimento crítico na cabeça de 2-3 pessoas:
 - Como fazer deploy de emergência
-- Onde estão os segredos/keys
+- Onde estêo os segredos/keys
 - Como debugar problema X
 - Processos que "todo mundo sabe"
 
 **Risco:** Essas pessoas saem → Empresa para
 
-### Solução: Runbook Vivo
+### Soluçêo: Runbook Vivo
 
 **Estrutura no Notion/Confluence:**
 
@@ -126,7 +126,7 @@ Conhecimento crítico na cabeça de 2-3 pessoas:
 Runbooks/
 ├── Operações Críticas
 │   ├── Deploy de Emergência
-│   ├── Rollback em Produção
+│   ├── Rollback em Produçêo
 │   └── Restore de Backup
 │
 ├── Troubleshooting
@@ -168,14 +168,14 @@ comando aqui
 - Nunca fazer X
 - Sempre checar Y
 
-## 📞 Escalação
-Se não funcionar, chamar: [pessoa/time]
+## 📞 Escalaçêo
+Se nêo funcionar, chamar: [pessoa/time]
 
 ## 📊 Métricas de Sucesso
 Como saber que funcionou: [...]
 
 ---
-Última atualização: 2025-01-19
+Última atualizaçêo: 2025-01-19
 Responsável: [Seu nome]
 ```
 
@@ -208,7 +208,7 @@ for doc in runbooks:
 - Objetivos trimestrais claros
 ```
 
-**Estrutura da sessão:**
+**Estrutura da sessêo:**
 
 ```
 1. Check-in (5 min)
@@ -248,7 +248,7 @@ Você responde quando pode, tudo documentado
 
 ---
 
-## 📊 Métricas de Impacto (Para Promoção)
+## 📊 Métricas de Impacto (Para Promoçêo)
 
 ### Rastreie Seu Impacto
 
@@ -278,7 +278,7 @@ Q1 2025 Impact Report
 - FAQ chatbot (40h/mês economizadas)
 - Onboarding automation (15h/novo dev)
 
-📚 Documentação:
+📚 Documentaçêo:
 - 15 runbooks criados
 - 25 posts técnicos publicados
 - 3 office hours sessions/mês
@@ -292,16 +292,16 @@ Time 30% mais produtivo em tarefas técnicas
 **Leading indicators (curto prazo):**
 - Mensagens/semana pedindo ajuda
 - Participantes em office hours
-- Views em documentação
+- Views em documentaçêo
 
 **Lagging indicators (longo prazo):**
 - Promoções no time
-- Redução de tickets de suporte técnico
-- Satisfação do time (survey)
+- Reduçêo de tickets de suporte técnico
+- Satisfaçêo do time (survey)
 
 ---
 
-## 💼 Conseguir Promoção/Reconhecimento
+## 💼 Conseguir Promoçêo/Reconhecimento
 
 ### Documentar Tudo
 
@@ -320,17 +320,17 @@ Time 30% mais produtivo em tarefas técnicas
 
 ## Skills Desenvolvidas
 - Liderança técnica
-- Comunicação
-- Automação
+- Comunicaçêo
+- Automaçêo
 [...]
 ```
 
 **Usar em:**
 - 1-on-1 com gestor
 - Self-review de performance
-- Candidatura para promoção
+- Candidatura para promoçêo
 
-### Proposta de Promoção
+### Proposta de Promoçêo
 
 **Template:**
 
@@ -353,7 +353,7 @@ Evidências:
    - Onboarding de novos devs: 3 dias → 1 dia
    - 70% menos tickets técnicos repetidos
 
-3. Influência e Comunicação
+3. Influência e Comunicaçêo
    - 30 posts técnicos publicados
    - GitHub com 150 stars
    - Reconhecido como referência em DevOps internamente
@@ -393,7 +393,7 @@ Integrar TUDO em um **sistema completo** que roda quase sozinho!
 ---
 
 **Tempo:** 2-3h setup inicial
-**Manutenção:** 2-3h/semana
-**ROI:** Promoção + Reconhecimento + Impacto real
+**Manutençêo:** 2-3h/semana
+**ROI:** Promoçêo + Reconhecimento + Impacto real
 
 **Próximo módulo:** Módulo 10 - Sistema Completo Integrado

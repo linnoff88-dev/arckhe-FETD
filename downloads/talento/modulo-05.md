@@ -1,14 +1,14 @@
 # Módulo 5: Notion para Produtividade
 
 **Trilha:** Talento Emergente  
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Objetivo:** Organizar trabalho e projetos profissionalmente usando Notion
 
 ---
 
-## Introdução: O Sistema Operacional da Sua Vida Profissional
+## Introduçêo: O Sistema Operacional da Sua Vida Profissional
 
-Notion não é só ferramenta de anotações. É seu **sistema operacional profissional**.
+Notion nêo é só ferramenta de anotações. É seu **sistema operacional profissional**.
 
 **Dados reais (2024-2025):**
 - 40+ milhões usuários globalmente
@@ -27,7 +27,7 @@ Notion não é só ferramenta de anotações. É seu **sistema operacional profi
 
 ## 0. Contexto de Mercado: Por Que Notion Domina
 
-### 0.1 Concorrentes e Comparação
+### 0.1 Concorrentes e Comparaçêo
 
 **O mercado de produtividade/collaboration é gigante. Vamos comparar:**
 
@@ -37,14 +37,14 @@ Notion não é só ferramenta de anotações. É seu **sistema operacional profi
 | **Obsidian** | Knowledge graph | Markdown puro, offline, links bidirecionais | Só notas, sem databases | Grátis - $50/ano |
 | **Roam Research** | Networked thought | Bidirectional links, daily notes | Caro, interface confusa | $15/mês |
 | **Trello** | Task boards | Simples, visual (Kanban) | Só tasks, limitado para docs | Grátis - $10/mês |
-| **Asana** | Project management | Bom para equipes grandes, múltiplos views | Complexo, não é wiki | $11/mês |
+| **Asana** | Project management | Bom para equipes grandes, múltiplos views | Complexo, nêo é wiki | $11/mês |
 | **Monday.com** | Work OS | Automações, integrações | Caro, overkill pra pequenos | $8-16/mês |
 | **Coda** | Docs + databases | Fórmulas poderosas, automações | Interface menos intuitiva | Grátis - $12/mês |
 | **ClickUp** | Tudo-em-um | Muitas features, customizável | Confuso (faz DEMAIS), lento | Grátis - $9/mês |
 | **Evernote** | Note-taking | Clipping web, OCR | Limitado, interface antiga | $8-10/mês |
-| **Microsoft Loop** | Collaboration | Integração Microsoft 365 | Novo, ainda imaturo | Incluso M365 |
-| **Google Workspace** | Docs + colaboração | Colaboração real-time perfeita | Arquivos soltos, sem estrutura | $6-18/mês |
-| **Airtable** | Spreadsheet-database | Databases poderosas, APIs | Não é bom pra docs/notas | Grátis - $20/mês |
+| **Microsoft Loop** | Collaboration | Integraçêo Microsoft 365 | Novo, ainda imaturo | Incluso M365 |
+| **Google Workspace** | Docs + colaboraçêo | Colaboraçêo real-time perfeita | Arquivos soltos, sem estrutura | $6-18/mês |
+| **Airtable** | Spreadsheet-database | Databases poderosas, APIs | Nêo é bom pra docs/notas | Grátis - $20/mês |
 
 **Por que Notion vence na maioria dos casos:**
 
@@ -55,13 +55,13 @@ Notion não é só ferramenta de anotações. É seu **sistema operacional profi
 ✅ **Preço:** Plano grátis generoso, pago barato ($10 vs $15-20)
 ✅ **Curva aprendizado:** Médio (vs ClickUp = difícil, Roam = muito difícil)
 
-**Quando NÃO usar Notion:**
+**Quando NêO usar Notion:**
 
-❌ **Equipes grandes (>100 pessoas):** Asana/Monday são melhores (permissões avançadas)
+❌ **Equipes grandes (>100 pessoas):** Asana/Monday sêo melhores (permissões avançadas)
 ❌ **Trabalho 100% offline:** Obsidian vence (arquivos locais)
 ❌ **Só task management simples:** Trello é mais rápido
 ❌ **Precisa automações complexas nativas:** Monday/ClickUp têm mais
-❌ **Knowledge graph avançado:** Obsidian/Roam são superiores
+❌ **Knowledge graph avançado:** Obsidian/Roam sêo superiores
 
 **Tendência mercado (2024-2025):**
 
@@ -81,7 +81,7 @@ Notion não é só ferramenta de anotações. É seu **sistema operacional profi
 
 ### 0.2 Por Que Otimizar Com Ferramentas de Produtividade
 
-**A pergunta honesta: "Preciso MESMO disso? Não posso usar papel/Google Docs/WhatsApp?"**
+**A pergunta honesta: "Preciso MESMO disso? Nêo posso usar papel/Google Docs/WhatsApp?"**
 
 **Resposta:** Pode. Mas deixa dinheiro na mesa.
 
@@ -90,7 +90,7 @@ Notion não é só ferramenta de anotações. É seu **sistema operacional profi
 **SEM sistema organizado (papel, arquivos soltos, memória):**
 - **Tempo procurando informações:** 2-3h/dia (McKinsey)
 - **Reuniões improdutivas:** 30-50% do tempo (sem notas estruturadas)
-- **Retrabalho:** 20-30% (por falta documentação)
+- **Retrabalho:** 20-30% (por falta documentaçêo)
 - **Esquecimento tarefas:** 15-25% tasks caem no esquecimento
 - **Context switching:** 40% produtividade perdida (multitasking caótico)
 - **Onboarding novos:** 4-8 semanas (conhecimento na cabeça das pessoas)
@@ -98,10 +98,10 @@ Notion não é só ferramenta de anotações. É seu **sistema operacional profi
 **Total desperdiçado:** 40-60% do tempo de trabalho.
 
 **COM sistema otimizado (Notion, GTD, automações):**
-- **Procurar informação:** <10min/dia (tudo em 1 lugar, buscável)
+- **Procurar informaçêo:** <10min/dia (tudo em 1 lugar, buscável)
 - **Reuniões produtivas:** Templates forçam estrutura, action items claros
 - **Zero retrabalho:** Processos documentados, decisões registradas
-- **Zero esquecimento:** Sistema confiável (não depende de memória)
+- **Zero esquecimento:** Sistema confiável (nêo depende de memória)
 - **Foco:** Deep work sem interrupções (inbox processado em horários fixos)
 - **Onboarding:** 1-2 semanas (tudo documentado, self-service)
 
@@ -120,11 +120,11 @@ Notion não é só ferramenta de anotações. É seu **sistema operacional profi
 - **Ganho:** 150h/semana × R$ 50/h = R$ 7.500/semana = R$ 30.000/mês
 - **ROI:** Investimento Notion + setup (R$ 3.500) paga em 5 dias.
 
-**MAS O MAIOR BENEFÍCIO NÃO É DINHEIRO:**
+**MAS O MAIOR BENEFÍCIO NêO É DINHEIRO:**
 
 ✨ **Paz de espírito:**
-- Você CONFIA no sistema (não fica ansioso "esqueci algo?")
-- Mente livre pra pensar (não pra lembrar)
+- Você CONFIA no sistema (nêo fica ansioso "esqueci algo?")
+- Mente livre pra pensar (nêo pra lembrar)
 - Dormir tranquilo (tudo capturado)
 
 ✨ **Crescimento:**
@@ -139,17 +139,17 @@ Notion não é só ferramenta de anotações. É seu **sistema operacional profi
 
 **Resumo:**
 
-Não é sobre "precisa" ou "não precisa".
+Nêo é sobre "precisa" ou "nêo precisa".
 
 É sobre **quanto você valoriza seu tempo e sanidade mental**.
 
 Notion/produtividade = investimento que paga 10-50x no primeiro ano.
 
-### 0.3 O Futuro: Agentes IA Vão Superseder Tudo Isso?
+### 0.3 O Futuro: Agentes IA Vêo Superseder Tudo Isso?
 
-**A pergunta que TODO mundo pensando:** "Se IA tá ficando tão boa, pra que organizar manualmente? IA não vai fazer isso pra mim?"
+**A pergunta que TODO mundo pensando:** "Se IA tá ficando têo boa, pra que organizar manualmente? IA nêo vai fazer isso pra mim?"
 
-**Resposta curta:** Sim, MUITO disso será automatizado. Mas não tudo. E não tão cedo quanto parece.
+**Resposta curta:** Sim, MUITO disso será automatizado. Mas nêo tudo. E nêo têo cedo quanto parece.
 
 **O que está vindo (2025-2027):**
 
@@ -199,18 +199,18 @@ Você: Só revisa, decide, executa trabalho criativo
 
 ```
 Notion (ou sucessor):
-- IA entende SEU padrão organizacional
+- IA entende SEU padrêo organizacional
 - Auto-categoriza tudo que entra
-- Auto-relaciona informações (descobre conexões que você não viu)
+- Auto-relaciona informações (descobre conexões que você nêo viu)
 - Sugere templates baseado no que você faz
 - Prevê o que você precisa antes de pedir
 - "Notion, prepara tudo pra eu trabalhar no projeto X"
   → IA abre páginas relevantes, puxa contexto, sugere next actions
 ```
 
-**ENTÃO POR QUE APRENDER NOTION AGORA?**
+**ENTêO POR QUE APRENDER NOTION AGORA?**
 
-**Razão 1: IA não substitui, AMPLIFICA sistemas organizados**
+**Razêo 1: IA nêo substitui, AMPLIFICA sistemas organizados**
 
 IA funciona MELHOR com dados estruturados.
 
@@ -222,18 +222,18 @@ Notion bagunçado → IA confusa → sugestões genéricas
 Notion desorganizado:
 Você: "IA, como está projeto X?"
 IA: "Encontrei 47 menções a 'projeto X' em páginas diferentes.
-     Não sei status, deadline ou responsáveis. Pode clarificar?"
+     Nêo sei status, deadline ou responsáveis. Pode clarificar?"
 
 Notion organizado (database Projects):
 Você: "IA, como está projeto X?"
 IA: "Projeto X está 68% completo.
      Deadline: 15/03 (12 dias).
-     Bloqueio atual: aguardando aprovação legal (task #234).
-     Sugestão: pingar @maria (responsável legal) pra acelerar.
+     Bloqueio atual: aguardando aprovaçêo legal (task #234).
+     Sugestêo: pingar @maria (responsável legal) pra acelerar.
      Próxima milestone: design final (80% → 100%), 3 tasks pendentes."
 ```
 
-**Razão 2: Fundamentos permanecem (princípios > ferramentas)**
+**Razêo 2: Fundamentos permanecem (princípios > ferramentas)**
 
 GTD, BASB, PARA = princípios atemporais.
 
@@ -241,22 +241,22 @@ Ferramenta muda (papel → Excel → Evernote → Notion → ???), princípios f
 
 Quem domina princípios adapta pra qualquer ferramenta (inclusive IA futura).
 
-**Razão 3: IA atual ainda falha MUITO**
+**Razêo 3: IA atual ainda falha MUITO**
 
 Realidade 2025:
 - IA esquece contexto (limite tokens)
 - IA alucina (inventa coisas)
-- IA não entende prioridades SUAS (só heurísticas genéricas)
-- IA não substitui decisão humana
+- IA nêo entende prioridades SUAS (só heurísticas genéricas)
+- IA nêo substitui decisêo humana
 
 **Você ainda precisa:**
-- Definir O QUE importa (IA não sabe seus valores)
+- Definir O QUE importa (IA nêo sabe seus valores)
 - Decidir prioridades (IA sugere, você decide)
-- Confiar no sistema (IA ainda não é 100% confiável)
+- Confiar no sistema (IA ainda nêo é 100% confiável)
 
-**Razão 4: Vantagem competitiva AGORA**
+**Razêo 4: Vantagem competitiva AGORA**
 
-Enquanto IA perfeita não vem (5-10 anos?), quem domina Notion/produtividade:
+Enquanto IA perfeita nêo vem (5-10 anos?), quem domina Notion/produtividade:
 - Entrega 2-3x mais que concorrente
 - Impressiona clientes/chefes
 - Ganha projetos/promoções
@@ -264,7 +264,7 @@ Enquanto IA perfeita não vem (5-10 anos?), quem domina Notion/produtividade:
 
 **Cenário mais provável (2025-2030):**
 
-**Não será:** IA substitui tudo, você fica sem fazer nada
+**Nêo será:** IA substitui tudo, você fica sem fazer nada
 
 **Será:** Híbrido humano + IA
 
@@ -282,19 +282,19 @@ Futuro distante: Carro autônomo (mas você ainda escolhe DESTINO)
 **Produtividade é igual:**
 
 Você sempre escolhe DESTINO (objetivos, valores, prioridades).
-IA ajuda CHEGAR LÁ (automação, sugestões, organização).
+IA ajuda CHEGAR LÁ (automaçêo, sugestões, organizaçêo).
 
 **SUA ESTRATÉGIA:**
 
 1. **Domine fundamentos AGORA** (GTD, BASB, Notion)
 2. **Incorpore IA gradualmente** (Notion AI, ChatGPT pra resumos)
 3. **Mantenha sistema estruturado** (IA funciona melhor com dados bons)
-4. **Acompanhe evolução** (teste Motion, Mem.ai, próximos)
-5. **Adapte, não abandone** (migre sistema pra novas ferramentas)
+4. **Acompanhe evoluçêo** (teste Motion, Mem.ai, próximos)
+5. **Adapte, nêo abandone** (migre sistema pra novas ferramentas)
 
-**A habilidade mais valiosa não é "saber Notion".**
+**A habilidade mais valiosa nêo é "saber Notion".**
 
-**É "pensar em sistemas, organizar informação, priorizar implacavelmente".**
+**É "pensar em sistemas, organizar informaçêo, priorizar implacavelmente".**
 
 Isso funciona em Notion, em ferramenta IA futura, em qualquer coisa.
 
@@ -306,7 +306,7 @@ Notion é MEIO de praticar essa habilidade. Habilidade é o FIM.
 
 **Problema:** Cérebro é péssimo para armazenar informações. Ótimo para processar.
 
-**Solução:** Externalize TUDO no Notion. Confie no sistema, não na memória.
+**Soluçêo:** Externalize TUDO no Notion. Confie no sistema, nêo na memória.
 
 **Os 4 Pilares do Segundo Cérebro:**
 
@@ -318,16 +318,16 @@ Notion é MEIO de praticar essa habilidade. Habilidade é o FIM.
 
 **2. ORGANIZE (Organizar)**
 - Sistema PARA (Projects, Areas, Resources, Archive)
-- Não organize demais (armadilha comum)
+- Nêo organize demais (armadilha comum)
 - Tags + Relations > Pastas complexas
 
 **3. DISTILL (Destilar)**
-- Não salve artigo inteiro → salve insights
+- Nêo salve artigo inteiro → salve insights
 - Highlights progressivos (bold → destaque → nota)
 - Resumos acionáveis
 
 **4. EXPRESS (Expressar)**
-- Conhecimento serve pra usar, não acumular
+- Conhecimento serve pra usar, nêo acumular
 - Link aprendizados com projetos
 - Compartilhe (ensinar = aprender 2x)
 
@@ -369,7 +369,7 @@ Notion é MEIO de praticar essa habilidade. Habilidade é o FIM.
     └── Notas antigas
 ```
 
-**Regra de ouro:** Tudo tem um lugar. Nada fica órfão.
+**Regra de ouro:** Tudo tem um lugar. Nada fica órfêo.
 
 ### 1.3 Dashboard Principal (Home)
 
@@ -391,9 +391,9 @@ Seu HQ. Abrir Notion = ver isso primeiro.
 - Checkbox pra completar rápido
 
 **3. Próximas Reuniões**
-- Integração Google Calendar (via Make ou Zapier)
-- Link direto pra nota da reunião
-- Agenda + preparação
+- Integraçêo Google Calendar (via Make ou Zapier)
+- Link direto pra nota da reuniêo
+- Agenda + preparaçêo
 
 **4. Projetos em Progresso**
 - Gallery view com barra progresso
@@ -406,7 +406,7 @@ Seu HQ. Abrir Notion = ver isso primeiro.
 - Recursos externos (Drive, Figma, etc)
 
 **6. Inbox Count**
-- Número de itens não processados
+- Número de itens nêo processados
 - Link direto pro Inbox
 - Meta: processar até 0 diariamente
 
@@ -418,7 +418,7 @@ Seu HQ. Abrir Notion = ver isso primeiro.
 
 **1. CAPTURE (Capturar)**
 
-Tudo que chama sua atenção vai pro Inbox.
+Tudo que chama sua atençêo vai pro Inbox.
 
 **Inbox Database:**
 ```
@@ -434,8 +434,8 @@ Properties:
 - Notion mobile (pensamento rápido)
 - Web Clipper (artigos)
 - Email to Notion (forwards)
-- Integração Slack/Teams (mensagens importantes)
-- Voz (transcrição automática com IA)
+- Integraçêo Slack/Teams (mensagens importantes)
+- Voz (transcriçêo automática com IA)
 
 **Regra:** Capturou? Esquece até hora de processar.
 
@@ -450,15 +450,15 @@ Diariamente (ou 2x/dia), processa Inbox.
     * Projeto (multi-step) → Cria projeto
     * Task simples → Move pra Tasks
     * Delegar → Cria task + atribui
-  - **NÃO:**
+  - **NêO:**
     * Referência → Move pra Knowledge Base
     * Algum dia/talvez → Move pra Someday
     * Lixo → Deleta
 
 **Template de processamento:**
 ```
-[ ] Item 1: [ação] → [destino]
-[ ] Item 2: [ação] → [destino]
+[ ] Item 1: [açêo] → [destino]
+[ ] Item 2: [açêo] → [destino]
 ...
 ```
 
@@ -492,7 +492,7 @@ Properties:
 
 **Daily Review (5min):**
 - Processa Inbox
-- Planeja amanhã
+- Planeja amanhê
 - Atualiza progresso projetos
 
 **Weekly Review (30min - sexta ou domingo):**
@@ -514,8 +514,8 @@ Properties:
 - [conquista 2]
 
 ### 📊 Projetos - Update
-- [Projeto A]: [status], [próxima ação]
-- [Projeto B]: [status], [próxima ação]
+- [Projeto A]: [status], [próxima açêo]
+- [Projeto B]: [status], [próxima açêo]
 
 ### 🎯 Próxima Semana - Prioridades
 1. [prioridade 1]
@@ -540,7 +540,7 @@ Escolhe o que fazer baseado em:
 
 **Notion facilita:** 1 clique no view → lista perfeita.
 
-### 2.2 Implementação Passo-a-Passo
+### 2.2 Implementaçêo Passo-a-Passo
 
 **Passo 1: Criar Databases (15min)**
 
@@ -555,7 +555,7 @@ Escolhe o que fazer baseado em:
 - Tasks → Notes (relation)
 - Projects → Notes (relation)
 
-**Por que relações são poderosas:**
+**Por que relações sêo poderosas:**
 - Vê todas tasks de um projeto
 - Vê todas notas relacionadas
 - Bidirecional: atualiza ambos lados
@@ -603,10 +603,10 @@ Incorpora views dos databases no Home.
 **Essenciais:**
 - **Text:** Texto livre
 - **Number:** Números (pode fazer cálculos)
-- **Select:** 1 opção (ex: Status)
+- **Select:** 1 opçêo (ex: Status)
 - **Multi-select:** Várias opções (ex: Tags)
 - **Date:** Data/datetime
-- **Checkbox:** Sim/não
+- **Checkbox:** Sim/nêo
 - **URL:** Links
 - **Email:** Emails
 - **Phone:** Telefones
@@ -617,7 +617,7 @@ Incorpora views dos databases no Home.
 - **Formula:** Cálculos (tipo Excel)
 - **Created time:** Automático
 - **Created by:** Quem criou
-- **Last edited time:** Última alteração
+- **Last edited time:** Última alteraçêo
 - **Last edited by:** Quem editou
 
 **Exemplo Rollup:**
@@ -632,7 +632,7 @@ No Projects:
   * Progress = (Completed / Total) * 100
 ```
 
-Agora cada projeto mostra % de conclusão automaticamente!
+Agora cada projeto mostra % de conclusêo automaticamente!
 
 ### 3.3 Fórmulas Úteis
 
@@ -698,7 +698,7 @@ Resultado: `▓▓▓▓▓░░░░░ 50%`
 [Timeline reversa - mais recente primeiro]
 
 **DD/MM/YYYY:**
-- Decisão: [o que foi decidido]
+- Decisêo: [o que foi decidido]
 - Contexto: [por que]
 - Owner: [quem executa]
 
@@ -708,9 +708,9 @@ Resultado: `▓▓▓▓▓░░░░░ 50%`
 - [Doc 3]
 
 ## 🚧 Riscos e Bloqueios
-| Risco | Probabilidade | Impacto | Mitigação |
+| Risco | Probabilidade | Impacto | Mitigaçêo |
 |-------|--------------|---------|-----------|
-| [descrição] | Alta/Média/Baixa | Alto/Médio/Baixo | [como prevenir] |
+| [descriçêo] | Alta/Média/Baixa | Alto/Médio/Baixo | [como prevenir] |
 
 ## 🎉 Retrospectiva (preencher ao concluir)
 ### O que foi bem
@@ -730,17 +730,17 @@ Resultado: `▓▓▓▓▓░░░░░ 50%`
 4. Atualiza notas conforme progride
 5. Ao concluir, preenche retrospectiva
 
-### 4.2 Template de Reunião
+### 4.2 Template de Reuniêo
 
 ```
-# Reunião: [Tópico] - [Data]
+# Reuniêo: [Tópico] - [Data]
 
 ## ⚙️ Info
 - **Data/Hora:** DD/MM/YYYY HH:MM
-- **Duração:** Xmin
+- **Duraçêo:** Xmin
 - **Participantes:** @pessoa1, @pessoa2
 - **Projeto Relacionado:** [[link]]
-- **Gravação:** [link se houver]
+- **Gravaçêo:** [link se houver]
 
 ## 📋 Agenda
 1. [Tópico 1] - Xmin
@@ -748,7 +748,7 @@ Resultado: `▓▓▓▓▓░░░░░ 50%`
 3. [Tópico 3] - Xmin
 
 ## 📝 Notas
-[Durante reunião]
+[Durante reuniêo]
 
 ### [Tópico 1]
 - Ponto discutido
@@ -758,26 +758,26 @@ Resultado: `▓▓▓▓▓░░░░░ 50%`
 - 
 
 ## ✅ Decisões Tomadas
-- [ ] Decisão 1: [o que] - Owner: @quem
-- [ ] Decisão 2: [o que] - Owner: @quem
+- [ ] Decisêo 1: [o que] - Owner: @quem
+- [ ] Decisêo 2: [o que] - Owner: @quem
 
 ## 🎯 Action Items (linked to Tasks)
 [View: Tasks created in this meeting]
 
 ## ❓ Questões Abertas
-- [ ] Questão 1: [quem] precisa responder até [quando]
-- [ ] Questão 2: 
+- [ ] Questêo 1: [quem] precisa responder até [quando]
+- [ ] Questêo 2: 
 
-## 📅 Próxima Reunião
+## 📅 Próxima Reuniêo
 - Data: [agendar]
 - Tópicos: 
 ```
 
-**Automação Make:**
+**Automaçêo Make:**
 ```
 Google Calendar - Meeting Ended
-→ Notion - Create Page (template reunião preenchido)
-→ Slack - Reminder "preencher notas reunião"
+→ Notion - Create Page (template reuniêo preenchido)
+→ Slack - Reminder "preencher notas reuniêo"
 ```
 
 ### 4.3 Template de Aprendizado (Zettelkasten)
@@ -803,9 +803,9 @@ Google Calendar - Meeting Ended
 [1 parágrafo]
 
 ### Insights-Chave
-- **Insight 1:** [descrição]
+- **Insight 1:** [descriçêo]
   * Por que importa: [relevância]
-  * Como aplicar: [ação]
+  * Como aplicar: [açêo]
   
 - **Insight 2:** 
 
@@ -815,8 +815,8 @@ Google Calendar - Meeting Ended
 > "Quote 2"
 
 ## 💡 Aplicações Práticas
-- [ ] Aplicação 1: [onde/como usar] - Projeto: [[link]]
-- [ ] Aplicação 2: 
+- [ ] Aplicaçêo 1: [onde/como usar] - Projeto: [[link]]
+- [ ] Aplicaçêo 2: 
 
 ## 🔗 Conexões
 - Relacionado com: [[nota X]], [[nota Y]]
@@ -833,7 +833,7 @@ Google Calendar - Meeting Ended
 ```
 
 **Por que funciona:**
-- Força processar, não só consumir
+- Força processar, nêo só consumir
 - Conecta conhecimentos (insights compostos)
 - Fácil encontrar quando precisar
 - Pode compartilhar (ensinar outros)
@@ -842,7 +842,7 @@ Google Calendar - Meeting Ended
 
 ### 5.1 Notion + Make (Automações)
 
-**Automação 1: Lead Form → Notion CRM**
+**Automaçêo 1: Lead Form → Notion CRM**
 ```
 Google Forms - New Response
 → Notion - Create Database Item (Leads)
@@ -857,7 +857,7 @@ Google Forms - New Response
   - Linked to Lead
 ```
 
-**Automação 2: Task Completed → Email Report**
+**Automaçêo 2: Task Completed → Email Report**
 ```
 Notion - Watch Database Items (Tasks)
   Filter: Status changed to "Done"
@@ -871,7 +871,7 @@ Notion - Watch Database Items (Tasks)
    Ótimo trabalho! 🎉"
 ```
 
-**Automação 3: New Project → Setup Completo**
+**Automaçêo 3: New Project → Setup Completo**
 ```
 Notion - Watch Database Items (Projects)
   Filter: newly created
@@ -885,11 +885,11 @@ Notion - Watch Database Items (Projects)
 
 ### 5.2 Notion + IA (ChatGPT/Claude)
 
-**Use Case 1: Resumir notas de reunião**
+**Use Case 1: Resumir notas de reuniêo**
 ```
-1. Copia notas brutas da reunião
+1. Copia notas brutas da reuniêo
 2. Prompt ChatGPT:
-   "Resuma estas notas de reunião:
+   "Resuma estas notas de reuniêo:
     
     [cola notas]
     
@@ -919,13 +919,13 @@ Formato Notion markdown."
 3. Prompt: "Analise minha produtividade:
    - Quais tipos tasks completo mais
    - Quando sou mais produtivo
-   - Tasks que travo (não completo)
+   - Tasks que travo (nêo completo)
    - Recomendações melhorar"
 ```
 
 ### 5.3 Notion API (Avançado)
 
-Se souber programação básica (ou usar Make):
+Se souber programaçêo básica (ou usar Make):
 
 **Criar dashboard externo:**
 - Puxa dados de databases Notion
@@ -939,7 +939,7 @@ Se souber programação básica (ou usar Make):
 
 **Automações complexas:**
 - Atualiza Notion baseado em eventos externos
-- Triggers custom (não disponíveis em Make/Zapier)
+- Triggers custom (nêo disponíveis em Make/Zapier)
 
 ## 6. Como Monetizar Notion (R$ 2.000-8.000/projeto)
 
@@ -951,7 +951,7 @@ Se souber programação básica (ou usar Make):
 - Inclui: Databases, templates, automações
 - Preço: R$ 1.500-4.000
 - Tempo: 8-15 horas
-- Entrega: Workspace + documentação + 1h treinamento
+- Entrega: Workspace + documentaçêo + 1h treinamento
 
 **2. Notion Migration**
 - Cliente: Empresa usando Trello/Asana/Evernote
@@ -962,7 +962,7 @@ Se souber programação básica (ou usar Make):
 
 **3. Notion Consulting (Retainer)**
 - Cliente: Empresas 10-50 funcionários
-- Escopo: Manutenção, novos templates, suporte
+- Escopo: Manutençêo, novos templates, suporte
 - Preço: R$ 800-2.000/mês
 - Tempo: 4-8h/mês
 - Benefício: Receita recorrente
@@ -977,7 +977,7 @@ Se souber programação básica (ou usar Make):
 **5. Notion Training**
 - Cliente: Equipes empresariais
 - Escopo: Workshop 3-4h ensinando Notion
-- Preço: R$ 1.500-3.000 por sessão
+- Preço: R$ 1.500-3.000 por sessêo
 - Formato: Presencial ou online
 
 ### 6.2 Proposta Notion Setup (Template)
@@ -991,7 +991,7 @@ PARA: [Cliente]
 DE: [Você] - Notion Specialist
 DATA: [Data]
 
-━━━ SITUAÇÃO ATUAL ━━━
+━━━ SITUAÇêO ATUAL ━━━
 
 Ferramentas usadas:
 - [Tool 1]: [problema]
@@ -999,12 +999,12 @@ Ferramentas usadas:
 - [Tool 3]: [problema]
 
 Problemas:
-- Informação espalhada em 5+ apps
+- Informaçêo espalhada em 5+ apps
 - Falta visibilidade do que equipe faz
-- Processos não documentados
+- Processos nêo documentados
 - Onboarding demora semanas
 
-━━━ SOLUÇÃO ━━━
+━━━ SOLUÇêO ━━━
 
 Workspace Notion centralizado com:
 
@@ -1012,11 +1012,11 @@ Workspace Notion centralizado com:
 - Database Projetos (todos projetos empresa)
 - Database Tasks (todas tasks, linkadas a projetos)
 - Views: por pessoa, por status, timeline, etc
-- Templates de projeto padrão
+- Templates de projeto padrêo
 
 **2. Knowledge Base**
 - Wiki interna (processos, políticas)
-- Documentação produtos
+- Documentaçêo produtos
 - FAQs
 - Recursos (templates, links, etc)
 
@@ -1042,7 +1042,7 @@ Workspace Notion centralizado com:
 ✅ [número] databases criadas e linkadas
 ✅ [número] templates customizados
 ✅ [número] automações ativas
-✅ Documentação completa (como usar)
+✅ Documentaçêo completa (como usar)
 ✅ 2 sessões treinamento (2h cada)
 ✅ 30 dias suporte pós-entrega
 
@@ -1058,7 +1058,7 @@ Inclui:
 - Training (4h)
 - Suporte 30d
 
-Opcional - Manutenção:
+Opcional - Manutençêo:
 R$ 800/mês (8h/mês ajustes + suporte)
 
 ━━━ TIMELINE ━━━
@@ -1066,7 +1066,7 @@ R$ 800/mês (8h/mês ajustes + suporte)
 Semana 1:
 - Discovery (entender processos)
 - Workspace structure design
-- Aprovação estrutura
+- Aprovaçêo estrutura
 
 Semana 2-3:
 - Build databases
@@ -1075,10 +1075,10 @@ Semana 2-3:
 - Testes internos
 
 Semana 4:
-- Training sessão 1 (admins)
-- Training sessão 2 (equipe)
+- Training sessêo 1 (admins)
+- Training sessêo 2 (equipe)
 - Go-live
-- Documentação entregue
+- Documentaçêo entregue
 
 TOTAL: 4 semanas
 
@@ -1088,12 +1088,12 @@ TOTAL: 4 semanas
 ✅ Visibilidade 100% do que acontece
 ✅ Onboarding 70% mais rápido
 ✅ Processos documentados
-✅ Colaboração mais eficiente
+✅ Colaboraçêo mais eficiente
 ✅ Tempo economizado: ~10h/semana/pessoa
 
 ━━━ PRÓXIMOS PASSOS ━━━
 
-1. Aprovação proposta
+1. Aprovaçêo proposta
 2. Discovery call (agendar)
 3. Kickoff semana seguinte
 4. [Data]: Go-live
@@ -1118,20 +1118,20 @@ Crie:
 
 Crie 3 templates:
 1. Projeto (com checklist inicial)
-2. Reunião (com seções estruturadas)
+2. Reuniêo (com seções estruturadas)
 3. Aprendizado (com metadata)
 
-**PARTE 3: Automação (20min)**
+**PARTE 3: Automaçêo (20min)**
 
-Configure 1 automação:
-- Opção A: Form → Notion (via Make)
-- Opção B: Task done → Slack notification
-- Opção C: New project → Create pages auto
+Configure 1 automaçêo:
+- Opçêo A: Form → Notion (via Make)
+- Opçêo B: Task done → Slack notification
+- Opçêo C: New project → Create pages auto
 
 **ENTREGA:**
 - Screenshot do workspace
 - Link compartilhado (read-only)
-- Explicação: como organizou e por quê
+- Explicaçêo: como organizou e por quê
 
 **BÔNUS:** Poste no LinkedIn mostrando seu Notion organizado. Tag: #notion #produtividade
 
@@ -1142,7 +1142,7 @@ Configure 1 automação:
 **Módulo 6: Google Workspace Avançado**
 - Gmail profissional (filtros, labels, templates)
 - Google Sheets (fórmulas, dashboards, automações)
-- Google Drive (organização, compartilhamento, integrações)
+- Google Drive (organizaçêo, compartilhamento, integrações)
 - Integrações: Workspace + Notion + Make
 
 **Prepare-se para:** Dominar ferramentas que 99% das empresas usam
@@ -1151,4 +1151,4 @@ Nos vemos lá! 🚀
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

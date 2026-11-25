@@ -1,6 +1,6 @@
 # Módulo 8: Sistema de Respostas Automatizadas - Escalando Ajuda
 
-**Duração:** 75 minutos
+**Duraçêo:** 75 minutos
 **Objetivo:** Criar sistema que responde perguntas comuns automaticamente, escalando sua capacidade de ajudar
 
 ---
@@ -30,11 +30,11 @@
 = 10h/mês apenas respondendo perguntas repetidas
 ```
 
-**Solução:** Automatizar respostas padrão, focar em problemas únicos
+**Soluçêo:** Automatizar respostas padrêo, focar em problemas únicos
 
 ---
 
-## 🤖 FAQ Bot com RAG (Melhor Opção)
+## 🤖 FAQ Bot com RAG (Melhor Opçêo)
 
 ### Arquitetura
 
@@ -45,12 +45,12 @@ Fontes:
 - Seus posts de blog
 - READMEs do GitHub
 - Respostas anteriores (salvas)
-- Documentação oficial
+- Documentaçêo oficial
 ```
 
-### Implementação Rápida
+### Implementaçêo Rápida
 
-**Opção 1: CustomGPT (No-Code, $20/mês)**
+**Opçêo 1: CustomGPT (No-Code, $20/mês)**
 
 ```
 1. customgpt.ai → Create Project
@@ -70,15 +70,15 @@ Fontes:
 Pronto! FAQ bot em 30 min
 ```
 
-**Opção 2: Chatbase (Mais Barato, $19/mês)**
+**Opçêo 2: Chatbase (Mais Barato, $19/mês)**
 
 Similar ao CustomGPT, interface ainda mais simples.
 
-**Opção 3: DIY com LangChain (Grátis se usar OpenAI API)**
+**Opçêo 3: DIY com LangChain (Grátis se usar OpenAI API)**
 
 Código completo no Módulo 3 (RAG).
 
-### Integração Multi-Canal
+### Integraçêo Multi-Canal
 
 **Website/Blog:**
 ```html
@@ -120,10 +120,10 @@ def handle_mention(event, say):
 
 Emails técnicos pedindo ajuda:
 - 20-30/mês
-- 80% são perguntas comuns
+- 80% sêo perguntas comuns
 - 15 min cada para responder bem
 
-### Solução: Gmail + Zapier + ChatGPT
+### Soluçêo: Gmail + Zapier + ChatGPT
 
 **Setup:**
 
@@ -159,7 +159,7 @@ Emails técnicos pedindo ajuda:
 
 ---
 
-## 💬 Respostas Padrão com Atalhos
+## 💬 Respostas Padrêo com Atalhos
 
 ### Text Expander / Alfred Snippets
 
@@ -181,7 +181,7 @@ Mais detalhes: [link do tutorial]"
 
 ```
 :k8s → Template de troubleshooting Kubernetes
-:docker → Guia de otimização Docker
+:docker → Guia de otimizaçêo Docker
 :ci → Guia de CI/CD
 :onboard → Checklist de onboarding
 ```
@@ -196,7 +196,7 @@ Mais detalhes: [link do tutorial]"
 
 ## 📚 Knowledge Base Autoatualizada
 
-### Noção como Hub Central
+### Noçêo como Hub Central
 
 **Estrutura:**
 
@@ -253,7 +253,7 @@ for post in new_posts:
 **Categorias:**
 
 1. **Auto-respondível:** Bot responde
-2. **Semi-complexa:** Template + personalização
+2. **Semi-complexa:** Template + personalizaçêo
 3. **Única:** Você responde manualmente
 
 **IA Classifier:**
@@ -267,7 +267,7 @@ def classify_question(question):
     
     Categorias:
     - AUTO: Pergunta comum, tem resposta pronta
-    - TEMPLATE: Precisa personalização leve
+    - TEMPLATE: Precisa personalizaçêo leve
     - MANUAL: Problema único, precisa expertise
     
     Responda só a categoria.
@@ -298,7 +298,7 @@ else:
 - Perguntas recebidas/semana
 - % respondidas automaticamente
 - Tempo médio de resposta
-- Satisfação (thumbs up/down)
+- Satisfaçêo (thumbs up/down)
 
 **Setup Simples:**
 
@@ -310,7 +310,7 @@ Cada pergunta → Nova linha:
 - Pergunta
 - Categoria (AUTO/TEMPLATE/MANUAL)
 - Tempo de resposta
-- Satisfação (se tiver)
+- Satisfaçêo (se tiver)
 
 Dashboard automático com gráficos
 ```
@@ -356,7 +356,7 @@ Após resposta automática:
 
 "Isso respondeu sua pergunta? 👍 👎"
 
-Se não → Marca para review manual
+Se nêo → Marca para review manual
 
 ### 3. Humano no Loop
 
@@ -376,7 +376,7 @@ Pergunta manual que resolver bem →
 
 ```
 Antes: 10h/mês respondendo
-Depois: 2h/mês (80% redução)
+Depois: 2h/mês (80% reduçêo)
 
 8h economizadas = 2 dias de trabalho
 Use para criar mais soluções!
@@ -394,7 +394,7 @@ Use para criar mais soluções!
    - Text snippets
 
 2. **Tier 2: Semi-Auto (20%)**
-   - Templates + personalização
+   - Templates + personalizaçêo
    - IA sugere, você ajusta
 
 3. **Tier 3: Manual (10%)**
@@ -405,7 +405,7 @@ Use para criar mais soluções!
 **Resultado:**
 - 100+ pessoas ajudadas/mês
 - <2h de trabalho manual
-- Satisfação alta (resposta rápida)
+- Satisfaçêo alta (resposta rápida)
 - Você vira "o consultor"
 
 **Próximo Módulo 9:**

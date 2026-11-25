@@ -11,28 +11,28 @@
 Imagine acordar e abrir uma planilha que:
 - Já importou todos os dados de vendas do dia anterior
 - Calculou automaticamente as metas atingidas
-- Destacou em vermelho o que precisa de atenção
+- Destacou em vermelho o que precisa de atençêo
 - Enviou um relatório formatado por email para seu chefe
 - Tudo isso **sem você tocar em nada**
 
-Não é ficção científica. É o que você vai aprender a fazer HOJE.
+Nêo é ficçêo científica. É o que você vai aprender a fazer HOJE.
 
-### Por Que Google Sheets > Excel para Automação
+### Por Que Google Sheets > Excel para Automaçêo
 
 **Antes de você gritar "mas eu uso Excel há 15 anos!"**, ouça isso:
 
 **1. Vive na nuvem**
 - Acessa de qualquer lugar (celular, tablet, computador)
 - Nunca perde dados (auto-save a cada segundo)
-- Zero preocupação com backup
+- Zero preocupaçêo com backup
 
-**2. Integração nativa com tudo**
+**2. Integraçêo nativa com tudo**
 - Gmail, Google Forms, Google Drive
 - APIs REST (buscar dados de qualquer sistema)
 - Zapier, Make, Integromat
-- Apps Script (automação nativa)
+- Apps Script (automaçêo nativa)
 
-**3. Colaboração em tempo real**
+**3. Colaboraçêo em tempo real**
 - 10 pessoas editando ao mesmo tempo
 - Chat dentro da planilha
 - Histórico completo de versões
@@ -45,12 +45,12 @@ Não é ficção científica. É o que você vai aprender a fazer HOJE.
 - IMPORTRANGE (conectar planilhas)
 - QUERY (SQL dentro do Sheets)
 - IMPORTXML (web scraping)
-- GOOGLETRANSLATE (tradução automática)
+- GOOGLETRANSLATE (traduçêo automática)
 
 ### Quando AINDA Usar Excel
 
 **Seja honesto:** Use Excel quando:
-- Planilhas gigantes (>1 milhão de linhas)
+- Planilhas gigantes (>1 milhêo de linhas)
 - Macros VBA muito complexas já existentes
 - Gráficos super customizados
 - Trabalha 100% offline
@@ -62,21 +62,21 @@ Não é ficção científica. É o que você vai aprender a fazer HOJE.
 **Passo 1: Upload**
 1. Drive.google.com
 2. Arrastar arquivo .xlsx
-3. Botão direito → Abrir com → Google Planilhas
+3. Botêo direito → Abrir com → Google Planilhas
 4. Pronto! Convertido.
 
 **Passo 2: Ajustes comuns**
 - 90% das fórmulas funcionam igual
 - Algumas funções mudam nome (ex: `PROCV` vira `VLOOKUP` em inglês, mas `PROCV` também funciona!)
-- Macros VBA não funcionam (mas você vai aprender Apps Script, que é melhor)
+- Macros VBA nêo funcionam (mas você vai aprender Apps Script, que é melhor)
 
 ### Seu Primeiro Projeto: Dashboard Pessoal
 
 Ao final deste módulo, você terá:
 - Dashboard com todas suas métricas importantes
-- Atualização automática todo dia
+- Atualizaçêo automática todo dia
 - Alertas quando algo sai do esperado
-- Visualização bonita e profissional
+- Visualizaçêo bonita e profissional
 
 **Tempo estimado de economia:** 3-5 horas/semana em relatórios manuais.
 
@@ -113,7 +113,7 @@ Você tem:
 - Planilha B: Financeiro (atualizada pelo financeiro)
 - Planilha C: Dashboard (você quer consolidar tudo)
 
-**Solução:**
+**Soluçêo:**
 ```
 // Na planilha Dashboard, célula A1:
 =IMPORTRANGE("URL_planilha_vendas", "Dados!A2:G")
@@ -122,9 +122,9 @@ Você tem:
 =IMPORTRANGE("URL_planilha_financeiro", "Dados!A2:E")
 ```
 
-**Primeiro uso:** Vai pedir permissão (clique "Permitir acesso").
+**Primeiro uso:** Vai pedir permissêo (clique "Permitir acesso").
 
-**Atualização:** Automática! Sempre que as planilhas originais mudarem, sua dashboard atualiza.
+**Atualizaçêo:** Automática! Sempre que as planilhas originais mudarem, sua dashboard atualiza.
 
 **Tempo economizado:** De copiar/colar 20 minutos/dia → 0 minutos.
 
@@ -183,7 +183,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 =ARRAYFORMULA(sua_fórmula)
 ```
 
-**Exemplo: Calcular comissão (5%) para 10.000 vendas**
+**Exemplo: Calcular comissêo (5%) para 10.000 vendas**
 
 **Jeito antigo (ruim):**
 - Célula C2: `=B2*0.05`
@@ -196,9 +196,9 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 =ARRAYFORMULA(IF(B2:B="";"";B2:B*0.05))
 ```
 
-**Explicação:**
+**Explicaçêo:**
 - `B2:B` = pega TODA a coluna B
-- `IF(B2:B="";"";...)` = se célula vazia, deixa vazia (senão fica #N/D)
+- `IF(B2:B="";"";...)` = se célula vazia, deixa vazia (senêo fica #N/D)
 - `B2:B*0.05` = multiplica tudo por 5%
 
 **Resultado:** UMA fórmula que funciona para infinitas linhas. Adicionou linha nova? Já calcula automaticamente.
@@ -210,7 +210,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 
 **Tempo economizado:** De 5 minutos ajustando fórmulas → 0 minutos.
 
-### 4. GOOGLETRANSLATE - Tradução Instantânea
+### 4. GOOGLETRANSLATE - Traduçêo Instantânea
 
 **O que faz:** Traduz texto automaticamente.
 
@@ -229,7 +229,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 - 500 linhas de descrições de produtos
 - Precisa traduzir tudo
 
-**Solução:**
+**Soluçêo:**
 ```
 =ARRAYFORMULA(IF(A2:A="";"";GOOGLETRANSLATE(A2:A, "en", "pt")))
 ```
@@ -245,7 +245,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 =IMPORTXML("URL", "xpath")
 ```
 
-**Exemplo 1: Pegar cotação do dólar**
+**Exemplo 1: Pegar cotaçêo do dólar**
 ```
 =IMPORTXML("https://www.google.com/finance/quote/USD-BRL", "//div[@class='YMlKec fxKbKc']")
 ```
@@ -260,14 +260,14 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 - Atualizar todo dia
 - Alertar se algum baixar preço
 
-**Solução:**
+**Soluçêo:**
 1. Coluna A: URLs dos produtos
 2. Coluna B: `=ARRAYFORMULA(IMPORTXML(A2:A, "xpath_do_preço"))`
-3. Formatação condicional: vermelho se preço < seu preço
+3. Formataçêo condicional: vermelho se preço < seu preço
 
-**Atualização:** Automática quando abrir a planilha.
+**Atualizaçêo:** Automática quando abrir a planilha.
 
-**Atenção:** Alguns sites bloqueiam scraping. Use com moderação e respeite os termos de uso.
+**Atençêo:** Alguns sites bloqueiam scraping. Use com moderaçêo e respeite os termos de uso.
 
 ### 6. IMPORTDATA - Importar CSV da Web
 
@@ -286,9 +286,9 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 **Caso de uso real:**
 - Seu fornecedor disponibiliza estoque em CSV online
 - Atualiza a cada hora
-- Você quer sempre a versão mais recente
+- Você quer sempre a versêo mais recente
 
-**Solução:**
+**Soluçêo:**
 ```
 =IMPORTDATA("https://fornecedor.com.br/estoque.csv")
 ```
@@ -301,7 +301,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 
 **Sintaxe:**
 ```
-=FILTER(intervalo, condição1, condição2, ...)
+=FILTER(intervalo, condiçêo1, condiçêo2, ...)
 ```
 
 **Exemplo 1: Vendas acima de R$ 5000**
@@ -309,23 +309,23 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 =FILTER(A2:D100, D2:D100>5000)
 ```
 
-**Exemplo 2: Vendas do vendedor "João" no mês de Novembro**
+**Exemplo 2: Vendas do vendedor "Joêo" no mês de Novembro**
 ```
-=FILTER(A2:D100, B2:B100="João", C2:C100>=DATA(2024,11,1))
+=FILTER(A2:D100, B2:B100="Joêo", C2:C100>=DATA(2024,11,1))
 ```
 
 **Exemplo 3: Combinar com outras funções**
 ```
-// Soma todas as vendas do João:
-=SUM(FILTER(D2:D100, B2:B100="João"))
+// Soma todas as vendas do Joêo:
+=SUM(FILTER(D2:D100, B2:B100="Joêo"))
 ```
 
 **Caso de uso real:**
 Dashboard com abas por vendedor. Em vez de criar filtro manual para cada um:
 
 ```
-// Aba "João":
-=FILTER(Base!A:D, Base!B:B="João")
+// Aba "Joêo":
+=FILTER(Base!A:D, Base!B:B="Joêo")
 
 // Aba "Maria":
 =FILTER(Base!A:D, Base!B:B="Maria")
@@ -392,13 +392,13 @@ Ou lista de todos clientes únicos:
 
 **Exemplo: Separar nome completo**
 ```
-// Célula A1: "João Silva Santos"
+// Célula A1: "Joêo Silva Santos"
 =SPLIT(A1, " ")
-// Resultado: "João" | "Silva" | "Santos"
+// Resultado: "Joêo" | "Silva" | "Santos"
 ```
 
 **Caso de uso real:**
-Você importou CSV com endereço completo em uma célula: "Rua ABC, 123, São Paulo, SP"
+Você importou CSV com endereço completo em uma célula: "Rua ABC, 123, Sêo Paulo, SP"
 
 ```
 =SPLIT(A2, ", ")
@@ -432,8 +432,8 @@ Criar nome de arquivo: `Cliente_Produto_Data.pdf`
 
 **O que faz:** Busca padrões em texto.
 
-**REGEXMATCH:** Retorna TRUE/FALSE se encontrou padrão
-**REGEXEXTRACT:** Extrai o padrão encontrado
+**REGEXMATCH:** Retorna TRUE/FALSE se encontrou padrêo
+**REGEXEXTRACT:** Extrai o padrêo encontrado
 
 **Exemplo 1: Verificar se email é válido**
 ```
@@ -442,7 +442,7 @@ Criar nome de arquivo: `Cliente_Produto_Data.pdf`
 
 **Exemplo 2: Extrair CEP de endereço**
 ```
-// Endereço: "Rua ABC, 123, São Paulo, SP, 01234-567"
+// Endereço: "Rua ABC, 123, Sêo Paulo, SP, 01234-567"
 =REGEXEXTRACT(A2, "\d{5}-\d{3}")
 // Resultado: "01234-567"
 ```
@@ -454,8 +454,8 @@ Criar nome de arquivo: `Cliente_Produto_Data.pdf`
 
 ### 13. COUNTIF / SUMIF - Contar e Somar com Condições
 
-**COUNTIF:** Conta células que atendem condição
-**SUMIF:** Soma células que atendem condição
+**COUNTIF:** Conta células que atendem condiçêo
+**SUMIF:** Soma células que atendem condiçêo
 
 **Exemplos:**
 ```
@@ -485,7 +485,7 @@ Criar nome de arquivo: `Cliente_Produto_Data.pdf`
 ```
 
 **Vantagem sobre PROCV:**
-- Funciona em qualquer direção (PROCV só para direita)
+- Funciona em qualquer direçêo (PROCV só para direita)
 - Mais rápido em planilhas grandes
 
 ### 15. SPARKLINE - Gráficos Minúsculos Dentro das Células
@@ -530,21 +530,21 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 **Hoje com IA:**
 - Descreve a regra em português
 - IA categoriza 5.000 linhas em 30 segundos
-- Precisão de 95%+
+- Precisêo de 95%+
 
 ### Add-on Recomendado: GPT for Sheets and Docs
 
-**Instalação (2 minutos):**
+**Instalaçêo (2 minutos):**
 1. Google Sheets → Extensões → Complementos → Obter complementos
 2. Buscar "GPT for Sheets and Docs"
 3. Instalar (by Talarian)
-4. Configurar API key do OpenAI (veja próxima seção)
+4. Configurar API key do OpenAI (veja próxima seçêo)
 
 ### Configurar API do ChatGPT (5 minutos)
 
 **Passo 1: Criar conta OpenAI**
 - platform.openai.com
-- Criar conta (se não tiver)
+- Criar conta (se nêo tiver)
 
 **Passo 2: Gerar API Key**
 1. platform.openai.com/api-keys
@@ -567,7 +567,7 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 
 **Problema:** Você tem 2.000 descrições de produtos desorganizadas.
 
-**Solução com IA:**
+**Soluçêo com IA:**
 
 ```
 =GPT("Classifique este produto em: Eletrônicos, Alimentos, Vestuário, Outros. Retorne apenas a categoria: "&A2)
@@ -588,7 +588,7 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 
 **Entrada (célula A2):**
 ```
-"Produto chegou quebrado, muito insatisfeito com a entrega. O atendimento tentou ajudar mas não resolveu."
+"Produto chegou quebrado, muito insatisfeito com a entrega. O atendimento tentou ajudar mas nêo resolveu."
 ```
 
 **Fórmula:**
@@ -611,21 +611,21 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 
 **Fórmula:**
 ```
-=GPT("Escreva descrição de produto para e-commerce (máx 50 palavras, tom persuasivo). Produto: "&A2&". Características: "&B2)
+=GPT("Escreva descriçêo de produto para e-commerce (máx 50 palavras, tom persuasivo). Produto: "&A2&". Características: "&B2)
 ```
 
 **Exemplo:**
 - A2: "Mouse Gamer RGB"
-- B2: "7 botões programáveis, DPI ajustável até 16000, iluminação RGB personalizável"
+- B2: "7 botões programáveis, DPI ajustável até 16000, iluminaçêo RGB personalizável"
 
 **Resultado:**
 ```
-"Eleve sua experiência gaming com este mouse de alta precisão! 7 botões programáveis para comandos rápidos, sensor óptico até 16000 DPI para movimentos ultra-precisos e iluminação RGB customizável para combinar com seu setup. Ergonomia premium para maratonas de jogo. Domine com estilo!"
+"Eleve sua experiência gaming com este mouse de alta precisêo! 7 botões programáveis para comandos rápidos, sensor óptico até 16000 DPI para movimentos ultra-precisos e iluminaçêo RGB customizável para combinar com seu setup. Ergonomia premium para maratonas de jogo. Domine com estilo!"
 ```
 
 #### 4. Análise de Sentimentos
 
-**Problema:** 1.000 avaliações de clientes. Quantas são positivas/negativas?
+**Problema:** 1.000 avaliações de clientes. Quantas sêo positivas/negativas?
 
 **Fórmula:**
 ```
@@ -638,7 +638,7 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 =COUNTIF(B2:B1000, "Positivo")
 ```
 
-#### 5. Tradução em Massa (Melhor que GOOGLETRANSLATE)
+#### 5. Traduçêo em Massa (Melhor que GOOGLETRANSLATE)
 
 **Fórmula:**
 ```
@@ -667,12 +667,12 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 **Você em vez de procurar no Google:**
 
 ```
-=GPT("Escreva uma fórmula do Google Sheets que calcule a média das vendas dos últimos 7 dias, ignorando fins de semana e feriados, para o vendedor João")
+=GPT("Escreva uma fórmula do Google Sheets que calcule a média das vendas dos últimos 7 dias, ignorando fins de semana e feriados, para o vendedor Joêo")
 ```
 
 **IA responde com a fórmula pronta** (você só copia e cola).
 
-### Apps Script: Automação Nativa do Sheets
+### Apps Script: Automaçêo Nativa do Sheets
 
 **O que é:** JavaScript para automatizar Google Sheets (grátis).
 
@@ -726,7 +726,7 @@ function importarDados() {
 
 ---
 
-## 4. Dashboards Automáticos (Visualização Profissional)
+## 4. Dashboards Automáticos (Visualizaçêo Profissional)
 
 ### Princípios de um Bom Dashboard
 
@@ -734,13 +734,13 @@ function importarDados() {
 - Máximo 6-8 métricas por tela
 - Hierarquia visual clara (maior = mais importante)
 
-**2. Atualização Automática**
+**2. Atualizaçêo Automática**
 - Usuário nunca deve ter que "atualizar" manualmente
 - Use fórmulas dinâmicas
 
 **3. Cores com Propósito**
 - Verde: tudo bem
-- Amarelo: atenção
+- Amarelo: atençêo
 - Vermelho: urgente
 - Cinza: neutro
 
@@ -750,13 +750,13 @@ function importarDados() {
 
 ### Estrutura de Dashboard Profissional
 
-**Aba 1: Dashboard (visualização)**
+**Aba 1: Dashboard (visualizaçêo)**
 - Só gráficos e métricas principais
 - Sem dados brutos
 
 **Aba 2: Dados Brutos**
-- Importação automática (IMPORTRANGE, API, etc.)
-- Sem formatação
+- Importaçêo automática (IMPORTRANGE, API, etc.)
+- Sem formataçêo
 
 **Aba 3: Processamento**
 - Fórmulas QUERY, FILTER, etc.
@@ -811,27 +811,27 @@ function importarDados() {
 =COUNTIF(Estoque!C:C, "<10") // Itens com estoque abaixo de 10
 ```
 
-**4. Data/Hora de Última Atualização**
+**4. Data/Hora de Última Atualizaçêo**
 ```
-="Última atualização: "&TEXT(AGORA(), "DD/MM/YYYY HH:MM")
+="Última atualizaçêo: "&TEXT(AGORA(), "DD/MM/YYYY HH:MM")
 ```
 
-### Formatação Condicional Inteligente
+### Formataçêo Condicional Inteligente
 
 **Regra 1: Verde se atingiu meta**
 - Seleciona célula de % da meta
-- Formato → Formatação condicional
+- Formato → Formataçêo condicional
 - Se valor >= 100% → Verde
 
 **Regra 2: Escala de cores**
 - Seleciona coluna de vendas
-- Formatação condicional → Escala de cores
+- Formataçêo condicional → Escala de cores
 - Menor valor = vermelho claro
 - Maior valor = verde escuro
 
 **Regra 3: Ícones**
 - Seleciona células
-- Formatação condicional → "Conjunto de ícones"
+- Formataçêo condicional → "Conjunto de ícones"
 - Escolhe: ▲ (acima meta), — (na meta), ▼ (abaixo)
 
 ### Google Data Studio (Looker Studio) - Dashboards Profissionais
@@ -889,20 +889,20 @@ function importarDados() {
 
 ### Erros Comuns em Dashboards (E Como Evitar)
 
-#### Erro 1: Excesso de Informação
+#### Erro 1: Excesso de Informaçêo
 
 **Problema:** Dashboard com 30 métricas diferentes em uma única tela.
 
 **Por quê é ruim:**
-- Paralisia analítica (não sabe para onde olhar)
+- Paralisia analítica (nêo sabe para onde olhar)
 - Números importantes se perdem no meio
 - Tempo de carregamento lento
 - Difícil de entender rapidamente
 
-**Solução:**
+**Soluçêo:**
 - Regra 5-7-9: máximo 5 métricas principais, 7 gráficos, 9 KPIs totais
 - Crie múltiplas abas para diferentes níveis de detalhamento
-- Aba 1: Visão Executiva (só o essencial)
+- Aba 1: Visêo Executiva (só o essencial)
 - Aba 2: Detalhamento Operacional
 - Aba 3: Dados Brutos
 
@@ -922,26 +922,26 @@ ABA "EXECUTIVO":
 
 ABA "OPERACIONAL":
 - Vendas por vendedor
-- Vendas por região
+- Vendas por regiêo
 - Vendas por categoria
 - Detalhamento diário
 ```
 
 #### Erro 2: Métricas Sem Contexto
 
-**Problema:** Mostrar "Vendas: R$ 50.000" sem comparação.
+**Problema:** Mostrar "Vendas: R$ 50.000" sem comparaçêo.
 
 **Por quê é ruim:**
-- 50k é bom ou ruim? Não sabemos.
-- Falta referência para tomada de decisão
+- 50k é bom ou ruim? Nêo sabemos.
+- Falta referência para tomada de decisêo
 
-**Solução:** Sempre contextualize com:
+**Soluçêo:** Sempre contextualize com:
 - Meta (50k de 40k = 125% da meta ✅)
 - Período anterior (50k vs. 45k mês passado = +11%)
 - Mesmo período ano passado (50k vs. 48k nov/2023 = +4%)
 - Média histórica (50k vs. média de 42k = acima da média)
 
-**Fórmula para comparação vs. período anterior:**
+**Fórmula para comparaçêo vs. período anterior:**
 ```
 =TEXT((VALOR_ATUAL/VALOR_ANTERIOR)-1, "+0%;-0%;0%")
 ```
@@ -954,7 +954,7 @@ vs. Outubro: +11% 📈
 vs. Nov/2023: +4% 📈
 ```
 
-#### Erro 3: Atualização Manual
+#### Erro 3: Atualizaçêo Manual
 
 **Problema:** "Preciso copiar os dados do CRM e colar aqui toda segunda-feira"
 
@@ -964,17 +964,17 @@ vs. Nov/2023: +4% 📈
 - Toma tempo toda semana
 - Abre margem para erro
 
-**Solução:**
+**Soluçêo:**
 - Use IMPORTRANGE para buscar de outras planilhas
 - Conecte via Zapier ao sistema fonte (CRM, ERP)
 - Use Apps Script para buscar via API
-- Configure atualização automática
+- Configure atualizaçêo automática
 
-**Exemplo de integração:**
+**Exemplo de integraçêo:**
 
 **Cenário:** CRM externo que exporta CSV diariamente
 
-**Solução:**
+**Soluçêo:**
 1. Configure CRM para enviar CSV por email todo dia às 7h
 2. Apps Script busca email, extrai CSV, importa para Sheets
 3. Dashboard atualiza automaticamente via fórmulas
@@ -1006,18 +1006,18 @@ Configure trigger: Todo dia, 8h-9h.
 **Por quê é ruim:**
 - Confunde em vez de informar
 - Parece amador
-- Dificulta identificação rápida de problemas
+- Dificulta identificaçêo rápida de problemas
 
-**Solução:** Use paleta de cores com propósito:
+**Soluçêo:** Use paleta de cores com propósito:
 
-**Código de cores padrão:**
+**Código de cores padrêo:**
 - 🟢 Verde: Positivo, meta atingida, tudo bem
-- 🟡 Amarelo: Atenção, perto do limite
-- 🔴 Vermelho: Urgente, meta não atingida, problema
+- 🟡 Amarelo: Atençêo, perto do limite
+- 🔴 Vermelho: Urgente, meta nêo atingida, problema
 - ⚪ Cinza: Neutro, informativo
-- 🔵 Azul: Informação, destaque sem juízo de valor
+- 🔵 Azul: Informaçêo, destaque sem juízo de valor
 
-**Exemplo de formatação condicional:**
+**Exemplo de formataçêo condicional:**
 
 ```
 Atingimento de meta:
@@ -1033,8 +1033,8 @@ Mínimo até Mínimo+50%: Amarelo
 
 **Como aplicar:**
 1. Selecione célula/intervalo
-2. Formatar → Formatação condicional
-3. "A célula não está vazia" (para aplicar a todas)
+2. Formatar → Formataçêo condicional
+3. "A célula nêo está vazia" (para aplicar a todas)
 4. Escolha "Escala de cores" ou regras personalizadas
 
 #### Erro 5: Gráficos Inadequados
@@ -1045,21 +1045,21 @@ Mínimo até Mínimo+50%: Amarelo
 
 **Gráfico de Linha:**
 - ✅ Tendências ao longo do tempo
-- ✅ Evolução de métricas
+- ✅ Evoluçêo de métricas
 - Exemplo: Vendas dos últimos 30 dias
 
 **Gráfico de Colunas/Barras:**
-- ✅ Comparação entre categorias
+- ✅ Comparaçêo entre categorias
 - ✅ Rankings
 - Exemplo: Vendas por vendedor
 
 **Gráfico de Pizza:**
 - ✅ Proporções (máximo 5-6 fatias)
 - ❌ NUNCA use para comparar valores similares
-- Exemplo: Distribuição de vendas por região
+- Exemplo: Distribuiçêo de vendas por regiêo
 
 **Gráfico de Área:**
-- ✅ Mostrar volume total + composição ao longo do tempo
+- ✅ Mostrar volume total + composiçêo ao longo do tempo
 - Exemplo: Vendas empilhadas por categoria (mostra total e breakdown)
 
 **Gauge (Velocímetro):**
@@ -1072,7 +1072,7 @@ Mínimo até Mínimo+50%: Amarelo
 
 **Regra de ouro:** Se você precisa de mais de 5 segundos para entender o gráfico, escolha outro tipo.
 
-### Otimização de Performance em Planilhas Grandes
+### Otimizaçêo de Performance em Planilhas Grandes
 
 #### Problema: Planilha Lenta
 
@@ -1082,9 +1082,9 @@ Mínimo até Mínimo+50%: Amarelo
 - Fórmulas demoram para recalcular
 - "Carregando..." aparece frequentemente
 
-#### Solução 1: Reduza Fórmulas Voláteis
+#### Soluçêo 1: Reduza Fórmulas Voláteis
 
-**Fórmulas voláteis** recalculam SEMPRE (mesmo quando não precisa):
+**Fórmulas voláteis** recalculam SEMPRE (mesmo quando nêo precisa):
 - `AGORA()` / `NOW()`
 - `HOJE()` / `TODAY()`
 - `RAND()` / `RANDBETWEEN()`
@@ -1096,8 +1096,8 @@ Mínimo até Mínimo+50%: Amarelo
 =SE(A2<>""; AGORA(); "")
 ```
 
-**Solução:**
-- Use com moderação
+**Soluçêo:**
+- Use com moderaçêo
 - Quando possível, substitua por valor fixo
 - Combine múltiplas em uma célula só
 
@@ -1109,7 +1109,7 @@ Célula Z1: =AGORA()
 =SE(A2<>""; $Z$1; "")
 ```
 
-#### Solução 2: Substitua ARRAYFORMULA Muito Longos
+#### Soluçêo 2: Substitua ARRAYFORMULA Muito Longos
 
 **Problema:**
 ```
@@ -1118,7 +1118,7 @@ Célula Z1: =AGORA()
   VLOOKUP(A2:A50000, OutraPlanilha!A:Z, 10, FALSE); ""))
 ```
 
-**Solução:** Limite ao intervalo necessário
+**Soluçêo:** Limite ao intervalo necessário
 ```
 // Melhor: só até última linha com dados
 =ARRAYFORMULA(IF(A2:A<>"";
@@ -1130,12 +1130,12 @@ Ou use QUERY em vez de VLOOKUP (mais rápido):
 =QUERY(OutraPlanilha!A:Z, "SELECT A, J WHERE A IS NOT NULL")
 ```
 
-#### Solução 3: Divida em Múltiplas Planilhas
+#### Soluçêo 3: Divida em Múltiplas Planilhas
 
 **Estrutura recomendada:**
 
 **Planilha 1: DADOS BRUTOS**
-- Só importação de dados
+- Só importaçêo de dados
 - Sem fórmulas complexas
 - Atualizadas via API/Zapier
 
@@ -1145,7 +1145,7 @@ Ou use QUERY em vez de VLOOKUP (mais rápido):
 - Dados tratados
 
 **Planilha 3: DASHBOARD**
-- Só visualização
+- Só visualizaçêo
 - Puxa dados processados da Planilha 2
 - Gráficos e formatações
 
@@ -1153,14 +1153,14 @@ Ou use QUERY em vez de VLOOKUP (mais rápido):
 - Cada planilha carrega independentemente
 - Mais rápido
 - Mais organizado
-- Fácil manutenção
+- Fácil manutençêo
 
-#### Solução 4: Use Filtros em Vez de Ocultar Linhas
+#### Soluçêo 4: Use Filtros em Vez de Ocultar Linhas
 
 **Problema:** 10.000 linhas com 9.000 ocultas manualmente = lento
 
-**Solução:**
-- Use Exibição de Filtro (não afeta outros usuários)
+**Soluçêo:**
+- Use Exibiçêo de Filtro (nêo afeta outros usuários)
 - Ou crie abas separadas com FILTER/QUERY
 
 ```
@@ -1168,14 +1168,14 @@ Ou use QUERY em vez de VLOOKUP (mais rápido):
 =FILTER(TodosDados!A:Z, YEAR(TodosDados!A:A)=2024)
 ```
 
-#### Solução 5: Remova Formatação Condicional Excessiva
+#### Soluçêo 5: Remova Formataçêo Condicional Excessiva
 
-**Problema:** Formatação condicional em 50 colunas x 10.000 linhas
+**Problema:** Formataçêo condicional em 50 colunas x 10.000 linhas
 
-**Solução:**
+**Soluçêo:**
 - Aplique só onde realmente precisa
-- Use "Aplicar ao intervalo" específico (não coluna inteira)
-- Máximo 5-7 regras de formatação condicional por planilha
+- Use "Aplicar ao intervalo" específico (nêo coluna inteira)
+- Máximo 5-7 regras de formataçêo condicional por planilha
 
 #### Benchmark de Performance
 
@@ -1201,9 +1201,9 @@ Ou use QUERY em vez de VLOOKUP (mais rápido):
 
 ---
 
-## 5. Automação de Entrada de Dados (Nunca Mais Digite Manualmente)
+## 5. Automaçêo de Entrada de Dados (Nunca Mais Digite Manualmente)
 
-### Google Forms → Sheets (Automação Instantânea)
+### Google Forms → Sheets (Automaçêo Instantânea)
 
 **Caso de uso:** Coleta de dados (pesquisas, pedidos, registros, etc.)
 
@@ -1226,7 +1226,7 @@ Na aba "Respostas", adicione fórmulas:
 =ARRAYFORMULA(IF(B2:B="";"";B2:B*C2:C))
 ```
 
-**Passo 4: Enviar Email de Confirmação Automático**
+**Passo 4: Enviar Email de Confirmaçêo Automático**
 
 Apps Script:
 ```javascript
@@ -1236,7 +1236,7 @@ function aoEnviarFormulario(e) {
 
   MailApp.sendEmail({
     to: email,
-    subject: "Confirmação de Recebimento",
+    subject: "Confirmaçêo de Recebimento",
     body: "Olá " + nome + ",\n\nRecebemos seu formulário!\n\nObrigado."
   });
 }
@@ -1247,7 +1247,7 @@ function aoEnviarFormulario(e) {
 2. "aoEnviarFormulario"
 3. "Ao enviar formulário"
 
-**Resultado:** Cliente preenche formulário → Dados vão pro Sheets → Email automático enviado.
+**Resultado:** Cliente preenche formulário → Dados vêo pro Sheets → Email automático enviado.
 
 ### Zapier → Sheets (Múltiplas Fontes)
 
@@ -1268,11 +1268,11 @@ function aoEnviarFormulario(e) {
 **Action 1:** Sheets - "Create Row"
 **Action 2:** Gmail - "Send Email" (notificar equipe)
 
-### Importação Automática de Arquivos
+### Importaçêo Automática de Arquivos
 
 **Cenário:** Você recebe arquivo CSV todo dia por email.
 
-**Solução com Apps Script:**
+**Soluçêo com Apps Script:**
 
 ```javascript
 function importarCSVdoEmail() {
@@ -1297,7 +1297,7 @@ function importarCSVdoEmail() {
 
 ---
 
-## 6. Exercícios Práticos (Mão na Massa!)
+## 6. Exercícios Práticos (Mêo na Massa!)
 
 ### Exercício 1: Criar Dashboard Pessoal (60 minutos)
 
@@ -1313,7 +1313,7 @@ function importarCSVdoEmail() {
    - Emails respondidos
    - Nivel de energia (1-10)
 
-3. **Aba "Dashboard":** Criar visualização:
+3. **Aba "Dashboard":** Criar visualizaçêo:
    - Média de horas/dia (última semana)
    - Total de tarefas concluídas (mês)
    - Gráfico de tendência (energia ao longo do tempo)
@@ -1332,15 +1332,15 @@ function importarCSVdoEmail() {
 - [ ] Planilha criada
 - [ ] Ao menos 3 métricas
 - [ ] 1 gráfico
-- [ ] Formatação condicional em 1 célula
+- [ ] Formataçêo condicional em 1 célula
 
 ### Exercício 2: Implementar 5 Fórmulas Avançadas (40 minutos)
 
 **Tarefa:** Crie planilha de vendas fake e aplique:
 
 1. **IMPORTRANGE:** Conectar 2 planilhas diferentes
-2. **QUERY:** Filtrar vendas > R$ 1000 do vendedor "João"
-3. **ARRAYFORMULA:** Calcular comissão (7%) para todas linhas
+2. **QUERY:** Filtrar vendas > R$ 1000 do vendedor "Joêo"
+3. **ARRAYFORMULA:** Calcular comissêo (7%) para todas linhas
 4. **FILTER:** Vendas dos últimos 30 dias
 5. **SPARKLINE:** Mini-gráfico de vendas de cada produto
 
@@ -1377,11 +1377,11 @@ function importarCSVdoEmail() {
 
 **Problema:** Empresa perde vendas por falta de estoque, mas também tem capital parado em excesso.
 
-**Solução com Sheets:**
+**Soluçêo com Sheets:**
 
 **Estrutura da planilha:**
 
-| Produto | Estoque Atual | Estoque Mínimo | Estoque Máximo | Status | Ação Necessária |
+| Produto | Estoque Atual | Estoque Mínimo | Estoque Máximo | Status | Açêo Necessária |
 |---------|---------------|----------------|----------------|--------|-----------------|
 | Notebook | 5 | 10 | 50 | 🔴 BAIXO | Comprar 45 |
 | Mouse | 120 | 20 | 100 | 🟡 ALTO | Reduzir pedidos |
@@ -1396,7 +1396,7 @@ function importarCSVdoEmail() {
   IF(B2:B > D2:D; "🟡 ALTO"; "🟢 OK"))))
 ```
 
-**Coluna F (Ação Necessária):**
+**Coluna F (Açêo Necessária):**
 ```
 =ARRAYFORMULA(IF(B2:B=""; "";
   IF(B2:B < C2:C; "Comprar " & (D2:D - B2:B);
@@ -1438,11 +1438,11 @@ function alertarEstoqueBaixo() {
 
 **Resultado:** Equipe de compras recebe email automático quando qualquer produto ficar abaixo do mínimo.
 
-### Caso 2: Calculadora de Margem e Precificação Inteligente
+### Caso 2: Calculadora de Margem e Precificaçêo Inteligente
 
-**Problema:** Time comercial erra precificação, vendendo abaixo do custo ou muito acima do mercado.
+**Problema:** Time comercial erra precificaçêo, vendendo abaixo do custo ou muito acima do mercado.
 
-**Solução: Planilha de precificação automática**
+**Soluçêo: Planilha de precificaçêo automática**
 
 **Inputs:**
 - Custo do produto
@@ -1458,7 +1458,7 @@ Preço Mínimo = Custo Total / (1 - Margem Mínima)
 Preço Sugerido = Custo Total / (1 - Margem Desejada)
 ```
 
-**Implementação:**
+**Implementaçêo:**
 
 | Produto | Custo | Despesas | Margem Desejada | Preço Mínimo | Preço Sugerido | Preço Concorrente | Posicionamento |
 |---------|-------|----------|-----------------|--------------|----------------|-------------------|----------------|
@@ -1490,11 +1490,11 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 
 **Vantagem:** Vendedor vê na hora se preço está competitivo.
 
-### Caso 3: Painel de Metas com Gamificação
+### Caso 3: Painel de Metas com Gamificaçêo
 
-**Problema:** Equipe desmotivada, não sabe como está vs. meta.
+**Problema:** Equipe desmotivada, nêo sabe como está vs. meta.
 
-**Solução: Dashboard gamificado**
+**Soluçêo: Dashboard gamificado**
 
 **Elementos:**
 
@@ -1516,7 +1516,7 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 
 ```
 // Assumindo que hoje é dia 15 do mês:
-=B2 / 15 * 30  // Projeção para 30 dias
+=B2 / 15 * 30  // Projeçêo para 30 dias
 ```
 
 4. **Status motivacional**
@@ -1526,15 +1526,15 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
   "💪 VAMOS COM TUDO! Você consegue!"))
 ```
 
-**Atualização em tempo real:** Conecte via IMPORTRANGE com planilha de vendas.
+**Atualizaçêo em tempo real:** Conecte via IMPORTRANGE com planilha de vendas.
 
-**Resultado:** Time vê progresso em tempo real + gamificação aumenta engajamento.
+**Resultado:** Time vê progresso em tempo real + gamificaçêo aumenta engajamento.
 
-### Caso 4: Sistema de Aprovação de Despesas
+### Caso 4: Sistema de Aprovaçêo de Despesas
 
 **Problema:** Despesas precisam passar por múltiplas aprovações, processo lento e manual.
 
-**Solução: Fluxo automatizado**
+**Soluçêo: Fluxo automatizado**
 
 **Google Form para solicitar despesa:**
 - Nome do solicitante
@@ -1542,7 +1542,7 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 - Valor
 - Categoria (Viagem / Material / Serviço)
 - Justificativa
-- Urgência (Sim/Não)
+- Urgência (Sim/Nêo)
 
 **Apps Script para aprovar automaticamente pequenos valores:**
 
@@ -1559,14 +1559,14 @@ function processarDespesas() {
     var categoria = dados[i][4];
     var urgencia = dados[i][6];
 
-    // Regra: Valores até R$ 200 = aprovação automática
+    // Regra: Valores até R$ 200 = aprovaçêo automática
     if (valor <= 200) {
       sheet.getRange(i+1, 8).setValue("✅ Aprovado automaticamente");
       enviarNotificacao(dados[i], "aprovado");
     }
-    // Valores acima de R$ 200 = envia para aprovação
+    // Valores acima de R$ 200 = envia para aprovaçêo
     else {
-      sheet.getRange(i+1, 8).setValue("⏳ Aguardando aprovação");
+      sheet.getRange(i+1, 8).setValue("⏳ Aguardando aprovaçêo");
       enviarParaGestor(dados[i]);
     }
   }
@@ -1579,7 +1579,7 @@ function enviarParaGestor(dados) {
 
   MailApp.sendEmail({
     to: "gestor@empresa.com",
-    subject: "Aprovação de Despesa: R$ " + valor,
+    subject: "Aprovaçêo de Despesa: R$ " + valor,
     body: "Solicitante: " + solicitante + "\n" +
           "Valor: R$ " + valor + "\n" +
           "Justificativa: " + justificativa + "\n\n" +
@@ -1597,11 +1597,11 @@ function enviarParaGestor(dados) {
 
 **Problema:** Gestor só descobre problema quando já é tarde.
 
-**Solução: Sistema de alertas proativos**
+**Soluçêo: Sistema de alertas proativos**
 
 **Monitorar:**
 - Vendas caindo >10% vs. semana anterior → 🔴 Alerta
-- Taxa de conversão caindo >5% → 🟡 Atenção
+- Taxa de conversêo caindo >5% → 🟡 Atençêo
 - Ticket médio subindo >15% → 🟢 Oportunidade
 
 **Apps Script:**
@@ -1634,11 +1634,11 @@ function monitorarKPIs() {
 
 **Resultado:** Gestor é avisado ANTES do problema se agravar.
 
-### Caso 6: Conciliação Bancária Automática
+### Caso 6: Conciliaçêo Bancária Automática
 
 **Problema:** Reconciliar extrato bancário com lançamentos internos = 2-3 horas/semana.
 
-**Solução:**
+**Soluçêo:**
 
 **Passo 1:** Importar extrato bancário (CSV)
 - Via upload manual ou email automático do banco
@@ -1652,7 +1652,7 @@ function monitorarKPIs() {
 
 **Passo 3:** Destacar divergências
 
-**Formatação condicional:**
+**Formataçêo condicional:**
 - Verde: Valor confere
 - Vermelho: Divergência
 
@@ -1660,7 +1660,7 @@ function monitorarKPIs() {
 
 ```javascript
 function listarDivergencias() {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Conciliação');
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Conciliaçêo');
   var dados = sheet.getDataRange().getValues();
 
   var divergencias = [];
@@ -1683,16 +1683,16 @@ function listarDivergencias() {
 
 ## 8. Troubleshooting: Problemas Comuns e Soluções
 
-### Problema 1: "IMPORTRANGE não funciona"
+### Problema 1: "IMPORTRANGE nêo funciona"
 
 **Erro:** `#REF!` ou "You need permission"
 
 **Causas:**
-1. Planilha origem não deu permissão
+1. Planilha origem nêo deu permissêo
 2. URL incorreta
 3. Nome da aba ou intervalo errado
 
-**Solução:**
+**Soluçêo:**
 1. Clique no erro → "Allow access"
 2. Confira URL (copie direto da barra de endereços)
 3. Teste importar só célula A1 primeiro: `=IMPORTRANGE("URL"; "Aba!A1")`
@@ -1720,28 +1720,28 @@ function listarDivergencias() {
 
 **Dica:** Dentro da query, use aspas simples (') para strings.
 
-### Problema 3: "Apps Script não roda automaticamente"
+### Problema 3: "Apps Script nêo roda automaticamente"
 
-**Sintomas:** Script funciona manual, mas trigger não executa.
+**Sintomas:** Script funciona manual, mas trigger nêo executa.
 
 **Causas:**
-1. Trigger não foi salvo
-2. Conta não deu permissão
-3. Função tem erro e falha silenciosamente
+1. Trigger nêo foi salvo
+2. Conta nêo deu permissêo
+3. Funçêo tem erro e falha silenciosamente
 
 **Soluções:**
 1. Verifique triggers: Apps Script → Relógio (ícone)
 2. Execute manual primeiro → Autorize permissões
-3. Veja logs de execução: Apps Script → Execuções
+3. Veja logs de execuçêo: Apps Script → Execuções
 
-### Problema 4: "Planilha não atualiza dados importados"
+### Problema 4: "Planilha nêo atualiza dados importados"
 
 **Sintomas:** IMPORTXML, IMPORTDATA retornam dados antigos
 
 **Causa:** Google Sheets cacheia importações.
 
 **Soluções:**
-1. Force atualização: Edite fórmula (adicione espaço e apague)
+1. Force atualizaçêo: Edite fórmula (adicione espaço e apague)
 2. Use parâmetro de cache-bust:
 ```
 =IMPORTXML("URL?refresh="&NOW(); "xpath")
@@ -1783,7 +1783,7 @@ Configure trigger para rodar a cada 5 minutos até processar tudo.
 ✅ **15 fórmulas poderosas:** IMPORTRANGE, QUERY, ARRAYFORMULA, etc.
 ✅ **IA no Sheets:** Categorizar, extrair, gerar textos automaticamente
 ✅ **Dashboards profissionais:** Métricas que se atualizam sozinhas
-✅ **Automação de entrada:** Forms, Zapier, Apps Script
+✅ **Automaçêo de entrada:** Forms, Zapier, Apps Script
 ✅ **Exercícios práticos:** Dashboard pessoal e automações reais
 
 ---
@@ -1814,4 +1814,4 @@ Imagine criar um relatório executivo de 10 páginas em 30 segundos. É possíve
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

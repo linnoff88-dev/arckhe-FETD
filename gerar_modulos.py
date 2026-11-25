@@ -11,20 +11,20 @@ MODULOS = {
     4: {
         "titulo": "Ferramentas No-Code - Zapier e Make",
         "duracao": "1h 30min",
-        "objetivo": "Criar sua primeira automação sem código usando Zapier ou Make",
+        "objetivo": "Criar sua primeira automaçêo sem código usando Zapier ou Make",
         "secoes": [
             {
-                "titulo": "1. O Que São Ferramentas No-Code",
+                "titulo": "1. O Que Sêo Ferramentas No-Code",
                 "conteudo": """
 <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
-  Ferramentas <strong>no-code</strong> são plataformas que permitem criar automações e integrações complexas <strong>sem escrever uma única linha de código</strong>. Você conecta aplicativos através de uma interface visual, clicando e arrastando.
+  Ferramentas <strong>no-code</strong> sêo plataformas que permitem criar automações e integrações complexas <strong>sem escrever uma única linha de código</strong>. Você conecta aplicativos através de uma interface visual, clicando e arrastando.
 </p>
 
 <div class="bg-neutral-50 dark:bg-neutral-900 p-6 rounded-xl mb-6">
   <h4 class="font-bold text-lg mb-4">Como funcionam:</h4>
   <ol class="space-y-3 text-neutral-700 dark:text-neutral-300 list-decimal list-inside">
     <li><strong>Trigger (Gatilho):</strong> Algo acontece (ex: novo email chega)</li>
-    <li><strong>Action (Ação):</strong> Sistema faz algo automaticamente (ex: salva anexo no Drive)</li>
+    <li><strong>Action (Açêo):</strong> Sistema faz algo automaticamente (ex: salva anexo no Drive)</li>
     <li><strong>Conectores:</strong> Ligam diferentes aplicativos</li>
   </ol>
 </div>
@@ -38,7 +38,7 @@ MODULOS = {
   <p class="text-neutral-700 dark:text-neutral-300">
     <strong>Trigger:</strong> Email recebido com anexo<br>
     <strong>Action 1:</strong> Salvar anexo no Google Drive<br>
-    <strong>Action 2:</strong> Enviar notificação no Slack<br>
+    <strong>Action 2:</strong> Enviar notificaçêo no Slack<br>
     <strong>Resultado:</strong> Você nunca mais perde um anexo importante!
   </p>
 </div>
@@ -48,7 +48,7 @@ MODULOS = {
                 "titulo": "2. Zapier vs Make: Qual Usar?",
                 "conteudo": """
 <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
-  Existem várias ferramentas no-code. As duas mais populares são <strong>Zapier</strong> e <strong>Make</strong> (antigo Integromat). Vamos entender as diferenças:
+  Existem várias ferramentas no-code. As duas mais populares sêo <strong>Zapier</strong> e <strong>Make</strong> (antigo Integromat). Vamos entender as diferenças:
 </p>
 
 <div class="grid md:grid-cols-2 gap-6 mb-6">
@@ -108,7 +108,7 @@ MODULOS = {
 </div>
 
 <div class="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-6 rounded-lg">
-  <p class="font-bold mb-2">💡 Nossa Recomendação:</p>
+  <p class="font-bold mb-2">💡 Nossa Recomendaçêo:</p>
   <p class="text-neutral-700 dark:text-neutral-300">
     <strong>Comece com Zapier</strong> (mais simples). Depois de dominar, experimente Make para automações mais complexas. Muitas pessoas usam os dois!
   </p>
@@ -119,13 +119,13 @@ MODULOS = {
                 "titulo": "3. Conceitos Essenciais: Triggers e Actions",
                 "conteudo": """
 <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
-  Toda automação no-code funciona com a mesma lógica: <strong>SE isso acontecer (Trigger), ENTÃO faça aquilo (Action)</strong>.
+  Toda automaçêo no-code funciona com a mesma lógica: <strong>SE isso acontecer (Trigger), ENTêO faça aquilo (Action)</strong>.
 </p>
 
 <div class="bg-neutral-50 dark:bg-neutral-900 p-6 rounded-xl mb-6">
   <h4 class="font-bold text-lg mb-4">🔔 Triggers (Gatilhos)</h4>
   <p class="text-neutral-700 dark:text-neutral-300 mb-3">
-    São eventos que <strong>iniciam</strong> uma automação:
+    Sêo eventos que <strong>iniciam</strong> uma automaçêo:
   </p>
   <ul class="space-y-2 text-sm">
     <li>• Novo email recebido</li>
@@ -140,14 +140,14 @@ MODULOS = {
 <div class="bg-operacional/10 dark:bg-operacional/20 p-6 rounded-xl mb-6">
   <h4 class="font-bold text-lg mb-4">⚙️ Actions (Ações)</h4>
   <p class="text-neutral-700 dark:text-neutral-300 mb-3">
-    São tarefas que o sistema <strong>executa automaticamente</strong>:
+    Sêo tarefas que o sistema <strong>executa automaticamente</strong>:
   </p>
   <ul class="space-y-2 text-sm">
     <li>• Enviar email</li>
     <li>• Criar/atualizar planilha</li>
     <li>• Salvar arquivo</li>
     <li>• Postar em redes sociais</li>
-    <li>• Enviar notificação</li>
+    <li>• Enviar notificaçêo</li>
     <li>• Criar tarefa/evento</li>
   </ul>
 </div>
@@ -165,7 +165,7 @@ MODULOS = {
         ],
         "exercicio_pratico": {
             "titulo": "Criar 3 Automações Simples no Zapier",
-            "descricao": "Vamos criar suas primeiras 3 automações funcionais usando Zapier (versão gratuita).",
+            "descricao": "Vamos criar suas primeiras 3 automações funcionais usando Zapier (versêo gratuita).",
             "passos": """
 <h4 class="font-bold text-lg mb-3">Passo 1: Criar Conta no Zapier</h4>
 <ol class="list-decimal list-inside space-y-2 text-sm mb-6">
@@ -175,7 +175,7 @@ MODULOS = {
   <li>Pule o tour (você vai aprender fazendo)</li>
 </ol>
 
-<h4 class="font-bold text-lg mb-3">Automação 1: Email → Drive</h4>
+<h4 class="font-bold text-lg mb-3">Automaçêo 1: Email → Drive</h4>
 <p class="text-sm mb-3">Salvar automaticamente anexos de emails no Google Drive</p>
 <ol class="list-decimal list-inside space-y-2 text-sm mb-6">
   <li><strong>Trigger:</strong> Gmail - "New Attachment"</li>
@@ -184,8 +184,8 @@ MODULOS = {
   <li>Teste e ative!</li>
 </ol>
 
-<h4 class="font-bold text-lg mb-3">Automação 2: Planilha → Slack</h4>
-<p class="text-sm mb-3">Notificação toda vez que alguém adiciona linha na planilha</p>
+<h4 class="font-bold text-lg mb-3">Automaçêo 2: Planilha → Slack</h4>
+<p class="text-sm mb-3">Notificaçêo toda vez que alguém adiciona linha na planilha</p>
 <ol class="list-decimal list-inside space-y-2 text-sm mb-6">
   <li><strong>Trigger:</strong> Google Sheets - "New Spreadsheet Row"</li>
   <li><strong>Action:</strong> Slack - "Send Channel Message"</li>
@@ -193,7 +193,7 @@ MODULOS = {
   <li>Teste e ative!</li>
 </ol>
 
-<h4 class="font-bold text-lg mb-3">Automação 3: Formulário → Tarefa</h4>
+<h4 class="font-bold text-lg mb-3">Automaçêo 3: Formulário → Tarefa</h4>
 <p class="text-sm mb-3">Criar tarefa automaticamente quando formulário é preenchido</p>
 <ol class="list-decimal list-inside space-y-2 text-sm">
   <li><strong>Trigger:</strong> Google Forms - "New Response"</li>
@@ -203,30 +203,30 @@ MODULOS = {
 </ol>
 """
         },
-        "entregavel": "Minhas 3 Primeiras Automações (prints + descrição)"
+        "entregavel": "Minhas 3 Primeiras Automações (prints + descriçêo)"
     },
     5: {
-        "titulo": "Automação de Emails e Comunicação",
+        "titulo": "Automaçêo de Emails e Comunicaçêo",
         "duracao": "1h 30min",
-        "objetivo": "Criar um sistema completo de gestão de emails que funciona sozinho",
+        "objetivo": "Criar um sistema completo de gestêo de emails que funciona sozinho",
         "entregavel": "Sistema de Email Zero"
     },
     6: {
         "titulo": "Planilhas Inteligentes com IA",
         "duracao": "1h 30min",
-        "objetivo": "Automatizar análise e manipulação de dados com Google Sheets + IA",
+        "objetivo": "Automatizar análise e manipulaçêo de dados com Google Sheets + IA",
         "entregavel": "Dashboard Pessoal Automatizado"
     },
     7: {
-        "titulo": "Documentação e Arquivos Automáticos",
+        "titulo": "Documentaçêo e Arquivos Automáticos",
         "duracao": "1h",
-        "objetivo": "Sistema de gestão de documentos 100% organizado e automático",
+        "objetivo": "Sistema de gestêo de documentos 100% organizado e automático",
         "entregavel": "Sistema de Arquivos Inteligente"
     },
     8: {
         "titulo": "Reuniões e Agenda Automatizados",
         "duracao": "1h",
-        "objetivo": "Gestão inteligente de tempo e compromissos com IA",
+        "objetivo": "Gestêo inteligente de tempo e compromissos com IA",
         "entregavel": "Sistema de Reuniões Eficientes"
     },
     9: {
@@ -236,7 +236,7 @@ MODULOS = {
         "entregavel": "Relatório de Impacto das Automações"
     },
     10: {
-        "titulo": "Sistema Completo + Evolução",
+        "titulo": "Sistema Completo + Evoluçêo",
         "duracao": "2h",
         "objetivo": "Consolidar tudo e planejar próximos passos profissionais",
         "entregavel": "Portfólio de Automações + Certificado"
@@ -387,7 +387,7 @@ def criar_modulo_html(num, dados):
 
   <footer class="bg-neutral-900 dark:bg-black text-neutral-300 py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
-      <p>&copy; 2025 FETD - Formação em Engenharia de Intenção</p>
+      <p>&copy; 2025 FETD - Formaçêo em Engenharia de Intençêo</p>
     </div>
   </footer>
 
@@ -402,7 +402,7 @@ def criar_modulo_md(num, dados):
     md = f"""# Módulo {num}: {dados['titulo']}
 
 **Trilha:** Operacional Produtivo
-**Duração:** {dados['duracao']}
+**Duraçêo:** {dados['duracao']}
 **Objetivo:** {dados['objetivo']}
 
 ---
@@ -425,7 +425,7 @@ def criar_modulo_md(num, dados):
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**
 """
     return md
 

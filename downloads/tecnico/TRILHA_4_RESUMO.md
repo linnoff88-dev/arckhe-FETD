@@ -2,8 +2,8 @@
 
 **Status:** ✅ COMPLETA - 10 Módulos
 **Total de conteúdo:** ~20.700 palavras
-**Duração total:** ~10 horas de conteúdo
-**Data de conclusão:** 2025-01-19
+**Duraçêo total:** ~10 horas de conteúdo
+**Data de conclusêo:** 2025-01-19
 
 ---
 
@@ -11,7 +11,7 @@
 
 Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invisíveis** em **solucionadores reconhecidos** que:
 
-- Resolvem problemas reais para pessoas (não só escrevem código)
+- Resolvem problemas reais para pessoas (nêo só escrevem código)
 - Criam automações que multiplicam impacto
 - Usam IA para escalar ajuda a centenas de pessoas
 - Viram "o consultor de todo mundo" (internamente e externamente)
@@ -22,7 +22,7 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 ## 📚 Módulos Criados
 
 ### Módulo 1: Do Código Invisível ao Solucionador Visível
-**Palavras:** ~2.500 | **Duração:** 60 min
+**Palavras:** ~2.500 | **Duraçêo:** 60 min
 
 **Conteúdo:**
 - Mindset shift: De executor para solucionador
@@ -36,7 +36,7 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 ---
 
 ### Módulo 2: Automações que Resolvem Problemas de Verdade
-**Palavras:** ~2.500 | **Duração:** 75 min
+**Palavras:** ~2.500 | **Duraçêo:** 75 min
 
 **Conteúdo:**
 - 3 tipos de automações: Chatbots, Workflows, Portais
@@ -45,29 +45,29 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 - Projeto prático: Portal de deploy em Streamlit
 - Casos reais com métricas (84h/mês economizadas)
 
-**Entregável:** 1 automação funcionando que resolve problema real
+**Entregável:** 1 automaçêo funcionando que resolve problema real
 
 ---
 
 ### Módulo 3: ChatGPT Personalizado com RAG
-**Palavras:** ~3.100 | **Duração:** 90 min
+**Palavras:** ~3.100 | **Duraçêo:** 90 min
 
 **Conteúdo:**
 - RAG (Retrieval-Augmented Generation) explicado
-- Implementação com LangChain + Chroma
+- Implementaçêo com LangChain + Chroma
 - Alternativa com OpenAI Assistants API
 - Casos de uso: Onboarding, Troubleshooting, API Docs
-- Otimização de custos e performance
+- Otimizaçêo de custos e performance
 
-**Entregável:** Chatbot RAG respondendo perguntas sobre sua documentação
+**Entregável:** Chatbot RAG respondendo perguntas sobre sua documentaçêo
 
 ---
 
 ### Módulo 4: GitHub como Portfólio de Solucionador
-**Palavras:** ~3.100 | **Duração:** 75 min
+**Palavras:** ~3.100 | **Duraçêo:** 75 min
 
 **Conteúdo:**
-- READMEs que vendem valor (Problema → Solução → Impacto)
+- READMEs que vendem valor (Problema → Soluçêo → Impacto)
 - GitHub Profile automatizado (stats, atividade)
 - Estrutura de repositórios profissionais
 - SEO para GitHub
@@ -78,13 +78,13 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 ---
 
 ### Módulo 5: Blog Técnico com IA
-**Palavras:** ~1.800 | **Duração:** 60 min
+**Palavras:** ~1.800 | **Duraçêo:** 60 min
 
 **Conteúdo:**
 - Setup de blog em 15 min (Hashnode, Dev.to, GitHub Pages)
 - Sistema de ideias infinitas
 - Escrever posts em 30 min com IA
-- Distribuição automática multi-plataforma
+- Distribuiçêo automática multi-plataforma
 - SEO técnico para devs
 
 **Entregável:** Blog funcionando + 4 posts/mês no automático
@@ -92,36 +92,36 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 ---
 
 ### Módulo 6: Apresentações e Vídeos com IA ⭐ CRÍTICO
-**Palavras:** ~2.500 | **Duração:** 90 min
+**Palavras:** ~2.500 | **Duraçêo:** 90 min
 
 **Conteúdo:**
 - **NotebookLM:** Docs → Podcasts automáticos
-- **HeyGen:** Avatares de apresentação, vídeos multi-idioma
+- **HeyGen:** Avatares de apresentaçêo, vídeos multi-idioma
 - **Podscap:** Vídeo longo → Shorts virais (TikTok, YouTube Shorts)
 - **Gamma/Tome:** Slides automáticos
 - Sistema: 1 conteúdo → 10 formatos
 - Foco em estilos de aprendizado (Visual, Auditivo, Leitura, Cinestésico)
 
-**Entregável:** Sistema de criação multi-formato funcionando
+**Entregável:** Sistema de criaçêo multi-formato funcionando
 
 ---
 
 ### Módulo 7: Redes Sociais Técnicas
-**Palavras:** ~1.000 | **Duração:** 60 min
+**Palavras:** ~1.000 | **Duraçêo:** 60 min
 
 **Conteúdo:**
 - LinkedIn para devs (sem virar influencer)
 - Sistema de 15 min/dia
 - Dev.to e comunidades técnicas
 - Templates de posts efetivos
-- Automação com Buffer + ChatGPT
+- Automaçêo com Buffer + ChatGPT
 
 **Entregável:** Presença em 2 plataformas + 1 semana de conteúdo agendado
 
 ---
 
 ### Módulo 8: Sistema de Respostas Automatizadas
-**Palavras:** ~1.100 | **Duração:** 75 min
+**Palavras:** ~1.100 | **Duraçêo:** 75 min
 
 **Conteúdo:**
 - FAQ Bot inteligente com RAG
@@ -135,38 +135,38 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 ---
 
 ### Módulo 9: Consultoria Interna
-**Palavras:** ~1.200 | **Duração:** 60 min
+**Palavras:** ~1.200 | **Duraçêo:** 60 min
 
 **Conteúdo:**
 - Office hours técnicos (Slack/Google Meet)
 - Runbooks vivos
 - Programas de mentoria
-- Métricas de impacto para promoção
+- Métricas de impacto para promoçêo
 - Template de proposta de raise
 
 **Entregável:** Sistema de consultoria interna + impacto mensurável
 
 ---
 
-### Módulo 10: Sistema Completo - INTEGRAÇÃO FINAL
-**Palavras:** ~1.850 | **Duração:** 120 min
+### Módulo 10: Sistema Completo - INTEGRAÇêO FINAL
+**Palavras:** ~1.850 | **Duraçêo:** 120 min
 
 **Conteúdo:**
 - Sistema semanal definitivo (3-4h/semana)
 - Workflow: Segunda a Domingo integrado
 - Dashboard de impacto (Notion)
 - **Plano de 90 dias detalhado**
-- Evolução: Solucionador → Consultor → Tech Lead
+- Evoluçêo: Solucionador → Consultor → Tech Lead
 - Checklist completo e próximos passos
 
-**Entregável:** Sistema completo funcionando + plano de execução
+**Entregável:** Sistema completo funcionando + plano de execuçêo
 
 ---
 
 ## 🛠️ Stack Tecnológica Completa
 
-### IA e Automação
-- ChatGPT / Claude (criação de conteúdo)
+### IA e Automaçêo
+- ChatGPT / Claude (criaçêo de conteúdo)
 - NotebookLM (docs → podcasts) ⭐
 - HeyGen (vídeos com avatares) ⭐
 - Podscap / OpusClip (shorts) ⭐
@@ -188,7 +188,7 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 ### Ferramentas de Produtividade
 - Buffer / Hootsuite (agendamento)
 - Espanso (text snippets)
-- Descript (edição de vídeo/áudio)
+- Descript (ediçêo de vídeo/áudio)
 - Canva (design)
 
 ---
@@ -211,11 +211,11 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 - ✅ Reconhecido como referência técnica internamente
 - ✅ 5-10 mensagens inbound/semana pedindo ajuda
 - ✅ Convites para mentorias/entrevistas
-- ✅ Base sólida para promoção/raise (20-40%)
+- ✅ Base sólida para promoçêo/raise (20-40%)
 
-### Automação
+### Automaçêo
 - ✅ 80% das respostas automatizadas
-- ✅ Sistema rodando com 3-4h/semana de manutenção
+- ✅ Sistema rodando com 3-4h/semana de manutençêo
 - ✅ Conteúdo distribuído em 5+ canais automaticamente
 
 ---
@@ -223,10 +223,10 @@ Transformar técnicos (DevOps, desenvolvedores, analistas) de **executores invis
 ## 🎯 Diferenciais da Trilha
 
 ### 1. Foco em Resolver Problemas REAIS para PESSOAS
-Não é sobre "aprender IA", é sobre **usar IA para ajudar centenas de pessoas**.
+Nêo é sobre "aprender IA", é sobre **usar IA para ajudar centenas de pessoas**.
 
 ### 2. Sistema Integrado Completo
-Não são ferramentas isoladas, é um **sistema semanal de 3-4h que funciona sozinho**.
+Nêo sêo ferramentas isoladas, é um **sistema semanal de 3-4h que funciona sozinho**.
 
 ### 3. Multi-Formato (Acessibilidade)
 Um problema → 10 formatos (blog, vídeo, podcast, slides, shorts, etc.)
@@ -235,8 +235,8 @@ Um problema → 10 formatos (blog, vídeo, podcast, slides, shorts, etc.)
 ### 4. Métricas e ROI Claros
 Tudo mensurável: horas economizadas, pessoas ajudadas, reconhecimento conquistado.
 
-### 5. Caminho para Promoção
-Não é só técnico, é **evolução de carreira concreta** (Solucionador → Consultor → Tech Lead).
+### 5. Caminho para Promoçêo
+Nêo é só técnico, é **evoluçêo de carreira concreta** (Solucionador → Consultor → Tech Lead).
 
 ---
 
@@ -249,7 +249,7 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 - Office hours de infraestrutura
 
 ### Para Desenvolvedores
-- Documentação automática (READMEs, API docs)
+- Documentaçêo automática (READMEs, API docs)
 - Onboarding automation (3 dias → 1 dia)
 - Code review bots
 - Blog técnico sobre stack
@@ -257,7 +257,7 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 ### Para Tech Leads
 - Multiplicar conhecimento do time
 - Sistemas de mentoria escaláveis
-- Documentação institucional
+- Documentaçêo institucional
 - Consultoria interna estruturada
 
 ---
@@ -267,7 +267,7 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 ### Sequência Recomendada
 
 **Semana 1-2:** Módulos 1-3
-- Mindset + Primeira automação + Chatbot RAG
+- Mindset + Primeira automaçêo + Chatbot RAG
 
 **Semana 3-4:** Módulos 4-5
 - GitHub + Blog setup
@@ -283,27 +283,27 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 
 ### Abordagem Acelerada (3 semanas)
 
-**Semana 1:** Módulos 1, 2, 6 (fundação + ferramentas principais)
+**Semana 1:** Módulos 1, 2, 6 (fundaçêo + ferramentas principais)
 **Semana 2:** Módulos 3, 4, 5 (conteúdo e plataformas)
-**Semana 3:** Módulos 7, 8, 9, 10 (distribuição e integração)
+**Semana 3:** Módulos 7, 8, 9, 10 (distribuiçêo e integraçêo)
 
 ---
 
 ## 📝 Próximos Passos (Após Completar)
 
-### Manutenção do Sistema
+### Manutençêo do Sistema
 - **3-4h/semana** mantém tudo funcionando
 - Dashboard atualizado mensalmente
 - Ajustes baseados em métricas
 
-### Expansão
+### Expansêo
 - Newsletter técnica
 - YouTube channel
 - Consultoria externa (freelance)
 - Produtos (cursos, ebooks, SaaS)
 
 ### Carreira
-- Proposta de promoção preparada
+- Proposta de promoçêo preparada
 - Network técnico estabelecido
 - Autoridade pública construída
 - Oportunidades inbound regulares
@@ -318,7 +318,7 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 - 3-4h/semana disponíveis
 - Vontade de ajudar pessoas
 
-**NÃO necessários:**
+**NêO necessários:**
 - ❌ Ser expert (júnior pode começar)
 - ❌ Saber escrever bem (IA resolve)
 - ❌ Ter audiência prévia
@@ -329,7 +329,7 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 ## 📈 Métricas de Sucesso da Trilha
 
 **Curto prazo (Mês 1):**
-- 1 automação criada e funcionando
+- 1 automaçêo criada e funcionando
 - 8-10 conteúdos publicados
 - 30-50 pessoas alcançadas
 - Sistema semanal estabelecido
@@ -343,7 +343,7 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 **Longo prazo (Mês 6-12):**
 - Referência técnica estabelecida
 - 1.000+ audiência
-- Promoção/raise
+- Promoçêo/raise
 - Oportunidades inbound regulares
 
 ---
@@ -352,22 +352,22 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 
 **Trilha desenvolvida com foco em:**
 - Devs que querem crescer na carreira
-- Técnicos que sabem fazer mas não sabem comunicar
+- Técnicos que sabem fazer mas nêo sabem comunicar
 - Profissionais que querem multiplicar impacto
-- Pessoas que preferem ajudar a autopromoção vazia
+- Pessoas que preferem ajudar a autopromoçêo vazia
 
-**Ferramentas destacadas conforme solicitação do usuário:**
+**Ferramentas destacadas conforme solicitaçêo do usuário:**
 - NotebookLM (Google) - Podcasts automáticos
-- HeyGen - Avatares de apresentação
+- HeyGen - Avatares de apresentaçêo
 - Podscap - Vídeo para shorts
 
 ---
 
 **Criado:** Janeiro 2025
-**Última atualização:** 2025-01-19
-**Versão:** 1.0 - Completa
+**Última atualizaçêo:** 2025-01-19
+**Versêo:** 1.0 - Completa
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**
 
 ---
 
@@ -381,7 +381,7 @@ Não é só técnico, é **evolução de carreira concreta** (Solucionador → C
 
 **Lembrete final:**
 
-> "Você não precisa ser o melhor do mundo.
+> "Você nêo precisa ser o melhor do mundo.
 > Precisa ser o melhor em AJUDAR PESSOAS com o que você sabe.
 > O resto vem naturalmente."
 

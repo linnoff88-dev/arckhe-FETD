@@ -117,22 +117,22 @@
 <p>Imagine acordar e abrir uma planilha que:
 - Já importou todos os dados de vendas do dia anterior
 - Calculou automaticamente as metas atingidas
-- Destacou em vermelho o que precisa de atenção
+- Destacou em vermelho o que precisa de atençêo
 - Enviou um relatório formatado por email para seu chefe
 - Tudo isso <strong>sem você tocar em nada</strong></p>
-<p>Não é ficção científica. É o que você vai aprender a fazer HOJE.</p>
-<h3>Por Que Google Sheets &gt; Excel para Automação</h3>
+<p>Nêo é ficçêo científica. É o que você vai aprender a fazer HOJE.</p>
+<h3>Por Que Google Sheets &gt; Excel para Automaçêo</h3>
 <p><strong>Antes de você gritar "mas eu uso Excel há 15 anos!"</strong>, ouça isso:</p>
 <p><strong>1. Vive na nuvem</strong>
 - Acessa de qualquer lugar (celular, tablet, computador)
 - Nunca perde dados (auto-save a cada segundo)
-- Zero preocupação com backup</p>
-<p><strong>2. Integração nativa com tudo</strong>
+- Zero preocupaçêo com backup</p>
+<p><strong>2. Integraçêo nativa com tudo</strong>
 - Gmail, Google Forms, Google Drive
 - APIs REST (buscar dados de qualquer sistema)
 - Zapier, Make, Integromat
-- Apps Script (automação nativa)</p>
-<p><strong>3. Colaboração em tempo real</strong>
+- Apps Script (automaçêo nativa)</p>
+<p><strong>3. Colaboraçêo em tempo real</strong>
 - 10 pessoas editando ao mesmo tempo
 - Chat dentro da planilha
 - Histórico completo de versões</p>
@@ -143,10 +143,10 @@
 - IMPORTRANGE (conectar planilhas)
 - QUERY (SQL dentro do Sheets)
 - IMPORTXML (web scraping)
-- GOOGLETRANSLATE (tradução automática)</p>
+- GOOGLETRANSLATE (traduçêo automática)</p>
 <h3>Quando AINDA Usar Excel</h3>
 <p><strong>Seja honesto:</strong> Use Excel quando:
-- Planilhas gigantes (&gt;1 milhão de linhas)
+- Planilhas gigantes (&gt;1 milhêo de linhas)
 - Macros VBA muito complexas já existentes
 - Gráficos super customizados
 - Trabalha 100% offline</p>
@@ -155,18 +155,18 @@
 <p><strong>Passo 1: Upload</strong>
 1. Drive.google.com
 2. Arrastar arquivo .xlsx
-3. Botão direito → Abrir com → Google Planilhas
+3. Botêo direito → Abrir com → Google Planilhas
 4. Pronto! Convertido.</p>
 <p><strong>Passo 2: Ajustes comuns</strong>
 - 90% das fórmulas funcionam igual
 - Algumas funções mudam nome (ex: <code>PROCV</code> vira <code>VLOOKUP</code> em inglês, mas <code>PROCV</code> também funciona!)
-- Macros VBA não funcionam (mas você vai aprender Apps Script, que é melhor)</p>
+- Macros VBA nêo funcionam (mas você vai aprender Apps Script, que é melhor)</p>
 <h3>Seu Primeiro Projeto: Dashboard Pessoal</h3>
 <p>Ao final deste módulo, você terá:
 - Dashboard com todas suas métricas importantes
-- Atualização automática todo dia
+- Atualizaçêo automática todo dia
 - Alertas quando algo sai do esperado
-- Visualização bonita e profissional</p>
+- Visualizaçêo bonita e profissional</p>
 <p><strong>Tempo estimado de economia:</strong> 3-5 horas/semana em relatórios manuais.</p>
 <hr />
 <h2>2. Fórmulas que Economizam Horas (O Arsenal Completo)</h2>
@@ -190,7 +190,7 @@ Você tem:
 - Planilha A: Vendas (atualizada pelo comercial)
 - Planilha B: Financeiro (atualizada pelo financeiro)
 - Planilha C: Dashboard (você quer consolidar tudo)</p>
-<p><strong>Solução:</strong></p>
+<p><strong>Soluçêo:</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="c1">// Na planilha Dashboard, célula A1:</span>
 <span class="p">=</span><span class="n">IMPORTRANGE</span><span class="p">(</span><span class="s">&quot;URL_planilha_vendas&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Dados!A2:G&quot;</span><span class="p">)</span>
 
@@ -198,8 +198,8 @@ Você tem:
 <span class="p">=</span><span class="n">IMPORTRANGE</span><span class="p">(</span><span class="s">&quot;URL_planilha_financeiro&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Dados!A2:E&quot;</span><span class="p">)</span>
 </code></pre></div>
 
-<p><strong>Primeiro uso:</strong> Vai pedir permissão (clique "Permitir acesso").</p>
-<p><strong>Atualização:</strong> Automática! Sempre que as planilhas originais mudarem, sua dashboard atualiza.</p>
+<p><strong>Primeiro uso:</strong> Vai pedir permissêo (clique "Permitir acesso").</p>
+<p><strong>Atualizaçêo:</strong> Automática! Sempre que as planilhas originais mudarem, sua dashboard atualiza.</p>
 <p><strong>Tempo economizado:</strong> De copiar/colar 20 minutos/dia → 0 minutos.</p>
 <h3>2. QUERY - SQL Dentro do Sheets (Superpoder #2)</h3>
 <p><strong>O que faz:</strong> Filtra, ordena, agrupa dados como se fosse um banco de dados.</p>
@@ -243,7 +243,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 <div class="codehilite"><pre><span></span><code>=ARRAYFORMULA(sua_fórmula)
 </code></pre></div>
 
-<p><strong>Exemplo: Calcular comissão (5%) para 10.000 vendas</strong></p>
+<p><strong>Exemplo: Calcular comissêo (5%) para 10.000 vendas</strong></p>
 <p><strong>Jeito antigo (ruim):</strong>
 - Célula C2: <code>=B2*0.05</code>
 - Arrastar até C10000
@@ -253,9 +253,9 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 <span class="p">=</span><span class="n">ARRAYFORMULA</span><span class="p">(</span><span class="n">IF</span><span class="p">(</span><span class="n">B2</span><span class="p">:</span><span class="n">B</span><span class="p">=</span><span class="s">&quot;&quot;</span><span class="p">;</span><span class="s">&quot;&quot;</span><span class="p">;</span><span class="n">B2</span><span class="p">:</span><span class="n">B</span><span class="o">*</span><span class="mf">0.05</span><span class="p">))</span>
 </code></pre></div>
 
-<p><strong>Explicação:</strong>
+<p><strong>Explicaçêo:</strong>
 - <code>B2:B</code> = pega TODA a coluna B
-- <code>IF(B2:B="";"";...)</code> = se célula vazia, deixa vazia (senão fica #N/D)
+- <code>IF(B2:B="";"";...)</code> = se célula vazia, deixa vazia (senêo fica #N/D)
 - <code>B2:B*0.05</code> = multiplica tudo por 5%</p>
 <p><strong>Resultado:</strong> UMA fórmula que funciona para infinitas linhas. Adicionou linha nova? Já calcula automaticamente.</p>
 <p><strong>Exemplo 2: Concatenar Nome + Sobrenome</strong></p>
@@ -263,7 +263,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 </code></pre></div>
 
 <p><strong>Tempo economizado:</strong> De 5 minutos ajustando fórmulas → 0 minutos.</p>
-<h3>4. GOOGLETRANSLATE - Tradução Instantânea</h3>
+<h3>4. GOOGLETRANSLATE - Traduçêo Instantânea</h3>
 <p><strong>O que faz:</strong> Traduz texto automaticamente.</p>
 <p><strong>Sintaxe:</strong></p>
 <div class="codehilite"><pre><span></span><code>=GOOGLETRANSLATE(texto, &quot;idioma_origem&quot;, &quot;idioma_destino&quot;)
@@ -277,7 +277,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 - Você recebe planilha de fornecedor americano em inglês
 - 500 linhas de descrições de produtos
 - Precisa traduzir tudo</p>
-<p><strong>Solução:</strong></p>
+<p><strong>Soluçêo:</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="o">=</span><span class="nt">ARRAYFORMULA</span><span class="o">(</span><span class="nt">IF</span><span class="o">(</span><span class="nt">A2</span><span class="p">:</span><span class="nd">A</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="o">;</span><span class="s2">&quot;&quot;</span><span class="o">;</span><span class="nt">GOOGLETRANSLATE</span><span class="o">(</span><span class="nt">A2</span><span class="p">:</span><span class="nd">A</span><span class="o">,</span><span class="w"> </span><span class="s2">&quot;en&quot;</span><span class="o">,</span><span class="w"> </span><span class="s2">&quot;pt&quot;</span><span class="o">)))</span>
 </code></pre></div>
 
@@ -288,7 +288,7 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 <div class="codehilite"><pre><span></span><code>=IMPORTXML(&quot;URL&quot;, &quot;xpath&quot;)
 </code></pre></div>
 
-<p><strong>Exemplo 1: Pegar cotação do dólar</strong></p>
+<p><strong>Exemplo 1: Pegar cotaçêo do dólar</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="o">=</span><span class="n">IMPORTXML</span><span class="p">(</span><span class="ss">&quot;https://www.google.com/finance/quote/USD-BRL&quot;</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;//div[@class=&#39;YMlKec fxKbKc&#39;]&quot;</span><span class="p">)</span>
 </code></pre></div>
 
@@ -300,12 +300,12 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 - Você quer monitorar preço de 20 concorrentes
 - Atualizar todo dia
 - Alertar se algum baixar preço</p>
-<p><strong>Solução:</strong>
+<p><strong>Soluçêo:</strong>
 1. Coluna A: URLs dos produtos
 2. Coluna B: <code>=ARRAYFORMULA(IMPORTXML(A2:A, "xpath_do_preço"))</code>
-3. Formatação condicional: vermelho se preço &lt; seu preço</p>
-<p><strong>Atualização:</strong> Automática quando abrir a planilha.</p>
-<p><strong>Atenção:</strong> Alguns sites bloqueiam scraping. Use com moderação e respeite os termos de uso.</p>
+3. Formataçêo condicional: vermelho se preço &lt; seu preço</p>
+<p><strong>Atualizaçêo:</strong> Automática quando abrir a planilha.</p>
+<p><strong>Atençêo:</strong> Alguns sites bloqueiam scraping. Use com moderaçêo e respeite os termos de uso.</p>
 <h3>6. IMPORTDATA - Importar CSV da Web</h3>
 <p><strong>O que faz:</strong> Importa arquivo CSV direto de uma URL.</p>
 <p><strong>Sintaxe:</strong></p>
@@ -319,8 +319,8 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 <p><strong>Caso de uso real:</strong>
 - Seu fornecedor disponibiliza estoque em CSV online
 - Atualiza a cada hora
-- Você quer sempre a versão mais recente</p>
-<p><strong>Solução:</strong></p>
+- Você quer sempre a versêo mais recente</p>
+<p><strong>Soluçêo:</strong></p>
 <div class="codehilite"><pre><span></span><code>=IMPORTDATA(&quot;https://fornecedor.com.br/estoque.csv&quot;)
 </code></pre></div>
 
@@ -328,26 +328,26 @@ Você tem planilha com 5.000 linhas de vendas. Precisa de:
 <h3>7. FILTER - Filtro Dinâmico</h3>
 <p><strong>O que faz:</strong> Filtra dados e atualiza automaticamente.</p>
 <p><strong>Sintaxe:</strong></p>
-<div class="codehilite"><pre><span></span><code>=FILTER(intervalo, condição1, condição2, ...)
+<div class="codehilite"><pre><span></span><code>=FILTER(intervalo, condiçêo1, condiçêo2, ...)
 </code></pre></div>
 
 <p><strong>Exemplo 1: Vendas acima de R$ 5000</strong></p>
 <div class="codehilite"><pre><span></span><code>=FILTER(A2:D100, D2:D100&gt;5000)
 </code></pre></div>
 
-<p><strong>Exemplo 2: Vendas do vendedor "João" no mês de Novembro</strong></p>
-<div class="codehilite"><pre><span></span><code>=FILTER(A2:D100, B2:B100=&quot;João&quot;, C2:C100&gt;=DATA(2024,11,1))
+<p><strong>Exemplo 2: Vendas do vendedor "Joêo" no mês de Novembro</strong></p>
+<div class="codehilite"><pre><span></span><code>=FILTER(A2:D100, B2:B100=&quot;Joêo&quot;, C2:C100&gt;=DATA(2024,11,1))
 </code></pre></div>
 
 <p><strong>Exemplo 3: Combinar com outras funções</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="c1">// Soma todas as vendas do João:</span>
-<span class="p">=</span><span class="n">SUM</span><span class="p">(</span><span class="n">FILTER</span><span class="p">(</span><span class="n">D2</span><span class="p">:</span><span class="n">D100</span><span class="p">,</span><span class="w"> </span><span class="n">B2</span><span class="p">:</span><span class="n">B100</span><span class="p">=</span><span class="s">&quot;João&quot;</span><span class="p">))</span>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Soma todas as vendas do Joêo:</span>
+<span class="p">=</span><span class="n">SUM</span><span class="p">(</span><span class="n">FILTER</span><span class="p">(</span><span class="n">D2</span><span class="p">:</span><span class="n">D100</span><span class="p">,</span><span class="w"> </span><span class="n">B2</span><span class="p">:</span><span class="n">B100</span><span class="p">=</span><span class="s">&quot;Joêo&quot;</span><span class="p">))</span>
 </code></pre></div>
 
 <p><strong>Caso de uso real:</strong>
 Dashboard com abas por vendedor. Em vez de criar filtro manual para cada um:</p>
-<div class="codehilite"><pre><span></span><code><span class="c1">// Aba &quot;João&quot;:</span>
-<span class="p">=</span><span class="n">FILTER</span><span class="p">(</span><span class="n">Base</span>!<span class="n">A</span><span class="p">:</span><span class="n">D</span><span class="p">,</span><span class="w"> </span><span class="n">Base</span>!<span class="n">B</span><span class="p">:</span><span class="n">B</span><span class="p">=</span><span class="s">&quot;João&quot;</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Aba &quot;Joêo&quot;:</span>
+<span class="p">=</span><span class="n">FILTER</span><span class="p">(</span><span class="n">Base</span>!<span class="n">A</span><span class="p">:</span><span class="n">D</span><span class="p">,</span><span class="w"> </span><span class="n">Base</span>!<span class="n">B</span><span class="p">:</span><span class="n">B</span><span class="p">=</span><span class="s">&quot;Joêo&quot;</span><span class="p">)</span>
 
 <span class="c1">// Aba &quot;Maria&quot;:</span>
 <span class="p">=</span><span class="n">FILTER</span><span class="p">(</span><span class="n">Base</span>!<span class="n">A</span><span class="p">:</span><span class="n">D</span><span class="p">,</span><span class="w"> </span><span class="n">Base</span>!<span class="n">B</span><span class="p">:</span><span class="n">B</span><span class="p">=</span><span class="s">&quot;Maria&quot;</span><span class="p">)</span>
@@ -399,13 +399,13 @@ Você tem 5.000 vendas e quer saber quantos clientes diferentes compraram:</p>
 </code></pre></div>
 
 <p><strong>Exemplo: Separar nome completo</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="c1">// Célula A1: &quot;João Silva Santos&quot;</span>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Célula A1: &quot;Joêo Silva Santos&quot;</span>
 <span class="p">=</span><span class="n">SPLIT</span><span class="p">(</span><span class="n">A1</span><span class="p">,</span><span class="w"> </span><span class="s">&quot; &quot;</span><span class="p">)</span>
-<span class="c1">// Resultado: &quot;João&quot; | &quot;Silva&quot; | &quot;Santos&quot;</span>
+<span class="c1">// Resultado: &quot;Joêo&quot; | &quot;Silva&quot; | &quot;Santos&quot;</span>
 </code></pre></div>
 
 <p><strong>Caso de uso real:</strong>
-Você importou CSV com endereço completo em uma célula: "Rua ABC, 123, São Paulo, SP"</p>
+Você importou CSV com endereço completo em uma célula: "Rua ABC, 123, Sêo Paulo, SP"</p>
 <div class="codehilite"><pre><span></span><code>=SPLIT(A2, &quot;, &quot;)
 </code></pre></div>
 
@@ -428,14 +428,14 @@ Criar nome de arquivo: <code>Cliente_Produto_Data.pdf</code></p>
 
 <h3>12. REGEXMATCH / REGEXEXTRACT - Busca Avançada</h3>
 <p><strong>O que faz:</strong> Busca padrões em texto.</p>
-<p><strong>REGEXMATCH:</strong> Retorna TRUE/FALSE se encontrou padrão
-<strong>REGEXEXTRACT:</strong> Extrai o padrão encontrado</p>
+<p><strong>REGEXMATCH:</strong> Retorna TRUE/FALSE se encontrou padrêo
+<strong>REGEXEXTRACT:</strong> Extrai o padrêo encontrado</p>
 <p><strong>Exemplo 1: Verificar se email é válido</strong></p>
 <div class="codehilite"><pre><span></span><code>=REGEXMATCH(A2, &quot;^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$&quot;)
 </code></pre></div>
 
 <p><strong>Exemplo 2: Extrair CEP de endereço</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="c1">// Endereço: &quot;Rua ABC, 123, São Paulo, SP, 01234-567&quot;</span>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Endereço: &quot;Rua ABC, 123, Sêo Paulo, SP, 01234-567&quot;</span>
 <span class="p">=</span><span class="n">REGEXEXTRACT</span><span class="p">(</span><span class="n">A2</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;\d{5}-\d{3}&quot;</span><span class="p">)</span>
 <span class="c1">// Resultado: &quot;01234-567&quot;</span>
 </code></pre></div>
@@ -445,8 +445,8 @@ Criar nome de arquivo: <code>Cliente_Produto_Data.pdf</code></p>
 </code></pre></div>
 
 <h3>13. COUNTIF / SUMIF - Contar e Somar com Condições</h3>
-<p><strong>COUNTIF:</strong> Conta células que atendem condição
-<strong>SUMIF:</strong> Soma células que atendem condição</p>
+<p><strong>COUNTIF:</strong> Conta células que atendem condiçêo
+<strong>SUMIF:</strong> Soma células que atendem condiçêo</p>
 <p><strong>Exemplos:</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="c1">// Quantas vendas acima de R$ 1000?</span>
 <span class="p">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">D2</span><span class="p">:</span><span class="n">D100</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;&gt;1000&quot;</span><span class="p">)</span>
@@ -470,7 +470,7 @@ Criar nome de arquivo: <code>Cliente_Produto_Data.pdf</code></p>
 </code></pre></div>
 
 <p><strong>Vantagem sobre PROCV:</strong>
-- Funciona em qualquer direção (PROCV só para direita)
+- Funciona em qualquer direçêo (PROCV só para direita)
 - Mais rápido em planilhas grandes</p>
 <h3>15. SPARKLINE - Gráficos Minúsculos Dentro das Células</h3>
 <p><strong>O que faz:</strong> Cria mini-gráficos dentro de uma célula.</p>
@@ -503,17 +503,17 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 <p><strong>Hoje com IA:</strong>
 - Descreve a regra em português
 - IA categoriza 5.000 linhas em 30 segundos
-- Precisão de 95%+</p>
+- Precisêo de 95%+</p>
 <h3>Add-on Recomendado: GPT for Sheets and Docs</h3>
-<p><strong>Instalação (2 minutos):</strong>
+<p><strong>Instalaçêo (2 minutos):</strong>
 1. Google Sheets → Extensões → Complementos → Obter complementos
 2. Buscar "GPT for Sheets and Docs"
 3. Instalar (by Talarian)
-4. Configurar API key do OpenAI (veja próxima seção)</p>
+4. Configurar API key do OpenAI (veja próxima seçêo)</p>
 <h3>Configurar API do ChatGPT (5 minutos)</h3>
 <p><strong>Passo 1: Criar conta OpenAI</strong>
 - platform.openai.com
-- Criar conta (se não tiver)</p>
+- Criar conta (se nêo tiver)</p>
 <p><strong>Passo 2: Gerar API Key</strong>
 1. platform.openai.com/api-keys
 2. "Create new secret key"
@@ -529,7 +529,7 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 <h3>Casos de Uso Práticos de IA no Sheets</h3>
 <h4>1. Categorizar Dados Automaticamente</h4>
 <p><strong>Problema:</strong> Você tem 2.000 descrições de produtos desorganizadas.</p>
-<p><strong>Solução com IA:</strong></p>
+<p><strong>Soluçêo com IA:</strong></p>
 <div class="codehilite"><pre><span></span><code>=GPT(&quot;Classifique este produto em: Eletrônicos, Alimentos, Vestuário, Outros. Retorne apenas a categoria: &quot;&amp;A2)
 </code></pre></div>
 
@@ -543,7 +543,7 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 <h4>2. Extrair Informações de Texto Livre</h4>
 <p><strong>Problema:</strong> Comentários de clientes em texto livre. Você quer extrair sentimento e assunto.</p>
 <p><strong>Entrada (célula A2):</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="s">&quot;Produto chegou quebrado, muito insatisfeito com a entrega. O atendimento tentou ajudar mas não resolveu.&quot;</span>
+<div class="codehilite"><pre><span></span><code><span class="s">&quot;Produto chegou quebrado, muito insatisfeito com a entrega. O atendimento tentou ajudar mas nêo resolveu.&quot;</span>
 </code></pre></div>
 
 <p><strong>Fórmula:</strong></p>
@@ -560,18 +560,18 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 - Coluna A: Nome do produto
 - Coluna B: Características principais</p>
 <p><strong>Fórmula:</strong></p>
-<div class="codehilite"><pre><span></span><code>=GPT(&quot;Escreva descrição de produto para e-commerce (máx 50 palavras, tom persuasivo). Produto: &quot;&amp;A2&amp;&quot;. Características: &quot;&amp;B2)
+<div class="codehilite"><pre><span></span><code>=GPT(&quot;Escreva descriçêo de produto para e-commerce (máx 50 palavras, tom persuasivo). Produto: &quot;&amp;A2&amp;&quot;. Características: &quot;&amp;B2)
 </code></pre></div>
 
 <p><strong>Exemplo:</strong>
 - A2: "Mouse Gamer RGB"
-- B2: "7 botões programáveis, DPI ajustável até 16000, iluminação RGB personalizável"</p>
+- B2: "7 botões programáveis, DPI ajustável até 16000, iluminaçêo RGB personalizável"</p>
 <p><strong>Resultado:</strong></p>
-<div class="codehilite"><pre><span></span><code>&quot;Eleve sua experiência gaming com este mouse de alta precisão! 7 botões programáveis para comandos rápidos, sensor óptico até 16000 DPI para movimentos ultra-precisos e iluminação RGB customizável para combinar com seu setup. Ergonomia premium para maratonas de jogo. Domine com estilo!&quot;
+<div class="codehilite"><pre><span></span><code>&quot;Eleve sua experiência gaming com este mouse de alta precisêo! 7 botões programáveis para comandos rápidos, sensor óptico até 16000 DPI para movimentos ultra-precisos e iluminaçêo RGB customizável para combinar com seu setup. Ergonomia premium para maratonas de jogo. Domine com estilo!&quot;
 </code></pre></div>
 
 <h4>4. Análise de Sentimentos</h4>
-<p><strong>Problema:</strong> 1.000 avaliações de clientes. Quantas são positivas/negativas?</p>
+<p><strong>Problema:</strong> 1.000 avaliações de clientes. Quantas sêo positivas/negativas?</p>
 <p><strong>Fórmula:</strong></p>
 <div class="codehilite"><pre><span></span><code>=GPT(&quot;Analise o sentimento e retorne apenas: Positivo, Neutro ou Negativo: &quot;&amp;A2)
 </code></pre></div>
@@ -581,7 +581,7 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 <span class="p">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">B2</span><span class="p">:</span><span class="n">B1000</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Positivo&quot;</span><span class="p">)</span>
 </code></pre></div>
 
-<h4>5. Tradução em Massa (Melhor que GOOGLETRANSLATE)</h4>
+<h4>5. Traduçêo em Massa (Melhor que GOOGLETRANSLATE)</h4>
 <p><strong>Fórmula:</strong></p>
 <div class="codehilite"><pre><span></span><code>=GPT(&quot;Traduza para português mantendo tom profissional: &quot;&amp;A2)
 </code></pre></div>
@@ -600,11 +600,11 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 <p><strong>Resultado:</strong> Todos no mesmo formato.</p>
 <h4>7. Gerar Fórmulas Complexas (IA como Assistente)</h4>
 <p><strong>Você em vez de procurar no Google:</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="o">=</span><span class="nv">GPT</span><span class="ss">(</span><span class="s2">&quot;Escreva uma fórmula do Google Sheets que calcule a média das vendas dos últimos 7 dias, ignorando fins de semana e feriados, para o vendedor João&quot;</span><span class="ss">)</span>
+<div class="codehilite"><pre><span></span><code><span class="o">=</span><span class="nv">GPT</span><span class="ss">(</span><span class="s2">&quot;Escreva uma fórmula do Google Sheets que calcule a média das vendas dos últimos 7 dias, ignorando fins de semana e feriados, para o vendedor Joêo&quot;</span><span class="ss">)</span>
 </code></pre></div>
 
 <p><strong>IA responde com a fórmula pronta</strong> (você só copia e cola).</p>
-<h3>Apps Script: Automação Nativa do Sheets</h3>
+<h3>Apps Script: Automaçêo Nativa do Sheets</h3>
 <p><strong>O que é:</strong> JavaScript para automatizar Google Sheets (grátis).</p>
 <p><strong>Quando usar:</strong>
 - Atualizar dados em horário específico
@@ -647,29 +647,29 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 
 <p><strong>Configure para rodar a cada 1 hora</strong> e sempre terá dados atualizados.</p>
 <hr />
-<h2>4. Dashboards Automáticos (Visualização Profissional)</h2>
+<h2>4. Dashboards Automáticos (Visualizaçêo Profissional)</h2>
 <h3>Princípios de um Bom Dashboard</h3>
 <p><strong>1. Menos é Mais</strong>
 - Máximo 6-8 métricas por tela
 - Hierarquia visual clara (maior = mais importante)</p>
-<p><strong>2. Atualização Automática</strong>
+<p><strong>2. Atualizaçêo Automática</strong>
 - Usuário nunca deve ter que "atualizar" manualmente
 - Use fórmulas dinâmicas</p>
 <p><strong>3. Cores com Propósito</strong>
 - Verde: tudo bem
-- Amarelo: atenção
+- Amarelo: atençêo
 - Vermelho: urgente
 - Cinza: neutro</p>
 <p><strong>4. Contexto é Rei</strong>
 - Nunca mostre número sozinho
 - Sempre compare: "vendas hoje vs. ontem", "meta vs. realizado"</p>
 <h3>Estrutura de Dashboard Profissional</h3>
-<p><strong>Aba 1: Dashboard (visualização)</strong>
+<p><strong>Aba 1: Dashboard (visualizaçêo)</strong>
 - Só gráficos e métricas principais
 - Sem dados brutos</p>
 <p><strong>Aba 2: Dados Brutos</strong>
-- Importação automática (IMPORTRANGE, API, etc.)
-- Sem formatação</p>
+- Importaçêo automática (IMPORTRANGE, API, etc.)
+- Sem formataçêo</p>
 <p><strong>Aba 3: Processamento</strong>
 - Fórmulas QUERY, FILTER, etc.
 - Dados tratados</p>
@@ -722,23 +722,23 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 <div class="codehilite"><pre><span></span><code>=COUNTIF(Estoque!C:C, &quot;&lt;10&quot;) // Itens com estoque abaixo de 10
 </code></pre></div>
 
-<p><strong>4. Data/Hora de Última Atualização</strong></p>
-<div class="codehilite"><pre><span></span><code>=&quot;Última atualização: &quot;&amp;TEXT(AGORA(), &quot;DD/MM/YYYY HH:MM&quot;)
+<p><strong>4. Data/Hora de Última Atualizaçêo</strong></p>
+<div class="codehilite"><pre><span></span><code>=&quot;Última atualizaçêo: &quot;&amp;TEXT(AGORA(), &quot;DD/MM/YYYY HH:MM&quot;)
 </code></pre></div>
 
-<h3>Formatação Condicional Inteligente</h3>
+<h3>Formataçêo Condicional Inteligente</h3>
 <p><strong>Regra 1: Verde se atingiu meta</strong>
 - Seleciona célula de % da meta
-- Formato → Formatação condicional
+- Formato → Formataçêo condicional
 - Se valor &gt;= 100% → Verde</p>
 <p><strong>Regra 2: Escala de cores</strong>
 - Seleciona coluna de vendas
-- Formatação condicional → Escala de cores
+- Formataçêo condicional → Escala de cores
 - Menor valor = vermelho claro
 - Maior valor = verde escuro</p>
 <p><strong>Regra 3: Ícones</strong>
 - Seleciona células
-- Formatação condicional → "Conjunto de ícones"
+- Formataçêo condicional → "Conjunto de ícones"
 - Escolhe: ▲ (acima meta), — (na meta), ▼ (abaixo)</p>
 <h3>Google Data Studio (Looker Studio) - Dashboards Profissionais</h3>
 <p><strong>O que é:</strong> Ferramenta gratuita do Google para dashboards interativos.</p>
@@ -782,17 +782,17 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 - Próximos compromissos</p>
 <p><strong>Link para templates:</strong> (adicione link do Google Drive com templates compartilhados)</p>
 <h3>Erros Comuns em Dashboards (E Como Evitar)</h3>
-<h4>Erro 1: Excesso de Informação</h4>
+<h4>Erro 1: Excesso de Informaçêo</h4>
 <p><strong>Problema:</strong> Dashboard com 30 métricas diferentes em uma única tela.</p>
 <p><strong>Por quê é ruim:</strong>
-- Paralisia analítica (não sabe para onde olhar)
+- Paralisia analítica (nêo sabe para onde olhar)
 - Números importantes se perdem no meio
 - Tempo de carregamento lento
 - Difícil de entender rapidamente</p>
-<p><strong>Solução:</strong>
+<p><strong>Soluçêo:</strong>
 - Regra 5-7-9: máximo 5 métricas principais, 7 gráficos, 9 KPIs totais
 - Crie múltiplas abas para diferentes níveis de detalhamento
-- Aba 1: Visão Executiva (só o essencial)
+- Aba 1: Visêo Executiva (só o essencial)
 - Aba 2: Detalhamento Operacional
 - Aba 3: Dados Brutos</p>
 <p><strong>Exemplo prático:</strong></p>
@@ -810,22 +810,22 @@ Dashboard com tendência de vendas dos últimos 30 dias ao lado de cada produto.
 
 <span class="n">ABA</span><span class="w"> </span><span class="s">&quot;OPERACIONAL&quot;</span><span class="o">:</span>
 <span class="o">-</span><span class="w"> </span><span class="n">Vendas</span><span class="w"> </span><span class="n">por</span><span class="w"> </span><span class="n">vendedor</span>
-<span class="o">-</span><span class="w"> </span><span class="n">Vendas</span><span class="w"> </span><span class="n">por</span><span class="w"> </span><span class="n">região</span>
+<span class="o">-</span><span class="w"> </span><span class="n">Vendas</span><span class="w"> </span><span class="n">por</span><span class="w"> </span><span class="n">regiêo</span>
 <span class="o">-</span><span class="w"> </span><span class="n">Vendas</span><span class="w"> </span><span class="n">por</span><span class="w"> </span><span class="n">categoria</span>
 <span class="o">-</span><span class="w"> </span><span class="n">Detalhamento</span><span class="w"> </span><span class="n">diário</span>
 </code></pre></div>
 
 <h4>Erro 2: Métricas Sem Contexto</h4>
-<p><strong>Problema:</strong> Mostrar "Vendas: R$ 50.000" sem comparação.</p>
+<p><strong>Problema:</strong> Mostrar "Vendas: R$ 50.000" sem comparaçêo.</p>
 <p><strong>Por quê é ruim:</strong>
-- 50k é bom ou ruim? Não sabemos.
-- Falta referência para tomada de decisão</p>
-<p><strong>Solução:</strong> Sempre contextualize com:
+- 50k é bom ou ruim? Nêo sabemos.
+- Falta referência para tomada de decisêo</p>
+<p><strong>Soluçêo:</strong> Sempre contextualize com:
 - Meta (50k de 40k = 125% da meta ✅)
 - Período anterior (50k vs. 45k mês passado = +11%)
 - Mesmo período ano passado (50k vs. 48k nov/2023 = +4%)
 - Média histórica (50k vs. média de 42k = acima da média)</p>
-<p><strong>Fórmula para comparação vs. período anterior:</strong></p>
+<p><strong>Fórmula para comparaçêo vs. período anterior:</strong></p>
 <div class="codehilite"><pre><span></span><code>=TEXT((VALOR_ATUAL/VALOR_ANTERIOR)-1, &quot;+0%;-0%;0%&quot;)
 </code></pre></div>
 
@@ -836,21 +836,21 @@ vs. Outubro: +11% 📈
 vs. Nov/2023: +4% 📈
 </code></pre></div>
 
-<h4>Erro 3: Atualização Manual</h4>
+<h4>Erro 3: Atualizaçêo Manual</h4>
 <p><strong>Problema:</strong> "Preciso copiar os dados do CRM e colar aqui toda segunda-feira"</p>
 <p><strong>Por quê é ruim:</strong>
 - Você esquece de atualizar
 - Dados ficam desatualizados
 - Toma tempo toda semana
 - Abre margem para erro</p>
-<p><strong>Solução:</strong>
+<p><strong>Soluçêo:</strong>
 - Use IMPORTRANGE para buscar de outras planilhas
 - Conecte via Zapier ao sistema fonte (CRM, ERP)
 - Use Apps Script para buscar via API
-- Configure atualização automática</p>
-<p><strong>Exemplo de integração:</strong></p>
+- Configure atualizaçêo automática</p>
+<p><strong>Exemplo de integraçêo:</strong></p>
 <p><strong>Cenário:</strong> CRM externo que exporta CSV diariamente</p>
-<p><strong>Solução:</strong>
+<p><strong>Soluçêo:</strong>
 1. Configure CRM para enviar CSV por email todo dia às 7h
 2. Apps Script busca email, extrai CSV, importa para Sheets
 3. Dashboard atualiza automaticamente via fórmulas</p>
@@ -877,15 +877,15 @@ vs. Nov/2023: +4% 📈
 <p><strong>Por quê é ruim:</strong>
 - Confunde em vez de informar
 - Parece amador
-- Dificulta identificação rápida de problemas</p>
-<p><strong>Solução:</strong> Use paleta de cores com propósito:</p>
-<p><strong>Código de cores padrão:</strong>
+- Dificulta identificaçêo rápida de problemas</p>
+<p><strong>Soluçêo:</strong> Use paleta de cores com propósito:</p>
+<p><strong>Código de cores padrêo:</strong>
 - 🟢 Verde: Positivo, meta atingida, tudo bem
-- 🟡 Amarelo: Atenção, perto do limite
-- 🔴 Vermelho: Urgente, meta não atingida, problema
+- 🟡 Amarelo: Atençêo, perto do limite
+- 🔴 Vermelho: Urgente, meta nêo atingida, problema
 - ⚪ Cinza: Neutro, informativo
-- 🔵 Azul: Informação, destaque sem juízo de valor</p>
-<p><strong>Exemplo de formatação condicional:</strong></p>
+- 🔵 Azul: Informaçêo, destaque sem juízo de valor</p>
+<p><strong>Exemplo de formataçêo condicional:</strong></p>
 <div class="codehilite"><pre><span></span><code>Atingimento de meta:
 &gt;= 100%: Verde
 80% - 99%: Amarelo
@@ -899,26 +899,26 @@ Mínimo até Mínimo+50%: Amarelo
 
 <p><strong>Como aplicar:</strong>
 1. Selecione célula/intervalo
-2. Formatar → Formatação condicional
-3. "A célula não está vazia" (para aplicar a todas)
+2. Formatar → Formataçêo condicional
+3. "A célula nêo está vazia" (para aplicar a todas)
 4. Escolha "Escala de cores" ou regras personalizadas</p>
 <h4>Erro 5: Gráficos Inadequados</h4>
 <p><strong>Problema:</strong> Usar tipo errado de gráfico para o dado.</p>
 <p><strong>Quando usar cada tipo:</strong></p>
 <p><strong>Gráfico de Linha:</strong>
 - ✅ Tendências ao longo do tempo
-- ✅ Evolução de métricas
+- ✅ Evoluçêo de métricas
 - Exemplo: Vendas dos últimos 30 dias</p>
 <p><strong>Gráfico de Colunas/Barras:</strong>
-- ✅ Comparação entre categorias
+- ✅ Comparaçêo entre categorias
 - ✅ Rankings
 - Exemplo: Vendas por vendedor</p>
 <p><strong>Gráfico de Pizza:</strong>
 - ✅ Proporções (máximo 5-6 fatias)
 - ❌ NUNCA use para comparar valores similares
-- Exemplo: Distribuição de vendas por região</p>
+- Exemplo: Distribuiçêo de vendas por regiêo</p>
 <p><strong>Gráfico de Área:</strong>
-- ✅ Mostrar volume total + composição ao longo do tempo
+- ✅ Mostrar volume total + composiçêo ao longo do tempo
 - Exemplo: Vendas empilhadas por categoria (mostra total e breakdown)</p>
 <p><strong>Gauge (Velocímetro):</strong>
 - ✅ % de meta atingida
@@ -927,15 +927,15 @@ Mínimo até Mínimo+50%: Amarelo
 - ✅ Tendências compactas dentro de tabelas
 - Exemplo: Ao lado de cada produto, mostrar vendas dos últimos 7 dias</p>
 <p><strong>Regra de ouro:</strong> Se você precisa de mais de 5 segundos para entender o gráfico, escolha outro tipo.</p>
-<h3>Otimização de Performance em Planilhas Grandes</h3>
+<h3>Otimizaçêo de Performance em Planilhas Grandes</h3>
 <h4>Problema: Planilha Lenta</h4>
 <p><strong>Sinais de que sua planilha está pesada:</strong>
 - Demora &gt;3 segundos para abrir
 - Trava ao adicionar dados
 - Fórmulas demoram para recalcular
 - "Carregando..." aparece frequentemente</p>
-<h4>Solução 1: Reduza Fórmulas Voláteis</h4>
-<p><strong>Fórmulas voláteis</strong> recalculam SEMPRE (mesmo quando não precisa):
+<h4>Soluçêo 1: Reduza Fórmulas Voláteis</h4>
+<p><strong>Fórmulas voláteis</strong> recalculam SEMPRE (mesmo quando nêo precisa):
 - <code>AGORA()</code> / <code>NOW()</code>
 - <code>HOJE()</code> / <code>TODAY()</code>
 - <code>RAND()</code> / <code>RANDBETWEEN()</code>
@@ -945,8 +945,8 @@ Mínimo até Mínimo+50%: Amarelo
 <span class="p">=</span><span class="n">SE</span><span class="p">(</span><span class="n">A2</span><span class="o">&lt;&gt;</span><span class="s">&quot;&quot;</span><span class="p">;</span><span class="w"> </span><span class="n">AGORA</span><span class="p">();</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">)</span>
 </code></pre></div>
 
-<p><strong>Solução:</strong>
-- Use com moderação
+<p><strong>Soluçêo:</strong>
+- Use com moderaçêo
 - Quando possível, substitua por valor fixo
 - Combine múltiplas em uma célula só</p>
 <div class="codehilite"><pre><span></span><code><span class="c1">// Melhor: use AGORA() uma vez em célula separada</span>
@@ -956,14 +956,14 @@ Mínimo até Mínimo+50%: Amarelo
 <span class="p">=</span><span class="n">SE</span><span class="p">(</span><span class="n">A2</span><span class="o">&lt;&gt;</span><span class="s">&quot;&quot;</span><span class="p">;</span><span class="w"> </span><span class="no">$</span><span class="n">Z</span><span class="no">$</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">)</span>
 </code></pre></div>
 
-<h4>Solução 2: Substitua ARRAYFORMULA Muito Longos</h4>
+<h4>Soluçêo 2: Substitua ARRAYFORMULA Muito Longos</h4>
 <p><strong>Problema:</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="c1">// 50.000 linhas calculando tudo:</span>
 <span class="p">=</span><span class="n">ARRAYFORMULA</span><span class="p">(</span><span class="n">IF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A50000</span><span class="o">&lt;&gt;</span><span class="s">&quot;&quot;</span><span class="p">;</span>
 <span class="w">  </span><span class="n">VLOOKUP</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A50000</span><span class="p">,</span><span class="w"> </span><span class="n">OutraPlanilha</span>!<span class="n">A</span><span class="p">:</span><span class="n">Z</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="n">FALSE</span><span class="p">);</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">))</span>
 </code></pre></div>
 
-<p><strong>Solução:</strong> Limite ao intervalo necessário</p>
+<p><strong>Soluçêo:</strong> Limite ao intervalo necessário</p>
 <div class="codehilite"><pre><span></span><code><span class="c1">// Melhor: só até última linha com dados</span>
 <span class="p">=</span><span class="n">ARRAYFORMULA</span><span class="p">(</span><span class="n">IF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A</span><span class="o">&lt;&gt;</span><span class="s">&quot;&quot;</span><span class="p">;</span>
 <span class="w">  </span><span class="n">VLOOKUP</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">OutraPlanilha</span>!<span class="n">A</span><span class="p">:</span><span class="n">Z</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="n">FALSE</span><span class="p">);</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">))</span>
@@ -973,10 +973,10 @@ Mínimo até Mínimo+50%: Amarelo
 <div class="codehilite"><pre><span></span><code>=QUERY(OutraPlanilha!A:Z, &quot;SELECT A, J WHERE A IS NOT NULL&quot;)
 </code></pre></div>
 
-<h4>Solução 3: Divida em Múltiplas Planilhas</h4>
+<h4>Soluçêo 3: Divida em Múltiplas Planilhas</h4>
 <p><strong>Estrutura recomendada:</strong></p>
 <p><strong>Planilha 1: DADOS BRUTOS</strong>
-- Só importação de dados
+- Só importaçêo de dados
 - Sem fórmulas complexas
 - Atualizadas via API/Zapier</p>
 <p><strong>Planilha 2: PROCESSAMENTO</strong>
@@ -984,29 +984,29 @@ Mínimo até Mínimo+50%: Amarelo
 - Puxa dados da Planilha 1 via IMPORTRANGE
 - Dados tratados</p>
 <p><strong>Planilha 3: DASHBOARD</strong>
-- Só visualização
+- Só visualizaçêo
 - Puxa dados processados da Planilha 2
 - Gráficos e formatações</p>
 <p><strong>Vantagem:</strong>
 - Cada planilha carrega independentemente
 - Mais rápido
 - Mais organizado
-- Fácil manutenção</p>
-<h4>Solução 4: Use Filtros em Vez de Ocultar Linhas</h4>
+- Fácil manutençêo</p>
+<h4>Soluçêo 4: Use Filtros em Vez de Ocultar Linhas</h4>
 <p><strong>Problema:</strong> 10.000 linhas com 9.000 ocultas manualmente = lento</p>
-<p><strong>Solução:</strong>
-- Use Exibição de Filtro (não afeta outros usuários)
+<p><strong>Soluçêo:</strong>
+- Use Exibiçêo de Filtro (nêo afeta outros usuários)
 - Ou crie abas separadas com FILTER/QUERY</p>
 <div class="codehilite"><pre><span></span><code><span class="c1">// Aba &quot;Vendas 2024&quot;:</span>
 <span class="p">=</span><span class="n">FILTER</span><span class="p">(</span><span class="n">TodosDados</span>!<span class="n">A</span><span class="p">:</span><span class="n">Z</span><span class="p">,</span><span class="w"> </span><span class="n">YEAR</span><span class="p">(</span><span class="n">TodosDados</span>!<span class="n">A</span><span class="p">:</span><span class="n">A</span><span class="p">)=</span><span class="mi">2024</span><span class="p">)</span>
 </code></pre></div>
 
-<h4>Solução 5: Remova Formatação Condicional Excessiva</h4>
-<p><strong>Problema:</strong> Formatação condicional em 50 colunas x 10.000 linhas</p>
-<p><strong>Solução:</strong>
+<h4>Soluçêo 5: Remova Formataçêo Condicional Excessiva</h4>
+<p><strong>Problema:</strong> Formataçêo condicional em 50 colunas x 10.000 linhas</p>
+<p><strong>Soluçêo:</strong>
 - Aplique só onde realmente precisa
-- Use "Aplicar ao intervalo" específico (não coluna inteira)
-- Máximo 5-7 regras de formatação condicional por planilha</p>
+- Use "Aplicar ao intervalo" específico (nêo coluna inteira)
+- Máximo 5-7 regras de formataçêo condicional por planilha</p>
 <h4>Benchmark de Performance</h4>
 <p><strong>Planilha Leve (&lt; 2 seg para carregar):</strong>
 - Até 5.000 linhas
@@ -1025,8 +1025,8 @@ Mínimo até Mínimo+50%: Amarelo
 - &gt; 10 IMPORTRANGE</p>
 <p><strong>Se sua planilha está pesada:</strong> Divida em múltiplas planilhas ou migre para Google Data Studio/Looker.</p>
 <hr />
-<h2>5. Automação de Entrada de Dados (Nunca Mais Digite Manualmente)</h2>
-<h3>Google Forms → Sheets (Automação Instantânea)</h3>
+<h2>5. Automaçêo de Entrada de Dados (Nunca Mais Digite Manualmente)</h2>
+<h3>Google Forms → Sheets (Automaçêo Instantânea)</h3>
 <p><strong>Caso de uso:</strong> Coleta de dados (pesquisas, pedidos, registros, etc.)</p>
 <p><strong>Setup (5 minutos):</strong></p>
 <p><strong>Passo 1: Criar Formulário</strong>
@@ -1043,7 +1043,7 @@ Na aba "Respostas", adicione fórmulas:</p>
 <span class="p">=</span><span class="n">ARRAYFORMULA</span><span class="p">(</span><span class="n">IF</span><span class="p">(</span><span class="n">B2</span><span class="p">:</span><span class="n">B</span><span class="p">=</span><span class="s">&quot;&quot;</span><span class="p">;</span><span class="s">&quot;&quot;</span><span class="p">;</span><span class="n">B2</span><span class="p">:</span><span class="n">B</span><span class="o">*</span><span class="n">C2</span><span class="p">:</span><span class="n">C</span><span class="p">))</span>
 </code></pre></div>
 
-<p><strong>Passo 4: Enviar Email de Confirmação Automático</strong></p>
+<p><strong>Passo 4: Enviar Email de Confirmaçêo Automático</strong></p>
 <p>Apps Script:</p>
 <div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">aoEnviarFormulario</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">email</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">values</span><span class="p">[</span><span class="mf">1</span><span class="p">];</span><span class="w"> </span><span class="c1">// Assumindo que email é a 2ª pergunta</span>
@@ -1051,7 +1051,7 @@ Na aba "Respostas", adicione fórmulas:</p>
 
 <span class="w">  </span><span class="nx">MailApp</span><span class="p">.</span><span class="nx">sendEmail</span><span class="p">({</span>
 <span class="w">    </span><span class="nx">to</span><span class="o">:</span><span class="w"> </span><span class="nx">email</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">subject</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Confirmação de Recebimento&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">subject</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Confirmaçêo de Recebimento&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Olá &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">nome</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;,\n\nRecebemos seu formulário!\n\nObrigado.&quot;</span>
 <span class="w">  </span><span class="p">});</span>
 <span class="p">}</span>
@@ -1061,7 +1061,7 @@ Na aba "Respostas", adicione fórmulas:</p>
 1. Apps Script → Acionadores
 2. "aoEnviarFormulario"
 3. "Ao enviar formulário"</p>
-<p><strong>Resultado:</strong> Cliente preenche formulário → Dados vão pro Sheets → Email automático enviado.</p>
+<p><strong>Resultado:</strong> Cliente preenche formulário → Dados vêo pro Sheets → Email automático enviado.</p>
 <h3>Zapier → Sheets (Múltiplas Fontes)</h3>
 <p><strong>Exemplo 1: Email com anexo → Linha no Sheets</strong></p>
 <p><strong>Trigger:</strong> Gmail - "New Attachment"
@@ -1075,9 +1075,9 @@ Na aba "Respostas", adicione fórmulas:</p>
 <p><strong>Trigger:</strong> Shopify/WooCommerce - "New Order"
 <strong>Action 1:</strong> Sheets - "Create Row"
 <strong>Action 2:</strong> Gmail - "Send Email" (notificar equipe)</p>
-<h3>Importação Automática de Arquivos</h3>
+<h3>Importaçêo Automática de Arquivos</h3>
 <p><strong>Cenário:</strong> Você recebe arquivo CSV todo dia por email.</p>
-<p><strong>Solução com Apps Script:</strong></p>
+<p><strong>Soluçêo com Apps Script:</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">importarCSVdoEmail</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">threads</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">GmailApp</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="s1">&#39;subject:&quot;Relatório Diário&quot; has:attachment newer_than:1d&#39;</span><span class="p">);</span>
 
@@ -1098,7 +1098,7 @@ Na aba "Respostas", adicione fórmulas:</p>
 
 <p><strong>Configure para rodar todo dia às 8h.</strong></p>
 <hr />
-<h2>6. Exercícios Práticos (Mão na Massa!)</h2>
+<h2>6. Exercícios Práticos (Mêo na Massa!)</h2>
 <h3>Exercício 1: Criar Dashboard Pessoal (60 minutos)</h3>
 <p><strong>Objetivo:</strong> Dashboard que mostra suas métricas diárias.</p>
 <p><strong>Etapas:</strong></p>
@@ -1113,7 +1113,7 @@ Na aba "Respostas", adicione fórmulas:</p>
 <p>Nivel de energia (1-10)</p>
 </li>
 <li>
-<p><strong>Aba "Dashboard":</strong> Criar visualização:</p>
+<p><strong>Aba "Dashboard":</strong> Criar visualizaçêo:</p>
 </li>
 <li>Média de horas/dia (última semana)</li>
 <li>Total de tarefas concluídas (mês)</li>
@@ -1136,13 +1136,13 @@ Na aba "Respostas", adicione fórmulas:</p>
 - [ ] Planilha criada
 - [ ] Ao menos 3 métricas
 - [ ] 1 gráfico
-- [ ] Formatação condicional em 1 célula</p>
+- [ ] Formataçêo condicional em 1 célula</p>
 <h3>Exercício 2: Implementar 5 Fórmulas Avançadas (40 minutos)</h3>
 <p><strong>Tarefa:</strong> Crie planilha de vendas fake e aplique:</p>
 <ol>
 <li><strong>IMPORTRANGE:</strong> Conectar 2 planilhas diferentes</li>
-<li><strong>QUERY:</strong> Filtrar vendas &gt; R$ 1000 do vendedor "João"</li>
-<li><strong>ARRAYFORMULA:</strong> Calcular comissão (7%) para todas linhas</li>
+<li><strong>QUERY:</strong> Filtrar vendas &gt; R$ 1000 do vendedor "Joêo"</li>
+<li><strong>ARRAYFORMULA:</strong> Calcular comissêo (7%) para todas linhas</li>
 <li><strong>FILTER:</strong> Vendas dos últimos 30 dias</li>
 <li><strong>SPARKLINE:</strong> Mini-gráfico de vendas de cada produto</li>
 </ol>
@@ -1169,7 +1169,7 @@ Na aba "Respostas", adicione fórmulas:</p>
 <h2>7. Casos de Uso Avançados (Aplicações Reais no Dia a Dia)</h2>
 <h3>Caso 1: Controle de Estoque Automático com Alertas</h3>
 <p><strong>Problema:</strong> Empresa perde vendas por falta de estoque, mas também tem capital parado em excesso.</p>
-<p><strong>Solução com Sheets:</strong></p>
+<p><strong>Soluçêo com Sheets:</strong></p>
 <p><strong>Estrutura da planilha:</strong></p>
 <table>
 <thead>
@@ -1179,7 +1179,7 @@ Na aba "Respostas", adicione fórmulas:</p>
 <th>Estoque Mínimo</th>
 <th>Estoque Máximo</th>
 <th>Status</th>
-<th>Ação Necessária</th>
+<th>Açêo Necessária</th>
 </tr>
 </thead>
 <tbody>
@@ -1216,7 +1216,7 @@ Na aba "Respostas", adicione fórmulas:</p>
 <span class="w">  </span><span class="nt">IF</span><span class="o">(</span><span class="nt">B2</span><span class="p">:</span><span class="nd">B</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="nt">D2</span><span class="p">:</span><span class="nd">D</span><span class="o">;</span><span class="w"> </span><span class="s2">&quot;🟡 ALTO&quot;</span><span class="o">;</span><span class="w"> </span><span class="s2">&quot;🟢 OK&quot;</span><span class="o">))))</span>
 </code></pre></div>
 
-<p><strong>Coluna F (Ação Necessária):</strong></p>
+<p><strong>Coluna F (Açêo Necessária):</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="o">=</span><span class="nt">ARRAYFORMULA</span><span class="o">(</span><span class="nt">IF</span><span class="o">(</span><span class="nt">B2</span><span class="p">:</span><span class="nd">B</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="o">;</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="o">;</span>
 <span class="w">  </span><span class="nt">IF</span><span class="o">(</span><span class="nt">B2</span><span class="p">:</span><span class="nd">B</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nt">C2</span><span class="p">:</span><span class="nd">C</span><span class="o">;</span><span class="w"> </span><span class="s2">&quot;Comprar &quot;</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="o">(</span><span class="nt">D2</span><span class="p">:</span><span class="nd">D</span><span class="w"> </span><span class="nt">-</span><span class="w"> </span><span class="nt">B2</span><span class="p">:</span><span class="nd">B</span><span class="o">);</span>
 <span class="w">  </span><span class="nt">IF</span><span class="o">(</span><span class="nt">B2</span><span class="p">:</span><span class="nd">B</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="nt">D2</span><span class="p">:</span><span class="nd">D</span><span class="o">;</span><span class="w"> </span><span class="s2">&quot;Reduzir pedidos&quot;</span><span class="o">;</span><span class="w"> </span><span class="s2">&quot;Nenhuma&quot;</span><span class="o">))))</span>
@@ -1253,9 +1253,9 @@ Na aba "Respostas", adicione fórmulas:</p>
 
 <p><strong>Configure trigger:</strong> Todo dia, 9h.</p>
 <p><strong>Resultado:</strong> Equipe de compras recebe email automático quando qualquer produto ficar abaixo do mínimo.</p>
-<h3>Caso 2: Calculadora de Margem e Precificação Inteligente</h3>
-<p><strong>Problema:</strong> Time comercial erra precificação, vendendo abaixo do custo ou muito acima do mercado.</p>
-<p><strong>Solução: Planilha de precificação automática</strong></p>
+<h3>Caso 2: Calculadora de Margem e Precificaçêo Inteligente</h3>
+<p><strong>Problema:</strong> Time comercial erra precificaçêo, vendendo abaixo do custo ou muito acima do mercado.</p>
+<p><strong>Soluçêo: Planilha de precificaçêo automática</strong></p>
 <p><strong>Inputs:</strong>
 - Custo do produto
 - Despesas operacionais (%)
@@ -1267,7 +1267,7 @@ Preço Mínimo = Custo Total / (1 - Margem Mínima)
 Preço Sugerido = Custo Total / (1 - Margem Desejada)
 </code></pre></div>
 
-<p><strong>Implementação:</strong></p>
+<p><strong>Implementaçêo:</strong></p>
 <table>
 <thead>
 <tr>
@@ -1323,9 +1323,9 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 </code></pre></div>
 
 <p><strong>Vantagem:</strong> Vendedor vê na hora se preço está competitivo.</p>
-<h3>Caso 3: Painel de Metas com Gamificação</h3>
-<p><strong>Problema:</strong> Equipe desmotivada, não sabe como está vs. meta.</p>
-<p><strong>Solução: Dashboard gamificado</strong></p>
+<h3>Caso 3: Painel de Metas com Gamificaçêo</h3>
+<p><strong>Problema:</strong> Equipe desmotivada, nêo sabe como está vs. meta.</p>
+<p><strong>Soluçêo: Dashboard gamificado</strong></p>
 <p><strong>Elementos:</strong></p>
 <ol>
 <li><strong>Barra de progresso visual</strong></li>
@@ -1347,7 +1347,7 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 "No ritmo atual, você fechará o mês com X"</li>
 </ol>
 <div class="codehilite"><pre><span></span><code><span class="c1">// Assumindo que hoje é dia 15 do mês:</span>
-<span class="p">=</span><span class="n">B2</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">15</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">30</span><span class="w">  </span><span class="c1">// Projeção para 30 dias</span>
+<span class="p">=</span><span class="n">B2</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">15</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">30</span><span class="w">  </span><span class="c1">// Projeçêo para 30 dias</span>
 </code></pre></div>
 
 <ol>
@@ -1358,18 +1358,18 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
   &quot;💪 VAMOS COM TUDO! Você consegue!&quot;))
 </code></pre></div>
 
-<p><strong>Atualização em tempo real:</strong> Conecte via IMPORTRANGE com planilha de vendas.</p>
-<p><strong>Resultado:</strong> Time vê progresso em tempo real + gamificação aumenta engajamento.</p>
-<h3>Caso 4: Sistema de Aprovação de Despesas</h3>
+<p><strong>Atualizaçêo em tempo real:</strong> Conecte via IMPORTRANGE com planilha de vendas.</p>
+<p><strong>Resultado:</strong> Time vê progresso em tempo real + gamificaçêo aumenta engajamento.</p>
+<h3>Caso 4: Sistema de Aprovaçêo de Despesas</h3>
 <p><strong>Problema:</strong> Despesas precisam passar por múltiplas aprovações, processo lento e manual.</p>
-<p><strong>Solução: Fluxo automatizado</strong></p>
+<p><strong>Soluçêo: Fluxo automatizado</strong></p>
 <p><strong>Google Form para solicitar despesa:</strong>
 - Nome do solicitante
 - Departamento
 - Valor
 - Categoria (Viagem / Material / Serviço)
 - Justificativa
-- Urgência (Sim/Não)</p>
+- Urgência (Sim/Nêo)</p>
 <p><strong>Apps Script para aprovar automaticamente pequenos valores:</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">processarDespesas</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">sheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">SpreadsheetApp</span><span class="p">.</span><span class="nx">getActiveSpreadsheet</span><span class="p">().</span><span class="nx">getSheetByName</span><span class="p">(</span><span class="s1">&#39;Respostas&#39;</span><span class="p">);</span>
@@ -1383,14 +1383,14 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 <span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">categoria</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="mf">4</span><span class="p">];</span>
 <span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">urgencia</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">dados</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="mf">6</span><span class="p">];</span>
 
-<span class="w">    </span><span class="c1">// Regra: Valores até R$ 200 = aprovação automática</span>
+<span class="w">    </span><span class="c1">// Regra: Valores até R$ 200 = aprovaçêo automática</span>
 <span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">valor</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mf">200</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">8</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="s2">&quot;✅ Aprovado automaticamente&quot;</span><span class="p">);</span>
 <span class="w">      </span><span class="nx">enviarNotificacao</span><span class="p">(</span><span class="nx">dados</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span><span class="w"> </span><span class="s2">&quot;aprovado&quot;</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
-<span class="w">    </span><span class="c1">// Valores acima de R$ 200 = envia para aprovação</span>
+<span class="w">    </span><span class="c1">// Valores acima de R$ 200 = envia para aprovaçêo</span>
 <span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">8</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="s2">&quot;⏳ Aguardando aprovação&quot;</span><span class="p">);</span>
+<span class="w">      </span><span class="nx">sheet</span><span class="p">.</span><span class="nx">getRange</span><span class="p">(</span><span class="nx">i</span><span class="o">+</span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="mf">8</span><span class="p">).</span><span class="nx">setValue</span><span class="p">(</span><span class="s2">&quot;⏳ Aguardando aprovaçêo&quot;</span><span class="p">);</span>
 <span class="w">      </span><span class="nx">enviarParaGestor</span><span class="p">(</span><span class="nx">dados</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -1403,7 +1403,7 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 
 <span class="w">  </span><span class="nx">MailApp</span><span class="p">.</span><span class="nx">sendEmail</span><span class="p">({</span>
 <span class="w">    </span><span class="nx">to</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;gestor@empresa.com&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">subject</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Aprovação de Despesa: R$ &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">valor</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">subject</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Aprovaçêo de Despesa: R$ &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">valor</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Solicitante: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">solicitante</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;\n&quot;</span><span class="w"> </span><span class="o">+</span>
 <span class="w">          </span><span class="s2">&quot;Valor: R$ &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">valor</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;\n&quot;</span><span class="w"> </span><span class="o">+</span>
 <span class="w">          </span><span class="s2">&quot;Justificativa: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">justificativa</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;\n\n&quot;</span><span class="w"> </span><span class="o">+</span>
@@ -1418,10 +1418,10 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 - Histórico completo registrado</p>
 <h3>Caso 5: Rastreamento de KPIs com Alertas Inteligentes</h3>
 <p><strong>Problema:</strong> Gestor só descobre problema quando já é tarde.</p>
-<p><strong>Solução: Sistema de alertas proativos</strong></p>
+<p><strong>Soluçêo: Sistema de alertas proativos</strong></p>
 <p><strong>Monitorar:</strong>
 - Vendas caindo &gt;10% vs. semana anterior → 🔴 Alerta
-- Taxa de conversão caindo &gt;5% → 🟡 Atenção
+- Taxa de conversêo caindo &gt;5% → 🟡 Atençêo
 - Ticket médio subindo &gt;15% → 🟢 Oportunidade</p>
 <p><strong>Apps Script:</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">monitorarKPIs</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
@@ -1449,9 +1449,9 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 
 <p><strong>Configure:</strong> Todo dia, 8h.</p>
 <p><strong>Resultado:</strong> Gestor é avisado ANTES do problema se agravar.</p>
-<h3>Caso 6: Conciliação Bancária Automática</h3>
+<h3>Caso 6: Conciliaçêo Bancária Automática</h3>
 <p><strong>Problema:</strong> Reconciliar extrato bancário com lançamentos internos = 2-3 horas/semana.</p>
-<p><strong>Solução:</strong></p>
+<p><strong>Soluçêo:</strong></p>
 <p><strong>Passo 1:</strong> Importar extrato bancário (CSV)
 - Via upload manual ou email automático do banco</p>
 <p><strong>Passo 2:</strong> Comparar com lançamentos</p>
@@ -1460,12 +1460,12 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 </code></pre></div>
 
 <p><strong>Passo 3:</strong> Destacar divergências</p>
-<p><strong>Formatação condicional:</strong>
+<p><strong>Formataçêo condicional:</strong>
 - Verde: Valor confere
 - Vermelho: Divergência</p>
 <p><strong>Passo 4:</strong> Apps Script para listar divergências</p>
 <div class="codehilite"><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">listarDivergencias</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">sheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">SpreadsheetApp</span><span class="p">.</span><span class="nx">getActiveSpreadsheet</span><span class="p">().</span><span class="nx">getSheetByName</span><span class="p">(</span><span class="s1">&#39;Conciliação&#39;</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">sheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">SpreadsheetApp</span><span class="p">.</span><span class="nx">getActiveSpreadsheet</span><span class="p">().</span><span class="nx">getSheetByName</span><span class="p">(</span><span class="s1">&#39;Conciliaçêo&#39;</span><span class="p">);</span>
 <span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">dados</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">sheet</span><span class="p">.</span><span class="nx">getDataRange</span><span class="p">().</span><span class="nx">getValues</span><span class="p">();</span>
 
 <span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">divergencias</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[];</span>
@@ -1485,13 +1485,13 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 <p><strong>Tempo economizado:</strong> De 2-3h para 15-20 minutos.</p>
 <hr />
 <h2>8. Troubleshooting: Problemas Comuns e Soluções</h2>
-<h3>Problema 1: "IMPORTRANGE não funciona"</h3>
+<h3>Problema 1: "IMPORTRANGE nêo funciona"</h3>
 <p><strong>Erro:</strong> <code>#REF!</code> ou "You need permission"</p>
 <p><strong>Causas:</strong>
-1. Planilha origem não deu permissão
+1. Planilha origem nêo deu permissêo
 2. URL incorreta
 3. Nome da aba ou intervalo errado</p>
-<p><strong>Solução:</strong>
+<p><strong>Soluçêo:</strong>
 1. Clique no erro → "Allow access"
 2. Confira URL (copie direto da barra de endereços)
 3. Teste importar só célula A1 primeiro: <code>=IMPORTRANGE("URL"; "Aba!A1")</code></p>
@@ -1511,21 +1511,21 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 </code></pre></div>
 
 <p><strong>Dica:</strong> Dentro da query, use aspas simples (') para strings.</p>
-<h3>Problema 3: "Apps Script não roda automaticamente"</h3>
-<p><strong>Sintomas:</strong> Script funciona manual, mas trigger não executa.</p>
+<h3>Problema 3: "Apps Script nêo roda automaticamente"</h3>
+<p><strong>Sintomas:</strong> Script funciona manual, mas trigger nêo executa.</p>
 <p><strong>Causas:</strong>
-1. Trigger não foi salvo
-2. Conta não deu permissão
-3. Função tem erro e falha silenciosamente</p>
+1. Trigger nêo foi salvo
+2. Conta nêo deu permissêo
+3. Funçêo tem erro e falha silenciosamente</p>
 <p><strong>Soluções:</strong>
 1. Verifique triggers: Apps Script → Relógio (ícone)
 2. Execute manual primeiro → Autorize permissões
-3. Veja logs de execução: Apps Script → Execuções</p>
-<h3>Problema 4: "Planilha não atualiza dados importados"</h3>
+3. Veja logs de execuçêo: Apps Script → Execuções</p>
+<h3>Problema 4: "Planilha nêo atualiza dados importados"</h3>
 <p><strong>Sintomas:</strong> IMPORTXML, IMPORTDATA retornam dados antigos</p>
 <p><strong>Causa:</strong> Google Sheets cacheia importações.</p>
 <p><strong>Soluções:</strong>
-1. Force atualização: Edite fórmula (adicione espaço e apague)
+1. Force atualizaçêo: Edite fórmula (adicione espaço e apague)
 2. Use parâmetro de cache-bust:</p>
 <div class="codehilite"><pre><span></span><code>=IMPORTXML(&quot;URL?refresh=&quot;&amp;NOW(); &quot;xpath&quot;)
 </code></pre></div>
@@ -1560,7 +1560,7 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 ✅ <strong>15 fórmulas poderosas:</strong> IMPORTRANGE, QUERY, ARRAYFORMULA, etc.
 ✅ <strong>IA no Sheets:</strong> Categorizar, extrair, gerar textos automaticamente
 ✅ <strong>Dashboards profissionais:</strong> Métricas que se atualizam sozinhas
-✅ <strong>Automação de entrada:</strong> Forms, Zapier, Apps Script
+✅ <strong>Automaçêo de entrada:</strong> Forms, Zapier, Apps Script
 ✅ <strong>Exercícios práticos:</strong> Dashboard pessoal e automações reais</p>
 <hr />
 <h2>RESULTADO ESPERADO</h2>
@@ -1579,7 +1579,7 @@ Preço Sugerido = Custo Total / (1 - Margem Desejada)
 <p>Imagine criar um relatório executivo de 10 páginas em 30 segundos. É possível, e você vai aprender COMO.</p>
 <p><strong>Nos vemos lá!</strong></p>
 <hr />
-<p><strong>© 2025 FETD - Formação em Engenharia de Intenção</strong></p>
+<p><strong>© 2025 FETD - Formaçêo em Engenharia de Intençêo</strong></p>
     </div>
 </body>
 </html>

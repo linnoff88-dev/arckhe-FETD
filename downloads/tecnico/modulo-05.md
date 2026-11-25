@@ -1,8 +1,8 @@
 # Módulo 5: Blog Técnico com IA - Conteúdo em Escala
 
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Nível:** Intermediário
-**Objetivo:** Criar sistema de produção de conteúdo técnico que roda quase sozinho com IA
+**Objetivo:** Criar sistema de produçêo de conteúdo técnico que roda quase sozinho com IA
 
 ---
 
@@ -11,7 +11,7 @@
 ✅ Criar blog técnico em 15 minutos (zero infraestrutura)
 ✅ Sistema de ideias infinitas com IA
 ✅ Escrever posts técnicos em 30 minutos com IA
-✅ Distribuição automática (Dev.to, LinkedIn, Medium)
+✅ Distribuiçêo automática (Dev.to, LinkedIn, Medium)
 ✅ SEO técnico para aparecer no Google
 
 **Resultado:** Blog funcionando + sistema semanal de 1h que gera 4 posts/mês
@@ -27,15 +27,15 @@
 - Network técnico de qualidade
 - Autoridade na sua área
 
-**O problema:** "Não tenho tempo"
+**O problema:** "Nêo tenho tempo"
 
-**Solução:** IA escreve 80%, você adiciona os 20% de expertise real
+**Soluçêo:** IA escreve 80%, você adiciona os 20% de expertise real
 
 ---
 
 ## 📝 Setup do Blog (15 minutos)
 
-### Opção 1: Hashnode (Recomendado)
+### Opçêo 1: Hashnode (Recomendado)
 
 **Por quê:**
 - ✅ Grátis para sempre
@@ -61,21 +61,21 @@ Adicionar em Settings → Domain
 DNS: CNAME apontando para hashnode.network
 ```
 
-### Opção 2: Dev.to (Zero Setup)
+### Opçêo 2: Dev.to (Zero Setup)
 
 **Pros:**
 - ✅ Audiência pronta (milhões de devs)
 - ✅ Zero setup
-- ✅ Boa distribuição
+- ✅ Boa distribuiçêo
 
 **Cons:**
-- ❌ Não é "seu" (vive na plataforma)
+- ❌ Nêo é "seu" (vive na plataforma)
 - ❌ Menos controle
 - ❌ Sem custom domain
 
 **Quando usar:** Começar rápido, testar ideias
 
-### Opção 3: GitHub Pages + Jekyll
+### Opçêo 3: GitHub Pages + Jekyll
 
 **Para quem:** Quer controle total, sabe Git
 
@@ -98,7 +98,7 @@ git push origin main
 
 ### Problema: "Sobre o que escrever?"
 
-**Solução:** Capturar aprendizados do dia a dia
+**Soluçêo:** Capturar aprendizados do dia a dia
 
 **Regra de ouro:** Se você gastou 1h+ debugando algo, vire post!
 
@@ -114,17 +114,17 @@ git push origin main
 
 ## Problemas Resolvidos - Viram tutoriais
 - [ ] Deploy falhando com erro 502 (resolvido mudando timeout)
-- [ ] Database migration travando em produção
+- [ ] Database migration travando em produçêo
 - [ ] CI/CD ficando lento (otimizamos de 20min → 5min)
 
 ## Comparações - Público adora
-- [ ] Docker vs Podman em produção
+- [ ] Docker vs Podman em produçêo
 - [ ] Terraform vs Pulumi (6 meses de uso real)
 - [ ] Pytest vs Unittest (por que mudamos)
 
 ## Opiniões - Geram engajamento
 - [ ] Por que paramos de usar microservices
-- [ ] Testes e2e são overrated
+- [ ] Testes e2e sêo overrated
 - [ ] Docs > código bonito
 ```
 
@@ -153,8 +153,8 @@ Formato:
    Gancho: Build lento é o #1 problema de produtividade
    Promessa: 3 técnicas simples que funcionam
 
-2. "Debugando 502 em produção sem downtime"
-   Gancho: 502 = pânico 3h da manhã
+2. "Debugando 502 em produçêo sem downtime"
+   Gancho: 502 = pânico 3h da manhê
    Promessa: Checklist passo a passo
 ```
 
@@ -179,9 +179,9 @@ Estrutura:
 1. Intro (hook do problema)
 2. Contexto (nosso cenário)
 3. Problema (por que 20min é ruim)
-4. Solução (3 otimizações específicas)
+4. Soluçêo (3 otimizações específicas)
 5. Resultados (métricas antes/depois)
-6. Conclusão (take-aways)
+6. Conclusêo (take-aways)
 
 Incluir:
 - Dados reais (inventar placeholders)
@@ -195,7 +195,7 @@ Incluir:
 Usando o outline anterior, escreva o post completo.
 
 Tom: Conversacional mas técnico
-Estilo: Tutorial prático, não teoria
+Estilo: Tutorial prático, nêo teoria
 Tamanho: 1200-1500 palavras
 
 Use:
@@ -204,10 +204,10 @@ Use:
 - Listas e bullets
 - Negrito para destacar
 
-NÃO:
-- Jargão desnecessário
+NêO:
+- Jargêo desnecessário
 - Parágrafos longos
-- Introdução genérica
+- Introduçêo genérica
 ```
 
 **Passo 3: Você Adiciona Expertise (10 min)**
@@ -226,13 +226,13 @@ Aqui entra o diferencial:
 - Explicações óbvias
 - Disclaimers desnecessários
 
-**Passo 4: Revisão Final (5 min)**
+**Passo 4: Revisêo Final (5 min)**
 
 Checklist rápido:
 - [ ] Título claro e searchable
 - [ ] Intro responde "por que ler?"
 - [ ] Code snippets testados
-- [ ] Conclusão com ação clara
+- [ ] Conclusêo com açêo clara
 - [ ] Tags relevantes (max 5)
 - [ ] Cover image atraente
 
@@ -240,14 +240,14 @@ Checklist rápido:
 
 ## 🎨 Criando Cover Images com IA
 
-**Opção 1: Canva (mais fácil)**
+**Opçêo 1: Canva (mais fácil)**
 
 1. Template "Blog Banner"
 2. Título do post
 3. Screenshot de código (Carbon.now.sh)
 4. Export PNG
 
-**Opção 2: Unsplash + Texto**
+**Opçêo 2: Unsplash + Texto**
 
 ```python
 # Script rápido
@@ -268,7 +268,7 @@ img.save("cover.png")
 
 ---
 
-## 📤 Distribuição Automática
+## 📤 Distribuiçêo Automática
 
 ### Cross-posting Inteligente
 
@@ -282,7 +282,7 @@ img.save("cover.png")
 
 **1. Hashnode → Dev.to (automático)**
 
-Hashnode tem integração nativa:
+Hashnode tem integraçêo nativa:
 - Settings → Integrations → Dev.to
 - Conectar conta
 - Posts publicam automaticamente em ambos
@@ -315,7 +315,7 @@ Leia completo: {{link}}
 
 ### Keywords que Funcionam
 
-**Fórmula:** `[Tecnologia] + [Ação] + [Contexto]`
+**Fórmula:** `[Tecnologia] + [Açêo] + [Contexto]`
 
 ✅ **Bom:**
 - "Docker multi-stage build tutorial"
@@ -324,12 +324,12 @@ Leia completo: {{link}}
 
 ❌ **Ruim:**
 - "How to code" (muito genérico)
-- "My thoughts on Python" (não searchable)
+- "My thoughts on Python" (nêo searchable)
 
 ### Template de Post SEO-Friendly
 
 ```markdown
-# [Tecnologia]: Como [Ação] [Resultado]
+# [Tecnologia]: Como [Açêo] [Resultado]
 
 > [Sumário de 1 linha com keyword principal]
 
@@ -337,17 +337,17 @@ Leia completo: {{link}}
 
 [Descrever problema comum com keywords naturais]
 
-## Solução Passo a Passo
+## Soluçêo Passo a Passo
 
 ### 1. [Passo com keyword]
 
-[Explicação + code]
+[Explicaçêo + code]
 
 ### 2. [Outro passo com keyword]
 
-[Explicação + code]
+[Explicaçêo + code]
 
-## Conclusão
+## Conclusêo
 
 [Resumo com call-to-action]
 
@@ -369,7 +369,7 @@ Leia completo: {{link}}
 
 ## 📊 Métricas que Importam
 
-**Não foque em:**
+**Nêo foque em:**
 - Total de views (vaidade)
 - Likes/reactions
 
@@ -401,7 +401,7 @@ Leia completo: {{link}}
 **Terça 30min:**
 - IA escreve draft completo
 - Você revisa e adiciona expertise
-- Agendar publicação para quinta
+- Agendar publicaçêo para quinta
 
 **Resultado:** 4 posts/mês, 1h/semana
 
@@ -452,10 +452,10 @@ Leia completo: {{link}}
 
 ## 💡 Dicas de Ouro
 
-### 1. Quantidade > Perfeição (no início)
+### 1. Quantidade > Perfeiçêo (no início)
 
-- Posts mediocres publicados > posts perfeitos não publicados
-- Primeiros 10 posts são aprendizado
+- Posts mediocres publicados > posts perfeitos nêo publicados
+- Primeiros 10 posts sêo aprendizado
 - Melhora conforme pratica
 
 ### 2. Reutilize Conteúdo
@@ -475,15 +475,15 @@ Leia completo: {{link}}
 
 ### 4. "Tutorial Hell" Reverso
 
-Não faça: "Tutorial de X para iniciantes"
+Nêo faça: "Tutorial de X para iniciantes"
 
-Faça: "Como resolvi Y usando X em produção"
+Faça: "Como resolvi Y usando X em produçêo"
 
 ### 5. Série > Posts Isolados
 
 **Exemplo:**
 - "Otimizando CI/CD - Parte 1: Caching"
-- "Otimizando CI/CD - Parte 2: Paralelização"
+- "Otimizando CI/CD - Parte 2: Paralelizaçêo"
 - "Otimizando CI/CD - Parte 3: Monitoramento"
 
 Vantagens:
@@ -523,13 +523,13 @@ Vamos criar **apresentações e vídeos técnicos** usando NotebookLM, HeyGen e 
 - [Carbon](https://carbon.now.sh) (code screenshots)
 - [Unsplash](https://unsplash.com)
 
-**Distribuição:**
+**Distribuiçêo:**
 - [Buffer](https://buffer.com)
 - [Zapier](https://zapier.com)
 
 ---
 
 **Tempo:** 3-4h (setup + primeiros 2 posts)
-**Manutenção:** 1h/semana
+**Manutençêo:** 1h/semana
 
 **Próximo módulo:** Módulo 6 - Apresentações e Vídeos com IA (NotebookLM, HeyGen, Podscap)

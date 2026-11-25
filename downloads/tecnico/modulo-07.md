@@ -1,7 +1,7 @@
 # Módulo 7: Redes Sociais Técnicas - LinkedIn e Dev.to em Escala
 
-**Duração:** 60 minutos
-**Objetivo:** Construir audiência técnica e ajudar pessoas em escala usando automação
+**Duraçêo:** 60 minutos
+**Objetivo:** Construir audiência técnica e ajudar pessoas em escala usando automaçêo
 
 ---
 
@@ -27,7 +27,7 @@
 - Melhor plataforma para B2B técnico
 - Algoritmo favorece conteúdo técnico educacional
 
-**O que NÃO fazer:**
+**O que NêO fazer:**
 - ❌ Virar coach/guru
 - ❌ Postar apenas "dica do dia"
 - ❌ Humblebrags
@@ -49,9 +49,9 @@
 
 ### Templates de Posts que Funcionam
 
-**1. Problema → Solução (mais efetivo)**
+**1. Problema → Soluçêo (mais efetivo)**
 ```
-Problema: [descrição do problema real]
+Problema: [descriçêo do problema real]
 
 Como resolvi:
 1. [passo específico]
@@ -69,8 +69,8 @@ Resultado: [métrica concreta]
 ```
 Hoje descobri que [insight técnico].
 
-Antes: [situação ruim]
-Depois: [situação melhor com métrica]
+Antes: [situaçêo ruim]
+Depois: [situaçêo melhor com métrica]
 
 Código: [snippet ou link]
 
@@ -79,9 +79,9 @@ Alguém mais já passou por isso?
 #Python #Performance
 ```
 
-**3. Comparação Honesta**
+**3. Comparaçêo Honesta**
 ```
-Usei [Ferramenta A] e [Ferramenta B] em produção por 6 meses.
+Usei [Ferramenta A] e [Ferramenta B] em produçêo por 6 meses.
 
 Aqui está o que aprendi:
 
@@ -93,7 +93,7 @@ Use B se: [cenário]
 #DevTools #Engineering
 ```
 
-### Automação com IA
+### Automaçêo com IA
 
 **Buffer/Hootsuite + ChatGPT:**
 
@@ -158,7 +158,7 @@ Domingo à noite (30 min):
 **1. Stack Overflow (20 min/semana)**
 ```
 - Buscar perguntas sobre sua stack
-- Responder 2-3 com solução completa
+- Responder 2-3 com soluçêo completa
 - Link para seu blog/GitHub se relevante
 
 Benefício:
@@ -186,7 +186,7 @@ Benefício:
 - Compartilhar workarounds
 
 Benefício:
-- Contribuição open source
+- Contribuiçêo open source
 - Visibilidade na comunidade
 - Aprender debugando problemas dos outros
 ```
@@ -195,10 +195,10 @@ Benefício:
 
 **Problema:** Mesma pergunta 10x/semana
 
-**Solução:**
+**Soluçêo:**
 
 ```
-1. ChatGPT gera resposta padrão
+1. ChatGPT gera resposta padrêo
 2. Você salva em Notion/Obsidian
 3. Copia/cola quando alguém pergunta
 4. Personaliza ligeiramente
@@ -226,12 +226,12 @@ Personalize:
 
 ## 📊 Métricas de "Consultor de Todo Mundo"
 
-**Mês 1-2: Fundação**
+**Mês 1-2: Fundaçêo**
 - 50-100 conexões LinkedIn relevantes
 - 5-10 posts publicados
 - 10-20 respostas em comunidades
 
-**Mês 3-4: Tração**
+**Mês 3-4: Traçêo**
 - 3-5 mensagens diretas/semana pedindo ajuda
 - Posts com 20-50 reações
 - Primeiros agradecimentos públicos
@@ -244,7 +244,7 @@ Personalize:
 
 ---
 
-## 🛠️ Ferramentas de Automação
+## 🛠️ Ferramentas de Automaçêo
 
 **Buffer (Social Media Scheduler):** $6/mês
 - Agenda posts LinkedIn/Twitter
@@ -265,7 +265,7 @@ Personalize:
 
 ## 💡 Dicas de Ouro
 
-### 1. Consistência > Perfeição
+### 1. Consistência > Perfeiçêo
 - Melhor postar 1x/semana sempre que 5x/semana e parar
 - 52 posts/ano > 20 posts perfeitos
 
@@ -285,7 +285,7 @@ Personalize:
 ### 5. Network Real
 - Conecte com pessoas que comentam
 - Ofereça ajuda genuína
-- Não peça nada em troca (no início)
+- Nêo peça nada em troca (no início)
 
 ---
 
@@ -310,6 +310,6 @@ Criar **sistema de respostas automatizadas** para escalar ajuda a 1.000+ pessoas
 ---
 
 **Tempo:** 2-3h setup
-**Manutenção:** 1-2h/semana
+**Manutençêo:** 1-2h/semana
 
 **Próximo módulo:** Módulo 8 - Sistema de Respostas Automatizadas

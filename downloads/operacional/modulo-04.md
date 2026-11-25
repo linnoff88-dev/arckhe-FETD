@@ -1,22 +1,22 @@
 # Módulo 4: Ferramentas No-Code - Zapier e Make
 
-**Duração:** 1h 30min
+**Duraçêo:** 1h 30min
 **Objetivo:** Criar suas 3 primeiras automações sem escrever código
 **Trilha:** Operacional
 
 ---
 
-## 1. Introdução - A Revolução No-Code
+## 1. Introduçêo - A Revoluçêo No-Code
 
 Imagine voltar 5 anos no tempo. Se você quisesse automatizar alguma tarefa no trabalho, teria duas opções: contratar um programador caro ou aprender a programar você mesmo (o que levaria meses). A maioria das pessoas operacionais simplesmente aceitava fazer tarefas repetitivas manualmente, todos os dias, para sempre.
 
-Mas nos últimos 2 anos, algo revolucionário aconteceu: a explosão das ferramentas no-code.
+Mas nos últimos 2 anos, algo revolucionário aconteceu: a explosêo das ferramentas no-code.
 
 **O que mudou?** Hoje, você pode criar automações poderosas sem escrever uma única linha de código. Nada de Python, JavaScript, ou linguagens esquisitas. É tudo visual, clica-e-arrasta, como montar um quebra-cabeça.
 
-### Por que você NÃO precisa programar
+### Por que você NêO precisa programar
 
-A revolução no-code democratizou a automação. Antes, automação era coisa de programador. Agora, é coisa de qualquer pessoa que saiba usar um computador. Se você consegue usar o Gmail, consegue criar uma automação no Zapier. É sério.
+A revoluçêo no-code democratizou a automaçêo. Antes, automaçêo era coisa de programador. Agora, é coisa de qualquer pessoa que saiba usar um computador. Se você consegue usar o Gmail, consegue criar uma automaçêo no Zapier. É sério.
 
 A diferença é brutal:
 
@@ -36,7 +36,7 @@ async function checkEmails() {
 }
 ```
 
-Complexo, assustador, impossível para quem não é programador.
+Complexo, assustador, impossível para quem nêo é programador.
 
 **AGORA (No-Code):**
 1. Escolhe "Gmail" na tela
@@ -50,47 +50,47 @@ Pronto. 2 minutos. Zero código. Funciona 24/7.
 ### Casos reais de pessoas comuns criando automações poderosas
 
 **Ana, assistente administrativo:**
-Gastava 2 horas por dia copiando dados de emails para planilhas. Criou uma automação no Zapier que faz isso automaticamente. Resultado: 2 horas economizadas diariamente, ou 40 horas por mês. Ela agora usa esse tempo para projetos mais interessantes.
+Gastava 2 horas por dia copiando dados de emails para planilhas. Criou uma automaçêo no Zapier que faz isso automaticamente. Resultado: 2 horas economizadas diariamente, ou 40 horas por mês. Ela agora usa esse tempo para projetos mais interessantes.
 
 **Carlos, suporte ao cliente:**
-Recebia dezenas de anexos por email e tinha que salvar cada um manualmente no Drive. Criou uma automação que detecta anexos e salva automaticamente na pasta correta. Nunca mais perdeu um documento importante.
+Recebia dezenas de anexos por email e tinha que salvar cada um manualmente no Drive. Criou uma automaçêo que detecta anexos e salva automaticamente na pasta correta. Nunca mais perdeu um documento importante.
 
 **Mariana, coordenadora de eventos:**
-Toda vez que alguém preenchia o formulário de inscrição, ela tinha que copiar os dados para 3 lugares diferentes: planilha, CRM e Slack. Criou uma automação que faz tudo de uma vez. Resultado: zero erros de digitação e 90% menos trabalho manual.
+Toda vez que alguém preenchia o formulário de inscriçêo, ela tinha que copiar os dados para 3 lugares diferentes: planilha, CRM e Slack. Criou uma automaçêo que faz tudo de uma vez. Resultado: zero erros de digitaçêo e 90% menos trabalho manual.
 
-O ponto é: essas pessoas não sabem programar. Elas simplesmente aprenderam a usar ferramentas no-code e transformaram seus trabalhos.
+O ponto é: essas pessoas nêo sabem programar. Elas simplesmente aprenderam a usar ferramentas no-code e transformaram seus trabalhos.
 
 ### A mudança de mentalidade
 
-O segredo está em mudar como você pensa sobre tarefas repetitivas. Antes, você pensava: "é chato, mas é rápido, vou fazer na mão". Agora, você deve pensar: "faço isso todo dia... será que dá pra automatizar?"
+O segredo está em mudar como você pensa sobre tarefas repetitivas. Antes, você pensava: "é chato, mas é rápido, vou fazer na mêo". Agora, você deve pensar: "faço isso todo dia... será que dá pra automatizar?"
 
 A resposta, na maioria das vezes, é SIM.
 
-Se você se pegou copiando o mesmo tipo de dado de um lugar para outro mais de 3 vezes na semana, você tem um candidato perfeito para automação no-code. E você vai aprender exatamente como fazer isso neste módulo.
+Se você se pegou copiando o mesmo tipo de dado de um lugar para outro mais de 3 vezes na semana, você tem um candidato perfeito para automaçêo no-code. E você vai aprender exatamente como fazer isso neste módulo.
 
-Prepare-se: suas próximas 1h30min vão mudar completamente como você trabalha.
+Prepare-se: suas próximas 1h30min vêo mudar completamente como você trabalha.
 
 ---
 
 ## 2. Entendendo o Básico - Como Funciona
 
-Antes de mergulhar nas ferramentas, você precisa entender a lógica por trás de qualquer automação no-code. É mais simples do que parece.
+Antes de mergulhar nas ferramentas, você precisa entender a lógica por trás de qualquer automaçêo no-code. É mais simples do que parece.
 
 ### O conceito fundamental: Trigger → Action
 
-Toda automação segue o mesmo padrão lógico:
+Toda automaçêo segue o mesmo padrêo lógico:
 
 **"QUANDO [isso acontecer] → FAÇA [aquilo]"**
 
 Ou, em termos técnicos:
 
-**TRIGGER (gatilho) → ACTION (ação)**
+**TRIGGER (gatilho) → ACTION (açêo)**
 
 É como uma receita de bolo: se você seguir os passos, sempre dá certo.
 
-### Conceito 1: Trigger (Gatilho) - O que inicia a automação
+### Conceito 1: Trigger (Gatilho) - O que inicia a automaçêo
 
-O **trigger** é o evento que dispara a automação. É o "SE" da equação. Sem trigger, nada acontece.
+O **trigger** é o evento que dispara a automaçêo. É o "SE" da equaçêo. Sem trigger, nada acontece.
 
 Exemplos de triggers comuns:
 
@@ -117,15 +117,15 @@ Exemplos de triggers comuns:
   - A cada 30 minutos
 
 - **Rede social** (Instagram, LinkedIn, Twitter)
-  - Nova menção
+  - Nova mençêo
   - Novo seguidor
   - Novo comentário
 
-O trigger fica "ouvindo" constantemente. Quando o evento acontece, ele acorda e diz: "Opa! Aconteceu! Vamos executar a ação!"
+O trigger fica "ouvindo" constantemente. Quando o evento acontece, ele acorda e diz: "Opa! Aconteceu! Vamos executar a açêo!"
 
-### Conceito 2: Action (Ação) - O que acontece depois
+### Conceito 2: Action (Açêo) - O que acontece depois
 
-A **action** é o que você quer que aconteça automaticamente quando o trigger dispara. É o "ENTÃO" da equação.
+A **action** é o que você quer que aconteça automaticamente quando o trigger dispara. É o "ENTêO" da equaçêo.
 
 Exemplos de actions comuns:
 
@@ -144,10 +144,10 @@ Exemplos de actions comuns:
   - Criar pasta
   - Renomear arquivo
 
-- **Enviar notificação** (Slack, Discord, Teams)
+- **Enviar notificaçêo** (Slack, Discord, Teams)
   - Mensagem em canal
   - Mensagem direta
-  - Com formatação especial
+  - Com formataçêo especial
 
 - **Criar tarefa** (Trello, Asana, Notion)
   - Nova tarefa
@@ -162,17 +162,17 @@ Você pode ter múltiplas actions para um único trigger. Por exemplo:
 
 **TRIGGER:** Formulário preenchido
 **ACTION 1:** Adicionar dados na planilha
-**ACTION 2:** Enviar email de confirmação
+**ACTION 2:** Enviar email de confirmaçêo
 **ACTION 3:** Notificar equipe no Slack
 **ACTION 4:** Criar tarefa no Trello
 
 Tudo isso acontece automaticamente, em segundos, sem você mover um dedo.
 
-### Conceito 3: Filter (Filtro) - Quando executar ou não
+### Conceito 3: Filter (Filtro) - Quando executar ou nêo
 
-Nem sempre você quer que a automação execute para todos os casos. É aí que entram os **filtros**.
+Nem sempre você quer que a automaçêo execute para todos os casos. É aí que entram os **filtros**.
 
-Filtros são condições que decidem se a action deve ou não executar.
+Filtros sêo condições que decidem se a action deve ou nêo executar.
 
 **Exemplo sem filtro:**
 - TRIGGER: Novo email recebido
@@ -185,7 +185,7 @@ Problema: TODO email vai para a planilha, até spam.
 - FILTER: Apenas se assunto contém "[LEAD]"
 - ACTION: Adicionar na planilha
 
-Agora só emails importantes vão para a planilha!
+Agora só emails importantes vêo para a planilha!
 
 **Tipos de filtros comuns:**
 
@@ -193,14 +193,14 @@ Agora só emails importantes vão para a planilha!
 - Remetente é específico
 - Valor é maior/menor que X
 - Data está em intervalo específico
-- Campo não está vazio
+- Campo nêo está vazio
 - Combinar múltiplas condições (E/OU)
 
 Filtros transformam automações genéricas em automações inteligentes.
 
 ### Conceito 4: Delay (Tempo) - Controlar intervalos
 
-Às vezes, você não quer que a action aconteça imediatamente. Você quer aguardar.
+Às vezes, você nêo quer que a action aconteça imediatamente. Você quer aguardar.
 
 **Exemplo:**
 - TRIGGER: Novo cliente se cadastrou
@@ -212,7 +212,7 @@ O delay permite criar sequências automáticas com timing perfeito, como um funi
 
 ### Exemplo visual completo: "Quando X acontecer → Faça Y"
 
-Vamos montar uma automação completa usando tudo que aprendemos:
+Vamos montar uma automaçêo completa usando tudo que aprendemos:
 
 **CENÁRIO:** Você quer que toda vez que alguém te enviar um email com contrato, o PDF seja automaticamente salvo na pasta certa e sua equipe seja notificada.
 
@@ -258,9 +258,9 @@ Mesmo resultado, interfaces diferentes.
 
 ### Por que essa lógica é poderosa?
 
-Porque você pode combinar QUALQUER trigger com QUALQUER action de MILHARES de aplicativos. As possibilidades são literalmente infinitas.
+Porque você pode combinar QUALQUER trigger com QUALQUER action de MILHARES de aplicativos. As possibilidades sêo literalmente infinitas.
 
-Você não está limitado ao que os aplicativos fazem sozinhos. Você pode fazer Gmail conversar com Trello, Slack conversar com Excel, Instagram conversar com Notion. É como ter superpoderes de integração.
+Você nêo está limitado ao que os aplicativos fazem sozinhos. Você pode fazer Gmail conversar com Trello, Slack conversar com Excel, Instagram conversar com Notion. É como ter superpoderes de integraçêo.
 
 Agora que você entende a lógica, vamos conhecer as ferramentas que tornam isso realidade.
 
@@ -268,7 +268,7 @@ Agora que você entende a lógica, vamos conhecer as ferramentas que tornam isso
 
 ## 3. Zapier vs Make (Integromat) - Qual Escolher?
 
-Chegou a hora de escolher sua arma. As duas principais ferramentas no-code do mercado são **Zapier** e **Make** (antigo Integromat). Ambas fazem automações poderosas, mas têm diferenças importantes.
+Chegou a hora de escolher sua arma. As duas principais ferramentas no-code do mercado sêo **Zapier** e **Make** (antigo Integromat). Ambas fazem automações poderosas, mas têm diferenças importantes.
 
 Vamos destrinchar cada uma para você decidir qual usar.
 
@@ -280,15 +280,15 @@ Zapier é a ferramenta no-code mais conhecida do mundo. Lançada em 2011, foi a 
 **Interface:**
 Linear, vertical, passo a passo. Você cria "Zaps" (automações) seguindo um fluxo guiado. É praticamente impossível se perder.
 
-**Versão grátis - O que você ganha:**
+**Versêo grátis - O que você ganha:**
 
 - 100 tarefas/mês
 - Zaps de 2 passos (1 trigger + 1 action)
-- Atualização a cada 15 minutos
+- Atualizaçêo a cada 15 minutos
 
 **O que significa "100 tarefas/mês"?**
 
-Muita gente se confunde aqui. Uma "tarefa" é cada vez que a automação executa.
+Muita gente se confunde aqui. Uma "tarefa" é cada vez que a automaçêo executa.
 
 Exemplo:
 - Você cria um Zap: "Email recebido → Adicionar na planilha"
@@ -299,11 +299,11 @@ Se você criar 5 Zaps diferentes e cada um executar 20 vezes no mês, você cons
 
 **Prós do Zapier:**
 
-1. **Interface extremamente simples:** Se você sabe navegar na internet, consegue usar o Zapier. Não tem como errar.
+1. **Interface extremamente simples:** Se você sabe navegar na internet, consegue usar o Zapier. Nêo tem como errar.
 
 2. **6.000+ aplicativos conectados:** Praticamente todo software popular está lá: Gmail, Slack, Trello, Notion, Instagram, Shopify, WordPress... Se existe, provavelmente o Zapier conecta.
 
-3. **Documentação e tutoriais abundantes:** Como é o mais popular, você encontra tutorial para TUDO. Qualquer problema, alguém já resolveu e postou na internet.
+3. **Documentaçêo e tutoriais abundantes:** Como é o mais popular, você encontra tutorial para TUDO. Qualquer problema, alguém já resolveu e postou na internet.
 
 4. **Confiabilidade:** Zapier é robusto. Raramente cai ou falha. Empresas grandes confiam nele para automações críticas.
 
@@ -311,11 +311,11 @@ Se você criar 5 Zaps diferentes e cada um executar 20 vezes no mês, você cons
 
 **Contras do Zapier:**
 
-1. **Plano grátis muito limitado:** 100 tarefas/mês acaba rápido. Se você tiver uma automação que executa todo dia, são 30 tarefas só dela.
+1. **Plano grátis muito limitado:** 100 tarefas/mês acaba rápido. Se você tiver uma automaçêo que executa todo dia, sêo 30 tarefas só dela.
 
 2. **Caro para escalar:** O plano pago começa em $19.99/mês (750 tarefas). Para uso profissional, facilmente chega a $50-100/mês.
 
-3. **Menos flexível:** Zaps são lineares. Criar lógicas complexas (se/então, loops, múltiplos caminhos) é difícil ou impossível no plano grátis.
+3. **Menos flexível:** Zaps sêo lineares. Criar lógicas complexas (se/entêo, loops, múltiplos caminhos) é difícil ou impossível no plano grátis.
 
 4. **Apenas 2 passos no plano grátis:** Trigger + 1 Action. Se você quiser fazer mais, precisa pagar.
 
@@ -341,7 +341,7 @@ Se você criar 5 Zaps diferentes e cada um executar 20 vezes no mês, você cons
 6. Testar
 7. Ativar
 
-Pronto. 5 minutos de configuração. Funciona para sempre.
+Pronto. 5 minutos de configuraçêo. Funciona para sempre.
 
 ---
 
@@ -351,29 +351,29 @@ Pronto. 5 minutos de configuração. Funciona para sempre.
 Make (antigo Integromat) é a ferramenta mais poderosa para automações complexas. Foi comprada pela empresa Make em 2022 e ganhou ainda mais força. Seu diferencial é a interface visual avançada.
 
 **Interface:**
-Canvas visual com blocos conectados. Você vê TUDO o que está acontecendo em um diagrama de fluxo. Parece um mapa mental de automação.
+Canvas visual com blocos conectados. Você vê TUDO o que está acontecendo em um diagrama de fluxo. Parece um mapa mental de automaçêo.
 
-**Versão grátis - O que você ganha:**
+**Versêo grátis - O que você ganha:**
 
 - 1.000 operações/mês
 - Cenários ilimitados (quantas automações quiser)
-- Atualização a cada 15 minutos
+- Atualizaçêo a cada 15 minutos
 - Múltiplos passos (sem limite!)
 
 **O que significa "1.000 operações/mês"?**
 
-Operação é similar a tarefa no Zapier, mas Make conta diferente.
+Operaçêo é similar a tarefa no Zapier, mas Make conta diferente.
 
 Exemplo:
 - Você cria um Scenario: "Email → Planilha + Slack"
 - Recebe 1 email que ativa o cenário
 - Resultado: 3 operações consumidas (1 trigger + 2 actions)
 
-Então 1.000 operações dão para bastante coisa, especialmente se você criar automações eficientes.
+Entêo 1.000 operações dêo para bastante coisa, especialmente se você criar automações eficientes.
 
 **Prós do Make:**
 
-1. **Interface visual poderosa:** Você VÊ o fluxo da automação. É como programar visualmente. Muito mais fácil de entender lógicas complexas.
+1. **Interface visual poderosa:** Você VÊ o fluxo da automaçêo. É como programar visualmente. Muito mais fácil de entender lógicas complexas.
 
 2. **1.000 operações grátis por mês:** 10x mais que Zapier na prática. Dá para fazer MUITA coisa sem pagar.
 
@@ -383,21 +383,21 @@ Então 1.000 operações dão para bastante coisa, especialmente se você criar 
 
 5. **Melhor custo-benefício:** O plano pago é mais barato e oferece mais. Para empresas, Make economiza MUITO dinheiro.
 
-6. **Transformação de dados:** Você pode manipular, formatar, calcular dados dentro da automação. Zapier cobra extra por isso.
+6. **Transformaçêo de dados:** Você pode manipular, formatar, calcular dados dentro da automaçêo. Zapier cobra extra por isso.
 
 **Contras do Make:**
 
 1. **Curva de aprendizado maior:** A interface visual é poderosa, mas intimida no começo. Pode levar algumas horas para se acostumar.
 
-2. **Menos apps conectados:** 1.500+ apps (vs 6.000 do Zapier). Ainda assim, todos os principais estão lá.
+2. **Menos apps conectados:** 1.500+ apps (vs 6.000 do Zapier). Ainda assim, todos os principais estêo lá.
 
 3. **Menos templates prontos:** Você vai precisar criar mais coisas do zero ou adaptar templates.
 
-4. **Documentação em inglês:** Grande parte do conteúdo educacional está em inglês. Comunidade brasileira é menor.
+4. **Documentaçêo em inglês:** Grande parte do conteúdo educacional está em inglês. Comunidade brasileira é menor.
 
 **Melhor para:**
 
-- Pessoas que já criaram alguma automação e querem mais poder
+- Pessoas que já criaram alguma automaçêo e querem mais poder
 - Automações complexas com múltiplos passos e condições
 - Quem quer economizar dinheiro a longo prazo
 - Profissionais que precisam escalar automações
@@ -417,16 +417,16 @@ Então 1.000 operações dão para bastante coisa, especialmente se você criar 
                 └─ [If < R$1000] → [End]
 ```
 
-No Zapier, essa automação seria muito mais difícil (ou impossível no plano grátis).
+No Zapier, essa automaçêo seria muito mais difícil (ou impossível no plano grátis).
 
 ---
 
 ### n8n - O Bônus Open-Source
 
-Existe uma terceira opção para quem quer controle TOTAL: **n8n**.
+Existe uma terceira opçêo para quem quer controle TOTAL: **n8n**.
 
 **O que é:**
-n8n é uma ferramenta no-code open-source (código aberto). Você pode hospedar no seu próprio servidor ou usar a versão em nuvem.
+n8n é uma ferramenta no-code open-source (código aberto). Você pode hospedar no seu próprio servidor ou usar a versêo em nuvem.
 
 **Prós:**
 
@@ -438,36 +438,36 @@ n8n é uma ferramenta no-code open-source (código aberto). Você pode hospedar 
 **Contras:**
 
 - Precisa de conhecimento técnico para instalar (servidor, Docker, etc)
-- Você é responsável pela manutenção
+- Você é responsável pela manutençêo
 - Menos polido que Zapier/Make
 
 **Melhor para:**
 
 - Desenvolvedores que querem economizar
 - Empresas com requisitos de privacidade rigorosos
-- Quem quer aprender programação gradualmente
+- Quem quer aprender programaçêo gradualmente
 - Projetos que precisam escalar muito sem custo
 
-Para iniciantes operacionais, n8n NÃO é recomendado. Fique com Zapier ou Make.
+Para iniciantes operacionais, n8n NêO é recomendado. Fique com Zapier ou Make.
 
 ---
 
-### Nossa Recomendação Final: O Caminho Ideal
+### Nossa Recomendaçêo Final: O Caminho Ideal
 
 Aqui está o que recomendamos para 99% das pessoas:
 
 **FASE 1 - Primeiras automações (você está aqui!):**
-Use **Zapier**. Crie suas primeiras 3-5 automações simples. Se acostume com a ideia de automação. Aprenda os conceitos básicos.
+Use **Zapier**. Crie suas primeiras 3-5 automações simples. Se acostume com a ideia de automaçêo. Aprenda os conceitos básicos.
 
-**FASE 2 - Dominando automação (1-3 meses depois):**
+**FASE 2 - Dominando automaçêo (1-3 meses depois):**
 Experimente **Make**. Recrie suas automações do Zapier no Make. Você vai perceber o quanto pode fazer a mais. A curva de aprendizado vale a pena.
 
 **FASE 3 - Automações avançadas (6+ meses):**
 Use **Make** como principal. Reserve Zapier apenas para apps que só ele conecta. Considere n8n se tiver necessidades muito específicas ou orçamento apertado.
 
-**Por que essa progressão?**
+**Por que essa progressêo?**
 
-Porque Zapier te ensina a PENSAR em automação sem te sobrecarregar. Make te ensina a DOMINAR automação quando você já entende o básico.
+Porque Zapier te ensina a PENSAR em automaçêo sem te sobrecarregar. Make te ensina a DOMINAR automaçêo quando você já entende o básico.
 
 É como aprender a dirigir: você começa com câmbio automático (Zapier) para pegar o jeito. Depois passa para câmbio manual (Make) para ter mais controle.
 
@@ -480,20 +480,20 @@ E está tudo bem! Use a ferramenta certa para o trabalho certo.
 
 ---
 
-**Para este módulo, vamos usar ZAPIER** porque é mais amigável para iniciantes. Mas tudo que você aprender aqui se aplica ao Make também. Os conceitos são os mesmos.
+**Para este módulo, vamos usar ZAPIER** porque é mais amigável para iniciantes. Mas tudo que você aprender aqui se aplica ao Make também. Os conceitos sêo os mesmos.
 
-Agora chega de teoria. Vamos criar sua primeira automação de verdade!
+Agora chega de teoria. Vamos criar sua primeira automaçêo de verdade!
 
 ---
 
-## 4. Sua Primeira Automação: Email → Planilha
+## 4. Sua Primeira Automaçêo: Email → Planilha
 
-Chegou a hora de colocar a mão na massa. Você vai criar sua PRIMEIRA automação real, do zero, passo a passo.
+Chegou a hora de colocar a mêo na massa. Você vai criar sua PRIMEIRA automaçêo real, do zero, passo a passo.
 
 **CENÁRIO:**
 Todo email que chegar com a palavra **[LEAD]** no assunto vai automaticamente para uma planilha do Google Sheets, registrando quem enviou, quando enviou e o conteúdo.
 
-**POR QUE ESSA AUTOMAÇÃO?**
+**POR QUE ESSA AUTOMAÇêO?**
 Porque é extremamente útil e cobre os fundamentos de 90% das automações. Você vai aprender a conectar aplicativos, mapear dados e testar tudo.
 
 **TEMPO ESTIMADO:** 15-20 minutos
@@ -521,13 +521,13 @@ Vamos lá!
 **Passo 5:** Você vai cair no Dashboard do Zapier. Respire. A interface é simples:
 - Barra lateral esquerda: Menu principal
 - Centro: Seus Zaps (vazio por enquanto)
-- Topo: Botão laranja "Create Zap" (é esse que vamos usar!)
+- Topo: Botêo laranja "Create Zap" (é esse que vamos usar!)
 
 ---
 
 ### PARTE 2: Criando seu primeiro Zap
 
-**Passo 6:** Clique no botão laranja **"Create Zap"** no topo direito
+**Passo 6:** Clique no botêo laranja **"Create Zap"** no topo direito
 
 Você vai ver uma tela com dois blocos:
 - **Bloco 1 (Trigger):** "When this happens..."
@@ -546,7 +546,7 @@ Sempre dê nomes descritivos! Daqui 3 meses você vai agradecer.
 
 ### PARTE 3: Configurando o Trigger (Gmail)
 
-Agora vamos configurar o que INICIA a automação.
+Agora vamos configurar o que INICIA a automaçêo.
 
 **Passo 8:** No bloco "Trigger", clique em **"Choose App & Event"**
 
@@ -556,7 +556,7 @@ Agora vamos configurar o que INICIA a automação.
 
 **Passo 11:** Em "Event", selecione: **"New Email Matching Search"**
 
-Isso permite buscar emails específicos, não qualquer email.
+Isso permite buscar emails específicos, nêo qualquer email.
 
 **Passo 12:** Clique em **"Continue"**
 
@@ -564,7 +564,7 @@ Isso permite buscar emails específicos, não qualquer email.
 
 **Passo 13:** Conectar sua conta Gmail
 
-Zapier vai pedir permissão para acessar seu Gmail. É seguro - Zapier é usado por milhões de empresas.
+Zapier vai pedir permissêo para acessar seu Gmail. É seguro - Zapier é usado por milhões de empresas.
 
 - Clique em **"Sign in to Gmail"**
 - Selecione sua conta Google
@@ -579,7 +579,7 @@ Você vai ver: "Connected to [seu-email@gmail.com]" ✓
 
 **Passo 15:** Configurar a busca de emails
 
-Agora vem a parte importante: definir QUAIS emails vão disparar a automação.
+Agora vem a parte importante: definir QUAIS emails vêo disparar a automaçêo.
 
 Zapier vai mostrar um campo chamado **"Search String"**
 
@@ -594,7 +594,7 @@ Isso significa: "Busque emails que tenham [LEAD] no assunto"
 - `from:cliente@empresa.com` → Apenas de remetente específico
 - `has:attachment` → Apenas com anexo
 - `subject:urgente` → Com palavra "urgente" no assunto
-- `subject:[LEAD] has:attachment` → Combinação de filtros
+- `subject:[LEAD] has:attachment` → Combinaçêo de filtros
 
 Para este tutorial, use: **subject:[LEAD]**
 
@@ -608,12 +608,12 @@ Zapier vai tentar buscar um email real para testar.
 
 **PROBLEMA:** Se você nunca recebeu um email com [LEAD] no assunto, o teste vai falhar!
 
-**SOLUÇÃO:** Envie um email de teste para você mesmo AGORA.
+**SOLUÇêO:** Envie um email de teste para você mesmo AGORA.
 
 Abra outra aba, entre no Gmail e:
 1. Clique em "Compose" (Escrever)
 2. Para: seu próprio email
-3. Assunto: **[LEAD] Teste de Automação**
+3. Assunto: **[LEAD] Teste de Automaçêo**
 4. Corpo: "Este é um email de teste para configurar meu Zap!"
 5. Envie
 
@@ -625,7 +625,7 @@ Zapier vai buscar emails com [LEAD]. Ele deve encontrar o email que você acabou
 
 Você verá os dados do email:
 - From: seu email
-- Subject: [LEAD] Teste de Automação
+- Subject: [LEAD] Teste de Automaçêo
 - Body: Este é um email de teste...
 - Date: data/hora de agora
 
@@ -659,7 +659,7 @@ Igual ao Gmail:
 - Clique em **"Sign in to Google Sheets"**
 - Selecione sua conta Google
 - Clique em **"Allow"**
-- Aguarde conexão
+- Aguarde conexêo
 
 Você verá: "Connected to Google Sheets" ✓
 
@@ -671,7 +671,7 @@ Você verá: "Connected to Google Sheets" ✓
 
 Agora você precisa de uma planilha para receber os dados.
 
-**OPÇÃO 1 - Criar nova planilha:**
+**OPÇêO 1 - Criar nova planilha:**
 
 Abra outra aba, vá em [sheets.google.com](https://sheets.google.com)
 1. Clique em "+ Blank" (Nova planilha em branco)
@@ -683,7 +683,7 @@ Abra outra aba, vá em [sheets.google.com](https://sheets.google.com)
    - D1: **Corpo do Email**
 4. Pronto! Deixe essa aba aberta
 
-**OPÇÃO 2 - Usar planilha existente:**
+**OPÇêO 2 - Usar planilha existente:**
 
 Se você já tem uma planilha de leads, use ela!
 
@@ -694,7 +694,7 @@ Se você já tem uma planilha de leads, use ela!
 **Drive:** My Google Drive (seu drive pessoal)
 
 **Spreadsheet:** Clique na dropdown e selecione **"Leads Automáticos"**
-(Se não aparecer, clique em "Refresh" ou digite o nome)
+(Se nêo aparecer, clique em "Refresh" ou digite o nome)
 
 **Worksheet:** Selecione **"Sheet1"** (ou o nome da aba que você criou)
 
@@ -725,7 +725,7 @@ Clique no campo → Procure: **"Subject"**
 Clique no campo → Procure: **"Body Plain"** ou **"Body"**
 (É o conteúdo do email)
 
-Sua configuração deve parecer algo assim:
+Sua configuraçêo deve parecer algo assim:
 
 ```
 Data/Hora:        [Date]
@@ -734,7 +734,7 @@ Assunto:          [Subject]
 Corpo do Email:   [Body Plain]
 ```
 
-**DICA:** Esses campos com [colchetes] são "variáveis" - eles vão ser substituídos pelos dados reais de cada email.
+**DICA:** Esses campos com [colchetes] sêo "variáveis" - eles vêo ser substituídos pelos dados reais de cada email.
 
 **Passo 30:** Clique em **"Continue"**
 
@@ -753,12 +753,12 @@ Zapier vai criar uma linha de teste na sua planilha AGORA, usando os dados do em
 Você deve ver uma NOVA LINHA com:
 - Data/hora de agora
 - Seu email
-- [LEAD] Teste de Automação
+- [LEAD] Teste de Automaçêo
 - Este é um email de teste...
 
 **SE VOCÊ VIU ISSO, PARABÉNS! Funcionou!**
 
-**Se NÃO apareceu:**
+**Se NêO apareceu:**
 - Atualize a página (F5)
 - Verifique se está na aba/worksheet correta
 - Volte no Zapier e clique em "Test & Review" novamente
@@ -779,7 +779,7 @@ Você vai ver o status mudar para **"On"** (verde)
 
 ---
 
-### PARTE 7: Teste Real - Validação Final
+### PARTE 7: Teste Real - Validaçêo Final
 
 Agora vamos testar se funciona de verdade, em cenário real.
 
@@ -787,8 +787,8 @@ Agora vamos testar se funciona de verdade, em cenário real.
 
 **Conteúdo:**
 - Para: seu email principal
-- Assunto: **[LEAD] João da Silva - Interessado no Produto**
-- Corpo: "Olá, vi seu site e tenho interesse em conhecer mais sobre o produto X. Podemos agendar uma reunião?"
+- Assunto: **[LEAD] Joêo da Silva - Interessado no Produto**
+- Corpo: "Olá, vi seu site e tenho interesse em conhecer mais sobre o produto X. Podemos agendar uma reuniêo?"
 - Envie!
 
 **Passo 36:** Aguarde 2-5 minutos
@@ -801,32 +801,32 @@ Atualize a página.
 
 Você deve ver uma NOVA LINHA com os dados desse segundo email!
 
-**SE FUNCIONOU:** Você acabou de criar sua PRIMEIRA AUTOMAÇÃO REAL!
+**SE FUNCIONOU:** Você acabou de criar sua PRIMEIRA AUTOMAÇêO REAL!
 
-Ela está funcionando agora, enquanto você lê isso. Se alguém te enviar um email com [LEAD] no assunto, ele vai automaticamente para a planilha. Você pode estar dormindo, viajando, em reunião... não importa. Funciona sozinho.
+Ela está funcionando agora, enquanto você lê isso. Se alguém te enviar um email com [LEAD] no assunto, ele vai automaticamente para a planilha. Você pode estar dormindo, viajando, em reuniêo... nêo importa. Funciona sozinho.
 
 ---
 
 ### Troubleshooting - Se algo deu errado
 
-**Problema 1: Não funcionou no teste**
+**Problema 1: Nêo funcionou no teste**
 
-SOLUÇÃO:
+SOLUÇêO:
 - Verifique se você conectou as contas corretas (Gmail e Google Sheets)
 - Verifique se o email de teste realmente tem [LEAD] no assunto (EXATAMENTE assim, com os colchetes)
 - Tente clicar em "Test trigger" novamente
 
 **Problema 2: Campos vazios na planilha**
 
-SOLUÇÃO:
+SOLUÇêO:
 - Volte no Zap (Dashboard → Clique no nome do Zap → Edit)
 - Vá até a Action do Google Sheets
 - Verifique se você mapeou os campos corretamente
 - Clique em "Test & Continue" novamente
 
-**Problema 3: Não disparou automaticamente**
+**Problema 3: Nêo disparou automaticamente**
 
-SOLUÇÃO:
+SOLUÇêO:
 - Verifique se o Zap está "On" (ativo) no Dashboard
 - Aguarde até 15 minutos (plano grátis tem delay)
 - Verifique se o email realmente tem [LEAD] no assunto
@@ -834,7 +834,7 @@ SOLUÇÃO:
 
 **Problema 4: "You've reached your task limit"**
 
-SOLUÇÃO:
+SOLUÇêO:
 - Você consumiu suas 100 tarefas grátis do mês
 - Aguarde o mês virar OU faça upgrade para plano pago
 - Ou crie conta no Make (1.000 operações grátis)
@@ -843,7 +843,7 @@ SOLUÇÃO:
 
 ### Parabéns! Você é um Automador!
 
-Você acabou de criar uma automação que:
+Você acabou de criar uma automaçêo que:
 - Monitora seu email 24/7
 - Filtra emails específicos automaticamente
 - Registra tudo em uma planilha organizada
@@ -857,14 +857,14 @@ Vamos para a próxima!
 
 ---
 
-## 5. Automação 2: Salvar Anexos no Drive
+## 5. Automaçêo 2: Salvar Anexos no Drive
 
-Agora que você dominou o básico, vamos criar uma automação um pouco mais útil: **salvar anexos de emails automaticamente no Google Drive**.
+Agora que você dominou o básico, vamos criar uma automaçêo um pouco mais útil: **salvar anexos de emails automaticamente no Google Drive**.
 
 **CENÁRIO:**
 Você recebe documentos importantes por email (contratos, propostas, relatórios). Em vez de baixar e organizar manualmente, quer que anexos específicos sejam salvos automaticamente em uma pasta do Drive.
 
-**FLUXO DA AUTOMAÇÃO:**
+**FLUXO DA AUTOMAÇêO:**
 - **TRIGGER:** Gmail - Novo email com anexo
 - **FILTER:** Apenas de remetentes específicos (opcional mas recomendado)
 - **ACTION:** Google Drive - Upload do anexo na pasta correta
@@ -875,7 +875,7 @@ Você recebe documentos importantes por email (contratos, propostas, relatórios
 
 ### Passo a Passo Resumido
 
-Como você já criou uma automação, vou ser mais direto.
+Como você já criou uma automaçêo, vou ser mais direto.
 
 **SETUP:**
 
@@ -887,12 +887,12 @@ Como você já criou uma automação, vou ser mais direto.
 3. Choose App: **Gmail**
 4. Event: **"New Attachment"** (Novo anexo)
 5. Continue
-6. Conectar Gmail (se ainda não estiver conectado)
+6. Conectar Gmail (se ainda nêo estiver conectado)
 7. **Configure Trigger:**
    - Search String: `from:cliente@empresa.com` (substitua pelo email relevante)
    - OU deixe em branco para capturar TODOS anexos (cuidado, pode encher!)
 8. Test Trigger
-   - Se não houver email de teste, envie um com anexo para você mesmo
+   - Se nêo houver email de teste, envie um com anexo para você mesmo
 9. Continue
 
 **FILTER (Opcional mas Recomendado):**
@@ -937,7 +937,7 @@ Como você já criou uma automação, vou ser mais direto.
 
 **Organizar por data:**
 
-No campo "File Name", em vez de só usar o nome original, crie um padrão:
+No campo "File Name", em vez de só usar o nome original, crie um padrêo:
 ```
 [Data] - [Nome Original]
 ```
@@ -961,7 +961,7 @@ Use um Router (plano pago) ou múltiplos Zaps para:
 **1. Contador recebendo notas fiscais:**
 - Trigger: Email de fornecedores específicos com anexo XML/PDF
 - Action: Salvar na pasta "Notas Fiscais [Mês]/[Fornecedor]"
-- Resultado: Organização automática de centenas de notas por mês
+- Resultado: Organizaçêo automática de centenas de notas por mês
 
 **2. RH recebendo currículos:**
 - Trigger: Email com "currículo" ou "CV" no assunto
@@ -975,13 +975,13 @@ Use um Router (plano pago) ou múltiplos Zaps para:
 
 ---
 
-Pronto! Automação 2 concluída. Você nunca mais vai perder um anexo importante.
+Pronto! Automaçêo 2 concluída. Você nunca mais vai perder um anexo importante.
 
 ---
 
-## 6. Automação 3: Notificação Slack de Novos Clientes
+## 6. Automaçêo 3: Notificaçêo Slack de Novos Clientes
 
-Última automação deste módulo! Agora vamos integrar algo diferente: **Google Forms + Slack**.
+Última automaçêo deste módulo! Agora vamos integrar algo diferente: **Google Forms + Slack**.
 
 **CENÁRIO:**
 Você tem um formulário de contato/cadastro no site. Toda vez que alguém preencher, você quer que sua equipe seja notificada instantaneamente no Slack.
@@ -999,12 +999,12 @@ Ninguém precisa ficar atualizando planilha ou checando email. A equipe é alert
 
 ### Passo a Passo Resumido
 
-**PREPARAÇÃO:**
+**PREPARAÇêO:**
 
 Antes de criar o Zap, você precisa de:
 1. Um Google Form (pode criar um simples de teste)
 2. Uma conta no Slack (plano grátis funciona)
-3. Um canal no Slack onde as mensagens serão enviadas
+3. Um canal no Slack onde as mensagens serêo enviadas
 
 **SETUP:**
 
@@ -1022,7 +1022,7 @@ Antes de criar o Zap, você precisa de:
    - **Spreadsheet:** Selecione a planilha do seu formulário
    - **Worksheet:** Normalmente "Form Responses 1"
 8. Test Trigger
-   - Se não houver resposta de teste, preencha seu formulário uma vez
+   - Se nêo houver resposta de teste, preencha seu formulário uma vez
 9. Continue
 
 **ACTION:**
@@ -1067,7 +1067,7 @@ Substitua os campos [Nome], [Email], etc. pelos campos do seu formulário.
 20. Preencha o formulário novamente
 21. Aguarde 1-2 minutos
 22. Verifique o canal do Slack
-23. A notificação deve aparecer!
+23. A notificaçêo deve aparecer!
 
 ---
 
@@ -1083,7 +1083,7 @@ Substitua os campos [Nome], [Email], etc. pelos campos do seu formulário.
 *Empresa:* [Empresa]
 *Budget:* [Orçamento]
 
-_Responda rápido para não perder!_
+_Responda rápido para nêo perder!_
 ```
 
 **2. Enviar para canais diferentes baseado em critério:**
@@ -1097,7 +1097,7 @@ Use Filter ou Router:
 
 No texto da mensagem:
 ```
-@maria - Novo lead da sua região!
+@maria - Novo lead da sua regiêo!
 ```
 
 **4. Adicionar ações em série:**
@@ -1117,17 +1117,17 @@ Tudo automaticamente!
 **1. E-commerce - Novo pedido:**
 - Form: Checkout
 - Slack: Canal #pedidos
-- Mensagem: Detalhes do pedido + link para separação
+- Mensagem: Detalhes do pedido + link para separaçêo
 
-**2. Eventos - Nova inscrição:**
-- Form: Inscrição evento
+**2. Eventos - Nova inscriçêo:**
+- Form: Inscriçêo evento
 - Slack: Canal #inscrições
 - Mensagem: Nome, empresa, interesse + contador de inscritos
 
 **3. Suporte - Ticket aberto:**
 - Form: Reportar problema
 - Slack: Canal #urgente (se prioridade alta)
-- Mensagem: Descrição + tempo de SLA
+- Mensagem: Descriçêo + tempo de SLA
 
 ---
 
@@ -1139,7 +1139,7 @@ Pronto! Você criou 3 automações funcionais e aprendeu os fundamentos do no-co
 
 Agora que você sabe COMO criar automações, precisa de ideias do QUE automatizar.
 
-Aqui estão 10 automações práticas perfeitas para perfil operacional. Escolha as que fazem sentido para você!
+Aqui estêo 10 automações práticas perfeitas para perfil operacional. Escolha as que fazem sentido para você!
 
 ---
 
@@ -1165,7 +1165,7 @@ Aqui estão 10 automações práticas perfeitas para perfil operacional. Escolha
 
 ---
 
-### 3. Formulário preenchido → Notificação Slack/Teams
+### 3. Formulário preenchido → Notificaçêo Slack/Teams
 
 **Você já fez essa!**
 
@@ -1178,30 +1178,30 @@ Aqui estão 10 automações práticas perfeitas para perfil operacional. Escolha
 
 ### 4. Novos contatos de rede social → CRM
 
-**Trigger:** LinkedIn Lead Gen Form - Nova submissão
+**Trigger:** LinkedIn Lead Gen Form - Nova submissêo
 OU Facebook Lead Ads - Novo lead
 **Action:** HubSpot/Pipedrive/Salesforce - Criar contato
 
-**Benefício:** Leads caem direto no CRM, sem digitação manual
+**Benefício:** Leads caem direto no CRM, sem digitaçêo manual
 
-**Uso real:** Empresas de marketing capturam milhares de leads por mês. Automação elimina 100% do trabalho manual de importação.
+**Uso real:** Empresas de marketing capturam milhares de leads por mês. Automaçêo elimina 100% do trabalho manual de importaçêo.
 
 ---
 
-### 5. Reunião agendada → Preparação automática
+### 5. Reuniêo agendada → Preparaçêo automática
 
 **Trigger:** Google Calendar - Novo evento criado
-**Filter:** Apenas eventos com palavra "cliente" ou "reunião"
+**Filter:** Apenas eventos com palavra "cliente" ou "reuniêo"
 **Actions:**
-1. Criar documento no Google Docs (pauta da reunião)
+1. Criar documento no Google Docs (pauta da reuniêo)
 2. Criar tarefa no Trello/Asana (preparar materiais)
 3. Enviar lembrete no Slack 1h antes
 
-**Benefício:** Você nunca mais entra em reunião despreparado
+**Benefício:** Você nunca mais entra em reuniêo despreparado
 
 ---
 
-### 6. Tarefa concluída → Notificação para próximo responsável
+### 6. Tarefa concluída → Notificaçêo para próximo responsável
 
 **Trigger:** Trello - Card movido para "Concluído"
 OU Asana - Tarefa marcada como completa
@@ -1210,7 +1210,7 @@ OU Slack - Mensagem avisando que pode começar
 
 **Benefício:** Fluxo de trabalho em sequência sem atrasos
 
-**Uso real:** Agências criativas onde design → texto → aprovação → publicação. Cada etapa avisa automaticamente o próximo.
+**Uso real:** Agências criativas onde design → texto → aprovaçêo → publicaçêo. Cada etapa avisa automaticamente o próximo.
 
 ---
 
@@ -1237,13 +1237,13 @@ OU Webhook - Sistema reporta erro
 
 **Benefício:** Relatórios nunca atrasam, sempre no mesmo formato
 
-**Uso real:** Equipes de vendas que reportam números semanais. Automação garante consistência.
+**Uso real:** Equipes de vendas que reportam números semanais. Automaçêo garante consistência.
 
 ---
 
 ### 9. Backup de dados → Agendado
 
-**Trigger:** Schedule - Todo dia às 2h da manhã
+**Trigger:** Schedule - Todo dia às 2h da manhê
 **Actions:**
 1. Google Sheets - Copiar planilha principal
 2. Google Drive - Salvar na pasta "Backups/[Data]"
@@ -1262,7 +1262,7 @@ OU Slack - Lembrar você de fazer follow-up
 
 **Benefício:** Você nunca esquece de retornar contatos importantes
 
-**Uso real:** Vendedores que fazem follow-up de propostas. Automação garante que nenhum cliente potencial seja esquecido.
+**Uso real:** Vendedores que fazem follow-up de propostas. Automaçêo garante que nenhum cliente potencial seja esquecido.
 
 ---
 
@@ -1272,14 +1272,14 @@ Use estes critérios:
 
 **1. Frequência:** Você faz essa tarefa diariamente ou semanalmente?
 **2. Repetitividade:** É sempre o mesmo processo?
-**3. Regras claras:** Dá para definir "se X, então Y"?
+**3. Regras claras:** Dá para definir "se X, entêo Y"?
 **4. Impacto:** Economiza tempo significativo?
 
 Se respondeu SIM para 3 ou mais, AUTOMATIZE!
 
 ---
 
-## Exercícios de Reflexão
+## Exercícios de Reflexêo
 
 Pare por 10 minutos e reflita sobre estas perguntas. Escreva as respostas (papel, bloco de notas, onde preferir).
 
@@ -1320,7 +1320,7 @@ Agora pense: que combinações fariam sentido?
 
 Exemplos:
 - Gmail + Sheets = Registro automático de leads
-- Forms + Slack = Notificação de novos cadastros
+- Forms + Slack = Notificaçêo de novos cadastros
 - Calendar + Drive = Documentos automáticos de reuniões
 
 **Anote 3 combinações que você poderia usar.**
@@ -1329,9 +1329,9 @@ Exemplos:
 
 ### 3. Quanto tempo você economizaria se essas 3 automações funcionassem 24/7?
 
-Para cada automação que você identificou:
+Para cada automaçêo que você identificou:
 
-**Automação 1:** _______________
+**Automaçêo 1:** _______________
 
 - Quanto tempo gasto fazendo isso manualmente? _____ min/dia
 - Quantas vezes por dia? _____ vezes
@@ -1339,10 +1339,10 @@ Para cada automação que você identificou:
 - Total mensal (20 dias úteis): _____ horas
 - Total anual: _____ horas
 
-**Automação 2:** _______________
+**Automaçêo 2:** _______________
 (Repita o cálculo)
 
-**Automação 3:** _______________
+**Automaçêo 3:** _______________
 (Repita o cálculo)
 
 **TOTAL ECONOMIZADO POR ANO:** _____ horas
@@ -1350,13 +1350,13 @@ Para cada automação que você identificou:
 Agora pergunte a si mesmo:
 - O que eu poderia fazer com essas horas extras?
 - Quanto vale meu tempo (por hora)?
-- Qual o ROI de aprender automação no-code?
+- Qual o ROI de aprender automaçêo no-code?
 
-As respostas geralmente são impressionantes.
+As respostas geralmente sêo impressionantes.
 
 Se você economizar 2h/dia = 40h/mês = 480h/ano.
 
-São praticamente **60 dias úteis** de 8h!
+Sêo praticamente **60 dias úteis** de 8h!
 
 ---
 
@@ -1368,9 +1368,9 @@ Chegou a hora de consolidar o aprendizado. Você vai criar 3 automações REAIS 
 
 ---
 
-### Automação Obrigatória 1: Email → Planilha
+### Automaçêo Obrigatória 1: Email → Planilha
 
-Você já tem o tutorial completo acima. Se ainda não fez, FAÇA AGORA.
+Você já tem o tutorial completo acima. Se ainda nêo fez, FAÇA AGORA.
 
 **Requisitos mínimos:**
 - [ ] Trigger: Gmail com filtro específico (palavra-chave no assunto)
@@ -1382,11 +1382,11 @@ Você já tem o tutorial completo acima. Se ainda não fez, FAÇA AGORA.
 
 ---
 
-### Automação Escolha 2: Escolha UMA das opções
+### Automaçêo Escolha 2: Escolha UMA das opções
 
-**OPÇÃO A: Anexos → Drive**
+**OPÇêO A: Anexos → Drive**
 
-Use o tutorial da Automação 2 acima.
+Use o tutorial da Automaçêo 2 acima.
 
 **Requisitos:**
 - [ ] Trigger: Gmail com anexo (com filtro de remetente se possível)
@@ -1394,19 +1394,19 @@ Use o tutorial da Automação 2 acima.
 - [ ] Testada com email real
 - [ ] Nome descritivo
 
-**OPÇÃO B: Form → Notificação**
+**OPÇêO B: Form → Notificaçêo**
 
-Use o tutorial da Automação 3 acima.
+Use o tutorial da Automaçêo 3 acima.
 
 **Requisitos:**
 - [ ] Trigger: Google Forms com resposta
-- [ ] Action: Slack ou Email enviando notificação
+- [ ] Action: Slack ou Email enviando notificaçêo
 - [ ] Testada preenchendo form
 - [ ] Nome descritivo
 
-**OPÇÃO C: Outra da lista de ideias**
+**OPÇêO C: Outra da lista de ideias**
 
-Escolha qualquer uma das 10 ideias da seção anterior.
+Escolha qualquer uma das 10 ideias da seçêo anterior.
 
 **Requisitos:**
 - [ ] Trigger e Action claros
@@ -1414,13 +1414,13 @@ Escolha qualquer uma das 10 ideias da seção anterior.
 - [ ] Testada e funcionando
 - [ ] Documentado o que faz
 
-**Entregável:** Screenshot do Zap ativo + descrição do que ele faz
+**Entregável:** Screenshot do Zap ativo + descriçêo do que ele faz
 
 ---
 
-### Automação Escolha 3: Crie algo ÚNICO para seu trabalho
+### Automaçêo Escolha 3: Crie algo ÚNICO para seu trabalho
 
-Esta é a automação mais importante. Crie algo que resolve UM problema específico do SEU dia a dia.
+Esta é a automaçêo mais importante. Crie algo que resolve UM problema específico do SEU dia a dia.
 
 **Processo:**
 
@@ -1434,7 +1434,7 @@ Esta é a automação mais importante. Crie algo que resolve UM problema especí
 **Exemplos de automações únicas:**
 
 - "Todo email do meu chefe vai para uma planilha de tarefas pendentes"
-- "Quando alguém marca reunião comigo, crio automaticamente pasta no Drive"
+- "Quando alguém marca reuniêo comigo, crio automaticamente pasta no Drive"
 - "Toda sexta às 16h, envio relatório das tarefas concluídas da semana"
 - "Quando recebo email com 'urgente', envio cópia para meu Slack pessoal"
 
@@ -1444,24 +1444,24 @@ Esta é a automação mais importante. Crie algo que resolve UM problema especí
 - [ ] Funciona conforme esperado
 - [ ] Documentado claramente
 
-**Entregável:** Screenshot + descrição detalhada do problema que resolve
+**Entregável:** Screenshot + descriçêo detalhada do problema que resolve
 
 ---
 
-### Checklist de Validação Final
+### Checklist de Validaçêo Final
 
 Antes de marcar como concluído, verifique:
 
 **Para cada uma das 3 automações:**
 - [ ] Está ativa (status "On" no Dashboard)
-- [ ] Foi testada com dados reais (não só teste)
+- [ ] Foi testada com dados reais (nêo só teste)
 - [ ] Tem nome descritivo que explica o que faz
 - [ ] Você entende cada parte (Trigger, Filter, Action)
 - [ ] Funcionou pelo menos 1 vez automaticamente (sem você disparar manualmente)
 
-**Documentação:**
+**Documentaçêo:**
 - [ ] Você tem screenshot de cada Zap no Dashboard
-- [ ] Você consegue explicar o que cada automação faz em 1 frase
+- [ ] Você consegue explicar o que cada automaçêo faz em 1 frase
 - [ ] Você anotou quanto tempo cada uma economiza
 
 ---
@@ -1474,9 +1474,9 @@ Crie um documento (Google Docs, Notion, ou mesmo um arquivo .txt) com:
 
 ---
 
-**Automação 1: [Nome]**
+**Automaçêo 1: [Nome]**
 
-- **O que faz:** [Descrição em 1-2 frases]
+- **O que faz:** [Descriçêo em 1-2 frases]
 - **Trigger:** [App + evento]
 - **Actions:** [Lista de ações]
 - **Tempo economizado:** [Estimativa]
@@ -1485,47 +1485,47 @@ Crie um documento (Google Docs, Notion, ou mesmo um arquivo .txt) com:
 
 ---
 
-**Automação 2: [Nome]**
+**Automaçêo 2: [Nome]**
 
 (Repita estrutura acima)
 
 ---
 
-**Automação 3: [Nome]**
+**Automaçêo 3: [Nome]**
 
 (Repita estrutura acima)
 
 ---
 
-**REFLEXÃO FINAL:**
+**REFLEXêO FINAL:**
 
 - Dificuldade de 1-10: ___
 - Tempo total gasto criando: ___
 - Maior aprendizado: ___
-- Próxima automação que quero criar: ___
+- Próxima automaçêo que quero criar: ___
 
 ---
 
-Este documento é sua PROVA de que você não é mais iniciante. Você é um automador no-code!
+Este documento é sua PROVA de que você nêo é mais iniciante. Você é um automador no-code!
 
 Guarde isso. Daqui 6 meses, quando você tiver 30+ automações rodando, você vai olhar para trás e sorrir.
 
 ---
 
-## Conclusão e Próximo Módulo
+## Conclusêo e Próximo Módulo
 
-Parabéns! Você completou o Módulo 4 e deu um passo gigante na sua jornada de automação.
+Parabéns! Você completou o Módulo 4 e deu um passo gigante na sua jornada de automaçêo.
 
 ### O que você conquistou neste módulo:
 
-- ✅ Entendeu a revolução no-code e por que você NÃO precisa programar
+- ✅ Entendeu a revoluçêo no-code e por que você NêO precisa programar
 - ✅ Aprendeu os conceitos fundamentais: Trigger, Action, Filter e Delay
 - ✅ Conheceu e comparou Zapier vs Make (e sabe quando usar cada um)
-- ✅ Criou sua primeira automação: Email → Planilha
-- ✅ Criou segunda automação: Anexos → Drive
-- ✅ Criou terceira automação: Form → Slack
+- ✅ Criou sua primeira automaçêo: Email → Planilha
+- ✅ Criou segunda automaçêo: Anexos → Drive
+- ✅ Criou terceira automaçêo: Form → Slack
 - ✅ Identificou 10+ ideias de automações operacionais
-- ✅ Criou 3 automações REAIS que estão rodando agora
+- ✅ Criou 3 automações REAIS que estêo rodando agora
 
 ### O que mudou para você:
 
@@ -1533,7 +1533,7 @@ Parabéns! Você completou o Módulo 4 e deu um passo gigante na sua jornada de 
 - Você fazia tarefas repetitivas manualmente
 - Perdia tempo copiando dados entre apps
 - Dependia de lembrar de fazer follow-ups
-- Achava que automação era coisa de programador
+- Achava que automaçêo era coisa de programador
 
 **DEPOIS deste módulo:**
 - Você tem 3 automações funcionando 24/7
@@ -1560,14 +1560,14 @@ E você levou apenas 1h30min para aprender!
    - Adicione filtros se necessário
 
 2. **Crie mais 2-3 automações nas próximas semanas**
-   - Use a lista de ideias como inspiração
+   - Use a lista de ideias como inspiraçêo
    - Foque em problemas reais seus
    - Comece simples, evolua depois
 
 3. **Compartilhe com colegas**
    - Mostre o que você criou
-   - Ensine alguém a fazer uma automação
-   - Crie cultura de automação no time
+   - Ensine alguém a fazer uma automaçêo
+   - Crie cultura de automaçêo no time
 
 4. **Explore apps novos**
    - Navegue pela lista de apps do Zapier/Make
@@ -1578,7 +1578,7 @@ E você levou apenas 1h30min para aprender!
 
 **Zapier:**
 - [Zapier Learn](https://zapier.com/learn/) - Tutoriais oficiais
-- [Zapier Blog](https://zapier.com/blog/) - Ideias e inspiração
+- [Zapier Blog](https://zapier.com/blog/) - Ideias e inspiraçêo
 - [Templates do Zapier](https://zapier.com/apps) - Automações prontas
 
 **Make:**
@@ -1593,16 +1593,16 @@ E você levou apenas 1h30min para aprender!
 
 ### O que vem no próximo módulo?
 
-**Módulo 5: Automação de Emails e Comunicação**
+**Módulo 5: Automaçêo de Emails e Comunicaçêo**
 
 Você vai aprender a criar:
 - Respostas automáticas inteligentes (além do "estou fora")
 - Sequências de email que funcionam sozinhas
 - Filtros e organizadores automáticos
 - Templates dinâmicos que se adaptam ao destinatário
-- Integrações avançadas de comunicação (WhatsApp, SMS, etc)
+- Integrações avançadas de comunicaçêo (WhatsApp, SMS, etc)
 
-Se você achou poderoso automatizar tarefas, espere até automatizar toda sua comunicação!
+Se você achou poderoso automatizar tarefas, espere até automatizar toda sua comunicaçêo!
 
 **Você vai criar um sistema de email que:**
 - Responde leads automaticamente
@@ -1622,9 +1622,9 @@ Enquanto outros esquecem follow-ups, você tem sistemas automáticos garantindo 
 
 Enquanto outros trabalham MAIS, você trabalha MELHOR.
 
-E isso é só o começo. Daqui alguns meses, você vai olhar para trás e não vai acreditar que fazia as coisas manualmente.
+E isso é só o começo. Daqui alguns meses, você vai olhar para trás e nêo vai acreditar que fazia as coisas manualmente.
 
-**A automação não é sobre substituir humanos. É sobre libertar humanos para fazer trabalho que realmente importa.**
+**A automaçêo nêo é sobre substituir humanos. É sobre libertar humanos para fazer trabalho que realmente importa.**
 
 Tarefas repetitivas? Deixa pros robôs.
 Criatividade, estratégia, relacionamentos? Isso é com você.
@@ -1635,6 +1635,6 @@ Nos vemos no Módulo 5!
 
 ---
 
-**Autor:** Formação em Engenharia de Transição Digital (FETD)
+**Autor:** Formaçêo em Engenharia de Transiçêo Digital (FETD)
 **Módulo:** 4 de 10 - Trilha Operacional
-**Última atualização:** 2025
+**Última atualizaçêo:** 2025

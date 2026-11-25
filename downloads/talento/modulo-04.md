@@ -1,29 +1,29 @@
-# Módulo 4: Automação No-Code com Make
+# Módulo 4: Automaçêo No-Code com Make
 
 **Trilha:** Talento Emergente
-**Duração:** 60-75 minutos
-**Objetivo:** Criar sua primeira automação profissional sem escrever código
+**Duraçêo:** 60-75 minutos
+**Objetivo:** Criar sua primeira automaçêo profissional sem escrever código
 
 ---
 
-## Introdução: A Revolução No-Code
+## Introduçêo: A Revoluçêo No-Code
 
 Imagine economizar 15-20 horas por semana eliminando tarefas repetitivas.
 
-Não é futuro. É o que profissionais fazem HOJE com ferramentas no-code.
+Nêo é futuro. É o que profissionais fazem HOJE com ferramentas no-code.
 
 **Dados reais (2024-2025):**
-- Profissionais que usam automação no-code: +62% produtividade
+- Profissionais que usam automaçêo no-code: +62% produtividade
 - Empresas economizam média: R$ 3.000-8.000/mês em trabalho manual
 - Make tem 1.400+ apps integrados
-- Mercado de automação no-code: crescimento 41% ao ano
-- Automação Specialist: R$ 5.000-12.000/mês no Brasil
+- Mercado de automaçêo no-code: crescimento 41% ao ano
+- Automaçêo Specialist: R$ 5.000-12.000/mês no Brasil
 
-**Make** (antigo Integromat) é a ferramenta mais poderosa para automação visual. Empresas como Netflix, Tesla e Spotify usam ferramentas similares para automatizar processos internos.
+**Make** (antigo Integromat) é a ferramenta mais poderosa para automaçêo visual. Empresas como Netflix, Tesla e Spotify usam ferramentas similares para automatizar processos internos.
 
 Neste módulo você vai:
 1. Entender como Make funciona (conceitos fundamentais)
-2. Criar sua primeira automação (passo-a-passo completo)
+2. Criar sua primeira automaçêo (passo-a-passo completo)
 3. Aprender integrações essenciais (Gmail, Sheets, Slack, Drive, etc)
 4. Ver casos de uso que geram valor imediato
 5. Técnicas avançadas (routers, iterators, error handling)
@@ -49,10 +49,10 @@ Pense assim: você já faz muitas tarefas manualmente conectando apps. Exemplo:
 **Tempo:** 5-10 minutos por email
 **Com 20 emails/dia:** 100-200 min = 2-3 horas gastas
 
-**Automação Make (robô faz):**
+**Automaçêo Make (robô faz):**
 ```
 QUANDO novo email com anexo chega
-  → ENTÃO salvar anexo no Google Drive (pasta específica)
+  → ENTêO salvar anexo no Google Drive (pasta específica)
   → E extrair informações do email (regex ou IA)
   → E adicionar linha no Google Sheets (com dados estruturados)
   → E criar task no Notion (com deadline automático)
@@ -63,26 +63,26 @@ QUANDO novo email com anexo chega
 **Tempo:** 0 minutos (roda sozinho 24/7)
 **Economia:** 2-3 horas/dia = 10-15 horas/semana
 
-**Isso é automação no-code: conectar apps que você JÁ usa, sem programar.**
+**Isso é automaçêo no-code: conectar apps que você JÁ usa, sem programar.**
 
-### 1.2 Anatomia de uma Automação Make
+### 1.2 Anatomia de uma Automaçêo Make
 
 **Componentes principais:**
 
-1. **Trigger (Gatilho):** O que inicia a automação
+1. **Trigger (Gatilho):** O que inicia a automaçêo
    - Exemplos: novo email, novo formulário, hora específica, webhook
    - "QUANDO [evento acontece]"
 
 2. **Actions (Ações):** O que acontece depois
    - Exemplos: salvar arquivo, enviar email, criar tarefa
-   - "ENTÃO [faça isso]"
+   - "ENTêO [faça isso]"
 
 3. **Filters (Filtros):** Condições para continuar
    - Exemplos: só emails importantes, só valores >R$ 100
-   - "SE [condição] É VERDADEIRA"
+   - "SE [condiçêo] É VERDADEIRA"
 
 4. **Routers (Roteadores):** Diferentes caminhos
-   - Exemplos: se cliente VIP → ação A, senão → ação B
+   - Exemplos: se cliente VIP → açêo A, senêo → açêo B
    - "ESCOLHA [caminho baseado em critério]"
 
 5. **Iterators (Iteradores):** Repete para cada item
@@ -93,7 +93,7 @@ QUANDO novo email com anexo chega
 - Trigger = Alarme do despertador
 - Filter = "Só toca se for dia de semana"
 - Action = Você levanta, escova dentes, toma café
-- Router = "Se segunda, vai pra academia; se não, vai trabalhar direto"
+- Router = "Se segunda, vai pra academia; se nêo, vai trabalhar direto"
 
 ### 1.3 Make vs Outras Ferramentas
 
@@ -112,7 +112,7 @@ QUANDO novo email com anexo chega
 **Zapier:**
 - ✅ Mais fácil para iniciantes absolutos
 - ✅ Mais integrações (6.000+)
-- ✅ Melhor documentação (mais tutoriais)
+- ✅ Melhor documentaçêo (mais tutoriais)
 - ✅ Interface mais simples
 - ❌ Plano grátis limitado (100 tarefas/mês)
 - ❌ Menos flexível (dificulta lógicas complexas)
@@ -127,9 +127,9 @@ QUANDO novo email com anexo chega
 - ✅ Flexibilidade máxima
 - ❌ Requer conhecimento técnico (servidor, etc)
 - ❌ Você mantém infraestrutura
-- ❌ Não recomendado para iniciantes
+- ❌ Nêo recomendado para iniciantes
 
-**Recomendação:**
+**Recomendaçêo:**
 - Aprenda **Make primeiro** (melhor custo-benefício, poderoso, fácil)
 - Quando dominar Make, **Zapier** será trivial
 - Se virar expert e precisar self-hosted, explore **n8n**
@@ -138,12 +138,12 @@ QUANDO novo email com anexo chega
 
 **O que é n8n?**
 
-n8n é a queridinha atual do mercado de automação. Por quê? **É open source, gratuito (ou de baixíssimo custo) e muito poderoso.**
+n8n é a queridinha atual do mercado de automaçêo. Por quê? **É open source, gratuito (ou de baixíssimo custo) e muito poderoso.**
 
-Empresas médias e startups estão migrando massivamente para n8n por uma razão simples: **economia + controle total.**
+Empresas médias e startups estêo migrando massivamente para n8n por uma razêo simples: **economia + controle total.**
 
 **Dados de mercado (2024-2025):**
-- Crescimento adoção n8n: +340% em 2 anos
+- Crescimento adoçêo n8n: +340% em 2 anos
 - Comunidade: 400k+ desenvolvedores
 - GitHub stars: 40k+ (top 50 projetos open source)
 - Empresas usando: Spotify, Intel, IBM, N26 (e milhares de startups)
@@ -155,7 +155,7 @@ Empresas médias e startups estão migrando massivamente para n8n por uma razão
 ✅ **Open source** (código aberto, customizável)
 ✅ **Sem limites de operações** no plano grátis self-hosted
 ✅ **Integrações ilimitadas** (400+ apps nativos + webhooks custom)
-✅ **Privacidade total** (dados ficam em seu servidor, não em cloud terceiros)
+✅ **Privacidade total** (dados ficam em seu servidor, nêo em cloud terceiros)
 ✅ **Comunidade ativa** (suporte rápido, plugins community)
 ✅ **Interface visual igual Make** (drag-and-drop, fácil de usar)
 ✅ **JavaScript nativo** (pode escrever código custom quando precisar)
@@ -164,7 +164,7 @@ Empresas médias e startups estão migrando massivamente para n8n por uma razão
 ❌ **Requer conhecimento técnico** (precisa hospedar em servidor)
 ❌ **Você mantém infraestrutura** (updates, backups, monitoramento)
 ❌ **Curva aprendizado maior** que Make/Zapier
-❌ **Não recomendado se você NÃO tem:**
+❌ **Nêo recomendado se você NêO tem:**
    - Servidor Linux (VPS, AWS, Digital Ocean, etc.)
    - Conhecimento básico terminal/SSH
    - Tempo para configurar (2-4h setup inicial)
@@ -173,25 +173,25 @@ Empresas médias e startups estão migrando massivamente para n8n por uma razão
 
 1. **Você é técnico/developer** (confortável com terminal, servidores)
 2. **Quer economizar** (>100k ops/mês sairia caro em Make/Zapier)
-3. **Privacidade é crítica** (dados sensíveis não podem ir pra cloud terceiros)
-4. **Quer customização máxima** (integrar APIs proprietárias, lógica complexa)
+3. **Privacidade é crítica** (dados sensíveis nêo podem ir pra cloud terceiros)
+4. **Quer customizaçêo máxima** (integrar APIs proprietárias, lógica complexa)
 5. **Empresa já tem infra** (servidor rodando, equipe DevOps)
 
-**Quando NÃO usar n8n:**
+**Quando NêO usar n8n:**
 
 1. **Você está começando** (aprenda Make/Zapier primeiro - mais fácil)
-2. **Não quer lidar com servidor** (prefere cloud gerenciado)
+2. **Nêo quer lidar com servidor** (prefere cloud gerenciado)
 3. **Uso baixo** (<10k ops/mês = Make grátis já resolve)
 4. **Precisa começar rápido** (Make = 5min pra rodar, n8n = horas pra configurar)
 
-**Comparação prática:**
+**Comparaçêo prática:**
 
 | Aspecto | Make | n8n (self-hosted) | n8n (cloud) |
 |---------|------|-------------------|-------------|
 | **Custo mensal** | R$ 55 (10k ops) | R$ 0* + servidor (~R$ 20-50) | R$ 100 (50k ops) |
 | **Setup** | 5 minutos | 2-4 horas | 5 minutos |
 | **Limite ops** | 10k/mês (grátis: 1k) | Ilimitado | 50k/mês |
-| **Manutenção** | Zero | Você (updates, backup) | Zero |
+| **Manutençêo** | Zero | Você (updates, backup) | Zero |
 | **Privacidade** | Cloud Make | 100% seu servidor | Cloud n8n |
 | **Facilidade** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
 | **Poder** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
@@ -213,19 +213,19 @@ Empresas médias e startups estão migrando massivamente para n8n por uma razão
   - DevOps: 4h/mês × R$ 150/h = R$ 600
   - Custo anual: ~R$ 8.400
 
-**Economia: R$ 41.600/ano (83% redução)**
+**Economia: R$ 41.600/ano (83% reduçêo)**
 
 **Como começar com n8n (roadmap para quando estiver pronto):**
 
 **Fase 1: Aprenda Make/Zapier primeiro** (2-3 meses)
 - Domine conceitos: triggers, actions, filters, routers
 - Crie 20-30 automações reais
-- Entenda lógica de integração
+- Entenda lógica de integraçêo
 
 **Fase 2: Aprenda básico de servidor** (1-2 semanas)
 - Linux básico (comandos terminal)
 - SSH (conectar servidor remoto)
-- Docker (containerização - n8n roda em Docker)
+- Docker (containerizaçêo - n8n roda em Docker)
 
 **Fase 3: Setup n8n** (2-4 horas)
 - Contrate VPS (~R$ 20-50/mês)
@@ -241,13 +241,13 @@ Empresas médias e startups estão migrando massivamente para n8n por uma razão
 
 **Recursos para aprender n8n:**
 
-1. **Documentação oficial:** docs.n8n.io
+1. **Documentaçêo oficial:** docs.n8n.io
 2. **YouTube:** Canal n8n (tutoriais oficiais)
 3. **Comunidade:** community.n8n.io (forum ativo)
 4. **Templates:** n8n.io/workflows (milhares de workflows prontos)
-5. **Curso grátis:** n8n Academy (certificação gratuita)
+5. **Curso grátis:** n8n Academy (certificaçêo gratuita)
 
-**Integração Make + n8n (estratégia híbrida):**
+**Integraçêo Make + n8n (estratégia híbrida):**
 
 Muitas empresas usam AMBOS:
 
@@ -263,7 +263,7 @@ LEAD ENTRA (público):
 → Retorna para Make (finaliza com cliente)
 ```
 
-**Posição de mercado atual (2025):**
+**Posiçêo de mercado atual (2025):**
 
 n8n está EXPLODINDO em:
 - **Startups tech** (adoram open source + economia)
@@ -284,7 +284,7 @@ n8n está EXPLODINDO em:
 4. **Mês 6+:** Experimente n8n em VPS barato ($5/mês)
 5. **Futuro:** Use Make + n8n (híbrido = melhor dos dois mundos)
 
-**Não pule etapas.** Make é mais fácil, aprenda primeiro. n8n vem depois, quando você já entender automação profundamente.
+**Nêo pule etapas.** Make é mais fácil, aprenda primeiro. n8n vem depois, quando você já entender automaçêo profundamente.
 
 ### 1.5 Quanto Custa (Realidade Brasileira 2025)
 
@@ -296,7 +296,7 @@ n8n está EXPLODINDO em:
 - Ótimo para: aprender, testar, uso pessoal
 
 **Exemplo uso:** 
-- 5 automações rodando 1x/hora = 3.600 ops/mês (não cabe)
+- 5 automações rodando 1x/hora = 3.600 ops/mês (nêo cabe)
 - 10 automações rodando 3x/dia = 900 ops/mês (cabe!)
 
 **Plano Core ($10,59/mês = ~R$ 55):**
@@ -309,7 +309,7 @@ n8n está EXPLODINDO em:
 **Plano Pro ($18,82/mês = ~R$ 98):**
 - 40.000 operações/mês
 - Usuários em equipe
-- Prioridade de execução
+- Prioridade de execuçêo
 - Para: freelancers profissionais, pequenas empresas
 
 **Para você começando:**
@@ -322,11 +322,11 @@ n8n está EXPLODINDO em:
 - Se vale R$ 100: economiza R$ 6.000
 - ROI: 5.400% a 10.800%
 
-## 2. Primeira Automação: Tutorial Completo Passo-a-Passo
+## 2. Primeira Automaçêo: Tutorial Completo Passo-a-Passo
 
 Vamos criar juntos: **"Email com anexo → Salvar no Drive + Extrair dados + Notificar Slack"**
 
-Essa automação sozinha economiza ~1h/dia para quem recebe muitos emails com documentos.
+Essa automaçêo sozinha economiza ~1h/dia para quem recebe muitos emails com documentos.
 
 ### 2.1 Setup Inicial (10 minutos)
 
@@ -341,7 +341,7 @@ Essa automação sozinha economiza ~1h/dia para quem recebe muitos emails com do
 **Passo 2: Familiarize-se com interface**
 
 - **Dashboard:** lista seus cenários (automações)
-- **Create scenario:** começa nova automação
+- **Create scenario:** começa nova automaçêo
 - **Templates:** automações prontas para customizar
 - **Connections:** apps conectados (Gmail, Drive, etc)
 - **Organizations:** se trabalhar em equipe
@@ -354,7 +354,7 @@ Essa automação sozinha economiza ~1h/dia para quem recebe muitos emails com do
 
 **Interface explicada:**
 
-- **Canvas:** área branca onde monta automação
+- **Canvas:** área branca onde monta automaçêo
 - **Módulos:** blocos que executam ações (círculos)
 - **Conexões:** linhas entre módulos = fluxo de dados
 - **Toolbar superior:** salvar, testar, agendar, configurações
@@ -375,7 +375,7 @@ O que faz: Monitora caixa de entrada Gmail procurando novos emails
 5. Clique "Create a connection"
    - Selecione sua conta Google
    - Autorize Make a acessar Gmail (leitura apenas)
-   - Conexão criada aparece verde ✓
+   - Conexêo criada aparece verde ✓
 6. Configure parâmetros:
    - **Folder:** INBOX (caixa de entrada)
    - **Criteria:** 
@@ -383,12 +383,12 @@ O que faz: Monitora caixa de entrada Gmail procurando novos emails
      * Enter criteria: Yes
      * Has attachment: Yes ← IMPORTANTE (só emails com anexo)
    - **Maximum number of results:** 10 (processa até 10 emails por rodada)
-   - **From date:** (deixe vazio = processa desde a última execução)
+   - **From date:** (deixe vazio = processa desde a última execuçêo)
 7. Clique "OK"
 
 **Testando módulo:**
 
-1. Clique "Run once" (botão no canto inferior esquerdo)
+1. Clique "Run once" (botêo no canto inferior esquerdo)
 2. Envie email para você mesmo COM ANEXO (qualquer arquivo)
 3. Aguarde 10-20 segundos
 4. Clique no módulo Gmail
@@ -396,8 +396,8 @@ O que faz: Monitora caixa de entrada Gmail procurando novos emails
 6. Se funcionou: ✓ Módulo 1 completo
 
 **Troubleshooting comum:**
-- Não capturou? → Verifique se email tem anexo E está no INBOX
-- Erro de conexão? → Reautorize conta Google
+- Nêo capturou? → Verifique se email tem anexo E está no INBOX
+- Erro de conexêo? → Reautorize conta Google
 - "No data"? → Envie outro email e rode novamente
 
 **MÓDULO 2: Action - Google Drive "Upload a File"**
@@ -458,7 +458,7 @@ O que faz: Notifica equipe no Slack que arquivo foi salvo
 2. Busque "Slack"
 3. Escolha: **"Create a Message"**
 4. Conecte workspace Slack:
-   - Se não tem Slack: pule esse módulo OU crie conta grátis (5min)
+   - Se nêo tem Slack: pule esse módulo OU crie conta grátis (5min)
    - Autorize Make a postar mensagens
 5. Configure:
    - **Channel:** 
@@ -497,18 +497,18 @@ O que faz: Notifica equipe no Slack que arquivo foi salvo
    - ✓ Arquivo no Drive
    - ✓ Mensagem no Slack
 
-**Se tudo funcionou: parabéns! Primeira automação completa! 🎉**
+**Se tudo funcionou: parabéns! Primeira automaçêo completa! 🎉**
 
-### 2.3 Ativando Automação (Scheduling)
+### 2.3 Ativando Automaçêo (Scheduling)
 
-Até agora, automação só roda quando você clica "Run once". Vamos fazê-la rodar automaticamente.
+Até agora, automaçêo só roda quando você clica "Run once". Vamos fazê-la rodar automaticamente.
 
 **Passo 1: Configurar agendamento**
 
 1. Clique no relógio (⏰ ícone scheduling) no módulo Gmail
 2. Escolha intervalo:
    - **Every 15 minutes** (recomendado para começar)
-   - Every hour (se email não é urgente)
+   - Every hour (se email nêo é urgente)
    - Every 5 minutes (plano pago, consome mais ops)
 3. Escolha horário de início (agora)
 4. Clique "OK"
@@ -518,9 +518,9 @@ Até agora, automação só roda quando você clica "Run once". Vamos fazê-la r
 1. Toggle "ON" no canto superior esquerdo
 2. Cenário fica azul = ativo ✓
 3. Dê nome ao cenário: "Email anexos → Drive + Slack"
-4. Salve (Ctrl+S ou botão Save)
+4. Salve (Ctrl+S ou botêo Save)
 
-**Pronto! Automação rodando 24/7 automaticamente.**
+**Pronto! Automaçêo rodando 24/7 automaticamente.**
 
 **Monitorando:**
 
@@ -535,9 +535,9 @@ Até agora, automação só roda quando você clica "Run once". Vamos fazê-la r
 Entre módulo Gmail e Drive:
 
 1. Clique na linha entre Gmail e Drive
-2. Aparece opção "Set up a filter"
+2. Aparece opçêo "Set up a filter"
 3. Clique
-4. Configure condição:
+4. Configure condiçêo:
    ```
    Label: Equals: IMPORTANT
    OU
@@ -554,7 +554,7 @@ No módulo Drive, em vez de salvar tudo numa pasta:
 {{1.from.name}} - {{formatDate(1.date; "YYYY-MM-DD")}} - {{1.attachments[].name}}
 ```
 
-Resultado: "João Silva - 2025-02-15 - contrato.pdf"
+Resultado: "Joêo Silva - 2025-02-15 - contrato.pdf"
 
 **Melhoria 3: Auto-reply agradecendo**
 
@@ -574,24 +574,24 @@ Adicione módulo 4:
    Obrigado!
    ```
 
-**Sua automação agora:**
+**Sua automaçêo agora:**
 - Processa emails a cada 15 min
 - Filtra só importantes
 - Salva com nome organizado
 - Notifica Slack
-- Envia confirmação automática
+- Envia confirmaçêo automática
 
 **Isso economiza facilmente 1-2h/dia.**
 
 ## 3. Integrações Essenciais (Top 10)
 
-### 3.1 Gmail + Google Sheets (Organização de Emails)
+### 3.1 Gmail + Google Sheets (Organizaçêo de Emails)
 
 **Problema:** Emails importantes se perdem na caixa de entrada
 
-**Solução:** Emails viram linhas estruturadas em planilha
+**Soluçêo:** Emails viram linhas estruturadas em planilha
 
-**Automação:**
+**Automaçêo:**
 ```
 TRIGGER: Gmail - Watch Emails
   Filter: Label = IMPORTANT OU From contains "@empresa.com"
@@ -607,7 +607,7 @@ ACTION: Google Sheets - Add a Row
   - Coluna D: {{1.subject}}
   - Coluna E: {{substring(1.text; 0; 200)}} (primeiros 200 chars)
   - Coluna F: {{1.webLink}} (link direto pro email)
-  - Coluna G: Status (padrão: "Pendente")
+  - Coluna G: Status (padrêo: "Pendente")
 ```
 
 **Valor:** 
@@ -623,9 +623,9 @@ ACTION: Google Sheets - Add a Row
 
 **Problema:** Lead preenche formulário, você copia manualmente pro CRM e manda email
 
-**Solução:** Tudo automático em segundos
+**Soluçêo:** Tudo automático em segundos
 
-**Automação:**
+**Automaçêo:**
 ```
 TRIGGER: Google Forms - Watch Responses
   Form: "Interesse Produto X"
@@ -655,11 +655,11 @@ ACTION 4: Slack - Send Message
 
 **Valor:**
 - Lead cai no CRM automaticamente
-- Email de boas-vindas instantâneo (aumenta conversão)
+- Email de boas-vindas instantâneo (aumenta conversêo)
 - Time de vendas notificado em tempo real
 - Zero trabalho manual
 
-**Conversão:** Empresas reportam +30-50% conversão com follow-up instantâneo
+**Conversêo:** Empresas reportam +30-50% conversêo com follow-up instantâneo
 
 **Tempo setup:** 30min
 **Economia:** 10min por lead × 50 leads/mês = 8h/mês
@@ -668,9 +668,9 @@ ACTION 4: Slack - Send Message
 
 **Problema:** Vendeu, agora tem que processar pedido manualmente
 
-**Solução:** Da venda ao envio, tudo automático
+**Soluçêo:** Da venda ao envio, tudo automático
 
-**Automação:**
+**Automaçêo:**
 ```
 TRIGGER: Shopify - Watch Orders
   Filter: Financial Status = Paid
@@ -689,7 +689,7 @@ ACTION 2: Calculate Shipping (API Correios ou Melhor Envio)
   Weight: {{1.total_weight}}
   Dimensions: [produto]
 
-ACTION 3: Gmail - Send Email (confirmação com tracking)
+ACTION 3: Gmail - Send Email (confirmaçêo com tracking)
   To: {{1.customer.email}}
   Subject: "Pedido #{{1.order_number}} confirmado!"
   Body: 
@@ -700,7 +700,7 @@ ACTION 3: Gmail - Send Email (confirmação com tracking)
     Detalhes:
     - Produto: {{1.line_items[].title}}
     - Valor: R$ {{formatNumber(1.total_price; 2; ","; ".")}}
-    - Previsão envio: 1-2 dias úteis
+    - Previsêo envio: 1-2 dias úteis
     - Frete: R$ {{2.price}} ({{2.delivery_time}} dias)
     
     Em breve você recebe código de rastreio!
@@ -717,7 +717,7 @@ ACTION 4: Trello/Notion - Create Card
 
 **Valor:**
 - Zero trabalho manual pós-venda
-- Cliente recebe confirmação instantânea (melhora experiência)
+- Cliente recebe confirmaçêo instantânea (melhora experiência)
 - Equipe logística sabe o que separar
 - Controle financeiro automático
 
@@ -727,9 +727,9 @@ ACTION 4: Trello/Notion - Create Card
 
 **Problema:** Acompanhar 20+ blogs para ficar atualizado no setor
 
-**Solução:** Robô lê tudo, resume, organiza pra você
+**Soluçêo:** Robô lê tudo, resume, organiza pra você
 
-**Automação:**
+**Automaçêo:**
 ```
 TRIGGER: RSS - Watch RSS Feed Items
   URL: [feeds dos blogs que segue]
@@ -773,7 +773,7 @@ ACTION 3: Filter + Slack (só muito relevante)
 
 ### 3.5 Onboarding Automático de Clientes/Funcionários
 
-**Automação:**
+**Automaçêo:**
 ```
 TRIGGER: Google Forms - New Response (form onboarding)
 
@@ -798,7 +798,7 @@ ACTION 7: Gmail - Send welcome email com credenciais e próximos passos
 
 ### 4.1 Routers (Múltiplos Caminhos Condicionais)
 
-**Cenário:** Lead preenche formulário. Ação depende do orçamento.
+**Cenário:** Lead preenche formulário. Açêo depende do orçamento.
 
 **Sem router (ruim):** Mesmo processo pra todo mundo
 
@@ -811,7 +811,7 @@ ROUTER (divide em 3 caminhos):
   PATH 1 - VIP (Budget > R$ 50k):
     Filter: {{1.orcamento}} > 50000
     → Slack: Notifica CEO diretamente
-    → Calendar: Agenda reunião com fundador (automático)
+    → Calendar: Agenda reuniêo com fundador (automático)
     → Gmail: Email personalizado de C-level
     → CRM: Tag "Enterprise"
     
@@ -824,15 +824,15 @@ ROUTER (divide em 3 caminhos):
     
   PATH 3 - Self-service (< R$ 10k):
     Filter: {{1.orcamento}} < 10000
-    → Gmail: Email automação com trial gratuito
+    → Gmail: Email automaçêo com trial gratuito
     → CRM: Tag "SMB"
     → Autopilot: Sequência emails educacionais
 ```
 
 **Por que é poderoso:**
 - Tratamento personalizado baseado em valor
-- Eficiência: C-level não perde tempo com pequeno
-- Conversão: cada segmento recebe flow ideal
+- Eficiência: C-level nêo perde tempo com pequeno
+- Conversêo: cada segmento recebe flow ideal
 
 **Como configurar:**
 1. Adicione módulo "Router" após trigger
@@ -844,9 +844,9 @@ ROUTER (divide em 3 caminhos):
 
 **Problema:** Email com 5 anexos. Quer salvar cada um em pasta diferente baseado no tipo.
 
-**Solução:** Iterator processa cada anexo individualmente
+**Soluçêo:** Iterator processa cada anexo individualmente
 
-**Automação:**
+**Automaçêo:**
 ```
 TRIGGER: Gmail - Watch Emails (com anexos)
 
@@ -886,11 +886,11 @@ ITERATOR: Para cada anexo
 
 ### 4.3 Error Handling (Tratamento de Erros)
 
-**Problema:** Automação falha às vezes (API fora, conexão ruim, etc)
+**Problema:** Automaçêo falha às vezes (API fora, conexêo ruim, etc)
 
-**Sem error handling:** Automação para, dados se perdem
+**Sem error handling:** Automaçêo para, dados se perdem
 
-**Com error handling:** Automação tenta resolver ou notifica
+**Com error handling:** Automaçêo tenta resolver ou notifica
 
 **Exemplo:**
 ```
@@ -905,7 +905,7 @@ CATCH (se ACTION 1 falha):
     → Save invoice locally (fallback storage)
     → Slack: Notifica tech team com erro específico
     → Google Sheets: Log erro (timestamp, order_id, error_message)
-    → Continue processando resto (não trava tudo)
+    → Continue processando resto (nêo trava tudo)
   
 TRY:
   ACTION 2: Send email to customer
@@ -937,8 +937,8 @@ CATCH:
 **O que é:** URL única que recebe dados de qualquer lugar
 
 **Quando usar:**
-- App não tem integração nativa no Make
-- Quer triggerar automação de outro sistema
+- App nêo tem integraçêo nativa no Make
+- Quer triggerar automaçêo de outro sistema
 - API custom da empresa
 
 **Exemplo:**
@@ -971,7 +971,7 @@ Make recebe → processa → executa ações
 1. Adicione módulo "Webhooks - Custom webhook"
 2. Make gera URL única
 3. Configure seu sistema pra enviar dados pra essa URL
-4. Dados chegam no Make → automação roda
+4. Dados chegam no Make → automaçêo roda
 
 **Poder:** Integra QUALQUER coisa, até sistemas proprietários
 
@@ -979,13 +979,13 @@ Make recebe → processa → executa ações
 
 ### 5.1 Para Freelancers
 
-**Automação 1: Invoice Automático**
+**Automaçêo 1: Invoice Automático**
 
 ```
 TRIGGER: Trello - Card moved to "Concluído"
 
 ACTION 1: Google Docs - Generate from template
-  Template: Invoice padrão
+  Template: Invoice padrêo
   Replace:
     {{cliente}}: {{1.card.name}}
     {{valor}}: {{1.custom_field.valor}}
@@ -1001,7 +1001,7 @@ ACTION 2: Gmail - Send Email
   Body: [Template profissional]
 
 ACTION 3: Google Sheets - Add row (financeiro)
-  - Data emissão
+  - Data emissêo
   - Cliente
   - Valor
   - Status: Enviado
@@ -1014,7 +1014,7 @@ ACTION 4: Google Calendar - Create reminder
 
 **Economia:** 30min por projeto × 10 projetos/mês = 5h/mês
 
-**Automação 2: Time Tracking Automático**
+**Automaçêo 2: Time Tracking Automático**
 
 ```
 TRIGGER: Toggl - Timer Stopped
@@ -1030,11 +1030,11 @@ ACTION: Google Sheets - Add Row
     - Valor total: =Horas * Valor hora
 ```
 
-**Valor:** Relatório automático pra cobrar clientes. Precisão 100%.
+**Valor:** Relatório automático pra cobrar clientes. Precisêo 100%.
 
 ### 5.2 Para Pequenas Empresas
 
-**Automação: Onboarding Funcionário Completo**
+**Automaçêo: Onboarding Funcionário Completo**
 
 ```
 TRIGGER: Google Forms - Novo Funcionário
@@ -1076,7 +1076,7 @@ ACTION 4: Slack - Multi-step
     1. Acesse email e mude senha
     2. Preencha perfil Slack
     3. Confira Notion (tarefas onboarding)
-    4. Reunião 1:1 com {{1.gestor}} agendada para [data]"
+    4. Reuniêo 1:1 com {{1.gestor}} agendada para [data]"
 
 ACTION 5: Trello - Create Board
   Name: "Onboarding - {{1.nome}}"
@@ -1087,7 +1087,7 @@ ACTION 5: Trello - Create Board
 ACTION 6: Google Calendar - Schedule Meetings
   - 1:1 com gestor (Dia 1, 10h)
   - Tour escritório (Dia 1, 14h)
-  - Apresentação equipe (Dia 2, 11h)
+  - Apresentaçêo equipe (Dia 2, 11h)
   - Check-in semanal (toda sexta, 15h)
 
 ACTION 7: Gmail - Send Manual Recursos Humanos
@@ -1100,13 +1100,13 @@ ACTION 7: Gmail - Send Manual Recursos Humanos
 
 **Impacto:**
 - Manual: 8 horas (RH + TI + Manager)
-- Automação: 10 minutos (só preencher form)
-- Economia: ~R$ 800 em horas-homem por contratação
+- Automaçêo: 10 minutos (só preencher form)
+- Economia: ~R$ 800 em horas-homem por contrataçêo
 - Experiência: Funcionário impressionado desde dia 1
 
 ### 5.3 Para Uso Pessoal (Exemplos Práticos)
 
-**Automação 1: Controle Financeiro Automático**
+**Automaçêo 1: Controle Financeiro Automático**
 
 ```
 TRIGGER: Gmail - Watch Emails
@@ -1117,7 +1117,7 @@ ACTION 1: OpenAI - Extract Data (IA extrai valores)
            - Data: [formato DD/MM/YYYY]
            - Valor: [só número]
            - Categoria: [alimentacao|transporte|moradia|lazer|etc]
-           - Descrição: [breve]
+           - Descriçêo: [breve]
            
            Email: {{1.text}}"
 
@@ -1126,7 +1126,7 @@ ACTION 2: Google Sheets - Add Row
   Values:
     - Data: {{2.data}}
     - Categoria: {{2.categoria}}
-    - Descrição: {{2.descricao}}
+    - Descriçêo: {{2.descricao}}
     - Valor: {{2.valor}}
     - Tipo: Despesa
 
@@ -1142,7 +1142,7 @@ ACTION 4: IF total > orçamento categoria:
 
 **Valor:** Controle financeiro sem abrir app, sem planilha manual
 
-**Automação 2: Digest Diário Personalizado**
+**Automaçêo 2: Digest Diário Personalizado**
 
 ```
 SCHEDULE: Every day 7am
@@ -1188,16 +1188,16 @@ ACTION 6: Gmail - Send Email
 
 **Impacto:** Começa dia informado, organizado, em 2 minutos de leitura
 
-## 6. Como Monetizar Automação (R$ 500 - R$ 10.000 por Projeto)
+## 6. Como Monetizar Automaçêo (R$ 500 - R$ 10.000 por Projeto)
 
-### 6.1 Modelos de Precificação
+### 6.1 Modelos de Precificaçêo
 
 **Modelo 1: Por Hora (Iniciante)**
 - Júnior (0-6 meses exp): R$ 50-80/h
 - Pleno (6-18 meses exp): R$ 80-150/h
 - Sênior (18+ meses exp): R$ 150-250/h
 
-**Quando usar:** Projetos imprevisíveis, escopo não claro
+**Quando usar:** Projetos imprevisíveis, escopo nêo claro
 
 **Modelo 2: Por Projeto (Recomendado)**
 
@@ -1211,8 +1211,8 @@ Baseado em complexidade + valor entregue:
 | Enterprise | 20+ | 40+h | R$ 10.000+ |
 
 **Exemplo:**
-- Automação "Form → CRM → Email": Simples = R$ 800
-- Automação "E-commerce completo": Complexo = R$ 6.000
+- Automaçêo "Form → CRM → Email": Simples = R$ 800
+- Automaçêo "E-commerce completo": Complexo = R$ 6.000
 
 **Modelo 3: Valor (Avançado - Melhor ROI)**
 
@@ -1224,7 +1224,7 @@ Economia: R$ 4.000/mês
 
 **Seu preço:**
 - Setup: R$ 3.000 (paga em 3 semanas de economia)
-- Manutenção: R$ 500/mês (12,5% da economia)
+- Manutençêo: R$ 500/mês (12,5% da economia)
 - ROI cliente: 1.200%+ no primeiro ano
 
 **Cliente fica feliz (economiza muito) + você ganha bem**
@@ -1245,18 +1245,18 @@ Pacotes:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PROPOSTA: Automação [Nome Processo]
+PROPOSTA: Automaçêo [Nome Processo]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 PARA: [Cliente]
 DE: [Seu Nome] - Automation Specialist
 DATA: [Data]
 
-━━━ SITUAÇÃO ATUAL ━━━
+━━━ SITUAÇêO ATUAL ━━━
 
 Processo: [Nome]
 Frequência: [X vezes/dia, semana, mês]
-Tempo por execução: [Xh]
+Tempo por execuçêo: [Xh]
 Pessoas envolvidas: [quantas]
 
 CUSTO ATUAL:
@@ -1270,9 +1270,9 @@ PROBLEMAS IDENTIFICADOS:
 - [Problema 2: ex: demora excessiva]
 - [Problema 3: ex: falta rastreabilidade]
 
-━━━ SOLUÇÃO PROPOSTA ━━━
+━━━ SOLUÇêO PROPOSTA ━━━
 
-Automação com Make conectando:
+Automaçêo com Make conectando:
 - [App 1]
 - [App 2]
 - [App 3]
@@ -1280,22 +1280,22 @@ Automação com Make conectando:
 FUNCIONAMENTO:
 1. [Trigger]: Quando [evento]
 2. [Action 1]: Sistema automaticamente [faz X]
-3. [Action 2]: E então [faz Y]
+3. [Action 2]: E entêo [faz Y]
 4. [Action 3]: Por fim [faz Z]
-5. [Notificação]: Equipe recebe confirmação
+5. [Notificaçêo]: Equipe recebe confirmaçêo
 
 BENEFÍCIOS:
-✅ Reduz tempo: [Xh] → [Ymin] (redução de [%])
+✅ Reduz tempo: [Xh] → [Ymin] (reduçêo de [%])
 ✅ Elimina erros manuais
 ✅ Rastreabilidade completa (logs)
 ✅ Escalável (processa 10 ou 1.000, mesmo esforço)
-✅ Funciona 24/7 sem intervenção
+✅ Funciona 24/7 sem intervençêo
 
 ━━━ INVESTIMENTO ━━━
 
 SETUP (one-time):
 - Mapeamento processo: R$ [X]
-- Desenvolvimento automação: R$ [Y]
+- Desenvolvimento automaçêo: R$ [Y]
 - Testes + ajustes: R$ [Z]
 - Treinamento equipe: R$ [W]
 TOTAL SETUP: R$ [X+Y+Z+W]
@@ -1326,12 +1326,12 @@ Exemplo:
 ━━━ CRONOGRAMA ━━━
 
 Semana 1:
-- Reunião alinhamento (1h)
+- Reuniêo alinhamento (1h)
 - Mapeamento detalhado processo (2h)
-- Aprovação escopo
+- Aprovaçêo escopo
 
 Semana 2:
-- Desenvolvimento automação
+- Desenvolvimento automaçêo
 - Testes internos
 
 Semana 3:
@@ -1341,20 +1341,20 @@ Semana 3:
 Semana 4:
 - Go-live
 - Treinamento equipe (2h)
-- Documentação entregue
+- Documentaçêo entregue
 
 TIMELINE TOTAL: 4 semanas
 
 ━━━ GARANTIAS ━━━
 
-✅ Automação funcionando 100% ou reembolso
+✅ Automaçêo funcionando 100% ou reembolso
 ✅ 30 dias de suporte pós-go-live inclusos
-✅ Documentação completa entregue
+✅ Documentaçêo completa entregue
 ✅ Treinamento gravado para consulta
 
 ━━━ PRÓXIMOS PASSOS ━━━
 
-1. Aprovação desta proposta
+1. Aprovaçêo desta proposta
 2. Assinatura contrato
 3. Pagamento 50% setup (início trabalho)
 4. Kickoff meeting agendado
@@ -1369,7 +1369,7 @@ Automation Specialist
 [Email] | [Telefone] | [LinkedIn]
 ```
 
-**Taxa de conversão:** Propostas assim convertem 40-60% (vs 10-20% propostas genéricas)
+**Taxa de conversêo:** Propostas assim convertem 40-60% (vs 10-20% propostas genéricas)
 
 ### 6.3 Onde Encontrar Clientes
 
@@ -1381,10 +1381,10 @@ Automation Specialist
 
 **Networking:**
 1. Eventos tech/startups locais
-2. Meetups de automação
+2. Meetups de automaçêo
 3. Ofereça grátis pra 2-3 primeiros (portfolio)
 
-**Prospecção ativa:**
+**Prospecçêo ativa:**
 1. Identifica empresas usando apps integráveis
 2. Envia proposta: "Vi que usam X e Y, posso conectá-los automaticamente"
 3. Taxa resposta: 5-10% (mas qualificados)
@@ -1393,25 +1393,25 @@ Automation Specialist
 
 **Objetivo:** Sair deste módulo com 3 automações funcionando que você pode mostrar em portfolio
 
-**PARTE 1: Automação Pessoal (45min)**
+**PARTE 1: Automaçêo Pessoal (45min)**
 
 Escolha 1:
 - A) Finanças: Emails de banco → Sheets (categoriza gastos)
 - B) Produtividade: Todo list Notion → Reminder Slack/Email
 - C) Aprendizado: RSS blogs → Notion (com resumo IA)
 
-**Entrega:** Automação funcionando + screenshot
+**Entrega:** Automaçêo funcionando + screenshot
 
-**PARTE 2: Automação Profissional (45min)**
+**PARTE 2: Automaçêo Profissional (45min)**
 
 Escolha 1:
 - A) Lead capture: Form → Sheets + Email + CRM
 - B) Atendimento: Email suporte → Trello card + Auto-reply
 - C) Relatório: Dados (qualquer fonte) → Sheet + Email digest diário
 
-**Entrega:** Automação funcionando + documentação (o que faz, por quê, ROI)
+**Entrega:** Automaçêo funcionando + documentaçêo (o que faz, por quê, ROI)
 
-**PARTE 3: Automação Portfolio (30min)**
+**PARTE 3: Automaçêo Portfolio (30min)**
 
 Crie algo impressionante para mostrar:
 - Complexo (5+ módulos)
@@ -1425,22 +1425,22 @@ Ideias:
 
 **Entrega:**
 1. Vídeo 2min mostrando funcionando (Loom)
-2. Descrição completa
+2. Descriçêo completa
 3. "Antes vs Depois" (tempo economizado)
 
 **BÔNUS: Publique no LinkedIn**
 
 Post modelo:
 ```
-Acabei de criar minha [número]ª automação no-code! 🤖
+Acabei de criar minha [número]ª automaçêo no-code! 🤖
 
 Problema: [descrever]
-Solução: [descrever]
+Soluçêo: [descrever]
 Resultado: [tempo economizado, erro eliminado, etc]
 
 Ferramentas: Make + [apps]
 
-[Imagem/vídeo da automação]
+[Imagem/vídeo da automaçêo]
 
 #nocode #automacao #produtividade #make
 ```
@@ -1449,14 +1449,14 @@ Ferramentas: Make + [apps]
 
 ---
 
-## 8. A Revolução da IA Generativa: Codificação Assistida e "Vibe Coding"
+## 8. A Revoluçêo da IA Generativa: Codificaçêo Assistida e "Vibe Coding"
 
-**AVISO IMPORTANTE: Você está vivendo uma revolução tecnológica AGORA.**
+**AVISO IMPORTANTE: Você está vivendo uma revoluçêo tecnológica AGORA.**
 
-Se automação no-code mudou o jogo nos últimos 5 anos, **IA generativa para código está mudando TUDO nos últimos 18 meses.**
+Se automaçêo no-code mudou o jogo nos últimos 5 anos, **IA generativa para código está mudando TUDO nos últimos 18 meses.**
 
 Estamos falando de ferramentas que:
-- **Escrevem código inteiro baseado em descrição em português**
+- **Escrevem código inteiro baseado em descriçêo em português**
 - **Criam apps completos em minutos** (frontend + backend + banco de dados)
 - **Debugam e explicam código** melhor que muitos developers
 - **Transformam ideia em produto** sem você escrever uma linha de código
@@ -1464,17 +1464,17 @@ Estamos falando de ferramentas que:
 **Dados de mercado brutal (2024-2025):**
 - 92% dos desenvolvedores profissionais usam IA para código (GitHub Survey 2024)
 - Produtividade: +35-55% com ferramentas IA (McKinsey 2024)
-- Tempo desenvolvimento: 70-80% redução em MVPs (dados startups)
+- Tempo desenvolvimento: 70-80% reduçêo em MVPs (dados startups)
 - GitHub Copilot: 1M+ desenvolvedores pagantes, 50k+ empresas
 - Claude Code, Cursor, Replit: crescimento explosivo 300-500% em 2024
 
 **A verdade dura:**
 
-Se você NÃO aprender essas ferramentas, você vai ficar pra trás. RÁPIDO.
+Se você NêO aprender essas ferramentas, você vai ficar pra trás. RÁPIDO.
 
 Mas se você dominar, **você sozinho faz o trabalho de uma equipe de 3-5 pessoas.**
 
-Vamos mergulhar nas ferramentas que estão mudando TUDO.
+Vamos mergulhar nas ferramentas que estêo mudando TUDO.
 
 ### 8.1 Categorias de Ferramentas IA para Código
 
@@ -1492,14 +1492,14 @@ Editores de código turbinados com IA que autocompleta, sugere, refatora, explic
 **O que fazem:**
 - Autocomplete inteligente (escreve funções inteiras)
 - Chat no editor (pergunta, ele responde e edita código)
-- Refatoração automática
-- Geração de testes
-- Documentação automática
+- Refatoraçêo automática
+- Geraçêo de testes
+- Documentaçêo automática
 - Debug assistido
 
 **CATEGORIA 2: Geradores Full-Stack (AI App Builders)**
 
-Ferramentas que criam apps COMPLETOS baseado em descrição.
+Ferramentas que criam apps COMPLETOS baseado em descriçêo.
 
 **Principais:**
 - **Lovable (ex-GPT Engineer)** (frontend + backend, muito rápido)
@@ -1511,7 +1511,7 @@ Ferramentas que criam apps COMPLETOS baseado em descrição.
 - Você descreve app em linguagem natural
 - IA gera código completo (frontend + backend + DB)
 - Interface visual para iterar
-- Deploy automático em produção
+- Deploy automático em produçêo
 - Hosting incluído
 
 **CATEGORIA 3: Assistentes IA Especializados**
@@ -1520,8 +1520,8 @@ IAs treinadas para tarefas específicas de desenvolvimento.
 
 **Principais:**
 - **Tabnine** (autocomplete especializado por linguagem)
-- **Amazon CodeWhisperer** (integração AWS, grátis)
-- **Google AI Studio / Gemini Code Assist** (integração GCP)
+- **Amazon CodeWhisperer** (integraçêo AWS, grátis)
+- **Google AI Studio / Gemini Code Assist** (integraçêo GCP)
 - **Pieces for Developers** (gerenciador snippets + IA)
 
 **Vamos detalhar as MAIS IMPORTANTES:**
@@ -1534,9 +1534,9 @@ Cursor é um editor de código (fork do VS Code) com IA nativa ABSURDAMENTE pode
 
 **Por que está dominando o mercado:**
 
-✅ **Autocomplete supernatural:** Prevê não só linha, mas blocos inteiros de código
+✅ **Autocomplete supernatural:** Prevê nêo só linha, mas blocos inteiros de código
 ✅ **Chat integrado:** Conversa com IA no editor, ela edita arquivos direto
-✅ **Multi-file editing:** IA edita vários arquivos simultaneamente (refatoração complexa)
+✅ **Multi-file editing:** IA edita vários arquivos simultaneamente (refatoraçêo complexa)
 ✅ **Codebase awareness:** IA conhece TODO seu projeto (lê todos arquivos)
 ✅ **Composer mode:** Descreve feature, IA implementa em múltiplos arquivos
 ✅ **Terminal integrado:** IA roda comandos, debuga erros
@@ -1547,7 +1547,7 @@ Cursor é um editor de código (fork do VS Code) com IA nativa ABSURDAMENTE pode
 **Exemplo 1: Criar feature completa**
 ```
 Você (no Cursor Chat):
-"Adiciona autenticação com Google OAuth.
+"Adiciona autenticaçêo com Google OAuth.
 Backend Express, frontend React,
 JWT para sessions, MongoDB para users."
 
@@ -1576,9 +1576,9 @@ Cursor:
 "O erro está em ProductList.jsx:47.
 Você está tentando fazer .map() em products,
 mas products está undefined porque o fetch
-ainda não retornou.
+ainda nêo retornou.
 
-Solução: adicione loading state ou
+Soluçêo: adicione loading state ou
 optional chaining products?.map()
 
 Posso corrigir para você?"
@@ -1603,10 +1603,10 @@ Sem IA: 10-30 minutos debugando
 
 **Como começar:**
 1. Download: cursor.sh
-2. Importa configuração VS Code
+2. Importa configuraçêo VS Code
 3. Faz tutorial interativo (10min)
 4. Usa em projeto real
-5. Em 1 semana você não vive sem
+5. Em 1 semana você nêo vive sem
 
 ### 8.3 GitHub Copilot: O Mais Popular (OpenAI Codex)
 
@@ -1615,16 +1615,16 @@ Sem IA: 10-30 minutos debugando
 Assistente IA da Microsoft/GitHub, powered by OpenAI Codex (GPT-4 para código).
 
 **Vantagens:**
-✅ **Funciona em VS Code, JetBrains, Neovim** (não precisa trocar editor)
+✅ **Funciona em VS Code, JetBrains, Neovim** (nêo precisa trocar editor)
 ✅ **Maduro:** 3+ anos no mercado, muito refinado
-✅ **Integração GitHub:** Conhece repos públicos, aprende padrões
+✅ **Integraçêo GitHub:** Conhece repos públicos, aprende padrões
 ✅ **Copilot Chat:** Conversa no editor
 ✅ **Copilot Workspace:** Planeja e implementa features (beta 2025)
 ✅ **Grátis para estudantes e projetos open source**
 
 **Diferenças vs Cursor:**
-- Cursor: Mais poderoso, edição multi-file melhor
-- Copilot: Mais estável, maior base de código treinado, integração GitHub
+- Cursor: Mais poderoso, ediçêo multi-file melhor
+- Copilot: Mais estável, maior base de código treinado, integraçêo GitHub
 
 **Preços:**
 - **Individual:** $10/mês (~R$ 52)
@@ -1633,7 +1633,7 @@ Assistente IA da Microsoft/GitHub, powered by OpenAI Codex (GPT-4 para código).
 
 **Caso de uso killer: Testes automáticos**
 ```javascript
-// Você escreve função:
+// Você escreve funçêo:
 function calculateShippingCost(weight, distance, express) {
   // [lógica complexa de cálculo]
 }
@@ -1653,7 +1653,7 @@ describe('calculateShippingCost', () => {
   });
 });
 
-// Copilot gerou TODOS os testes baseado na função!
+// Copilot gerou TODOS os testes baseado na funçêo!
 ```
 
 **Escolha Cursor OU Copilot?**
@@ -1664,8 +1664,8 @@ describe('calculateShippingCost', () => {
 - Quer composer mode (descreve, IA implementa)
 
 **Use Copilot se:**
-- Adora seu editor atual (VS Code, JetBrains) e não quer trocar
-- Trabalha muito com GitHub (integração nativa)
+- Adora seu editor atual (VS Code, JetBrains) e nêo quer trocar
+- Trabalha muito com GitHub (integraçêo nativa)
 - Quer mais barato ($10 vs $20)
 - Prefere ferramenta mais madura/estável
 
@@ -1681,9 +1681,9 @@ Claude Code é assistente IA da Anthropic especializado em desenvolvimento, inte
 
 ✅ **Raciocínio superior:** Claude 3.5 Sonnet > GPT-4 em muitas tarefas de código
 ✅ **Contexto massivo:** 200k tokens (lê codebases gigantes inteiros)
-✅ **Segurança:** Menos alucinação que GPT (crítico em código)
+✅ **Segurança:** Menos alucinaçêo que GPT (crítico em código)
 ✅ **Explicações didáticas:** Explica código melhor que qualquer outra IA
-✅ **Refatoração complexa:** Entende arquitetura, sugere melhorias estruturais
+✅ **Refatoraçêo complexa:** Entende arquitetura, sugere melhorias estruturais
 
 **Onde brilha:**
 
@@ -1709,7 +1709,7 @@ FASE 1: Modularize monolito
 
 FASE 2: Extract serviços gradualmente
 - Comece com Catalog (menos acoplado)
-- Use message queue (RabbitMQ/Kafka) para comunicação
+- Use message queue (RabbitMQ/Kafka) para comunicaçêo
 - Mantenha API Gateway (Express Gateway ou Kong)
 
 FASE 3: ...
@@ -1739,7 +1739,7 @@ Claude:
 5. CORS aberto para * (limitar domínios)
 
 🟢 MELHORIAS (3):
-6. Função getUserData() está fazendo 3 coisas...
+6. Funçêo getUserData() está fazendo 3 coisas...
    [continua...]
 ```
 
@@ -1765,7 +1765,7 @@ Lovable (ex-GPT Engineer) é gerador de apps COMPLETOS. Você descreve, ele cria
 ```
 Você escreve (em português ou inglês):
 
-"Crie app de gestão de tarefas:
+"Crie app de gestêo de tarefas:
 - Login com email/senha
 - Criar, editar, deletar tarefas
 - Categorias e prioridades
@@ -1804,17 +1804,17 @@ PRONTO PARA USAR.
 
 **Limitações:**
 ❌ Apps muito complexos (100+ páginas) podem ser difíceis
-❌ Customização profunda requer editar código depois
+❌ Customizaçêo profunda requer editar código depois
 ❌ Integrações custom podem precisar code manual
 
 **Preços Lovable:**
 - **Free:** 3 projetos/mês, features básicas
 - **Pro ($20/mês):** Projetos ilimitados, mais AI credits
-- **Team ($50/mês):** Colaboração, advanced features
+- **Team ($50/mês):** Colaboraçêo, advanced features
 
 **ROI brutal:**
 - Sem IA: Contratar dev = R$ 5.000-15.000 para MVP
-- Com Lovable: $20/mês + sua descrição = MVP em horas
+- Com Lovable: $20/mês + sua descriçêo = MVP em horas
 - Economia: 99%+
 
 ### 8.6 Bolt (StackBlitz): Apps Instantâneos no Navegador
@@ -1829,7 +1829,7 @@ Bolt é editor + IA no NAVEGADOR. Cria apps completos sem instalar nada localmen
 ✅ **Preview live:** Vê app funcionando em tempo real
 ✅ **Deploy 1-click:** Netlify/Vercel integrado
 ✅ **Qualquer framework:** React, Vue, Angular, Svelte, Node, Python
-✅ **Colaboração real-time:** Google Docs para código
+✅ **Colaboraçêo real-time:** Google Docs para código
 
 **Perfeito para:**
 
@@ -1844,7 +1844,7 @@ Bolt (30 segundos):
 - Gráfico com chart.js
 - Exportar PDF
 
-Você testa, itera: "Adiciona comparação com 3 cenários"
+Você testa, itera: "Adiciona comparaçêo com 3 cenários"
 Bolt atualiza em 10 segundos.
 ```
 
@@ -1855,7 +1855,7 @@ Bolt atualiza em 10 segundos.
 
 **3. Entrevistas técnicas:**
 - Live coding em entrevista
-- Mostra app funcionando, não só código
+- Mostra app funcionando, nêo só código
 
 **Preços:**
 - **Free:** Projetos públicos, limite AI
@@ -1885,7 +1885,7 @@ Replit é IDE online + hosting + IA. Ambiente completo de desenvolvimento sem in
 ✅ **Qualquer linguagem:** Python, JavaScript, Go, Rust, 50+ linguagens
 ✅ **Hosting grátis:** Deploy automático, URL pública
 ✅ **IA integrada:** Explica erros, gera código, debuga
-✅ **Colaboração:** Pair programming real-time
+✅ **Colaboraçêo:** Pair programming real-time
 ✅ **Banco de dados:** PostgreSQL, Redis inclusos
 ✅ **Educacional:** Tutoriais interativos
 
@@ -1896,7 +1896,7 @@ Você: "Crie API REST para blog:
 - Posts (CRUD)
 - Comentários
 - Auth JWT
-- Deploy em produção"
+- Deploy em produçêo"
 
 Replit AI Agent:
 [Cria projeto Python Flask]
@@ -1905,9 +1905,9 @@ Replit AI Agent:
 [Adiciona JWT auth]
 [Testes unitários]
 [Deploy automático]
-[Gera documentação API (Swagger)]
+[Gera documentaçêo API (Swagger)]
 
-Link produção: https://blog-api-seu-user.replit.app
+Link produçêo: https://blog-api-seu-user.replit.app
 
 Tempo: 5-10 minutos
 ```
@@ -1929,7 +1929,7 @@ Você aprende Python neste curso → quer praticar → usa Replit:
 **Recursos incríveis grátis:**
 - Replit Ghostwriter (AI copilot) - 100 AI calls/mês grátis
 - Hosting grátis (apps dormem após inatividade)
-- Colaboração ilimitada
+- Colaboraçêo ilimitada
 - 50+ templates prontos
 
 ### 8.8 Ferramentas das Big Techs
@@ -1937,7 +1937,7 @@ Você aprende Python neste curso → quer praticar → usa Replit:
 **Google: Gemini Code Assist / AI Studio**
 
 - **O que é:** IA da Google para código (Gemini para devs)
-- **Integração:** Google Cloud, IDEs
+- **Integraçêo:** Google Cloud, IDEs
 - **Vantagens:**
   - Multimodal (analisa imagens, diagramas)
   - Contexto 2M tokens (MAIOR do mercado)
@@ -1945,14 +1945,14 @@ Você aprende Python neste curso → quer praticar → usa Replit:
 - **Melhor para:**
   - Projetos Google Cloud
   - Análise codebases gigantes
-  - Documentação com diagramas
+  - Documentaçêo com diagramas
 
 **Amazon: CodeWhisperer**
 
 - **O que é:** Copilot da AWS
 - **Vantagens:**
   - **Grátis** (individual)
-  - Integração AWS (sugere melhores serviços)
+  - Integraçêo AWS (sugere melhores serviços)
   - Segurança (detecta vulnerabilidades)
   - Bom para Python, Java, JavaScript
 - **Melhor para:**
@@ -1962,7 +1962,7 @@ Você aprende Python neste curso → quer praticar → usa Replit:
 **Microsoft: Copilot (já vimos) + Copilot Workspace**
 
 - **Copilot Workspace (Beta 2025):** IA planeja + implementa + testa features
-- **Integração DevOps:** Azure, GitHub Actions
+- **Integraçêo DevOps:** Azure, GitHub Actions
 
 ### 8.9 Como Isso Muda o Jogo do Desenvolvimento
 
@@ -1975,7 +1975,7 @@ Criar app simples:
 4. Escreve código (dias/semanas)
 5. Debug (dias)
 6. Deploy (horas)
-7. Manutenção (contínuo)
+7. Manutençêo (contínuo)
 
 **Tempo total:** 2-6 meses (iniciante) | 2-4 semanas (profissional)
 
@@ -1990,7 +1990,7 @@ Criar mesmo app:
 
 **Tempo total:** 2-8 horas (iniciante) | 30min-2h (profissional)
 
-**Redução: 90-98% do tempo.**
+**Reduçêo: 90-98% do tempo.**
 
 **O que isso significa para VOCÊ:**
 
@@ -1999,7 +1999,7 @@ Criar mesmo app:
 - Agora: Em 1 semana você cria apps reais
 
 **2. Foco muda de "escrever código" para "resolver problemas":**
-- Habilidade crítica: Saber O QUE construir, não COMO
+- Habilidade crítica: Saber O QUE construir, nêo COMO
 - IA escreve código, você direciona
 
 **3. Produtividade absurda:**
@@ -2035,7 +2035,7 @@ Criar mesmo app:
 
 **Resultado esperado:** Confortável pedindo ajuda pra IA, entende outputs
 
-**FASE 2: Aplicação Prática (Semanas 3-4)**
+**FASE 2: Aplicaçêo Prática (Semanas 3-4)**
 
 **Objetivo:** Usar IA em projetos reais
 
@@ -2059,13 +2059,13 @@ Criar mesmo app:
 
 **FASE 3: Maestria (Mês 2+)**
 
-**Objetivo:** IA como extensão do seu cérebro
+**Objetivo:** IA como extensêo do seu cérebro
 
 **Ações:**
 1. **Use IA para aprender conceitos avançados:**
    ```
    Cursor/Claude: "Explica arquitetura hexagonal em Node.js.
-   Depois converte este projeto para esse padrão."
+   Depois converte este projeto para esse padrêo."
    ```
 
 2. **Combine múltiplas ferramentas:**
@@ -2084,15 +2084,15 @@ Criar mesmo app:
 
 **LIMITAÇÕES ATUAIS (2025):**
 
-❌ **IA não é perfeita:**
+❌ **IA nêo é perfeita:**
 - Gera bugs (você precisa testar)
-- Às vezes alucina (inventa APIs que não existem)
-- Código pode não seguir best practices
+- Às vezes alucina (inventa APIs que nêo existem)
+- Código pode nêo seguir best practices
 
 ❌ **Projetos muito complexos:**
 - Apps com 100+ telas = difícil IA gerar tudo
 - Lógica de negócio muito específica = precisa guiar IA detalhadamente
-- Sistemas legados = IA não conhece, difícil refatorar
+- Sistemas legados = IA nêo conhece, difícil refatorar
 
 ❌ **Segurança:**
 - IA pode gerar código vulnerável (SQL injection, XSS, etc)
@@ -2101,15 +2101,15 @@ Criar mesmo app:
 
 **ÉTICA:**
 
-✅ **Use IA como ferramenta, não para enganar:**
-- Cliente merece saber que usou IA? **Não necessariamente** (ferramenta é ferramenta)
+✅ **Use IA como ferramenta, nêo para enganar:**
+- Cliente merece saber que usou IA? **Nêo necessariamente** (ferramenta é ferramenta)
 - Mas entregue código de qualidade
-- Não venda algo bugado/inseguro
+- Nêo venda algo bugado/inseguro
 
 ✅ **Aprenda fundamentos:**
-- Não use IA como muleta sem entender nada
+- Nêo use IA como muleta sem entender nada
 - Entenda HTML, CSS, JavaScript básico
-- IA amplifica conhecimento, não substitui
+- IA amplifica conhecimento, nêo substitui
 
 ✅ **Direitos autorais:**
 - Código gerado por IA = geralmente seu (leia ToS)
@@ -2130,34 +2130,34 @@ Criar mesmo app:
 - Adiciona testes quando faltam
 - Otimiza performance sozinha
 
-🔮 **Programação por voz:**
+🔮 **Programaçêo por voz:**
 - "Alexa, adiciona dark mode no meu app"
 - IA implementa enquanto você toma café
 
 🔮 **IA que aprende SEU estilo:**
 - Analisa como você programa
-- Sugere no SEU padrão (não genérico)
+- Sugere no SEU padrêo (nêo genérico)
 - Lembra decisões arquiteturais passadas
 
 **Impacto no mercado de trabalho:**
 
-**Profissionais que vão PROSPERAR:**
+**Profissionais que vêo PROSPERAR:**
 - Developers que dominam IA (produtividade 10x)
 - Product-minded (sabem O QUE construir)
-- Arquitetos (decisões estruturais IA ainda não faz bem)
+- Arquitetos (decisões estruturais IA ainda nêo faz bem)
 
 **Profissionais em risco:**
 - Developers júnior que fazem APENAS tarefas repetitivas
 - Quem recusa aprender IA ("isso é coisa de preguiçoso")
-- Quem não agrega valor além de digitar código
+- Quem nêo agrega valor além de digitar código
 
 **SUA ESTRATÉGIA:**
 1. **Abrace IA agora** (vantagem de early adopter)
-2. **Foque em habilidades que IA não tem:**
+2. **Foque em habilidades que IA nêo tem:**
    - Entender cliente/usuário
    - Decisões de produto
-   - Soft skills (comunicação, empatia)
-3. **Use IA para fazer 10x mais** (não para fazer 10x menos)
+   - Soft skills (comunicaçêo, empatia)
+3. **Use IA para fazer 10x mais** (nêo para fazer 10x menos)
 4. **Ensine outros** (skill valiosa: prompt engineering para código)
 
 ### 8.12 Exercício Prático: Seu Primeiro App com IA
@@ -2198,7 +2198,7 @@ Criar mesmo app:
 ```
 "Crie [nome app] com as seguintes funcionalidades:
 
-AUTENTICAÇÃO:
+AUTENTICAÇêO:
 - [detalhe o que quer]
 
 FEATURES:
@@ -2209,7 +2209,7 @@ FEATURES:
 DESIGN:
 - [estilo: moderno/minimalista/corporativo]
 - [cores preferidas]
-- [dark mode: sim/não]
+- [dark mode: sim/nêo]
 
 TECH STACK:
 - Frontend: [React/Vue/vanilla]
@@ -2230,8 +2230,8 @@ DEPLOY:
 
 **5. Itere:**
 ```
-"Adiciona validação nos forms"
-"Melhora UX do botão de deletar (confirmar antes)"
+"Adiciona validaçêo nos forms"
+"Melhora UX do botêo de deletar (confirmar antes)"
 "Adiciona loading states"
 ```
 
@@ -2249,7 +2249,7 @@ DEPLOY:
 - Post LinkedIn mostrando (opcional mas recomendado)
 - Adicione ao portfolio
 
-**REFLEXÃO:**
+**REFLEXêO:**
 - Quanto tempo levou? (vs estimativa sem IA)
 - O que IA fez bem?
 - O que você teve que corrigir/ajustar?
@@ -2261,15 +2261,15 @@ DEPLOY:
 
 **Módulo 5: Notion para Produtividade**
 - Notion como segundo cérebro
-- Gestão de projetos e tarefas
+- Gestêo de projetos e tarefas
 - Databases e relations
 - Base de conhecimento
 - Integrações Make + Notion (power combo!)
 
-**Prepare-se para:** Organização nivel expert que impressiona em entrevistas
+**Prepare-se para:** Organizaçêo nivel expert que impressiona em entrevistas
 
 Nos vemos lá! 🚀
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

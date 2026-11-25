@@ -1,42 +1,42 @@
-# PRD - FETD (Formação em Engenharia de Intenção)
+# PRD - FETD (Formaçêo em Engenharia de Intençêo)
 
-**Versão:** 1.0
+**Versêo:** 1.0
 **Data:** 17 de Novembro de 2025
 **Autor:** Product Manager - BMad Method
 **Status:** Draft Initial
 
 ---
 
-## 1. VISÃO GERAL
+## 1. VISêO GERAL
 
-### 1.1 Missão do Produto
+### 1.1 Missêo do Produto
 
-Criar uma plataforma educacional digital que permita milhões de pessoas comuns atravessarem a revolução da Inteligência Artificial, transformando tecnologia em autonomia, produtividade e valor profissional.
+Criar uma plataforma educacional digital que permita milhões de pessoas comuns atravessarem a revoluçêo da Inteligência Artificial, transformando tecnologia em autonomia, produtividade e valor profissional.
 
 ### 1.2 Problema que Resolve
 
 **Contexto:**
 - A IA está mudando radicalmente o mercado de trabalho
-- Milhões de pessoas não entendem a mudança e ficam para trás
-- Cursos genéricos não atendem necessidades específicas
-- Falta de formação prática, acessível e adaptativa
+- Milhões de pessoas nêo entendem a mudança e ficam para trás
+- Cursos genéricos nêo atendem necessidades específicas
+- Falta de formaçêo prática, acessível e adaptativa
 
 **Dores Identificadas:**
 
 | Público | Dor Principal | Sintomas |
 |---------|---------------|----------|
 | **Operacionais** | Sobrecarga de trabalho repetitivo | Falta de tempo, pouco reconhecimento, estresse |
-| **Comunicadores** | Não consegue atender demanda | Oportunidades perdidas, baixa conversão, acúmulo |
-| **Talentos** | Sem experiência ou portfólio | Insegurança, falta de oportunidades, estagnação |
-| **Técnicos** | Não consegue comunicar valor | Estagnação salarial, falta de reconhecimento, propostas baixas |
+| **Comunicadores** | Nêo consegue atender demanda | Oportunidades perdidas, baixa conversêo, acúmulo |
+| **Talentos** | Sem experiência ou portfólio | Insegurança, falta de oportunidades, estagnaçêo |
+| **Técnicos** | Nêo consegue comunicar valor | Estagnaçêo salarial, falta de reconhecimento, propostas baixas |
 
-### 1.3 Solução Proposta
+### 1.3 Soluçêo Proposta
 
 **FETD: Plataforma de 4 trilhas educacionais adaptativas**, cada uma com:
 - Linguagem e exemplos personalizados por público
 - 10 módulos progressivos com teoria + prática
-- Exercícios de reflexão e projetos práticos
-- Sistema de gamificação e certificação
+- Exercícios de reflexêo e projetos práticos
+- Sistema de gamificaçêo e certificaçêo
 - 100% online, self-paced, no GitHub Pages
 
 ---
@@ -48,8 +48,8 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 | Métrica | Meta (6 meses) | Meta (12 meses) |
 |---------|----------------|-----------------|
 | Alunos ativos | 1.000 | 10.000 |
-| Taxa de conclusão | 40% | 60% |
-| NPS (satisfação) | 70+ | 80+ |
+| Taxa de conclusêo | 40% | 60% |
+| NPS (satisfaçêo) | 70+ | 80+ |
 | Portfólios criados | 400 | 6.000 |
 | Oportunidades geradas | 200 | 3.000 |
 
@@ -62,7 +62,7 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 
 #### 🟩 Trilha Comunicador
 - **Meta:** 3x mais atendimentos/vendas
-- **KPI:** 50% aumento em conversão
+- **KPI:** 50% aumento em conversêo
 - **Entregável:** Sistema completo de vendas automatizado
 
 #### 🟨 Trilha Talento
@@ -89,7 +89,7 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 **Comportamento:**
 - Trabalha 8-10h/dia em tarefas manuais
 - Usa ferramentas básicas (Excel, email, WhatsApp)
-- Não tem tempo para aprender coisas complexas
+- Nêo tem tempo para aprender coisas complexas
 - Busca produtividade e reconhecimento
 
 **Dores:**
@@ -101,10 +101,10 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 **Objetivos:**
 - Automatizar tarefas chatas
 - Recuperar tempo pessoal
-- Ganhar promoção/reconhecimento
+- Ganhar promoçêo/reconhecimento
 - Trabalhar de forma mais inteligente
 
-**Citação típica:**
+**Citaçêo típica:**
 > "Eu passo o dia fazendo as mesmas coisas. Se eu pudesse automatizar isso, ganharia horas e poderia focar no que realmente importa."
 
 ---
@@ -114,28 +114,28 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 **Demográfico:**
 - 25-40 anos
 - Vendedor, atendente, SDR, account manager
-- Salário: R$ 2.500 - R$ 8.000 (comissão variável)
+- Salário: R$ 2.500 - R$ 8.000 (comissêo variável)
 
 **Comportamento:**
 - Atende 20-50 clientes/dia
 - Usa WhatsApp, email, CRM básico
-- Perde oportunidades por não dar conta
+- Perde oportunidades por nêo dar conta
 - Busca escalar sem perder qualidade
 
 **Dores:**
 - Acúmulo de mensagens
 - Oportunidades perdidas
-- Não consegue fazer follow-up
-- Taxa de conversão baixa
+- Nêo consegue fazer follow-up
+- Taxa de conversêo baixa
 
 **Objetivos:**
 - Atender 3x mais clientes
-- Aumentar conversão em vendas
+- Aumentar conversêo em vendas
 - Sistema de follow-up automático
-- Ganhar mais (comissão)
+- Ganhar mais (comissêo)
 
-**Citação típica:**
-> "Eu perco vendas porque não consigo responder todo mundo rápido. Se tivesse um sistema, eu triplicaria meus resultados."
+**Citaçêo típica:**
+> "Eu perco vendas porque nêo consigo responder todo mundo rápido. Se tivesse um sistema, eu triplicaria meus resultados."
 
 ---
 
@@ -156,7 +156,7 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 - Falta de experiência
 - Portfólio vazio
 - Insegurança nas entrevistas
-- Não sabe por onde começar
+- Nêo sabe por onde começar
 
 **Objetivos:**
 - Construir portfólio rapidamente
@@ -164,7 +164,7 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 - Ganhar confiança profissional
 - Ser empregável
 
-**Citação típica:**
+**Citaçêo típica:**
 > "Todas as vagas pedem experiência, mas como eu consigo experiência sem vaga? Preciso de um portfólio rápido."
 
 ---
@@ -178,14 +178,14 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 
 **Comportamento:**
 - Excelente tecnicamente
-- Dificuldade em comunicação
-- Não se posiciona online
+- Dificuldade em comunicaçêo
+- Nêo se posiciona online
 - Fica estagnado na carreira
 
 **Dores:**
-- Não é reconhecido pelo que faz
+- Nêo é reconhecido pelo que faz
 - Dificuldade de explicar valor
-- Estagnação salarial
+- Estagnaçêo salarial
 - Propostas desvalorizadas
 
 **Objetivos:**
@@ -194,8 +194,8 @@ Criar uma plataforma educacional digital que permita milhões de pessoas comuns 
 - Receber propostas melhores
 - Evoluir: executor → consultor/líder
 
-**Citação típica:**
-> "Eu sei que sou bom, mas não consigo mostrar isso. Vejo pessoas menos técnicas ganhando mais porque sabem se vender."
+**Citaçêo típica:**
+> "Eu sei que sou bom, mas nêo consigo mostrar isso. Vejo pessoas menos técnicas ganhando mais porque sabem se vender."
 
 ---
 
@@ -208,8 +208,8 @@ FETD (Plataforma)
 │
 ├── Homepage
 │   ├── Hero Section
-│   ├── Quiz de Identificação (5 perguntas)
-│   ├── Apresentação das 4 Trilhas
+│   ├── Quiz de Identificaçêo (5 perguntas)
+│   ├── Apresentaçêo das 4 Trilhas
 │   └── Call-to-Action
 │
 ├── Trilha 1: Operacional (10 módulos)
@@ -223,18 +223,18 @@ FETD (Plataforma)
 #### 4.2.1 Homepage
 
 **Elementos obrigatórios:**
-- [ ] Navbar fixo com navegação
+- [ ] Navbar fixo com navegaçêo
 - [ ] Hero com chamada principal
 - [ ] Quiz interativo (5 perguntas → recomenda trilha)
 - [ ] Cards das 4 trilhas com promessas
-- [ ] Seção "Como Funciona"
+- [ ] Seçêo "Como Funciona"
 - [ ] Depoimentos/Social Proof (fase 2)
 - [ ] Footer com links
 
 **Fluxo:**
 1. Usuário chega → Hero impacta
 2. Quiz → identifica perfil
-3. Recomendação → direciona para trilha ideal
+3. Recomendaçêo → direciona para trilha ideal
 4. CTA → "Começar Agora"
 
 #### 4.2.2 Páginas de Trilha (Landing)
@@ -254,15 +254,15 @@ FETD (Plataforma)
 - [ ] Breadcrumb (Home / Trilha / Módulo)
 - [ ] Título do módulo + objetivo
 - [ ] Conteúdo teórico (3-5 seções)
-- [ ] Exercícios de Questionamento (reflexão)
-- [ ] Exercícios Práticos (mão na massa)
-- [ ] Navegação: ← Anterior | Próximo →
-- [ ] Botão: Download MD
+- [ ] Exercícios de Questionamento (reflexêo)
+- [ ] Exercícios Práticos (mêo na massa)
+- [ ] Navegaçêo: ← Anterior | Próximo →
+- [ ] Botêo: Download MD
 - [ ] Checkbox: "Marcar como Concluído"
 
-### 4.3 Sistema de Progressão
+### 4.3 Sistema de Progressêo
 
-**Gamificação:**
+**Gamificaçêo:**
 - [ ] Barra de progresso por trilha (% completado)
 - [ ] Badges por conquista:
   - 🥉 Bronze: 3 módulos
@@ -282,39 +282,39 @@ FETD (Plataforma)
 
 ### 5.1 MVP (Fase 1) - Essencial
 
-| Feature | Prioridade | Descrição |
+| Feature | Prioridade | Descriçêo |
 |---------|------------|-----------|
-| Homepage com Quiz | P0 | Landing principal + identificação de perfil |
-| 4 Trilhas (Landing Pages) | P0 | Apresentação de cada trilha |
+| Homepage com Quiz | P0 | Landing principal + identificaçêo de perfil |
+| 4 Trilhas (Landing Pages) | P0 | Apresentaçêo de cada trilha |
 | 40 Módulos (conteúdo) | P0 | 10 módulos × 4 trilhas com teoria + exercícios |
-| Navegação entre módulos | P0 | Anterior/Próximo, breadcrumb |
+| Navegaçêo entre módulos | P0 | Anterior/Próximo, breadcrumb |
 | Download MD | P0 | Baixar conteúdo de cada módulo |
 | Dark Mode | P0 | Tema claro/escuro (persistente) |
 | Responsivo | P0 | Mobile-first design |
 | Progresso visual | P1 | Barra de progresso, checkboxes |
-| Sistema de badges | P1 | Gamificação básica |
+| Sistema de badges | P1 | Gamificaçêo básica |
 
 ### 5.2 Fase 2 - Melhorias
 
-| Feature | Prioridade | Descrição |
+| Feature | Prioridade | Descriçêo |
 |---------|------------|-----------|
-| Autenticação | P1 | Login/cadastro de usuários |
+| Autenticaçêo | P1 | Login/cadastro de usuários |
 | Progresso sincronizado | P1 | Backend para salvar progresso |
 | Certificados gerados | P1 | PDF com dados do aluno |
 | Comentários/Dúvidas | P2 | Sistema de Q&A por módulo |
 | Comunidade | P2 | Fórum ou Discord integrado |
 | Projetos compartilhados | P2 | Galeria de portfólios de alunos |
-| Analytics | P1 | Métricas de uso e conclusão |
+| Analytics | P1 | Métricas de uso e conclusêo |
 
 ### 5.3 Fase 3 - Escala
 
-| Feature | Prioridade | Descrição |
+| Feature | Prioridade | Descriçêo |
 |---------|------------|-----------|
 | Mentorias ao vivo | P2 | Sessions mensais com especialistas |
 | Vídeo aulas | P2 | Complemento ao conteúdo texto |
-| Exercícios automatizados | P2 | Validação automática de respostas |
+| Exercícios automatizados | P2 | Validaçêo automática de respostas |
 | Integrações | P2 | Zapier, Make, GitHub, LinkedIn |
-| App mobile | P3 | Versão nativa iOS/Android |
+| App mobile | P3 | Versêo nativa iOS/Android |
 | Marketplace | P3 | Alunos vendem projetos/serviços |
 
 ---
@@ -324,12 +324,12 @@ FETD (Plataforma)
 ### 6.1 Trilha Operacional (10 módulos)
 
 #### Módulo 1: A Virada - Por Que Agora é Diferente
-**Duração estimada:** 30 min
-**Objetivo:** Despertar consciência sobre revolução
+**Duraçêo estimada:** 30 min
+**Objetivo:** Despertar consciência sobre revoluçêo
 
 **Conteúdo:**
 1. O que mudou nos últimos 2 anos
-2. Os 3 mitos (não precisa agência, dinheiro, audiência)
+2. Os 3 mitos (nêo precisa agência, dinheiro, audiência)
 3. Como pessoas comuns transformam carreiras
 4. Seu ponto de partida
 
@@ -347,18 +347,18 @@ FETD (Plataforma)
 ---
 
 #### Módulo 2: Golden Ratio - A Fórmula 60/30/10
-**Duração estimada:** 45 min
-**Objetivo:** Entender framework de automação
+**Duraçêo estimada:** 45 min
+**Objetivo:** Entender framework de automaçêo
 
 **Conteúdo:**
-1. Golden Ratio: 60% automação / 30% IA / 10% humano
-2. Por que essa proporção funciona
+1. Golden Ratio: 60% automaçêo / 30% IA / 10% humano
+2. Por que essa proporçêo funciona
 3. Matriz impacto × esforço
 4. O que automatizar primeiro
 
 **Exercícios de Questionamento:**
-- Das suas 10 tarefas, quantas são 100% repetitivas?
-- Quais precisam decisão humana?
+- Das suas 10 tarefas, quantas sêo 100% repetitivas?
+- Quais precisam decisêo humana?
 - Onde você agrega valor único?
 
 **Exercícios Práticos:**
@@ -366,12 +366,12 @@ FETD (Plataforma)
 - Escolher 1 tarefa para automatizar
 - Mapear processo passo a passo
 
-**Entregável:** "Mapa de Automação Pessoal"
+**Entregável:** "Mapa de Automaçêo Pessoal"
 
 ---
 
 #### Módulo 3: Seu Primeiro Assistente - IA na Prática
-**Duração estimada:** 1h
+**Duraçêo estimada:** 1h
 **Objetivo:** Usar IA para tarefas reais
 
 **Conteúdo:**
@@ -388,7 +388,7 @@ FETD (Plataforma)
 **Exercícios Práticos:**
 - Criar 5 prompts para suas tarefas:
   1. Organizar dados
-  2. Escrever email padrão
+  2. Escrever email padrêo
   3. Resumir documentos
   4. Criar relatório
   5. Formatar informações
@@ -399,11 +399,11 @@ FETD (Plataforma)
 ---
 
 #### Módulo 4: Ferramentas No-Code - Zapier e Make
-**Duração estimada:** 1h 30min
-**Objetivo:** Primeira automação sem código
+**Duraçêo estimada:** 1h 30min
+**Objetivo:** Primeira automaçêo sem código
 
 **Conteúdo:**
-1. O que são ferramentas no-code
+1. O que sêo ferramentas no-code
 2. Zapier vs Make: diferenças
 3. Conceito de triggers e actions
 4. Integrações úteis (Gmail, Sheets, Drive)
@@ -417,7 +417,7 @@ FETD (Plataforma)
 - Criar conta gratuita Zapier
 - 3 automações simples:
   1. Email → Anexo no Drive
-  2. Planilha → Notificação
+  2. Planilha → Notificaçêo
   3. Formulário → Criar tarefa
 - Documentar cada uma
 
@@ -425,9 +425,9 @@ FETD (Plataforma)
 
 ---
 
-#### Módulo 5: Automação de Emails e Comunicação
-**Duração estimada:** 1h 30min
-**Objetivo:** Sistema completo de gestão de emails
+#### Módulo 5: Automaçêo de Emails e Comunicaçêo
+**Duraçêo estimada:** 1h 30min
+**Objetivo:** Sistema completo de gestêo de emails
 
 **Conteúdo:**
 1. Filtros e labels automáticos
@@ -451,13 +451,13 @@ FETD (Plataforma)
 ---
 
 #### Módulo 6: Planilhas Inteligentes com IA
-**Duração estimada:** 1h 30min
+**Duraçêo estimada:** 1h 30min
 **Objetivo:** Automatizar análise de dados
 
 **Conteúdo:**
 1. Google Sheets + IA
 2. Dashboards simples
-3. Importação automática de dados
+3. Importaçêo automática de dados
 4. Relatórios auto-atualizáveis
 
 **Exercícios de Questionamento:**
@@ -477,14 +477,14 @@ FETD (Plataforma)
 
 ---
 
-#### Módulo 7: Documentação e Arquivos Automáticos
-**Duração estimada:** 1h
-**Objetivo:** Sistema de gestão de documentos
+#### Módulo 7: Documentaçêo e Arquivos Automáticos
+**Duraçêo estimada:** 1h
+**Objetivo:** Sistema de gestêo de documentos
 
 **Conteúdo:**
 1. Google Drive organizado automaticamente
 2. Nomenclatura e estrutura de pastas
-3. Geração automática de documentos
+3. Geraçêo automática de documentos
 4. Backup e versionamento
 
 **Exercícios de Questionamento:**
@@ -496,7 +496,7 @@ FETD (Plataforma)
 - Sistema completo:
   1. Estrutura de pastas lógica
   2. Nomenclatura padronizada
-  3. Automação: arquivo → pasta certa
+  3. Automaçêo: arquivo → pasta certa
   4. Templates com IA
   5. Backup automático semanal
 
@@ -505,13 +505,13 @@ FETD (Plataforma)
 ---
 
 #### Módulo 8: Reuniões e Agenda Automatizados
-**Duração estimada:** 1h
-**Objetivo:** Gestão inteligente de tempo
+**Duraçêo estimada:** 1h
+**Objetivo:** Gestêo inteligente de tempo
 
 **Conteúdo:**
 1. Calendário inteligente com IA
 2. Agendamento automático (Calendly)
-3. Lembretes e preparação
+3. Lembretes e preparaçêo
 4. Atas automáticas com IA
 
 **Exercícios de Questionamento:**
@@ -523,7 +523,7 @@ FETD (Plataforma)
 - Sistema completo:
   1. Link de agendamento automático
   2. Lembretes 1 dia e 1h antes
-  3. IA resumindo reunião (ata)
+  3. IA resumindo reuniêo (ata)
   4. Follow-up automático
   5. Blocos focados protegidos
 
@@ -532,19 +532,19 @@ FETD (Plataforma)
 ---
 
 #### Módulo 9: Framework 4R's - Entregar Resultados
-**Duração estimada:** 1h
+**Duraçêo estimada:** 1h
 **Objetivo:** Documentar e mostrar valor
 
 **Conteúdo:**
 1. Framework 4R's: Result / Roadmap / Risk / Review
 2. Como documentar automações
 3. Métricas que importam
-4. Apresentar resultados para gestão
+4. Apresentar resultados para gestêo
 
 **Exercícios de Questionamento:**
 - Tempo economizado até aqui?
 - Automações que funcionaram melhor?
-- Problemas ainda não resolvidos?
+- Problemas ainda nêo resolvidos?
 
 **Exercícios Práticos:**
 - Documento completo:
@@ -558,19 +558,19 @@ FETD (Plataforma)
 
 ---
 
-#### Módulo 10: Sistema Completo + Evolução
-**Duração estimada:** 2h
+#### Módulo 10: Sistema Completo + Evoluçêo
+**Duraçêo estimada:** 2h
 **Objetivo:** Consolidar e planejar próximos passos
 
 **Conteúdo:**
-1. Revisão: suas 10+ automações
-2. Manutenção e otimização contínua
+1. Revisêo: suas 10+ automações
+2. Manutençêo e otimizaçêo contínua
 3. Próximo nível: n8n avançado
 4. Como ensinar outros e se tornar referência
 
 **Exercícios de Questionamento:**
 - Atingiu 15h/semana economizadas?
-- Qual automação teve maior impacto?
+- Qual automaçêo teve maior impacto?
 - O que quer automatizar agora?
 
 **Exercícios Práticos - FINAL:**
@@ -578,8 +578,8 @@ FETD (Plataforma)
   1. Documento com todas automações
   2. Métricas consolidadas
   3. Prints/vídeos de funcionamento
-  4. Plano de expansão: próximas 10
-- Apresentação profissional (15 min)
+  4. Plano de expansêo: próximas 10
+- Apresentaçêo profissional (15 min)
 
 **Entregável:** "Portfólio de Automações + Certificado"
 
@@ -587,9 +587,9 @@ FETD (Plataforma)
 
 ### 6.2 Trilhas 2, 3 e 4
 
-*(Estrutura similar, conteúdo adaptado conforme definição anterior no documento consolidado)*
+*(Estrutura similar, conteúdo adaptado conforme definiçêo anterior no documento consolidado)*
 
-**Nota:** Cada trilha segue o mesmo padrão:
+**Nota:** Cada trilha segue o mesmo padrêo:
 - 10 módulos progressivos
 - Exercícios de questionamento + práticos
 - Entregáveis tangíveis
@@ -601,9 +601,9 @@ FETD (Plataforma)
 
 ### 7.1 Princípios de Design
 
-1. **Clareza:** Informação direta, sem ruído
-2. **Progressão Visual:** Usuário sempre sabe onde está
-3. **Motivação:** Gamificação sutil mas eficaz
+1. **Clareza:** Informaçêo direta, sem ruído
+2. **Progressêo Visual:** Usuário sempre sabe onde está
+3. **Motivaçêo:** Gamificaçêo sutil mas eficaz
 4. **Acessibilidade:** Responsivo, dark mode, legível
 5. **Velocidade:** Carregamento rápido (GitHub Pages)
 
@@ -644,15 +644,15 @@ FETD (Plataforma)
 
 ### 7.4 Componentes Reutilizáveis
 
-#### Card Padrão
+#### Card Padrêo
 ```html
 <div class="card">
   <div class="card-badge">[Badge]</div>
   <h3 class="card-title">[Título]</h3>
-  <p class="card-description">[Descrição]</p>
+  <p class="card-description">[Descriçêo]</p>
   <div class="card-actions">
-    <button class="btn-primary">Ação Principal</button>
-    <button class="btn-secondary">Ação Secundária</button>
+    <button class="btn-primary">Açêo Principal</button>
+    <button class="btn-secondary">Açêo Secundária</button>
   </div>
 </div>
 ```
@@ -666,7 +666,7 @@ FETD (Plataforma)
 - Pequenos, arredondados, background suave da cor
 - Usados para: status, categorias, conquistas
 
-### 7.5 Navegação
+### 7.5 Navegaçêo
 
 **Estrutura:**
 ```
@@ -687,7 +687,7 @@ Footer
 
 ---
 
-## 8. TECNOLOGIA E IMPLEMENTAÇÃO
+## 8. TECNOLOGIA E IMPLEMENTAÇêO
 
 ### 8.1 Stack Técnico
 
@@ -696,7 +696,7 @@ Footer
 | Frontend | HTML5 + CSS3 + JavaScript | Simples, rápido, mantível |
 | Framework CSS | Tailwind CSS (CDN) | Desenvolvimento rápido, consistente |
 | Hosting | GitHub Pages | Grátis, confiável, versionado |
-| Versionamento | Git + GitHub | Controle de versão, colaboração |
+| Versionamento | Git + GitHub | Controle de versêo, colaboraçêo |
 | Persistência | LocalStorage (fase 1) | Sem backend, rápido |
 | Analytics | Google Analytics (fase 2) | Métricas de uso |
 
@@ -730,7 +730,7 @@ FETD/
 │   └── tecnico/
 ├── js/
 │   ├── app.js                      # Core functionality
-│   ├── quiz.js                     # Quiz de identificação
+│   ├── quiz.js                     # Quiz de identificaçêo
 │   ├── progress.js                 # Sistema de progresso
 │   └── dark-mode.js                # Toggle dark mode
 ├── css/
@@ -752,7 +752,7 @@ FETD/
 **Otimizações:**
 - Tailwind CDN (cache do navegador)
 - Lazy loading de imagens
-- Minificação de JS/CSS (produção)
+- Minificaçêo de JS/CSS (produçêo)
 - Service Worker (fase 2 - PWA)
 
 ### 8.4 SEO e Acessibilidade
@@ -766,7 +766,7 @@ FETD/
 
 **Acessibilidade (WCAG 2.1 AA):**
 - [ ] Contraste adequado (4.5:1 mínimo)
-- [ ] Navegação por teclado
+- [ ] Navegaçêo por teclado
 - [ ] ARIA labels
 - [ ] Alt text em imagens
 - [ ] Estrutura semântica HTML5
@@ -777,9 +777,9 @@ FETD/
 
 ### 9.1 KPIs Principais
 
-| Métrica | Objetivo | Medição |
+| Métrica | Objetivo | Mediçêo |
 |---------|----------|---------|
-| **Taxa de Conclusão** | 60% dos inscritos completam trilha | Google Analytics + LocalStorage |
+| **Taxa de Conclusêo** | 60% dos inscritos completam trilha | Google Analytics + LocalStorage |
 | **Tempo Médio por Módulo** | 45-90 minutos | Analytics |
 | **Taxa de Abandono** | < 20% no módulo 3 | Heatmaps, Analytics |
 | **NPS (Net Promoter Score)** | > 70 | Survey ao final |
@@ -794,7 +794,7 @@ FETD/
 
 #### 🟩 Comunicador
 - Aumento em atendimentos: 3x
-- Aumento em conversão: 50%
+- Aumento em conversêo: 50%
 - Clientes fechados: 10+ nos 3 meses
 
 #### 🟨 Talento
@@ -807,7 +807,7 @@ FETD/
 - Propostas recebidas: 10+ qualificadas
 - Aumento de valor: 2-3x
 
-### 9.3 Ferramentas de Medição
+### 9.3 Ferramentas de Mediçêo
 
 **Fase 1:**
 - Google Analytics 4
@@ -845,8 +845,8 @@ FETD/
 
 | Semana | Atividade |
 |--------|-----------|
-| 9 | Autenticação e backend |
-| 10 | Certificados e gamificação avançada |
+| 9 | Autenticaçêo e backend |
+| 10 | Certificados e gamificaçêo avançada |
 | 11 | Comunidade e Q&A |
 | 12 | Analytics e otimizações |
 
@@ -856,16 +856,16 @@ FETD/
 - Vídeo aulas complementares
 - Marketplace de projetos
 - App mobile
-- Expansão: mais trilhas e módulos
+- Expansêo: mais trilhas e módulos
 
 ---
 
 ## 11. RISCOS E MITIGAÇÕES
 
-| Risco | Probabilidade | Impacto | Mitigação |
+| Risco | Probabilidade | Impacto | Mitigaçêo |
 |-------|---------------|---------|-----------|
-| **Alta taxa de abandono** | Média | Alto | Gamificação, progresso visível, conteúdo envolvente |
-| **Conteúdo não ressoa** | Baixa | Alto | Validar com beta testers, iterar rápido |
+| **Alta taxa de abandono** | Média | Alto | Gamificaçêo, progresso visível, conteúdo envolvente |
+| **Conteúdo nêo ressoa** | Baixa | Alto | Validar com beta testers, iterar rápido |
 | **Performance ruim** | Baixa | Médio | Otimizações desde o início, CDN |
 | **Baixa descoberta (SEO)** | Alta | Médio | Marketing de conteúdo, SEO on-page, redes sociais |
 | **Cópia/pirataria** | Média | Baixo | Aceitar, focar em comunidade e suporte como diferencial |
@@ -886,9 +886,9 @@ FETD/
 ### 12.2 Premissas
 
 - Público-alvo tem acesso à internet e dispositivo (PC/mobile)
-- Usuários têm conhecimento básico de navegação web
+- Usuários têm conhecimento básico de navegaçêo web
 - Conteúdo em português brasileiro
-- Gratuito inicialmente (monetização fase 2+)
+- Gratuito inicialmente (monetizaçêo fase 2+)
 - Self-paced (sem datas fixas de início/fim)
 
 ---
@@ -899,8 +899,8 @@ FETD/
 
 **Deve ter:**
 - ✅ 4 trilhas completas (40 módulos)
-- ✅ Quiz de identificação funcionando
-- ✅ Navegação fluida entre módulos
+- ✅ Quiz de identificaçêo funcionando
+- ✅ Navegaçêo fluida entre módulos
 - ✅ Dark mode persistente
 - ✅ 100% responsivo
 - ✅ Sistema de progresso visual
@@ -943,7 +943,7 @@ FETD/
 ### 14.2 Sprint 2 (Próxima Semana)
 
 1. [ ] Trilha 1 completa (10 módulos)
-2. [ ] Sistema de navegação
+2. [ ] Sistema de navegaçêo
 3. [ ] Dark mode implementado
 4. [ ] Testes em mobile
 
@@ -966,7 +966,7 @@ FETD/
 - **Entregável:** Projeto prático resultado do módulo
 - **LRP:** Framework de prompts (Listen/Repeat/Poke)
 - **4R's:** Framework de entrega (Result/Roadmap/Risk/Review)
-- **Golden Ratio:** 60% automação / 30% IA / 10% humano
+- **Golden Ratio:** 60% automaçêo / 30% IA / 10% humano
 
 ### 15.2 Referências
 
@@ -985,12 +985,12 @@ FETD/
 
 ## 16. CHANGELOG
 
-| Versão | Data | Autor | Mudanças |
+| Versêo | Data | Autor | Mudanças |
 |--------|------|-------|----------|
-| 1.0 | 2025-11-17 | PM - BMad | Versão inicial completa |
+| 1.0 | 2025-11-17 | PM - BMad | Versêo inicial completa |
 
 ---
 
-**Status:** ✅ PRD Completo - Pronto para Implementação
+**Status:** ✅ PRD Completo - Pronto para Implementaçêo
 
-**Próxima ação:** Implementar Homepage com Quiz
+**Próxima açêo:** Implementar Homepage com Quiz

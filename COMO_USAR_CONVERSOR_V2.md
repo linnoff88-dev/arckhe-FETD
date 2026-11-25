@@ -26,10 +26,10 @@ done
 
 ## 📁 Arquivos Importantes
 
-| Arquivo | Descrição |
+| Arquivo | Descriçêo |
 |---------|-----------|
 | `converter_md_para_html_rico_v2.py` | Script principal do conversor |
-| `LAYOUT_ULTRA_RICO_V2.md` | Documentação completa do formato |
+| `LAYOUT_ULTRA_RICO_V2.md` | Documentaçêo completa do formato |
 | `downloads/{trilha}/modulo-XX.md` | Arquivos Markdown fonte (INPUT) |
 | `modulos/{trilha}/modulo-XX.html` | Arquivos HTML gerados (OUTPUT) |
 
@@ -63,7 +63,7 @@ done
 ## ✅ Checklist Antes de Converter
 
 - [ ] Arquivo `.md` existe em `downloads/{trilha}/`
-- [ ] Arquivo tem estrutura correta (título, duração, objetivo)
+- [ ] Arquivo tem estrutura correta (título, duraçêo, objetivo)
 - [ ] Seções usam `##` e subseções `###`
 - [ ] Tabelas têm linha separadora `|---|---|`
 - [ ] Blocos de código usam ``` corretamente
@@ -84,13 +84,13 @@ http://localhost:8080/modulos/talento/modulo-01.html
 
 ## 🔧 Troubleshooting Rápido
 
-**Erro: Arquivo não encontrado**
+**Erro: Arquivo nêo encontrado**
 → Verifique caminho: `downloads/{trilha}/modulo-XX.md`
 
-**Card não ficou colorido**
+**Card nêo ficou colorido**
 → Use emoji/keyword no título: ❌ ✅ 💼 💡 📊
 
-**Tabela não renderiza**
+**Tabela nêo renderiza**
 → Adicione linha separadora: `|---|---|`
 
 **Código sem estilo terminal**
@@ -98,10 +98,10 @@ http://localhost:8080/modulos/talento/modulo-01.html
 
 ---
 
-## 📚 Documentação Completa
+## 📚 Documentaçêo Completa
 
 Para detalhes completos, consulte: **`LAYOUT_ULTRA_RICO_V2.md`**
 
 ---
 
-**Última atualização:** 2025-01-19
+**Última atualizaçêo:** 2025-01-19

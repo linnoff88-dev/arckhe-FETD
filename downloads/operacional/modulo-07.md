@@ -1,32 +1,32 @@
-# MÓDULO 7: Documentação e Arquivos Automáticos
+# MÓDULO 7: Documentaçêo e Arquivos Automáticos
 
 **Objetivo:** Gerar documentos, relatórios e apresentações automaticamente
 
 ---
 
-## 1. O Problema da Documentação Manual (E Como Ele Está Matando Sua Produtividade)
+## 1. O Problema da Documentaçêo Manual (E Como Ele Está Matando Sua Produtividade)
 
 ### A Verdade Dolorosa
 
 Quantas horas você perdeu ESTA SEMANA:
 - Criando relatórios semanais/mensais com os mesmos formatos?
 - Copiando dados de uma planilha para um documento Word?
-- Ajustando formatação de apresentações?
-- Procurando aquele arquivo "versão_final_final_AGORA_VAI.docx"?
+- Ajustando formataçêo de apresentações?
+- Procurando aquele arquivo "versêo_final_final_AGORA_VAI.docx"?
 
-**Estatística chocante:** Profissionais gastam em média **4-6 horas por semana** apenas criando documentação repetitiva.
+**Estatística chocante:** Profissionais gastam em média **4-6 horas por semana** apenas criando documentaçêo repetitiva.
 
-São **200-300 horas por ano**. Quase **2 MESES de trabalho** fazendo coisas que poderiam ser automatizadas.
+Sêo **200-300 horas por ano**. Quase **2 MESES de trabalho** fazendo coisas que poderiam ser automatizadas.
 
-### Os 3 Pecados Capitais da Documentação Manual
+### Os 3 Pecados Capitais da Documentaçêo Manual
 
 **1. Erro Humano**
 - Copiar dado errado da planilha
 - Esquecer de atualizar um número
 - Trocar nome de cliente/projeto
-- Resultado: Apresentação com dados de outubro quando era para ser novembro
+- Resultado: Apresentaçêo com dados de outubro quando era para ser novembro
 
-**2. Falta de Padronização**
+**2. Falta de Padronizaçêo**
 - Cada pessoa formata de um jeito
 - Logos em lugares diferentes
 - Fontes e tamanhos aleatórios
@@ -35,7 +35,7 @@ São **200-300 horas por ano**. Quase **2 MESES de trabalho** fazendo coisas que
 **3. Desperdício de Tempo**
 - Fazer a mesma coisa toda semana/mês
 - "Ah, só vou copiar o documento do mês passado e alterar os números"
-- 40 minutos depois você ainda está ajustando formatação
+- 40 minutos depois você ainda está ajustando formataçêo
 - Resultado: Tempo que poderia estar fazendo trabalho estratégico
 
 ### O Que Vamos Resolver HOJE
@@ -44,13 +44,13 @@ Neste módulo você vai aprender:
 
 1. **Templates inteligentes** que se preenchem sozinhos
 2. **IA para gerar documentos complexos** em 30 segundos
-3. **Automação de relatórios** 100% automáticos
-4. **Organização automática** de arquivos no Drive
+3. **Automaçêo de relatórios** 100% automáticos
+4. **Organizaçêo automática** de arquivos no Drive
 5. **Versionamento** que funciona (nunca mais "final_v8.docx")
 
-**Meta realista:** Reduzir de 4-6h/semana para 30min-1h/semana em documentação.
+**Meta realista:** Reduzir de 4-6h/semana para 30min-1h/semana em documentaçêo.
 
-São **3-5 horas economizadas por semana = Meio dia de trabalho!**
+Sêo **3-5 horas economizadas por semana = Meio dia de trabalho!**
 
 ---
 
@@ -62,15 +62,15 @@ São **3-5 horas economizadas por semana = Meio dia de trabalho!**
 
 Exemplos comuns:
 - Relatório semanal/mensal
-- Ata de reunião
+- Ata de reuniêo
 - Proposta comercial
-- Contrato padrão
+- Contrato padrêo
 - Procedimento operacional
-- Apresentação de resultados
+- Apresentaçêo de resultados
 
 ### Google Docs com Variáveis (Tutorial Completo)
 
-**Conceito:** Criar documento modelo com "placeholders" que são substituídos automaticamente.
+**Conceito:** Criar documento modelo com "placeholders" que sêo substituídos automaticamente.
 
 **Exemplo:**
 
@@ -91,13 +91,13 @@ Observações:
 
 **Como funciona:**
 
-**Opção 1: Manual (rápido)**
+**Opçêo 1: Manual (rápido)**
 1. Crie template com {{VARIÁVEIS}}
 2. Ctrl+H (Localizar e Substituir)
 3. Substitua {{VARIÁVEL}} pelo valor real
 4. Salve como novo documento
 
-**Opção 2: Apps Script (automático - melhor)**
+**Opçêo 2: Apps Script (automático - melhor)**
 
 ```javascript
 function gerarRelatorio() {
@@ -131,7 +131,7 @@ function gerarRelatorio() {
 }
 ```
 
-**Resultado:** Aperta botão → Relatório pronto em 5 segundos.
+**Resultado:** Aperta botêo → Relatório pronto em 5 segundos.
 
 ### 10 Templates Operacionais Prontos para Usar
 
@@ -149,7 +149,7 @@ Período: {{DATA_INICIO}} a {{DATA_FIM}}
 Entregas Realizadas: {{QTD_ENTREGAS}}
 Tarefas Concluídas: {{QTD_TAREFAS_CONCLUIDAS}}
 Tarefas Pendentes: {{QTD_TAREFAS_PENDENTES}}
-% de Conclusão: {{PERCENTUAL_CONCLUSAO}}%
+% de Conclusêo: {{PERCENTUAL_CONCLUSAO}}%
 
 ✅ PRINCIPAIS REALIZAÇÕES
 
@@ -169,10 +169,10 @@ Tarefas Pendentes: {{QTD_TAREFAS_PENDENTES}}
 Gerado automaticamente em {{DATA_GERACAO}}
 ```
 
-#### 2. Ata de Reunião
+#### 2. Ata de Reuniêo
 
 ```
-ATA DE REUNIÃO
+ATA DE REUNIêO
 
 Data: {{DATA_REUNIAO}}
 Horário: {{HORA_INICIO}} às {{HORA_FIM}}
@@ -194,7 +194,7 @@ Ações e Responsáveis:
 ⏳ {{ACAO_2}} - Responsável: {{RESPONSAVEL_2}} - Prazo: {{PRAZO_2}}
 ⏳ {{ACAO_3}} - Responsável: {{RESPONSAVEL_3}} - Prazo: {{PRAZO_3}}
 
-Próxima Reunião:
+Próxima Reuniêo:
 📅 {{DATA_PROXIMA_REUNIAO}}
 
 ---
@@ -240,18 +240,18 @@ Atenciosamente,
 {{CONTATO_VENDEDOR}}
 ```
 
-#### 4. Contrato Padrão (Estrutura Base)
+#### 4. Contrato Padrêo (Estrutura Base)
 
 ```
-CONTRATO DE PRESTAÇÃO DE SERVIÇOS
+CONTRATO DE PRESTAÇêO DE SERVIÇOS
 
 CONTRATANTE:
-Nome/Razão Social: {{NOME_CONTRATANTE}}
+Nome/Razêo Social: {{NOME_CONTRATANTE}}
 CNPJ/CPF: {{DOC_CONTRATANTE}}
 Endereço: {{ENDERECO_CONTRATANTE}}
 
 CONTRATADA:
-Nome/Razão Social: {{NOME_CONTRATADA}}
+Nome/Razêo Social: {{NOME_CONTRATADA}}
 CNPJ/CPF: {{DOC_CONTRATADA}}
 Endereço: {{ENDERECO_CONTRATADA}}
 
@@ -307,28 +307,28 @@ ETAPA 3: {{NOME_ETAPA_3}}
 OBSERVAÇÕES:
 {{OBSERVACOES}}
 
-APROVAÇÃO:
+APROVAÇêO:
 ☐ Processo concluído
-Data de conclusão: ___/___/___
+Data de conclusêo: ___/___/___
 Responsável: _______________
 ```
 
-#### 6. Procedimento Operacional Padrão (POP)
+#### 6. Procedimento Operacional Padrêo (POP)
 
 ```
-PROCEDIMENTO OPERACIONAL PADRÃO
+PROCEDIMENTO OPERACIONAL PADRêO
 
 Código: {{CODIGO_POP}}
-Versão: {{VERSAO}}
-Data de criação: {{DATA_CRIACAO}}
-Última revisão: {{DATA_REVISAO}}
+Versêo: {{VERSAO}}
+Data de criaçêo: {{DATA_CRIACAO}}
+Última revisêo: {{DATA_REVISAO}}
 
 Título: {{TITULO_POP}}
 
 1. OBJETIVO
 {{OBJETIVO}}
 
-2. APLICAÇÃO
+2. APLICAÇêO
 {{APLICACAO}}
 
 3. RESPONSABILIDADES
@@ -355,10 +355,10 @@ Elaborado por: {{ELABORADOR}}
 Aprovado por: {{APROVADOR}}
 ```
 
-#### 7. Apresentação de Resultados
+#### 7. Apresentaçêo de Resultados
 
 ```
-APRESENTAÇÃO DE RESULTADOS - {{PERIODO}}
+APRESENTAÇêO DE RESULTADOS - {{PERIODO}}
 
 {{LOGO_EMPRESA}}
 
@@ -380,13 +380,13 @@ Desafios:
 ⚠️ {{DESAFIO_1}}
 ⚠️ {{DESAFIO_2}}
 
-Plano de Ação:
+Plano de Açêo:
 
 → {{ACAO_1}}
 → {{ACAO_2}}
 → {{ACAO_3}}
 
-Projeção para {{PROXIMO_PERIODO}}:
+Projeçêo para {{PROXIMO_PERIODO}}:
 {{PROJECAO}}
 ```
 
@@ -410,7 +410,7 @@ Segue em anexo:
 
 Prazo: {{PRAZO}}
 
-Qualquer dúvida, estou à disposição.
+Qualquer dúvida, estou à disposiçêo.
 
 Atenciosamente,
 
@@ -429,7 +429,7 @@ ID: {{ID_INCIDENTE}}
 Data/Hora: {{DATA_HORA_INCIDENTE}}
 Reportado por: {{REPORTADOR}}
 
-DESCRIÇÃO DO INCIDENTE:
+DESCRIÇêO DO INCIDENTE:
 {{DESCRICAO}}
 
 IMPACTO:
@@ -443,9 +443,9 @@ CAUSA RAIZ:
 AÇÕES IMEDIATAS:
 {{ACOES_IMEDIATAS}}
 
-RESOLUÇÃO:
+RESOLUÇêO:
 {{RESOLUCAO}}
-Data/Hora de Resolução: {{DATA_HORA_RESOLUCAO}}
+Data/Hora de Resoluçêo: {{DATA_HORA_RESOLUCAO}}
 
 AÇÕES PREVENTIVAS:
 {{ACOES_PREVENTIVAS}}
@@ -473,10 +473,10 @@ PONTOS FORTES:
 ÁREAS DE MELHORIA:
 
 📍 {{AREA_MELHORIA_1}}
-   Sugestão: {{SUGESTAO_1}}
+   Sugestêo: {{SUGESTAO_1}}
 
 📍 {{AREA_MELHORIA_2}}
-   Sugestão: {{SUGESTAO_2}}
+   Sugestêo: {{SUGESTAO_2}}
 
 METAS PARA PRÓXIMO PERÍODO:
 
@@ -505,30 +505,30 @@ Assinatura do Colaborador
 **Passo 2: Extraia estrutura comum** (30min por template)
 - Abra 3-5 versões antigas do mesmo tipo de documento
 - Destaque o que SEMPRE repete
-- Destaque o que VARIA (serão suas variáveis)
+- Destaque o que VARIA (serêo suas variáveis)
 
 **Passo 3: Crie template genérico** (20min)
 - Google Docs novo
 - Cole estrutura comum
 - Substitua partes variáveis por {{NOME_VARIAVEL}}
-- Use nomes descritivos: {{VALOR_TOTAL}} não {{X}}
+- Use nomes descritivos: {{VALOR_TOTAL}} nêo {{X}}
 
 **Passo 4: Teste** (10min)
 - Faça uma cópia
 - Preencha variáveis manualmente (Ctrl+H)
 - Veja se ficou bom
-- Ajuste formatação
+- Ajuste formataçêo
 
 **Passo 5: Automatize (opcional mas recomendado)** (1-2h - uma vez só)
 - Use Apps Script (código acima)
 - Conecte com Google Sheets (dados ficam lá)
-- Crie botão "Gerar Documento"
+- Crie botêo "Gerar Documento"
 
 ---
 
 ## 3. IA para Gerar Documentos (Seu Escritor Profissional 24/7)
 
-### O Poder da IA para Documentação
+### O Poder da IA para Documentaçêo
 
 **Cenário real:** Você precisa criar manual de procedimento de 10 páginas para novo processo.
 
@@ -549,7 +549,7 @@ Assinatura do Colaborador
 ### Estrutura de Prompt para Documentos
 
 ```
-Tipo de documento: [Relatório/Manual/Procedimento/Apresentação/etc]
+Tipo de documento: [Relatório/Manual/Procedimento/Apresentaçêo/etc]
 Público-alvo: [Quem vai ler? Técnico? Executivo? Cliente?]
 Objetivo: [Informar/Convencer/Instruir/Documentar]
 Tom: [Formal/Técnico/Acessível/Persuasivo]
@@ -566,7 +566,7 @@ Formato de saída: [Markdown/Google Docs/Lista/Prosa]
 ```
 Tipo: Relatório Executivo
 Público: Diretoria
-Objetivo: Apresentar resultados do trimestre e solicitar aprovação de budget
+Objetivo: Apresentar resultados do trimestre e solicitar aprovaçêo de budget
 Tom: Formal, objetivo, baseado em dados
 Tamanho: 2-3 páginas
 Estrutura:
@@ -574,7 +574,7 @@ Estrutura:
 2. Principais Métricas (bullet points com números)
 3. Destaques Positivos
 4. Desafios Enfrentados
-5. Solicitação de Budget (R$ 50.000 para expansão)
+5. Solicitaçêo de Budget (R$ 50.000 para expansêo)
 6. Próximos Passos
 
 Informações:
@@ -600,27 +600,27 @@ Estrutura:
 2. Pré-requisitos
 3. Materiais Necessários
 4. Passo a Passo Detalhado (mínimo 10 passos)
-5. Pontos de Atenção / Cuidados
+5. Pontos de Atençêo / Cuidados
 6. O Que Fazer em Caso de Erro
-7. Checklist de Validação
+7. Checklist de Validaçêo
 
 Contexto:
-Onboarding inclui: criação de conta, envio de documentos, configuração de acesso, treinamento inicial.
+Onboarding inclui: criaçêo de conta, envio de documentos, configuraçêo de acesso, treinamento inicial.
 
 Gere manual completo, detalhado e prático.
 ```
 
-#### 3. Procedimento Operacional Padrão (POP)
+#### 3. Procedimento Operacional Padrêo (POP)
 
 ```
-Tipo: Procedimento Operacional Padrão (POP)
-Público: Operadores de produção
+Tipo: Procedimento Operacional Padrêo (POP)
+Público: Operadores de produçêo
 Objetivo: Padronizar processo de controle de qualidade
 Tom: Técnico, normativo, preciso
 Tamanho: 3 páginas
 Estrutura (formato POP oficial):
 1. Objetivo
-2. Aplicação
+2. Aplicaçêo
 3. Documentos de Referência
 4. Definições
 5. Responsabilidades
@@ -628,7 +628,7 @@ Estrutura (formato POP oficial):
 7. Registros
 8. Anexos
 
-Processo: Inspeção visual de peças metálicas (3 pontos de verificação: dimensão, acabamento, marcação)
+Processo: Inspeçêo visual de peças metálicas (3 pontos de verificaçêo: dimensêo, acabamento, marcaçêo)
 
 Gere POP profissional seguindo normas ISO se possível.
 ```
@@ -647,13 +647,13 @@ Estrutura:
 3. Principais Hipóteses (mínimo 4)
 4. Análise Detalhada de Cada Hipótese
 5. Conclusões
-6. Recomendações de Ação (pelo menos 5 ações concretas)
+6. Recomendações de Açêo (pelo menos 5 ações concretas)
 
 Dados:
 - Vendas set: R$ 450k
 - Vendas out: R$ 396k (-12%)
 - Tráfego site: -5%
-- Taxa conversão: -8%
+- Taxa conversêo: -8%
 - Ticket médio: +2%
 - Principais produtos afetados: Categoria Premium (-25%)
 - Categoria Econômica cresceu +5%
@@ -661,10 +661,10 @@ Dados:
 Gere análise profissional com insights acionáveis.
 ```
 
-#### 5. Apresentação de Resultados
+#### 5. Apresentaçêo de Resultados
 
 ```
-Tipo: Apresentação em Slides (roteiro)
+Tipo: Apresentaçêo em Slides (roteiro)
 Público: Time comercial
 Objetivo: Motivar equipe mostrando resultados + lançar desafio do próximo mês
 Tom: Inspirador, energético, celebratório
@@ -676,13 +676,13 @@ Slide 4: Ranking de Vendedores (Top 3)
 Slide 5: Cases de Sucesso
 Slide 6: Lições Aprendidas
 Slide 7: Desafios do Próximo Mês
-Slides 8-9: Plano de Ação
+Slides 8-9: Plano de Açêo
 Slide 10: Meta do Mês (grande, ousada)
 Slide 11-12: Mensagem Motivacional + Agradecimento
 
 Dados:
 - Vendas totais: R$ 580k (superamos meta de R$ 500k!)
-- Top vendedor: João - R$ 95k
+- Top vendedor: Joêo - R$ 95k
 - Maior contrato fechado: R$ 120k (Cliente XPTO)
 - Meta próximo mês: R$ 650k
 
@@ -699,22 +699,22 @@ Tom: Muito objetivo, estratégico
 Tamanho: Máximo 1 página (300 palavras)
 Estrutura:
 - Contexto (2 linhas)
-- Principal Conclusão (destaque)
+- Principal Conclusêo (destaque)
 - 3-4 Pontos Críticos
-- Recomendação Final (clara e direta)
+- Recomendaçêo Final (clara e direta)
 
 Documento original:
 [Cole aqui trecho ou principais pontos do documento longo]
 
-Gere resumo executivo que CEO possa ler em 2 minutos e tomar decisão.
+Gere resumo executivo que CEO possa ler em 2 minutos e tomar decisêo.
 ```
 
-#### 7. Ata de Reunião
+#### 7. Ata de Reuniêo
 
 ```
-Tipo: Ata de Reunião
+Tipo: Ata de Reuniêo
 Público: Participantes + gestores
-Objetivo: Documentar decisões e ações da reunião
+Objetivo: Documentar decisões e ações da reuniêo
 Tom: Objetivo, factual
 Tamanho: 1-2 páginas
 Estrutura:
@@ -723,10 +723,10 @@ Estrutura:
 - Resumo das discussões (bullet points)
 - Decisões tomadas (destacar)
 - Ações definidas (responsável + prazo para cada)
-- Data da próxima reunião
+- Data da próxima reuniêo
 
-Notas da reunião (podem ser bagunçadas):
-[Cole aqui suas anotações/transcrição da reunião]
+Notas da reuniêo (podem ser bagunçadas):
+[Cole aqui suas anotações/transcriçêo da reuniêo]
 
 Gere ata formal e organizada.
 ```
@@ -742,7 +742,7 @@ Tamanho: 5-7 páginas
 Estrutura:
 1. Sobre Nós (credibilidade)
 2. Entendimento do Desafio do Cliente
-3. Nossa Proposta de Solução
+3. Nossa Proposta de Soluçêo
 4. Metodologia de Trabalho
 5. Entregas Detalhadas
 6. Timeline
@@ -789,14 +789,14 @@ Gere comunicado claro que minimize resistências.
 #### 10. Documento Técnico
 
 ```
-Tipo: Documentação Técnica
+Tipo: Documentaçêo Técnica
 Público: Desenvolvedores
 Objetivo: Documentar API REST
 Tom: Técnico, preciso, completo
 Tamanho: 3-4 páginas
 Estrutura:
-1. Visão Geral da API
-2. Autenticação
+1. Visêo Geral da API
+2. Autenticaçêo
 3. Endpoints (para cada: método, URL, parâmetros, exemplo request, exemplo response)
 4. Códigos de Erro
 5. Rate Limiting
@@ -805,16 +805,16 @@ Estrutura:
 
 API:
 - RESTful
-- Autenticação via Bearer Token
+- Autenticaçêo via Bearer Token
 - 5 endpoints principais: listar usuários, criar usuário, atualizar, deletar, buscar por ID
 - Retorna JSON
 
-Gere documentação completa estilo Swagger/OpenAPI.
+Gere documentaçêo completa estilo Swagger/OpenAPI.
 ```
 
 ### Como Refinar Documentos Gerados por IA
 
-**Checklist pós-geração:**
+**Checklist pós-geraçêo:**
 
 1. **Leia criticamente**
    - IA inventou dados? (remova ou substitua)
@@ -843,21 +843,21 @@ Gere documentação completa estilo Swagger/OpenAPI.
 
 ---
 
-## 4. Automação de Relatórios (100% no Piloto Automático)
+## 4. Automaçêo de Relatórios (100% no Piloto Automático)
 
 ### O Santo Graal: Relatório Que Se Faz Sozinho
 
 **Cenário ideal:**
-- Segunda-feira, 8h da manhã
+- Segunda-feira, 8h da manhê
 - Você abre email
 - Tem relatório semanal completo, formatado, com todos os dados atualizados
-- Você NÃO FEZ NADA
+- Você NêO FEZ NADA
 
-**Não é sonho. É totalmente possível com:**
+**Nêo é sonho. É totalmente possível com:**
 - Google Sheets (dados)
 - Google Docs (template)
-- Apps Script (automação)
-- Zapier (orquestração - opcional)
+- Apps Script (automaçêo)
+- Zapier (orquestraçêo - opcional)
 
 ### Arquitetura de Relatório Automático
 
@@ -869,7 +869,7 @@ Gere documentação completa estilo Swagger/OpenAPI.
 2. **Template de Documento** (Google Docs)
    - Estrutura pronta com {{VARIÁVEIS}}
 
-3. **Script de Geração** (Apps Script)
+3. **Script de Geraçêo** (Apps Script)
    - Busca dados do Sheets
    - Preenche template
    - Gera documento final
@@ -877,7 +877,7 @@ Gere documentação completa estilo Swagger/OpenAPI.
 4. **Agendamento** (Trigger do Apps Script)
    - Roda automaticamente (ex: toda segunda, 7h)
 
-5. **Distribuição** (Apps Script + Gmail)
+5. **Distribuiçêo** (Apps Script + Gmail)
    - Envia por email automaticamente
 
 ### Tutorial Completo: Relatório Semanal 100% Automático
@@ -918,7 +918,7 @@ Relatório gerado automaticamente em {{DATA_GERACAO}}
 
 Salve e copie o ID da URL.
 
-#### Passo 3: Script de Geração
+#### Passo 3: Script de Geraçêo
 
 No Google Sheets, vá em **Extensões → Apps Script** e cole:
 
@@ -970,7 +970,7 @@ function enviarPorEmail(linkRelatorio, semana) {
   var corpo = "Olá,<br><br>" +
               "Segue relatório semanal atualizado:<br><br>" +
               "<a href='" + linkRelatorio + "'>📄 Clique aqui para visualizar</a><br><br>" +
-              "Qualquer dúvida, estou à disposição.<br><br>" +
+              "Qualquer dúvida, estou à disposiçêo.<br><br>" +
               "Atenciosamente,<br>" +
               "Sistema Automático";
 
@@ -982,12 +982,12 @@ function enviarPorEmail(linkRelatorio, semana) {
 }
 ```
 
-#### Passo 4: Agendar Execução Automática
+#### Passo 4: Agendar Execuçêo Automática
 
 1. No Apps Script, clique no ícone do **Relógio** (Acionadores)
 2. "Adicionar acionador"
 3. Configurar:
-   - Função: `gerarRelatorioSemanal`
+   - Funçêo: `gerarRelatorioSemanal`
    - Origem do evento: **Acionado por tempo**
    - Tipo: **Acionador de timer semanal**
    - Dia da semana: **Segunda-feira**
@@ -1000,7 +1000,7 @@ function enviarPorEmail(linkRelatorio, semana) {
 3. Salva no Drive
 4. Envia por email para equipe
 
-**Você não faz NADA. Automático pra sempre.**
+**Você nêo faz NADA. Automático pra sempre.**
 
 ### Mais Exemplos de Relatórios Automáticos
 
@@ -1021,7 +1021,7 @@ function enviarPorEmail(linkRelatorio, semana) {
 
 ---
 
-## 5. Organização e Versionamento (Nunca Mais "final_v9_AGORA_VAI_MESMO.docx")
+## 5. Organizaçêo e Versionamento (Nunca Mais "final_v9_AGORA_VAI_MESMO.docx")
 
 ### O Caos dos Arquivos
 
@@ -1038,11 +1038,11 @@ Pasta "Propostas Cliente XPTO":
 - Proposta_XPTO_ESSA_É_A_BOA.docx
 ```
 
-**E você não lembra qual é a versão certa.**
+**E você nêo lembra qual é a versêo certa.**
 
 ### Regras de Ouro de Nomenclatura
 
-**Formato padrão:**
+**Formato padrêo:**
 ```
 TIPO_Cliente-Projeto_YYYY-MM-DD_Versao.extensao
 ```
@@ -1055,18 +1055,18 @@ Relatorio_VendasNovembro_2024-12-01_v3.docx
 ```
 
 **Componentes:**
-1. **TIPO:** Proposta, Contrato, Relatório, Apresentação, etc.
+1. **TIPO:** Proposta, Contrato, Relatório, Apresentaçêo, etc.
 2. **Cliente/Projeto:** Nome curto e claro
 3. **Data:** Formato YYYY-MM-DD (ordena cronologicamente automaticamente)
-4. **Versão:** v1, v2, v3 ou Final, Revisao, Aprovado
-5. **Extensão:** .docx, .pdf, .pptx
+4. **Versêo:** v1, v2, v3 ou Final, Revisao, Aprovado
+5. **Extensêo:** .docx, .pdf, .pptx
 
 **Vantagens:**
 - Ordem cronológica automática
 - Fácil identificar tipo e cliente
-- Versão clara
+- Versêo clara
 
-### Google Drive: Organização Automática
+### Google Drive: Organizaçêo Automática
 
 #### Estrutura de Pastas Recomendada
 
@@ -1077,7 +1077,7 @@ Relatorio_VendasNovembro_2024-12-01_v3.docx
 │   │   ├── 📁 Propostas
 │   │   ├── 📁 Contratos
 │   │   ├── 📁 Projetos
-│   │   └── 📁 Comunicação
+│   │   └── 📁 Comunicaçêo
 │   └── 📁 Cliente_XYZ
 ├── 📁 02_Projetos
 │   ├── 📁 Projeto_Alpha
@@ -1096,7 +1096,7 @@ Relatorio_VendasNovembro_2024-12-01_v3.docx
 - Nomes curtos e claros
 - Pasta "Arquivados" para projetos finalizados
 
-#### Automatizar Organização com Apps Script
+#### Automatizar Organizaçêo com Apps Script
 
 **Exemplo: Mover arquivos automaticamente**
 
@@ -1134,25 +1134,25 @@ function organizarArquivosPorTipo() {
 **Como acessar:**
 1. Arquivo → Histórico de versões → Ver histórico de versões
 2. Veja todas alterações com data/hora/autor
-3. Restaure versão antiga com 1 clique
+3. Restaure versêo antiga com 1 clique
 
 **Nunca mais precisa de "v2", "v3", "final"** → Sempre edita o mesmo arquivo, Google guarda histórico.
 
 **Nomear versões importantes:**
 1. Arquivo → Histórico de versões
-2. Clique nos 3 pontinhos ao lado de versão
-3. "Nomear esta versão": Ex: "Aprovado pelo Cliente"
+2. Clique nos 3 pontinhos ao lado de versêo
+3. "Nomear esta versêo": Ex: "Aprovado pelo Cliente"
 
 ### Backup Automático
 
 **Google Drive JÁ FAZ backup**, mas para segurança extra:
 
-**Opção 1: Google Takeout (Backup manual periódico)**
+**Opçêo 1: Google Takeout (Backup manual periódico)**
 1. takeout.google.com
 2. Selecione "Drive"
 3. Baixe ZIP com tudo
 
-**Opção 2: Apps Script (Backup seletivo)**
+**Opçêo 2: Apps Script (Backup seletivo)**
 
 ```javascript
 function backupPastaImportante() {
@@ -1174,14 +1174,14 @@ function backupPastaImportante() {
 
 ### Compartilhamento Inteligente
 
-**Níveis de permissão:**
+**Níveis de permissêo:**
 - **Visualizador:** Só vê (clientes externos)
 - **Comentador:** Vê + comenta (revisores)
 - **Editor:** Edita (equipe interna)
 
 **Compartilhar com link:**
-- Botão "Compartilhar" → "Obter link"
-- Escolha permissão
+- Botêo "Compartilhar" → "Obter link"
+- Escolha permissêo
 - Copie link
 
 **Automatizar compartilhamento via Script:**
@@ -1207,21 +1207,21 @@ function compartilharComCliente(arquivoId, emailCliente) {
 
 ### Google Slides + Dados Dinâmicos
 
-**Conceito:** Apresentação conectada a planilha → Números se atualizam automaticamente.
+**Conceito:** Apresentaçêo conectada a planilha → Números se atualizam automaticamente.
 
 **Como fazer (manualmente):**
-1. Crie apresentação
+1. Crie apresentaçêo
 2. Insira → Gráfico → "De Planilhas"
 3. Selecione Google Sheets
 4. Escolha intervalo
 5. Insere gráfico vinculado
 
 **Quando dados mudarem na planilha:**
-- Abra apresentação
+- Abra apresentaçêo
 - Clique no gráfico
 - "Atualizar" → Pronto!
 
-**Automatizar atualização via Apps Script:**
+**Automatizar atualizaçêo via Apps Script:**
 
 ```javascript
 function atualizarGraficosSlides() {
@@ -1242,7 +1242,7 @@ function atualizarGraficosSlides() {
 
 ### Templates Reutilizáveis
 
-**Crie biblioteca de slides padrão:**
+**Crie biblioteca de slides padrêo:**
 
 - Slide de Capa
 - Slide de Agenda
@@ -1250,10 +1250,10 @@ function atualizarGraficosSlides() {
 - Slide de Números (4 métricas)
 - Slide de Gráfico Grande
 - Slide de Tabela
-- Slide de Citação
+- Slide de Citaçêo
 - Slide de Agradecimento
 
-**Mantenha em apresentação "Master Template" e copie quando precisar.**
+**Mantenha em apresentaçêo "Master Template" e copie quando precisar.**
 
 ### Gerar Slides com IA (Apps Script + OpenAI API)
 
@@ -1262,11 +1262,11 @@ function atualizarGraficosSlides() {
 ```javascript
 function gerarApresentacaoComIA(tema, slides) {
   // 1. Gerar roteiro com ChatGPT
-  var prompt = "Crie roteiro de apresentação sobre: " + tema + ". " + slides + " slides.";
-  var roteiro = chamarChatGPT(prompt); // Função que chama API OpenAI
+  var prompt = "Crie roteiro de apresentaçêo sobre: " + tema + ". " + slides + " slides.";
+  var roteiro = chamarChatGPT(prompt); // Funçêo que chama API OpenAI
 
-  // 2. Criar apresentação em branco
-  var apresentacao = SlidesApp.create("Apresentação - " + tema);
+  // 2. Criar apresentaçêo em branco
+  var apresentacao = SlidesApp.create("Apresentaçêo - " + tema);
 
   // 3. Para cada slide do roteiro, criar slide real
   // (parsear resposta da IA e criar slides)
@@ -1307,8 +1307,8 @@ function chamarChatGPT(prompt) {
 
 **Sugestões:**
 1. Relatório semanal/mensal
-2. Ata de reunião
-3. Email padrão de envio
+2. Ata de reuniêo
+3. Email padrêo de envio
 
 **Passo a passo:**
 1. Escolha os 3 tipos
@@ -1331,7 +1331,7 @@ function chamarChatGPT(prompt) {
 **Passo a passo:**
 1. Crie planilha com dados necessários
 2. Crie template do relatório em Docs
-3. Copie script de geração (adapte do exemplo acima)
+3. Copie script de geraçêo (adapte do exemplo acima)
 4. Teste rodar manualmente
 5. (Opcional) Configure trigger para rodar automaticamente
 
@@ -1339,7 +1339,7 @@ function chamarChatGPT(prompt) {
 - [ ] Planilha de dados criada
 - [ ] Template pronto
 - [ ] Script funcionando
-- [ ] Testado geração de 1 relatório
+- [ ] Testado geraçêo de 1 relatório
 
 ### Exercício 3: Gerar 1 Documento com IA (30 minutos)
 
@@ -1349,7 +1349,7 @@ function chamarChatGPT(prompt) {
 - Manual de procedimento
 - Análise de dados
 - Proposta
-- Apresentação (roteiro)
+- Apresentaçêo (roteiro)
 
 **Passo a passo:**
 1. Escolha tipo de documento
@@ -1367,23 +1367,23 @@ function chamarChatGPT(prompt) {
 
 ---
 
-## 8. Dicas Avançadas de Produtividade em Documentação
+## 8. Dicas Avançadas de Produtividade em Documentaçêo
 
 ### Atalhos Essenciais do Google Docs (Economize Horas)
 
-**Navegação:**
+**Navegaçêo:**
 - `Ctrl + Alt + N/P` - Próximo/Anterior comentário
 - `Ctrl + Alt + M` - Inserir comentário
 - `Ctrl + Alt + Shift + H` - Ver histórico de revisões
 - `Ctrl + F` - Buscar texto
 - `Ctrl + H` - Buscar e substituir
 
-**Formatação rápida:**
+**Formataçêo rápida:**
 - `Ctrl + Alt + 1/2/3` - Título 1, 2, 3
 - `Ctrl + Alt + 0` - Texto normal
 - `Ctrl + B/I/U` - Negrito/Itálico/Sublinhado
 - `Ctrl + K` - Inserir link
-- `Ctrl + Shift + V` - Colar sem formatação
+- `Ctrl + Shift + V` - Colar sem formataçêo
 
 **Produtividade:**
 - `Ctrl + /` - Buscar nos menus (super útil!)
@@ -1392,7 +1392,7 @@ function chamarChatGPT(prompt) {
 - `@` - Mencionar pessoa ou inserir item especial
 
 **Truque ninja: Comandos de voz (Chrome)**
-1. Ferramentas → Digitação por voz
+1. Ferramentas → Digitaçêo por voz
 2. Fale em português
 3. Comandos: "Novo parágrafo", "Ponto", "Vírgula", "Selecionar tudo"
 
@@ -1400,13 +1400,13 @@ function chamarChatGPT(prompt) {
 
 ### Uso de Variáveis e Macros no Google Docs
 
-Embora Google Docs não tenha macros VBA como Excel, você pode criar "pseudo-variáveis" com Building Blocks (blocos de construção).
+Embora Google Docs nêo tenha macros VBA como Excel, você pode criar "pseudo-variáveis" com Building Blocks (blocos de construçêo).
 
 **Método 1: Blocos Reutilizáveis**
 
-1. Escreva trecho que usa muito (assinatura, rodapé, seção padrão)
+1. Escreva trecho que usa muito (assinatura, rodapé, seçêo padrêo)
 2. Selecione o texto
-3. Ferramentas → Blocos de construção → Salvar como bloco
+3. Ferramentas → Blocos de construçêo → Salvar como bloco
 4. Dê um nome (ex: "assinatura_padrao")
 
 **Para usar:**
@@ -1417,27 +1417,27 @@ Embora Google Docs não tenha macros VBA como Excel, você pode criar "pseudo-va
 **Exemplo de uso:**
 - Assinatura de email
 - Rodapé com disclaimer legal
-- Seções padrão de relatórios
+- Seções padrêo de relatórios
 
-### Colaboração Inteligente: Comentários e Sugestões
+### Colaboraçêo Inteligente: Comentários e Sugestões
 
-**Tipos de edição:**
+**Tipos de ediçêo:**
 
-1. **Modo Edição (padrão):** Altera direto
-2. **Modo Sugestão:** Mudanças ficam como propostas
-3. **Modo Visualização:** Só lê
+1. **Modo Ediçêo (padrêo):** Altera direto
+2. **Modo Sugestêo:** Mudanças ficam como propostas
+3. **Modo Visualizaçêo:** Só lê
 
-**Para trocar:** Botão no canto superior direito (lápis/caneta)
+**Para trocar:** Botêo no canto superior direito (lápis/caneta)
 
-**Melhores práticas de colaboração:**
+**Melhores práticas de colaboraçêo:**
 
 **Para revisor:**
-- Use modo Sugestão para mudanças estruturais
+- Use modo Sugestêo para mudanças estruturais
 - Use Comentários para dúvidas/discussões
 - Mencione pessoa (@nome) para notificar
 
 **Para autor:**
-- Aceite/Rejeite sugestões (não deixe acumular)
+- Aceite/Rejeite sugestões (nêo deixe acumular)
 - Responda comentários
 - Resolva discussões quando concluídas
 
@@ -1451,7 +1451,7 @@ Embora Google Docs não tenha macros VBA como Excel, você pode criar "pseudo-va
 - Restaure versões antigas com 1 clique
 - Nomeie versões importantes: "Aprovado pelo cliente"
 
-### Automatização com Add-ons Úteis
+### Automatizaçêo com Add-ons Úteis
 
 **1. Autocomplete (autocorretor inteligente)**
 - Corrige erros comuns automaticamente
@@ -1476,7 +1476,7 @@ Embora Google Docs não tenha macros VBA como Excel, você pode criar "pseudo-va
 3. Instale
 4. Use pelo menu Extensões
 
-### Geração de Sumário Automático
+### Geraçêo de Sumário Automático
 
 **Para documentos longos (> 5 páginas):**
 
@@ -1522,7 +1522,7 @@ Insira os campos automaticamente:
 - "Página X de Y": Inserir → Número de páginas
 - Data: Inserir → Data
 
-### Conversão e Exportação Inteligente
+### Conversêo e Exportaçêo Inteligente
 
 **Exportar para PDF com opções:**
 
@@ -1549,7 +1549,7 @@ function exportarParaPDF() {
 **Exportar para Word (.docx):**
 - Arquivo → Download → Microsoft Word
 
-**Dica:** Para manter formatação, exporte via Google Docs. Para editar no Word, exporte .docx.
+**Dica:** Para manter formataçêo, exporte via Google Docs. Para editar no Word, exporte .docx.
 
 ### Modelos de Documentos por Tipo de Projeto
 
@@ -1559,14 +1559,14 @@ function exportarParaPDF() {
 Capa:
 - Logo
 - Título do Projeto
-- Versão
+- Versêo
 - Data
 - Autor
 
 Sumário (automático)
 
 1. Resumo Executivo
-2. Introdução
+2. Introduçêo
    2.1 Contexto
    2.2 Objetivos
 3. Metodologia
@@ -1583,30 +1583,30 @@ Sumário (automático)
 ```
 Capa + Sumário
 
-1. Visão Geral
+1. Visêo Geral
    - O que é o sistema
    - Para quem é
 2. Primeiros Passos
    - Como acessar
    - Login
 3. Funcionalidades Principais
-   (1 seção por funcionalidade)
+   (1 seçêo por funcionalidade)
    - O que faz
    - Como usar (passo a passo)
    - Capturas de tela
    - Dicas
-4. Solução de Problemas (FAQ)
+4. Soluçêo de Problemas (FAQ)
 5. Contato para Suporte
 ```
 
-**Modelo 3: Documentação de API**
+**Modelo 3: Documentaçêo de API**
 
 ```
-1. Introdução
-2. Autenticação
+1. Introduçêo
+2. Autenticaçêo
 3. Endpoints
    Para cada endpoint:
-   - Nome e descrição
+   - Nome e descriçêo
    - Método HTTP (GET/POST/etc)
    - URL
    - Parâmetros
@@ -1622,17 +1622,17 @@ Capa + Sumário
 **Antes de enviar qualquer documento importante, verifique:**
 
 **Conteúdo:**
-- [ ] Todas informações estão corretas e atualizadas?
+- [ ] Todas informações estêo corretas e atualizadas?
 - [ ] Números/datas conferidos?
 - [ ] Nomes de pessoas/empresas corretos?
 - [ ] Links funcionando?
 - [ ] Anexos incluídos (se mencionados)?
 
-**Formatação:**
+**Formataçêo:**
 - [ ] Fonte consistente (recomendado: Arial 11 ou Calibri 11)
 - [ ] Margens adequadas (2.5cm sugerido)
 - [ ] Espaçamento entre linhas (1.15 ou 1.5)
-- [ ] Títulos formatados como Título 1/2/3 (não só negrito)
+- [ ] Títulos formatados como Título 1/2/3 (nêo só negrito)
 - [ ] Alinhamento correto (justificado para textos longos)
 
 **Elementos visuais:**
@@ -1642,19 +1642,19 @@ Capa + Sumário
 - [ ] Tabelas formatadas consistentemente
 - [ ] Imagens com qualidade adequada
 
-**Revisão:**
+**Revisêo:**
 - [ ] Corretor ortográfico rodado
-- [ ] Lido em voz alta (pega erros que leitura silenciosa não pega)
+- [ ] Lido em voz alta (pega erros que leitura silenciosa nêo pega)
 - [ ] Segunda pessoa revisou (se documento importante)
-- [ ] Versão final salva com nomenclatura correta
+- [ ] Versêo final salva com nomenclatura correta
 
-**Distribuição:**
+**Distribuiçêo:**
 - [ ] Formato certo (PDF para externos, Google Docs para internos colaborativos)
 - [ ] Permissões de acesso configuradas
 - [ ] Email de envio revisado
 - [ ] Destinatários confirmados
 
-### Integração com Outras Ferramentas
+### Integraçêo com Outras Ferramentas
 
 **Google Docs + Slack:**
 
@@ -1691,11 +1691,11 @@ Via Zapier:
 **Google Docs + Notion:**
 
 Copiar documento do Docs para Notion (via Zapier ou Make):
-- Útil para centralizar documentação
+- Útil para centralizar documentaçêo
 
 **Google Docs + Google Calendar:**
 
-Incluir link de documento em eventos do Calendar (para atas de reunião):
+Incluir link de documento em eventos do Calendar (para atas de reuniêo):
 
 ```javascript
 function criarEventoComDoc() {
@@ -1703,7 +1703,7 @@ function criarEventoComDoc() {
   var docUrl = doc.getUrl();
 
   var evento = CalendarApp.getDefaultCalendar().createEvent(
-    'Reunião Semanal',
+    'Reuniêo Semanal',
     new Date('December 15, 2024 10:00:00'),
     new Date('December 15, 2024 11:00:00'),
     {description: 'Ata: ' + docUrl}
@@ -1715,11 +1715,11 @@ function criarEventoComDoc() {
 
 ## RESUMO DO MÓDULO: O Que Você Aprendeu
 
-✅ **O problema da documentação manual:** 4-6h/semana desperdiçadas
+✅ **O problema da documentaçêo manual:** 4-6h/semana desperdiçadas
 ✅ **Templates inteligentes:** 10 modelos prontos + como criar seus
 ✅ **IA para documentos:** 10 prompts para diferentes tipos
-✅ **Automação de relatórios:** Sistema 100% automático
-✅ **Organização de arquivos:** Nomenclatura + estrutura + versionamento
+✅ **Automaçêo de relatórios:** Sistema 100% automático
+✅ **Organizaçêo de arquivos:** Nomenclatura + estrutura + versionamento
 ✅ **Apresentações automatizadas:** Slides conectados a dados
 ✅ **Exercícios práticos:** 3 implementações reais
 
@@ -1728,13 +1728,13 @@ function criarEventoComDoc() {
 ## RESULTADO ESPERADO
 
 **Antes:**
-- ⏱ 4-6 horas/semana em documentação
+- ⏱ 4-6 horas/semana em documentaçêo
 - 😫 Copiar/colar dados manualmente
 - 📝 Erros e inconsistências
 - 🗂 Drive bagunçado
 
 **Depois:**
-- ⏱ 30min-1h/semana (só revisão)
+- ⏱ 30min-1h/semana (só revisêo)
 - 🤖 Relatórios automáticos
 - ✅ Documentos padronizados e precisos
 - 📁 Tudo organizado e encontrável
@@ -1749,7 +1749,7 @@ function criarEventoComDoc() {
 
 ✅ Módulo 5: Emails automatizados (7-8h economizadas/semana)
 ✅ Módulo 6: Planilhas inteligentes (3-5h economizadas/semana)
-✅ Módulo 7: Documentação automática (3-5h economizadas/semana)
+✅ Módulo 7: Documentaçêo automática (3-5h economizadas/semana)
 
 **Total potencial: 13-18 horas economizadas por semana!**
 
@@ -1759,4 +1759,4 @@ Continue implementando, automatizando e otimizando. Seu futuro eu agradece!
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

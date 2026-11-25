@@ -6,7 +6,7 @@
 
 ## 1. A Ciência do Follow-up
 
-Follow-up não é opcional. É diferença entre fechar e perder venda.
+Follow-up nêo é opcional. É diferença entre fechar e perder venda.
 
 ### A Estatística Que Muda Tudo
 
@@ -27,14 +27,14 @@ Se você faz 5+ follow-ups, você está nos top 8%. Literalmente.
 **Matemática simples:**
 - Lead recebe sua proposta
 - 44% nem lê o email
-- Dos que lêem, 70% "vão pensar"
+- Dos que lêem, 70% "vêo pensar"
 - Desses, 90% esquecem em 3 dias
 
 Sem follow-up sistemático = 97% de perda.
 
 **Case real:** Juliana, vendedora de software, testou 2 abordagens com 100 leads:
 
-**Grupo A (sem follow-up):** 1 email → parou se não respondeu
+**Grupo A (sem follow-up):** 1 email → parou se nêo respondeu
 - Taxa de resposta: 8%
 - Fechamentos: 2
 
@@ -44,44 +44,44 @@ Sem follow-up sistemático = 97% de perda.
 
 Mesma oferta. Mesmo lead. Diferença: persistência estruturada.
 
-**ROI:** 5,5x mais vendas simplesmente por não desistir.
+**ROI:** 5,5x mais vendas simplesmente por nêo desistir.
 
 ### Por Que Vendedores Desistem no 2º Follow-up
 
-**Motivo #1: Acham que estão incomodando**
+**Motivo #1: Acham que estêo incomodando**
 
 "Já mandei email ontem, vou parecer desesperado"
 
-**Verdade:** Lead não viu seu email. Ou viu e esqueceu. Vida dele é caótica. Você não é prioridade (ainda).
+**Verdade:** Lead nêo viu seu email. Ou viu e esqueceu. Vida dele é caótica. Você nêo é prioridade (ainda).
 
-**Motivo #2: Não sabem o que escrever**
+**Motivo #2: Nêo sabem o que escrever**
 
 "Já falei tudo no primeiro email. Vou repetir a mesma coisa?"
 
-**Solução:** Cada follow-up tem ângulo diferente (veremos templates).
+**Soluçêo:** Cada follow-up tem ângulo diferente (veremos templates).
 
 **Motivo #3: Trabalho manual demais**
 
 "Tenho 50 leads, fazer follow-up de todos é impossível"
 
-**Solução:** Automação (próxima seção).
+**Soluçêo:** Automaçêo (próxima seçêo).
 
 **Motivo #4: Medo de "queimar" o lead**
 
 "E se ele ficar irritado com tantos emails?"
 
-**Verdade:** 7% dos leads pedem para parar. 93% simplesmente ignoram até estar pronto para comprar. Os 7% não iam comprar mesmo.
+**Verdade:** 7% dos leads pedem para parar. 93% simplesmente ignoram até estar pronto para comprar. Os 7% nêo iam comprar mesmo.
 
 **Experimento:** Empresa de consultoria enviou 8 follow-ups para 500 leads.
 - Opt-outs (pediram para parar): 31 leads (6,2%)
 - Respostas positivas: 87 leads (17,4%)
 - Fechamentos: 23 leads (4,6%)
 
-**Conclusão:** Para cada lead "irritado", você fecha 3.
+**Conclusêo:** Para cada lead "irritado", você fecha 3.
 
 ### Timing Ideal Entre Follow-ups
 
-Não existe fórmula mágica. Mas dados de 50.000+ vendas B2B mostram padrão:
+Nêo existe fórmula mágica. Mas dados de 50.000+ vendas B2B mostram padrêo:
 
 **Sequência Otimizada (Lead Frio):**
 - Email 1 (Dia 0): Primeiro contato
@@ -91,24 +91,24 @@ Não existe fórmula mágica. Mas dados de 50.000+ vendas B2B mostram padrão:
 - Email 5 (Dia 21): Último email (breakup)
 
 **Sequência Otimizada (Lead Morno - já interagiu):**
-- Email 1 (Dia 0): Pós-interação
+- Email 1 (Dia 0): Pós-interaçêo
 - Email 2 (Dia 2): Check-in rápido
 - Email 3 (Dia 5): Aprofundar dor
 - Email 4 (Dia 10): Proposta/próximo passo
 - Email 5 (Dia 15): Deadline ou urgência genuína
 
 **Sequência Otimizada (Lead Quente - demonstrou interesse):**
-- Email 1 (Dia 0): Recapitulação + CTA claro
+- Email 1 (Dia 0): Recapitulaçêo + CTA claro
 - Email 2 (Dia 1): "Conseguiu ver?"
-- Email 3 (Dia 3): Facilitação (ligar? agendar?)
-- Email 4 (Dia 5): Eliminação de objeção presumida
+- Email 3 (Dia 3): Facilitaçêo (ligar? agendar?)
+- Email 4 (Dia 5): Eliminaçêo de objeçêo presumida
 - Daily check-ins até responder
 
 **Por que esses intervalos?**
 
 - **Dia 3:** Lead esqueceu seu primeiro email. Lembrete sutil.
 - **Dia 7:** Tempo de "pensar" acabou. Novo ângulo reaviva interesse.
-- **Dia 14:** Long enough para não ser spam, short enough para não ser esquecido.
+- **Dia 14:** Long enough para nêo ser spam, short enough para nêo ser esquecido.
 - **Dia 21:** Último. "Breakup email" tem 30% de taxa de resposta (melhor que o primeiro).
 
 ### Multi-Canal: Email + WhatsApp + LinkedIn
@@ -127,15 +127,15 @@ Lead vê 120 emails/dia. Seu email é 1 em 120.
 **DIA 8:** LinkedIn (comentar post)
 **DIA 10:** WhatsApp follow-up
 **DIA 14:** Email #4
-**DIA 15:** Ligação telefônica
+**DIA 15:** Ligaçêo telefônica
 **DIA 21:** Email final
 
 **Por que funciona?**
 
-Cada canal é interrupção diferente.
+Cada canal é interrupçêo diferente.
 
 - Email: Processa quando tem tempo
-- WhatsApp: Urgência percebida (notificação no celular)
+- WhatsApp: Urgência percebida (notificaçêo no celular)
 - LinkedIn: Contexto profissional, menos intrusivo
 - Telefone: Máxima urgência, difícil ignorar
 
@@ -144,12 +144,12 @@ Cada canal é interrupção diferente.
 **Email-only (5 emails):** 12% resposta
 **Multi-canal (3 emails + 2 WhatsApp + 1 LinkedIn):** 31% resposta
 
-**Cuidado:** Multi-canal não é spam multi-canal. É tocar em canais diferentes com mensagem relevante.
+**Cuidado:** Multi-canal nêo é spam multi-canal. É tocar em canais diferentes com mensagem relevante.
 
 **Regra de ouro:**
 
 - Máximo 1 contato por canal a cada 5 dias
-- Sempre adicionar valor (não "só checando")
+- Sempre adicionar valor (nêo "só checando")
 - Se lead pedir para parar, PARE imediatamente
 
 ---
@@ -162,7 +162,7 @@ Automatizar = escala.
 
 ### Sequência para Leads Frios (7 Emails em 21 Dias)
 
-**Lead frio:** Nunca interagiu. Você está "cortejando" atenção dele.
+**Lead frio:** Nunca interagiu. Você está "cortejando" atençêo dele.
 
 **EMAIL 1 (Dia 0): Primeiro Contato**
 
@@ -173,16 +173,16 @@ Oi [Nome],
 
 Vi que [insight personalizado - ex: vocês acabaram de expandir para SP].
 
-Trabalho com [seu mercado] e o padrão que vejo é [dor comum]. Imagino que com [situação deles] isso esteja na sua mesa também.
+Trabalho com [seu mercado] e o padrêo que vejo é [dor comum]. Imagino que com [situaçêo deles] isso esteja na sua mesa também.
 
-[Cliente similar] tinha esse desafio e resolvemos com [solução resumida em 1 frase]. Resultado: [métrica específica - ex: reduziram 40% do tempo em X].
+[Cliente similar] tinha esse desafio e resolvemos com [soluçêo resumida em 1 frase]. Resultado: [métrica específica - ex: reduziram 40% do tempo em X].
 
 Vale 15min na quinta pra conversar?
 
 Abs,
 [Seu nome]
 
-P.S.: Se não fizer sentido, me avisa - prometo não encher tua caixa de entrada :)
+P.S.: Se nêo fizer sentido, me avisa - prometo nêo encher tua caixa de entrada :)
 ```
 
 **Taxa de resposta esperada:** 5-10%
@@ -196,7 +196,7 @@ Assunto: Re: [Nome], ideia para [Empresa]
 
 Sei que inbox vive lotado.
 
-Caso tenha visto meu email anterior e não seja prioridade agora, sem problema - me avisa que paro de enviar.
+Caso tenha visto meu email anterior e nêo seja prioridade agora, sem problema - me avisa que paro de enviar.
 
 Mas se faz sentido conversar sobre [dor específica], tenho um case de [empresa similar] que pode ser útil. Posso mandar?
 
@@ -206,7 +206,7 @@ Abs,
 
 **Taxa de resposta esperada:** 8-12%
 
-**Por que funciona:** Permissão para dizer "não" reduz pressão. Muitos respondem só pra ser educados.
+**Por que funciona:** Permissêo para dizer "nêo" reduz pressêo. Muitos respondem só pra ser educados.
 
 **EMAIL 3 (Dia 7): Novo ângulo - Case detalhado**
 
@@ -215,13 +215,13 @@ Assunto: Como [Empresa Similar] resolveu [Dor]
 
 [Nome],
 
-Prometi não encher sua caixa, mas achei que isso poderia ser relevante:
+Prometi nêo encher sua caixa, mas achei que isso poderia ser relevante:
 
 [Empresa X] (setor similar ao de vocês) estava com [dor específica que você presumiu].
 
-Tentaram [solução comum que não funciona]. Não resolveu.
+Tentaram [soluçêo comum que nêo funciona]. Nêo resolveu.
 
-Mudaram a abordagem para [sua solução]. Em 60 dias:
+Mudaram a abordagem para [sua soluçêo]. Em 60 dias:
 - [Métrica 1]
 - [Métrica 2]
 - [Métrica 3]
@@ -234,7 +234,7 @@ Abs,
 
 **Taxa de resposta esperada:** 10-15%
 
-**Por que funciona:** Não vende você. Vende resultado. Story é mais interessante que pitch.
+**Por que funciona:** Nêo vende você. Vende resultado. Story é mais interessante que pitch.
 
 **EMAIL 4 (Dia 14): Valor puro - Sem CTA de venda**
 
@@ -243,7 +243,7 @@ Assunto: Recurso gratuito: [Nome do Guia/Ferramenta]
 
 [Nome],
 
-Independente de trabalharmos juntos ou não, montei um [guia/checklist/planilha] que pode te ajudar com [dor]:
+Independente de trabalharmos juntos ou nêo, montei um [guia/checklist/planilha] que pode te ajudar com [dor]:
 
 [Link para download gratuito]
 
@@ -266,12 +266,12 @@ Assunto: Última mensagem (prometo!)
 
 [Nome],
 
-Enviei alguns emails nas últimas semanas sobre [dor/solução].
+Enviei alguns emails nas últimas semanas sobre [dor/soluçêo].
 
-Como não tive retorno, imagino que:
-a) Não é prioridade agora, ou
-b) Meus emails estão indo pra spam (acontece!), ou
-c) Simplesmente não faz sentido pra vocês
+Como nêo tive retorno, imagino que:
+a) Nêo é prioridade agora, ou
+b) Meus emails estêo indo pra spam (acontece!), ou
+c) Simplesmente nêo faz sentido pra vocês
 
 Vou parar de enviar a partir de agora.
 
@@ -289,7 +289,7 @@ Abs,
 
 **EMAIL 6 (Dia 28 - Opcional): Reengajamento com gatilho**
 
-Só envie se houver gatilho real (notícia da empresa, mudança de regulação no setor, etc).
+Só envie se houver gatilho real (notícia da empresa, mudança de regulaçêo no setor, etc).
 
 ```
 Assunto: Sobre [Notícia/Mudança no Setor]
@@ -298,11 +298,11 @@ Assunto: Sobre [Notícia/Mudança no Setor]
 
 Sei que disse que era minha última mensagem (e seria!), mas vi que [gatilho específico] e achei relevante te avisar.
 
-Isso provavelmente significa [implicação para o negócio deles].
+Isso provavelmente significa [implicaçêo para o negócio deles].
 
-[Cliente] estava na mesma situação mês passado e [como resolveram].
+[Cliente] estava na mesma situaçêo mês passado e [como resolveram].
 
-Vale conversar? Se não, ignora que não mando mais :)
+Vale conversar? Se nêo, ignora que nêo mando mais :)
 
 Abs,
 [Seu nome]
@@ -314,7 +314,7 @@ Abs,
 
 **Lead morno:** Já interagiu (baixou material, respondeu email, visitou site, conectou no LinkedIn).
 
-**EMAIL 1 (Dia 0): Pós-interação**
+**EMAIL 1 (Dia 0): Pós-interaçêo**
 
 ```
 Assunto: [Material que ele baixou] - próximos passos
@@ -323,9 +323,9 @@ Oi [Nome]!
 
 Vi que baixou nosso [guia/checklist/template]. Espero que seja útil!
 
-Curiosidade: o que te fez procurar sobre [tópico do material]? Vocês estão enfrentando [dor relacionada]?
+Curiosidade: o que te fez procurar sobre [tópico do material]? Vocês estêo enfrentando [dor relacionada]?
 
-Pergunto porque 80% das empresas que baixam esse material estão lidando com [desafio específico] e tem um jeito mais rápido de resolver que não está no guia.
+Pergunto porque 80% das empresas que baixam esse material estêo lidando com [desafio específico] e tem um jeito mais rápido de resolver que nêo está no guia.
 
 Se quiser trocar uma ideia, estou por aqui.
 
@@ -352,7 +352,7 @@ Qualquer dúvida, só chamar!
 Abs,
 [Seu nome]
 
-P.S.: Se você já aplicou e funcionou, adoraria ouvir. Se não funcionou, também - me ajuda a melhorar o material.
+P.S.: Se você já aplicou e funcionou, adoraria ouvir. Se nêo funcionou, também - me ajuda a melhorar o material.
 ```
 
 **Taxa de resposta esperada:** 20-25%
@@ -364,7 +364,7 @@ Assunto: Pergunta rápida sobre [Processo/Dor]
 
 [Nome],
 
-Tenho atendido várias empresas como [Empresa dele] recentemente e o padrão é:
+Tenho atendido várias empresas como [Empresa dele] recentemente e o padrêo é:
 
 - [Dor 1] está custando X% de eficiência
 - [Dor 2] está atrasando [resultado importante]
@@ -372,7 +372,7 @@ Tenho atendido várias empresas como [Empresa dele] recentemente e o padrão é:
 
 Vocês vivem algo similar? Ou a realidade aí é outra?
 
-Pergunto porque se estiver, tem jeito de resolver em [timeframe]. Se não estiver, ignora esse email :)
+Pergunto porque se estiver, tem jeito de resolver em [timeframe]. Se nêo estiver, ignora esse email :)
 
 Abs,
 [Seu nome]
@@ -380,7 +380,7 @@ Abs,
 
 **Taxa de resposta esperada:** 30-40%
 
-**Por que funciona:** Pergunta genuína (não pitch). Leads mornos já conhecem você. Agora querem saber se você ENTENDE eles.
+**Por que funciona:** Pergunta genuína (nêo pitch). Leads mornos já conhecem você. Agora querem saber se você ENTENDE eles.
 
 **EMAIL 4 (Dia 10): Proposta soft**
 
@@ -389,15 +389,15 @@ Assunto: Que tal testarmos isso juntos?
 
 [Nome],
 
-Baseado no que conversamos (ou no que vi sobre [Empresa]), imagino que [solução específica] faria sentido pra vocês.
+Baseado no que conversamos (ou no que vi sobre [Empresa]), imagino que [soluçêo específica] faria sentido pra vocês.
 
 Que tal fazermos assim:
 
 1. Agenda 30min comigo (sem compromisso)
 2. Eu preparo um overview de como funcionaria pra [Empresa]
-3. Você decide se faz sentido ou não
+3. Você decide se faz sentido ou nêo
 
-Se fizer sentido, a gente avança. Se não, você ganhou uma consultoria grátis de 30min :)
+Se fizer sentido, a gente avança. Se nêo, você ganhou uma consultoria grátis de 30min :)
 
 Topa?
 
@@ -416,13 +416,13 @@ Assunto: Deadline em [Data] - ainda dá tempo
 
 [Nome],
 
-Notei que não agendamos aquela conversa.
+Notei que nêo agendamos aquela conversa.
 
-Não quero pressionar, mas vai ter um momento específico onde isso fará mais sentido?
+Nêo quero pressionar, mas vai ter um momento específico onde isso fará mais sentido?
 
 Pergunto porque [urgência genuína - ex: "estamos fechando agenda do mês e depois só em 30 dias" ou "política X muda em Y dias"].
 
-Se agora não for o momento, sem problema - me avisa e retomo contato em [quando faz mais sentido].
+Se agora nêo for o momento, sem problema - me avisa e retomo contato em [quando faz mais sentido].
 
 Abs,
 [Seu nome]
@@ -475,18 +475,18 @@ Abs,
 [Seu nome]
 ```
 
-**DIA 2: Eliminar objeção presumida**
+**DIA 2: Eliminar objeçêo presumida**
 
 ```
-Assunto: Sobre [Objeção Comum]
+Assunto: Sobre [Objeçêo Comum]
 
 [Nome],
 
-Depois que envio proposta, a dúvida mais comum é: "[objeção comum - ex: como fica se precisarmos cancelar?"]"
+Depois que envio proposta, a dúvida mais comum é: "[objeçêo comum - ex: como fica se precisarmos cancelar?"]"
 
 No caso de vocês: [resposta clara e direta]
 
-Isso era uma preocupação ou foi só eu antecipando? rsrs
+Isso era uma preocupaçêo ou foi só eu antecipando? rsrs
 
 Abs,
 [Seu nome]
@@ -501,7 +501,7 @@ Assunto: Ajustar alguma coisa?
 
 Revisou a proposta?
 
-Se alguma parte não fez sentido ou quiser ajustar, me fala - consigo adaptar.
+Se alguma parte nêo fez sentido ou quiser ajustar, me fala - consigo adaptar.
 
 Ou se estiver ok, basta [próximo passo claro - ex: "assinar e mandar de volta" ou "confirmar data de kick-off"].
 
@@ -524,29 +524,29 @@ Abs,
 [Seu nome]
 ```
 
-**Variação (Dia 5):**
+**Variaçêo (Dia 5):**
 ```
 [Nome], me dá um update? Só pra eu saber se sigo acompanhando ou se precisa de mais tempo.
 ```
 
-**Variação (Dia 6):**
+**Variaçêo (Dia 6):**
 ```
-[Nome], tudo bem? Silêncio às vezes significa "não é prioridade agora". Se for isso, me avisa que volto a falar em [X semanas]. Se não, bora alinhar?
+[Nome], tudo bem? Silêncio às vezes significa "nêo é prioridade agora". Se for isso, me avisa que volto a falar em [X semanas]. Se nêo, bora alinhar?
 ```
 
-**DIA 7: Se não respondeu nada, ligar**
+**DIA 7: Se nêo respondeu nada, ligar**
 
 Telefone > Email quando lead está travado.
 
-**Script de ligação:**
+**Script de ligaçêo:**
 
-"Oi [Nome]! Tudo bem? É [Seu Nome] da [Empresa]. Estou ligando porque mandei proposta semana passada e não tive retorno. Tá tudo ok ou ficou travado em alguma coisa que eu posso ajudar?"
+"Oi [Nome]! Tudo bem? É [Seu Nome] da [Empresa]. Estou ligando porque mandei proposta semana passada e nêo tive retorno. Tá tudo ok ou ficou travado em alguma coisa que eu posso ajudar?"
 
 [Ouve resposta]
 
-- Se disser "ainda não olhei": "Sem problema! Quando você acha que vai conseguir dar uma olhada? Te ligo [dia após esse prazo] pra gente alinhar."
+- Se disser "ainda nêo olhei": "Sem problema! Quando você acha que vai conseguir dar uma olhada? Te ligo [dia após esse prazo] pra gente alinhar."
 
-- Se disser "estou esperando aprovar com [Pessoa]": "Beleza! Quer que eu fale direto com [Pessoa] ou prefere que eu te mande um resumo executivo pra facilitar sua apresentação?"
+- Se disser "estou esperando aprovar com [Pessoa]": "Beleza! Quer que eu fale direto com [Pessoa] ou prefere que eu te mande um resumo executivo pra facilitar sua apresentaçêo?"
 
 - Se disser "mudou a prioridade": "Entendo. Quando volta a ser prioridade? Te coloco no radar pra retomar [quando faz sentido]."
 
@@ -557,19 +557,19 @@ Telefone > Email quando lead está travado.
 1. **Assunto:** Curto (max 50 chars). Específico. Sem clickbait.
 2. **Abertura:** Contexto ou callback ao email anterior
 3. **Corpo:** 1 ideia apenas. Max 100 palavras.
-4. **CTA:** Pergunta ou ação clara
-5. **Fechamento:** Casual, não robótico
+4. **CTA:** Pergunta ou açêo clara
+5. **Fechamento:** Casual, nêo robótico
 
 **Exemplo de RUIM:**
 
 ```
 Assunto: Seguindo nossa conversa
 
-Oi João,
+Oi Joêo,
 
-Conforme conversamos, segue mais informações sobre nossa solução de marketing digital que ajuda empresas a crescerem suas vendas através de campanhas otimizadas com inteligência artificial e análise de dados em tempo real para maximizar ROI.
+Conforme conversamos, segue mais informações sobre nossa soluçêo de marketing digital que ajuda empresas a crescerem suas vendas através de campanhas otimizadas com inteligência artificial e análise de dados em tempo real para maximizar ROI.
 
-Podemos agendar uma reunião?
+Podemos agendar uma reuniêo?
 
 Atenciosamente,
 Vendedor
@@ -578,7 +578,7 @@ Vendedor
 **Problemas:**
 - Assunto genérico
 - Parágrafo gigante
-- Jargão demais
+- Jargêo demais
 - CTA vago
 - Tom formal/robótico
 
@@ -587,24 +587,24 @@ Vendedor
 ```
 Assunto: ROI de campanhas - dúvida
 
-João,
+Joêo,
 
 Você mencionou que ROI das campanhas está abaixo do esperado.
 
 Clientes costumam reportar 2 vilões:
-1. Segmentação errada (gastam com público frio)
-2. Criativos fracos (alta impressão, baixo clique)
+1. Segmentaçêo errada (gastam com público frio)
+2. Criativos fracos (alta impressêo, baixo clique)
 
 Vocês medem essas duas coisas separadamente?
 
-Pergunto porque se não medem, posso compartilhar o dashboard que usamos - ajuda a identificar qual dos dois está matando o ROI.
+Pergunto porque se nêo medem, posso compartilhar o dashboard que usamos - ajuda a identificar qual dos dois está matando o ROI.
 
 Abs,
-João
+Joêo
 ```
 
 **Por que funciona:**
-- Assunto específico (ROI, não "seguindo")
+- Assunto específico (ROI, nêo "seguindo")
 - Callback direto ("você mencionou")
 - Corpo enxuto (90 palavras)
 - Pergunta genuína
@@ -616,10 +616,10 @@ João
 - Lead pede explicitamente (email, WhatsApp, LinkedIn)
 - Lead marca email como spam
 - Lead bloqueia você no WhatsApp/LinkedIn
-- Lead respondeu "não tenho interesse" de forma clara
+- Lead respondeu "nêo tenho interesse" de forma clara
 
-**PAUSAR (não deletar) se:**
-- Lead respondeu "agora não, em [timeframe]"
+**PAUSAR (nêo deletar) se:**
+- Lead respondeu "agora nêo, em [timeframe]"
 - Lead mudou de empresa (re-qualifique)
 - Empresa fechou/foi vendida (pesquise novo contexto)
 - Seu produto mudou radicalmente (lead antigo precisa de novo pitch)
@@ -655,7 +655,7 @@ Abs,
 
 ### Setup Completo no Zapier/Make
 
-**Opção 1: Zapier (mais fácil)**
+**Opçêo 1: Zapier (mais fácil)**
 
 **Trigger:** Google Sheets - New Row
 - Worksheet: LEADS
@@ -676,10 +676,10 @@ Abs,
 **Action 6:** Update Sheets Row
 Set Status = "Sequência Completa"
 
-**Opção 2: Make (mais controle, mais complexo)**
+**Opçêo 2: Make (mais controle, mais complexo)**
 
 Visual de fluxograma permite:
-- Branches (se lead abre email, envia versão X; se não abre, versão Y)
+- Branches (se lead abre email, envia versêo X; se nêo abre, versêo Y)
 - Loops (repete daily check-in até resposta)
 - Condicionais complexas (se lead é de setor A, usa sequência 1; se setor B, sequência 2)
 
@@ -708,9 +708,9 @@ Make free: 1000 ops/mês (suficiente para ~150 leads)
 
 ## 3. Gatilhos Inteligentes
 
-Automação burra: "Envia email dia 3, não importa o que aconteça"
+Automaçêo burra: "Envia email dia 3, nêo importa o que aconteça"
 
-Automação inteligente: "Se lead abriu email mas não clicou, envia versão B. Se clicou, liga."
+Automaçêo inteligente: "Se lead abriu email mas nêo clicou, envia versêo B. Se clicou, liga."
 
 ### Abriu Email → Envia Próximo em 2h
 
@@ -723,7 +723,7 @@ Automação inteligente: "Se lead abriu email mas não clicou, envia versão B. 
 
 **Filter:** Email is part of "Sequência Cold"
 
-**Action:** Send follow-up (versão "Sei que viu meu email")
+**Action:** Send follow-up (versêo "Sei que viu meu email")
 
 **Template:**
 
@@ -746,7 +746,7 @@ Abs,
 
 **Por que funciona:** Você sabe que ele viu. Ele sabe que você sabe. Cria senso de "preciso responder".
 
-**Cuidado:** Não abuse. Use só em leads quentes. Lead frio pode achar invasivo.
+**Cuidado:** Nêo abuse. Use só em leads quentes. Lead frio pode achar invasivo.
 
 ### Clicou no Link → Alerta para Ligar
 
@@ -765,16 +765,16 @@ Abs,
 
 **Action 2:** Update CRM
 - Status: "Quente - Click em Proposta"
-- Próxima Ação: "Ligar agora"
+- Próxima Açêo: "Ligar agora"
 
 **Action 3 (opcional):** Auto-dial (Aircall/Twilio)
 - Liga automaticamente para lead
 
-**Script de ligação:**
+**Script de ligaçêo:**
 
 "Oi [Nome]! Vi que você acabou de abrir nossa proposta. Perfeito timing - estava justamente pensando em você rsrs. Deu pra ler ou quer que eu resuma os pontos principais rapidinho?"
 
-### Não Respondeu em 3 Dias → Muda Abordagem
+### Nêo Respondeu em 3 Dias → Muda Abordagem
 
 **Lógica:** Se email 1 e 2 foram ignorados, email 3 precisa ser MUITO diferente.
 
@@ -790,16 +790,16 @@ Abs,
 
 **Action 1:** Send different angle email
 
-**Template (muda de pitch para educação):**
+**Template (muda de pitch para educaçêo):**
 
 ```
 Assunto: [Tópico relevante] - material gratuito
 
 [Nome],
 
-Sei que mandei uns emails sobre [sua solução] e não tive retorno.
+Sei que mandei uns emails sobre [sua soluçêo] e nêo tive retorno.
 
-Sem problema! Imagino que não seja prioridade agora.
+Sem problema! Imagino que nêo seja prioridade agora.
 
 Mas montei um [guia/checklist] sobre [dor relacionada] que pode ser útil mesmo se nunca trabalharmos juntos:
 
@@ -811,7 +811,7 @@ Abs,
 [Seu nome]
 ```
 
-**Taxa de conversão:** 18-25% (vs 5-8% de repetir mesmo tipo de email)
+**Taxa de conversêo:** 18-25% (vs 5-8% de repetir mesmo tipo de email)
 
 ### Visitou Página de Preços → Enviar Proposta
 
@@ -835,8 +835,8 @@ Vi que visitou nossa página de preços.
 
 Pra facilitar, montei um breakdown específico pro caso de vocês:
 
-- [Plano X]: R$ [valor] - ideal se [situação]
-- [Plano Y]: R$ [valor] - ideal se [situação]
+- [Plano X]: R$ [valor] - ideal se [situaçêo]
+- [Plano Y]: R$ [valor] - ideal se [situaçêo]
 
 Qual faz mais sentido? Ou quer que eu monte algo customizado?
 
@@ -847,7 +847,7 @@ Abs,
 **Action 2:** Notify vendedor
 "Lead [Nome] visitou página de preços. Temperatura: QUENTE"
 
-**Variação avançada:** Se visitou preços 3x em 1 semana, auto-liga.
+**Variaçêo avançada:** Se visitou preços 3x em 1 semana, auto-liga.
 
 ### Como Configurar Cada Gatilho
 
@@ -855,7 +855,7 @@ Abs,
 
 **GATILHO #1: Email aberto**
 
-1. Instale Mailtrack (extensão Chrome - free)
+1. Instale Mailtrack (extensêo Chrome - free)
 2. Zapier trigger: Mailtrack → Email opened
 3. Filter: Only continue if email is from "Sequência [X]"
 4. Action: Send follow-up
@@ -884,7 +884,7 @@ Abs,
 
 **Erro comum:** Trigger dispara múltiplas vezes.
 
-**Solução:** Adicione coluna "Email [X] Enviado?" no CRM. Filter: "Only continue if = No". Após enviar, update to "Yes".
+**Soluçêo:** Adicione coluna "Email [X] Enviado?" no CRM. Filter: "Only continue if = No". Após enviar, update to "Yes".
 
 ---
 
@@ -902,38 +902,38 @@ Email alone doesn't cut it anymore.
 
 **DIA 3:** Email follow-up
 
-**DIA 5:** Se aceitou conexão, curta post recente dele (sem comentar ainda)
+**DIA 5:** Se aceitou conexêo, curta post recente dele (sem comentar ainda)
 
 **DIA 7:** Email follow-up #2
 
-**DIA 8:** Comente em post dele (insight genuíno, não spam)
+**DIA 8:** Comente em post dele (insight genuíno, nêo spam)
 
-**DIA 10:** LinkedIn DM (não InMail - é grátis se já conectou)
+**DIA 10:** LinkedIn DM (nêo InMail - é grátis se já conectou)
 
 **Template LinkedIn DM:**
 
 ```
 Oi [Nome]!
 
-Conectamos aqui mas não tivemos chance de conversar.
+Conectamos aqui mas nêo tivemos chance de conversar.
 
-Vi seu post sobre [tópico] - super relevante. Vocês estão lidando com [dor relacionada]?
+Vi seu post sobre [tópico] - super relevante. Vocês estêo lidando com [dor relacionada]?
 
-Trabalho com isso direto e tem uns atalhos que a galera não conhece. Se quiser trocar ideia, tô aqui!
+Trabalho com isso direto e tem uns atalhos que a galera nêo conhece. Se quiser trocar ideia, tô aqui!
 
 Abs,
 [Seu nome]
 ```
 
-**Por que funciona:** LinkedIn é menos formal que email. Sensação de "networking", não "cold sales".
+**Por que funciona:** LinkedIn é menos formal que email. Sensaçêo de "networking", nêo "cold sales".
 
-**Taxa de resposta:** LinkedIn DM pós-conexão = 40-60% (vs 10-15% de InMail cold)
+**Taxa de resposta:** LinkedIn DM pós-conexêo = 40-60% (vs 10-15% de InMail cold)
 
 ### Email + WhatsApp
 
 **Cuidado:** WhatsApp é INTRUSIVO. Use só se:
 - Lead deu número (formulário, assinatura email)
-- Você tem relacionamento prévio (reunião, call)
+- Você tem relacionamento prévio (reuniêo, call)
 - Lead é brasileiro (WhatsApp é onipresente)
 
 **Estratégia:**
@@ -949,7 +949,7 @@ Abs,
 ```
 Oi [Nome]! É [Seu Nome] da [Empresa].
 
-Mandei proposta por email mas não sei se chegou certinho (as vezes vai pra spam).
+Mandei proposta por email mas nêo sei se chegou certinho (as vezes vai pra spam).
 
 Dá pra dar uma olhada? Qualquer dúvida, me chama aqui que respondo mais rápido.
 
@@ -958,7 +958,7 @@ Abs!
 
 **Template WhatsApp (áudio - 20 segundos):**
 
-"Oi [Nome], tudo bem? [Seu Nome] aqui. Cara, mandei uma proposta por email mas não sei se tu viu. Dá uma conferida quando puder? Qualquer dúvida, me chama aqui. Valeu!"
+"Oi [Nome], tudo bem? [Seu Nome] aqui. Cara, mandei uma proposta por email mas nêo sei se tu viu. Dá uma conferida quando puder? Qualquer dúvida, me chama aqui. Valeu!"
 
 **Por que áudio funciona melhor:**
 - Menos "spam" (requer esforço gravar)
@@ -967,9 +967,9 @@ Abs!
 
 **Taxa de resposta:** WhatsApp = 70-85% (!!!)
 
-**Mas:** 15% ficam irritados com invasão. Trade-off.
+**Mas:** 15% ficam irritados com invasêo. Trade-off.
 
-**Regra:** Max 2 mensagens WhatsApp por sequência. Se não respondeu 2, volte para email.
+**Regra:** Max 2 mensagens WhatsApp por sequência. Se nêo respondeu 2, volte para email.
 
 ### Email + Telefone
 
@@ -980,13 +980,13 @@ Abs!
 - Urgência real (deadline, vaga limitada)
 - Decisor sênior (CEO/Founder prefere call)
 
-**Quando NÃO ligar:**
+**Quando NêO ligar:**
 
-- Lead frio (0 interação - spam call)
+- Lead frio (0 interaçêo - spam call)
 - Lead explicitamente disse "prefiro email"
 - Horário inadequado (antes 9am, depois 7pm, fim de semana)
 
-**Script de ligação pós-email:**
+**Script de ligaçêo pós-email:**
 
 **Intro:**
 "Oi [Nome], tudo bem? [Seu Nome] da [Empresa]. Tá num momento bom pra conversar rápido? Leva 2 minutos."
@@ -995,19 +995,19 @@ Abs!
 
 "Ótimo! Mandei uns emails sobre [tópico] mas email as vezes se perde. Conseguiu ver?"
 
-[Se não viu]
+[Se nêo viu]
 "Sem problema. Resumo em 30 segundos: [pitch]. Faz sentido pra vocês ou tô viajando?"
 
-[Se viu mas não respondeu]
+[Se viu mas nêo respondeu]
 "Beleza! Fez sentido ou ficou alguma dúvida?"
 
-**Objeção: "Estou ocupado"**
-"Imagino! Quando seria melhor eu ligar? Amanhã [horário X]?"
+**Objeçêo: "Estou ocupado"**
+"Imagino! Quando seria melhor eu ligar? Amanhê [horário X]?"
 
-**Objeção: "Manda por email"**
+**Objeçêo: "Manda por email"**
 "Já mandei, mas te reenvio. Você prefere que eu resuma os pontos principais no email ou tá ok ler o que mandei?"
 
-**Objetivo da call:** NÃO é fechar venda. É mover para próximo passo (reunião, proposta, demo).
+**Objetivo da call:** NêO é fechar venda. É mover para próximo passo (reuniêo, proposta, demo).
 
 ### Coordenar Canais Sem Ser Invasivo
 
@@ -1025,19 +1025,19 @@ Nunca "só checando". Sempre adicione algo:
 - Case relevante
 - Artigo/vídeo útil
 
-**Regra 3:** Permissão para parar
-Todo 3º contato: "Se não fizer sentido, me avisa que paro de enviar"
+**Regra 3:** Permissêo para parar
+Todo 3º contato: "Se nêo fizer sentido, me avisa que paro de enviar"
 
 **Regra 4:** Adaptar ao lead
 Se lead responde rápido no WhatsApp mas ignora email → use mais WhatsApp.
-Se lead responde email mas não aceita LinkedIn → stick to email.
+Se lead responde email mas nêo aceita LinkedIn → stick to email.
 
 **Dashboard de multi-canal:**
 
 No CRM, adicione colunas:
 - Canal preferido (Email/WhatsApp/LinkedIn/Call)
 - Melhor dia para contato (Segunda/Terça/etc)
-- Melhor horário (Manhã/Tarde/Noite)
+- Melhor horário (Manhê/Tarde/Noite)
 
 Popule com dados ao longo do tempo.
 
@@ -1049,7 +1049,7 @@ Popule com dados ao longo do tempo.
 
 ### Sistema de Alertas por Prioridade
 
-**CRM + Automação = Nunca esquecer.**
+**CRM + Automaçêo = Nunca esquecer.**
 
 **Setup:**
 
@@ -1085,8 +1085,8 @@ Subject: CRM - LEADS ATRASADOS
 
 Você tem [X] leads com follow-up atrasado:
 
-- [Lead 1]: Devia ter ligado em [data]. Ação: [próxima ação]
-- [Lead 2]: Email não enviado. Ação: [próxima ação]
+- [Lead 1]: Devia ter ligado em [data]. Açêo: [próxima açêo]
+- [Lead 2]: Email nêo enviado. Açêo: [próxima açêo]
 ...
 
 Acesse CRM: [link]
@@ -1110,7 +1110,7 @@ Acesse CRM: [link]
 
 ### CRM Que Avisa Quando Agir
 
-**Coluna "Próxima Ação Automática":**
+**Coluna "Próxima Açêo Automática":**
 
 Fórmula que sugere o que fazer:
 
@@ -1118,7 +1118,7 @@ Fórmula que sugere o que fazer:
 =IF(I2="Novo", "Enviar email inicial",
   IF(I2="Contactado", "Follow-up em "&TEXT(M2+3,"DD/MM"),
     IF(I2="Proposta enviada", "Ligar para discutir proposta",
-      IF(I2="Negociação", "Enviar contrato",
+      IF(I2="Negociaçêo", "Enviar contrato",
         IF((TODAY()-M2)>14, "URGENTE: Lead esfriando - religar",
           "Manter sequência")))))
 ```
@@ -1136,7 +1136,7 @@ Use Zapier + Slack/Discord/Telegram:
 ```
 @você: Lead [Nome] ficou QUENTE!
 
-Próxima ação: [CTA]
+Próxima açêo: [CTA]
 Valor: R$ [valor]
 Deadline: [data]
 
@@ -1145,20 +1145,20 @@ Ver no CRM: [link]
 
 ### Backup Automático de Follow-ups
 
-**Problema:** Automação falha. Email vai pra spam. WhatsApp não entrega.
+**Problema:** Automaçêo falha. Email vai pra spam. WhatsApp nêo entrega.
 
-**Solução:** Redundância.
+**Soluçêo:** Redundância.
 
 **Sistema de backup:**
 
-Se lead não responder email em X dias, automation escala para canal secundário.
+Se lead nêo responder email em X dias, automation escala para canal secundário.
 
 **Exemplo:**
 
 **DIA 0:** Email #1 (primário)
-**DIA 3:** Email #2 (backup caso #1 não abriu)
-**DIA 5:** Se não abriu nem email #1 nem #2 → WhatsApp (backup do backup)
-**DIA 7:** Se não respondeu WhatsApp → LinkedIn (último backup)
+**DIA 3:** Email #2 (backup caso #1 nêo abriu)
+**DIA 5:** Se nêo abriu nem email #1 nem #2 → WhatsApp (backup do backup)
+**DIA 7:** Se nêo respondeu WhatsApp → LinkedIn (último backup)
 
 **Setup:**
 
@@ -1181,9 +1181,9 @@ Action: Send LinkedIn DM
 **Sintomas:**
 - Parou de responder emails
 - Proposta enviada há 14+ dias, zero feedback
-- Reunião agendada, desmarcou 2x
+- Reuniêo agendada, desmarcou 2x
 
-**Não fazer:** Insistir no mesmo canal/abordagem.
+**Nêo fazer:** Insistir no mesmo canal/abordagem.
 
 **Fazer:**
 
@@ -1194,12 +1194,12 @@ Assunto: Fechando loop
 
 [Nome],
 
-Mandei proposta há 2 semanas e não tive retorno.
+Mandei proposta há 2 semanas e nêo tive retorno.
 
 Imagino que uma dessas 3 coisas aconteceu:
 
-1. Não é prioridade agora (ok!)
-2. Proposta não fez sentido (me fala pra eu melhorar)
+1. Nêo é prioridade agora (ok!)
+2. Proposta nêo fez sentido (me fala pra eu melhorar)
 3. Você tá mega ocupado e vai responder eventualmente (também ok!)
 
 Qual dos 3?
@@ -1221,25 +1221,25 @@ Assunto: [Gerente] me indicou
 
 Oi [VP],
 
-Estava conversando com [Gerente] sobre [dor/solução] mas imagino que ele tá super ocupado (não tive retorno há 2 semanas).
+Estava conversando com [Gerente] sobre [dor/soluçêo] mas imagino que ele tá super ocupado (nêo tive retorno há 2 semanas).
 
-Como isso provavelmente é decisão sua também, quis te dar contexto:
+Como isso provavelmente é decisêo sua também, quis te dar contexto:
 
 [Resumo ultra-sucinto em 3 linhas]
 
-Faz sentido continuarmos conversando ou [Gerente] já te passou que não é prioridade?
+Faz sentido continuarmos conversando ou [Gerente] já te passou que nêo é prioridade?
 
 Abs,
 [Seu nome]
 ```
 
-**Tática #3: Pausa + gatilho de reativação**
+**Tática #3: Pausa + gatilho de reativaçêo**
 
 Pare sequência por 60 dias. Crie alerta:
 
 "Se [Empresa X] aparecer em notícia ou se [gatilho no setor], reativar lead"
 
-Email de reativação:
+Email de reativaçêo:
 
 ```
 Assunto: [Gatilho específico]
@@ -1248,7 +1248,7 @@ Assunto: [Gatilho específico]
 
 Conversamos há uns meses sobre [tópico].
 
-Na época não era timing, mas vi que [gatilho - ex: "empresa abriu nova unidade" ou "regulação X mudou"] e imagino que agora isso voltou pra mesa.
+Na época nêo era timing, mas vi que [gatilho - ex: "empresa abriu nova unidade" ou "regulaçêo X mudou"] e imagino que agora isso voltou pra mesa.
 
 Faz sentido retomar?
 
@@ -1264,22 +1264,22 @@ Abs,
 
 **Empresa:** Agência de desenvolvimento web
 
-**Problema:** Recebiam 50 leads/mês via website. Mandavam 1 email. Se não respondesse, partiam para próximo lead.
+**Problema:** Recebiam 50 leads/mês via website. Mandavam 1 email. Se nêo respondesse, partiam para próximo lead.
 
 **Resultado:** Convertiam 6% (3 clientes/mês).
 
-**Solução:** Implementaram sequência automatizada de 5 emails + WhatsApp.
+**Soluçêo:** Implementaram sequência automatizada de 5 emails + WhatsApp.
 
 **Novo processo:**
 1. Lead preenche formulário
 2. Zapier envia email #1 automaticamente
-3. Se não responde em 3 dias, email #2
-4. Se não responde em 7 dias, email #3
-5. Se abre emails mas não responde, WhatsApp
-6. Se não responde nada, email breakup dia 21
+3. Se nêo responde em 3 dias, email #2
+4. Se nêo responde em 7 dias, email #3
+5. Se abre emails mas nêo responde, WhatsApp
+6. Se nêo responde nada, email breakup dia 21
 
 **Resultado após 3 meses:**
-- Taxa de conversão: 18% (9 clientes/mês)
+- Taxa de conversêo: 18% (9 clientes/mês)
 - Aumento: 200%
 - Receita adicional: R$45k/mês (ticket médio R$5k)
 - Tempo extra gasto: 0h (tudo automatizado)
@@ -1291,15 +1291,15 @@ Abs,
 **Fórmula:**
 
 ```
-ROI Follow-up = (Vendas adicionais × Ticket médio × Margem) / Custo de implementação
+ROI Follow-up = (Vendas adicionais × Ticket médio × Margem) / Custo de implementaçêo
 ```
 
 **Exemplo:**
 
 **Seu cenário:**
 - Leads/mês: 30
-- Taxa conversão atual (1 email): 5% = 1,5 venda/mês
-- Taxa conversão com sequência (5 emails): 15% = 4,5 vendas/mês
+- Taxa conversêo atual (1 email): 5% = 1,5 venda/mês
+- Taxa conversêo com sequência (5 emails): 15% = 4,5 vendas/mês
 - Delta: +3 vendas/mês
 - Ticket médio: R$8.000
 - Margem: 40%
@@ -1310,7 +1310,7 @@ Receita adicional/mês = 3 × R$8.000 × 40% = R$9.600
 
 Receita adicional/ano = R$115.200
 
-Custo de implementação:
+Custo de implementaçêo:
 - Setup Zapier: 8 horas × R$100/h = R$800 (seu tempo)
 - Ferramentas: R$0 (planos free)
 - Total: R$800
@@ -1319,7 +1319,7 @@ Custo de implementação:
 
 **Payback:** 2,5 dias (!!)
 
-**Até onde sei:** Não existe investimento com ROI melhor em vendas.
+**Até onde sei:** Nêo existe investimento com ROI melhor em vendas.
 
 ### Template de Cálculo (Copiar)
 
@@ -1327,8 +1327,8 @@ Custo de implementação:
 
 **Inputs:**
 - Leads/mês: [X]
-- Taxa conversão atual: [Y%]
-- Taxa conversão esperada com follow-up: [Z%]
+- Taxa conversêo atual: [Y%]
+- Taxa conversêo esperada com follow-up: [Z%]
 - Ticket médio: R$ [W]
 - Margem: [M%]
 
@@ -1344,7 +1344,7 @@ Custo de implementação:
 
 ### Exercício 1: Criar Sequência de 5 Emails (60min)
 
-**Objetivo:** Ter sequência pronta para usar amanhã.
+**Objetivo:** Ter sequência pronta para usar amanhê.
 
 **Instruções:**
 
@@ -1356,7 +1356,7 @@ Custo de implementação:
 
 **Checklist:**
 - [ ] Email 1: Gancho + valor + CTA
-- [ ] Email 2: Callback + facilitação
+- [ ] Email 2: Callback + facilitaçêo
 - [ ] Email 3: Novo ângulo (case/prova social)
 - [ ] Email 4: Valor puro (sem pedir nada)
 - [ ] Email 5: Breakup
@@ -1367,7 +1367,7 @@ Custo de implementação:
 
 ### Exercício 2: Configurar 1 Gatilho Inteligente (45min)
 
-**Objetivo:** Automação que reage a comportamento do lead.
+**Objetivo:** Automaçêo que reage a comportamento do lead.
 
 **Opções (escolha 1):**
 
@@ -1413,12 +1413,12 @@ Pegue 10 leads. Divida em 2 grupos:
 - Taxa de resposta Grupo B: ____%
 - Canal com mais respostas no Grupo B: ____
 
-**Reflexão:**
+**Reflexêo:**
 - Grupo B performou melhor? Por quanto?
 - Algum canal específico trouxe maioria das respostas?
 - Leads ficaram irritados com multi-canal?
 
-**Decisão:** Continuar multi-canal ou focar em email?
+**Decisêo:** Continuar multi-canal ou focar em email?
 
 ### Exercício 4: Calcular SEU ROI de Follow-up (20min)
 
@@ -1427,18 +1427,18 @@ Pegue 10 leads. Divida em 2 grupos:
 1. Abra planilha de cálculo (link acima)
 2. Preencha inputs:
    - Seus leads/mês
-   - Sua taxa conversão atual
-   - Taxa conversão esperada (use 2-3x a atual como conservador)
+   - Sua taxa conversêo atual
+   - Taxa conversêo esperada (use 2-3x a atual como conservador)
    - Seu ticket médio
    - Sua margem
 
 3. Veja outputs:
-   - Quanto $ você está perdendo por NÃO fazer follow-up?
+   - Quanto $ você está perdendo por NêO fazer follow-up?
    - Quanto vale implementar sequência?
 
 **Entrega:** Screenshot da planilha preenchida.
 
-**Reflexão:** Com esse ROI, por que você ainda não implementou?
+**Reflexêo:** Com esse ROI, por que você ainda nêo implementou?
 
 ### Exercício 5: Auditar Follow-ups Atuais (30min)
 
@@ -1456,7 +1456,7 @@ Pegue 10 leads. Divida em 2 grupos:
 
 4. Crie lista: "Leads para reativar"
 
-5. Aplique email de reativação (template Breakup ou Gatilho)
+5. Aplique email de reativaçêo (template Breakup ou Gatilho)
 
 **Meta:** Recuperar pelo menos 10% dos leads "mortos".
 
@@ -1471,7 +1471,7 @@ Pegue 10 leads. Divida em 2 grupos:
 - TODO lead recebe follow-up no prazo
 - Nenhum lead fica >3 dias sem contato (se ativo)
 - Pelo menos 1 multi-canal (email + outro)
-- Registrar TODA interação no CRM
+- Registrar TODA interaçêo no CRM
 
 **Tracking:**
 
@@ -1501,26 +1501,26 @@ Pegue 10 leads. Divida em 2 grupos:
 1. **80% das vendas após 5º follow-up** - Persistência vence
 2. **Sequências automatizadas** - Email-only, multi-canal, por temperatura
 3. **Gatilhos inteligentes** - Lead abre email, reaja em 2h
-4. **Multi-canal escala conversão** - Email + WhatsApp + LinkedIn
+4. **Multi-canal escala conversêo** - Email + WhatsApp + LinkedIn
 5. **Sistema de alertas** - CRM avisa quando agir, 0% de oportunidades perdidas
 
 **Próximos passos:**
 
 1. Escreva 1 sequência de 5 emails hoje
-2. Configure 1 automação básica esta semana
+2. Configure 1 automaçêo básica esta semana
 3. Teste multi-canal com 10 leads
 4. Calcule SEU ROI
 5. Implemente sistema de alertas no CRM
 
 **Mindset para levar:**
 
-Follow-up não é importunar. É servir.
+Follow-up nêo é importunar. É servir.
 
 90% dos vendedores desistem cedo. Sua vantagem competitiva está na persistência estruturada.
 
-Automação não remove humanidade. Remove trabalho manual chato para você focar em conversas de valor.
+Automaçêo nêo remove humanidade. Remove trabalho manual chato para você focar em conversas de valor.
 
-**ROI brutal:** 144x em 1 ano. Setup em 8 horas. Desculpa para não fazer: zero.
+**ROI brutal:** 144x em 1 ano. Setup em 8 horas. Desculpa para nêo fazer: zero.
 
 ---
 

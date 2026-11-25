@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Visão Geral
+## 🎯 Visêo Geral
 
 A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que serve como **referência de qualidade visual** para as outras trilhas.
 
@@ -28,9 +28,9 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
 
 **Características:**
 - Gradiente duplo simples: `bg-gradient-to-r from-operacional to-blue-600`
-- Padding padrão: `py-16`
+- Padding padrêo: `py-16`
 - Badges com fundo semi-transparente: `bg-white/20`
-- Título até `text-5xl` (não 6xl)
+- Título até `text-5xl` (nêo 6xl)
 
 **Código:**
 ```html
@@ -46,13 +46,13 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
     </h1>
 
     <p class="text-xl text-white/90 mb-6 max-w-3xl">
-      Descrição do módulo
+      Descriçêo do módulo
     </p>
 
     <div class="flex items-center gap-4">
       <span class="text-white/80">📚 Teoria</span>
       <span class="text-white/80">•</span>
-      <span class="text-white/80">💭 Reflexão</span>
+      <span class="text-white/80">💭 Reflexêo</span>
       <span class="text-white/80">•</span>
       <span class="text-white/80">🛠️ Prática</span>
     </div>
@@ -65,7 +65,7 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
 **Diferenças do v2.0:**
 - SEM ícone dentro do título (ícone vem antes do texto)
 - Título sem flex: `<h3>🎯 Objetivo deste Módulo</h3>`
-- Não tem sombra (`shadow-lg` ausente)
+- Nêo tem sombra (`shadow-lg` ausente)
 
 **Código:**
 ```html
@@ -80,7 +80,7 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
 ### 3. Grid Comparativo "Antes / Agora"
 
 **Características:**
-- 2 boxes separados (não grid em 2 colunas)
+- 2 boxes separados (nêo grid em 2 colunas)
 - Empilhados verticalmente
 - Fundo neutro para "Antes"
 - Fundo colorido da trilha para "Agora"
@@ -129,7 +129,7 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
     ❌ MITO 1: "Título do mito"
   </h3>
   <p class="text-neutral-700 dark:text-neutral-300 mb-3">
-    <strong>FALSO.</strong> Explicação do porquê é falso.
+    <strong>FALSO.</strong> Explicaçêo do porquê é falso.
   </p>
 
   <!-- Box de exemplo interno (DIFERENCIAL!) -->
@@ -163,7 +163,7 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
 
 ---
 
-## 📊 Comparação: Trilha Operacional vs Conversor v2.0
+## 📊 Comparaçêo: Trilha Operacional vs Conversor v2.0
 
 | Elemento | Trilha Operacional (Manual) | Conversor v2.0 (Automático) |
 |----------|----------------------------|----------------------------|
@@ -174,9 +174,9 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
 | **Antes/Agora** | 2 boxes empilhados | Grid 2 colunas (md:grid-cols-2) |
 | **Cards Mitos** | Com box exemplo interno | Sem box interno |
 | **Cards Mitos Sombra** | Sem hover | shadow-md hover:shadow-lg |
-| **Tabelas** | Não presente no M1 | Header gradiente + hover |
-| **Código** | Não presente no M1 | Terminal com 3 bolinhas |
-| **Download Button** | Botão simples | Gradiente + shadow hover |
+| **Tabelas** | Nêo presente no M1 | Header gradiente + hover |
+| **Código** | Nêo presente no M1 | Terminal com 3 bolinhas |
+| **Download Button** | Botêo simples | Gradiente + shadow hover |
 | **Font Weights** | 400-800 | 400-900 |
 | **Navbar Blur** | backdrop-blur-sm | backdrop-blur-md |
 
@@ -198,11 +198,11 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
 - ✅ Quer velocidade e consistência
 - ✅ Prefere layout mais "premium" e visual
 - ✅ Precisa converter múltiplos módulos rapidamente
-- ✅ Quer aproveitar detecção automática de cards especiais
+- ✅ Quer aproveitar detecçêo automática de cards especiais
 
 ---
 
-## 💡 Recomendação
+## 💡 Recomendaçêo
 
 **Para o FETD:**
 
@@ -212,9 +212,9 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
    - Já está bem estruturado
 
 2. **Trilhas 2, 3, 4** → Use Conversor v2.0
-   - Acelera criação de conteúdo
+   - Acelera criaçêo de conteúdo
    - Consistência visual entre trilhas
-   - Facilita manutenção futura
+   - Facilita manutençêo futura
 
 3. **Módulos especiais** → Adapte manualmente
    - Se precisar de elementos únicos
@@ -226,7 +226,7 @@ A Trilha 1 (Operacional) usa um formato HTML manual cuidadosamente criado que se
 
 ### Box de Exemplo Interno (nos Cards de Mitos)
 
-Este é um elemento ÚNICO da Trilha Operacional que não está no Conversor v2.0:
+Este é um elemento ÚNICO da Trilha Operacional que nêo está no Conversor v2.0:
 
 ```html
 <!-- Dentro do card de mito -->
@@ -247,9 +247,9 @@ Seria necessário detectar padrões como:
 ```markdown
 ### ❌ Mito 1: Título
 
-Explicação do mito.
+Explicaçêo do mito.
 
-**Exemplo real:** João fez X...
+**Exemplo real:** Joêo fez X...
 ```
 
 E gerar HTML com box interno automaticamente.
@@ -268,7 +268,7 @@ E gerar HTML com box interno automaticamente.
 - [x] Listas com ícones
 - [x] Dark mode completo
 - [x] Responsivo
-- [x] Footer com navegação
+- [x] Footer com navegaçêo
 
 ### ⚠️ Apenas na Trilha Operacional
 
@@ -288,7 +288,7 @@ E gerar HTML com box interno automaticamente.
 - [x] Download button com gradiente
 - [x] Cards de dados (azul)
 - [x] Cards importantes (amarelo)
-- [x] Títulos de seção com gradient background
+- [x] Títulos de seçêo com gradient background
 
 ---
 
@@ -316,7 +316,7 @@ sed -i 's/#3B82F6/#10B981/g' modulos/comunicador/modulo-01-base.html
 
 Editar manualmente:
 - Título do módulo
-- Descrição
+- Descriçêo
 - Seções e subseções
 - Cards de mitos
 - Exemplos
@@ -337,25 +337,25 @@ Editar manualmente:
 
 ```html
 <a href="../../downloads/operacional/modulo-01.md" download class="px-6 py-3 bg-operacional text-white rounded-lg font-semibold hover:opacity-90 inline-flex items-center gap-2">
-  <!-- Botão simples, sem gradiente, sem sombra -->
+  <!-- Botêo simples, sem gradiente, sem sombra -->
 </a>
 ```
 
-### Títulos de Seção da Trilha Operacional
+### Títulos de Seçêo da Trilha Operacional
 
 ```html
-<h2 class="text-3xl font-bold mb-6">1. Título da Seção</h2>
+<h2 class="text-3xl font-bold mb-6">1. Título da Seçêo</h2>
 <!-- Sem gradient background, sem border-b, mais simples -->
 ```
 
 ---
 
-## ✨ Conclusão
+## ✨ Conclusêo
 
 **Trilha Operacional** = Formato manual limpo e direto
 **Conversor v2.0** = Formato automático premium e visual
 
-Ambos são válidos e têm seus casos de uso. A Trilha Operacional serve como referência de clareza, enquanto o Conversor v2.0 adiciona camadas extras de polish visual.
+Ambos sêo válidos e têm seus casos de uso. A Trilha Operacional serve como referência de clareza, enquanto o Conversor v2.0 adiciona camadas extras de polish visual.
 
 **Escolha baseada em:**
 - Tempo disponível (manual = mais tempo)
@@ -365,5 +365,5 @@ Ambos são válidos e têm seus casos de uso. A Trilha Operacional serve como re
 
 ---
 
-**Última atualização:** 2025-01-19
-**Versão:** 1.0
+**Última atualizaçêo:** 2025-01-19
+**Versêo:** 1.0

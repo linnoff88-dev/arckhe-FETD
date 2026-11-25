@@ -2,25 +2,25 @@
 
 ## A Jornada Até Aqui: De Caos a Sistema
 
-Parabéns por chegar ao módulo final! Vamos recapitular rapidamente sua evolução:
+Parabéns por chegar ao módulo final! Vamos recapitular rapidamente sua evoluçêo:
 
-**MÓDULO 6** - Aprendeu a personalizar mensagens em escala usando templates inteligentes e segmentação automática.
+**MÓDULO 6** - Aprendeu a personalizar mensagens em escala usando templates inteligentes e segmentaçêo automática.
 
-**MÓDULO 7** - Dominou automação de WhatsApp, LinkedIn e Instagram, criando presença multi-canal coordenada.
+**MÓDULO 7** - Dominou automaçêo de WhatsApp, LinkedIn e Instagram, criando presença multi-canal coordenada.
 
 **MÓDULO 8** - Implementou propostas e contratos instantâneos, reduzindo ciclo de vendas de dias para minutos.
 
-**MÓDULO 9** - Masterizou o Framework ACA (Acknowledge, Compliment, Ask) para comunicação que converte.
+**MÓDULO 9** - Masterizou o Framework ACA (Acknowledge, Compliment, Ask) para comunicaçêo que converte.
 
 Agora chegou a hora da verdade: **integrar tudo em um sistema funcionando 24/7**.
 
-Este não é um módulo teórico. É um **PROJETO DE IMPLEMENTAÇÃO**. No final, você terá uma máquina de vendas rodando, testada e validada.
+Este nêo é um módulo teórico. É um **PROJETO DE IMPLEMENTAÇêO**. No final, você terá uma máquina de vendas rodando, testada e validada.
 
 ---
 
 ## PROJETO: Máquina de Vendas 24/7 - Arquitetura Completa
 
-### Visão Geral do Sistema
+### Visêo Geral do Sistema
 
 Seu sistema terá 5 componentes principais integrados:
 
@@ -29,51 +29,51 @@ Seu sistema terá 5 componentes principais integrados:
    ↓
 2. CRM CENTRALIZADO (Único ponto de verdade)
    ↓
-3. AUTOMAÇÃO DE COMUNICAÇÃO (Follow-up inteligente)
+3. AUTOMAÇêO DE COMUNICAÇêO (Follow-up inteligente)
    ↓
-4. GERAÇÃO DE PROPOSTAS (Instantânea)
+4. GERAÇêO DE PROPOSTAS (Instantânea)
    ↓
 5. DASHBOARD DE MÉTRICAS (Visibilidade total)
 ```
 
-**Objetivo:** Lead entra → qualificado → nutrido → convertido → onboarding **SEM INTERVENÇÃO MANUAL** até momento crítico de venda.
+**Objetivo:** Lead entra → qualificado → nutrido → convertido → onboarding **SEM INTERVENÇêO MANUAL** até momento crítico de venda.
 
 ### Stack de Ferramentas (3 Opções de Orçamento)
 
-**OPÇÃO 1: INICIANTE (Quase gratuito - até R$ 300/mês)**
+**OPÇêO 1: INICIANTE (Quase gratuito - até R$ 300/mês)**
 - **CRM:** HubSpot Free ou Agendor Free
 - **E-mail:** Mailchimp Free (até 500 contatos)
 - **WhatsApp:** Twilio (pay-as-you-go) + Typebot (open source)
-- **Automação:** Zapier Free (100 tasks/mês)
+- **Automaçêo:** Zapier Free (100 tasks/mês)
 - **Propostas:** Google Docs + HelloSign Free
 - **Forms:** Google Forms ou Typeform Free
 - **Total:** R$ 0-150/mês
 
-**OPÇÃO 2: INTERMEDIÁRIO (Profissional - R$ 500-1.200/mês)**
+**OPÇêO 2: INTERMEDIÁRIO (Profissional - R$ 500-1.200/mês)**
 - **CRM:** Pipedrive (R$ 70/mês) ou HubSpot Starter (R$ 200/mês)
 - **E-mail:** ActiveCampaign (R$ 150/mês)
 - **WhatsApp:** Zenvia (R$ 300/mês) ou Botmaker (R$ 250/mês)
-- **Automação:** Make.com (R$ 45/mês)
+- **Automaçêo:** Make.com (R$ 45/mês)
 - **Propostas:** PandaDoc (R$ 100/mês)
 - **Forms:** Typeform (R$ 50/mês)
 - **Total:** R$ 600-900/mês
 
-**OPÇÃO 3: AVANÇADO (Enterprise - R$ 2.000-4.000/mês)**
+**OPÇêO 3: AVANÇADO (Enterprise - R$ 2.000-4.000/mês)**
 - **CRM:** HubSpot Professional (R$ 1.800/mês)
 - **E-mail:** Incluído no HubSpot
 - **WhatsApp:** API oficial via Twilio (R$ 300-600/mês)
-- **Automação:** Incluído no HubSpot
+- **Automaçêo:** Incluído no HubSpot
 - **Propostas:** PandaDoc (R$ 200/mês)
 - **BI:** Google Data Studio (grátis) ou Metabase
 - **Total:** R$ 2.300-3.000/mês
 
-**Para este projeto, vamos construir com OPÇÃO 2 (melhor custo-benefício), mas você pode adaptar.**
+**Para este projeto, vamos construir com OPÇêO 2 (melhor custo-benefício), mas você pode adaptar.**
 
 ---
 
 ## FASE 1: SETUP DO CRM (SEMANA 1)
 
-O CRM é o coração do sistema. Tudo passa por ele.
+O CRM é o coraçêo do sistema. Tudo passa por ele.
 
 ### Passo 1.1: Escolher e Configurar CRM
 
@@ -84,7 +84,7 @@ O CRM é o coração do sistema. Tudo passa por ele.
 1. **Criar conta Pipedrive**
    - Acesse pipedrive.com
    - Trial de 14 dias grátis
-   - Escolha região: Brasil
+   - Escolha regiêo: Brasil
 
 2. **Configurar pipeline de vendas**
 
@@ -92,9 +92,9 @@ O CRM é o coração do sistema. Tudo passa por ele.
    ```
    1. Lead Novo (recém capturado)
    2. Qualificado (respondeu, tem fit)
-   3. Reunião Agendada
+   3. Reuniêo Agendada
    4. Proposta Enviada
-   5. Negociação
+   5. Negociaçêo
    6. Fechado-Ganho ✅
    7. Fechado-Perdido ❌
    ```
@@ -104,13 +104,13 @@ O CRM é o coração do sistema. Tudo passa por ele.
    **Pessoa (Lead):**
    - Telefone (WhatsApp)
    - LinkedIn URL
-   - Fonte do Lead (dropdown: LinkedIn, Google, Instagram, Indicação, Evento)
+   - Fonte do Lead (dropdown: LinkedIn, Google, Instagram, Indicaçêo, Evento)
    - Problema Principal (texto longo)
    - Orçamento Disponível (número)
    - Tamanho da Empresa (dropdown: 1-10, 11-50, 51-200, 200+)
    - Score de Interesse (número 0-100, calculado automaticamente)
 
-   **Organização (Empresa):**
+   **Organizaçêo (Empresa):**
    - Setor (dropdown: personalizar com seus setores)
    - Faturamento Anual (número)
    - Website
@@ -144,43 +144,43 @@ Se você já tem leads em planilha, WhatsApp, e-mail:
 
 ### Passo 1.3: Configurar Automações Básicas do CRM
 
-**Automação 1: Lead Novo → Criar Deal Automaticamente**
+**Automaçêo 1: Lead Novo → Criar Deal Automaticamente**
 ```
 TRIGGER: Pessoa criada
-CONDIÇÃO: Fonte != "Base Histórica"
-AÇÃO:
+CONDIÇêO: Fonte != "Base Histórica"
+AÇêO:
 - Criar deal com título "{{nome_pessoa}} - {{empresa}}"
 - Stage: Lead Novo
 - Valor: R$ 0 (será preenchido depois)
 - Atribuir para: {{vendedor_responsavel}}
 ```
 
-**Automação 2: Deal em "Proposta Enviada" → Tarefa de Follow-up**
+**Automaçêo 2: Deal em "Proposta Enviada" → Tarefa de Follow-up**
 ```
 TRIGGER: Deal movido para "Proposta Enviada"
-AÇÃO:
+AÇêO:
 - Criar tarefa "Follow-up proposta" para 2 dias depois
-- Enviar notificação para vendedor
+- Enviar notificaçêo para vendedor
 ```
 
-**Automação 3: Deal parado há 7 dias → Alerta**
+**Automaçêo 3: Deal parado há 7 dias → Alerta**
 ```
 TRIGGER: Deal sem atividade por 7 dias
-CONDIÇÃO: Stage != "Fechado-Ganho" E Stage != "Fechado-Perdido"
-AÇÃO:
+CONDIÇêO: Stage != "Fechado-Ganho" E Stage != "Fechado-Perdido"
+AÇêO:
 - Notificar vendedor
 - Marcar deal como "Stalled"
 ```
 
-### Passo 1.4: Integração com E-mail
+### Passo 1.4: Integraçêo com E-mail
 
 **Conectar sua caixa de e-mail ao Pipedrive:**
 
 1. Vá em Settings → Email Integration
 2. Conecte Gmail ou Outlook
-3. Configure sincronização bidirecional:
-   - E-mails enviados para leads são registrados no CRM
-   - E-mails recebidos de leads são vinculados ao deal
+3. Configure sincronizaçêo bidirecional:
+   - E-mails enviados para leads sêo registrados no CRM
+   - E-mails recebidos de leads sêo vinculados ao deal
 
 **Teste:**
 - Envie e-mail para um lead de teste
@@ -229,32 +229,32 @@ BEM-VINDO! Vamos entender como podemos ajudar você 😊
    ( ) LinkedIn
    ( ) Instagram
    ( ) Google
-   ( ) Indicação de: [campo texto]
+   ( ) Indicaçêo de: [campo texto]
    ( ) Outro
 
 8. Tem orçamento separado para investir em melhorias?
    ( ) Sim, até R$ 5.000
    ( ) Sim, R$ 5.000 - R$ 15.000
    ( ) Sim, acima de R$ 15.000
-   ( ) Não tenho orçamento definido
+   ( ) Nêo tenho orçamento definido
 
 OBRIGADO! Vamos entrar em contato em até 5 minutos.
 ```
 
-**Integração com Pipedrive via Zapier:**
+**Integraçêo com Pipedrive via Zapier:**
 
 ```
 Zap: Typeform → Pipedrive
 
 TRIGGER: Nova resposta no Typeform
     ↓
-AÇÃO 1: Buscar se pessoa já existe no Pipedrive (por e-mail)
+AÇêO 1: Buscar se pessoa já existe no Pipedrive (por e-mail)
     SE existe → Atualizar dados
-    SE não existe → Criar nova pessoa
+    SE nêo existe → Criar nova pessoa
     ↓
-AÇÃO 2: Criar organização (empresa) se não existir
+AÇêO 2: Criar organizaçêo (empresa) se nêo existir
     ↓
-AÇÃO 3: Criar deal
+AÇêO 3: Criar deal
     Título: "{{nome}} - {{empresa}}"
     Stage: Lead Novo
     Campos customizados:
@@ -263,7 +263,7 @@ AÇÃO 3: Criar deal
     - Orçamento: {{pergunta_8}}
     - Tamanho empresa: {{pergunta_5}}
     ↓
-AÇÃO 4: Adicionar nota ao deal com todas as respostas
+AÇêO 4: Adicionar nota ao deal com todas as respostas
 ```
 
 **Teste:**
@@ -279,7 +279,7 @@ AÇÃO 4: Adicionar nota ao deal com todas as respostas
    - Self-hosted (grátis): typebot.io/docs/self-host
    - Ou cloud (R$ 150/mês): typebot.io/pricing
 
-2. **Criar fluxo de qualificação**
+2. **Criar fluxo de qualificaçêo**
 
 ```
 [Mensagem recebida no WhatsApp]
@@ -294,7 +294,7 @@ Vi que você mandou mensagem! Como posso ajudar?
 2️⃣ Falar com atendente
 3️⃣ Enviar material gratuito
 
-Responde o número da opção!
+Responde o número da opçêo!
 
 [Se escolher 1]
     ↓
@@ -331,14 +331,14 @@ Enquanto isso, mando um material sobre {{desafio_mencionado}}.
 Valeu! 😊
 ```
 
-3. **Integração Typebot → Pipedrive**
+3. **Integraçêo Typebot → Pipedrive**
 
 Via webhook do Typebot:
 - Ao final do fluxo, Typebot envia dados via webhook
 - Make.com ou Zapier captura
 - Cria pessoa + deal no Pipedrive
 
-### Ponto de Entrada 3: LinkedIn (Manual + Semi-Automação)
+### Ponto de Entrada 3: LinkedIn (Manual + Semi-Automaçêo)
 
 **Setup:**
 
@@ -347,7 +347,7 @@ Via webhook do Typebot:
    - Salvar listas
    - Alerts de mudanças
 
-2. **Conexão + Primeira Mensagem (Manual)**
+2. **Conexêo + Primeira Mensagem (Manual)**
 
    Template ACA:
    ```
@@ -358,58 +358,58 @@ Via webhook do Typebot:
    Vamos conectar?"
    ```
 
-3. **Após aceitar conexão → Zapier automatiza**
+3. **Após aceitar conexêo → Zapier automatiza**
 
    ```
-   Trigger: Nova conexão aceita no LinkedIn (via webhook ou Phantombuster)
+   Trigger: Nova conexêo aceita no LinkedIn (via webhook ou Phantombuster)
        ↓
-   Ação 1: Criar pessoa no Pipedrive
+   Açêo 1: Criar pessoa no Pipedrive
        Nome: [do LinkedIn]
        LinkedIn URL: [perfil]
        Cargo: [do LinkedIn]
        Empresa: [do LinkedIn]
        Fonte: LinkedIn
        ↓
-   Ação 2: Criar deal
+   Açêo 2: Criar deal
        Stage: Lead Novo
        ↓
-   Ação 3: Criar tarefa "Enviar mensagem de follow-up" para amanhã
+   Açêo 3: Criar tarefa "Enviar mensagem de follow-up" para amanhê
    ```
 
 4. **Vendedor envia follow-up manual (usando template ACA)**
 
 ### Ponto de Entrada 4: Instagram (Lead Ads ou Link na Bio)
 
-**Opção A: Instagram Lead Ads**
+**Opçêo A: Instagram Lead Ads**
 - Cria anúncio no Instagram/Facebook
-- Formulário dentro do Instagram (usuário não sai do app)
-- Integração direta com Pipedrive via Zapier
+- Formulário dentro do Instagram (usuário nêo sai do app)
+- Integraçêo direta com Pipedrive via Zapier
 
-**Opção B: Link na Bio → Landing Page → Formulário**
+**Opçêo B: Link na Bio → Landing Page → Formulário**
 - Bio: "Quer automatizar vendas? Link abaixo 👇"
 - Link: seu formulário Typeform
 - Segue fluxo normal de formulário → Pipedrive
 
 ---
 
-## FASE 3: AUTOMAÇÃO DE FOLLOW-UP (SEMANA 2)
+## FASE 3: AUTOMAÇêO DE FOLLOW-UP (SEMANA 2)
 
 Leads captados. Agora precisam ser nutridos automaticamente.
 
-### Sequência de Follow-up Padrão (Modelo Base)
+### Sequência de Follow-up Padrêo (Modelo Base)
 
-**Para lead que preencheu formulário mas não respondeu:**
+**Para lead que preencheu formulário mas nêo respondeu:**
 
 **Momento 0 (Imediato após preencher):**
 ```
 CANAL: E-mail + WhatsApp
 
 E-mail:
-Assunto: {{nome}}, recebemos sua solicitação!
+Assunto: {{nome}}, recebemos sua solicitaçêo!
 
 Oi {{nome}},
 
-Acabamos de receber sua solicitação sobre {{problema_principal}}.
+Acabamos de receber sua solicitaçêo sobre {{problema_principal}}.
 
 Nossa equipe vai analisar e entrar em contato em até 30 minutos (horário comercial).
 
@@ -430,7 +430,7 @@ Vou analisar aqui e te retorno em breve!
 Se tiver urgência, pode chamar aqui mesmo 😊
 ```
 
-**Dia 1 (se não respondeu):**
+**Dia 1 (se nêo respondeu):**
 ```
 CANAL: WhatsApp
 
@@ -443,7 +443,7 @@ Posso mandar?
 É 1 página, leitura de 3min.
 ```
 
-**Dia 3 (se ainda não respondeu):**
+**Dia 3 (se ainda nêo respondeu):**
 ```
 CANAL: E-mail (mais formal)
 
@@ -476,12 +476,12 @@ Sei que inbox vive lotado e minha mensagem pode ter se perdido.
 
 Se ainda faz sentido conversar sobre {{problema}}, me avisa!
 
-Se não for prioridade agora, sem problema - te coloco em lista de conteúdo mensal (1x/mês, sempre útil, zero pressão de venda).
+Se nêo for prioridade agora, sem problema - te coloco em lista de conteúdo mensal (1x/mês, sempre útil, zero pressêo de venda).
 
 Topa?
 
 [ ] Sim, quero conteúdo mensal
-[ ] Não, pode remover
+[ ] Nêo, pode remover
 ```
 
 **Dia 14+ (se escolheu conteúdo mensal):**
@@ -495,7 +495,7 @@ Entra em lista de newsletter mensal com:
 Objetivo: manter relacionamento até timing ser certo.
 ```
 
-### Automação da Sequência no Make.com
+### Automaçêo da Sequência no Make.com
 
 **Cenário completo:**
 
@@ -516,7 +516,7 @@ Delay: 5 minutes
 
 MODULE 4: ENVIO WHATSAPP
 Tool: Twilio / Zenvia
-Template: Confirmação WhatsApp
+Template: Confirmaçêo WhatsApp
     ↓
 
 MODULE 5: ESPERA 24 HORAS
@@ -525,8 +525,8 @@ Delay: 24 hours
 
 MODULE 6: VERIFICA STATUS DO DEAL
 Action: Get deal from Pipedrive
-Condition: Se deal ainda está em "Lead Novo" (não moveu para "Qualificado")
-    ↓ SIM (não respondeu)
+Condition: Se deal ainda está em "Lead Novo" (nêo moveu para "Qualificado")
+    ↓ SIM (nêo respondeu)
 
 MODULE 7: ENVIO DIA 1
 WhatsApp: Follow-up com material
@@ -536,7 +536,7 @@ WhatsApp: Follow-up com material
 
 MODULE FINAL: ATUALIZA CRM
 Adiciona nota: "Sequência de follow-up concluída em [data]"
-Tag: "Nutrido-Não-Convertido" ou "Nutrido-Em-Newsletter"
+Tag: "Nutrido-Nêo-Convertido" ou "Nutrido-Em-Newsletter"
 ```
 
 **Como configurar no Make.com:**
@@ -554,23 +554,23 @@ Tag: "Nutrido-Não-Convertido" ou "Nutrido-Em-Newsletter"
 **Lead do LinkedIn (mais profissional):**
 - Tom formal
 - Foco em conteúdo estratégico
-- Menciona conexão/contexto LinkedIn
+- Menciona conexêo/contexto LinkedIn
 
 **Lead do Instagram (mais casual):**
 - Tom descontraído
 - Usa emojis
 - Visual (envia imagens, vídeos curtos)
 
-**Lead de indicação (mais quente):**
+**Lead de indicaçêo (mais quente):**
 - Menciona quem indicou logo de cara
 - Aproveita confiança transferida
-- Menos "educação", mais "vamos resolver"
+- Menos "educaçêo", mais "vamos resolver"
 
 ---
 
-## FASE 4: GERAÇÃO AUTOMÁTICA DE PROPOSTAS (SEMANA 3)
+## FASE 4: GERAÇêO AUTOMÁTICA DE PROPOSTAS (SEMANA 3)
 
-Quando lead está qualificado e teve reunião, hora da proposta instantânea.
+Quando lead está qualificado e teve reuniêo, hora da proposta instantânea.
 
 ### Setup PandaDoc + Pipedrive
 
@@ -580,9 +580,9 @@ Quando lead está qualificado e teve reunião, hora da proposta instantânea.
 
 2. **Use estrutura do Módulo 8:**
    ```
-   1. Introdução Personalizada
+   1. Introduçêo Personalizada
    2. Resumo do Problema (do lead)
-   3. Solução Proposta
+   3. Soluçêo Proposta
    4. Cronograma
    5. Investimento & ROI
    6. Próximos Passos
@@ -609,65 +609,65 @@ Quando lead está qualificado e teve reunião, hora da proposta instantânea.
    - Data (automática)
    - Nome completo (tipado)
 
-**Passo 4.2: Integração Pipedrive → PandaDoc**
+**Passo 4.2: Integraçêo Pipedrive → PandaDoc**
 
 **Nativo (se Pipedrive Pro):**
 - Instala app PandaDoc no Pipedrive
-- Botão "Criar Proposta" aparece em cada deal
+- Botêo "Criar Proposta" aparece em cada deal
 - Clica → Escolhe template → Preenche automaticamente → Envia
 
 **Via Zapier/Make (se Pipedrive básico):**
 ```
 Trigger: Deal movido para stage "Proposta"
     ↓
-Ação 1: Criar documento PandaDoc do template
+Açêo 1: Criar documento PandaDoc do template
     Preencher com dados do Pipedrive:
     - Nome, empresa, problema, valor, etc.
     ↓
-Ação 2: Enviar documento para e-mail do lead
+Açêo 2: Enviar documento para e-mail do lead
     Subject: "Proposta Personalizada - {{empresa}}"
     Mensagem: [template de e-mail]
     ↓
-Ação 3: Adicionar nota no Pipedrive
+Açêo 3: Adicionar nota no Pipedrive
     "Proposta enviada via PandaDoc em [data hora]"
     ↓
-Ação 4: Criar tarefa de follow-up para 48h depois
+Açêo 4: Criar tarefa de follow-up para 48h depois
 ```
 
-**Passo 4.3: Automação Pós-Assinatura**
+**Passo 4.3: Automaçêo Pós-Assinatura**
 
 ```
 Trigger: Documento assinado no PandaDoc
     ↓
-Ação 1: Mover deal para "Fechado-Ganho" no Pipedrive
+Açêo 1: Mover deal para "Fechado-Ganho" no Pipedrive
     ↓
-Ação 2: Enviar e-mail de boas-vindas
+Açêo 2: Enviar e-mail de boas-vindas
     Template: Onboarding
     Anexos: Próximos passos, cronograma, acesso
     ↓
-Ação 3: Criar projeto no Asana/ClickUp
-    Título: "Implementação - {{empresa}}"
+Açêo 3: Criar projeto no Asana/ClickUp
+    Título: "Implementaçêo - {{empresa}}"
     Atribuir: time de CS
     ↓
-Ação 4: Enviar NF/Boleto
+Açêo 4: Enviar NF/Boleto
     Via sistema de faturamento
     ↓
-Ação 5: Notificar time
+Açêo 5: Notificar time
     Slack: "🎉 {{vendedor}} fechou {{empresa}} - R$ {{valor}}"
     ↓
-Ação 6: Adicionar cliente em lista de onboarding
-    Remove de listas de prospecção
+Açêo 6: Adicionar cliente em lista de onboarding
+    Remove de listas de prospecçêo
 ```
 
 ### Exemplo de Proposta Gerada Automaticamente
 
-**Antes da automação:**
+**Antes da automaçêo:**
 - Vendedor levava 2-4 horas montando proposta
-- Erros de digitação em valores
+- Erros de digitaçêo em valores
 - Esquecia de personalizar seções
 - Cliente esperava 1-3 dias
 
-**Depois da automação:**
+**Depois da automaçêo:**
 - 2 cliques: (1) Move deal para "Proposta", (2) Revisa e envia
 - Tempo: 3-5 minutos
 - Zero erros (dados vêm do CRM)
@@ -677,14 +677,14 @@ Ação 6: Adicionar cliente em lista de onboarding
 **Fluxo real:**
 
 ```
-15h00 - Reunião de vendas termina
+15h00 - Reuniêo de vendas termina
 15h02 - Vendedor atualiza campos no Pipedrive:
         - Problema: "Perdem 40% dos leads por follow-up lento"
-        - Solução proposta: "Automação completa"
+        - Soluçêo proposta: "Automaçêo completa"
         - Valor: R$ 12.000 setup + R$ 890/mês
         - Prazo: 30 dias
 15h03 - Vendedor move deal para stage "Proposta"
-15h03 - Automação dispara
+15h03 - Automaçêo dispara
 15h04 - PandaDoc gera proposta preenchida
 15h05 - Cliente recebe e-mail com proposta
 15h20 - Cliente abre (PandaDoc notifica vendedor)
@@ -694,29 +694,29 @@ Ação 6: Adicionar cliente em lista de onboarding
 15h37 - Projeto criado no Asana
 15h37 - Time notificado no Slack
 
-TOTAL: 37 minutos da reunião até fechamento confirmado.
+TOTAL: 37 minutos da reuniêo até fechamento confirmado.
 ```
 
 ---
 
 ## FASE 5: DASHBOARD DE MÉTRICAS (SEMANA 3-4)
 
-Você não gerencia o que não mede. Vamos criar visibilidade total.
+Você nêo gerencia o que nêo mede. Vamos criar visibilidade total.
 
 ### KPIs Essenciais para Acompanhar
 
-**TOPO DE FUNIL (Atração):**
+**TOPO DE FUNIL (Atraçêo):**
 - Leads novos por dia/semana/mês
 - Leads por fonte (LinkedIn, Instagram, Formulário, etc)
 - Custo por lead (se tem anúncios)
-- Taxa de qualificação (% que passa para próximo stage)
+- Taxa de qualificaçêo (% que passa para próximo stage)
 
-**MEIO DE FUNIL (Conversão):**
+**MEIO DE FUNIL (Conversêo):**
 - Reuniões agendadas
 - Taxa de show-up (% que comparece)
 - Propostas enviadas
 - Tempo médio: Lead → Proposta
-- Taxa de conversão: Proposta → Fechamento
+- Taxa de conversêo: Proposta → Fechamento
 
 **FUNDO DE FUNIL (Fechamento):**
 - Deals fechados (quantidade)
@@ -727,7 +727,7 @@ Você não gerencia o que não mede. Vamos criar visibilidade total.
 
 **PÓS-VENDA:**
 - Churn rate (% que cancela)
-- NPS (satisfação)
+- NPS (satisfaçêo)
 - Upsell/Cross-sell
 - LTV (lifetime value)
 
@@ -760,7 +760,7 @@ Você não gerencia o que não mede. Vamos criar visibilidade total.
 └─────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────┐
-│  FUNIL DE CONVERSÃO                     │
+│  FUNIL DE CONVERSêO                     │
 │                                          │
 │  342 Leads ────────────────┐            │
 │                             ↓            │
@@ -782,20 +782,20 @@ Você não gerencia o que não mede. Vamos criar visibilidade total.
 │  LinkedIn:     142 (42%)  ████████████  │
 │  Formulário:    98 (29%)  ████████      │
 │  Instagram:     67 (20%)  ██████        │
-│  Indicação:     35 (10%)  ███           │
+│  Indicaçêo:     35 (10%)  ███           │
 └─────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────┐
-│  TAXA DE CONVERSÃO POR FONTE            │
+│  TAXA DE CONVERSêO POR FONTE            │
 │                                          │
-│  Indicação:     28% ████████████████    │
+│  Indicaçêo:     28% ████████████████    │
 │  LinkedIn:       8% ████                │
 │  Formulário:     4% ██                  │
 │  Instagram:      2% █                   │
 └─────────────────────────────────────────┘
 
 INSIGHT: Indicações convertem 14x mais que Instagram.
-AÇÃO: Criar programa de indicação.
+AÇêO: Criar programa de indicaçêo.
 ```
 
 **Página 3 - Performance Individual (se tem equipe):**
@@ -805,15 +805,15 @@ AÇÃO: Criar programa de indicação.
 │                                                          │
 │  Nome         │Leads│Reuniões│Propostas│Fechados│Receita│
 │  ────────────│─────│────────│─────────│────────│───────│
-│  João Silva  │ 120 │   45   │   22    │   8    │ 78k  │
+│  Joêo Silva  │ 120 │   45   │   22    │   8    │ 78k  │
 │  Maria Costa │  98 │   38   │   18    │   6    │ 54k  │
 │  Carlos Souza│  87 │   32   │   14    │   4    │ 38k  │
 └─────────────────────────────────────────────────────────┘
 
 MELHOR EM:
-- Conversão Lead→Reunião: João (37%)
-- Conversão Proposta→Fechamento: Maria (33%)
-- Ticket Médio: João (R$ 9.750)
+- Conversêo Lead→Reuniêo: Joêo (37%)
+- Conversêo Proposta→Fechamento: Maria (33%)
+- Ticket Médio: Joêo (R$ 9.750)
 ```
 
 **Passo 5.3: Configurar Alertas Automáticos**
@@ -821,27 +821,27 @@ MELHOR EM:
 **Via Zapier + Slack/E-mail:**
 
 ```
-Alerta 1: Meta diária de leads não batida
+Alerta 1: Meta diária de leads nêo batida
 Trigger: Planilha Google Sheets atualizada diariamente com contagem
-Condição: Se leads_hoje < meta_diaria
-Ação: Enviar mensagem Slack: "⚠️ Apenas X leads hoje. Meta: Y"
+Condiçêo: Se leads_hoje < meta_diaria
+Açêo: Enviar mensagem Slack: "⚠️ Apenas X leads hoje. Meta: Y"
 
 Alerta 2: Deal grande parado
 Trigger: Pipedrive deal valor > R$ 20k sem atividade por 3 dias
-Ação: Enviar e-mail para gerente: "Deal de {{empresa}} (R$ {{valor}}) está parado"
+Açêo: Enviar e-mail para gerente: "Deal de {{empresa}} (R$ {{valor}}) está parado"
 
-Alerta 3: Proposta não respondida em 5 dias
+Alerta 3: Proposta nêo respondida em 5 dias
 Trigger: Deal em "Proposta Enviada" há > 5 dias
-Ação: Criar tarefa urgente para vendedor fazer follow-up
+Açêo: Criar tarefa urgente para vendedor fazer follow-up
 
 Alerta 4: Meta mensal atingida
 Trigger: Soma de deals fechados no mês >= meta
-Ação: Enviar mensagem Slack: "🎉 META BATIDA! {{valor_total}} em {{qtd}} deals"
+Açêo: Enviar mensagem Slack: "🎉 META BATIDA! {{valor_total}} em {{qtd}} deals"
 ```
 
-### Dashboard Mobile (Visualização no Celular)
+### Dashboard Mobile (Visualizaçêo no Celular)
 
-**Configure visualização mobile no Data Studio:**
+**Configure visualizaçêo mobile no Data Studio:**
 - Layout responsivo
 - Métricas principais visíveis sem scroll
 - Gráficos simplificados
@@ -853,7 +853,7 @@ Ação: Enviar mensagem Slack: "🎉 META BATIDA! {{valor_total}} em {{qtd}} dea
 
 ---
 
-## INTEGRAÇÃO COMPLETA: PASSO A PASSO DETALHADO
+## INTEGRAÇêO COMPLETA: PASSO A PASSO DETALHADO
 
 Agora vamos juntar TUDO. Este é o momento de conectar todos os pontos.
 
@@ -862,141 +862,141 @@ Agora vamos juntar TUDO. Este é o momento de conectar todos os pontos.
 **HORA 0 - Lead entra pelo formulário:**
 
 ```
-10h00: João preenche formulário no site
+10h00: Joêo preenche formulário no site
     ↓
 10h00:05: Typeform envia dados para Zapier
     ↓
-10h00:10: Zapier cria João no Pipedrive
-    - Pessoa: João Silva
-    - Organização: TechCommerce
-    - Deal: "João Silva - TechCommerce"
+10h00:10: Zapier cria Joêo no Pipedrive
+    - Pessoa: Joêo Silva
+    - Organizaçêo: TechCommerce
+    - Deal: "Joêo Silva - TechCommerce"
     - Stage: Lead Novo
     - Fonte: Formulário Site
     - Problema: Gerar mais leads
     - Orçamento: R$ 5k-15k
     - Score: 65/100 (calculado por fit)
     ↓
-10h00:15: Automação Pipedrive cria tarefa para vendedor
-    "Qualificar lead: João Silva"
+10h00:15: Automaçêo Pipedrive cria tarefa para vendedor
+    "Qualificar lead: Joêo Silva"
     ↓
 10h00:20: ActiveCampaign envia e-mail de boas-vindas
-    "João, recebemos sua solicitação!"
+    "Joêo, recebemos sua solicitaçêo!"
     ↓
 10h05:00: Typebot envia WhatsApp
-    "Oi João! Aqui é o Carlos da [Empresa]..."
+    "Oi Joêo! Aqui é o Carlos da [Empresa]..."
     ↓
-10h30:00: João responde WhatsApp
-    "Oi Carlos, quero saber mais sobre automação"
+10h30:00: Joêo responde WhatsApp
+    "Oi Carlos, quero saber mais sobre automaçêo"
     ↓
 10h30:05: WhatsApp integrado com Pipedrive registra mensagem
     ↓
-10h31:00: Vendedor Carlos vê notificação
+10h31:00: Vendedor Carlos vê notificaçêo
     ↓
 10h32:00: Carlos responde (manual)
     Usa template ACA preparado
-    "João, vi que vocês na TechCommerce estão buscando gerar mais leads..."
+    "Joêo, vi que vocês na TechCommerce estêo buscando gerar mais leads..."
     ↓
-10h45:00: João responde positivamente
+10h45:00: Joêo responde positivamente
     "Sim! Podemos conversar?"
     ↓
 10h46:00: Carlos envia link Calendly
     ↓
-10h50:00: João agenda reunião para 14h hoje
+10h50:00: Joêo agenda reuniêo para 14h hoje
     ↓
 10h50:05: Calendly cria evento no Google Calendar de Carlos
     ↓
 10h50:10: Zapier atualiza Pipedrive
-    - Move deal para "Reunião Agendada"
-    - Adiciona data/hora da reunião
+    - Move deal para "Reuniêo Agendada"
+    - Adiciona data/hora da reuniêo
     ↓
-10h50:15: E-mail de confirmação enviado para João
-    Com link Google Meet, agenda, preparação
+10h50:15: E-mail de confirmaçêo enviado para Joêo
+    Com link Google Meet, agenda, preparaçêo
 ```
 
-**HORA 4 - Reunião acontece:**
+**HORA 4 - Reuniêo acontece:**
 
 ```
-14h00: Reunião via Google Meet
-    Carlos apresenta solução
-    João menciona: "Precisamos trabalhar 200 leads/mês, hoje só conseguimos 50"
+14h00: Reuniêo via Google Meet
+    Carlos apresenta soluçêo
+    Joêo menciona: "Precisamos trabalhar 200 leads/mês, hoje só conseguimos 50"
     ↓
-14h30: Reunião termina, João interessado
+14h30: Reuniêo termina, Joêo interessado
     ↓
-14h31: Durante reunião, Carlos anotou no Pipedrive:
+14h31: Durante reuniêo, Carlos anotou no Pipedrive:
     - Problema detalhado: "Time de 3 vendedores, 200 leads/mês, só 50 trabalhados"
-    - Solução: "Automação de follow-up + CRM"
+    - Soluçêo: "Automaçêo de follow-up + CRM"
     - Valor estimado: R$ 12.000 setup + R$ 890/mês
     - Prazo: 30 dias
     - Próximo passo: Proposta hoje mesmo
     ↓
 14h32: Carlos move deal para "Proposta"
     ↓
-14h33: Automação dispara:
+14h33: Automaçêo dispara:
     - PandaDoc gera proposta preenchendo:
-      → Nome: João Silva
+      → Nome: Joêo Silva
       → Empresa: TechCommerce
-      → Problema: "Time de 3 vendedores não consegue trabalhar 200 leads/mês"
-      → Solução: "Automação completa de follow-up multi-canal"
+      → Problema: "Time de 3 vendedores nêo consegue trabalhar 200 leads/mês"
+      → Soluçêo: "Automaçêo completa de follow-up multi-canal"
       → Investimento: R$ 12.000 + R$ 890/mês
-      → ROI estimado: "Com automação, conseguirão trabalhar 200 leads mantendo time de 3. Isso significa 150 leads a mais/mês. Se converterem apenas 10%, são 15 vendas extras. A R$ 4.500 ticket médio = R$ 67.500/mês. ROI em 6 dias."
+      → ROI estimado: "Com automaçêo, conseguirêo trabalhar 200 leads mantendo time de 3. Isso significa 150 leads a mais/mês. Se converterem apenas 10%, sêo 15 vendas extras. A R$ 4.500 ticket médio = R$ 67.500/mês. ROI em 6 dias."
       → Cronograma: 30 dias (breakdown semanal)
     ↓
-14h35: E-mail enviado para João
-    Assunto: "João - Proposta Personalizada TechCommerce"
+14h35: E-mail enviado para Joêo
+    Assunto: "Joêo - Proposta Personalizada TechCommerce"
     Corpo: [Template ACA]
     Anexo: Link PandaDoc para revisar e assinar
     ↓
-14h42: João abre e-mail (PandaDoc notifica Carlos via Slack)
+14h42: Joêo abre e-mail (PandaDoc notifica Carlos via Slack)
     ↓
-14h50: João passa 8 minutos lendo proposta
-    (PandaDoc mostra: leu seção de problema 2min, investimento 3min, ROI 2min)
+14h50: Joêo passa 8 minutos lendo proposta
+    (PandaDoc mostra: leu seçêo de problema 2min, investimento 3min, ROI 2min)
     ↓
-15h05: João não assinou ainda
+15h05: Joêo nêo assinou ainda
     ↓
 15h06: Carlos envia WhatsApp (manual)
-    "João, conseguiu dar uma olhada na proposta? Ficou alguma dúvida?"
+    "Joêo, conseguiu dar uma olhada na proposta? Ficou alguma dúvida?"
     ↓
-15h08: João responde
-    "Carlos, faz sentido! Só preciso alinhar com sócio. Posso dar retorno até amanhã?"
+15h08: Joêo responde
+    "Carlos, faz sentido! Só preciso alinhar com sócio. Posso dar retorno até amanhê?"
     ↓
 15h09: Carlos
-    "Claro! Se quiser, posso fazer call rápida com vocês dois amanhã para esclarecer dúvidas. Que horário funciona?"
+    "Claro! Se quiser, posso fazer call rápida com vocês dois amanhê para esclarecer dúvidas. Que horário funciona?"
     ↓
-15h12: João
-    "Amanhã 10h?"
+15h12: Joêo
+    "Amanhê 10h?"
     ↓
 15h13: Carlos agenda no Calendly
-    Convida João + sócio
+    Convida Joêo + sócio
     ↓
 15h13:10: Zapier adiciona nota no Pipedrive
-    "Reunião agendada com João + sócio para alinhamento final"
+    "Reuniêo agendada com Joêo + sócio para alinhamento final"
 ```
 
 **DIA SEGUINTE - Fechamento:**
 
 ```
-10h00: Call com João + sócio
-    Esclarecimentos finais sobre implementação
+10h00: Call com Joêo + sócio
+    Esclarecimentos finais sobre implementaçêo
     ↓
 10h20: Sócio: "Vamos fechar! Como é o processo?"
     ↓
 10h21: Carlos: "Vocês recebem o link da proposta por e-mail. É só assinar digitalmente. Leva 30 segundos."
     ↓
-10h25: João assina pelo celular
+10h25: Joêo assina pelo celular
     ↓
-10h25:10: Webhook PandaDoc → Automação dispara:
+10h25:10: Webhook PandaDoc → Automaçêo dispara:
 
     ✅ Pipedrive: Deal movido para "Fechado-Ganho"
-    ✅ E-mail boas-vindas enviado para João:
+    ✅ E-mail boas-vindas enviado para Joêo:
        - Acesso ao sistema (login/senha)
        - Cronograma detalhado
        - Documentos importantes
        - Contato do gerente de projeto
     ✅ WhatsApp enviado:
-       "João, parabéns! 🎉 Você já tem acesso ao sistema. Link e senha foram enviados por e-mail. Qualquer dúvida, estou aqui!"
+       "Joêo, parabéns! 🎉 Você já tem acesso ao sistema. Link e senha foram enviados por e-mail. Qualquer dúvida, estou aqui!"
     ✅ NF gerada e enviada automaticamente
     ✅ Projeto criado no Asana:
-       - Título: "Implementação - TechCommerce"
+       - Título: "Implementaçêo - TechCommerce"
        - Atribuído: Time de CS
        - Tasks automáticas criadas (kickoff, setup, treinamento, go-live)
     ✅ Slack notificado:
@@ -1004,7 +1004,7 @@ Agora vamos juntar TUDO. Este é o momento de conectar todos os pontos.
     ✅ Dashboard atualizado:
        - +1 deal fechado no mês
        - +R$ 12.000 em receita
-       - Ciclo de vendas: 1 dia (da reunião ao fechamento)
+       - Ciclo de vendas: 1 dia (da reuniêo ao fechamento)
     ↓
 10h26: Carlos responde Slack
     "Valeu, time! Esse foi rápido 😎"
@@ -1016,7 +1016,7 @@ Agora vamos juntar TUDO. Este é o momento de conectar todos os pontos.
 
 ---
 
-## CHECKLIST DE VALIDAÇÃO: Sistema Funcionando 100%
+## CHECKLIST DE VALIDAÇêO: Sistema Funcionando 100%
 
 Use este checklist para validar que TUDO está rodando:
 
@@ -1025,14 +1025,14 @@ Use este checklist para validar que TUDO está rodando:
 **Formulário:**
 - [ ] Formulário publicado e acessível
 - [ ] Testado em desktop e mobile
-- [ ] Integração com CRM funcionando (testado com lead fictício)
-- [ ] E-mail de confirmação sendo enviado
+- [ ] Integraçêo com CRM funcionando (testado com lead fictício)
+- [ ] E-mail de confirmaçêo sendo enviado
 - [ ] WhatsApp de boas-vindas sendo enviado
 
 **WhatsApp:**
 - [ ] Número WhatsApp Business ativo
 - [ ] Chatbot respondendo automaticamente
-- [ ] Integração com CRM criando deals
+- [ ] Integraçêo com CRM criando deals
 - [ ] Transferência para humano funcionando
 
 **LinkedIn:**
@@ -1052,10 +1052,10 @@ Use este checklist para validar que TUDO está rodando:
 - [ ] Base existente importada
 - [ ] Duplicados removidos
 - [ ] Automações internas do CRM ativas (tarefa, notificações)
-- [ ] Integração com e-mail funcionando (e-mails sendo registrados)
+- [ ] Integraçêo com e-mail funcionando (e-mails sendo registrados)
 - [ ] App mobile instalado e funcionando
 
-### ✅ AUTOMAÇÃO DE FOLLOW-UP
+### ✅ AUTOMAÇêO DE FOLLOW-UP
 
 - [ ] Sequência de e-mails criada (Dia 0, 1, 3, 7, 14)
 - [ ] Sequência de WhatsApp criada
@@ -1071,10 +1071,10 @@ Use este checklist para validar que TUDO está rodando:
 - [ ] Variáveis conectadas ao CRM
 - [ ] Pricing table calculando automaticamente
 - [ ] Campos de assinatura posicionados
-- [ ] Integração CRM → PandaDoc funcionando
-- [ ] Testado: geração de proposta em menos de 2min
+- [ ] Integraçêo CRM → PandaDoc funcionando
+- [ ] Testado: geraçêo de proposta em menos de 2min
 - [ ] E-mail de envio personalizado
-- [ ] Automação pós-assinatura ativa (boas-vindas, projeto, NF)
+- [ ] Automaçêo pós-assinatura ativa (boas-vindas, projeto, NF)
 
 ### ✅ DASHBOARD & MÉTRICAS
 
@@ -1082,11 +1082,11 @@ Use este checklist para validar que TUDO está rodando:
 - [ ] Conectado às fontes de dados (CRM, Google Analytics)
 - [ ] KPIs principais visíveis:
   - [ ] Leads por dia/semana/mês
-  - [ ] Taxa de conversão por stage
+  - [ ] Taxa de conversêo por stage
   - [ ] Receita fechada
   - [ ] Ciclo de vendas médio
-- [ ] Atualização automática (tempo real ou diária)
-- [ ] Versão mobile acessível
+- [ ] Atualizaçêo automática (tempo real ou diária)
+- [ ] Versêo mobile acessível
 - [ ] Alertas configurados (metas, deals parados)
 
 ### ✅ INTEGRAÇÕES
@@ -1096,7 +1096,7 @@ Use este checklist para validar que TUDO está rodando:
 - [ ] Zaps/Scenarios testados individualmente
 - [ ] Testado fluxo completo de ponta a ponta
 - [ ] Logs de erro sendo monitorados
-- [ ] Documentação de cada integração salva
+- [ ] Documentaçêo de cada integraçêo salva
 
 ### ✅ TESTES DE STRESS
 
@@ -1121,26 +1121,26 @@ Antes de ir ao ar, faça:
 
 ---
 
-## PLANO DE 90 DIAS PÓS-IMPLEMENTAÇÃO
+## PLANO DE 90 DIAS PÓS-IMPLEMENTAÇêO
 
 Sistema implementado. Agora é hora de otimizar e escalar.
 
-### DIAS 1-30: VALIDAÇÃO & AJUSTES FINOS
+### DIAS 1-30: VALIDAÇêO & AJUSTES FINOS
 
 **Semana 1:**
-- [ ] Monitorar diariamente: todos os zaps estão rodando?
+- [ ] Monitorar diariamente: todos os zaps estêo rodando?
 - [ ] Coletar feedback da equipe: o que está confuso?
 - [ ] Ajustar templates de mensagem baseado em respostas
-- [ ] Corrigir pequenos bugs de integração
+- [ ] Corrigir pequenos bugs de integraçêo
 
 **Semana 2:**
 - [ ] Analisar taxa de abertura/resposta dos e-mails
 - [ ] A/B test: 2 versões de assunto de e-mail
-- [ ] Ajustar timing de WhatsApp (manhã vs tarde vs noite)
+- [ ] Ajustar timing de WhatsApp (manhê vs tarde vs noite)
 - [ ] Revisar campos do CRM: algum faltando?
 
 **Semana 3:**
-- [ ] Primeira análise de conversão por fonte
+- [ ] Primeira análise de conversêo por fonte
   - Qual canal traz mais leads?
   - Qual converte melhor?
   - Qual tem melhor LTV?
@@ -1150,7 +1150,7 @@ Sistema implementado. Agora é hora de otimizar e escalar.
 **Semana 4:**
 - [ ] Medir tempo médio de cada stage do funil
 - [ ] Identificar gargalos (onde leads ficam presos?)
-- [ ] Criar plano de ação para cada gargalo
+- [ ] Criar plano de açêo para cada gargalo
 
 **Meta Mês 1:**
 - Sistema rodando estável
@@ -1158,12 +1158,12 @@ Sistema implementado. Agora é hora de otimizar e escalar.
 - Equipe confortável com ferramentas
 - Primeiras otimizações implementadas
 
-### DIAS 31-60: OTIMIZAÇÃO & ESCALA
+### DIAS 31-60: OTIMIZAÇêO & ESCALA
 
 **Semana 5:**
 - [ ] Implementar lead scoring avançado
-  - Pontos por ação (visitou preços +10, abriu email +5, etc)
-  - Auto-priorização de leads quentes
+  - Pontos por açêo (visitou preços +10, abriu email +5, etc)
+  - Auto-priorizaçêo de leads quentes
 - [ ] Criar segmento "Leads Quentes" (score >70)
   - Follow-up mais agressivo
   - Vendedor senior atribuído
@@ -1171,7 +1171,7 @@ Sistema implementado. Agora é hora de otimizar e escalar.
 **Semana 6:**
 - [ ] Expandir automações:
   - Adicionar LinkedIn ao follow-up multi-canal
-  - Criar sequência de reativação (leads 60+ dias sem contato)
+  - Criar sequência de reativaçêo (leads 60+ dias sem contato)
   - Automatizar agendamento de reuniões (Calendly integrado)
 
 **Semana 7:**
@@ -1181,46 +1181,46 @@ Sistema implementado. Agora é hora de otimizar e escalar.
   - Objetivo: manter relacionamento
 
 **Semana 8:**
-- [ ] Analisar propostas não aceitas
+- [ ] Analisar propostas nêo aceitas
   - Quais objeções aparecem mais?
   - Criar FAQs com respostas prontas
   - Ajustar template de proposta
 
 **Meta Mês 2:**
-- Aumento de 30-50% em conversão vs mês 1
+- Aumento de 30-50% em conversêo vs mês 1
 - Ciclo de vendas 20-30% mais rápido
-- Leads trabalhados: 3-5x mais que antes da automação
+- Leads trabalhados: 3-5x mais que antes da automaçêo
 
 ### DIAS 61-90: REFINAMENTO & PREVISIBILIDADE
 
 **Semana 9:**
 - [ ] Análise profunda de cohorts
   - Leads de Janeiro: quanto converteram em 30, 60, 90 dias?
-  - Identificar padrão de conversão por tempo
-- [ ] Criar modelo de previsão
+  - Identificar padrêo de conversêo por tempo
+- [ ] Criar modelo de previsêo
   - Se entrarem X leads este mês, fechamos Y em 30 dias
 
 **Semana 10:**
 - [ ] Implementar ICP Score
   - Definir cliente ideal baseado em dados reais
   - Criar filtro: lead match ICP? Priorizar.
-- [ ] Treinar IA para qualificação automática
+- [ ] Treinar IA para qualificaçêo automática
   - ChatGPT lê respostas do formulário
   - Sugere prioridade alta/média/baixa
 
 **Semana 11:**
 - [ ] Criar playbooks documentados
-  - "Como lidar com objeção X"
+  - "Como lidar com objeçêo X"
   - "Como fazer follow-up de proposta"
   - "Como reativar lead frio"
 - [ ] Treinar novos membros da equipe (se expandir)
 
 **Semana 12:**
-- [ ] Revisão trimestral completa:
+- [ ] Revisêo trimestral completa:
   - ROI do sistema: investimento vs retorno
   - Tempo economizado vs antes
-  - Satisfação da equipe (survey interno)
-  - Satisfação dos leads/clientes (NPS)
+  - Satisfaçêo da equipe (survey interno)
+  - Satisfaçêo dos leads/clientes (NPS)
 
 **Meta Mês 3:**
 - Sistema otimizado e previsível
@@ -1229,7 +1229,7 @@ Sistema implementado. Agora é hora de otimizar e escalar.
 
 ---
 
-## EVOLUÇÃO CONTÍNUA: Próximos Níveis
+## EVOLUÇêO CONTÍNUA: Próximos Níveis
 
 Depois dos 90 dias, para onde ir?
 
@@ -1238,25 +1238,25 @@ Depois dos 90 dias, para onde ir?
 **Implementar:**
 - ChatGPT API para gerar seções de proposta automaticamente
 - Análise de sentimento em conversas (lead frustrado? Priorizar)
-- Sugestão automática de próximo melhor passo
+- Sugestêo automática de próximo melhor passo
 
-**ROI esperado:** +20-30% em conversão, -40% em tempo de vendedores
+**ROI esperado:** +20-30% em conversêo, -40% em tempo de vendedores
 
 ### NÍVEL 3: Predictive Lead Scoring
 
 **Implementar:**
 - Machine learning para prever qual lead vai fechar (probabilidade)
 - Modelo treinado com histórico de deals ganhos/perdidos
-- Auto-atribuição: lead com 80% probabilidade vai para vendedor senior
+- Auto-atribuiçêo: lead com 80% probabilidade vai para vendedor senior
 
-**ROI esperado:** +25% em conversão, melhor uso de tempo do time
+**ROI esperado:** +25% em conversêo, melhor uso de tempo do time
 
 ### NÍVEL 4: Expansion Multi-Produto
 
 **Implementar:**
 - Upsell automático para clientes atuais
 - Cross-sell baseado em uso
-- Comunicação pós-venda automatizada (onboarding, feature adoption, renewal)
+- Comunicaçêo pós-venda automatizada (onboarding, feature adoption, renewal)
 
 **ROI esperado:** +40-60% em LTV
 
@@ -1273,21 +1273,21 @@ Depois dos 90 dias, para onde ir?
 
 ## TROUBLESHOOTING: Problemas Comuns e Soluções
 
-### PROBLEMA 1: "Meus zaps não estão disparando"
+### PROBLEMA 1: "Meus zaps nêo estêo disparando"
 
 **Diagnóstico:**
 - [ ] Zap está ativado? (toggle On)
 - [ ] Créditos do Zapier acabaram?
-- [ ] Conexão com ferramenta expirou? (reautorizar)
+- [ ] Conexêo com ferramenta expirou? (reautorizar)
 - [ ] Filtro muito restritivo? (nenhum dado passa)
 
-**Solução:**
+**Soluçêo:**
 - Vá em "Zap History"
 - Veja últimas execuções
 - Identifique onde falhou
 - Teste cada step individualmente
 
-### PROBLEMA 2: "Leads não estão respondendo mensagens"
+### PROBLEMA 2: "Leads nêo estêo respondendo mensagens"
 
 **Diagnóstico:**
 - [ ] Taxa de abertura ok mas taxa de resposta baixa?
@@ -1295,7 +1295,7 @@ Depois dos 90 dias, para onde ir?
 - [ ] Taxa de abertura baixa também?
   → Problema é no assunto/horário
 
-**Solução:**
+**Soluçêo:**
 - A/B test assuntos de e-mail
 - Teste diferentes horários de envio
 - Revise CTA (muito vago? muito agressivo?)
@@ -1307,33 +1307,33 @@ Depois dos 90 dias, para onde ir?
 - Qual fonte traz leads ruins?
 - Formulário está filtrando ou qualquer um preenche?
 
-**Solução:**
+**Soluçêo:**
 - Adicione perguntas qualificadoras no formulário
 - Implemente lead scoring (filtra automaticamente)
 - Pause/ajuste fontes de baixa qualidade
 
-### PROBLEMA 4: "Propostas enviadas mas não assinadas"
+### PROBLEMA 4: "Propostas enviadas mas nêo assinadas"
 
 **Diagnóstico:**
 - Taxa de abertura da proposta?
   - Baixa: problema no e-mail de envio
-  - Alta mas não assina: problema na proposta
-- Analytics PandaDoc: qual seção ele leu mais?
-  - Preço? Objeção de investimento
-  - Cronograma? Objeção de prazo
+  - Alta mas nêo assina: problema na proposta
+- Analytics PandaDoc: qual seçêo ele leu mais?
+  - Preço? Objeçêo de investimento
+  - Cronograma? Objeçêo de prazo
 
-**Solução:**
-- Follow-up focado na objeção específica
+**Soluçêo:**
+- Follow-up focado na objeçêo específica
 - Call para esclarecer dúvidas
 - Oferecer alternativa (proposta simplificada, piloto, etc)
 
-### PROBLEMA 5: "Automação está enviando mensagem errada"
+### PROBLEMA 5: "Automaçêo está enviando mensagem errada"
 
 **Diagnóstico:**
-- Variável não preencheu corretamente?
+- Variável nêo preencheu corretamente?
 - Condicional errada?
 
-**Solução:**
+**Soluçêo:**
 - Revise mapeamento de variáveis ({{campo_certo}}?)
 - Teste com lead fictício
 - Adicione "fallback" para variáveis vazias:
@@ -1349,7 +1349,7 @@ Depois dos 90 dias, para onde ir?
 **SETOR:** Serviços B2B
 **TAMANHO:** 8 pessoas, faturamento R$ 80k/mês
 
-### ANTES DA AUTOMAÇÃO (Janeiro):
+### ANTES DA AUTOMAÇêO (Janeiro):
 
 **Processo:**
 - Leads entravam por formulário site, LinkedIn, Instagram
@@ -1368,27 +1368,27 @@ Depois dos 90 dias, para onde ir?
 - Tempo gasto em vendas: 120h/mês (3 pessoas)
 
 **Dores:**
-- 75% dos leads não recebiam follow-up
+- 75% dos leads nêo recebiam follow-up
 - Tempo de resposta: 4-24h
 - Propostas demoravam 3-5 dias para sair
 - Zero visibilidade de pipeline
-- Vendedor não sabia quem priorizar
+- Vendedor nêo sabia quem priorizar
 
-### IMPLEMENTAÇÃO (Fevereiro-Março):
+### IMPLEMENTAÇêO (Fevereiro-Março):
 
 **Semana 1-2:** Setup CRM + Captura de Leads
 - Implementou Pipedrive
 - Conectou formulário → Pipedrive via Zapier
 - Configurou WhatsApp Business API
 
-**Semana 3-4:** Automação de Follow-up
+**Semana 3-4:** Automaçêo de Follow-up
 - Criou sequência e-mail + WhatsApp
 - Templates com Framework ACA
 - Configurou no ActiveCampaign + Typebot
 
 **Semana 5-6:** Propostas Automáticas
 - Template no PandaDoc
-- Integração Pipedrive → PandaDoc
+- Integraçêo Pipedrive → PandaDoc
 - Assinatura digital ativa
 
 **Semana 7-8:** Dashboard & Ajustes
@@ -1400,13 +1400,13 @@ Depois dos 90 dias, para onde ir?
 - Ferramentas: R$ 900/mês
 - Setup (consultoria/tempo): R$ 8.000 (one-time)
 
-### DEPOIS DA AUTOMAÇÃO (Abril-Junho):
+### DEPOIS DA AUTOMAÇêO (Abril-Junho):
 
 **Processo:**
 - Leads entram → CRM automaticamente
 - Follow-up automático em <5min (e-mail + WhatsApp)
 - Vendedor só pega leads que responderam (qualificados)
-- Reunião → Proposta gerada em 3min
+- Reuniêo → Proposta gerada em 3min
 - Cliente assina digitalmente em média 2h depois
 
 **Números (média Abril-Junho):**
@@ -1422,7 +1422,7 @@ Depois dos 90 dias, para onde ir?
 - Taxa de resposta de leads: 8% → 42%
 - Tempo médio de resposta: 12h → 4min
 - Ciclo de vendas: 18 dias → 6 dias
-- Taxa de conversão: 2% → 4,2%
+- Taxa de conversêo: 2% → 4,2%
 - Produtividade vendedor: 3x
 
 **ROI:**
@@ -1435,13 +1435,13 @@ Depois dos 90 dias, para onde ir?
 
 ### DEPOIMENTO DO FUNDADOR:
 
-> "Eu achava que precisava contratar mais vendedores para crescer. Não precisava. Precisava de sistema. Hoje com o mesmo time de 3 vendedores, fazemos mais que o dobro de antes. E o melhor: eles trabalham menos horas, porque o sistema faz o trabalho pesado. Melhor investimento que já fizemos."
+> "Eu achava que precisava contratar mais vendedores para crescer. Nêo precisava. Precisava de sistema. Hoje com o mesmo time de 3 vendedores, fazemos mais que o dobro de antes. E o melhor: eles trabalham menos horas, porque o sistema faz o trabalho pesado. Melhor investimento que já fizemos."
 
 ---
 
 ## RECURSOS FINAIS: Templates, Planilhas e Checklists
 
-### 📄 TEMPLATE: Planejamento de Implementação
+### 📄 TEMPLATE: Planejamento de Implementaçêo
 
 ```
 # PROJETO: Sistema de Vendas 24/7
@@ -1451,7 +1451,7 @@ Depois dos 90 dias, para onde ir?
 # PRAZO: 8 semanas
 
 ## SEMANA 1: CRM
-- [ ] Escolher CRM (decisão até: [data])
+- [ ] Escolher CRM (decisêo até: [data])
 - [ ] Criar conta e configurar
 - [ ] Criar pipeline
 - [ ] Criar campos customizados
@@ -1476,20 +1476,20 @@ Depois dos 90 dias, para onde ir?
 
 ## MÉTRICAS DE SUCESSO (90 dias)
 - Leads/mês: aumentar de [X] para [Y]
-- Taxa de conversão: aumentar de [X]% para [Y]%
+- Taxa de conversêo: aumentar de [X]% para [Y]%
 - Ciclo de vendas: reduzir de [X] dias para [Y] dias
 - Receita/mês: aumentar de R$ [X] para R$ [Y]
 
 ## RISCOS E MITIGAÇÕES
-- Risco 1: [descrição]
-  Mitigação: [ação]
-- Risco 2: [descrição]
-  Mitigação: [ação]
+- Risco 1: [descriçêo]
+  Mitigaçêo: [açêo]
+- Risco 2: [descriçêo]
+  Mitigaçêo: [açêo]
 ```
 
-### 📊 PLANILHA: Comparação de Ferramentas
+### 📊 PLANILHA: Comparaçêo de Ferramentas
 
-[Google Sheets com todas as opções de CRM, automação, propostas, etc. Compare preços, features, prós/contras]
+[Google Sheets com todas as opções de CRM, automaçêo, propostas, etc. Compare preços, features, prós/contras]
 
 ### ✅ CHECKLIST: Go-Live do Sistema
 
@@ -1499,7 +1499,7 @@ ANTES DE ATIVAR O SISTEMA, VALIDAR:
 TÉCNICO:
 - [ ] Todos os Zaps testados individualmente
 - [ ] Fluxo completo testado com lead fictício
-- [ ] E-mails não estão indo para spam (testar com 3+ provedores)
+- [ ] E-mails nêo estêo indo para spam (testar com 3+ provedores)
 - [ ] WhatsApp Business verificado e ativo
 - [ ] Propostas gerando corretamente
 - [ ] Assinaturas digitais funcionando
@@ -1510,7 +1510,7 @@ EQUIPE:
 - [ ] Time treinado em cada ferramenta
 - [ ] Playbooks escritos e compartilhados
 - [ ] Papéis e responsabilidades claros
-- [ ] Processo de escalação definido (se algo quebrar)
+- [ ] Processo de escalaçêo definido (se algo quebrar)
 
 NEGÓCIO:
 - [ ] Metas claras definidas (próximos 30/60/90 dias)
@@ -1518,7 +1518,7 @@ NEGÓCIO:
 - [ ] Stakeholders alinhados
 - [ ] Plano B se sistema falhar
 
-COMUNICAÇÃO:
+COMUNICAÇêO:
 - [ ] Templates revisados e aprovados
 - [ ] Tom de voz alinhado com marca
 - [ ] Compliance validado (LGPD, opt-out, etc)
@@ -1529,7 +1529,7 @@ COMUNICAÇÃO:
 
 ---
 
-## CONCLUSÃO: Sua Nova Realidade
+## CONCLUSêO: Sua Nova Realidade
 
 Se você implementou tudo que foi ensinado neste módulo (e nos anteriores), você agora tem:
 
@@ -1543,7 +1543,7 @@ Se você implementou tudo que foi ensinado neste módulo (e nos anteriores), voc
 **Isso significa:**
 
 🚀 Você pode atender 3-10x mais leads com a mesma equipe
-🚀 Taxa de conversão aumenta 50-200%
+🚀 Taxa de conversêo aumenta 50-200%
 🚀 Ciclo de vendas reduz 40-70%
 🚀 Você tem previsibilidade de receita
 🚀 Seu negócio pode crescer sem depender 100% de você
@@ -1551,7 +1551,7 @@ Se você implementou tudo que foi ensinado neste módulo (e nos anteriores), voc
 **Você saiu de:**
 - Caos → Sistema
 - Reativo → Proativo
-- Improvisação → Estrutura
+- Improvisaçêo → Estrutura
 - Limitado → Escalável
 
 **Parabéns!** Você chegou ao fim da Trilha 2: Comunicador Estratégico.

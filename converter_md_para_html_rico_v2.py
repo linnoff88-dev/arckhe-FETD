@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Conversor de Markdown para HTML ULTRA RICO
-Versão 2.0 - Layout mais visual e atraente
+Versêo 2.0 - Layout mais visual e atraente
 Baseado nos melhores elementos das trilhas existentes
 """
 
@@ -25,11 +25,11 @@ NOMES_TRILHAS = {
 }
 
 def extrair_metadados_md(conteudo_md):
-    """Extrai título, duração e objetivo do Markdown"""
+    """Extrai título, duraçêo e objetivo do Markdown"""
     titulo_match = re.search(r'^#\s+(.+?)$', conteudo_md, re.MULTILINE)
     titulo = titulo_match.group(1) if titulo_match else "Módulo"
 
-    duracao_match = re.search(r'\*\*Duração:\*\*\s+(.+?)$', conteudo_md, re.MULTILINE)
+    duracao_match = re.search(r'\*\*Duraçêo:\*\*\s+(.+?)$', conteudo_md, re.MULTILINE)
     duracao = duracao_match.group(1) if duracao_match else "60 minutos"
 
     objetivo_match = re.search(r'\*\*Objetivo:\*\*\s+(.+?)$', conteudo_md, re.MULTILINE)
@@ -68,21 +68,21 @@ def converter_markdown_para_html_corpo(conteudo_md, trilha, objetivo=""):
         if not secao.strip():
             continue
 
-        # Se não começa com ##, adiciona
+        # Se nêo começa com ##, adiciona
         if i > 0:
             secao = '## ' + secao
 
-        # Processa seção
+        # Processa seçêo
         html_secao = processar_secao(secao, cor)
         html_parts.append(html_secao)
 
     return '\n\n'.join(html_parts)
 
 def processar_secao(secao, cor):
-    """Processa uma seção (##) individual com layout rico"""
+    """Processa uma seçêo (##) individual com layout rico"""
     html_parts = []
 
-    # Extrai título da seção (##)
+    # Extrai título da seçêo (##)
     titulo_match = re.match(r'##\s+(.+?)$', secao, re.MULTILINE)
     if titulo_match:
         titulo = titulo_match.group(1)
@@ -90,14 +90,14 @@ def processar_secao(secao, cor):
         # Remove emojis especiais do título para comentário
         titulo_limpo = re.sub(r'^[🎯💡📊🔍✅❌⚡🚀📝🎨🔧💰📈🎓💼🌟]+\s*', '', titulo)
 
-        # Adiciona gradient e ícone ao título da seção
+        # Adiciona gradient e ícone ao título da seçêo
         html_parts.append(f'''
-      <!-- Seção: {titulo_limpo} -->
+      <!-- Seçêo: {titulo_limpo} -->
       <div class="mb-16">
         <h2 class="text-3xl md:text-4xl font-bold mb-8 pb-4 border-b-2 border-{cor}/20 bg-gradient-to-r from-{cor}/10 to-transparent -mx-4 px-4 py-4 rounded-lg">{titulo}</h2>
 ''')
 
-        # Remove título da seção do conteúdo
+        # Remove título da seçêo do conteúdo
         conteudo = re.sub(r'^##\s+.+?$', '', secao, count=1, flags=re.MULTILINE)
     else:
         conteudo = secao
@@ -120,10 +120,10 @@ def processar_secao(secao, cor):
     return '\n'.join(html_parts)
 
 def processar_subsecao(subsecao, cor):
-    """Processa uma subseção (###) individual com cards visuais"""
+    """Processa uma subseçêo (###) individual com cards visuais"""
     html_parts = []
 
-    # Extrai título da subseção
+    # Extrai título da subseçêo
     titulo_match = re.match(r'###\s+(.+?)$', subsecao, re.MULTILINE)
     if titulo_match:
         titulo = titulo_match.group(1)
@@ -132,7 +132,7 @@ def processar_subsecao(subsecao, cor):
         e_mito = bool(re.search(r'❌|MITO|Mito', titulo))
         e_verdade = bool(re.search(r'✅|VERDADE|Verdade', titulo))
         e_exemplo = bool(re.search(r'Exemplo|Case|Caso', titulo, re.IGNORECASE))
-        e_importante = bool(re.search(r'💡|Importante|Atenção|Nota', titulo, re.IGNORECASE))
+        e_importante = bool(re.search(r'💡|Importante|Atençêo|Nota', titulo, re.IGNORECASE))
         e_dados = bool(re.search(r'📊|Dados|Números|Estatísticas', titulo, re.IGNORECASE))
 
         if e_mito:
@@ -215,7 +215,7 @@ def processar_conteudo(conteudo, cor):
             # Código
             html_parts.append(processar_codigo(bloco, cor))
         elif re.match(r'^[\*\-]\s+', bloco, re.MULTILINE):
-            # Lista não ordenada - Detecta se é comparativa (Antes/Agora)
+            # Lista nêo ordenada - Detecta se é comparativa (Antes/Agora)
             if 'Antes' in bloco[:100] or 'Agora' in bloco[:100] or '❌' in bloco or '✅' in bloco:
                 html_parts.append(processar_lista_comparativa(bloco, cor))
             else:
@@ -224,7 +224,7 @@ def processar_conteudo(conteudo, cor):
             # Lista ordenada
             html_parts.append(processar_lista_ordenada(bloco, cor))
         elif bloco.startswith('**') and ':**' in bloco[:50]:
-            # Definição destacada (ex: **O que é:** ...)
+            # Definiçêo destacada (ex: **O que é:** ...)
             html_parts.append(processar_definicao(bloco, cor))
         else:
             # Parágrafo normal
@@ -241,7 +241,7 @@ def processar_lista_comparativa(lista_md, cor):
     tem_agora = any('Agora' in l or 'Hoje' in l or '2025' in l for l in linhas[:3])
 
     if tem_antes and tem_agora:
-        # Layout de comparação lado a lado em grid
+        # Layout de comparaçêo lado a lado em grid
         html = '''
           <div class="grid md:grid-cols-2 gap-6 mb-8">
             <!-- Antes -->
@@ -295,7 +295,7 @@ def processar_tabela(tabela_md, cor):
     """Converte tabela Markdown para HTML com estilo premium"""
     linhas = [l.strip() for l in tabela_md.split('\n') if l.strip()]
 
-    # Ignora linha de separação (|---|---|)
+    # Ignora linha de separaçêo (|---|---|)
     linhas = [l for l in linhas if not re.match(r'^\|[\s\-:]+\|$', l)]
 
     if len(linhas) < 2:
@@ -361,7 +361,7 @@ def processar_codigo(codigo_md, cor):
 '''
 
 def processar_lista_nao_ordenada(lista_md, cor):
-    """Converte lista não ordenada para HTML com ícones"""
+    """Converte lista nêo ordenada para HTML com ícones"""
     linhas = [l.strip() for l in lista_md.split('\n') if l.strip()]
 
     html = '          <ul class="space-y-3 mb-6">\n'
@@ -402,7 +402,7 @@ def processar_lista_ordenada(lista_md, cor):
     return html
 
 def processar_definicao(def_md, cor):
-    """Processa definição destacada (ex: **O que é:** ...)"""
+    """Processa definiçêo destacada (ex: **O que é:** ...)"""
     # Separa label e conteúdo
     match = re.match(r'\*\*(.+?):\*\*\s+(.+)', def_md, re.DOTALL)
     if match:
@@ -424,7 +424,7 @@ def processar_paragrafo(para_md, cor):
     return f'          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">{texto_formatado}</p>\n'
 
 def aplicar_formatacao_inline(texto):
-    """Aplica formatação inline (negrito, itálico, links, etc)"""
+    """Aplica formataçêo inline (negrito, itálico, links, etc)"""
     # Negrito
     texto = re.sub(r'\*\*(.+?)\*\*', r'<strong class="font-bold">\1</strong>', texto)
 
@@ -565,7 +565,7 @@ def gerar_html_completo(trilha, modulo_num, titulo, duracao, objetivo, corpo_htm
       <div class="flex flex-wrap items-center gap-4 text-white/90">
         <span class="flex items-center gap-2 font-medium"><span class="text-xl">📚</span> Teoria</span>
         <span class="text-white/60">•</span>
-        <span class="flex items-center gap-2 font-medium"><span class="text-xl">💭</span> Reflexão</span>
+        <span class="flex items-center gap-2 font-medium"><span class="text-xl">💭</span> Reflexêo</span>
         <span class="text-white/60">•</span>
         <span class="flex items-center gap-2 font-medium"><span class="text-xl">🛠️</span> Prática</span>
       </div>
@@ -589,7 +589,7 @@ def gerar_html_completo(trilha, modulo_num, titulo, duracao, objetivo, corpo_htm
     </div>
   </section>
 
-  <!-- Footer / Navegação -->
+  <!-- Footer / Navegaçêo -->
   <section class="py-12 bg-gradient-to-br from-neutral-100 to-neutral-50 dark:from-neutral-900 dark:to-neutral-800 border-t border-neutral-200 dark:border-neutral-700">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center">
@@ -659,7 +659,7 @@ def converter_modulo(trilha, modulo_num):
     html_path = f'modulos/{trilha}/modulo-{modulo_num:02d}.html'
 
     if not os.path.exists(md_path):
-        print(f"❌ Arquivo não encontrado: {md_path}")
+        print(f"❌ Arquivo nêo encontrado: {md_path}")
         return False
 
     # Lê Markdown
@@ -675,7 +675,7 @@ def converter_modulo(trilha, modulo_num):
     # Gera HTML completo
     html_completo = gerar_html_completo(trilha, modulo_num, titulo, duracao, objetivo, corpo_html)
 
-    # Cria diretório se não existe
+    # Cria diretório se nêo existe
     os.makedirs(os.path.dirname(html_path), exist_ok=True)
 
     # Salva HTML
@@ -696,7 +696,7 @@ def converter_trilha_completa(trilha):
     print(f"\n✅ {sucesso}/10 módulos convertidos com layout premium!\n")
 
 def main():
-    """Função principal"""
+    """Funçêo principal"""
     import sys
 
     if len(sys.argv) < 2:

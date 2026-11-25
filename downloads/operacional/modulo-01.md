@@ -1,24 +1,24 @@
 # Módulo 1: A Virada - Por Que Agora é Diferente
 
 **Trilha:** Operacional Produtivo
-**Duração:** 30 minutos
-**Objetivo:** Despertar consciência sobre a revolução em curso e eliminar crenças limitantes
+**Duraçêo:** 30 minutos
+**Objetivo:** Despertar consciência sobre a revoluçêo em curso e eliminar crenças limitantes
 
 ---
 
 ## 🎯 Objetivo deste Módulo
 
-Despertar sua consciência sobre a revolução em curso, eliminar crenças limitantes sobre automação, e preparar você mentalmente para a transformação que vem pela frente. Ao final deste módulo, você terá clareza absoluta sobre onde está gastando seu tempo e quais tarefas podem ser automatizadas imediatamente.
+Despertar sua consciência sobre a revoluçêo em curso, eliminar crenças limitantes sobre automaçêo, e preparar você mentalmente para a transformaçêo que vem pela frente. Ao final deste módulo, você terá clareza absoluta sobre onde está gastando seu tempo e quais tarefas podem ser automatizadas imediatamente.
 
 ---
 
-## 1. O Antes e Depois: A Revolução Que Você Não Percebeu
+## 1. O Antes e Depois: A Revoluçêo Que Você Nêo Percebeu
 
-### Introdução: O Momento Histórico Único
+### Introduçêo: O Momento Histórico Único
 
-Vivemos um momento histórico único. Pela primeira vez na história da humanidade, **tecnologia avançada está acessível para pessoas comuns**, não apenas para grandes empresas, desenvolvedores experientes ou especialistas técnicos com orçamentos milionários.
+Vivemos um momento histórico único. Pela primeira vez na história da humanidade, **tecnologia avançada está acessível para pessoas comuns**, nêo apenas para grandes empresas, desenvolvedores experientes ou especialistas técnicos com orçamentos milionários.
 
-Se você é profissional entre 25 e 50 anos, já viveu o suficiente para lembrar quando a automação era um luxo inacessível. Hoje, em 2025, estamos no olho do furacão de uma transformação tão profunda quanto foi a chegada da internet nos anos 90 ou a revolução industrial no século 19. A diferença? **Esta mudança está acontecendo em velocidade 10x maior**.
+Se você é profissional entre 25 e 50 anos, já viveu o suficiente para lembrar quando a automaçêo era um luxo inacessível. Hoje, em 2025, estamos no olho do furacêo de uma transformaçêo têo profunda quanto foi a chegada da internet nos anos 90 ou a revoluçêo industrial no século 19. A diferença? **Esta mudança está acontecendo em velocidade 10x maior**.
 
 Por que 2023-2025 mudou absolutamente tudo? Porque três fatores convergiram ao mesmo tempo:
 
@@ -28,33 +28,33 @@ Por que 2023-2025 mudou absolutamente tudo? Porque três fatores convergiram ao 
 
 3. **Modelos de negócio freemium explodiram** - As melhores ferramentas oferecem versões gratuitas poderosas. Você pode começar hoje, sem investir um centavo, e só pagar quando escalar.
 
-Esta é a **janela de oportunidade**. Quem entrar agora nos próximos 2-3 anos será visto como pioneiro. Quem esperar mais 5 anos estará apenas alcançando o básico que todos já fazem. A pergunta não é "se" você vai automatizar seu trabalho. A pergunta é: você vai liderar essa mudança ou ser forçado a correr atrás depois?
+Esta é a **janela de oportunidade**. Quem entrar agora nos próximos 2-3 anos será visto como pioneiro. Quem esperar mais 5 anos estará apenas alcançando o básico que todos já fazem. A pergunta nêo é "se" você vai automatizar seu trabalho. A pergunta é: você vai liderar essa mudança ou ser forçado a correr atrás depois?
 
 ### Antes de 2023: Como Era Difícil
 
 Vamos voltar no tempo. Se você quisesse automatizar processos em 2020, precisava de:
 
-**❌ Programação Complexa**
-Automação significava contratar um desenvolvedor ou aprender Python, JavaScript, ou linguagens complexas. Um simples script para organizar emails exigia centenas de linhas de código. Se algo quebrasse, você precisava de um técnico para consertar. Custo médio de um desenvolvedor freelancer: R$ 8.000-15.000/mês.
+**❌ Programaçêo Complexa**
+Automaçêo significava contratar um desenvolvedor ou aprender Python, JavaScript, ou linguagens complexas. Um simples script para organizar emails exigia centenas de linhas de código. Se algo quebrasse, você precisava de um técnico para consertar. Custo médio de um desenvolvedor freelancer: R$ 8.000-15.000/mês.
 
 **❌ Infraestrutura Cara**
-Você precisava de servidores próprios ou cloud com configuração técnica avançada. Amazon AWS, Google Cloud e Microsoft Azure eram labirintos incompreensíveis para não-técnicos. Custo médio mensal: R$ 2.000-5.000 apenas em infraestrutura básica.
+Você precisava de servidores próprios ou cloud com configuraçêo técnica avançada. Amazon AWS, Google Cloud e Microsoft Azure eram labirintos incompreensíveis para nêo-técnicos. Custo médio mensal: R$ 2.000-5.000 apenas em infraestrutura básica.
 
 **❌ IA Restrita a Gigantes**
 Inteligência artificial era algo que apenas Google, Amazon e Microsoft tinham. Ferramentas como GPT-3 existiam desde 2020, mas exigiam conhecimento técnico profundo, API keys complexas, e custavam fortunas. Uma empresa média gastava R$ 50.000-200.000 para implementar IA em processos básicos.
 
-**❌ Integração Entre Sistemas Era um Pesadelo**
-Conectar Google Sheets com Gmail? Você precisava de Zapier versão paga (limitadíssima na free) ou contratar integração customizada. Cada conexão era um projeto de semanas. Custo médio: R$ 5.000-20.000 por integração.
+**❌ Integraçêo Entre Sistemas Era um Pesadelo**
+Conectar Google Sheets com Gmail? Você precisava de Zapier versêo paga (limitadíssima na free) ou contratar integraçêo customizada. Cada conexêo era um projeto de semanas. Custo médio: R$ 5.000-20.000 por integraçêo.
 
 **❌ Ferramentas Fragmentadas**
-Não havia ecossistema coeso. Você tinha 15 ferramentas diferentes que não conversavam entre si. Organizar emails em uma ferramenta, automatizar planilhas em outra, criar relatórios em outra. Gerenciar tudo isso era um trabalho em si.
+Nêo havia ecossistema coeso. Você tinha 15 ferramentas diferentes que nêo conversavam entre si. Organizar emails em uma ferramenta, automatizar planilhas em outra, criar relatórios em outra. Gerenciar tudo isso era um trabalho em si.
 
 **❌ Suporte Inexistente**
-Quando algo quebrava, você estava sozinho. Comunidades eram pequenas, documentação era técnica demais, tutoriais em português eram raros. A curva de aprendizado era vertical.
+Quando algo quebrava, você estava sozinho. Comunidades eram pequenas, documentaçêo era técnica demais, tutoriais em português eram raros. A curva de aprendizado era vertical.
 
 **Resultado prático:** Apenas empresas grandes com times técnicos dedicados conseguiam automatizar processos. Profissionais individuais ficavam reféns do trabalho manual eterno.
 
-### Agora (2025): A Revolução Acessível
+### Agora (2025): A Revoluçêo Acessível
 
 Agora contraste com 2025. O cenário mudou radicalmente:
 
@@ -62,11 +62,11 @@ Agora contraste com 2025. O cenário mudou radicalmente:
 
 **Zapier Free:**
 - 100 tarefas automatizadas por mês
-- Conexão com 5.000+ apps (Gmail, Sheets, Slack, Notion, Trello, etc.)
+- Conexêo com 5.000+ apps (Gmail, Sheets, Slack, Notion, Trello, etc.)
 - Templates prontos para copiar e usar
 - Interface visual: arrastar e soltar
 - **Custo: R$ 0,00**
-- Exemplo prático: Automatizar organização de emails em 15 minutos
+- Exemplo prático: Automatizar organizaçêo de emails em 15 minutos
 
 **Make (ex-Integromat) Free:**
 - 1.000 operações por mês
@@ -80,19 +80,19 @@ Agora contraste com 2025. O cenário mudou radicalmente:
 - Automações ultra complexas
 - Comunidade ativa com 200+ templates brasileiros
 - **Custo: R$ 0,00**
-- Exemplo prático: Pipeline completo de aprovação de documentos
+- Exemplo prático: Pipeline completo de aprovaçêo de documentos
 
 **✅ IA Conversacional Acessível**
 
 **ChatGPT (OpenAI):**
-- Versão gratuita ilimitada (com limite de uso diário razoável)
+- Versêo gratuita ilimitada (com limite de uso diário razoável)
 - Escreve emails, resumos, relatórios, análises
 - Conversa em português brasileiro natural
 - **Custo: R$ 0,00 (free) ou R$ 100/mês (Plus)**
 - Exemplo prático: Rascunho de 10 emails profissionais em 5 minutos
 
 **Claude (Anthropic):**
-- Versão gratuita robusta
+- Versêo gratuita robusta
 - Análise de documentos longos (até 200 páginas)
 - Raciocínio lógico superior para tarefas complexas
 - **Custo: R$ 0,00 (free) ou R$ 100/mês (Pro)**
@@ -107,25 +107,25 @@ Agora contraste com 2025. O cenário mudou radicalmente:
 
 **✅ Versões Gratuitas Que Realmente Funcionam**
 
-Não estamos falando de "trials de 14 dias" ou "freemium limitado a ponto de ser inútil". As versões gratuitas de 2025 são **profissionalmente utilizáveis**:
+Nêo estamos falando de "trials de 14 dias" ou "freemium limitado a ponto de ser inútil". As versões gratuitas de 2025 sêo **profissionalmente utilizáveis**:
 
 - Google Workspace (Sheets, Docs, Gmail): **Gratuito e ilimitado**
-- Notion (organização e banco de dados): **Gratuito para uso pessoal**
-- Trello (gestão de projetos): **Gratuito com 10 boards**
+- Notion (organizaçêo e banco de dados): **Gratuito para uso pessoal**
+- Trello (gestêo de projetos): **Gratuito com 10 boards**
 - Airtable (banco de dados visual): **Gratuito com 1.200 registros**
 - Canva (design): **Gratuito com 250.000+ templates**
 
 **✅ Você Mesmo Pode Fazer Tudo**
 
-Esta é a mudança fundamental. **Você não precisa mais contratar ninguém**. Com investimento de 30 minutos a 2 horas, você cria automações que antes custavam R$ 10.000-50.000.
+Esta é a mudança fundamental. **Você nêo precisa mais contratar ninguém**. Com investimento de 30 minutos a 2 horas, você cria automações que antes custavam R$ 10.000-50.000.
 
 **Caso real documentado (2024):**
-Fernanda, analista administrativa em São Paulo, gastava 12 horas/semana:
+Fernanda, analista administrativa em Sêo Paulo, gastava 12 horas/semana:
 - Organizando 300+ emails por projeto manualmente
 - Copiando dados de emails para planilhas
 - Gerando relatórios semanais no PowerPoint
 
-**Solução criada por ela mesma em 3 horas (divididas em 1 semana):**
+**Soluçêo criada por ela mesma em 3 horas (divididas em 1 semana):**
 - Filtros automáticos no Gmail (30 minutos)
 - Zapier conectando Gmail → Google Sheets (45 minutos)
 - Fórmulas avançadas no Sheets (1 hora)
@@ -133,61 +133,61 @@ Fernanda, analista administrativa em São Paulo, gastava 12 horas/semana:
 
 **Resultado:** Economia de 11 horas/semana. ROI em 1 semana. Ferramentas utilizadas: 100% gratuitas.
 
-### Timeline de Evolução: 2020 → 2025
+### Timeline de Evoluçêo: 2020 → 2025
 
 Para você entender a velocidade da mudança:
 
 **2020:**
 - IA ainda é "futuro distante"
-- Automação = programadores caros
-- ChatGPT não existe
+- Automaçêo = programadores caros
+- ChatGPT nêo existe
 
 **2021:**
 - Ferramentas no-code começam a melhorar
-- Ainda complexas demais para não-técnicos
+- Ainda complexas demais para nêo-técnicos
 - IA é restrita a APIs técnicas
 
 **2022 (Novembro):**
 - **MARCO HISTÓRICO:** ChatGPT é lançado
-- 1 milhão de usuários em 5 dias
+- 1 milhêo de usuários em 5 dias
 - Mundo percebe: IA está aqui
 
 **2023:**
-- Explosão de IAs concorrentes (Claude, Gemini, etc.)
+- Explosêo de IAs concorrentes (Claude, Gemini, etc.)
 - Zapier/Make integram IA nativamente
 - Versões gratuitas ficam realmente boas
 - Comunidade brasileira cresce 300%
 
 **2024:**
 - IA vira mainstream no Brasil
-- 40% das empresas médias usam automação no-code
+- 40% das empresas médias usam automaçêo no-code
 - Cursos e tutoriais em português explodem
-- Profissionais que automatizam são promovidos
+- Profissionais que automatizam sêo promovidos
 
 **2025 (AGORA):**
 - **Você está aqui:** Momento ideal para entrar
 - Ferramentas maduras + comunidade forte
 - Expectativa do mercado: profissionais DEVEM saber automatizar
-- Quem não automatiza fica para trás
+- Quem nêo automatiza fica para trás
 
 ### Dados de Mercado e Estatísticas Reais
 
-**Pesquisa McKinsey (2024) - Impacto da Automação no Brasil:**
-- 68% das empresas brasileiras implementaram alguma automação em 2024
-- Profissionais que dominam automação ganham, em média, 32% a mais
+**Pesquisa McKinsey (2024) - Impacto da Automaçêo no Brasil:**
+- 68% das empresas brasileiras implementaram alguma automaçêo em 2024
+- Profissionais que dominam automaçêo ganham, em média, 32% a mais
 - 45% das tarefas administrativas podem ser automatizadas HOJE
-- ROI médio de automação: 400% no primeiro ano
+- ROI médio de automaçêo: 400% no primeiro ano
 
 **LinkedIn Brasil (2024) - Habilidades Mais Demandadas:**
 1. Inteligência Artificial Aplicada (+890% em vagas)
-2. Automação de Processos (+670% em vagas)
+2. Automaçêo de Processos (+670% em vagas)
 3. Ferramentas No-Code (+540% em vagas)
 
 **Relatório Gartner (2024):**
-- 75% das organizações de médio porte usarão 4+ ferramentas de automação low-code até 2026
-- Profissionais que não souberem automatizar terão **30% menos empregabilidade** até 2027
+- 75% das organizações de médio porte usarêo 4+ ferramentas de automaçêo low-code até 2026
+- Profissionais que nêo souberem automatizar terêo **30% menos empregabilidade** até 2027
 
-**Esta não é teoria. É realidade mensurável.**
+**Esta nêo é teoria. É realidade mensurável.**
 
 ---
 
@@ -197,35 +197,35 @@ Vamos destruir, com dados e exemplos concretos, as três crenças limitantes que
 
 ### ❌ MITO 1: "Eu preciso de uma agência/empresa/equipe técnica"
 
-**FALSO.** Esta crença vem de 2015-2020, quando automação realmente exigia times técnicos. Mas em 2025, as ferramentas evoluíram a ponto de **uma pessoa comum fazer sozinha o que antes exigia 5 desenvolvedores**.
+**FALSO.** Esta crença vem de 2015-2020, quando automaçêo realmente exigia times técnicos. Mas em 2025, as ferramentas evoluíram a ponto de **uma pessoa comum fazer sozinha o que antes exigia 5 desenvolvedores**.
 
 #### Dados Que Refutam:
 
 **Pesquisa Zapier (2024):**
-- 78% dos usuários de automação não têm background técnico
-- Tempo médio para criar primeira automação: 23 minutos
+- 78% dos usuários de automaçêo nêo têm background técnico
+- Tempo médio para criar primeira automaçêo: 23 minutos
 - Taxa de sucesso na primeira tentativa: 84%
 
 **Stack Overflow Survey (2024):**
-- 42% dos profissionais não-técnicos agora criam automações regularmente
+- 42% dos profissionais nêo-técnicos agora criam automações regularmente
 - No-code cresceu 340% entre profissionais de RH, marketing, administrativo
 
 #### 4 Exemplos Concretos:
 
-**Exemplo 1: Maria - Analista Administrativo (São Paulo)**
+**Exemplo 1: Maria - Analista Administrativo (Sêo Paulo)**
 - **Contexto:** Empresa de consultoria, 35 anos, zero conhecimento técnico
-- **Desafio:** 3.000 emails/mês precisando organização manual por projeto
-- **Solução criada sozinha:** Sistema de filtros Gmail + Zapier + Google Sheets
+- **Desafio:** 3.000 emails/mês precisando organizaçêo manual por projeto
+- **Soluçêo criada sozinha:** Sistema de filtros Gmail + Zapier + Google Sheets
 - **Tempo para criar:** 2 horas (divididas em 3 dias)
 - **Ferramentas:** 100% gratuitas
-- **Resultado:** 12 horas/semana economizadas, promoção em 4 meses
+- **Resultado:** 12 horas/semana economizadas, promoçêo em 4 meses
 - **Custo de fazer com agência:** R$ 15.000-25.000
 - **Custo real:** R$ 0,00
 
 **Exemplo 2: Roberto - Gerente Comercial (Porto Alegre)**
-- **Contexto:** Rede de varejo, 48 anos, "não sabe nem Excel direito" (palavras dele)
+- **Contexto:** Rede de varejo, 48 anos, "nêo sabe nem Excel direito" (palavras dele)
 - **Desafio:** Consolidar vendas de 12 lojas em 12 planilhas diferentes toda semana
-- **Solução criada sozinha:** Make conectando 12 Sheets → 1 Dashboard automático
+- **Soluçêo criada sozinha:** Make conectando 12 Sheets → 1 Dashboard automático
 - **Tempo para criar:** 4 horas (com 2 tentativas falhadas no meio)
 - **Ferramentas:** Make free + Google Sheets
 - **Resultado:** 8 horas/semana economizadas, eliminou 90% de erros manuais
@@ -233,19 +233,19 @@ Vamos destruir, com dados e exemplos concretos, as três crenças limitantes que
 - **Custo real:** R$ 0,00
 
 **Exemplo 3: Juliana - Coordenadora de RH (Belo Horizonte)**
-- **Contexto:** Empresa tech, 29 anos, "sou de humanas, não entendo de tecnologia"
+- **Contexto:** Empresa tech, 29 anos, "sou de humanas, nêo entendo de tecnologia"
 - **Desafio:** Triagem de 200+ currículos por vaga, processo manual demorava 2 semanas
-- **Solução criada sozinha:** ChatGPT + prompts customizados + Airtable
-- **Tempo para criar:** 3 horas de aprendizado + 1 hora de implementação
+- **Soluçêo criada sozinha:** ChatGPT + prompts customizados + Airtable
+- **Tempo para criar:** 3 horas de aprendizado + 1 hora de implementaçêo
 - **Ferramentas:** ChatGPT free + Airtable free
-- **Resultado:** Triagem reduzida para 2 dias, qualidade de seleção melhorou 35%
+- **Resultado:** Triagem reduzida para 2 dias, qualidade de seleçêo melhorou 35%
 - **Custo de fazer com agência/ATS:** R$ 30.000-80.000
 - **Custo real:** R$ 0,00
 
 **Exemplo 4: Carlos - Analista Financeiro (Curitiba)**
-- **Contexto:** Multinacional, 42 anos, "sempre fui de Excel, mas nada de programação"
+- **Contexto:** Multinacional, 42 anos, "sempre fui de Excel, mas nada de programaçêo"
 - **Desafio:** Gerar 15 relatórios diferentes mensalmente, processo levava 20 horas
-- **Solução criada sozinha:** Google Sheets com fórmulas avançadas + templates de IA + scripts simples copiados
+- **Soluçêo criada sozinha:** Google Sheets com fórmulas avançadas + templates de IA + scripts simples copiados
 - **Tempo para criar:** 6 horas distribuídas em 2 semanas
 - **Ferramentas:** Google Sheets + Claude + tutoriais YouTube
 - **Resultado:** 18 horas/semana economizadas, relatórios ficaram mais bonitos
@@ -258,13 +258,13 @@ Se você sabe usar email e planilhas básicas, **você tem 90% do necessário** 
 
 ### ❌ MITO 2: "Eu preciso de muito dinheiro para começar"
 
-**FALSO.** Este é o mito mais fácil de destruir. As melhores ferramentas de 2025 têm versões gratuitas que são **profissionalmente utilizáveis, não "freemium inútil"**.
+**FALSO.** Este é o mito mais fácil de destruir. As melhores ferramentas de 2025 têm versões gratuitas que sêo **profissionalmente utilizáveis, nêo "freemium inútil"**.
 
 #### Dados Que Refutam:
 
 **Análise Product Hunt (2024):**
 - 89% das ferramentas de produtividade top-10 têm versões free funcionais
-- Média de recursos disponíveis no free: 73% da versão paga
+- Média de recursos disponíveis no free: 73% da versêo paga
 - ROI médio antes de precisar pagar: 6-8 meses de uso intenso
 
 **Survey "State of No-Code 2024":**
@@ -276,7 +276,7 @@ Se você sabe usar email e planilhas básicas, **você tem 90% do necessário** 
 
 **Exemplo 1: Pedro - Coordenador de Projetos (Rio de Janeiro)**
 - **Mês 1-6:** Usou apenas ferramentas gratuitas
-  - Trello Free (gestão de projetos)
+  - Trello Free (gestêo de projetos)
   - Zapier Free 100 tarefas/mês
   - ChatGPT Free
   - Google Workspace Free
@@ -291,12 +291,12 @@ Se você sabe usar email e planilhas básicas, **você tem 90% do necessário** 
   - Canva Free (design)
   - Buffer Free (redes sociais)
   - Google Analytics (métricas)
-  - Claude Free (criação de conteúdo)
-  - Notion Free (organização)
+  - Claude Free (criaçêo de conteúdo)
+  - Notion Free (organizaçêo)
 - **Resultado:** Produziu 3x mais conteúdo sem contratar freelancers
 - **Economia em serviços terceirizados:** R$ 3.500/mês × 12 = R$ 42.000
 - **Investimento:** R$ 0,00
-- **Observação:** Só pagou Canva Pro no mês 13 (R$ 54/mês) para recursos avançados
+- **Observaçêo:** Só pagou Canva Pro no mês 13 (R$ 54/mês) para recursos avançados
 
 **Exemplo 3: Rafael - Analista Administrativo (Brasília)**
 - **Ferramentas gratuitas usadas:**
@@ -306,7 +306,7 @@ Se você sabe usar email e planilhas básicas, **você tem 90% do necessário** 
   - ChatGPT Free (rascunhos de emails)
 - **Tempo economizado:** 10 horas/semana
 - **Custo:** R$ 0,00 há 8 meses
-- **Plano:** Continuar no free, não vê necessidade de pagar
+- **Plano:** Continuar no free, nêo vê necessidade de pagar
 
 **Exemplo 4: Beatriz - Gerente de Operações (Salvador)**
 - **Começou 100% free:** Zapier, Sheets, Trello, IA
@@ -318,7 +318,7 @@ Se você sabe usar email e planilhas básicas, **você tem 90% do necessário** 
 
 #### A Verdade:
 
-O investimento inicial é ZERO. Você começa com ferramentas gratuitas, comprova o valor, e **só paga quando escalar ou quiser recursos avançados**. E mesmo assim, o ROI é tão alto que se paga em semanas.
+O investimento inicial é ZERO. Você começa com ferramentas gratuitas, comprova o valor, e **só paga quando escalar ou quiser recursos avançados**. E mesmo assim, o ROI é têo alto que se paga em semanas.
 
 **Matriz de Custo Real:**
 | Ferramenta | Free | Pago | Quando Pagar |
@@ -331,32 +331,32 @@ O investimento inicial é ZERO. Você começa com ferramentas gratuitas, comprov
 
 ### ❌ MITO 3: "Eu preciso de audiência/seguidores para isso valer a pena"
 
-**FALSO.** Esta confusão acontece porque a internet está cheia de influencers ensinando automação para "escalar seu negócio online". Mas **você não está criando conteúdo para vender. Está criando sistemas para VOCÊ MESMO usar e melhorar SUA produtividade**.
+**FALSO.** Esta confusêo acontece porque a internet está cheia de influencers ensinando automaçêo para "escalar seu negócio online". Mas **você nêo está criando conteúdo para vender. Está criando sistemas para VOCÊ MESMO usar e melhorar SUA produtividade**.
 
 #### Dados Que Refutam:
 
 **LinkedIn Learning Survey (2024):**
-- 91% dos profissionais que automatizam processos são funcionários CLT, não empreendedores
-- 76% usam automação exclusivamente para trabalho interno
+- 91% dos profissionais que automatizam processos sêo funcionários CLT, nêo empreendedores
+- 76% usam automaçêo exclusivamente para trabalho interno
 - 3% têm presença relevante em redes sociais
 
 **Pesquisa "Produtividade Corporativa Brasil 2024":**
-- 82% das automações criadas por profissionais são para uso pessoal/equipe interna
-- Apenas 18% têm relação com audiência externa
+- 82% das automações criadas por profissionais sêo para uso pessoal/equipe interna
+- Apenas 18% têm relaçêo com audiência externa
 - Impacto em carreira CLT: promoções, aumentos, reconhecimento interno
 
 #### 4 Histórias Completas (Pessoas SEM audiência):
 
-**História 1: Ana - Assistente Executivo (São Paulo)**
+**História 1: Ana - Assistente Executivo (Sêo Paulo)**
 - **Contexto:** 34 anos, trabalha em multinacional, 0 seguidores no Instagram, LinkedIn desatualizado
 - **Problema:** Gerenciava agenda de 3 diretores, 200+ emails/dia, sempre sobrecarregada
-- **Solução:** Criou sistema de IA + filtros para triagem e respostas automáticas
+- **Soluçêo:** Criou sistema de IA + filtros para triagem e respostas automáticas
 - **Ferramentas:** Gmail + Claude + Zapier
 - **Ninguém viu publicamente:** Zero posts, zero audiência, zero "marketing pessoal"
 - **O que aconteceu:**
   - Diretores perceberam: "Emails respondidos mais rápido, zero erros, sempre organizado"
-  - RH notou: "Como você gerencia 3 agendas tão bem sozinha?"
-  - Mês 4: Apresentou sistema em reunião interna
+  - RH notou: "Como você gerencia 3 agendas têo bem sozinha?"
+  - Mês 4: Apresentou sistema em reuniêo interna
   - Mês 5: Promovida a Coordenadora de Operações
   - Mês 6: Aumento de 30%, virou referência interna
 - **Seguidores ganhos:** 0 (e nem queria ganhar)
@@ -365,13 +365,13 @@ O investimento inicial é ZERO. Você começa com ferramentas gratuitas, comprov
 **História 2: Lucas - Analista de Dados (Curitiba)**
 - **Contexto:** 28 anos, tímido, odeia redes sociais, nem tem Instagram
 - **Problema:** 15 relatórios manuais por semana, processo repetitivo e entediante
-- **Solução:** Automatizou 90% com Sheets + scripts simples + IA para análises
+- **Soluçêo:** Automatizou 90% com Sheets + scripts simples + IA para análises
 - **Audiência:** Literalmente zero. Nem LinkedIn ativo.
 - **O que aconteceu:**
   - Tempo livre usado para aprender SQL e Power BI
   - Gerente viu qualidade dos relatórios automatizados
   - Pediu para Lucas ensinar ao resto da equipe
-  - Lucas virou "guru interno de automação" (dentro da empresa, não na internet)
+  - Lucas virou "guru interno de automaçêo" (dentro da empresa, nêo na internet)
   - Aumento de 25% + bônus anual maior
   - Proposta de empresa concorrente com salário 40% superior
 - **Posts publicados:** 0
@@ -379,37 +379,37 @@ O investimento inicial é ZERO. Você começa com ferramentas gratuitas, comprov
 - **Resultado:** Carreira decolou SEM audiência
 
 **História 3: Mariana - Coordenadora de Qualidade (Porto Alegre)**
-- **Contexto:** 41 anos, mãe de 2 filhos, zero tempo para redes sociais
+- **Contexto:** 41 anos, mêe de 2 filhos, zero tempo para redes sociais
 - **Problema:** Auditorias de qualidade geravam 50+ páginas de relatórios manuais
-- **Solução:** Templates de IA + automação de coleta de dados + dashboards
+- **Soluçêo:** Templates de IA + automaçêo de coleta de dados + dashboards
 - **Presença online:** Perfil LinkedIn sem posts há 3 anos
 - **O que aconteceu:**
-  - Apresentou sistema na reunião trimestral
+  - Apresentou sistema na reuniêo trimestral
   - Diretoria ficou impressionada
   - Pediu para implementar em outras 4 unidades da empresa
   - Virou Gerente Regional de Qualidade
   - Salário dobrou em 8 meses
 - **Seguidores:** 320 no LinkedIn (sem nunca postar nada)
-- **Resultado:** Promoção gigante SEM fazer marketing pessoal
+- **Resultado:** Promoçêo gigante SEM fazer marketing pessoal
 
 **História 4: Felipe - Analista Financeiro (Recife)**
-- **Contexto:** 37 anos, introvertido, não gosta de exposição
-- **Problema:** Conciliação bancária manual de 200+ transações/dia
-- **Solução:** Automação com Sheets + Zapier + validações automáticas
+- **Contexto:** 37 anos, introvertido, nêo gosta de exposiçêo
+- **Problema:** Conciliaçêo bancária manual de 200+ transações/dia
+- **Soluçêo:** Automaçêo com Sheets + Zapier + validações automáticas
 - **Redes sociais:** Inativas há anos
 - **O que aconteceu:**
-  - Sistema eliminou 95% de erros de conciliação
-  - CFO perguntou: "Como você consegue zerar conciliação em 2 horas?"
+  - Sistema eliminou 95% de erros de conciliaçêo
+  - CFO perguntou: "Como você consegue zerar conciliaçêo em 2 horas?"
   - Felipe mostrou o sistema
   - Empresa implementou em todas as 7 filiais
   - Felipe virou Coordenador de Processos Financeiros
-  - Aumento de 35% + participação nos resultados
+  - Aumento de 35% + participaçêo nos resultados
 - **Audiência conquistada:** 0
-- **Resultado:** Reconhecimento profissional INTERNO levou à promoção
+- **Resultado:** Reconhecimento profissional INTERNO levou à promoçêo
 
 #### A Verdade:
 
-Automação para profissionais CLT/corporativos é sobre **IMPACTO INTERNO, não audiência externa**. Quando você:
+Automaçêo para profissionais CLT/corporativos é sobre **IMPACTO INTERNO, nêo audiência externa**. Quando você:
 - Entrega trabalho mais rápido
 - Comete menos erros
 - Libera tempo para tarefas estratégicas
@@ -422,7 +422,7 @@ Automação para profissionais CLT/corporativos é sobre **IMPACTO INTERNO, não
 - Propostas melhores
 - Segurança no emprego
 
-Você não precisa de 10.000 seguidores. Você precisa impressionar **10 pessoas certas** na sua empresa.
+Você nêo precisa de 10.000 seguidores. Você precisa impressionar **10 pessoas certas** na sua empresa.
 
 ### ✅ A VERDADE: O Que Você Realmente Precisa
 
@@ -430,12 +430,12 @@ Destruídos os 3 mitos, aqui está a verdade:
 
 **Você só precisa de:**
 1. **Vontade de aprender** - Mentalidade de crescimento, curiosidade
-2. **30 minutos por dia** - Não precisa ser 8 horas. Consistência > intensidade
+2. **30 minutos por dia** - Nêo precisa ser 8 horas. Consistência > intensidade
 3. **Um computador com internet** - Qualquer notebook dos últimos 5 anos serve
 4. **Capacidade de seguir tutoriais** - Se você consegue seguir receita de bolo, consegue seguir tutorial de Zapier
 
-**Você NÃO precisa de:**
-- ❌ Conhecimento de programação
+**Você NêO precisa de:**
+- ❌ Conhecimento de programaçêo
 - ❌ Diploma de tecnologia
 - ❌ Investimento inicial
 - ❌ Equipe técnica
@@ -453,26 +453,26 @@ Destruídos os 3 mitos, aqui está a verdade:
 
 ---
 
-## 3. Como Pessoas Comuns Estão Transformando Carreiras
+## 3. Como Pessoas Comuns Estêo Transformando Carreiras
 
-Não estamos falando de CEOs, programadores experientes ou influencers com milhões de seguidores. Estamos falando de **pessoas exatamente como você**: profissionais comuns, com empregos comuns, que decidiram experimentar automação.
+Nêo estamos falando de CEOs, programadores experientes ou influencers com milhões de seguidores. Estamos falando de **pessoas exatamente como você**: profissionais comuns, com empregos comuns, que decidiram experimentar automaçêo.
 
-Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas, timeline, obstáculos e resultados mensuráveis:**
+Aqui estêo 5 casos documentados com **trajetória completa, ferramentas usadas, timeline, obstáculos e resultados mensuráveis:**
 
 ### Case 1: Júlia, 32 anos - De Assistente a Coordenadora em 3 Meses
 
 **ANTES: A Vida Sobrecarregada**
 
 - **Cargo:** Assistente Administrativo Financeiro
-- **Empresa:** Consultoria de médio porte (80 funcionários), São Paulo
+- **Empresa:** Consultoria de médio porte (80 funcionários), Sêo Paulo
 - **Salário:** R$ 4.200/mês
 - **Rotina típica:**
   - 8h-10h: Organizar 150+ emails manualmente por projeto (12 projetos ativos)
   - 10h-12h: Atualizar 8 planilhas de controle financeiro (copiar/colar de emails para Sheets)
   - 13h-15h: Gerar 5 relatórios semanais manualmente (compilar dados de planilhas para PowerPoint)
   - 15h-17h: Responder solicitações de diretores, sempre correndo
-  - 17h-19h: Horas extras frequentes para "terminar o que não deu tempo"
-- **Dor:** Sobrecarga constante, sensação de estar sempre apagando incêndios, zero tempo estratégico
+  - 17h-19h: Horas extras frequentes para "terminar o que nêo deu tempo"
+- **Dor:** Sobrecarga constante, sensaçêo de estar sempre apagando incêndios, zero tempo estratégico
 
 **A VIRADA: O Que Mudou**
 
@@ -480,7 +480,7 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 - **Semana 1:** Experimentou ChatGPT para rascunhar emails - Economizou 30 minutos no primeiro dia
 - **Semana 2:** Aprendeu filtros automáticos no Gmail (tutorial YouTube de 20 minutos)
 - **Semana 3:** Descobriu Zapier, conectou Gmail → Google Sheets
-- **Semana 4:** Criou fórmulas avançadas no Sheets para automação interna
+- **Semana 4:** Criou fórmulas avançadas no Sheets para automaçêo interna
 - **Semana 5:** Integrou tudo: Emails filtrados automaticamente → Dados extraídos para Sheets → Relatórios semi-prontos
 
 **FERRAMENTAS USADAS (detalhadas):**
@@ -488,68 +488,68 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 1. **Gmail - Filtros Automáticos**
    - Criou 15 filtros por palavra-chave (nome de projetos)
    - Emails automaticamente categorizados por label
-   - Tempo de configuração: 45 minutos
+   - Tempo de configuraçêo: 45 minutos
    - Economia: 1h30min/dia
 
 2. **Zapier Free (100 tarefas/mês)**
    - Zap 1: Email com assunto "Relatório" → Adiciona linha no Sheets
    - Zap 2: Email com anexo financeiro → Salva no Drive + notifica no Slack
    - Zap 3: Nova linha no Sheets → Envia lembrete 3 dias antes do prazo
-   - Tempo de configuração: 2 horas (com tentativas e erros)
+   - Tempo de configuraçêo: 2 horas (com tentativas e erros)
    - Economia: 2h/dia
 
 3. **Google Sheets - Fórmulas Avançadas**
    - QUERY, FILTER, ARRAYFORMULA para consolidar dados
    - Dashboards automáticos com gráficos
    - Templates de relatório pré-formatados
-   - Tempo de configuração: 3 horas (aprendeu no YouTube)
+   - Tempo de configuraçêo: 3 horas (aprendeu no YouTube)
    - Economia: 1h30min/dia
 
 4. **ChatGPT Free**
    - Rascunhos de emails em 30 segundos
    - Resumos de threads longas de email
    - Análises rápidas de dados
-   - Tempo de configuração: 30 minutos (aprender a dar bons prompts)
+   - Tempo de configuraçêo: 30 minutos (aprender a dar bons prompts)
    - Economia: 1h/dia
 
 **TIMELINE DETALHADA:**
 
 - **Mês 1 (Aprendizado):**
-  - Semanas 1-2: Experimentação com ferramentas free
-  - Semanas 3-4: Implementação gradual (1 automação por vez)
+  - Semanas 1-2: Experimentaçêo com ferramentas free
+  - Semanas 3-4: Implementaçêo gradual (1 automaçêo por vez)
   - Economia total no mês 1: ~8 horas/semana
 
-- **Mês 2 (Otimização):**
+- **Mês 2 (Otimizaçêo):**
   - Refinamento de automações
-  - Adição de novos Zaps
-  - Criação de templates reutilizáveis
+  - Adiçêo de novos Zaps
+  - Criaçêo de templates reutilizáveis
   - Economia total no mês 2: ~15 horas/semana
-  - **Evento importante:** Gerente perguntou: "Como você está dando conta de tudo tão rápido?"
+  - **Evento importante:** Gerente perguntou: "Como você está dando conta de tudo têo rápido?"
 
 - **Mês 3 (Reconhecimento):**
-  - Semana 1: Apresentou sistema em reunião de equipe
+  - Semana 1: Apresentou sistema em reuniêo de equipe
   - Semana 2: Diretoria pediu para replicar em outros departamentos
-  - Semana 3: RH chamou para conversa sobre "evolução profissional"
-  - Semana 4: **Promoção para Coordenadora de Processos Administrativos**
+  - Semana 3: RH chamou para conversa sobre "evoluçêo profissional"
+  - Semana 4: **Promoçêo para Coordenadora de Processos Administrativos**
 
 **OBSTÁCULOS ENFRENTADOS:**
 
 1. **"Zapier quebrou 2 vezes nos primeiros dias"**
-   - Solução: Aprendeu a checar logs de erros, ajustou configurações
+   - Soluçêo: Aprendeu a checar logs de erros, ajustou configurações
    - Tempo perdido: 1 hora
 
-2. **"Fórmulas do Sheets não funcionavam"**
-   - Solução: Comunidade do Reddit ajudou em 20 minutos
+2. **"Fórmulas do Sheets nêo funcionavam"**
+   - Soluçêo: Comunidade do Reddit ajudou em 20 minutos
    - Aprendizado: QUERY é poderosa mas exige sintaxe correta
 
 3. **"Chefe ficou desconfiado inicialmente"**
-   - Solução: Mostrou dados concretos (tempo economizado, zero erros)
+   - Soluçêo: Mostrou dados concretos (tempo economizado, zero erros)
    - Resultado: Chefe virou maior apoiador
 
 **RESULTADO MENSURÁVEL:**
 
 - **Tempo economizado:** 15 horas/semana (60 horas/mês)
-- **Salário pós-promoção:** R$ 6.800/mês (aumento de 62%)
+- **Salário pós-promoçêo:** R$ 6.800/mês (aumento de 62%)
 - **Qualidade de vida:** Sai 17h todo dia, zero horas extras
 - **Impacto na empresa:** Sistema replicado em 3 departamentos
 - **Investimento total:** R$ 0,00 (ferramentas free)
@@ -561,14 +561,14 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 
 **ANTES: Processo Manual Demorado**
 
-- **Cargo:** Analista de Recrutamento e Seleção
+- **Cargo:** Analista de Recrutamento e Seleçêo
 - **Empresa:** Empresa de tecnologia (500 funcionários), Rio de Janeiro
 - **Salário:** R$ 5.500/mês
 - **Background:** "Sou de humanas, nunca programei na vida, mal sei usar Excel"
 - **Rotina típica:**
   - Abrir 200-300 currículos por vaga manualmente
   - Ler cada um, fazer anotações em documento Word
-  - Copiar/colar dados para planilha de comparação
+  - Copiar/colar dados para planilha de comparaçêo
   - Agendar entrevistas manualmente via email
   - Processo completo: 2-3 semanas por vaga
 - **Dor:** Trabalho entediante, repetitivo, propenso a erros (esquecimento de candidatos bons)
@@ -591,15 +591,15 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 2. **Airtable Free**
    - Base de dados de candidatos automatizada
    - Campos: Nome, Email, Telefone, Score ChatGPT, Status
-   - Formulário de inscrição conectado
+   - Formulário de inscriçêo conectado
    - Templates de email integrados
-   - Tempo de configuração: 2 horas (seguiu tutorial)
+   - Tempo de configuraçêo: 2 horas (seguiu tutorial)
 
 3. **Zapier Free**
-   - Novo candidato no Airtable → Email automático de confirmação
+   - Novo candidato no Airtable → Email automático de confirmaçêo
    - Candidato aprovado → Agendamento automático via Calendly
    - Entrevista agendada → Lembrete 1 dia antes
-   - Tempo de configuração: 1 hora
+   - Tempo de configuraçêo: 1 hora
 
 **TIMELINE:**
 
@@ -612,7 +612,7 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 - **Semana 3:** Conectou tudo com Zapier
   - Automatizou emails e lembretes
 
-- **Semana 4:** Rodou processo completo de seleção (150 candidatos)
+- **Semana 4:** Rodou processo completo de seleçêo (150 candidatos)
   - Tempo total: 2 dias (vs 2-3 semanas antes)
   - Qualidade: Melhor (IA identificou padrões que ele perdia)
 
@@ -623,24 +623,24 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 
 **Mês 3:**
 - Virou referência interna em "IA aplicada a RH"
-- Convidado para reunião de liderança para apresentar resultados
+- Convidado para reuniêo de liderança para apresentar resultados
 
 **Mês 5:**
-- Promoção para Coordenador de R&S
+- Promoçêo para Coordenador de R&S
 - Aumento de 40% (R$ 7.700/mês)
 
 **OBSTÁCULOS:**
 
-1. **"Não entendo nada de tecnologia, pensei que não ia conseguir"**
-   - Solução: Começou bem simples (só ChatGPT), foi adicionando aos poucos
-   - Aprendizado: Não precisa entender tudo de uma vez
+1. **"Nêo entendo nada de tecnologia, pensei que nêo ia conseguir"**
+   - Soluçêo: Começou bem simples (só ChatGPT), foi adicionando aos poucos
+   - Aprendizado: Nêo precisa entender tudo de uma vez
 
 2. **"Airtable era confuso no começo"**
-   - Solução: Assistiu 3 vídeos no YouTube (total 40 minutos)
+   - Soluçêo: Assistiu 3 vídeos no YouTube (total 40 minutos)
    - Resultado: Ficou mais fácil que Excel
 
 3. **"Medo de IA errar e escolher candidato ruim"**
-   - Solução: Usou IA para triagem inicial, decisão final sempre humana
+   - Soluçêo: Usou IA para triagem inicial, decisêo final sempre humana
    - Resultado: IA eliminou 70% de trabalho braçal, tempo humano focou em decisões estratégicas
 
 **RESULTADO:**
@@ -653,7 +653,7 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 - **Investimento:** R$ 0,00
 
 **Frase marcante de Carlos:**
-> "Eu tenho 45 anos e sempre achei que tecnologia não era pra mim. Descobri que não é sobre idade ou formação. É sobre estar disposto a testar. Se eu consegui, QUALQUER UM consegue."
+> "Eu tenho 45 anos e sempre achei que tecnologia nêo era pra mim. Descobri que nêo é sobre idade ou formaçêo. É sobre estar disposto a testar. Se eu consegui, QUALQUER UM consegue."
 
 ---
 
@@ -669,46 +669,46 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
   - Atualizar 15 planilhas de status de projetos manualmente (3h/dia)
   - Enviar 50-80 emails por dia (2h/dia)
   - Criar 5 relatórios semanais de status do zero (4h/semana)
-  - Reuniões de alinhamento (2h/dia) onde anotava tudo à mão
-- **Dor:** Esgotamento, zero vida pessoal, relacionamento sofrendo, pensando em pedir demissão
+  - Reuniões de alinhamento (2h/dia) onde anotava tudo à mêo
+- **Dor:** Esgotamento, zero vida pessoal, relacionamento sofrendo, pensando em pedir demissêo
 
 **A VIRADA: Ponto de Ruptura**
 
-- **Gatilho:** Namorado disse: "Você não me vê mais, só trabalha"
-- **Decisão:** "Ou eu automatizo ou eu saio dessa empresa"
+- **Gatilho:** Namorado disse: "Você nêo me vê mais, só trabalha"
+- **Decisêo:** "Ou eu automatizo ou eu saio dessa empresa"
 - **Pesquisa:** Passou 1 fim de semana pesquisando "como trabalhar menos horas"
-- **Descoberta:** Automação + IA = caminho
+- **Descoberta:** Automaçêo + IA = caminho
 
 **FERRAMENTAS USADAS:**
 
 1. **Notion (Free)**
    - Dashboard centralizado de todos os 12 projetos ativos
-   - Templates de atualização rápida
+   - Templates de atualizaçêo rápida
    - Base de dados relacional (Projetos ↔ Tarefas ↔ Clientes)
    - Tempo de setup: 4 horas (em 1 sábado)
    - Economia: 2h/dia
 
 2. **Google Sheets + Apps Script**
-   - Consolidação automática de dados de múltiplas planilhas
-   - Script copiado de tutorial (não escreveu código do zero)
-   - Dashboards automáticos com atualização em tempo real
+   - Consolidaçêo automática de dados de múltiplas planilhas
+   - Script copiado de tutorial (nêo escreveu código do zero)
+   - Dashboards automáticos com atualizaçêo em tempo real
    - Tempo de setup: 3 horas (metade copiando scripts prontos)
    - Economia: 1h/dia
 
 3. **ChatGPT Plus (R$ 100/mês - único investimento)**
    - Rascunhos de emails em 20 segundos
    - Resumos de reuniões (colava anotações, IA formatava)
-   - Criação de relatórios de status (alimentava dados, IA escrevia narrativa)
+   - Criaçêo de relatórios de status (alimentava dados, IA escrevia narrativa)
    - Economia: 1h30min/dia
 
 4. **Zapier Starter (R$ 120/mês - começou free, depois escalou)**
-   - Atualização em Sheets → Notificação no Slack
+   - Atualizaçêo em Sheets → Notificaçêo no Slack
    - Novo cliente no CRM → Cria projeto no Notion automaticamente
    - Prazo se aproximando → Email de lembrete automático
    - Economia: 1h/dia
 
 5. **Otter.ai (Free)**
-   - Transcrição automática de reuniões
+   - Transcriçêo automática de reuniões
    - Participava de reuniões, Otter gravava e transcrevia
    - Economia: 30min/dia de "passar a limpo anotações"
 
@@ -726,12 +726,12 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 
 **Mês 1:**
 - Refinamento contínuo de automações
-- Adição de novos Zaps conforme identificava gargalos
+- Adiçêo de novos Zaps conforme identificava gargalos
 - Economia consolidada: 5h/dia
 - **Rotina nova:** Trabalho das 9h às 17h, raramente passa das 17h30
 
 **Mês 2:**
-- Clientes começaram a elogiar: "Relatórios estão mais detalhados e pontuais"
+- Clientes começaram a elogiar: "Relatórios estêo mais detalhados e pontuais"
 - Chefe notou: "Você está entregando mais rápido e com mais qualidade. Como?"
 - Marina apresentou sistema
 
@@ -740,7 +740,7 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 - Marina virou "líder de produtividade" informalmente
 
 **Mês 6:**
-- Promoção para Gerente de Projetos Sênior
+- Promoçêo para Gerente de Projetos Sênior
 - Aumento de 40% (R$ 8.400/mês)
 - Time cresceu: agora gerencia 5 pessoas
 - **Continua saindo 17h-17h30 todo dia**
@@ -748,20 +748,20 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 **OBSTÁCULOS:**
 
 1. **"Apps Script parecia grego no começo"**
-   - Solução: Literalmente copiou código pronto de tutorial e adaptou nomes de colunas
-   - Não precisou aprender programação, só copiar/colar e ajustar
+   - Soluçêo: Literalmente copiou código pronto de tutorial e adaptou nomes de colunas
+   - Nêo precisou aprender programaçêo, só copiar/colar e ajustar
 
 2. **"Zapier Free bateu limite de 100 tarefas em 2 semanas"**
-   - Solução: Investiu R$ 120/mês no Starter
+   - Soluçêo: Investiu R$ 120/mês no Starter
    - ROI: R$ 120 investidos economizaram 20h/mês × R$ 75/hora = R$ 1.500 de valor
-   - Relação custo/benefício: 12:1
+   - Relaçêo custo/benefício: 12:1
 
 3. **"Medo de chefe achar que estava 'trabalhando menos'"**
-   - Solução: Apresentou dados concretos: "Estou entregando 30% mais projetos, com 0 erros, em menos tempo"
-   - Resultado: Chefe ficou impressionado, não criticou
+   - Soluçêo: Apresentou dados concretos: "Estou entregando 30% mais projetos, com 0 erros, em menos tempo"
+   - Resultado: Chefe ficou impressionado, nêo criticou
 
 4. **"Inicial mente, configurar tudo foi cansativo"**
-   - Solução: Fez em finais de semana (2 sábados), não durante expediente
+   - Soluçêo: Fez em finais de semana (2 sábados), nêo durante expediente
    - Mentalidade: "2 sábados de trabalho para ganhar 2 horas por dia pelo resto da vida"
 
 **RESULTADO:**
@@ -775,7 +775,7 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 - **Saúde mental:** Saiu da beira do burnout
 
 **Frase marcante de Marina:**
-> "Eu ia pedir demissão. Automação não só salvou meu emprego, salvou minha saúde mental. Hoje trabalho metade das horas, ganho 40% a mais, e durmo 8 horas por noite. Melhor decisão da minha vida."
+> "Eu ia pedir demissêo. Automaçêo nêo só salvou meu emprego, salvou minha saúde mental. Hoje trabalho metade das horas, ganho 40% a mais, e durmo 8 horas por noite. Melhor decisêo da minha vida."
 
 ---
 
@@ -783,16 +783,16 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 
 **Contexto:** 240 tickets/semana, nunca conseguia zerar fila
 
-**Solução:**
+**Soluçêo:**
 - Chatbot com respostas automáticas para FAQs (50% dos tickets)
-- IA sugere solução baseada em histórico
-- Sistema de priorização automática
+- IA sugere soluçêo baseada em histórico
+- Sistema de priorizaçêo automática
 
 **Ferramentas:** ChatGPT + Airtable + Zapier (100% free)
 
 **Resultado:**
 - Tempo médio de resposta caiu de 4 horas para 45 minutos
-- Satisfação de clientes subiu de 72% para 91%
+- Satisfaçêo de clientes subiu de 72% para 91%
 - Promovido a Coordenador em 5 meses
 
 ---
@@ -801,8 +801,8 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 
 **Contexto:** Fechamento contábil mensal levava 80 horas de trabalho manual
 
-**Solução:**
-- Automação de coleta de dados (Zapier + Sheets)
+**Soluçêo:**
+- Automaçêo de coleta de dados (Zapier + Sheets)
 - Validações automáticas com fórmulas
 - Relatórios gerados por IA
 
@@ -811,7 +811,7 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 **Resultado:**
 - Fechamento reduzido para 20 horas
 - 60 horas economizadas por mês
-- Usou tempo extra para fazer curso de gestão financeira
+- Usou tempo extra para fazer curso de gestêo financeira
 - Promovida a Supervisora Contábil em 7 meses
 
 ---
@@ -820,43 +820,43 @@ Aqui estão 5 casos documentados com **trajetória completa, ferramentas usadas,
 
 ✓ **Começaram do zero** - Nenhum tinha background técnico relevante
 ✓ **Usaram ferramentas gratuitas ou baratas** - ROI sempre positivo
-✓ **Viram resultados na primeira semana** - Não levou meses, levou dias
+✓ **Viram resultados na primeira semana** - Nêo levou meses, levou dias
 ✓ **Transformaram carreira em 2-6 meses** - Promoções e aumentos reais
-✓ **Não tinham audiência** - Zero seguidores, zero exposição pública
-✓ **Focaram em impacto interno** - Impressionaram chefes, não a internet
-✓ **Começaram pequeno** - Uma automação por vez, não tudo de uma vez
+✓ **Nêo tinham audiência** - Zero seguidores, zero exposiçêo pública
+✓ **Focaram em impacto interno** - Impressionaram chefes, nêo a internet
+✓ **Começaram pequeno** - Uma automaçêo por vez, nêo tudo de uma vez
 
 ---
 
 ## 4. Seu Ponto de Partida: Escolha Seu Caminho
 
-Não importa onde você está hoje. O que importa é **para onde você quer ir**. Você tem duas opções claras:
+Nêo importa onde você está hoje. O que importa é **para onde você quer ir**. Você tem duas opções claras:
 
-### 🔴 Caminho Tradicional (O que NÃO fazer)
+### 🔴 Caminho Tradicional (O que NêO fazer)
 
 **Características:**
 - Continuar fazendo tudo manualmente
 - "Sempre foi assim, por que mudar?"
 - Trabalhar cada vez mais horas para dar conta
 - Sobrecarga progressiva e burnout
-- Estagnação na carreira (mesmas tarefas há anos)
+- Estagnaçêo na carreira (mesmas tarefas há anos)
 - Ver colegas sendo promovidos enquanto você fica parado
 
 **Consequências em 1 ano:**
-- ❌ Mesmo salário (ou aumento de inflação: 3-5%)
+- ❌ Mesmo salário (ou aumento de inflaçêo: 3-5%)
 - ❌ Mesmas tarefas repetitivas
-- ❌ Carga de trabalho aumentando (empresa cresce, você não automatiza)
+- ❌ Carga de trabalho aumentando (empresa cresce, você nêo automatiza)
 - ❌ Habilidades ficando obsoletas
-- ❌ Risco de substituição por alguém que sabe automatizar
+- ❌ Risco de substituiçêo por alguém que sabe automatizar
 
 **Consequências em 3 anos:**
 - ❌ Mercado te vê como "profissional desatualizado"
-- ❌ Vagas exigem automação como requisito básico
+- ❌ Vagas exigem automaçêo como requisito básico
 - ❌ Salário estagnado enquanto colegas ganham 30-50% a mais
-- ❌ Risco alto de demissão em reestruturações (você faz trabalho "substituível")
+- ❌ Risco alto de demissêo em reestruturações (você faz trabalho "substituível")
 
 **Estatística real (LinkedIn 2024):**
-62% dos profissionais que não adotaram automação reportaram estagnação salarial entre 2022-2024, enquanto 78% dos que adotaram tiveram aumento de 20%+ no mesmo período.
+62% dos profissionais que nêo adotaram automaçêo reportaram estagnaçêo salarial entre 2022-2024, enquanto 78% dos que adotaram tiveram aumento de 20%+ no mesmo período.
 
 ### 🟢 Novo Caminho (O que você VAI fazer)
 
@@ -864,7 +864,7 @@ Não importa onde você está hoje. O que importa é **para onde você quer ir**
 - Identificar o que pode ser automatizado
 - Começar com 1 tarefa simples HOJE
 - Ver resultado na primeira semana
-- Expandir gradualmente (1 nova automação por semana)
+- Expandir gradualmente (1 nova automaçêo por semana)
 - Recuperar tempo e qualidade de vida
 - Ser reconhecido e promovido
 
@@ -878,49 +878,49 @@ Não importa onde você está hoje. O que importa é **para onde você quer ir**
 - ✓ 15-20 horas/semana economizadas
 - ✓ Sistema completo de automações
 - ✓ Reconhecimento na empresa
-- ✓ Possibilidade de promoção/aumento
+- ✓ Possibilidade de promoçêo/aumento
 
 **Resultados em 6-12 meses:**
 - ✓ 20-30 horas/semana economizadas
-- ✓ Promoção ou aumento significativo (20-40%)
+- ✓ Promoçêo ou aumento significativo (20-40%)
 - ✓ Referência em produtividade
 - ✓ Propostas de outras empresas
 - ✓ Qualidade de vida transformada
 
 **Estatística real (McKinsey 2024):**
-Profissionais que dominam automação têm 3.2x mais probabilidade de serem promovidos em 12 meses comparado à média.
+Profissionais que dominam automaçêo têm 3.2x mais probabilidade de serem promovidos em 12 meses comparado à média.
 
-### 📊 Matriz de Decisão
+### 📊 Matriz de Decisêo
 
-| Critério | Caminho Tradicional | Novo Caminho (Automação) |
+| Critério | Caminho Tradicional | Novo Caminho (Automaçêo) |
 |----------|---------------------|--------------------------|
 | **Investimento inicial** | R$ 0 | R$ 0 (ferramentas free) |
-| **Tempo para aprender** | 0h (não aprende nada novo) | 2-4h (tutoriais básicos) |
+| **Tempo para aprender** | 0h (nêo aprende nada novo) | 2-4h (tutoriais básicos) |
 | **Tempo economizado/mês** | 0h | 40-100h |
 | **Risco de obsolescência** | ALTO (habilidades param no tempo) | BAIXO (sempre atualizado) |
-| **Probabilidade de promoção 12m** | 12% (média mercado) | 38% (profissionais automatizados) |
-| **Aumento salarial esperado 12m** | 3-5% (inflação) | 20-40% (promoção + reconhecimento) |
-| **Estresse e carga de trabalho** | AUMENTA (mais demandas, mesmo tempo) | DIMINUI (automação absorve crescimento) |
+| **Probabilidade de promoçêo 12m** | 12% (média mercado) | 38% (profissionais automatizados) |
+| **Aumento salarial esperado 12m** | 3-5% (inflaçêo) | 20-40% (promoçêo + reconhecimento) |
+| **Estresse e carga de trabalho** | AUMENTA (mais demandas, mesmo tempo) | DIMINUI (automaçêo absorve crescimento) |
 | **Empregabilidade** | DIMINUI (habilidades desatualizadas) | AUMENTA (habilidade valorizada) |
 | **Qualidade de vida** | PIORA (mais horas trabalhadas) | MELHORA (tempo livre aumenta) |
 
-**A escolha é clara. Mas a decisão é sua.**
+**A escolha é clara. Mas a decisêo é sua.**
 
 ---
 
-## 💭 Exercícios de Reflexão
+## 💭 Exercícios de Reflexêo
 
-Antes de seguir, pare e responda honestamente estas perguntas. **Anote suas respostas** (papel, Notion, Evernote, Google Docs, onde preferir). Estas respostas serão sua linha de base. No Módulo 10, você vai revisitar este documento e ver o quanto evoluiu.
+Antes de seguir, pare e responda honestamente estas perguntas. **Anote suas respostas** (papel, Notion, Evernote, Google Docs, onde preferir). Estas respostas serêo sua linha de base. No Módulo 10, você vai revisitar este documento e ver o quanto evoluiu.
 
 ### Pergunta 1: Identificar Tarefas Repetitivas
 
-Liste **10 tarefas** que você faz toda semana que são sempre iguais (ou muito parecidas).
+Liste **10 tarefas** que você faz toda semana que sêo sempre iguais (ou muito parecidas).
 
 *Exemplos para inspirar:*
 - Enviar relatório toda segunda-feira para o mesmo grupo
 - Organizar emails por projeto/cliente
 - Preencher planilhas com dados de sistemas diferentes
-- Criar documentos padrão (contratos, propostas, atas)
+- Criar documentos padrêo (contratos, propostas, atas)
 - Responder emails similares repetidamente
 - Atualizar status de projetos
 - Consolidar dados de várias fontes
@@ -941,7 +941,7 @@ Liste **10 tarefas** que você faz toda semana que são sempre iguais (ou muito 
 9. _______________________________________________
 10. _______________________________________________
 
-**💡 Dica:** Não escreva "trabalhar com emails". Escreva "organizar 50+ emails diários por projeto em 5 pastas diferentes". Quanto mais específico, melhor.
+**💡 Dica:** Nêo escreva "trabalhar com emails". Escreva "organizar 50+ emails diários por projeto em 5 pastas diferentes". Quanto mais específico, melhor.
 
 ---
 
@@ -949,13 +949,13 @@ Liste **10 tarefas** que você faz toda semana que são sempre iguais (ou muito 
 
 Das 10 tarefas listadas, **qual te consome mais tempo por semana?**
 
-*Dica: Não escolha a mais difícil tecnicamente. Escolha a que mais rouba seu tempo em volume de horas. Uma tarefa de 5 minutos que você faz 50 vezes por semana = 4h/semana = candidata PERFEITA.*
+*Dica: Nêo escolha a mais difícil tecnicamente. Escolha a que mais rouba seu tempo em volume de horas. Uma tarefa de 5 minutos que você faz 50 vezes por semana = 4h/semana = candidata PERFEITA.*
 
 **Resposta:**
 
 Tarefa: _______________________________________________
 
-Tempo por execução: _______________________________________________
+Tempo por execuçêo: _______________________________________________
 
 Frequência por semana: _______________________________________________
 
@@ -970,7 +970,7 @@ Por que escolhi esta: _______________________________________________
 Se você tivesse **10 horas extras por semana** (mais de 1 dia inteiro de trabalho), o que você faria?
 
 *Pense honestamente:*
-- Aprenderia algo novo (curso, certificação, idioma)?
+- Aprenderia algo novo (curso, certificaçêo, idioma)?
 - Passaria mais tempo com família/amigos?
 - Trabalharia em projetos estratégicos (que te promovem)?
 - Teria hobbies e vida pessoal de volta?
@@ -991,15 +991,15 @@ Se você tivesse **10 horas extras por semana** (mais de 1 dia inteiro de trabal
 
 ## 🛠️ Exercício Prático
 
-Agora vamos para ação real. Esse exercício vai te dar **clareza total** sobre onde você está gastando seu tempo e onde estão as maiores oportunidades de automação.
+Agora vamos para açêo real. Esse exercício vai te dar **clareza total** sobre onde você está gastando seu tempo e onde estêo as maiores oportunidades de automaçêo.
 
 ### 📋 Tarefa: Documentar 1 Dia Completo
 
-Durante **1 dia de trabalho** (amanhã, depois de amanhã, ou próximo dia útil), anote **cada tarefa** que você faz e **quanto tempo** levou.
+Durante **1 dia de trabalho** (amanhê, depois de amanhê, ou próximo dia útil), anote **cada tarefa** que você faz e **quanto tempo** levou.
 
 **Por que fazer isso:**
-- 90% das pessoas NÃO sabem onde gastam o tempo
-- "Achômetro" não funciona: você acha que gasta 1h, mas na verdade gasta 3h
+- 90% das pessoas NêO sabem onde gastam o tempo
+- "Achômetro" nêo funciona: você acha que gasta 1h, mas na verdade gasta 3h
 - Dados concretos mostram oportunidades invisíveis
 - Você vai se surpreender (e provavelmente se assustar) com o resultado
 
@@ -1008,20 +1008,20 @@ Durante **1 dia de trabalho** (amanhã, depois de amanhã, ou próximo dia útil
 1. **Escolha o dia:** Um dia típico de trabalho (evite dias atípicos como reuniões estratégicas anuais)
 
 2. **Prepare ferramenta:**
-   - Opção A: Planilha Google Sheets (copie este template: 4 colunas: Horário, Tarefa, Tempo, Repetitiva)
-   - Opção B: Papel e caneta (se preferir old school)
-   - Opção C: App de time tracking como Toggl (free)
+   - Opçêo A: Planilha Google Sheets (copie este template: 4 colunas: Horário, Tarefa, Tempo, Repetitiva)
+   - Opçêo B: Papel e caneta (se preferir old school)
+   - Opçêo C: App de time tracking como Toggl (free)
 
 3. **Durante o dia:** Anote TUDO
-   - Seja específico: não escreva "trabalhei com emails"
+   - Seja específico: nêo escreva "trabalhei com emails"
    - Escreva: "Organizei 50 emails por projeto X, Y e Z"
    - Inclua interrupções (reuniões, pausas, etc.)
    - Marque quais tarefas você faz toda semana/mês (coluna "Repetitiva")
 
 4. **Seja honesto:** Inclua "tempos mortos"
-   - Procurando arquivo que não acha: 15 min
+   - Procurando arquivo que nêo acha: 15 min
    - Esperando sistema carregar: 10 min
-   - Esses "tempos mortos" são OURO para automação
+   - Esses "tempos mortos" sêo OURO para automaçêo
 
 **Template de Registro:**
 
@@ -1029,9 +1029,9 @@ Durante **1 dia de trabalho** (amanhã, depois de amanhã, ou próximo dia útil
 |---------|------------------|-------|-------------|-------|
 | 09:00-09:45 | Organizar 63 emails da semana por 5 projetos diferentes, criar labels, responder urgentes | 45 min | ✓ SIM (toda segunda) | Muito chato e repetitivo |
 | 09:45-10:15 | Atualizar planilha de vendas: copiar dados do CRM para Sheets, fazer 3 gráficos | 30 min | ✓ SIM (diário) | Sempre os mesmos gráficos |
-| 10:15-10:30 | Procurar arquivo que cliente pediu nos 5 folders diferentes | 15 min | ✓ SIM (2-3x/semana) | Desorganização me custa tempo |
-| 10:30-11:30 | Reunião de alinhamento com time (criativa, estratégica) | 60 min | ✗ NÃO | Reunião boa, necessária |
-| 11:30-12:00 | Passar a limpo anotações da reunião e enviar para time | 30 min | ✓ SIM (toda reunião) | IA poderia fazer isso? |
+| 10:15-10:30 | Procurar arquivo que cliente pediu nos 5 folders diferentes | 15 min | ✓ SIM (2-3x/semana) | Desorganizaçêo me custa tempo |
+| 10:30-11:30 | Reuniêo de alinhamento com time (criativa, estratégica) | 60 min | ✗ NêO | Reuniêo boa, necessária |
+| 11:30-12:00 | Passar a limpo anotações da reuniêo e enviar para time | 30 min | ✓ SIM (toda reuniêo) | IA poderia fazer isso? |
 
 **Continue o dia todo...**
 
@@ -1052,17 +1052,17 @@ Critérios para escolher:
 
 1. _______________________________________________
    - Frequência: _______________________________________________
-   - Tempo por execução: _______________________________________________
+   - Tempo por execuçêo: _______________________________________________
    - Por que automatizar: _______________________________________________
 
 2. _______________________________________________
    - Frequência: _______________________________________________
-   - Tempo por execução: _______________________________________________
+   - Tempo por execuçêo: _______________________________________________
    - Por que automatizar: _______________________________________________
 
 3. _______________________________________________
    - Frequência: _______________________________________________
-   - Tempo por execução: _______________________________________________
+   - Tempo por execuçêo: _______________________________________________
    - Por que automatizar: _______________________________________________
 
 **2. Total de tempo em tarefas repetitivas:**
@@ -1072,7 +1072,7 @@ Critérios para escolher:
 - Multiplique por 5 (semana de trabalho): **_____ horas/semana**
 - Multiplique por 4 (mês): **_____ horas/mês**
 
-**Este é o seu potencial de automação.**
+**Este é o seu potencial de automaçêo.**
 
 Se você gastou 4 horas em tarefas repetitivas em 1 dia:
 - 4h/dia × 5 dias = 20h/semana
@@ -1084,8 +1084,8 @@ Se você gastou 4 horas em tarefas repetitivas em 1 dia:
 O que te surpreendeu ao mapear seu dia?
 
 - Descobriu que gasta mais tempo que imaginava em algo?
-- Percebeu "tempos mortos" que não notava?
-- Identificou tarefas que poderiam ser eliminadas (não só automatizadas)?
+- Percebeu "tempos mortos" que nêo notava?
+- Identificou tarefas que poderiam ser eliminadas (nêo só automatizadas)?
 
 **Meus insights:**
 
@@ -1099,13 +1099,13 @@ _______________________________________________
 
 Ao final deste módulo, você deve ter criado o documento **"Meu Diagnóstico Atual"** contendo:
 
-**Checklist de conclusão:**
+**Checklist de conclusêo:**
 
-- [ ] 10 tarefas repetitivas identificadas (Exercício de Reflexão 1)
-- [ ] 1 tarefa que mais consome tempo identificada (Exercício de Reflexão 2)
-- [ ] Lista do que faria com 10h extras/semana (Exercício de Reflexão 3)
+- [ ] 10 tarefas repetitivas identificadas (Exercício de Reflexêo 1)
+- [ ] 1 tarefa que mais consome tempo identificada (Exercício de Reflexêo 2)
+- [ ] Lista do que faria com 10h extras/semana (Exercício de Reflexêo 3)
 - [ ] 1 dia completo mapeado com cada tarefa + tempo (Exercício Prático)
-- [ ] 3 tarefas prioritárias para automatizar selecionadas (Análise pós-documentação)
+- [ ] 3 tarefas prioritárias para automatizar selecionadas (Análise pós-documentaçêo)
 - [ ] Total de horas em tarefas repetitivas calculado
 
 **Formato sugerido:**
@@ -1115,16 +1115,16 @@ Ao final deste módulo, você deve ter criado o documento **"Meu Diagnóstico At
 
 ---
 
-## 🎉 Conclusão
+## 🎉 Conclusêo
 
 ### O que você conquistou neste módulo:
 
-- ✓ **Entendeu a revolução tecnológica em curso:** 2023-2025 democratizou automação de forma sem precedentes
-- ✓ **Destruiu os 3 mitos limitantes:** Não precisa de equipe técnica, dinheiro ou audiência
+- ✓ **Entendeu a revoluçêo tecnológica em curso:** 2023-2025 democratizou automaçêo de forma sem precedentes
+- ✓ **Destruiu os 3 mitos limitantes:** Nêo precisa de equipe técnica, dinheiro ou audiência
 - ✓ **Viu exemplos reais detalhados:** 5 pessoas comuns que transformaram carreiras com ferramentas gratuitas
 - ✓ **Mapeou suas tarefas repetitivas:** Documentou onde está gastando tempo
 - ✓ **Identificou as 3 principais para automatizar:** Tem clareza sobre por onde começar
-- ✓ **Calculou seu potencial de automação:** Sabe quantas horas pode economizar
+- ✓ **Calculou seu potencial de automaçêo:** Sabe quantas horas pode economizar
 
 ### Você está pronto para o próximo passo
 
@@ -1138,14 +1138,14 @@ Este módulo foi **despertar consciência**. Você agora sabe:
 **Módulo 2: Golden Ratio - A Fórmula 60/30/10**
 
 No próximo módulo, você vai aprender o framework que guiará todas as suas automações:
-- 60% automação pura (máquinas trabalhando 24/7)
+- 60% automaçêo pura (máquinas trabalhando 24/7)
 - 30% IA assistida (IA sugere, você aprova)
 - 10% humano estratégico (onde VOCÊ agrega valor real)
 
 Você também vai dominar a **Matriz Impacto × Esforço** para priorizar automações e garantir que começa pelo que traz resultado mais rápido com menos esforço.
 
-**Não pare agora. O momento é AGORA. A janela de oportunidade está aberta.**
+**Nêo pare agora. O momento é AGORA. A janela de oportunidade está aberta.**
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

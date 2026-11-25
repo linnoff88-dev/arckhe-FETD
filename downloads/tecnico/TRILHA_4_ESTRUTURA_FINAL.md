@@ -1,6 +1,6 @@
 # 🟠 Trilha 4: Técnico Solucionador - Estrutura Final
 
-**Visão:** Transformar técnicos (devs/devops) em **solucionadores de problemas das pessoas** através de automação, conteúdo e ferramentas. Do código invisível ao consultor que todos procuram.
+**Visêo:** Transformar técnicos (devs/devops) em **solucionadores de problemas das pessoas** através de automaçêo, conteúdo e ferramentas. Do código invisível ao consultor que todos procuram.
 
 ---
 
@@ -23,8 +23,8 @@
 ## 📚 Os 10 Módulos
 
 ### **Módulo 1: Do Código Invisível ao Solucionador Visível**
-**Duração:** 45-60 minutos
-**Objetivo:** Entender que seu valor não está no código, mas nos problemas que resolve para as pessoas
+**Duraçêo:** 45-60 minutos
+**Objetivo:** Entender que seu valor nêo está no código, mas nos problemas que resolve para as pessoas
 
 **Conteúdo:**
 - **O erro fatal:** Achar que código bom é suficiente
@@ -36,12 +36,12 @@
 
 **Os 3 pilares do Técnico Solucionador:**
 1. 🔧 **Automatizar** - Resolver problema 1x, funciona para sempre
-2. 📢 **Comunicar** - Mostrar a solução de forma que todos entendam
+2. 📢 **Comunicar** - Mostrar a soluçêo de forma que todos entendam
 3. 🤝 **Ajudar** - Ensinar outros a resolverem sozinhos
 
 **Mentalidade:**
 - ❌ "Vou fazer esse script rápido só pra mim"
-- ✅ "Vou criar uma automação que resolve isso pra todo mundo"
+- ✅ "Vou criar uma automaçêo que resolve isso pra todo mundo"
 
 - ❌ "Alguém já perguntou isso antes..."
 - ✅ "Vou criar um chatbot/FAQ que responde automaticamente"
@@ -50,30 +50,30 @@
 - ✅ "Vou criar um post/vídeo mostrando como resolver"
 
 **Cases reais:**
-- **João (DevOps):** Cansou de responder "como fazer deploy". Criou chatbot com RAG dos docs. Resultado: 0 perguntas repetidas + promovido a líder.
+- **Joêo (DevOps):** Cansou de responder "como fazer deploy". Criou chatbot com RAG dos docs. Resultado: 0 perguntas repetidas + promovido a líder.
 - **Ana (Dev):** Passou pelos mesmos problemas sempre. Criou blog com soluções. Resultado: 50k visitas/mês + ofertas de emprego toda semana.
 - **Carlos (SRE):** Automatizou troubleshooting comum. Criou portal self-service. Resultado: Time economizou 20h/semana + ele virou consultor interno.
 
 **Exercício:**
 1. Liste 3 problemas que você já resolveu 10+ vezes
-2. Imagine: "E se criasse uma automação/bot/post que resolvesse isso pra sempre?"
+2. Imagine: "E se criasse uma automaçêo/bot/post que resolvesse isso pra sempre?"
 3. Escolha 1 para transformar em projeto nos próximos módulos
 
 ---
 
 ### **Módulo 2: Automações que Resolvem Problemas de Verdade**
-**Duração:** 75-90 minutos
-**Objetivo:** Criar automações práticas que as pessoas realmente usam (não scripts que só você entende)
+**Duraçêo:** 75-90 minutos
+**Objetivo:** Criar automações práticas que as pessoas realmente usam (nêo scripts que só você entende)
 
 **Mindset:**
 - ❌ "Vou fazer um script bash que roda no meu terminal"
-- ✅ "Vou criar uma automação com interface que qualquer um usa"
+- ✅ "Vou criar uma automaçêo com interface que qualquer um usa"
 
 **3 Tipos de Automações Solucionadoras:**
 
 **1. Automações de Resposta (Chatbots/FAQs)**
 - Problema: Mesmas perguntas 100x
-- Solução: Chatbot que responde automaticamente
+- Soluçêo: Chatbot que responde automaticamente
 - **Ferramentas:**
   - Botpress (chatbot no-code)
   - ChatGPT API + Zapier (bot simples)
@@ -82,16 +82,16 @@
 
 **2. Automações de Processo (Workflows)**
 - Problema: Tarefas manuais chatas que todos fazem
-- Solução: Workflow automatizado que qualquer um aciona
+- Soluçêo: Workflow automatizado que qualquer um aciona
 - **Ferramentas:**
   - n8n (open-source, visual)
   - Zapier/Make (no-code)
   - GitHub Actions (para devs)
-- **Projeto:** Automatizar processo chato (ex: aprovação de PR, deploy, onboarding)
+- **Projeto:** Automatizar processo chato (ex: aprovaçêo de PR, deploy, onboarding)
 
 **3. Automações de Self-Service (Portais/Dashboards)**
 - Problema: Dependência de você para coisas simples
-- Solução: Portal onde pessoas fazem sozinhas
+- Soluçêo: Portal onde pessoas fazem sozinhas
 - **Ferramentas:**
   - Retool (internal tools rápidas)
   - Streamlit (Python → Dashboard)
@@ -99,10 +99,10 @@
 - **Projeto:** Portal de troubleshooting self-service
 
 **Princípios de Automações que Funcionam:**
-1. **Interface Clara** - Botão grande, texto simples
-2. **Feedback Imediato** - "Sua solicitação foi processada!"
+1. **Interface Clara** - Botêo grande, texto simples
+2. **Feedback Imediato** - "Sua solicitaçêo foi processada!"
 3. **Logs Visíveis** - Pessoa vê o que tá acontecendo
-4. **Error Messages Humanos** - "Ops, algo deu errado. Tente X" (não stack trace)
+4. **Error Messages Humanos** - "Ops, algo deu errado. Tente X" (nêo stack trace)
 
 **Exercício Prático:**
 Escolha 1 problema do time e crie:
@@ -110,38 +110,38 @@ Escolha 1 problema do time e crie:
 - Workflow que automatiza processo OU
 - Portal self-service para tarefa comum
 
-**Resultado:** 1 automação funcionando + pessoas usando de verdade
+**Resultado:** 1 automaçêo funcionando + pessoas usando de verdade
 
 ---
 
 ### **Módulo 3: ChatGPT Personalizado - Seu Assistente Técnico 24/7**
-**Duração:** 75-90 minutos
-**Objetivo:** Criar chatbot com RAG (Retrieval-Augmented Generation) que responde perguntas técnicas com sua documentação
+**Duraçêo:** 75-90 minutos
+**Objetivo:** Criar chatbot com RAG (Retrieval-Augmented Generation) que responde perguntas técnicas com sua documentaçêo
 
 **O Problema:**
 - Time pergunta mesmas coisas: "Como configurar X?", "Onde tá a doc de Y?"
 - Você vira gargalo humano
 - Conhecimento tá espalhado (Confluence, Notion, GitHub, Slack)
 
-**A Solução:**
-- Chatbot treinado na SUA documentação
-- Responde 24/7 com precisão
+**A Soluçêo:**
+- Chatbot treinado na SUA documentaçêo
+- Responde 24/7 com precisêo
 - Aprende com novas docs automaticamente
 
 **Stack Completa:**
 
-**Opção 1: No-Code (Mais Rápido)**
+**Opçêo 1: No-Code (Mais Rápido)**
 - **Botpress Cloud** + RAG nativo
 - Upload de docs (PDFs, markdowns, links)
 - Deploy em 30 minutos
 - Integra: Slack, Discord, Web
 
-**Opção 2: Low-Code (Mais Controle)**
+**Opçêo 2: Low-Code (Mais Controle)**
 - **Voiceflow** + Knowledge Base
 - Interface visual para treinar
-- Customização avançada
+- Customizaçêo avançada
 
-**Opção 3: Code (Máximo Controle)**
+**Opçêo 3: Code (Máximo Controle)**
 - **LangChain** + Pinecone/Chroma (vector DB)
 - Python script para ingerir docs
 - Deploy: Railway/Render
@@ -151,7 +151,7 @@ Escolha 1 problema do time e crie:
 1. Pergunta do usuário: "Como fazer deploy?"
 2. Sistema busca docs relevantes (embeddings)
 3. Alimenta GPT com: pergunta + docs encontrados
-4. GPT responde com base nas SUAS docs (não alucina)
+4. GPT responde com base nas SUAS docs (nêo alucina)
 ```
 
 **Fontes de Conhecimento:**
@@ -174,20 +174,20 @@ Escolha 1 problema do time e crie:
 - Testar com perguntas reais
 - Ajustar respostas
 
-**Passo 3: Deploy e Integração (30 min)**
+**Passo 3: Deploy e Integraçêo (30 min)**
 - Integrar com Slack/Discord
 - Adicionar widget no site/portal
 - Compartilhar com time
 
-**Passo 4: Iteração (contínuo)**
-- Ver perguntas que o bot não respondeu bem
+**Passo 4: Iteraçêo (contínuo)**
+- Ver perguntas que o bot nêo respondeu bem
 - Adicionar mais docs
 - Melhorar knowledge base
 
 **Métricas de Sucesso:**
 - Quantas perguntas respondidas automaticamente?
 - Quantas interrupções você evitou?
-- Satisfação do time com respostas?
+- Satisfaçêo do time com respostas?
 
 **Exercício:**
 Criar chatbot RAG que responda TOP 5 perguntas do seu time/projeto
@@ -197,7 +197,7 @@ Criar chatbot RAG que responda TOP 5 perguntas do seu time/projeto
 ---
 
 ### **Módulo 4: GitHub como Portfólio e Central de Soluções**
-**Duração:** 75-90 minutos
+**Duraçêo:** 75-90 minutos
 **Objetivo:** Transformar GitHub em vitrine profissional + repositório de soluções que ajudam pessoas
 
 **Mindset:**
@@ -207,7 +207,7 @@ Criar chatbot RAG que responda TOP 5 perguntas do seu time/projeto
 **Arquitetura do GitHub Solucionador:**
 
 **1. Profile README Poderoso**
-- Não é bio chata, é **painel de soluções**
+- Nêo é bio chata, é **painel de soluções**
 - Mostra: problemas que você resolve, ferramentas que domina, resultados que entrega
 
 **Template:**
@@ -215,7 +215,7 @@ Criar chatbot RAG que responda TOP 5 perguntas do seu time/projeto
 # 🔧 [Seu Nome] - Solucionador de Problemas com Código
 
 ## 💡 Problemas que Resolvo:
-- ⚡ Automação de deploys (CI/CD)
+- ⚡ Automaçêo de deploys (CI/CD)
 - 🤖 Chatbots técnicos (RAG + GPT)
 - 📊 Dashboards de monitoramento
 - 🔒 Segurança e compliance automatizados
@@ -236,7 +236,7 @@ Criar chatbot RAG que responda TOP 5 perguntas do seu time/projeto
 
 **2. Repositórios Organizados por Problema**
 
-Não organize por tecnologia ("python-scripts", "bash-utils")
+Nêo organize por tecnologia ("python-scripts", "bash-utils")
 Organize por **problema que resolve:**
 
 ✅ **awesome-deployment-automation** - "Scripts e configs para deploy sem dor"
@@ -310,9 +310,9 @@ Benefício: Nome aparece em projetos populares = credibilidade
 **Semana 3: Conteúdo**
 - [ ] 5 posts técnicos
 - [ ] Discussions ativados
-- [ ] Primeira contribuição externa
+- [ ] Primeira contribuiçêo externa
 
-**Semana 4: Promoção**
+**Semana 4: Promoçêo**
 - [ ] Compartilhar no LinkedIn/Twitter
 - [ ] Adicionar no currículo
 - [ ] Enviar para awesome-lists relevantes
@@ -323,23 +323,23 @@ Benefício: Nome aparece em projetos populares = credibilidade
 - Issues/discussions com dúvidas
 - Contribuições de outros
 
-**Resultado:** GitHub que mostra que você é SOLUCIONADOR, não só "mais um dev"
+**Resultado:** GitHub que mostra que você é SOLUCIONADOR, nêo só "mais um dev"
 
 ---
 
 ### **Módulo 5: Blog Técnico que Ajuda Pessoas (e Te Promove)**
-**Duração:** 75-90 minutos
+**Duraçêo:** 75-90 minutos
 **Objetivo:** Criar sistema de blog onde você documenta soluções de problemas reais
 
 **A Verdade:**
 - Devs que blogam ganham 30-50% mais
-- Não precisa ser "expert mundial"
+- Nêo precisa ser "expert mundial"
 - Precisa ajudar 1 pessoa = já valeu
 
-**Formato Vencedor: "Problema → Solução → Código"**
+**Formato Vencedor: "Problema → Soluçêo → Código"**
 
-Não escreva: "Introdução ao Kubernetes"
-Escreva: "Como resolvi problema de memória no K8s em produção"
+Nêo escreva: "Introduçêo ao Kubernetes"
+Escreva: "Como resolvi problema de memória no K8s em produçêo"
 
 **Template de Post que Funciona:**
 
@@ -349,7 +349,7 @@ Escreva: "Como resolvi problema de memória no K8s em produção"
 ## 😫 O Problema
 [Descreve dor que todos sentem]
 
-## 💡 A Solução
+## 💡 A Soluçêo
 [Overview da abordagem]
 
 ## 🔧 Passo a Passo
@@ -369,29 +369,29 @@ Escreva: "Como resolvi problema de memória no K8s em produção"
 
 **Do seu dia a dia:**
 - Bug chato que resolveu hoje
-- Automação que criou
+- Automaçêo que criou
 - Ferramenta nova que testou
-- Migração que fez
+- Migraçêo que fez
 - Incidente que debugou
 
 **Das perguntas que recebe:**
 - Toda pergunta repetida = 1 post
 - Dúvida de junior = tutorial
-- Problema de produção = post-mortem
+- Problema de produçêo = post-mortem
 
-**Stack de Publicação Rápida:**
+**Stack de Publicaçêo Rápida:**
 
-**Opção 1: Plataformas Prontas (Mais Fácil)**
+**Opçêo 1: Plataformas Prontas (Mais Fácil)**
 - **Dev.to** - Audiência built-in de devs
 - **Hashnode** - Blog próprio + SEO
 - **Medium** - Alcance grande
 
-**Opção 2: Próprio Site (Mais Controle)**
+**Opçêo 2: Próprio Site (Mais Controle)**
 - **GitHub Pages + Jekyll** (grátis)
 - **Hugo + Netlify** (super rápido)
 - **Docusaurus** (se tem docs + blog)
 
-**Sistema de Criação com IA:**
+**Sistema de Criaçêo com IA:**
 
 **Segunda (10 min):** Review da semana
 - Que problemas resolvi?
@@ -420,7 +420,7 @@ Escreva: "Como resolvi problema de memória no K8s em produção"
 "Revise este post técnico e:
 1. Melhore clareza
 2. Adicione analogias
-3. Simplifique jargão"
+3. Simplifique jargêo"
 ```
 
 **Estratégia de SEO Técnico:**
@@ -447,7 +447,7 @@ Posts que rankeiam:
 - [ ] Adicionar code snippets + screenshots
 
 **Semana 4:**
-- [ ] Post #3 (comparação de ferramentas)
+- [ ] Post #3 (comparaçêo de ferramentas)
 - [ ] Review métricas
 - [ ] Planejar próximos 4 posts
 
@@ -463,7 +463,7 @@ Posts que rankeiam:
 ---
 
 ### **Módulo 6: Apresentações e Treinamentos com IA (NotebookLM, HeyGen, Podscap)**
-**Duração:** 75-90 minutos
+**Duraçêo:** 75-90 minutos
 **Objetivo:** Criar apresentações, avatares de treinamento e conteúdo adaptado para cada tipo de pessoa
 
 **A Nova Realidade:**
@@ -471,7 +471,7 @@ Posts que rankeiam:
 - Algumas pessoas preferem vídeo
 - Outras querem ouvir podcast
 - Gerentes querem slides
-- **Você precisa ensinar do jeito que ELES aprendem, não do jeito que VOCÊ prefere**
+- **Você precisa ensinar do jeito que ELES aprendem, nêo do jeito que VOCÊ prefere**
 
 **Princípio:** 1 Conteúdo → Múltiplos Formatos
 
@@ -488,11 +488,11 @@ Posts que rankeiam:
   - Timeline do conteúdo
 
 **Caso de Uso:**
-Você tem documentação técnica chata de 50 páginas sobre arquitetura.
+Você tem documentaçêo técnica chata de 50 páginas sobre arquitetura.
 
 **Sem NotebookLM:**
 - Ninguém lê
-- Time não aprende
+- Time nêo aprende
 - Você repete explicações
 
 **Com NotebookLM:**
@@ -520,7 +520,7 @@ Você tem documentação técnica chata de 50 páginas sobre arquitetura.
 **Caso de Uso:**
 Onboarding de novos devs - você explica mesma coisa toda vez.
 
-**Solução:**
+**Soluçêo:**
 1. Escreve script de onboarding (ChatGPT ajuda)
 2. HeyGen gera vídeo do avatar explicando
 3. Novo dev assiste quando quiser
@@ -528,7 +528,7 @@ Onboarding de novos devs - você explica mesma coisa toda vez.
 
 **Tipos de Vídeo:**
 - **Tutorial técnico:** "Como configurar ambiente local"
-- **Explicação de arquitetura:** "Como nosso sistema funciona"
+- **Explicaçêo de arquitetura:** "Como nosso sistema funciona"
 - **Troubleshooting:** "Erro X? Faça Y"
 - **Boas-vindas:** "Bem-vindo ao time, aqui está o que você precisa saber"
 
@@ -542,19 +542,19 @@ Onboarding de novos devs - você explica mesma coisa toda vez.
 **Ferramenta 3: Gamma.ai / Tome - Slides que se Criam Sozinhos**
 
 **O que faz:**
-- Você: escreve tópicos OU cola documentação
-- IA: gera apresentação completa
+- Você: escreve tópicos OU cola documentaçêo
+- IA: gera apresentaçêo completa
 - Visual profissional automaticamente
 
 **Caso de Uso:**
-Tech talk, apresentação para stakeholders, review de sprint.
+Tech talk, apresentaçêo para stakeholders, review de sprint.
 
 **Processo:**
 1. Escreve outline (ou ChatGPT gera):
    ```
    Título: "Nova Arquitetura de Deploy"
    - Problema atual
-   - Solução proposta
+   - Soluçêo proposta
    - Arquitetura técnica
    - Benefícios
    - Próximos passos
@@ -564,14 +564,14 @@ Tech talk, apresentação para stakeholders, review de sprint.
 4. Você ajusta detalhes
 5. Apresenta
 
-**Tipos de Apresentação:**
+**Tipos de Apresentaçêo:**
 - **Para técnicos:** Mais código, menos texto
-- **Para gestores:** Mais resultados, menos implementação
+- **Para gestores:** Mais resultados, menos implementaçêo
 - **Para C-level:** Apenas impacto de negócio
 
 ---
 
-**Ferramenta 4: Descript / Podscap - Edição de Vídeo por Texto**
+**Ferramenta 4: Descript / Podscap - Ediçêo de Vídeo por Texto**
 
 **O que faz:**
 - Grava screencast técnico (você explicando código)
@@ -596,7 +596,7 @@ Gravar tutoriais técnicos sem virar "youtuber profissional".
 
 | Tipo de Pessoa | Formato Preferido | Ferramenta |
 |----------------|-------------------|------------|
-| **Técnico sênior** | Documentação detalhada + código | GitHub README + Comments |
+| **Técnico sênior** | Documentaçêo detalhada + código | GitHub README + Comments |
 | **Técnico júnior** | Tutorial passo a passo com vídeo | Screencast + Descript |
 | **Gerente** | Slides com métricas | Gamma.ai (foco em resultados) |
 | **C-level** | Podcast ou vídeo curto (5 min) | NotebookLM ou HeyGen |
@@ -609,10 +609,10 @@ Gravar tutoriais técnicos sem virar "youtuber profissional".
 
 **Escolha 1 conhecimento técnico importante e crie:**
 
-1. **Documentação base** (Notion/Markdown)
+1. **Documentaçêo base** (Notion/Markdown)
 2. **Podcast** (NotebookLM - 10min)
-3. **Vídeo Avatar** (HeyGen - 5min explicação)
-4. **Apresentação** (Gamma - 10 slides)
+3. **Vídeo Avatar** (HeyGen - 5min explicaçêo)
+4. **Apresentaçêo** (Gamma - 10 slides)
 5. **Screencast editado** (Descript - tutorial prático)
 6. **Clips curtos** (30s-1min para LinkedIn)
 
@@ -625,7 +625,7 @@ Gravar tutoriais técnicos sem virar "youtuber profissional".
 ---
 
 ### **Módulo 7: Redes Sociais Técnicas - Ajudando Pessoas em Escala**
-**Duração:** 75-90 minutos
+**Duraçêo:** 75-90 minutos
 **Objetivo:** Usar LinkedIn/Twitter/Dev.to para compartilhar soluções dos problemas que você passa
 
 **Mindset:**
@@ -638,7 +638,7 @@ Sempre que você:
 - Resolver bug chato
 - Aprender ferramenta nova
 - Automatizar algo
-- Debugar produção
+- Debugar produçêo
 
 → **Compartilhe em 5 minutos**
 
@@ -648,15 +648,15 @@ Sempre que você:
 
 **Formato Vencedor: Micro-Tutoriais**
 
-Não poste: "Trabalhando com Kubernetes hoje 🚀"
+Nêo poste: "Trabalhando com Kubernetes hoje 🚀"
 Poste: "Resolvi memory leak no K8s em 3 passos [thread]"
 
 **Template de Post Técnico:**
 ```
 [🔴 Problema] que todo [sua área] enfrenta:
-[Descrição rápida da dor]
+[Descriçêo rápida da dor]
 
-[✅ Solução] que funcionou pra mim:
+[✅ Soluçêo] que funcionou pra mim:
 1. [Passo 1]
 2. [Passo 2]
 3. [Passo 3]
@@ -672,7 +672,7 @@ Isso te ajudou? Comenta!
 
 **Frequência:**
 - **3 posts/semana:**
-  - 1 solução técnica
+  - 1 soluçêo técnica
   - 1 ferramenta útil
   - 1 aprendizado da semana
 
@@ -680,7 +680,7 @@ Isso te ajudou? Comenta!
 
 5 slides:
 1. Problema
-2-4. Solução passo a passo (com screenshots)
+2-4. Soluçêo passo a passo (com screenshots)
 5. CTA ("Salve esse post!")
 
 Canva tem templates prontos para carrossel LinkedIn.
@@ -696,19 +696,19 @@ Canva tem templates prontos para carrossel LinkedIn.
 🧵 Thread: Como resolvi [problema] que tava me tirando o sono
 
 1/ O problema:
-[Descrição em 1 frase]
+[Descriçêo em 1 frase]
 
 2/ Tentativas que falharam:
-- Tentei X, não funcionou porque Y
+- Tentei X, nêo funcionou porque Y
 - Tentei Z, piorou
 
 3/ O que finalmente funcionou:
-[Solução em bullet points]
+[Soluçêo em bullet points]
 
 4/ Código (se aplicável):
 [Gist ou screenshot]
 
-5/ Lição aprendida:
+5/ Liçêo aprendida:
 [Insight que você tirou]
 
 Se isso salvou seu dia, dá um RT! 🔁
@@ -737,7 +737,7 @@ Expanda os posts do LinkedIn/Twitter em artigos completos:
 - r/kubernetes
 - r/golang (seu stack)
 
-**Não seja spammer:**
+**Nêo seja spammer:**
 - ❌ "Olha meu blog"
 - ✅ Responde perguntas genuinamente
 - ✅ Compartilha soluções (com link se relevante)
@@ -769,7 +769,7 @@ Pessoas veem você ajudando → te seguem → viram audiência.
 [git log -1 --pretty=full]"
 
 "Crie thread Twitter sobre problema que resolvi:
-[descrever problema e solução]"
+[descrever problema e soluçêo]"
 
 "Gere carrossel de 5 slides sobre:
 [ferramenta/conceito técnico]"
@@ -779,7 +779,7 @@ Pessoas veem você ajudando → te seguem → viram audiência.
 
 **Métricas que Importam:**
 
-Não foque em:
+Nêo foque em:
 - ❌ Número de seguidores
 - ❌ Likes
 
@@ -825,7 +825,7 @@ Foque em:
 ---
 
 ### **Módulo 8: Sistema de Respostas Automatizadas - Escale Sua Ajuda**
-**Duração:** 60-75 minutos
+**Duraçêo:** 60-75 minutos
 **Objetivo:** Criar sistema onde suas respostas trabalham para sempre (FAQ, bots, templates)
 
 **O Problema:**
@@ -833,7 +833,7 @@ Foque em:
 - Você vira gargalo humano
 - Tempo gasto respondendo ≠ tempo criando valor
 
-**A Solução: Responda 1x, Funciona para Sempre**
+**A Soluçêo: Responda 1x, Funciona para Sempre**
 
 ---
 
@@ -890,12 +890,12 @@ Toda pergunta respondida 3x = vira página na base.
 
 **Fluxo Ideal:**
 ```
-Pessoa pergunta no Slack → Bot responde com link da doc → Se não resolver, escalona para você
+Pessoa pergunta no Slack → Bot responde com link da doc → Se nêo resolver, escalona para você
 ```
 
 **Métricas:**
 - % de perguntas respondidas pelo bot
-- Satisfação com respostas
+- Satisfaçêo com respostas
 - Tempo economizado
 
 ---
@@ -956,7 +956,7 @@ Se der erro, confira: [link troubleshooting]
 **Snippets Úteis:**
 - `/setup` → instruções ambiente local
 - `/debug` → checklist de debugging
-- `/error[XXX]` → solução para erro específico
+- `/error[XXX]` → soluçêo para erro específico
 - `/links` → links úteis do projeto
 
 ---
@@ -974,9 +974,9 @@ Se der erro, confira: [link troubleshooting]
 
 **Outro Exemplo:**
 
-**Trigger:** Menção no Slack com palavra "docs"
+**Trigger:** Mençêo no Slack com palavra "docs"
 **Action:**
-1. Bot responde: "Docs estão aqui: [link]"
+1. Bot responde: "Docs estêo aqui: [link]"
 2. Adiciona emoji ✅
 3. Thread automática com links relacionados
 
@@ -1028,15 +1028,15 @@ Se der erro, confira: [link troubleshooting]
 - Sistema de respostas que escala
 - Você livre para criar valor
 - Pessoas tendo respostas 24/7
-- Caminho para virar consultor (não suporte)
+- Caminho para virar consultor (nêo suporte)
 
 ---
 
 ### **Módulo 9: Consultoria Interna - Virando a Pessoa que Todos Procuram**
-**Duração:** 60-75 minutos
+**Duraçêo:** 60-75 minutos
 **Objetivo:** Posicionar-se como consultor interno/externo que resolve problemas estratégicos
 
-**A Transição:**
+**A Transiçêo:**
 
 **De:** Técnico que executa tarefas
 **Para:** Consultor que resolve problemas
@@ -1047,11 +1047,11 @@ Se der erro, confira: [link troubleshooting]
 
 | Técnico Executor | Consultor Solucionador |
 |------------------|------------------------|
-| "Me passaram task X" | "Identifiquei problema Y, propus solução Z" |
+| "Me passaram task X" | "Identifiquei problema Y, propus soluçêo Z" |
 | Faz o que pedem | Questiona e sugere melhor caminho |
 | Responde perguntas | Previne perguntas criando sistemas |
 | Trabalha nas ferramentas | Escolhe e implementa ferramentas |
-| "Não é minha responsabilidade" | "Posso ajudar a resolver isso" |
+| "Nêo é minha responsabilidade" | "Posso ajudar a resolver isso" |
 
 ---
 
@@ -1081,9 +1081,9 @@ Se der erro, confira: [link troubleshooting]
 
 ---
 
-**Como Construir Reputação de Consultor:**
+**Como Construir Reputaçêo de Consultor:**
 
-**1. Mostre Resultados, Não Esforço**
+**1. Mostre Resultados, Nêo Esforço**
 
 ❌ "Trabalhei 40h essa semana"
 ✅ "Automatizei deploy e economizamos 15h/semana do time"
@@ -1099,7 +1099,7 @@ Crie "Case Studies" internos:
 ## Problema:
 Time perdendo 10h/semana com deploys manuais
 
-## Solução:
+## Soluçêo:
 Implementei CI/CD com GitHub Actions
 
 ## Resultado:
@@ -1120,22 +1120,22 @@ Compartilhe:
 
 **3. Seja Opinionated (Com Dados)**
 
-Consultores não são neutros, tem opiniões fundamentadas:
+Consultores nêo sêo neutros, tem opiniões fundamentadas:
 
 ❌ "Tanto faz, decide você"
 ✅ "Recomendo X pelos seguintes motivos: [dados, cases, trade-offs]"
 
 **Mas:** Sempre apresente trade-offs:
-- "Solução A: mais rápido mas menos escalável"
-- "Solução B: leva mais tempo mas cresce melhor"
-- "Minha recomendação: A para MVP, migrar para B em 6 meses"
+- "Soluçêo A: mais rápido mas menos escalável"
+- "Soluçêo B: leva mais tempo mas cresce melhor"
+- "Minha recomendaçêo: A para MVP, migrar para B em 6 meses"
 
 **4. Crie Ferramentas Internas**
 
 Consultores criam leverage:
 - Bibliotecas internas
 - CLIs que facilitam tarefas comuns
-- Dashboards que dão visibilidade
+- Dashboards que dêo visibilidade
 - Templates de projeto
 
 **Exemplo:**
@@ -1155,7 +1155,7 @@ Benefício:
 Reunir time:
 "Estamos em 6 meses no futuro. Projeto falhou. Por quê?"
 
-Brainstorm de riscos → planos de mitigação
+Brainstorm de riscos → planos de mitigaçêo
 
 Você lidera → credibilidade de estrategista
 
@@ -1163,7 +1163,7 @@ Você lidera → credibilidade de estrategista
 
 Template:
 - O que aconteceu (timeline)
-- Causa raiz (técnica, não pessoa)
+- Causa raiz (técnica, nêo pessoa)
 - Como detectamos
 - Como resolvemos
 - **Como evitamos de novo** (crucial!)
@@ -1183,15 +1183,15 @@ Documenta decisões técnicas importantes:
 **Date:** 2025-01-15
 
 ### Contexto:
-[Por que surgiu a questão]
+[Por que surgiu a questêo]
 
-### Decisão:
+### Decisêo:
 Migrar para PostgreSQL
 
 ### Razões:
 1. Melhor para nosso modelo de dados relacional
 2. ACID garantido
-3. Ferramentas de migração maduras
+3. Ferramentas de migraçêo maduras
 
 ### Consequências:
 **Positivas:**
@@ -1199,7 +1199,7 @@ Migrar para PostgreSQL
 - Queries mais rápidas (joins eficientes)
 
 **Negativas:**
-- Migração leva 2 sprints
+- Migraçêo leva 2 sprints
 - Curva de aprendizado do time
 
 ### Alternativas Consideradas:
@@ -1215,8 +1215,8 @@ Mensalmente: apresenta algo técnico pro time/empresa
 
 Temas:
 - "Como resolvemos problema X"
-- "Introdução à ferramenta Y"
-- "Lições aprendidas de produção"
+- "Introduçêo à ferramenta Y"
+- "Lições aprendidas de produçêo"
 - "Estado da arte em [área]"
 
 **Benefício:**
@@ -1313,10 +1313,10 @@ Você é A pessoa que todos procuram para:
 ---
 
 ### **Módulo 10: Sistema Completo - Seu Ecossistema de Impacto**
-**Duração:** 90-120 minutos
+**Duraçêo:** 90-120 minutos
 **Objetivo:** Integrar tudo em sistema sustentável que te transforma em consultor referência
 
-**Revisão da Jornada:**
+**Revisêo da Jornada:**
 
 Você começou: Técnico invisível que resolve problemas sozinho
 Você agora: Solucionador visível com sistemas que ajudam centenas
@@ -1342,17 +1342,17 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 ```
 
 **Planejamento:**
-- [ ] 1 automação para criar esta semana
+- [ ] 1 automaçêo para criar esta semana
 - [ ] 3 posts para publicar
 - [ ] 1 pessoa para ajudar/mentorar
 - [ ] 1 melhoria no sistema
 
 ---
 
-### **Terça + Quinta (20 min cada): Criação de Conteúdo**
+### **Terça + Quinta (20 min cada): Criaçêo de Conteúdo**
 
 **Terça:**
-- [ ] Escrever post técnico (problema → solução)
+- [ ] Escrever post técnico (problema → soluçêo)
 - [ ] Usar ChatGPT para outline + revisar
 - [ ] Publicar LinkedIn + agendar Twitter/Dev.to
 
@@ -1364,12 +1364,12 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 **Templates Salvos (reutilize):**
 - Post de problema resolvido
 - Tutorial passo a passo
-- Comparação de ferramentas
+- Comparaçêo de ferramentas
 - Lições aprendidas
 
 ---
 
-### **Quarta (45 min): Automação da Semana**
+### **Quarta (45 min): Automaçêo da Semana**
 
 **Identifique:**
 - Processo chato que você ou time faz repetidamente
@@ -1377,14 +1377,14 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 - Tarefa manual que consome tempo
 
 **Crie:**
-- Automação (Zapier/n8n)
+- Automaçêo (Zapier/n8n)
 - Bot de resposta
 - Ferramenta interna
 - Template/snippet
 
 **Documente:**
 - README de como usar
-- Post sobre a solução
+- Post sobre a soluçêo
 - Adiciona na base de conhecimento
 
 **Compartilhe:**
@@ -1394,11 +1394,11 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 
 ---
 
-### **Sexta (30 min): Distribuição + Ajuda**
+### **Sexta (30 min): Distribuiçêo + Ajuda**
 
-**Distribuição (15 min):**
+**Distribuiçêo (15 min):**
 - [ ] Publicar conteúdo criado
-- [ ] Compartilhar automação/ferramenta
+- [ ] Compartilhar automaçêo/ferramenta
 - [ ] Atualizar portfolio/GitHub
 - [ ] Newsletter (se quinzenal/mensal)
 
@@ -1434,7 +1434,7 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 
 **Ajustar:**
 - O que funcionou bem? (fazer mais)
-- O que não performou? (ajustar/parar)
+- O que nêo performou? (ajustar/parar)
 - Novos temas para explorar?
 - Gaps que preciso preencher?
 
@@ -1460,7 +1460,7 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 **Zapier/Make:**
 - GitHub commit → auto-post LinkedIn
 - Blog post publicado → compartilha redes sociais
-- Menção no Slack com keyword → bot responde
+- Mençêo no Slack com keyword → bot responde
 - Email com FAQ → auto-responder
 
 **Snippets/Templates:**
@@ -1497,7 +1497,7 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 - [ ] 5+ mensagens "você me salvou"
 
 **Carreira:**
-- [ ] 1 promoção OU aumento
+- [ ] 1 promoçêo OU aumento
 - [ ] 3 ofertas de emprego/consultoria
 - [ ] Convidado para 2 palestras/podcasts
 - [ ] Portfolio que impressiona qualquer um
@@ -1544,7 +1544,7 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 **Sistemas Funcionando:**
 - [ ] Base de conhecimento completa
 - [ ] Chatbot respondendo 24/7
-- [ ] 5+ automações em produção
+- [ ] 5+ automações em produçêo
 - [ ] Templates/ferramentas que time usa
 
 **Conteúdo Publicado:**
@@ -1557,7 +1557,7 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 - [ ] 50+ horas economizadas (seu + time)
 - [ ] 100+ pessoas ajudadas
 - [ ] 3+ processos melhorados
-- [ ] Reconhecimento formal (prêmio, promoção, menção)
+- [ ] Reconhecimento formal (prêmio, promoçêo, mençêo)
 
 **Network:**
 - [ ] 500+ conexões LinkedIn relevantes
@@ -1583,7 +1583,7 @@ Gere 5 ideias de conteúdo útil para compartilhar"
 
 ---
 
-**Você não é mais:**
+**Você nêo é mais:**
 ❌ "Só mais um dev"
 ❌ "O suporte técnico"
 ❌ "Quem executa tasks"
@@ -1625,7 +1625,7 @@ Publique no LinkedIn + GitHub Profile.
 
 Você completou a trilha do **Técnico Invisível ao Consultor Que Todos Procuram**.
 
-Agora é execução. Sistema funcionando = resultados garantidos.
+Agora é execuçêo. Sistema funcionando = resultados garantidos.
 
 **Continue o progresso:**
 - Review semanal → ajusta sistema
@@ -1633,12 +1633,12 @@ Agora é execução. Sistema funcionando = resultados garantidos.
 - Ajude pessoas → seu valor cresce
 
 **Seu futuro:**
-Técnico que não procura oportunidades.
+Técnico que nêo procura oportunidades.
 Oportunidades te procuram.
 
-🚀 **Comece amanhã. Revise em 90 dias.**
+🚀 **Comece amanhê. Revise em 90 dias.**
 
 ---
 
-**Última atualização:** 2025-01-19
+**Última atualizaçêo:** 2025-01-19
 **Status:** Estrutura completa da Trilha 4

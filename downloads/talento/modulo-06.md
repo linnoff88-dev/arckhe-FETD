@@ -1,54 +1,54 @@
 # Módulo 6: Google Workspace Avançado
 
 **Trilha:** Talento Emergente
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Objetivo:** Dominar Google Workspace como profissional
 
 ---
 
-## Introdução
+## Introduçêo
 
 Google Workspace (Gmail, Drive, Sheets, Docs, Calendar) é usado por 90%+ das empresas.
 
-Dominar vai além de "saber usar". É usar PROFISSIONALMENTE com automações, organização e produtividade máxima.
+Dominar vai além de "saber usar". É usar PROFISSIONALMENTE com automações, organizaçêo e produtividade máxima.
 
 **Dados:** Profissionais avançados em Google Workspace economizam 8-12h/semana vs usuários básicos.
 
 ## 0. Contexto de Mercado: Por Que Google Workspace Domina
 
-### 0.1 Concorrentes e Comparação
+### 0.1 Concorrentes e Comparaçêo
 
-**O mercado de suites de produtividade/colaboração é dominado por poucos gigantes:**
+**O mercado de suites de produtividade/colaboraçêo é dominado por poucos gigantes:**
 
 | Suite | Foco | Pontos Fortes | Limitações | Preço |
 |-------|------|---------------|------------|-------|
-| **Google Workspace** | Cloud-first, colaboração | Colaboração real-time perfeita, grátis robusto, busca poderosa | Offline limitado, menos features avançadas que Office | Grátis - $18/mês |
-| **Microsoft 365** | Tradicional + cloud | Excel/Word superiores, integração Windows/Teams, features enterprise | Colaboração pior, interface pesada, caro | $6-23/mês |
+| **Google Workspace** | Cloud-first, colaboraçêo | Colaboraçêo real-time perfeita, grátis robusto, busca poderosa | Offline limitado, menos features avançadas que Office | Grátis - $18/mês |
+| **Microsoft 365** | Tradicional + cloud | Excel/Word superiores, integraçêo Windows/Teams, features enterprise | Colaboraçêo pior, interface pesada, caro | $6-23/mês |
 | **Apple iWork** | Ecosystem Apple | Bonito, grátis (Apple users), simples | Só Apple, features limitadas, pouco usado empresas | Grátis |
-| **LibreOffice** | Open source | 100% grátis, offline, compatibilidade Office | Interface antiga, sem colaboração nativa | Grátis |
+| **LibreOffice** | Open source | 100% grátis, offline, compatibilidade Office | Interface antiga, sem colaboraçêo nativa | Grátis |
 | **Zoho Workspace** | All-in-one barato | Barato, muitas features, CRM integrado | Menos popular, curva aprendizado | $3-9/mês |
-| **OnlyOffice** | Open source + colaboração | Grátis, self-hosted, colaboração real-time | Menos integrações, comunidade menor | Grátis - $13/mês |
-| **Dropbox Paper** | Colaboração + storage | Simples, integra Dropbox, bom UX | Features limitadas vs Google Docs | $10-20/mês |
-| **Quip (Salesforce)** | Colaboração + CRM | Integra Salesforce, mobile-first | Nicho, caro sem Salesforce | Incluso Salesforce |
+| **OnlyOffice** | Open source + colaboraçêo | Grátis, self-hosted, colaboraçêo real-time | Menos integrações, comunidade menor | Grátis - $13/mês |
+| **Dropbox Paper** | Colaboraçêo + storage | Simples, integra Dropbox, bom UX | Features limitadas vs Google Docs | $10-20/mês |
+| **Quip (Salesforce)** | Colaboraçêo + CRM | Integra Salesforce, mobile-first | Nicho, caro sem Salesforce | Incluso Salesforce |
 
 **Por que Google Workspace vence:**
 
-✅ **Colaboração real-time perfeita** (10 pessoas editando mesmo doc, zero conflito)
+✅ **Colaboraçêo real-time perfeita** (10 pessoas editando mesmo doc, zero conflito)
 ✅ **Grátis robusto** (15GB storage, todas ferramentas principais)
 ✅ **Busca poderosa** (acha qualquer coisa em segundos, até dentro de PDFs)
 ✅ **Ecossistema integrado** (Gmail + Drive + Sheets + Calendar = tudo conectado)
-✅ **Apps Script** (automação nativa, JavaScript para customizar tudo)
+✅ **Apps Script** (automaçêo nativa, JavaScript para customizar tudo)
 ✅ **Mobile excelente** (edita docs complexos no celular)
-✅ **Adoção massiva** (90%+ empresas = todos sabem usar)
-✅ **Cloud-native** (não precisa instalar nada, acessa de qualquer lugar)
+✅ **Adoçêo massiva** (90%+ empresas = todos sabem usar)
+✅ **Cloud-native** (nêo precisa instalar nada, acessa de qualquer lugar)
 
-**Quando Google Workspace NÃO é ideal:**
+**Quando Google Workspace NêO é ideal:**
 
 ❌ **Excel power users:** Microsoft Excel é superior (tabelas dinâmicas, macros VBA complexas, análise dados massiva)
 ❌ **Trabalho offline frequente:** Microsoft Office offline é melhor
-❌ **Design/publicação profissional:** Microsoft Publisher, InDesign são superiores
+❌ **Design/publicaçêo profissional:** Microsoft Publisher, InDesign sêo superiores
 ❌ **企業 muito grande (10k+ funcionários):** Microsoft 365 tem governança/compliance mais robusta
-❌ **Integração deep com ecosystem Microsoft:** Se usa Azure, Teams, SharePoint → fica em M365
+❌ **Integraçêo deep com ecosystem Microsoft:** Se usa Azure, Teams, SharePoint → fica em M365
 
 **Tendência mercado (2024-2025):**
 
@@ -59,7 +59,7 @@ Dominar vai além de "saber usar". É usar PROFISSIONALMENTE com automações, o
 - **LibreOffice:** Declínio lento (empresas migram pra cloud)
 
 **Escolha Google Workspace se:**
-- Colaboração é crítica (equipe trabalha junto em docs)
+- Colaboraçêo é crítica (equipe trabalha junto em docs)
 - Orçamento limitado (plano grátis generoso)
 - Quer simplicidade (cloud, sem instalar)
 - Usa outras ferramentas Google (Android, Chrome, etc)
@@ -81,16 +81,16 @@ Dominar vai além de "saber usar". É usar PROFISSIONALMENTE com automações, o
 
 **Usuário BÁSICO (95% das pessoas):**
 - **Gmail:** Inbox bagunçado (500+ emails), procura email 10-15min/dia
-- **Sheets:** Usa como Excel offline (sem fórmulas avançadas, sem automação)
+- **Sheets:** Usa como Excel offline (sem fórmulas avançadas, sem automaçêo)
 - **Drive:** Arquivos soltos, busca por "scroll infinito"
-- **Calendar:** Só reuniões (não time-blocking, sem organização)
+- **Calendar:** Só reuniões (nêo time-blocking, sem organizaçêo)
 - **Tempo desperdiçado:** 10-15h/semana
 
 **Usuário AVANÇADO (você após este módulo):**
 - **Gmail:** Inbox zero diário (filtros automáticos, templates, atalhos teclado)
 - **Sheets:** Dashboards automáticos (QUERY, Apps Script, integra APIs)
 - **Drive:** Estrutura PARA organizada (tudo tem lugar, acha em <30seg)
-- **Calendar:** Time-blocking completo (agenda TODO tempo, não só reuniões)
+- **Calendar:** Time-blocking completo (agenda TODO tempo, nêo só reuniões)
 - **Tempo ganho:** 10-15h/semana
 
 **IMPACTO FINANCEIRO:**
@@ -112,22 +112,22 @@ Dominar vai além de "saber usar". É usar PROFISSIONALMENTE com automações, o
 
 ✨ **Profissionalismo:**
 - Cliente pergunta "cadê aquele arquivo?" → 10 seg, envia link (vs 10min procurando)
-- Reunião: Puxa Sheet com dados ao vivo → impressiona (vs "deixa eu verifico e te retorno")
+- Reuniêo: Puxa Sheet com dados ao vivo → impressiona (vs "deixa eu verifico e te retorno")
 - Email: Resposta formatada, profissional, rápida (vs email genérico, lento)
 
 ✨ **Paz de espírito:**
-- Confia que sistema acha tudo (não depende de memória)
-- Inbox organizado = não esquece nada crítico
+- Confia que sistema acha tudo (nêo depende de memória)
+- Inbox organizado = nêo esquece nada crítico
 - Backup automático cloud = nunca perde trabalho
 
-✨ **Colaboração sem atrito:**
+✨ **Colaboraçêo sem atrito:**
 - Compartilha doc → 5 pessoas editam simultâneo (vs email ping-pong 20 mensagens)
 - Histórico de versões → nunca perde mudança (vs "sobrescrevi arquivo errado")
-- Comentários inline → feedback contextual (vs reunião 1h pra discutir)
+- Comentários inline → feedback contextual (vs reuniêo 1h pra discutir)
 
 **Resumo:**
 
-Não é sobre "saber usar Gmail".
+Nêo é sobre "saber usar Gmail".
 
 É sobre **dominar Google Workspace como ferramenta profissional que 10x sua produtividade**.
 
@@ -135,9 +135,9 @@ R$ 31k/ano pra freelancer. R$ 13k/mês pra equipe pequena. Zero esforço depois 
 
 ### 0.3 O Futuro: IA Vai Substituir Tudo Isso?
 
-**A pergunta:** "Google já tem IA (Gemini). Ela não vai fazer isso tudo pra mim?"
+**A pergunta:** "Google já tem IA (Gemini). Ela nêo vai fazer isso tudo pra mim?"
 
-**Resposta:** IA vai AMPLIFICAR, não SUBSTITUIR. Mas você precisa dos fundamentos.
+**Resposta:** IA vai AMPLIFICAR, nêo SUBSTITUIR. Mas você precisa dos fundamentos.
 
 **O que está vindo (2025-2027):**
 
@@ -174,12 +174,12 @@ Docs com Gemini:
 ```
 Seu assistente IA (integrado Workspace):
 - Monitora email, calendario, drive 24/7
-- Detecta tarefas implícitas ("reunião segunda, preparar apresentação")
+- Detecta tarefas implícitas ("reuniêo segunda, preparar apresentaçêo")
 - Auto-cria tasks, aloca tempo no calendar
 - Prepara docs/sheets necessários pra reuniões
 - Sugere respostas email baseado em seu estilo
 - Auto-organiza Drive (move arquivos pra pastas certas)
-- Alerta: "Projeto X atrasado, deadline amanhã, 3h trabalho resta"
+- Alerta: "Projeto X atrasado, deadline amanhê, 3h trabalho resta"
 
 Você: Só revisa, aprova, foca em decisões estratégicas
 ```
@@ -187,7 +187,7 @@ Você: Só revisa, aprova, foca em decisões estratégicas
 🔮 **Workspace auto-otimizado (2027+):**
 
 ```
-Google Workspace aprende SEU padrão:
+Google Workspace aprende SEU padrêo:
 - Auto-cria filtros Gmail baseado em comportamento
 - Sugere estrutura Drive ideal pro SEU trabalho
 - Sheets templates personalizados (IA vê o que você faz repetidamente)
@@ -197,9 +197,9 @@ Google Workspace aprende SEU padrão:
 → IA abre docs relevantes, puxa emails contexto, cria Sheet tracking, agenda tempo focado
 ```
 
-**ENTÃO POR QUE DOMINAR WORKSPACE AGORA?**
+**ENTêO POR QUE DOMINAR WORKSPACE AGORA?**
 
-**Razão 1: IA funciona MELHOR com sistemas organizados**
+**Razêo 1: IA funciona MELHOR com sistemas organizados**
 
 Workspace organizado → IA tem contexto → sugestões úteis
 Workspace caótico → IA confusa → sugestões genéricas
@@ -213,32 +213,32 @@ IA: "Encontrei 47 emails mencionando 'cliente X'. Qual especificamente?"
 Gmail organizado (labels, filtros, inbox zero):
 Você: "Gemini, acha email do cliente X sobre projeto Y"
 IA: "Email de 12/02 em label 'Cliente X / Projeto Y'. Aqui está.
-     Contexto: Pediu alteração no contrato, prazo 15/02. Quer que responda?"
+     Contexto: Pediu alteraçêo no contrato, prazo 15/02. Quer que responda?"
 ```
 
-**Razão 2: IA atual ainda é limitada (2025)**
+**Razêo 2: IA atual ainda é limitada (2025)**
 
 Realidade hoje:
-- Gemini não entende SUAS prioridades (só heurísticas genéricas)
-- IA sugere, você DECIDE (precisa saber avaliar sugestão)
+- Gemini nêo entende SUAS prioridades (só heurísticas genéricas)
+- IA sugere, você DECIDE (precisa saber avaliar sugestêo)
 - IA erra ~10-20% (você precisa catch errors)
 - Automações complexas ainda precisam Apps Script / Make
 
 **Você ainda precisa:**
-- Estrutura organizada (IA não cria do zero pra você)
+- Estrutura organizada (IA nêo cria do zero pra você)
 - Entender ferramentas (pra guiar IA corretamente)
-- Validar outputs IA (não confiar cegamente)
+- Validar outputs IA (nêo confiar cegamente)
 
-**Razão 3: Fundamentos são transferíveis**
+**Razêo 3: Fundamentos sêo transferíveis**
 
 Princípios que você aprende (inbox zero, time-blocking, estrutura PARA, fórmulas avançadas) funcionam em:
 - Google Workspace hoje
-- Microsoft 365 amanhã
+- Microsoft 365 amanhê
 - Ferramenta IA futura X
 
 **Ferramenta muda, princípios ficam.**
 
-**Razão 4: Vantagem competitiva AGORA (enquanto IA não é perfeita)**
+**Razêo 4: Vantagem competitiva AGORA (enquanto IA nêo é perfeita)**
 
 95% das pessoas usam Workspace mal (inbox bagunçado, Sheets como bloco de notas).
 
@@ -248,7 +248,7 @@ IA democratiza depois (2027+), mas você já está 3 anos à frente.
 
 **Cenário mais provável (2025-2030):**
 
-**Não será:** IA faz tudo, você fica sem fazer nada
+**Nêo será:** IA faz tudo, você fica sem fazer nada
 
 **Será:** Híbrido humano + IA
 
@@ -259,25 +259,25 @@ IA democratiza depois (2027+), mas você já está 3 anos à frente.
 **Analogia GPS:**
 
 Antes: Você = motorista, mapa papel (lento, erro fácil)
-2025: Você = motorista, Waze/Google Maps (sugestão rota, tempo real)
+2025: Você = motorista, Waze/Google Maps (sugestêo rota, tempo real)
 Futuro: Carro autônomo + você (você define destino, carro dirige)
 
 **Workspace é igual:**
 
 Você sempre define DESTINO (objetivos, prioridades, decisões).
-IA/Gemini ajuda CHEGAR LÁ mais rápido (automação, insights, sugestões).
+IA/Gemini ajuda CHEGAR LÁ mais rápido (automaçêo, insights, sugestões).
 
 **SUA ESTRATÉGIA:**
 
-1. **Domine fundamentos AGORA** (este módulo: filtros, fórmulas, Apps Script, organização)
+1. **Domine fundamentos AGORA** (este módulo: filtros, fórmulas, Apps Script, organizaçêo)
 2. **Use Gemini gradualmente** (já disponível: test em Docs, Sheets, Gmail)
-3. **Mantenha sistema organizado** (IA amplifica sistema bom, não salva caos)
+3. **Mantenha sistema organizado** (IA amplifica sistema bom, nêo salva caos)
 4. **Acompanhe updates Google** (Gemini melhora mensalmente, novas features)
 5. **Adapte workflow** (incorpora IA onde faz sentido, mantém controle humano onde crítico)
 
-**A habilidade mais valiosa não é "saber usar Gmail".**
+**A habilidade mais valiosa nêo é "saber usar Gmail".**
 
-**É "organizar informação, priorizar implacavelmente, automatizar repetitivo".**
+**É "organizar informaçêo, priorizar implacavelmente, automatizar repetitivo".**
 
 Isso funciona em Workspace, em ferramenta IA futura, em qualquer coisa.
 
@@ -289,7 +289,7 @@ Google Workspace é MEIO de praticar essa habilidade. Habilidade é o FIM.
 
 **Problema:** Inbox com 500+ emails. Caos total.
 
-**Solução:** Sistema de labels + filtros automáticos.
+**Soluçêo:** Sistema de labels + filtros automáticos.
 
 **Estrutura de Labels:**
 ```
@@ -371,15 +371,15 @@ Estou acompanhando nossa conversa sobre [tópico].
 
 Você conseguiu [o que estava esperando]?
 
-Qualquer dúvida, estou à disposição.
+Qualquer dúvida, estou à disposiçêo.
 
 Abraço,
 [Seu Nome]
 ```
 
-**Template 2: Agendar Reunião**
+**Template 2: Agendar Reuniêo**
 ```
-Assunto: Reunião: [tópico]
+Assunto: Reuniêo: [tópico]
 
 Oi [Nome],
 
@@ -390,7 +390,7 @@ Estes horários funcionam pra você?
 - [Data 2] às [hora]
 - [Data 3] às [hora]
 
-Duração estimada: [X] minutos
+Duraçêo estimada: [X] minutos
 
 Me confirma qual melhor!
 
@@ -442,7 +442,7 @@ Settings → Inbox → Inbox type → Multiple Inboxes
 - **Caixa 1:** is:starred (favoritos)
 - **Caixa 2:** label:@Action (preciso agir)
 - **Caixa 3:** label:@Waiting (aguardando)
-- **Caixa 4:** is:unread (não lidos)
+- **Caixa 4:** is:unread (nêo lidos)
 
 **Resultado:** Vê tudo importante num golpe de vista.
 
@@ -458,7 +458,7 @@ Mais poderosa que FILTER, SORT, etc combinados.
 =QUERY(A1:F100, "SELECT A, B, SUM(F) WHERE C = 'Vendas' GROUP BY A, B ORDER BY SUM(F) DESC")
 ```
 
-Tradução: Seleciona colunas A e B, soma coluna F, filtra onde C = 'Vendas', agrupa por A e B, ordena por soma decrescente.
+Traduçêo: Seleciona colunas A e B, soma coluna F, filtra onde C = 'Vendas', agrupa por A e B, ordena por soma decrescente.
 
 **Exemplos práticos:**
 
@@ -528,7 +528,7 @@ Gráfico na célula! Ótimo para dashboards compactos.
 =PROPER(A2)
 ```
 
-### 2.2 Formatação Condicional Avançada
+### 2.2 Formataçêo Condicional Avançada
 
 **Caso 1: Semáforo de status**
 
@@ -569,7 +569,7 @@ Seleciona range:
 - Fórmulas limpam/transformam dados
 - QUERY, ARRAYFORMULA, etc
 
-**Sheet 3: DASHBOARD (visualização)**
+**Sheet 3: DASHBOARD (visualizaçêo)**
 - Charts
 - Cards com métricas principais
 - Sparklines
@@ -587,7 +587,7 @@ Seleciona range:
 │            │             │             │
 │ ▓▓▓▓▓▓░░░░ 65% da meta                │
 │                                         │
-│ [Gráfico Evolução Diária - Line]      │
+│ [Gráfico Evoluçêo Diária - Line]      │
 │                                         │
 │ TOP 5 PRODUTOS      │ TOP 5 CLIENTES  │
 │ 1. Produto A  R$ X  │ 1. Cliente A    │
@@ -672,7 +672,7 @@ function cleanData() {
 
 Agendar: Triggers → Add trigger → Time-driven → Every day at 2am
 
-**3. Integração API externa:**
+**3. Integraçêo API externa:**
 
 ```javascript
 function fetchDataFromAPI() {
@@ -684,7 +684,7 @@ function fetchDataFromAPI() {
 }
 ```
 
-**Poder:** Sheets vira mini-aplicação web.
+**Poder:** Sheets vira mini-aplicaçêo web.
 
 ## 3. Google Drive Organizado
 
@@ -713,7 +713,7 @@ function fetchDataFromAPI() {
 ├── 📁 3-RECURSOS (referência)
 │   ├── Templates
 │   ├── Brand Assets
-│   ├── Documentação
+│   ├── Documentaçêo
 │   └── Contratos
 │
 └── 📁 4-ARQUIVO (concluído/inativo)
@@ -726,7 +726,7 @@ function fetchDataFromAPI() {
 
 **Arquivos:**
 ```
-YYYY-MM-DD_TipoDocumento_Descrição_vXX
+YYYY-MM-DD_TipoDocumento_Descriçêo_vXX
 
 Exemplos:
 2025-02-15_Proposta_ClienteX_v03.pdf
@@ -762,7 +762,7 @@ Força ordem alfabética consistente.
 
 **2. Pastas compartilhadas para projetos**
 - Cria pasta projeto
-- Compartilha pasta (não arquivo individual)
+- Compartilha pasta (nêo arquivo individual)
 - Todo arquivo novo dentro já está compartilhado
 
 **3. Grupos para times**
@@ -828,7 +828,7 @@ is:trashed
 
 ### 4.1 Time Blocking
 
-**Método:** Agenda não é só reuniões. É TODO seu tempo.
+**Método:** Agenda nêo é só reuniões. É TODO seu tempo.
 
 **Estrutura ideal:**
 
@@ -841,7 +841,7 @@ Segunda-Feira
 13:00-14:00 📧 Email + admin
 14:00-16:00 🎯 Deep Work - Projeto B
 16:00-17:00 🤝 Reuniões/Calls
-17:00-18:00 📝 Planning amanhã + wrap up
+17:00-18:00 📝 Planning amanhê + wrap up
 ```
 
 **Cores (code visual):**
@@ -861,7 +861,7 @@ Segunda-Feira
 - Bloqueia agenda
 - Others see: Busy
 - Notificações: Off
-- Description: "Trabalho focado - não agende reuniões"
+- Description: "Trabalho focado - nêo agende reuniões"
 
 ### 4.2 Múltiplos Calendários
 
@@ -933,7 +933,7 @@ Gmail - New email
 
 **Resultado:** Todo lead email vira linha em planilha rastreável.
 
-### 5.2 Forms + Sheets + Email (Automação completa)
+### 5.2 Forms + Sheets + Email (Automaçêo completa)
 
 **Fluxo:**
 
@@ -976,7 +976,7 @@ Trigger: Forms → On form submit
 
 **Template (Google Docs):**
 ```
-CONTRATO DE PRESTAÇÃO DE SERVIÇOS
+CONTRATO DE PRESTAÇêO DE SERVIÇOS
 
 CONTRATANTE: {{nome_cliente}}
 CNPJ: {{cnpj}}
@@ -1040,9 +1040,9 @@ function gerarContrato() {
    - 3 métricas principais (cards)
    - 2 gráficos
    - 1 tabela com QUERY
-   - Formatação condicional
+   - Formataçêo condicional
 
-**PARTE 3: Automação (20min)**
+**PARTE 3: Automaçêo (20min)**
 
 Escolha 1:
 - A) Apps Script: Email automático quando célula muda
@@ -1052,24 +1052,24 @@ Escolha 1:
 **ENTREGA:**
 - Screenshots de cada parte
 - Link compartilhado (view only)
-- Descrição: o que automatizou e por quê
+- Descriçêo: o que automatizou e por quê
 
-**BÔNUS:** Compartilha no LinkedIn seu dashboard ou automação. Tag #googleworkspace
+**BÔNUS:** Compartilha no LinkedIn seu dashboard ou automaçêo. Tag #googleworkspace
 
 ---
 
 ## Próximos Passos
 
-**Módulo 7: Slack e Comunicação Assíncrona**
+**Módulo 7: Slack e Comunicaçêo Assíncrona**
 - Slack profissional (etiqueta, produtividade)
 - Canais e workflows
 - Bots e automações
-- Integração Slack + Make + Notion
+- Integraçêo Slack + Make + Notion
 
-**Prepare-se para:** Comunicação remota expert level
+**Prepare-se para:** Comunicaçêo remota expert level
 
 Nos vemos lá! 🚀
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

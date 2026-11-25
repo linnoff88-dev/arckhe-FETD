@@ -1,12 +1,12 @@
 # Módulo 10: Próximos Passos na Carreira
 
 **Trilha:** Talento Emergente
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Objetivo:** Planejar crescimento de Júnior para Pleno nos próximos 6-12 meses
 
 ---
 
-## Introdução: Você Completou a Trilha!
+## Introduçêo: Você Completou a Trilha!
 
 Parabéns! Você aprendeu muito. Agora vamos planejar seu crescimento profissional nos próximos 6-12 meses.
 
@@ -14,10 +14,10 @@ Parabéns! Você aprendeu muito. Agora vamos planejar seu crescimento profission
 ✅ Mercado e oportunidades reais (Módulo 1)
 ✅ Perfil profissional strong (Módulo 2)
 ✅ IA (ChatGPT, Claude, Gemini) (Módulo 3)
-✅ Automação no-code (Make) (Módulo 4)
+✅ Automaçêo no-code (Make) (Módulo 4)
 ✅ Produtividade (Notion) (Módulo 5)
 ✅ Google Workspace avançado (Módulo 6)
-✅ Comunicação (Slack) (Módulo 7)
+✅ Comunicaçêo (Slack) (Módulo 7)
 ✅ Design básico (Canva) (Módulo 8)
 ✅ Como conseguir freelances (Módulo 9)
 
@@ -27,7 +27,7 @@ Agora: Como crescer de R$ 1.000-3.000/mês para R$ 6.000-15.000/mês?
 
 ## 1. Roadmap 6-12 Meses (Passo a Passo)
 
-### 1.1 Meses 1-3: Fundação (Estabelecer Presença)
+### 1.1 Meses 1-3: Fundaçêo (Estabelecer Presença)
 
 **Objetivos principais:**
 - ✅ 5-10 projetos completados (portfolio sólido)
@@ -65,7 +65,7 @@ Agora: Como crescer de R$ 1.000-3.000/mês para R$ 6.000-15.000/mês?
 ```
 📊 Planilha mensal:
 - Projetos aplicados: [número]
-- Taxa conversão: [%]
+- Taxa conversêo: [%]
 - Projetos concluídos: [número]
 - Faturamento: R$ [valor]
 - Horas trabalhadas: [número]
@@ -74,12 +74,12 @@ Agora: Como crescer de R$ 1.000-3.000/mês para R$ 6.000-15.000/mês?
 - Conexões novas: [número]
 ```
 
-**Red flags (se não acontecer):**
+**Red flags (se nêo acontecer):**
 - Menos de 3 projetos em 3 meses → Revisa perfil/propostas
-- Taxa conversão <10% → Melhora propostas
+- Taxa conversêo <10% → Melhora propostas
 - Faturamento <R$ 1.500/mês → Aumenta volume aplicações
 
-### 1.2 Meses 4-6: Aceleração (Scale Up)
+### 1.2 Meses 4-6: Aceleraçêo (Scale Up)
 
 **Objetivos:**
 - ✅ 15-20 projetos completados total
@@ -90,10 +90,10 @@ Agora: Como crescer de R$ 1.000-3.000/mês para R$ 6.000-15.000/mês?
 
 **Ações:**
 
-**Especialização emergindo:**
+**Especializaçêo emergindo:**
 - Identifica: Que tipo projeto você FAZ MELHOR?
 - Identifica: Que tipo projeto PAGA MELHOR?
-- Foca: Interseção dos dois
+- Foca: Interseçêo dos dois
 
 **Exemplo:**
 ```
@@ -122,7 +122,7 @@ Mês 4-6: R$ 1.200-3.500/projeto (+100-150%)
 
 **Networking:**
 - 2-3 eventos (online ou presencial)
-- 10-20 DMs outreach/semana (valor, não spam)
+- 10-20 DMs outreach/semana (valor, nêo spam)
 - Comentários genuínos em posts relevantes
 
 **Primeiro retainer:**
@@ -138,16 +138,16 @@ R$ 1.200/mês:
 - Novas automações pequenas
 - Resposta priority (24h)
 
-Quer testar 1 mês? Se não valer, cancela."
+Quer testar 1 mês? Se nêo valer, cancela."
 ```
 
-Taxa conversão: 20-30% clientes one-time viram retainer
+Taxa conversêo: 20-30% clientes one-time viram retainer
 
-### 1.3 Meses 7-12: Consolidação (Profissional Estabelecido)
+### 1.3 Meses 7-12: Consolidaçêo (Profissional Estabelecido)
 
 **Objetivos:**
 - ✅ 30+ projetos lifetime
-- ✅ Especialização definida (conhecido por X)
+- ✅ Especializaçêo definida (conhecido por X)
 - ✅ 2-4 clientes recorrentes
 - ✅ R$ 6.000-12.000/mês
 - ✅ Considerando: CLT ou Full freelance?
@@ -161,7 +161,7 @@ Taxa conversão: 20-30% clientes one-time viram retainer
 = R$ 8.000-12.000/mês estável
 ```
 
-**Especialização consolidada:**
+**Especializaçêo consolidada:**
 
 Agora você é conhecido como:
 - "O cara/menina de Make automations"
@@ -172,14 +172,14 @@ Agora você é conhecido como:
 
 ❌ Antes (generalista):
 ```
-LinkedIn: "Faço automação, IA, Notion, design, etc"
+LinkedIn: "Faço automaçêo, IA, Notion, design, etc"
 ```
 
 ✅ Agora (especialista):
 ```
-LinkedIn: "Automação Make que economiza 20h/semana para e-commerce"
+LinkedIn: "Automaçêo Make que economiza 20h/semana para e-commerce"
 Nichado: E-commerce 10-100 pedidos/dia
-Resultado: 2-3x preço, menos competição
+Resultado: 2-3x preço, menos competiçêo
 ```
 
 **Depoimentos:**
@@ -194,7 +194,7 @@ Resultado: 2-3x preço, menos competição
 - Comentários: Reconhecido em comunidades
 - Maybe: Blog próprio, YouTube (se gosta conteúdo)
 
-**Decisão-chave mês 10-12:**
+**Decisêo-chave mês 10-12:**
 
 **Caminho A: Full Freelance**
 - Gosta autonomia
@@ -212,7 +212,7 @@ Resultado: 2-3x preço, menos competição
 - Freelance side (10-15h/semana)
 - Revenue: Salário + extra freelance
 
-Não tem certo/errado. Depende de você.
+Nêo tem certo/errado. Depende de você.
 
 ## 2. Habilidades Próximo Nível (Júnior → Pleno)
 
@@ -231,7 +231,7 @@ Não tem certo/errado. Depende de você.
 ✓ Domina 3-5 ferramentas profundamente
 ✓ Cria soluções próprias
 ✓ Resolve problemas novos
-✓ Propõe melhorias não pedidas
+✓ Propõe melhorias nêo pedidas
 ✓ Ensina outros
 ```
 
@@ -242,7 +242,7 @@ Não tem certo/errado. Depende de você.
 Meses 1-6: Amplitude (teste tudo)
 Meses 7-12: Profundidade (domina 3-5)
 
-**Exemplo especialização Make:**
+**Exemplo especializaçêo Make:**
 ```
 Mês 1-3: Automações básicas (Gmail → Sheets)
 Mês 4-6: Automações médias (E-commerce flows)
@@ -254,7 +254,7 @@ Mês 10-12: Expert (Webhooks custom, API integration, ensina outros)
 
 Aceita projeto 20% acima do seu nível atual.
 
-Você aprende fazendo (não só cursos).
+Você aprende fazendo (nêo só cursos).
 
 **3. Ensinar = Aprender 2x**
 
@@ -285,31 +285,31 @@ Mas: Certificado + Portfolio = Melhor
 **Júnior (comum):**
 ```
 - Faz o que pedem
-- Comunicação reativa
+- Comunicaçêo reativa
 - Espera instruções
 ```
 
 **Pleno (raro):**
 ```
 - Questiona requisitos (melhorar)
-- Comunicação proativa
+- Comunicaçêo proativa
 - Propõe soluções
 ```
 
 **Soft skills críticas:**
 
-**1. Comunicação Cliente**
+**1. Comunicaçêo Cliente**
 
 ❌ Júnior:
 ```
-Cliente: "Preciso automação"
+Cliente: "Preciso automaçêo"
 Você: "Ok, como você quer?"
 ```
 
 ✅ Pleno:
 ```
-Cliente: "Preciso automação"
-Você: "Entendi! Algumas perguntas pra eu propor melhor solução:
+Cliente: "Preciso automaçêo"
+Você: "Entendi! Algumas perguntas pra eu propor melhor soluçêo:
 
 1. Qual processo você quer automatizar?
 2. Quantas vezes acontece por dia/semana?
@@ -319,14 +319,14 @@ Você: "Entendi! Algumas perguntas pra eu propor melhor solução:
 Com isso monto proposta ideal pra você!"
 ```
 
-**2. Gestão de Expectativas**
+**2. Gestêo de Expectativas**
 
 **Sempre:**
 - Underpromise, overdeliver
 - "Fica pronto em 7 dias" → entrega em 5
 - "Inclui X" → entrega X + Y de bonus
 
-**Comunicação proativa:**
+**Comunicaçêo proativa:**
 ```
 Problema surgiu:
 
@@ -344,7 +344,7 @@ B) Alternativa Z (mantém prazo, mas feature limitada)
 Qual prefere?"
 ```
 
-**3. Negociação Preço**
+**3. Negociaçêo Preço**
 
 **Cenário comum:**
 ```
@@ -355,7 +355,7 @@ Cliente: "Muito caro. Faz por R$ [valor menor]?"
 
 ❌ Ruim:
 "Ok, aceito" (você vale mais!)
-"Não, é esse preço" (perde cliente)
+"Nêo, é esse preço" (perde cliente)
 
 ✅ Bom:
 "Entendo! Posso ajustar escopo pra caber no orçamento:
@@ -372,7 +372,7 @@ Proposta MVP (R$ 1.800):
 Funciona?"
 ```
 
-**4. Gestão de Tempo**
+**4. Gestêo de Tempo**
 
 **Time blocking:**
 ```
@@ -385,10 +385,10 @@ Funciona?"
 
 **Evita:**
 - Trabalhar 24/7 (burnout)
-- Não ter limites (cliente liga 23h)
+- Nêo ter limites (cliente liga 23h)
 - Aceitar tudo (sobrecarga)
 
-**Aprende dizer não:**
+**Aprende dizer nêo:**
 ```
 "Adoraria ajudar, mas estou full esse mês.
 
@@ -397,13 +397,13 @@ Posso começar dia [X] próximo mês?
 Ou indico colega: @pessoa"
 ```
 
-## 3. Especialização vs Generalista
+## 3. Especializaçêo vs Generalista
 
 ### 3.1 A Jornada Natural
 
 **Mês 1-3: Generalista necessário**
 ```
-"Faço automação, IA, Notion, análise dados"
+"Faço automaçêo, IA, Notion, análise dados"
 
 PRO: Mais oportunidades (qualquer projeto)
 CON: Preço baixo (você compete com todo mundo)
@@ -412,7 +412,7 @@ CON: Preço baixo (você compete com todo mundo)
 **Mês 4-6: Padrões emergem**
 ```
 Nota: "Projetos Make pagam 2x mais que Notion"
-Nota: "Gosto mais de automação que design"
+Nota: "Gosto mais de automaçêo que design"
 Nota: "Clientes e-commerce valorizam muito"
 
 → Começa focar
@@ -420,9 +420,9 @@ Nota: "Clientes e-commerce valorizam muito"
 
 **Mês 7-12: Especialista emergente**
 ```
-"Automação Make para e-commerce 10-100 pedidos/dia"
+"Automaçêo Make para e-commerce 10-100 pedidos/dia"
 
-PRO: Preço 2-3x maior (menos competição, mais valor)
+PRO: Preço 2-3x maior (menos competiçêo, mais valor)
 CON: Nicho menor (mas clientes melhores)
 ```
 
@@ -432,7 +432,7 @@ CON: Nicho menor (mas clientes melhores)
 
 **1. AI Ops (IA Operations)**
 ```
-O que: Implementa IA em empresas (não-técnicas)
+O que: Implementa IA em empresas (nêo-técnicas)
 Skills: ChatGPT, Claude, Make, prompts
 Cliente: PMEs querendo usar IA
 Preço: R$ 2.000-6.000/projeto
@@ -469,7 +469,7 @@ Salário CLT: R$ 8.000-16.000/mês
 **5. Knowledge Manager (Notion + IA)**
 ```
 O que: Sistemas conhecimento empresariais
-Skills: Notion expert, IA, documentação
+Skills: Notion expert, IA, documentaçêo
 Cliente: Scale-ups, empresas 50-300 pessoas
 Preço: R$ 3.000-10.000/setup
 Salário CLT: R$ 6.000-12.000/mês
@@ -497,7 +497,7 @@ Salário CLT: R$ 6.000-12.000/mês
 2. O que PAGA melhor?
 3. Onde tem DEMANDA?
 
-Interseção = seu nicho.
+Interseçêo = seu nicho.
 
 ## 4. De Freelance para CLT (Quando e Como)
 
@@ -507,7 +507,7 @@ Interseção = seu nicho.
 - Portfolio forte (20-30 projetos)
 - LinkedIn ativo (600+ conexões)
 - Network estabelecido
-- Sabe o que quer (especialização)
+- Sabe o que quer (especializaçêo)
 - Revenue estável freelance (R$ 5k-10k/mês)
 
 **Por que CLT:**
@@ -517,13 +517,13 @@ Interseção = seu nicho.
 - ✅ Aprender com seniors
 - ✅ Projetos maiores (escala)
 
-**Por que NÃO CLT:**
+**Por que NêO CLT:**
 - ❌ Menos autonomia
 - ❌ Horário fixo
 - ❌ Teto salarial (vs freelance sem limite)
 - ❌ Burocracia
 
-**Não tem certo/errado. Escolha baseada em momento de vida.**
+**Nêo tem certo/errado. Escolha baseada em momento de vida.**
 
 ### 4.2 Como Conseguir CLT (Com Portfolio Freelance)
 
@@ -536,14 +536,14 @@ Interseção = seu nicho.
 Headline: "Automation Specialist | Make & IA | 30+ projetos"
 
 About:
-"Especialista em automação no-code.
+"Especialista em automaçêo no-code.
 
 Últimos 12 meses:
 ✓ 35 projetos entregues
 ✓ R$ 280k economizados para clientes (horas)
 ✓ 4.9/5 rating médio
 
-Buscando posição CLT para crescer com empresa escalando."
+Buscando posiçêo CLT para crescer com empresa escalando."
 ```
 
 **2. Vagas certas:**
@@ -555,17 +555,17 @@ Buscando posição CLT para crescer com empresa escalando."
 
 Busca: LinkedIn, Gupy, startups BR
 
-**3. Networking > Aplicação fria**
+**3. Networking > Aplicaçêo fria**
 ```
 Taxa sucesso:
-- Aplicação fria: 2-5%
+- Aplicaçêo fria: 2-5%
 - Referência interna: 30-50%
 ```
 
 **Estratégia networking:**
 1. Identifica empresas interessantes
 2. Conecta com pessoas que trabalham lá
-3. Conversa genuína (não pede vaga)
+3. Conversa genuína (nêo pede vaga)
 4. Quando vaga abre, você é lembrado
 
 **4. Portfólio como currículo:**
@@ -578,7 +578,7 @@ Deixa mostrar 3 relevantes pro que vocês fazem:
 
 [Projeto 1: Similar ao setor deles]
 - Problema
-- Solução
+- Soluçêo
 - Resultado (ROI, horas, $)
 
 [Projeto 2...]
@@ -601,7 +601,7 @@ Cidades:
 - Internacional remoto: $2.000-4.000/mês (R$ 10k-20k)
 ```
 
-**Negociação:**
+**Negociaçêo:**
 ```
 Oferta: R$ 7.000
 
@@ -614,7 +614,7 @@ Baseado em:
 
 Podemos alinhar em R$ 9.000?
 
-Caso não caiba orçamento, aceito R$ 8.000 + revisão 6 meses."
+Caso nêo caiba orçamento, aceito R$ 8.000 + revisêo 6 meses."
 ```
 
 Taxa sucesso: 60-70% conseguem ajuste
@@ -625,21 +625,21 @@ Taxa sucesso: 60-70% conseguem ajuste
 
 **Discord/Slack:**
 - No-code Brasil
-- Automação PT-BR
+- Automaçêo PT-BR
 - Make/Zapier users
-- IA & Automação
+- IA & Automaçêo
 
 **Como participar:**
 1. Lurk 1-2 semanas (entende cultura)
 2. Começa ajudando (responde dúvidas)
 3. Compartilha aprendizados
-4. Faz networking genuíno (não spam)
+4. Faz networking genuíno (nêo spam)
 
 **Resultado:** Oportunidades vêm naturalmente
 
 **LinkedIn Groups:**
 - No-Code Brasil
-- Automação & Produtividade
+- Automaçêo & Produtividade
 - Startups & Scale-ups BR
 
 **Reddit:**
@@ -654,14 +654,14 @@ Taxa sucesso: 60-70% conseguem ajuste
 - Startup events
 - NoCode meetups (algumas cidades)
 
-**Benefício presencial:** Conexão > digital
+**Benefício presencial:** Conexêo > digital
 
 **Como aproveitar:**
 1. Vai em 2-3/trimestre
-2. Objetivo: 5 conversas genuínas (não networking agressivo)
+2. Objetivo: 5 conversas genuínas (nêo networking agressivo)
 3. Follow-up LinkedIn (sempre)
 
-### 5.3 Contribuir (Não Só Consumir)
+### 5.3 Contribuir (Nêo Só Consumir)
 
 **Formas:**
 - Ajudar iniciantes (você já sabe MUITO vs quem tá começando agora)
@@ -675,18 +675,18 @@ Taxa sucesso: 60-70% conseguem ajuste
 - Network (pessoas te acham)
 - Oportunidades (clientes, vagas, parcerias)
 
-## 6. Educação Contínua
+## 6. Educaçêo Contínua
 
 ### 6.1 Fontes (Gratuitas e Pagas)
 
 **Gratuitas:**
 - **YouTube:** Tutoriais específicos (melhor custo-benefício)
-- **Documentação oficial:** Make, Notion, Google (subestimado!)
+- **Documentaçêo oficial:** Make, Notion, Google (subestimado!)
 - **Comunidades:** Aprende com perguntas/respostas outros
 - **Blogs:** Medium, Dev.to (artigos técnicos)
 
 **Pagas (vale investimento):**
-- **Udemy:** Cursos específicos (espera promoção, R$ 30-50)
+- **Udemy:** Cursos específicos (espera promoçêo, R$ 30-50)
 - **Skillshare:** Design, produtividade
 - **Cursos BR:** Programadores específicos (R$ 200-800)
 
@@ -711,7 +711,7 @@ Taxa sucesso: 60-70% conseguem ajuste
 
 **= 5 horas = Conhecimento solidificado**
 
-**vs Passivo (não funciona):**
+**vs Passivo (nêo funciona):**
 ```
 10 horas: Assiste cursos
 0 horas: Prática
@@ -737,10 +737,10 @@ Mês: [Jan/2025]
 
 📊 PROJETOS:
 - Aplicações enviadas: [número]
-- Taxa conversão: [%]
+- Taxa conversêo: [%]
 - Projetos ativos: [número]
 - Projetos entregues: [número]
-- Satisfação média: [/5]
+- Satisfaçêo média: [/5]
 
 👥 NETWORK:
 - Conexões LinkedIn: [número] (+X vs mês anterior)
@@ -751,7 +751,7 @@ Mês: [Jan/2025]
 📈 HABILIDADES:
 - Habilidade nova aprendida: [qual]
 - Projeto desafiador concluído: [qual]
-- Certificação/curso: [se fez]
+- Certificaçêo/curso: [se fez]
 
 ⭐ DEPOIMENTOS:
 - Testimonials recebidos: [número]
@@ -787,11 +787,11 @@ Mês: [Jan/2025]
 
 ## 8. Exercício Final: Seu Plano 12 Meses
 
-**Duração:** 60-90 minutos
+**Duraçêo:** 60-90 minutos
 
 **Objetivo:** Sair com plano concreto personalizado
 
-**PARTE 1: Reflexão (15min)**
+**PARTE 1: Reflexêo (15min)**
 
 Responda:
 1. O que mais gostei de aprender nesta trilha?
@@ -811,9 +811,9 @@ Objetivos:
 - [Objetivo 2 específico]
 
 Ações:
-- [Ação 1]
-- [Ação 2]
-- [Ação 3]
+- [Açêo 1]
+- [Açêo 2]
+- [Açêo 3]
 
 Métricas:
 - [Métrica 1: valor target]
@@ -881,11 +881,11 @@ LinkedIn strategy:
 - Revisa mensalmente
 - Ajusta baseado em realidade
 
-**IMPORTANTE:** Plano não é set in stone. É vivo. Ajusta conforme aprende.
+**IMPORTANTE:** Plano nêo é set in stone. É vivo. Ajusta conforme aprende.
 
 ---
 
-## Conclusão da Trilha Talento Emergente
+## Conclusêo da Trilha Talento Emergente
 
 **🎉 PARABÉNS! Você completou a Trilha Talento Emergente!**
 
@@ -894,13 +894,13 @@ LinkedIn strategy:
 ✅ **Módulo 1:** Mercado - Oportunidades reais, nichos, salários, demanda
 ✅ **Módulo 2:** Perfil - LinkedIn, portfolio, networking, marca pessoal
 ✅ **Módulo 3:** IA - ChatGPT, Claude, Gemini, prompt engineering, casos de uso
-✅ **Módulo 4:** Automação - Make, workflows, integrações, monetização
+✅ **Módulo 4:** Automaçêo - Make, workflows, integrações, monetizaçêo
 ✅ **Módulo 5:** Notion - Produtividade, GTD, databases, templates
 ✅ **Módulo 6:** Google Workspace - Gmail, Sheets, Drive, Calendar avançado
-✅ **Módulo 7:** Slack - Comunicação assíncrona, bots, integrações
+✅ **Módulo 7:** Slack - Comunicaçêo assíncrona, bots, integrações
 ✅ **Módulo 8:** Canva - Design, posts LinkedIn, apresentações, brand kit
-✅ **Módulo 9:** Freelances - Plataformas, pricing, propostas, proteção
-✅ **Módulo 10:** Próximos Passos - Roadmap, especialização, crescimento
+✅ **Módulo 9:** Freelances - Plataformas, pricing, propostas, proteçêo
+✅ **Módulo 10:** Próximos Passos - Roadmap, especializaçêo, crescimento
 
 **Você agora tem:**
 - Habilidades que empresas pagam R$ 4.000-15.000/mês
@@ -927,7 +927,7 @@ LinkedIn strategy:
 
 **Lembre-se:**
 
-**Conhecimento sem ação = R$ 0**
+**Conhecimento sem açêo = R$ 0**
 
 Você tem as ferramentas. Agora é **EXECUTAR**.
 
@@ -937,7 +937,7 @@ Você tem as ferramentas. Agora é **EXECUTAR**.
 2. **Comece imperfeito** - Perfil 80% é melhor que 0%
 3. **Celebre pequenas vitórias** - Primeiro R$ 100 importa!
 4. **Ajude outros** - Melhor forma de solidificar aprendizado
-5. **Não compare** - Sua jornada é única
+5. **Nêo compare** - Sua jornada é única
 
 **Você está pronto. Agora é executar.**
 
@@ -957,10 +957,10 @@ Você tem as ferramentas. Agora é **EXECUTAR**.
 
 **Continue aprendendo:**
 - Trilha 1: Operacional Produtivo (produtividade avançada)
-- Trilha 2: Comunicador Estratégico (comunicação empresarial)
+- Trilha 2: Comunicador Estratégico (comunicaçêo empresarial)
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**
 
 **Obrigado por completar a trilha. Estamos torcendo por você! 💜**

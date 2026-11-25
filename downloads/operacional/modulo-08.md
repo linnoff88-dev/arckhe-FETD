@@ -17,14 +17,14 @@ Você já parou para calcular quantas horas por mês você passa em reuniões? A
 
 Isso significa que você gasta **quase 1 mês inteiro por ano** apenas sentado em reuniões. E aqui está o pior: estudos mostram que **67% dessas reuniões poderiam ser emails** ou mensagens assíncronas.
 
-### O Custo Real de uma Reunião
+### O Custo Real de uma Reuniêo
 
-Vamos fazer uma conta rápida. Imagine uma reunião de 1 hora com 5 pessoas, onde o salário médio é R$ 50/hora:
+Vamos fazer uma conta rápida. Imagine uma reuniêo de 1 hora com 5 pessoas, onde o salário médio é R$ 50/hora:
 
 ```
-5 pessoas × 1 hora × R$ 50 = R$ 250 por reunião
-Se essa reunião acontece toda semana: R$ 250 × 4 = R$ 1.000/mês
-Anualmente: R$ 12.000 gastos nessa única reunião recorrente
+5 pessoas × 1 hora × R$ 50 = R$ 250 por reuniêo
+Se essa reuniêo acontece toda semana: R$ 250 × 4 = R$ 1.000/mês
+Anualmente: R$ 12.000 gastos nessa única reuniêo recorrente
 ```
 
 Agora multiplique isso por todas as reuniões da empresa. Você tem um problema de milhões de reais queimados em reuniões improdutivas.
@@ -32,16 +32,16 @@ Agora multiplique isso por todas as reuniões da empresa. Você tem um problema 
 ### Os 5 Pecados Mortais das Reuniões
 
 **Pecado #1: Reuniões Desnecessárias**
-- Aquela reunião que poderia ser um email
+- Aquela reuniêo que poderia ser um email
 - "Alinhamento" sem pauta definida
 - Update que poderia ir no Slack
-- Reunião convocada por ansiedade, não por necessidade
+- Reuniêo convocada por ansiedade, nêo por necessidade
 
-**Pecado #2: Falta de Preparação**
+**Pecado #2: Falta de Preparaçêo**
 - Participantes chegam sem ler o material prévio
 - Tempo desperdiçado explicando contexto
-- Decisões adiadas por falta de informação
-- Pessoas lendo documentos durante a reunião
+- Decisões adiadas por falta de informaçêo
+- Pessoas lendo documentos durante a reuniêo
 
 **Pecado #3: Ausência de Pauta Clara**
 - "Vamos dar um alinhamento" (sobre o quê?)
@@ -57,30 +57,30 @@ Agora multiplique isso por todas as reuniões da empresa. Você tem um problema 
 - Ninguém sabe quem ficou de fazer o quê
 
 **Pecado #5: Zero Follow-up**
-- Reunião termina, nada acontece
+- Reuniêo termina, nada acontece
 - Decisões esquecidas em 48 horas
-- Mesma discussão na próxima reunião
+- Mesma discussêo na próxima reuniêo
 - Ciclo infinito de "vamos alinhar"
 
 ### A Consequência Invisível
 
-O pior não é nem o tempo perdido durante a reunião. É o **custo de contexto**:
+O pior nêo é nem o tempo perdido durante a reuniêo. É o **custo de contexto**:
 
-- **Antes da reunião:** 15 minutos para parar o que estava fazendo e se preparar mentalmente
-- **Durante a reunião:** 60 minutos (se for pontual)
-- **Depois da reunião:** 23 minutos em média para retomar o foco na tarefa anterior
+- **Antes da reuniêo:** 15 minutos para parar o que estava fazendo e se preparar mentalmente
+- **Durante a reuniêo:** 60 minutos (se for pontual)
+- **Depois da reuniêo:** 23 minutos em média para retomar o foco na tarefa anterior
 
-**Total real: 98 minutos** por uma reunião de 1 hora.
+**Total real: 98 minutos** por uma reuniêo de 1 hora.
 
 Se você tem 4 reuniões por dia, você perde **6,5 horas** do seu dia só em troca de contexto. Sobram 1,5 horas para trabalho real. E você ainda se pergunta por que termina o dia exausto sem ter feito nada?
 
 ### O Impacto na Qualidade de Vida
 
-Reuniões mal gerenciadas não afetam só a produtividade. Elas destroem sua qualidade de vida:
+Reuniões mal gerenciadas nêo afetam só a produtividade. Elas destroem sua qualidade de vida:
 
 - **Trabalho fragmentado:** Você nunca entra em flow
 - **Hora extra compensatória:** Precisa trabalhar à noite para "compensar" o dia de reuniões
-- **Estresse crônico:** Sensação constante de estar atrasado
+- **Estresse crônico:** Sensaçêo constante de estar atrasado
 - **Burnout:** A epidemia silenciosa de 2024-2025
 
 **A boa notícia?** Você está prestes a aprender como transformar isso.
@@ -88,7 +88,7 @@ Reuniões mal gerenciadas não afetam só a produtividade. Elas destroem sua qua
 Neste módulo, você vai descobrir como:
 - Reduzir suas reuniões em **50-70%**
 - Fazer as reuniões necessárias renderem **3x mais**
-- Automatizar todo o ciclo de pré, durante e pós reunião
+- Automatizar todo o ciclo de pré, durante e pós reuniêo
 - Recuperar **3-5 horas por semana** do seu tempo
 
 Vamos começar.
@@ -101,24 +101,24 @@ Vamos começar.
 
 Você conhece esse teatro:
 
-**Email #1:** "Precisamos marcar uma reunião"
+**Email #1:** "Precisamos marcar uma reuniêo"
 **Email #2:** "Que tal terça?"
-**Email #3:** "Terça não dá pra mim, quarta?"
-**Email #4:** "Quarta de manhã?"
+**Email #3:** "Terça nêo dá pra mim, quarta?"
+**Email #4:** "Quarta de manhê?"
 **Email #5:** "Só à tarde, pode ser 15h?"
-**Email #6:** "Tenho reunião 15h, 16h?"
-**Email #7:** "Vamos de 16h então!"
+**Email #6:** "Tenho reuniêo 15h, 16h?"
+**Email #7:** "Vamos de 16h entêo!"
 
-**7 emails trocados** para marcar uma reunião de 30 minutos. E se forem 4 pessoas? Multiplique isso por 10.
+**7 emails trocados** para marcar uma reuniêo de 30 minutos. E se forem 4 pessoas? Multiplique isso por 10.
 
-**Solução:** Agendamento automático e inteligente.
+**Soluçêo:** Agendamento automático e inteligente.
 
-### Calendly: O Padrão-Ouro do Agendamento
+### Calendly: O Padrêo-Ouro do Agendamento
 
 **Por que Calendly?**
 - **Simplicidade extrema:** Você envia um link, a pessoa escolhe o horário
-- **Integração total:** Google Calendar, Outlook, Zoom, Google Meet
-- **Automação completa:** Confirmações, lembretes, reagendamentos
+- **Integraçêo total:** Google Calendar, Outlook, Zoom, Google Meet
+- **Automaçêo completa:** Confirmações, lembretes, reagendamentos
 - **Profissionalismo:** Sua marca, suas regras, sua imagem
 
 **Setup Completo do Calendly (Passo a Passo):**
@@ -146,29 +146,29 @@ After Event: 15 minutos
 ```
 
 **Por que isso é CRUCIAL:**
-- Você não agenda reuniões back-to-back
+- Você nêo agenda reuniões back-to-back
 - Tem tempo para respirar e preparar
-- Pode processar decisões da reunião anterior
-- Não fica atrasado em cascata
+- Pode processar decisões da reuniêo anterior
+- Nêo fica atrasado em cascata
 
 **PASSO 4: Criar Tipos de Evento**
 
-**Evento 1: "Reunião Rápida (15min)"**
-- Duração: 15 minutos
+**Evento 1: "Reuniêo Rápida (15min)"**
+- Duraçêo: 15 minutos
 - Buffer antes: 5 min
 - Buffer depois: 5 min
 - Local: Google Meet (gerado automaticamente)
 - Uso: Quick sync, dúvidas rápidas
 
-**Evento 2: "Reunião Padrão (30min)"**
-- Duração: 30 minutos
+**Evento 2: "Reuniêo Padrêo (30min)"**
+- Duraçêo: 30 minutos
 - Buffer antes: 15 min
 - Buffer depois: 15 min
 - Local: Google Meet ou Zoom
 - Uso: Alinhamentos, discussões focadas
 
-**Evento 3: "Reunião Estratégica (60min)"**
-- Duração: 60 minutos
+**Evento 3: "Reuniêo Estratégica (60min)"**
+- Duraçêo: 60 minutos
 - Buffer antes: 30 min
 - Buffer depois: 30 min
 - Local: Presencial ou videoconferência
@@ -179,16 +179,16 @@ After Event: 15 minutos
 - Qualquer pessoa pode agendar
 - Uso: Atendimento a equipe, mentorias
 
-**PASSO 5: Personalização Profissional**
+**PASSO 5: Personalizaçêo Profissional**
 ```
 1. Logo da empresa no topo
 2. Foto profissional sua
-3. Descrição clara do que será discutido
-4. Perguntas pré-reunião customizadas
+3. Descriçêo clara do que será discutido
+4. Perguntas pré-reuniêo customizadas
 ```
 
-**Exemplo de perguntas pré-reunião:**
-- "Qual o objetivo principal desta reunião?"
+**Exemplo de perguntas pré-reuniêo:**
+- "Qual o objetivo principal desta reuniêo?"
 - "Que decisões precisam ser tomadas?"
 - "Quais materiais devo revisar antes?"
 - "Há algum deadline relacionado?"
@@ -198,30 +198,30 @@ After Event: 15 minutos
 **Zoom/Google Meet:**
 - Link gerado automaticamente
 - Adicionado ao convite
-- Participante recebe link na confirmação
+- Participante recebe link na confirmaçêo
 
-**Email Automático de Confirmação:**
+**Email Automático de Confirmaçêo:**
 ```
-Assunto: Reunião confirmada: [Título] - [Data] às [Hora]
+Assunto: Reuniêo confirmada: [Título] - [Data] às [Hora]
 
 Olá [Nome],
 
-Sua reunião foi confirmada!
+Sua reuniêo foi confirmada!
 
 DATA: [Data e Hora]
-DURAÇÃO: [X minutos]
+DURAÇêO: [X minutos]
 LINK: [Google Meet/Zoom]
 OBJETIVO: [Preenchido pela pessoa]
 
-PREPARAÇÃO:
-[Lista de materiais ou ações pré-reunião]
+PREPARAÇêO:
+[Lista de materiais ou ações pré-reuniêo]
 
 Para reagendar ou cancelar, use este link: [Link]
 
 Nos vemos em breve!
 ```
 
-### Google Calendar: Recursos Avançados Que Você Não Usa
+### Google Calendar: Recursos Avançados Que Você Nêo Usa
 
 **1. Blocos de Foco Automáticos**
 
@@ -235,7 +235,7 @@ Quarta: 9h-10h30 = Planejamento Semanal (sagrado)
 **Como implementar:**
 1. Crie eventos recorrentes
 2. Marque como "Ocupado"
-3. Adicione descrição: "FOCO - Sem reuniões"
+3. Adicione descriçêo: "FOCO - Sem reuniões"
 4. Defina notificações off (você já sabe que estará lá)
 
 **2. Múltiplos Calendários por Contexto**
@@ -257,7 +257,7 @@ Settings > Goals > Add a Goal
 Exemplo:
 - Objetivo: "Estudar IA 1h por semana"
 - Frequência: 2x por semana, 30min cada
-- Melhor horário: Manhã
+- Melhor horário: Manhê
 
 O Google Calendar AUTOMATICAMENTE encontra horários livres e agenda!
 ```
@@ -280,36 +280,36 @@ Se sua empresa usa Microsoft 365, Bookings é integrado:
 
 **Vantagens:**
 - Já está pago (vem no M365)
-- Integração nativa com Teams
+- Integraçêo nativa com Teams
 - Recursos de agendamento em equipe
 - Perfeito para atendimento estruturado
 
 **Setup rápido:**
 1. Acesse bookings.microsoft.com
 2. Crie sua página de agendamento
-3. Defina serviços (tipos de reunião)
+3. Defina serviços (tipos de reuniêo)
 4. Configure equipe (se aplicável)
 5. Publique link
 
 **Melhor uso:** Equipes de atendimento, suporte, vendas.
 
-### Comparação: Qual Ferramenta Usar?
+### Comparaçêo: Qual Ferramenta Usar?
 
 | Recurso | Calendly | Microsoft Bookings | Google Calendar |
 |---------|----------|-------------------|-----------------|
 | Custo | Grátis + Pago | Incluído M365 | Grátis |
 | Facilidade | 5/5 | 4/5 | 3/5 |
 | Profissionalismo | 5/5 | 4/5 | 3/5 |
-| Integração Zoom | 5/5 | 3/5 | 4/5 |
-| Customização | 5/5 | 4/5 | 3/5 |
+| Integraçêo Zoom | 5/5 | 3/5 | 4/5 |
+| Customizaçêo | 5/5 | 4/5 | 3/5 |
 | Uso em equipe | 4/5 | 5/5 | 2/5 |
 
-**Recomendação:**
+**Recomendaçêo:**
 - **Freelancers/autônomos:** Calendly
 - **Empresas Microsoft:** Bookings
 - **Uso pessoal/simples:** Google Calendar nativo
 
-### Template de Implementação Imediata
+### Template de Implementaçêo Imediata
 
 **SEMANA 1:**
 - Dia 1: Criar conta Calendly (ou equivalente)
@@ -330,50 +330,50 @@ Se sua empresa usa Microsoft 365, Bookings é integrado:
 
 ---
 
-## 3. Preparação Automática (800 palavras)
+## 3. Preparaçêo Automática (800 palavras)
 
-### O Problema da Reunião Improvisada
+### O Problema da Reuniêo Improvisada
 
-Você entra na reunião. Alguém pergunta: "Qual mesmo o objetivo de hoje?"
+Você entra na reuniêo. Alguém pergunta: "Qual mesmo o objetivo de hoje?"
 
-Ninguém leu o material prévio. Metade do tempo é gasto explicando contexto. Nada é decidido. Marcam outra reunião.
+Ninguém leu o material prévio. Metade do tempo é gasto explicando contexto. Nada é decidido. Marcam outra reuniêo.
 
 **Isso acaba agora.**
 
-### Sistema de Preparação Automática em 4 Etapas
+### Sistema de Preparaçêo Automática em 4 Etapas
 
 **ETAPA 1: Coletar Inputs Automaticamente**
 
-Quando alguém agenda reunião via Calendly, configure perguntas obrigatórias:
+Quando alguém agenda reuniêo via Calendly, configure perguntas obrigatórias:
 
 ```
 Perguntas no Calendly:
 
-1. Qual o objetivo principal desta reunião? (obrigatório)
+1. Qual o objetivo principal desta reuniêo? (obrigatório)
 2. Que decisões precisam ser tomadas? (obrigatório)
 3. Quem mais deveria participar?
 4. Materiais/links relevantes:
 5. Há algum deadline crítico?
 ```
 
-**Resultado:** Você já sabe sobre o que falar ANTES da reunião.
+**Resultado:** Você já sabe sobre o que falar ANTES da reuniêo.
 
 **ETAPA 2: Agenda Automática com IA**
 
 Use ChatGPT para criar agenda estruturada:
 
-**PROMPT: Criar Agenda de Reunião**
+**PROMPT: Criar Agenda de Reuniêo**
 ```
-Crie uma agenda de reunião estruturada com base nestas informações:
+Crie uma agenda de reuniêo estruturada com base nestas informações:
 
 OBJETIVO: [Colar resposta da pessoa]
 DECISÕES NECESSÁRIAS: [Colar resposta]
 PARTICIPANTES: [Lista]
-DURAÇÃO: 30 minutos
+DURAÇêO: 30 minutos
 
 Formate assim:
 - 5 min: Check-in e alinhamento
-- 15 min: Discussão dos pontos principais
+- 15 min: Discussêo dos pontos principais
 - 5 min: Decisões e próximos passos
 - 5 min: Definir responsáveis e prazos
 
@@ -382,18 +382,18 @@ Seja específico e acionável.
 
 **Output do ChatGPT:**
 ```
-AGENDA - Reunião de Alinhamento Marketing Q2
+AGENDA - Reuniêo de Alinhamento Marketing Q2
 
-DURAÇÃO: 30 minutos
+DURAÇêO: 30 minutos
 OBJETIVO: Definir estratégia de conteúdo para Q2
 
 ESTRUTURA:
 
 [0-5 min] CHECK-IN
 - Breve rodada: Como está o andamento de cada área?
-- Confirmar objetivo da reunião
+- Confirmar objetivo da reuniêo
 
-[5-20 min] DISCUSSÃO
+[5-20 min] DISCUSSêO
 - Análise de resultados Q1 (5 min)
   - Métricas de engajamento
   - ROI de campanhas
@@ -408,10 +408,10 @@ ESTRUTURA:
 
 [25-30 min] PRÓXIMOS PASSOS
 - Atribuir responsáveis
-- Definir deadline de cada ação
+- Definir deadline de cada açêo
 - Agendar próximo follow-up
 
-MATERIAL PRÉ-REUNIÃO:
+MATERIAL PRÉ-REUNIêO:
 - Dashboard Q1: [link]
 - Proposta de budget: [link]
 ```
@@ -420,9 +420,9 @@ MATERIAL PRÉ-REUNIÃO:
 
 Use IA para preparar contexto relevante:
 
-**PROMPT: Pesquisa Pré-Reunião**
+**PROMPT: Pesquisa Pré-Reuniêo**
 ```
-Vou ter uma reunião sobre [TÓPICO].
+Vou ter uma reuniêo sobre [TÓPICO].
 
 Faça uma pesquisa e me dê:
 1. 5 estatísticas recentes relevantes
@@ -435,59 +435,59 @@ Seja conciso e prático.
 
 **Exemplo real:**
 ```
-Entrada: "Vou ter uma reunião sobre implementar IA no atendimento ao cliente"
+Entrada: "Vou ter uma reuniêo sobre implementar IA no atendimento ao cliente"
 
 Saída ChatGPT:
 
 ESTATÍSTICAS RELEVANTES:
 1. 73% dos clientes esperam que empresas ofereçam atendimento 24/7
-2. Chatbots com IA resolvem 68% das questões sem intervenção humana
+2. Chatbots com IA resolvem 68% das questões sem intervençêo humana
 3. Tempo médio de resposta reduz de 12h para 2min com IA
-4. ROI médio de 300% em 12 meses pós-implementação
-5. 85% de satisfação do cliente com bots bem treinados
+4. ROI médio de 300% em 12 meses pós-implementaçêo
+5. 85% de satisfaçêo do cliente com bots bem treinados
 
 TENDÊNCIAS 2024-2025:
 1. IA conversacional com GPT-4 e além
-2. Personalização em tempo real
-3. Integração omnichannel (WhatsApp, email, site)
+2. Personalizaçêo em tempo real
+3. Integraçêo omnichannel (WhatsApp, email, site)
 
 PERGUNTAS-CHAVE:
 1. Qual volume de tickets atual e esperado?
 2. Quais os 10 problemas mais comuns dos clientes?
-3. Budget disponível para implementação?
+3. Budget disponível para implementaçêo?
 
 OBJEÇÕES ESPERADAS:
-- "E se o bot errar?" - Ter sempre escalação para humano
+- "E se o bot errar?" - Ter sempre escalaçêo para humano
 - "Muito caro" - Mostrar ROI em 12 meses
-- "Clientes preferem humanos" - Dados mostram 85% de satisfação
+- "Clientes preferem humanos" - Dados mostram 85% de satisfaçêo
 ```
 
-**ETAPA 4: Organização e Envio Automático**
+**ETAPA 4: Organizaçêo e Envio Automático**
 
 **Setup com Zapier/Make:**
 
 ```
-TRIGGER: Nova reunião agendada (Calendly)
+TRIGGER: Nova reuniêo agendada (Calendly)
 
-AÇÃO 1: Extrair informações (objetivo, participantes, data)
+AÇêO 1: Extrair informações (objetivo, participantes, data)
 
-AÇÃO 2: Enviar para ChatGPT criar agenda (via API)
+AÇêO 2: Enviar para ChatGPT criar agenda (via API)
 
-AÇÃO 3: Criar documento Google Docs com agenda
+AÇêO 3: Criar documento Google Docs com agenda
 
-AÇÃO 4: Enviar email para todos os participantes 24h antes
+AÇêO 4: Enviar email para todos os participantes 24h antes
 ```
 
 **Template de Email Automático:**
 ```
-Assunto: [AMANHÃ] Reunião: [Título] - Agenda e Preparação
+Assunto: [AMANHê] Reuniêo: [Título] - Agenda e Preparaçêo
 
 Olá time,
 
-Nossa reunião acontece amanhã:
+Nossa reuniêo acontece amanhê:
 DATA: [Data e Hora]
 LINK: [Link Meet/Zoom]
-DURAÇÃO: [X minutos]
+DURAÇêO: [X minutos]
 
 AGENDA COMPLETA:
 [Inserir agenda gerada pela IA]
@@ -495,7 +495,7 @@ AGENDA COMPLETA:
 MATERIAL PRÉ-LEITURA:
 [Links dos documentos relevantes]
 
-PREPARAÇÃO NECESSÁRIA:
+PREPARAÇêO NECESSÁRIA:
 - Ler documento X (5 min)
 - Revisar dados Y (3 min)
 - Pensar em Z (2 min)
@@ -505,10 +505,10 @@ PARA SER EFICIENTE:
 - Tenha câmera ligada
 - Prepare suas contribuições
 
-Nos vemos amanhã!
+Nos vemos amanhê!
 ```
 
-### Automação Completa: Tutorial Zapier
+### Automaçêo Completa: Tutorial Zapier
 
 **Setup passo a passo:**
 
@@ -523,7 +523,7 @@ STEP 1: Trigger
 STEP 2: Create Document
 - App: Google Docs
 - Action: Create Document from Template
-- Template: "Template Agenda Reunião"
+- Template: "Template Agenda Reuniêo"
 - Campos dinâmicos:
   {{evento_nome}}
   {{data_hora}}
@@ -533,7 +533,7 @@ STEP 3: Send Email
 - App: Gmail
 - Action: Send Email
 - To: {{invitee_email}} + organizador
-- Subject: "Reunião amanhã: {{evento}} - Agenda"
+- Subject: "Reuniêo amanhê: {{evento}} - Agenda"
 - Body: [Template acima]
 - Attach: Link do Google Docs criado
 ```
@@ -542,7 +542,7 @@ STEP 3: Send Email
 
 3. **Ativar e esquecer**
 
-### Checklist de Preparação Perfeita
+### Checklist de Preparaçêo Perfeita
 
 - [ ] Objetivo claro definido
 - [ ] Agenda estruturada criada
@@ -553,13 +553,13 @@ STEP 3: Send Email
 - [ ] Responsável pela ata definido (ou ferramenta automática)
 
 **Resultado:**
-- **95% de redução** em reuniões "perdidas"
+- **95% de reduçêo** em reuniões "perdidas"
 - **Decisões 3x mais rápidas**
-- **Zero tempo** gasto em preparação manual
+- **Zero tempo** gasto em preparaçêo manual
 
 ---
 
-## 4. Transcrição e Atas Automáticas (1200 palavras)
+## 4. Transcriçêo e Atas Automáticas (1200 palavras)
 
 ### O Fim das Atas Manuais
 
@@ -567,14 +567,14 @@ STEP 3: Send Email
 
 Silêncio constrangedor.
 
-Aquela pessoa que sempre é "voluntariada" a tomar notas passa a reunião inteira digitando, sem participar de verdade. A ata chega 3 dias depois (se chegar). Ninguém lembra do que foi decidido.
+Aquela pessoa que sempre é "voluntariada" a tomar notas passa a reuniêo inteira digitando, sem participar de verdade. A ata chega 3 dias depois (se chegar). Ninguém lembra do que foi decidido.
 
-**Solução:** Transcrição automática + IA para resumir.
+**Soluçêo:** Transcriçêo automática + IA para resumir.
 
-### Opção 1: Otter.ai - O Melhor para Transcrição
+### Opçêo 1: Otter.ai - O Melhor para Transcriçêo
 
 **O que é Otter.ai:**
-- Transcrição em tempo real de reuniões
+- Transcriçêo em tempo real de reuniões
 - Identifica quem falou o quê
 - Marca action items automaticamente
 - Integra com Zoom, Meet, Teams
@@ -585,9 +585,9 @@ Aquela pessoa que sempre é "voluntariada" a tomar notas passa a reunião inteir
 1. Acesse otter.ai
 2. Crie conta (grátis: 600 min/mês)
 3. Conecte Google Calendar
-4. Ative integração Zoom/Meet
+4. Ative integraçêo Zoom/Meet
 
-**PASSO 2: Configuração de Reunião Automática**
+**PASSO 2: Configuraçêo de Reuniêo Automática**
 ```
 Settings > Meetings > Auto-join
 
@@ -600,65 +600,65 @@ Ativar:
 Resultado: Otter entra em TODAS as reuniões automaticamente
 ```
 
-**PASSO 3: Durante a Reunião**
+**PASSO 3: Durante a Reuniêo**
 
 O Otter faz automaticamente:
 - Transcreve tudo em tempo real
-- Identifica speakers (após configuração inicial)
+- Identifica speakers (após configuraçêo inicial)
 - Permite adicionar fotos/slides em momentos específicos
 - Marca timestamps importantes
 
 **Você pode fazer ao vivo:**
-- Digitar **!! ação:** "João vai enviar proposta até sexta"
-- Digitar **?? decisão:** "Aprovado budget de R$ 50k"
+- Digitar **!! açêo:** "Joêo vai enviar proposta até sexta"
+- Digitar **?? decisêo:** "Aprovado budget de R$ 50k"
 - Adicionar comentários em tempo real
 
-**PASSO 4: Pós-Reunião Automática**
+**PASSO 4: Pós-Reuniêo Automática**
 
 Otter envia automaticamente:
-- Link da transcrição completa
+- Link da transcriçêo completa
 - Lista de action items marcados
-- Resumo da reunião (gerado por IA)
-- Gravação de áudio (se ativado)
+- Resumo da reuniêo (gerado por IA)
+- Gravaçêo de áudio (se ativado)
 
 **Email automático do Otter:**
 ```
-Reunião: Planejamento Sprint Q2
-Duração: 28 minutos
+Reuniêo: Planejamento Sprint Q2
+Duraçêo: 28 minutos
 Participantes: 5
 
 RESUMO GERADO POR IA:
 A equipe discutiu prioridades para Q2, decidiu focar em 3 features principais,
-e alocou budget de R$ 50k. João ficou responsável por validar proposta técnica
+e alocou budget de R$ 50k. Joêo ficou responsável por validar proposta técnica
 até sexta-feira.
 
 ACTION ITEMS:
-- João: Enviar proposta técnica (até 18/jan)
+- Joêo: Enviar proposta técnica (até 18/jan)
 - Maria: Validar budget com financeiro (até 20/jan)
 - Pedro: Montar cronograma detalhado (até 22/jan)
 
-Transcrição completa: [link]
+Transcriçêo completa: [link]
 Áudio: [link]
 ```
 
-### Opção 2: Google Meet - Transcrição Nativa
+### Opçêo 2: Google Meet - Transcriçêo Nativa
 
 **Quando usar:** Reuniões internas em empresas Google Workspace.
 
 **Como ativar:**
-1. Agendar reunião no Google Calendar
-2. Ao entrar na reunião, clicar em **Atividades** (canto inferior direito)
-3. Clicar em **Transcrição** > **Iniciar transcrição**
+1. Agendar reuniêo no Google Calendar
+2. Ao entrar na reuniêo, clicar em **Atividades** (canto inferior direito)
+3. Clicar em **Transcriçêo** > **Iniciar transcriçêo**
 
 **O que o Google Meet faz:**
 - Transcreve em tempo real (inglês e português)
 - Salva automaticamente no Google Docs
 - Link é adicionado ao evento do calendário
-- Participantes recebem notificação quando disponível
+- Participantes recebem notificaçêo quando disponível
 
-**Limitação:** Não identifica speakers automaticamente (em português).
+**Limitaçêo:** Nêo identifica speakers automaticamente (em português).
 
-### Opção 3: Zoom - Gravação + Transcrição
+### Opçêo 3: Zoom - Gravaçêo + Transcriçêo
 
 **Setup Zoom para Atas Automáticas:**
 
@@ -673,27 +673,27 @@ Ativar:
 ✓ Optimize for 3rd party video editor
 ```
 
-**PASSO 2: Durante Reunião**
+**PASSO 2: Durante Reuniêo**
 1. Clicar em **Record** (gravar)
 2. Escolher local ou nuvem
-3. Reunião é gravada automaticamente
+3. Reuniêo é gravada automaticamente
 
-**PASSO 3: Pós-Reunião**
-- Zoom processa gravação
-- Gera arquivo de transcrição (.vtt)
+**PASSO 3: Pós-Reuniêo**
+- Zoom processa gravaçêo
+- Gera arquivo de transcriçêo (.vtt)
 - Envia email com links
 - Salva na nuvem Zoom (plano pago) ou local (grátis)
 
 **Dica Pro:** Use Otter.ai + Zoom juntos
 - Zoom grava vídeo
-- Otter faz transcrição melhor + action items
+- Otter faz transcriçêo melhor + action items
 
-### Opção 4: Fireflies.ai - Análise Avançada
+### Opçêo 4: Fireflies.ai - Análise Avançada
 
 **O diferencial do Fireflies:**
-- Transcrição + análise de sentimento
-- Estatísticas da reunião (quem falou mais/menos)
-- Integração com CRM (Salesforce, HubSpot)
+- Transcriçêo + análise de sentimento
+- Estatísticas da reuniêo (quem falou mais/menos)
+- Integraçêo com CRM (Salesforce, HubSpot)
 - Soundbites (trechos importantes destacados)
 
 **Melhor para:** Reuniões de vendas, customer success, análise de performance.
@@ -706,15 +706,15 @@ Ativar:
 
 **Output do Fireflies:**
 ```
-ESTATÍSTICAS DA REUNIÃO:
+ESTATÍSTICAS DA REUNIêO:
 - Talk time ratio: 60% cliente / 40% vendedor (ideal!)
 - Longest monologue: 3min 20s (vendedor explicando produto)
 - Questions asked: 12 pelo vendedor, 8 pelo cliente
-- Palavras-chave: "preço" (15x), "integração" (10x), "suporte" (8x)
+- Palavras-chave: "preço" (15x), "integraçêo" (10x), "suporte" (8x)
 
 MOMENTOS-CHAVE:
-[03:45] Cliente pergunta sobre integração com sistema X
-[12:30] Objeção de preço mencionada
+[03:45] Cliente pergunta sobre integraçêo com sistema X
+[12:30] Objeçêo de preço mencionada
 [18:00] Cliente demonstra interesse forte em feature Y
 [24:15] Próximos passos definidos
 
@@ -725,13 +725,13 @@ ACTION ITEMS:
 
 ### IA para Resumir Reuniões: Prompts Poderosos
 
-**Se você já tem transcrição (de qualquer ferramenta), use IA para processar:**
+**Se você já tem transcriçêo (de qualquer ferramenta), use IA para processar:**
 
 **PROMPT 1: Resumo Executivo**
 ```
-Analise esta transcrição de reunião e crie um resumo executivo contendo:
+Analise esta transcriçêo de reuniêo e crie um resumo executivo contendo:
 
-1. OBJETIVO DA REUNIÃO (1 frase)
+1. OBJETIVO DA REUNIêO (1 frase)
 2. PRINCIPAIS TÓPICOS DISCUTIDOS (3-5 bullets)
 3. DECISÕES TOMADAS (lista numerada)
 4. ACTION ITEMS (quem, o quê, quando)
@@ -740,47 +740,47 @@ Analise esta transcrição de reunião e crie um resumo executivo contendo:
 
 Seja objetivo e acionável.
 
-TRANSCRIÇÃO:
-[Colar transcrição completa]
+TRANSCRIÇêO:
+[Colar transcriçêo completa]
 ```
 
 **PROMPT 2: Extrair Action Items**
 ```
-Da transcrição abaixo, extraia TODOS os action items mencionados.
+Da transcriçêo abaixo, extraia TODOS os action items mencionados.
 
 Para cada item, identifique:
 - Responsável (nome da pessoa)
-- Ação (verbo + objetivo claro)
-- Prazo (se mencionado, senão indique "não definido")
+- Açêo (verbo + objetivo claro)
+- Prazo (se mencionado, senêo indique "nêo definido")
 
 Formate como checklist acionável.
 
-TRANSCRIÇÃO:
+TRANSCRIÇêO:
 [Colar]
 ```
 
 **PROMPT 3: Identificar Decisões**
 ```
-Analise a transcrição e identifique TODAS as decisões tomadas.
+Analise a transcriçêo e identifique TODAS as decisões tomadas.
 
-Para cada decisão:
+Para cada decisêo:
 - O que foi decidido
-- Quem tomou a decisão (se houver consenso ou decisor único)
+- Quem tomou a decisêo (se houver consenso ou decisor único)
 - Contexto (por que foi decidido)
 - Impacto esperado
 
-TRANSCRIÇÃO:
+TRANSCRIÇêO:
 [Colar]
 ```
 
 **PROMPT 4: Criar Ata Formal**
 ```
-Com base na transcrição, crie uma ata formal de reunião profissional:
+Com base na transcriçêo, crie uma ata formal de reuniêo profissional:
 
 CABEÇALHO:
-- Data, horário, duração
+- Data, horário, duraçêo
 - Participantes presentes
-- Objetivo da reunião
+- Objetivo da reuniêo
 
 RESUMO EXECUTIVO:
 - Principais pontos (3-5 parágrafos)
@@ -793,29 +793,29 @@ DECISÕES:
 - [Lista numerada]
 
 ACTION ITEMS:
-- [Tabela: Responsável | Ação | Prazo]
+- [Tabela: Responsável | Açêo | Prazo]
 
-PRÓXIMA REUNIÃO:
+PRÓXIMA REUNIêO:
 - Data e pauta sugerida
 
 Tom: Profissional, objetivo, formal.
 
-TRANSCRIÇÃO:
+TRANSCRIÇêO:
 [Colar]
 ```
 
-### Automação Completa: Reunião → Ata → Tarefas
+### Automaçêo Completa: Reuniêo → Ata → Tarefas
 
 **Fluxo ideal com Zapier/Make:**
 
 ```
-ETAPA 1: Reunião acontece
+ETAPA 1: Reuniêo acontece
 - Otter.ai transcreve automaticamente
 
-ETAPA 2: Zapier detecta nova transcrição
+ETAPA 2: Zapier detecta nova transcriçêo
 TRIGGER: Otter.ai - New Transcript
 
-ETAPA 3: Enviar transcrição para ChatGPT (API)
+ETAPA 3: Enviar transcriçêo para ChatGPT (API)
 ACTION: OpenAI - Create Completion
 PROMPT: [Usar Prompt 1 - Resumo Executivo]
 
@@ -833,42 +833,42 @@ Ou: Asana - Create Task
 
 ETAPA 7: Enviar email para participantes
 ACTION: Gmail - Send Email
-Para: Participantes da reunião
-Assunto: "Ata + Action Items: [Nome Reunião]"
+Para: Participantes da reuniêo
+Assunto: "Ata + Action Items: [Nome Reuniêo]"
 Corpo: Resumo + Link do documento + Lista de tarefas
 ```
 
 **Resultado:**
 - **Zero esforço manual**
-- Ata pronta em **5 minutos** após reunião
-- Tarefas já criadas no sistema de gestão
+- Ata pronta em **5 minutos** após reuniêo
+- Tarefas já criadas no sistema de gestêo
 - Todos notificados automaticamente
 
-### Comparação de Ferramentas
+### Comparaçêo de Ferramentas
 
-| Ferramenta | Custo/mês | Qualidade | Action Items | Integração | Melhor Para |
+| Ferramenta | Custo/mês | Qualidade | Action Items | Integraçêo | Melhor Para |
 |------------|-----------|-----------|--------------|------------|-------------|
 | Otter.ai | $0-20 | 5/5 | Sim | Zoom, Meet, Teams | Uso geral |
-| Google Meet | Grátis* | 4/5 | Não | Google só | G Suite |
-| Zoom | Grátis* | 3/5 | Não | Zoom só | Zoom users |
+| Google Meet | Grátis* | 4/5 | Nêo | Google só | G Suite |
+| Zoom | Grátis* | 3/5 | Nêo | Zoom só | Zoom users |
 | Fireflies | $0-29 | 5/5 | Sim + análise | Tudo | Vendas/CS |
 
 *Grátis se já tem a ferramenta de videoconferência
 
-**Recomendação:**
+**Recomendaçêo:**
 - **Começar:** Otter.ai (600 min grátis/mês)
 - **Profissional:** Fireflies.ai (analytics)
-- **Econômico:** Google Meet transcrição + ChatGPT para resumir
+- **Econômico:** Google Meet transcriçêo + ChatGPT para resumir
 
 ### Template de Ata Automática
 
-**Salve este template no Google Docs e use como padrão:**
+**Salve este template no Google Docs e use como padrêo:**
 
 ```
-ATA DE REUNIÃO
+ATA DE REUNIêO
 
 DATA: [Data]
-HORÁRIO: [Início] - [Fim] ([Duração])
+HORÁRIO: [Início] - [Fim] ([Duraçêo])
 OBJETIVO: [Objetivo principal]
 
 PARTICIPANTES:
@@ -878,48 +878,48 @@ PARTICIPANTES:
 
 RESUMO EXECUTIVO
 
-[2-3 parágrafos sumarizando reunião]
+[2-3 parágrafos sumarizando reuniêo]
 
 PRINCIPAIS DISCUSSÕES
 
 TÓPICO 1: [Nome do Tópico]
-[Resumo da discussão]
+[Resumo da discussêo]
 
 TÓPICO 2: [Nome do Tópico]
-[Resumo da discussão]
+[Resumo da discussêo]
 
 TÓPICO 3: [Nome do Tópico]
-[Resumo da discussão]
+[Resumo da discussêo]
 
 DECISÕES TOMADAS
 
-1. [Decisão 1]
+1. [Decisêo 1]
    Contexto: [Por que foi decidido]
 
-2. [Decisão 2]
+2. [Decisêo 2]
    Contexto: [Por que foi decidido]
 
 ACTION ITEMS
 
-| # | RESPONSÁVEL | AÇÃO | PRAZO | STATUS |
+| # | RESPONSÁVEL | AÇêO | PRAZO | STATUS |
 |---|-------------|------|-------|--------|
-| 1 | [Nome] | [Ação clara e específica] | [Data] | Pendente |
-| 2 | [Nome] | [Ação clara e específica] | [Data] | Pendente |
+| 1 | [Nome] | [Açêo clara e específica] | [Data] | Pendente |
+| 2 | [Nome] | [Açêo clara e específica] | [Data] | Pendente |
 
 RISCOS E BLOQUEIOS
 
-- [Risco 1]: [Descrição] - Mitigação: [Como resolver]
+- [Risco 1]: [Descriçêo] - Mitigaçêo: [Como resolver]
 
 PRÓXIMOS PASSOS
 
-Próxima reunião: [Data sugerida]
+Próxima reuniêo: [Data sugerida]
 Pauta sugerida: [Tópicos para próxima]
 
 ANEXOS E REFERÊNCIAS
 
-- [Link 1]: [Descrição]
-- Transcrição completa: [Link]
-- Gravação: [Link, se houver]
+- [Link 1]: [Descriçêo]
+- Transcriçêo completa: [Link]
+- Gravaçêo: [Link, se houver]
 
 Ata gerada automaticamente via [Otter.ai/Fireflies/etc]
 Revisada por: [Nome]
@@ -930,28 +930,28 @@ Data de envio: [Data]
 
 ## 5. Follow-up Automático (800 palavras)
 
-### O Buraco Negro Pós-Reunião
+### O Buraco Negro Pós-Reuniêo
 
-Reunião termina. Todo mundo concorda com as ações. "Vamos fazer!"
+Reuniêo termina. Todo mundo concorda com as ações. "Vamos fazer!"
 
 Uma semana depois: nada foi feito.
 
 **Por que isso acontece?**
 1. Ninguém documenta os action items claramente
-2. Não há sistema de acompanhamento
+2. Nêo há sistema de acompanhamento
 3. Responsáveis esquecem (vida acontece)
 4. Sem accountability
 
-**Solução:** Sistema automático de follow-up.
+**Soluçêo:** Sistema automático de follow-up.
 
 ### Sistema de Follow-up em 5 Camadas
 
-**CAMADA 1: Extração Automática de Tarefas**
+**CAMADA 1: Extraçêo Automática de Tarefas**
 
-Usando o fluxo de transcrição + IA do tópico anterior:
-- Reunião é transcrita (Otter/Fireflies)
+Usando o fluxo de transcriçêo + IA do tópico anterior:
+- Reuniêo é transcrita (Otter/Fireflies)
 - IA extrai action items com responsável e prazo
-- Tarefas são criadas automaticamente em Trello/Asana/Notion
+- Tarefas sêo criadas automaticamente em Trello/Asana/Notion
 
 **Setup Zapier: Otter → Trello**
 ```
@@ -960,7 +960,7 @@ TRIGGER: Otter.ai - New Transcript Available
 ACTION 1: Extract Action Items
 - App: OpenAI (ChatGPT API)
 - Prompt: "Extraia action items com responsável e prazo"
-- Input: Transcrição do Otter
+- Input: Transcriçêo do Otter
 
 ACTION 2: Parse Output
 - App: Formatter by Zapier
@@ -971,16 +971,16 @@ ACTION 3: Create Card (para cada item)
 - App: Trello
 - Board: "Action Items - Reuniões"
 - List: "A Fazer"
-- Card Title: [Ação]
-- Description: "Responsável: [Nome]\nPrazo: [Data]\nReunião: [Link]"
+- Card Title: [Açêo]
+- Description: "Responsável: [Nome]\nPrazo: [Data]\nReuniêo: [Link]"
 - Due Date: [Data do prazo]
 - Members: [Atribuir responsável]
-- Labels: "Reunião"
+- Labels: "Reuniêo"
 ```
 
 **CAMADA 2: Lembretes Automáticos para Responsáveis**
 
-**Lembrete 1: Imediatamente Após Reunião**
+**Lembrete 1: Imediatamente Após Reuniêo**
 ```
 TRIGGER: Trello - Card Created (na lista "A Fazer")
 
@@ -991,11 +991,11 @@ Subject: "Action Item: [Nome da Tarefa]"
 Body:
 Olá [Nome],
 
-Você ficou responsável por esta ação na reunião de hoje:
+Você ficou responsável por esta açêo na reuniêo de hoje:
 
-AÇÃO: [Descrição completa]
+AÇêO: [Descriçêo completa]
 PRAZO: [Data]
-CONTEXTO: [Link da ata/transcrição]
+CONTEXTO: [Link da ata/transcriçêo]
 
 Para marcar como concluída, mova o card no Trello ou responda este email.
 
@@ -1016,26 +1016,26 @@ Assunto: Lembrete: [Tarefa] - Prazo em 5 dias
 
 Olá [Nome],
 
-Só um lembrete amigável: você tem 5 dias até o prazo da ação:
+Só um lembrete amigável: você tem 5 dias até o prazo da açêo:
 
-[Descrição da ação]
+[Descriçêo da açêo]
 
-Status atual: [Em andamento/Não iniciada]
+Status atual: [Em andamento/Nêo iniciada]
 
-Precisa de ajuda ou extensão de prazo? Só avisar!
+Precisa de ajuda ou extensêo de prazo? Só avisar!
 ```
 
 **Lembrete 3: 24h Antes do Prazo**
 ```
 Email:
-Assunto: AMANHÃ é o prazo: [Tarefa]
+Assunto: AMANHê é o prazo: [Tarefa]
 
 [Nome],
 
-Amanhã é o prazo para:
-[Ação]
+Amanhê é o prazo para:
+[Açêo]
 
-Se não conseguir concluir, por favor:
+Se nêo conseguir concluir, por favor:
 1. Avise imediatamente
 2. Proponha novo prazo
 3. Identifique bloqueios
@@ -1043,7 +1043,7 @@ Se não conseguir concluir, por favor:
 Estamos aqui para ajudar!
 ```
 
-**CAMADA 3: Notificações de Escalação**
+**CAMADA 3: Notificações de Escalaçêo**
 
 Se tarefa está atrasada:
 ```
@@ -1061,9 +1061,9 @@ Mensagem: "FYI: Action item de [Nome] está 3 dias atrasada. Contexto: [link]"
 Criar dashboard simples no Google Sheets (via Zapier):
 
 **Colunas:**
-| Reunião | Data | Responsável | Ação | Prazo | Status | Dias Restantes |
+| Reuniêo | Data | Responsável | Açêo | Prazo | Status | Dias Restantes |
 |---------|------|-------------|------|-------|--------|----------------|
-| Sprint Planning | 10/jan | João | Deploy feature X | 20/jan | Em andamento | 5 |
+| Sprint Planning | 10/jan | Joêo | Deploy feature X | 20/jan | Em andamento | 5 |
 | Alinhamento Vendas | 11/jan | Maria | Criar proposta | 18/jan | Concluída | - |
 | Review Q1 | 12/jan | Pedro | Relatório final | 15/jan | Atrasada | -3 |
 
@@ -1072,12 +1072,12 @@ Criar dashboard simples no Google Sheets (via Zapier):
 =SE(STATUS="Concluída"; "-"; PRAZO - HOJE())
 ```
 
-**Formatação condicional:**
+**Formataçêo condicional:**
 - Verde: 5+ dias restantes
 - Amarelo: 2-4 dias
 - Vermelho: 0-1 dia ou atrasado
 
-**CAMADA 5: Próxima Reunião Agendada Automaticamente**
+**CAMADA 5: Próxima Reuniêo Agendada Automaticamente**
 
 Para reuniões recorrentes:
 ```
@@ -1093,15 +1093,15 @@ ACTION 2: Calculate Next Date
 
 ACTION 3: Create Calendar Event
 - App: Google Calendar
-- Event: [Nome da Reunião] - Follow-up
+- Event: [Nome da Reuniêo] - Follow-up
 - Date: [Data calculada]
-- Attendees: [Mesmos da reunião anterior]
-- Description: "Revisar action items de [data reunião anterior]\nLink da ata: [X]"
+- Attendees: [Mesmos da reuniêo anterior]
+- Description: "Revisar action items de [data reuniêo anterior]\nLink da ata: [X]"
 ```
 
 ### Template de Email de Follow-up Semanal
 
-**Automação: Toda sexta-feira 16h**
+**Automaçêo: Toda sexta-feira 16h**
 ```
 Assunto: Status Semanal - Action Items de Reuniões
 
@@ -1110,15 +1110,15 @@ Time,
 Aqui está o status dos action items da semana:
 
 CONCLUÍDAS (5):
-- [Pessoa] - [Ação]
-- [Pessoa] - [Ação]
+- [Pessoa] - [Açêo]
+- [Pessoa] - [Açêo]
 
 EM ANDAMENTO (3):
-- [Pessoa] - [Ação] (prazo: 22/jan)
-- [Pessoa] - [Ação] (prazo: 25/jan)
+- [Pessoa] - [Açêo] (prazo: 22/jan)
+- [Pessoa] - [Açêo] (prazo: 25/jan)
 
 ATRASADAS (1):
-- [Pessoa] - [Ação] (atrasada 2 dias) - ATENÇÃO
+- [Pessoa] - [Açêo] (atrasada 2 dias) - ATENÇêO
 
 PARA SEMANA QUE VEM (4):
 - [Lista de ações com prazo próxima semana]
@@ -1149,55 +1149,55 @@ To: Team distribution list
 
 ### Checklist de Follow-up Perfeito
 
-- [ ] Action items extraídos automaticamente da reunião
-- [ ] Tarefas criadas em sistema de gestão (Trello/Asana)
+- [ ] Action items extraídos automaticamente da reuniêo
+- [ ] Tarefas criadas em sistema de gestêo (Trello/Asana)
 - [ ] Responsáveis atribuídos e notificados
 - [ ] Prazos definidos claramente
 - [ ] Lembretes automáticos configurados (50%, 24h antes)
-- [ ] Escalação para manager (se atraso >3 dias)
+- [ ] Escalaçêo para manager (se atraso >3 dias)
 - [ ] Dashboard de status visível para todos
 - [ ] Email semanal de resumo enviado
-- [ ] Próxima reunião já agendada
+- [ ] Próxima reuniêo já agendada
 
 **Resultado:**
-- **Taxa de conclusão de 85%+** (vs. 30% sem sistema)
+- **Taxa de conclusêo de 85%+** (vs. 30% sem sistema)
 - **Zero trabalho manual** de acompanhamento
 - **Accountability natural**
-- **Cultura de execução**
+- **Cultura de execuçêo**
 
 ---
 
 ## 6. Reduzindo Reuniões Desnecessárias (400 palavras)
 
-### A Reunião que Deveria Ser um Email
+### A Reuniêo que Deveria Ser um Email
 
-**Framework de Decisão: Reunião ou Não?**
+**Framework de Decisêo: Reuniêo ou Nêo?**
 
-Use esta árvore de decisão:
+Use esta árvore de decisêo:
 
 ```
-PERGUNTA 1: É urgente E precisa de discussão?
-  NÃO - Email ou mensagem assíncrona
+PERGUNTA 1: É urgente E precisa de discussêo?
+  NêO - Email ou mensagem assíncrona
   SIM - Continue
 
 PERGUNTA 2: Precisa de consenso em tempo real?
-  NÃO - Documento colaborativo + comentários
+  NêO - Documento colaborativo + comentários
   SIM - Continue
 
 PERGUNTA 3: Envolve 3+ pessoas com dependências?
-  NÃO - Conversas 1:1 resolvem
+  NêO - Conversas 1:1 resolvem
   SIM - Continue
 
-PERGUNTA 4: Tem decisão clara a ser tomada?
-  NÃO - Não faça reunião (defina objetivo primeiro)
-  SIM - REUNIÃO JUSTIFICADA
+PERGUNTA 4: Tem decisêo clara a ser tomada?
+  NêO - Nêo faça reuniêo (defina objetivo primeiro)
+  SIM - REUNIêO JUSTIFICADA
 ```
 
 ### Alternativas Assíncronas
 
-**OPÇÃO 1: Loom (Vídeo Assíncrono)**
+**OPÇêO 1: Loom (Vídeo Assíncrono)**
 
-Em vez de reunião de 30min com 5 pessoas (2,5h coletivas):
+Em vez de reuniêo de 30min com 5 pessoas (2,5h coletivas):
 1. Grave Loom de 5 minutos explicando contexto
 2. Envie para as 5 pessoas
 3. Cada uma assiste em 1.5x speed (3min cada)
@@ -1206,34 +1206,34 @@ Em vez de reunião de 30min com 5 pessoas (2,5h coletivas):
 
 **Quando usar Loom:**
 - Updates de projeto
-- Explicar decisão já tomada
+- Explicar decisêo já tomada
 - Tutorial de processo
 - Demo de ferramenta
 
-**OPÇÃO 2: Documento Colaborativo**
+**OPÇêO 2: Documento Colaborativo**
 
-Google Docs com modo "sugestão":
+Google Docs com modo "sugestêo":
 1. Cria documento com proposta
 2. Compartilha com stakeholders
 3. Cada pessoa comenta/sugere em até 24h
 4. Consolida feedback
-5. Decisão tomada assincronamente
+5. Decisêo tomada assincronamente
 
-**OPÇÃO 3: Formulário de Decisão**
+**OPÇêO 3: Formulário de Decisêo**
 
 Google Forms para decisões simples:
 - Apresenta opções A, B, C
 - Cada pessoa vota + justifica
 - Resultado consolidado automaticamente
-- Decisão em 24h sem reunião
+- Decisêo em 24h sem reuniêo
 
-### Templates de Comunicação Assíncrona
+### Templates de Comunicaçêo Assíncrona
 
 **Template: Update de Projeto (Slack/Email)**
 ```
 UPDATE: [Nome do Projeto]
 
-STATUS: No prazo / Atenção / Atrasado
+STATUS: No prazo / Atençêo / Atrasado
 
 CONCLUÍDO ESTA SEMANA:
 - [Item 1]
@@ -1250,37 +1250,37 @@ BLOQUEIOS:
 
 LINKS:
 - Dashboard: [link]
-- Documentação: [link]
+- Documentaçêo: [link]
 
 PERGUNTAS/COMENTÁRIOS:
 Respondam por thread abaixo
 ```
 
-**Template: Tomada de Decisão Assíncrona**
+**Template: Tomada de Decisêo Assíncrona**
 ```
-DECISÃO NECESSÁRIA: [Título]
+DECISêO NECESSÁRIA: [Título]
 
 CONTEXTO:
-[2-3 parágrafos explicando situação]
+[2-3 parágrafos explicando situaçêo]
 
 OPÇÕES:
 
-A) [Opção A]
+A) [Opçêo A]
    Prós: [lista]
    Contras: [lista]
-   Impacto: [descrição]
+   Impacto: [descriçêo]
 
-B) [Opção B]
+B) [Opçêo B]
    Prós: [lista]
    Contras: [lista]
-   Impacto: [descrição]
+   Impacto: [descriçêo]
 
-C) [Opção C]
+C) [Opçêo C]
    Prós: [lista]
    Contras: [lista]
-   Impacto: [descrição]
+   Impacto: [descriçêo]
 
-MINHA RECOMENDAÇÃO: [Opção X]
+MINHA RECOMENDAÇêO: [Opçêo X]
 Por quê: [Justificativa]
 
 PRECISO DE FEEDBACK ATÉ: [Data/Hora]
@@ -1288,28 +1288,28 @@ PRECISO DE FEEDBACK ATÉ: [Data/Hora]
 TAG: @pessoa1 @pessoa2 @pessoa3
 
 Por favor votem:
-✓ para concordar com recomendação
+✓ para concordar com recomendaçêo
 Ou comentem com alternativa
 ```
 
-### Como Dizer Não para Reuniões
+### Como Dizer Nêo para Reuniões
 
-**Script 1: Reunião sem pauta clara**
+**Script 1: Reuniêo sem pauta clara**
 ```
 "Obrigado pelo convite! Para eu me preparar melhor,
 você poderia compartilhar:
-1. Objetivo específico da reunião
+1. Objetivo específico da reuniêo
 2. Decisões que precisam ser tomadas
-3. Minha contribuição esperada
+3. Minha contribuiçêo esperada
 
 Se for update/alinhamento, consigo contribuir
 assincronamente via [email/Loom/documento]?"
 ```
 
-**Script 2: Você não agrega valor**
+**Script 2: Você nêo agrega valor**
 ```
-"Agradeço a inclusão! Revisando a pauta, acho que
-minha presença não é crítica. Posso contribuir:
+"Agradeço a inclusêo! Revisando a pauta, acho que
+minha presença nêo é crítica. Posso contribuir:
 - Revisando ata depois, ou
 - Respondendo perguntas específicas por escrito?
 
@@ -1331,7 +1331,7 @@ Pode ser?"
 **Resultado ao aplicar estas estratégias:**
 - **50-70% menos reuniões**
 - **Tempo recuperado: 10-15h/semana**
-- **Decisões mais rápidas** (assíncrono = 24h vs. reunião = esperar agenda)
+- **Decisões mais rápidas** (assíncrono = 24h vs. reuniêo = esperar agenda)
 
 ---
 
@@ -1342,39 +1342,39 @@ Pode ser?"
 **Tarefa:**
 1. Criar conta no Calendly (ou similar)
 2. Configurar 2 tipos de evento:
-   - Reunião rápida (15min)
-   - Reunião padrão (30min)
+   - Reuniêo rápida (15min)
+   - Reuniêo padrêo (30min)
 3. Adicionar buffer de 15min antes/depois
-4. Personalizar email de confirmação
+4. Personalizar email de confirmaçêo
 5. Testar agendando com você mesmo
 6. Compartilhar link com 2 colegas
 
-**Validação:**
+**Validaçêo:**
 - [ ] Link funciona
 - [ ] Evento aparece no calendário
-- [ ] Email de confirmação é enviado
+- [ ] Email de confirmaçêo é enviado
 - [ ] Buffer aparece no calendário
 
-### Exercício 2: Automatizar 1 Tipo de Reunião (2 horas)
+### Exercício 2: Automatizar 1 Tipo de Reuniêo (2 horas)
 
-**Escolha UMA reunião recorrente sua:**
-- Reunião de equipe semanal
+**Escolha UMA reuniêo recorrente sua:**
+- Reuniêo de equipe semanal
 - 1-on-1 com gestor
 - Alinhamento com cliente
 
 **Implemente:**
-1. Perguntas pré-reunião (Calendly)
+1. Perguntas pré-reuniêo (Calendly)
 2. Template de agenda (Google Docs)
-3. Ferramenta de transcrição (Otter.ai grátis)
+3. Ferramenta de transcriçêo (Otter.ai grátis)
 4. Prompt de IA para resumir
 
 **Teste:**
-- Faça a próxima reunião com este sistema
-- Valide que transcrição funciona
+- Faça a próxima reuniêo com este sistema
+- Valide que transcriçêo funciona
 - Gere resumo com IA
 - Envie ata para participantes
 
-**Meta:** Reduzir tempo de "trabalho de reunião" em 70%
+**Meta:** Reduzir tempo de "trabalho de reuniêo" em 70%
 
 ### Exercício 3: Template de Ata Automática (30 min)
 
@@ -1383,13 +1383,13 @@ Pode ser?"
 2. Criar Google Doc no seu Drive
 3. Customizar para seu contexto
 4. Salvar como template
-5. Testar com transcrição de reunião passada
+5. Testar com transcriçêo de reuniêo passada
 
 **Bonus:**
 - Configure Zapier/Make para preencher automaticamente
 - Envie ata para você mesmo como teste
 
-**Validação:**
+**Validaçêo:**
 - [ ] Template está salvo e acessível
 - [ ] Consegue gerar ata em <5 minutos
 - [ ] Ata está clara e acionável
@@ -1405,32 +1405,32 @@ Pode ser?"
    - Buffer time protege sua sanidade
    - Blocos de foco protegem seu trabalho profundo
 
-2. **Preparação Automática:**
+2. **Preparaçêo Automática:**
    - Agenda gerada por IA
    - Contexto pesquisado automaticamente
-   - Participantes preparados antes da reunião
+   - Participantes preparados antes da reuniêo
 
-3. **Transcrição e Atas:**
+3. **Transcriçêo e Atas:**
    - Otter.ai/Fireflies transcrevem em tempo real
    - IA resume e extrai action items
-   - Ata pronta em 5 minutos, não 2 dias
+   - Ata pronta em 5 minutos, nêo 2 dias
 
 4. **Follow-up Automático:**
    - Tarefas criadas automaticamente
    - Lembretes para responsáveis
    - Dashboard de acompanhamento
-   - Taxa de execução 85%+
+   - Taxa de execuçêo 85%+
 
 5. **Reduzir Reuniões:**
    - 67% das reuniões podem ser emails
-   - Loom para comunicação assíncrona
-   - Scripts para dizer não educadamente
+   - Loom para comunicaçêo assíncrona
+   - Scripts para dizer nêo educadamente
 
 ### Impacto Esperado:
 
 - **3-5 horas/semana economizadas**
 - **50-70% menos reuniões**
-- **85% de taxa de conclusão** de action items
+- **85% de taxa de conclusêo** de action items
 - **Reuniões 3x mais produtivas**
 - **R$ 15.000-50.000/ano** em custo evitado
 
@@ -1444,7 +1444,7 @@ Você já está automatizando. Agora precisa garantir que isso seja VISTO e RECO
 
 **RECURSOS ADICIONAIS:**
 
-- Template de Agenda de Reunião
+- Template de Agenda de Reuniêo
 - Template de Ata Automática
 - Zapier Blueprint: Otter to Trello
 - Biblioteca de Prompts para Reuniões
@@ -1459,11 +1459,11 @@ Você já está automatizando. Agora precisa garantir que isso seja VISTO e RECO
 | Horas/semana em reuniões | _____ | -50% |
 | % de reuniões com ata | _____ | 100% |
 | Tempo para gerar ata | _____ | <5 min |
-| Taxa de conclusão de action items | _____ | >85% |
-| Emails para agendar reunião | _____ | 0 |
+| Taxa de conclusêo de action items | _____ | >85% |
+| Emails para agendar reuniêo | _____ | 0 |
 
 **Preencha "Antes" agora e valide "Meta" em 2 semanas!**
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

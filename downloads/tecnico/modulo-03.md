@@ -1,6 +1,6 @@
 # Módulo 3: ChatGPT Personalizado com RAG - Seu Assistente Técnico que Sabe Tudo do Seu Domínio
 
-**Duração:** 90 minutos
+**Duraçêo:** 90 minutos
 **Nível:** Intermediário
 **Objetivo:** Criar chatbots personalizados que conhecem profundamente sua área técnica usando RAG (Retrieval-Augmented Generation)
 
@@ -12,11 +12,11 @@ Ao final deste módulo, você será capaz de:
 
 ✅ Entender como RAG funciona e por que é revolucionário
 ✅ Criar chatbots personalizados com conhecimento específico do seu domínio
-✅ Implementar sistemas de perguntas e respostas sobre documentação técnica
+✅ Implementar sistemas de perguntas e respostas sobre documentaçêo técnica
 ✅ Construir assistentes que ajudam pessoas com problemas reais da sua área
 ✅ Integrar conhecimento técnico (docs, código, tickets) em IA conversacional
 
-**Resultado prático:** Chatbot funcionando que responde perguntas sobre SUA área técnica com precisão.
+**Resultado prático:** Chatbot funcionando que responde perguntas sobre SUA área técnica com precisêo.
 
 ---
 
@@ -30,24 +30,24 @@ Ao final deste módulo, você será capaz de:
 
 **Opções tradicionais:**
 - ❌ Você responde manualmente (15 min)
-- ❌ Procura na wiki desatualizada (20 min de frustração)
+- ❌ Procura na wiki desatualizada (20 min de frustraçêo)
 - ❌ Pede pra alguém mais velho explicar (interrompe 2 pessoas)
 - ❌ Usa ChatGPT genérico que inventa comandos errados
 
 **Com RAG:**
 - ✅ Chatbot responde em 10 segundos
-- ✅ Baseado na SUA documentação real
+- ✅ Baseado na SUA documentaçêo real
 - ✅ Com comandos corretos do SEU ambiente
 - ✅ Links para docs relevantes
 - ✅ Você economizou 15 minutos + ajudou permanentemente
 
-### O Que é RAG (sem enrolação)
+### O Que é RAG (sem enrolaçêo)
 
 **RAG = Retrieval-Augmented Generation**
 
-Tradução prática:
-1. **Retrieval:** Busca informação relevante nos SEUS documentos
-2. **Augmented:** Injeta essa informação no prompt
+Traduçêo prática:
+1. **Retrieval:** Busca informaçêo relevante nos SEUS documentos
+2. **Augmented:** Injeta essa informaçêo no prompt
 3. **Generation:** ChatGPT responde baseado no SEU conteúdo
 
 **Analogia:**
@@ -59,9 +59,9 @@ Tradução prática:
 | Aspecto | ChatGPT Normal | ChatGPT com RAG |
 |---------|----------------|-----------------|
 | **Conhecimento** | Genérico até 2023 | SEU domínio, atualizado |
-| **Precisão** | Inventa quando não sabe | Cita fontes reais |
+| **Precisêo** | Inventa quando nêo sabe | Cita fontes reais |
 | **Contexto** | Limitado (8k-32k tokens) | Acessa toda sua base |
-| **Atualização** | Fixo no tempo | Atualiza com novos docs |
+| **Atualizaçêo** | Fixo no tempo | Atualiza com novos docs |
 | **Confiabilidade** | 70-80% | 90-95% (se docs bons) |
 
 ---
@@ -72,7 +72,7 @@ Tradução prática:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│ 1. PREPARAÇÃO (fazer 1x)                                │
+│ 1. PREPARAÇêO (fazer 1x)                                │
 ├─────────────────────────────────────────────────────────┤
 │                                                           │
 │  Seus Documentos (docs, wikis, READMEs)                 │
@@ -129,8 +129,8 @@ Transforma texto em números que capturam significado:
 Banco de dados especializado em buscar vetores similares:
 
 ```python
-# Busca semântica (não precisa palavras exatas)
-pergunta = "subir API pra homologação"
+# Busca semântica (nêo precisa palavras exatas)
+pergunta = "subir API pra homologaçêo"
 
 # Acha documentos sobre:
 # - "deploy em staging"  ✅
@@ -149,22 +149,22 @@ Divide docs grandes em pedaços úteis:
 
 # Chunks (pedaços de 500-1000 caracteres)
 Chunk 1: "Para fazer deploy em staging..."
-Chunk 2: "Configuração do ambiente..."
+Chunk 2: "Configuraçêo do ambiente..."
 Chunk 3: "Comandos necessários..."
 ...
 
 # Por que?
 # ChatGPT só vê 3-5 chunks mais relevantes
-# Não precisa ler 10 páginas inteiras
+# Nêo precisa ler 10 páginas inteiras
 ```
 
 ---
 
-## 🚀 Projeto Prático: Chatbot de Documentação Técnica
+## 🚀 Projeto Prático: Chatbot de Documentaçêo Técnica
 
-Vamos criar um chatbot que responde perguntas sobre SUA documentação técnica.
+Vamos criar um chatbot que responde perguntas sobre SUA documentaçêo técnica.
 
-### Opção 1: LangChain + OpenAI (Mais Completo)
+### Opçêo 1: LangChain + OpenAI (Mais Completo)
 
 **Stack:**
 - LangChain (framework RAG)
@@ -206,7 +206,7 @@ print(f"✅ {len(documents)} documentos carregados")
 print("✂️ Quebrando em chunks...")
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000,  # Tamanho do pedaço
-    chunk_overlap=200,  # Sobreposição (contexto)
+    chunk_overlap=200,  # Sobreposiçêo (contexto)
     separators=["\n\n", "\n", " ", ""]
 )
 chunks = text_splitter.split_documents(documents)
@@ -234,10 +234,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 import os
 
-# Configuração
+# Configuraçêo
 os.environ["OPENAI_API_KEY"] = "sua-api-key-aqui"
 
-st.title("🤖 Assistente de Documentação Técnica")
+st.title("🤖 Assistente de Documentaçêo Técnica")
 st.caption("Pergunte qualquer coisa sobre nossa stack!")
 
 # Carregar base de conhecimento
@@ -271,7 +271,7 @@ qa_chain = load_qa_chain()
 pergunta = st.text_input("Faça sua pergunta:")
 
 if pergunta:
-    with st.spinner("🔍 Buscando na documentação..."):
+    with st.spinner("🔍 Buscando na documentaçêo..."):
         result = qa_chain({"query": pergunta})
 
         # Mostrar resposta
@@ -290,7 +290,7 @@ st.sidebar.markdown("""
 - Como fazer deploy em staging?
 - Qual é o processo de code review?
 - Como rodar os testes localmente?
-- Onde fica a documentação da API?
+- Onde fica a documentaçêo da API?
 - Como configurar ambiente de dev?
 """)
 ```
@@ -306,9 +306,9 @@ python indexar.py
 streamlit run app.py
 ```
 
-### Opção 2: OpenAI Assistants API (Mais Fácil)
+### Opçêo 2: OpenAI Assistants API (Mais Fácil)
 
-OpenAI agora tem RAG embutido! Não precisa gerenciar vector database.
+OpenAI agora tem RAG embutido! Nêo precisa gerenciar vector database.
 
 **Código completo:**
 
@@ -387,7 +387,7 @@ if pergunta:
 ```
 
 **Vantagens:**
-- ✅ Não precisa gerenciar vector database
+- ✅ Nêo precisa gerenciar vector database
 - ✅ OpenAI cuida de tudo (chunking, embeddings, busca)
 - ✅ Código mais simples
 - ✅ Escala automaticamente
@@ -405,7 +405,7 @@ if pergunta:
 
 **Problema:** Novos devs fazem as mesmas perguntas
 
-**Solução RAG:**
+**Soluçêo RAG:**
 
 ```python
 # Documentos indexados:
@@ -425,13 +425,13 @@ if pergunta:
 **Resultado:**
 - ⏱️ Dev júnior demora 3 dias → 1 dia pra ser produtivo
 - 🕐 Você economiza 5h de onboarding manual
-- 📈 Satisfação de novos devs sobe 40%
+- 📈 Satisfaçêo de novos devs sobe 40%
 
 ### Caso 2: Bot de Troubleshooting
 
 **Problema:** Suporte pergunta "como resolver erro X" toda semana
 
-**Solução RAG:**
+**Soluçêo RAG:**
 
 ```python
 # Base de conhecimento:
@@ -453,16 +453,16 @@ if pergunta:
 
 ### Caso 3: Chatbot de API Docs
 
-**Problema:** Documentação de API complexa, difícil de navegar
+**Problema:** Documentaçêo de API complexa, difícil de navegar
 
-**Solução RAG:**
+**Soluçêo RAG:**
 
 ```python
 # Indexa:
 # - OpenAPI/Swagger spec
 # - Exemplos de código
 # - Changelog
-# - Guias de autenticação
+# - Guias de autenticaçêo
 
 # Desenvolvedor pergunta naturalmente:
 # "Como autenticar na API?"
@@ -474,7 +474,7 @@ if pergunta:
 **Resultado:**
 - 📉 Tickets de suporte sobre API: -60%
 - ⚡ Time to first successful API call: -70%
-- 💰 Adoção da API aumenta
+- 💰 Adoçêo da API aumenta
 
 ---
 
@@ -485,10 +485,10 @@ if pergunta:
 | Ferramenta | Quando usar | Custo |
 |------------|-------------|-------|
 | **Chroma** | Projetos pequenos, local | Grátis |
-| **Pinecone** | Produção, escala | $70/mês |
+| **Pinecone** | Produçêo, escala | $70/mês |
 | **Weaviate** | Self-hosted, controle total | Grátis (infra sua) |
 | **FAISS** | Pesquisa rápida, offline | Grátis |
-| **Qdrant** | Open source, produção | Grátis ou pago |
+| **Qdrant** | Open source, produçêo | Grátis ou pago |
 
 ### Frameworks RAG
 
@@ -532,11 +532,11 @@ retriever = DensePassageRetriever(...)
 
 **Quando usar no-code:**
 - ✅ Validar ideia rápido
-- ✅ Não tem time de dev
+- ✅ Nêo tem time de dev
 - ✅ Volume baixo de perguntas
 
 **Quando fazer custom:**
-- ✅ Integração com sistemas internos
+- ✅ Integraçêo com sistemas internos
 - ✅ Controle total sobre dados
 - ✅ Alto volume (mais barato)
 
@@ -549,7 +549,7 @@ retriever = DensePassageRetriever(...)
 **Chunking inteligente:**
 
 ```python
-# ❌ Ruim: quebra no meio de seção
+# ❌ Ruim: quebra no meio de seçêo
 RecursiveCharacterTextSplitter(chunk_size=500)
 
 # ✅ Bom: respeita estrutura markdown
@@ -588,8 +588,8 @@ vectorstore.similarity_search(
 ```python
 # Template de prompt otimizado
 template = """Use os seguintes documentos para responder a pergunta.
-Se não souber, diga "não encontrei essa informação".
-NÃO invente informações.
+Se nêo souber, diga "nêo encontrei essa informaçêo".
+NêO invente informações.
 
 Contexto:
 {context}
@@ -683,7 +683,7 @@ compression_retriever = ContextualCompressionRetriever(
 
 ---
 
-## ✅ Checklist de Implementação
+## ✅ Checklist de Implementaçêo
 
 ### Fase 1: Setup Básico (1-2h)
 
@@ -692,7 +692,7 @@ compression_retriever = ContextualCompressionRetriever(
 - [ ] Coletar documentos (READMEs, wikis, docs)
 - [ ] Organizar docs em pasta estruturada
 
-### Fase 2: Indexação (30min-1h)
+### Fase 2: Indexaçêo (30min-1h)
 
 - [ ] Implementar chunking (tamanho adequado)
 - [ ] Adicionar metadados relevantes
@@ -714,10 +714,10 @@ compression_retriever = ContextualCompressionRetriever(
 - [ ] Adicionar cache para perguntas comuns
 - [ ] Implementar analytics (quais perguntas, taxa de sucesso)
 
-### Fase 5: Produção (variável)
+### Fase 5: Produçêo (variável)
 
 - [ ] Deploy (Streamlit Cloud, Vercel, Docker)
-- [ ] Configurar atualização automática de docs
+- [ ] Configurar atualizaçêo automática de docs
 - [ ] Monitoramento de custos
 - [ ] Sistema de feedback dos usuários
 - [ ] Documentar para o time usar
@@ -739,14 +739,14 @@ compression_retriever = ContextualCompressionRetriever(
 
 2. **Colete documentos** (30 min)
    - READMEs de projetos
-   - Documentação interna
+   - Documentaçêo interna
    - Runbooks
    - Post-mortems
    - FAQs do Slack
-   - **Meta: 5-10 documentos** (não precisa ser perfeito)
+   - **Meta: 5-10 documentos** (nêo precisa ser perfeito)
 
-3. **Implemente versão básica** (1-2h)
-   - Use Opção 1 (LangChain) OU Opção 2 (OpenAI Assistants)
+3. **Implemente versêo básica** (1-2h)
+   - Use Opçêo 1 (LangChain) OU Opçêo 2 (OpenAI Assistants)
    - Indexe seus docs
    - Crie interface Streamlit simples
    - Teste com 5 perguntas reais
@@ -775,7 +775,7 @@ Como saber se seu RAG está funcionando?
 
 ### Métricas Técnicas
 
-**1. Precisão da Busca**
+**1. Precisêo da Busca**
 ```python
 # Porcentagem de perguntas que retornam docs relevantes
 # Meta: > 85%
@@ -799,7 +799,7 @@ def avaliar_retrieval(perguntas_teste):
 
 ### Métricas de Negócio
 
-**1. Redução de Perguntas Repetidas**
+**1. Reduçêo de Perguntas Repetidas**
 - Antes vs Depois de ter chatbot
 - Meta: -50% em canais de suporte
 
@@ -807,11 +807,11 @@ def avaliar_retrieval(perguntas_teste):
 - Quanto tempo demora pra pessoa obter resposta
 - Antes: 2h (espera humano) → Depois: 10s (chatbot)
 
-**3. Satisfação (CSAT)**
+**3. Satisfaçêo (CSAT)**
 - Survey rápido: "O chatbot ajudou?" (1-5)
 - Meta: > 4.0
 
-**4. Adoção**
+**4. Adoçêo**
 - % do time que usa o chatbot
 - Meta: > 60% após 1 mês
 
@@ -820,25 +820,25 @@ def avaliar_retrieval(perguntas_teste):
 ## 🚀 Próximos Passos
 
 ### Nível 1: Básico Funcionando ✅
-- Chatbot responde perguntas da sua documentação
+- Chatbot responde perguntas da sua documentaçêo
 - Interface Streamlit simples
 - Rodando localmente
 
-### Nível 2: Produção
+### Nível 2: Produçêo
 - Deploy em cloud (Streamlit Cloud, Vercel)
-- Integração com Slack/Teams
+- Integraçêo com Slack/Teams
 - Analytics de uso
 - Sistema de feedback
 
 ### Nível 3: Avançado
 - Multi-modal (aceita imagens, PDFs)
 - Multi-idioma
-- Atualização automática (docs novos → reindexação)
+- Atualizaçêo automática (docs novos → reindexaçêo)
 - A/B testing de prompts
 
 ### Nível 4: Enterprise
 - Multiple chatbots (um por domínio)
-- Controle de acesso (chatbot só vê docs que user tem permissão)
+- Controle de acesso (chatbot só vê docs que user tem permissêo)
 - Audit log (quem perguntou o quê)
 - Fine-tuning de modelo
 
@@ -847,14 +847,14 @@ def avaliar_retrieval(perguntas_teste):
 ## 💡 Dicas de Ouro
 
 ### 1. Comece Pequeno
-- ❌ Não tente indexar toda a empresa no dia 1
+- ❌ Nêo tente indexar toda a empresa no dia 1
 - ✅ Comece com 1 domínio específico (ex: deploy)
 - ✅ Prove valor → Expanda
 
-### 2. Documentação Ruim = RAG Ruim
-- Se seus docs são ruins, RAG vai responder ruim
+### 2. Documentaçêo Ruim = RAG Ruim
+- Se seus docs sêo ruins, RAG vai responder ruim
 - **Aproveite para melhorar docs** enquanto implementa RAG
-- Chatbot expõe buracos na documentação
+- Chatbot expõe buracos na documentaçêo
 
 ### 3. Prompt é 50% do Sucesso
 ```python
@@ -864,7 +864,7 @@ def avaliar_retrieval(perguntas_teste):
 # ✅ Prompt específico
 """Você é especialista em DevOps na empresa X.
 Responda baseado APENAS nos documentos fornecidos.
-Se não souber, diga claramente.
+Se nêo souber, diga claramente.
 Cite comandos exatos e links quando relevante.
 Seja conciso mas completo."""
 ```
@@ -875,7 +875,7 @@ Seja conciso mas completo."""
 col1, col2 = st.columns(2)
 if col1.button("👍 Útil"):
     salvar_feedback(pergunta, resposta, positivo=True)
-if col2.button("👎 Não ajudou"):
+if col2.button("👎 Nêo ajudou"):
     salvar_feedback(pergunta, resposta, positivo=False)
 ```
 
@@ -900,22 +900,22 @@ print(f"Custo estimado: ${estimar_custo(all_docs):.4f}")
 **O que você aprendeu:**
 
 ✅ **RAG = ChatGPT + Seus Documentos**
-- Busca informação relevante nos seus docs
+- Busca informaçêo relevante nos seus docs
 - Injeta no prompt
 - ChatGPT responde baseado no SEU conteúdo
 
 ✅ **Arquitetura:**
 - Embeddings → Vector Database → Retrieval → Generation
 
-✅ **Implementação:**
+✅ **Implementaçêo:**
 - LangChain + Chroma (controle total)
 - OpenAI Assistants (mais fácil)
-- No-code (validação rápida)
+- No-code (validaçêo rápida)
 
 ✅ **Casos de uso:**
 - Onboarding de devs
 - Troubleshooting
-- Documentação de API
+- Documentaçêo de API
 - FAQs técnicos
 
 **Próximo passo no Módulo 4:**
@@ -942,7 +942,7 @@ Vamos criar seu **portfólio técnico no GitHub** que mostra todos esses projeto
 
 ---
 
-**Tempo estimado de conclusão:** 3-4 horas (incluindo exercício prático)
+**Tempo estimado de conclusêo:** 3-4 horas (incluindo exercício prático)
 
 **Prerequisitos:** Conhecimento básico de Python, familiaridade com APIs
 

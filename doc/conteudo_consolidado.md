@@ -1,15 +1,15 @@
-# Conteúdo Consolidado – Estratégias e Estrutura para Cursos de Automação e IA
+# Conteúdo Consolidado – Estratégias e Estrutura para Cursos de Automaçêo e IA
 
 ## 1. Resumo Geral
 Conteúdos provenientes do vídeo, do guia PDF e das discussões.
 
 ## 2. Mitos
-- Não precisa agência
-- Não precisa dinheiro
-- Não precisa audiência
+- Nêo precisa agência
+- Nêo precisa dinheiro
+- Nêo precisa audiência
 
 ## 3. Frameworks
-- Golden Ratio: 60% automação / 30% IA / 10% humano
+- Golden Ratio: 60% automaçêo / 30% IA / 10% humano
 - LRP: Listen / Repeat / Poke
 - 4R’s: Result / Roadmap / Risk / Review
 - ACA: Acknowledge / Compliment / Ask

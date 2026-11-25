@@ -1,23 +1,23 @@
 # MÓDULO 4: CRM Simples e Automático
 
-**Objetivo:** Criar sistema de gestão de clientes sem complexidade
+**Objetivo:** Criar sistema de gestêo de clientes sem complexidade
 
 ---
 
-## 1. Por Que CRM Não Precisa Ser Complicado
+## 1. Por Que CRM Nêo Precisa Ser Complicado
 
-Você já tentou implementar um CRM "de verdade" e desistiu depois de 3 semanas? Você não está sozinho.
+Você já tentou implementar um CRM "de verdade" e desistiu depois de 3 semanas? Você nêo está sozinho.
 
 **A verdade inconveniente:** 43% das pequenas empresas que compram CRM abandonam a ferramenta em 12 meses (Fonte: Capterra 2023).
 
 **Por quê?**
 - Complexo demais para necessidade real
 - Curva de aprendizado alta
-- Time não adota
-- Custo não se justifica
+- Time nêo adota
+- Custo nêo se justifica
 - Features que você nunca vai usar
 
-**A boa notícia:** Para 80% dos negócios, CRM não precisa ser Salesforce. Precisa ser simples, funcional e que seu time USE.
+**A boa notícia:** Para 80% dos negócios, CRM nêo precisa ser Salesforce. Precisa ser simples, funcional e que seu time USE.
 
 ### Salesforce vs. Google Sheets: A Verdade
 
@@ -32,19 +32,19 @@ Você já tentou implementar um CRM "de verdade" e desistiu depois de 3 semanas?
 **Quando Google Sheets resolve (90% dos casos):**
 - Time até 15 pessoas
 - Processo de vendas direto (lead → proposta → fechamento)
-- Você quer visibilidade, não burocracia
+- Você quer visibilidade, nêo burocracia
 - Budget limitado
-- Precisa começar HOJE, não em 3 meses
+- Precisa começar HOJE, nêo em 3 meses
 
-**Comparação brutal:**
+**Comparaçêo brutal:**
 
 | Aspecto | Salesforce | Google Sheets |
 |---------|-----------|---------------|
 | Setup inicial | 2-4 semanas | 2 horas |
 | Custo/mês | R$150-500/usuário | Grátis |
 | Curva aprendizado | 2-3 meses | 1 dia |
-| Taxa de adoção | 40-60% | 85-95% |
-| Customização | Complexa | Simples |
+| Taxa de adoçêo | 40-60% | 85-95% |
+| Customizaçêo | Complexa | Simples |
 | Mobile | App dedicado | Google Sheets app |
 
 **Case real:** Lucas tinha Pipedrive (R$2.400/ano) para gerenciar 30 leads/mês. 80% das features nunca usava. Migrou para Sheets + Zapier. Resultado: mesma visibilidade, R$2.200 economizados/ano, time adotou 100% (vs 60% no Pipedrive).
@@ -58,15 +58,15 @@ Esqueça as 500 features. CRM bom faz 5 coisas bem:
 - Histórico de interações
 - Status atual (frio/morno/quente)
 
-**2. Não deixar nada cair no esquecimento**
+**2. Nêo deixar nada cair no esquecimento**
 - Alerta para fazer follow-up
 - Lembretes automáticos
-- Lead "preso" em etapa dispara notificação
+- Lead "preso" em etapa dispara notificaçêo
 
 **3. Visibilidade do pipeline**
 - Quantos leads em cada etapa
-- Taxa de conversão por etapa
-- Previsão de fechamentos do mês
+- Taxa de conversêo por etapa
+- Previsêo de fechamentos do mês
 
 **4. Facilitar o próximo passo**
 - "O que fazer agora com esse lead?"
@@ -75,13 +75,13 @@ Esqueça as 500 features. CRM bom faz 5 coisas bem:
 
 **5. Métricas que importam**
 - Quantos leads entraram essa semana
-- Taxa de conversão
+- Taxa de conversêo
 - Tempo médio de fechamento
 - Receita prevista vs realizada
 
-**Teste rápido:** Se seu CRM atual não faz essas 5 coisas de forma SIMPLES, você está usando a ferramenta errada.
+**Teste rápido:** Se seu CRM atual nêo faz essas 5 coisas de forma SIMPLES, você está usando a ferramenta errada.
 
-### Para Quem Serve Cada Solução
+### Para Quem Serve Cada Soluçêo
 
 **Google Sheets é perfeito para:**
 - Freelancer/consultor solo
@@ -93,15 +93,15 @@ Esqueça as 500 features. CRM bom faz 5 coisas bem:
 
 **HubSpot Free é melhor para:**
 - Time 5-20 pessoas
-- Precisa de automação de email marketing
-- Quer crescer para versão paga depois
+- Precisa de automaçêo de email marketing
+- Quer crescer para versêo paga depois
 - Valoriza interface bonita
 - Tem tempo para aprender (1-2 semanas)
 
-**Pipedrive/Agendor são ideais para:**
+**Pipedrive/Agendor sêo ideais para:**
 - Time comercial estruturado (3+ vendedores)
 - Vendas outbound (cold call intenso)
-- Precisa de gamificação (ranking de vendedores)
+- Precisa de gamificaçêo (ranking de vendedores)
 - Budget de R$200-500/mês é ok
 - Quer relatórios visuais sem esforço
 
@@ -112,13 +112,13 @@ Esqueça as 500 features. CRM bom faz 5 coisas bem:
 - Integrações críticas de negócio
 - Budget R$5k+/mês + dedicar pessoa para administrar
 
-**Regra de ouro:** Comece simples. Migre quando dor for grande o suficiente. Não compre Ferrari para ir ao mercado.
+**Regra de ouro:** Comece simples. Migre quando dor for grande o suficiente. Nêo compre Ferrari para ir ao mercado.
 
 ---
 
 ## 2. Google Sheets Como CRM
 
-Você vai criar um CRM funcional em 2 horas. Sem instalar nada. Sem cartão de crédito. Sem curso de 40 horas.
+Você vai criar um CRM funcional em 2 horas. Sem instalar nada. Sem cartêo de crédito. Sem curso de 40 horas.
 
 ### Template Pronto Para Copiar
 
@@ -154,7 +154,7 @@ Preenche automaticamente quando linha é criada.
 Manual. Obrigatório.
 
 **Coluna D: Email**
-Manual. Validação automática:
+Manual. Validaçêo automática:
 ```
 =IF(ISBLANK(D2),"",IF(ISEMAIL(D2),"✅","❌ Email inválido"))
 ```
@@ -171,7 +171,7 @@ Manual. Ajuda a qualificar.
 **Coluna H: Origem**
 Lista suspensa:
 - LinkedIn
-- Indicação
+- Indicaçêo
 - Website
 - Cold outreach
 - Evento
@@ -183,7 +183,7 @@ Lista suspensa:
 - Contactado (aguardando resposta)
 - Qualificado (interesse confirmado)
 - Proposta enviada
-- Negociação
+- Negociaçêo
 - Fechado - Ganho ✅
 - Fechado - Perdido ❌
 - Pausado
@@ -206,18 +206,18 @@ R$ da oportunidade. Permite prever receita.
 =IF(I2="Novo",10,
   IF(I2="Qualificado",30,
     IF(I2="Proposta enviada",50,
-      IF(I2="Negociação",70,
+      IF(I2="Negociaçêo",70,
         IF(I2="Fechado - Ganho",100,0)))))
 ```
 
 **Coluna M: Último Contato**
-Data. Atualizada manualmente ou via automação (veremos adiante).
+Data. Atualizada manualmente ou via automaçêo (veremos adiante).
 
-**Coluna N: Próxima Ação**
+**Coluna N: Próxima Açêo**
 Texto livre. O que fazer com esse lead agora?
 
-**Coluna O: Data Próxima Ação**
-Quando fazer a ação da coluna N.
+**Coluna O: Data Próxima Açêo**
+Quando fazer a açêo da coluna N.
 
 **Coluna P: Responsável**
 Lista suspensa com nomes do time (se aplicável).
@@ -235,9 +235,9 @@ Permite saber quanto $ "real" tem no pipeline.
 
 ### Fórmulas Automáticas
 
-**1. Alertas de Follow-up (Formatação Condicional)**
+**1. Alertas de Follow-up (Formataçêo Condicional)**
 
-Selecione coluna "Data Próxima Ação" e aplique regra:
+Selecione coluna "Data Próxima Açêo" e aplique regra:
 - Vermelho: =O2 < TODAY() (atrasado!)
 - Amarelo: =O2 = TODAY() (hoje)
 - Verde: =O2 > TODAY() (futuro)
@@ -249,7 +249,7 @@ Nova coluna: "Dias Parado"
 =IF(ISBLANK(M2),"N/A",TODAY()-M2)
 ```
 
-Aplique formatação:
+Aplique formataçêo:
 - Vermelho se >21 dias
 - Amarelo se >14 dias
 
@@ -282,7 +282,7 @@ Na aba DASHBOARD, crie resumo por status:
 
 Adicione gráfico de funil (Insert → Chart → Column chart).
 
-### Integração com Gmail/Calendar
+### Integraçêo com Gmail/Calendar
 
 **Enviar email direto do CRM:**
 
@@ -291,15 +291,15 @@ Coluna extra: "Email Rápido"
 =HYPERLINK("mailto:"&D2&"?subject=Seguindo%20nossa%20conversa&body=Oi%20"&C2,"📧 Enviar email")
 ```
 
-Clicar abre Gmail com assunto e saudação pré-preenchidos.
+Clicar abre Gmail com assunto e saudaçêo pré-preenchidos.
 
-**Agendar reunião direto do CRM:**
+**Agendar reuniêo direto do CRM:**
 
 ```
-=HYPERLINK("https://calendar.google.com/calendar/r/eventedit?text=Reunião%20com%20"&C2&"&details=Lead%20ID%20"&A2,"📅 Agendar")
+=HYPERLINK("https://calendar.google.com/calendar/r/eventedit?text=Reuniêo%20com%20"&C2&"&details=Lead%20ID%20"&A2,"📅 Agendar")
 ```
 
-**Integração avançada (próxima seção):** Quando email é enviado via Gmail, Zapier registra automaticamente na aba INTERAÇÕES.
+**Integraçêo avançada (próxima seçêo):** Quando email é enviado via Gmail, Zapier registra automaticamente na aba INTERAÇÕES.
 
 ### Tutorial Completo de Setup (Passo a Passo)
 
@@ -315,7 +315,7 @@ Clicar abre Gmail com assunto e saudação pré-preenchidos.
    - Sheet5 → CONFIG
 
 4. Na aba LEADS, crie headers (linha 1):
-   A1: ID | B1: Data Entrada | C1: Nome | D1: Email | E1: Telefone | F1: Empresa | G1: Cargo | H1: Origem | I1: Status | J1: Temperatura | K1: Valor | L1: Probabilidade (%) | M1: Último Contato | N1: Próxima Ação | O1: Data Próxima Ação | P1: Responsável | Q1: Observações | R1: Receita Ponderada
+   A1: ID | B1: Data Entrada | C1: Nome | D1: Email | E1: Telefone | F1: Empresa | G1: Cargo | H1: Origem | I1: Status | J1: Temperatura | K1: Valor | L1: Probabilidade (%) | M1: Último Contato | N1: Próxima Açêo | O1: Data Próxima Açêo | P1: Responsável | Q1: Observações | R1: Receita Ponderada
 
 5. Formate headers:
    - Negrito
@@ -325,7 +325,7 @@ Clicar abre Gmail com assunto e saudação pré-preenchidos.
 **PASSO 2: Configurar listas suspensas (10min)**
 
 1. Na aba CONFIG, crie listas:
-   - A1: "Origens" | A2-A7: LinkedIn, Indicação, Website, etc
+   - A1: "Origens" | A2-A7: LinkedIn, Indicaçêo, Website, etc
    - B1: "Status" | B2-B9: Novo, Contactado, Qualificado, etc
    - C1: "Responsáveis" | C2-C5: Nomes do seu time
 
@@ -344,7 +344,7 @@ Clicar abre Gmail com assunto e saudação pré-preenchidos.
 
 Selecione linha 2 inteira, copie fórmulas até linha 1000 (Ctrl+C, selecione A2:R1000, Ctrl+V).
 
-**PASSO 4: Formatação condicional (15min)**
+**PASSO 4: Formataçêo condicional (15min)**
 
 1. Coluna J (Temperatura):
    - Selecione J2:J1000
@@ -353,15 +353,15 @@ Selecione linha 2 inteira, copie fórmulas até linha 1000 (Ctrl+C, selecione A2
    - Regra 2: Text contains "Morno" → Background amarelo
    - Regra 3: Text contains "Quente" → Background vermelho claro
 
-2. Coluna O (Data Próxima Ação):
+2. Coluna O (Data Próxima Açêo):
    - [regras descritas acima]
 
 **PASSO 5: Aba INTERAÇÕES (20min)**
 
 Headers:
-A1: ID Interação | B1: Data/Hora | C1: ID Lead | D1: Nome Lead | E1: Tipo | F1: Canal | G1: Assunto | H1: Notas
+A1: ID Interaçêo | B1: Data/Hora | C1: ID Lead | D1: Nome Lead | E1: Tipo | F1: Canal | G1: Assunto | H1: Notas
 
-Tipo (lista): Email enviado, Email recebido, Call, WhatsApp, Reunião, Proposta enviada
+Tipo (lista): Email enviado, Email recebido, Call, WhatsApp, Reuniêo, Proposta enviada
 
 Coluna D (Nome Lead):
 ```
@@ -384,7 +384,7 @@ Crie cards de métricas:
 =SUMIF(LEADS!I:I,"<>Fechado - Ganho",LEADS!R:R)
 ```
 
-**Card 3: Taxa de Conversão**
+**Card 3: Taxa de Conversêo**
 ```
 =COUNTIF(LEADS!I:I,"Fechado - Ganho") / COUNTA(LEADS!C:C)
 ```
@@ -405,7 +405,7 @@ Formate como %.
 
 Adicione gráfico de barras empilhadas.
 
-**Gráfico de Funil de Conversão:**
+**Gráfico de Funil de Conversêo:**
 
 Insert → Chart → Select Funnel Chart
 Data range: Tabela de pipeline
@@ -439,9 +439,9 @@ Abs,
 ```
 
 **Template 2: Follow-up após 3 dias sem resposta**
-**Template 3: Email pós-reunião**
+**Template 3: Email pós-reuniêo**
 **Template 4: Proposta enviada**
-**Template 5: Negociação**
+**Template 5: Negociaçêo**
 
 **PASSO 8: Proteções e compartilhamento (10min)**
 
@@ -451,13 +451,13 @@ Abs,
 
 2. Se trabalha em time:
    - Share → Add pessoas
-   - Permissão: Editor
+   - Permissêo: Editor
    - Ative histórico de versões (File → Version history)
 
 **PASSO 9: Teste com lead fictício (10min)**
 
 1. Adicione lead teste com todos campos preenchidos
-2. Registre interação na aba INTERAÇÕES
+2. Registre interaçêo na aba INTERAÇÕES
 3. Verifique se dashboard atualizou automaticamente
 4. Teste links de email e calendar
 
@@ -466,10 +466,10 @@ Abs,
 1. Grave vídeo de 5min mostrando:
    - Como adicionar lead
    - Como atualizar status
-   - Como registrar interação
+   - Como registrar interaçêo
    - Onde ver próximas ações
 
-2. Sessão ao vivo: cada pessoa adiciona 1 lead real
+2. Sessêo ao vivo: cada pessoa adiciona 1 lead real
 
 **Checklist final:**
 - [ ] Todas fórmulas funcionando
@@ -485,11 +485,11 @@ Abs,
 
 ---
 
-## 3. Automação de Registro de Interações
+## 3. Automaçêo de Registro de Interações
 
 Problema: Vendedor envia email, esquece de registrar no CRM. Pipeline fica desatualizado.
 
-Solução: Automação que registra tudo sozinha.
+Soluçêo: Automaçêo que registra tudo sozinha.
 
 ### Email Enviado → Registra no CRM Automaticamente
 
@@ -509,7 +509,7 @@ Spreadsheet: Seu CRM
 Worksheet: INTERAÇÕES
 
 Mapeamento:
-- Coluna A (ID Interação): Leave blank (formula will fill)
+- Coluna A (ID Interaçêo): Leave blank (formula will fill)
 - Coluna B (Data/Hora): {{EmailSentDate}}
 - Coluna C (ID Lead): Extract from subject (explained below)
 - Coluna E (Tipo): "Email enviado"
@@ -517,7 +517,7 @@ Mapeamento:
 - Coluna G (Assunto): {{EmailSubject}}
 - Coluna H (Notas): {{EmailBodyPlain}} (primeiros 500 chars)
 
-**PASSO 3: Convenção de assunto**
+**PASSO 3: Convençêo de assunto**
 
 Quando enviar email para lead, sempre inclua ID:
 "Assunto do email [CRM #47]"
@@ -532,7 +532,7 @@ Zapier extrai "47" e registra na coluna ID Lead.
 
 **PASSO 4: Atualizar último contato**
 
-Adicione ação no Zapier:
+Adicione açêo no Zapier:
 Action: Google Sheets - "Update Spreadsheet Row"
 
 Spreadsheet: Seu CRM
@@ -545,13 +545,13 @@ Update Value: {{EmailSentDate}}
 **PASSO 5: Testar**
 
 1. Envie email de teste para você mesmo
-2. Subject: "Teste automação [CRM #1]"
+2. Subject: "Teste automaçêo [CRM #1]"
 3. Verifique se apareceu na aba INTERAÇÕES
 4. Verifique se "Último Contato" atualizou na aba LEADS
 
 **Taxa de sucesso:** 95%+ (5% falha se esquecer de colocar [CRM #ID])
 
-### Reunião → Cria Tarefa de Follow-up
+### Reuniêo → Cria Tarefa de Follow-up
 
 **Trigger:** Google Calendar - "Event Ended"
 
@@ -559,18 +559,18 @@ Update Value: {{EmailSentDate}}
 
 **Action 1:** Google Sheets - Create Row
 Worksheet: INTERAÇÕES
-Tipo: "Reunião"
+Tipo: "Reuniêo"
 Assunto: {{EventTitle}}
 
 **Action 2:** Google Sheets - Create Row
 Worksheet: LEADS (ou criar aba TAREFAS)
-Próxima Ação: "Follow-up pós-reunião"
-Data Próxima Ação: {{EventEndTime}} + 1 day
+Próxima Açêo: "Follow-up pós-reuniêo"
+Data Próxima Açêo: {{EventEndTime}} + 1 day
 
 **Action 3:** Send Email (opcional)
 To: você
 Subject: "Follow-up: {{EventTitle}}"
-Body: "Lembrete: fazer follow-up com cliente da reunião de hoje"
+Body: "Lembrete: fazer follow-up com cliente da reuniêo de hoje"
 
 ### Proposta Enviada → Alerta de Acompanhamento
 
@@ -607,7 +607,7 @@ Send Email: "Proposta enviada há 3 dias para [Lead]. Fazer follow-up!"
 | Integrações | 5000+ | 1500+ |
 | Visual | Linear | Fluxograma |
 
-**Recomendação:** Comece com Zapier (mais fácil). Se precisar de >100 tasks/mês, migre para Make.
+**Recomendaçêo:** Comece com Zapier (mais fácil). Se precisar de >100 tasks/mês, migre para Make.
 
 **Tutoria Zapier Completo:**
 
@@ -638,12 +638,12 @@ Passo 2: Filter
 - Add Filter
 - Condition: Subject → Contains → [CRM]
 
-Passo 3: Action - Registrar interação
+Passo 3: Action - Registrar interaçêo
 - Choose App: Google Sheets
 - Event: Create Spreadsheet Row
 - Select Spreadsheet: Seu CRM
 - Worksheet: INTERAÇÕES
-- Map fields (descrição acima)
+- Map fields (descriçêo acima)
 - Test action
 
 Passo 4: Action - Atualizar último contato
@@ -672,16 +672,16 @@ Passo 5: Publish
 **Erros comuns:**
 
 **Erro: "Could not find row"**
-Solução: Verifica se ID do lead existe na aba LEADS
+Soluçêo: Verifica se ID do lead existe na aba LEADS
 
 **Erro: "Missing required field"**
-Solução: Mapear todos campos obrigatórios do Sheets
+Soluçêo: Mapear todos campos obrigatórios do Sheets
 
-**Erro: "Trigger não dispara"**
-Solução: Conferir filtro. Teste com dados que atendem condição
+**Erro: "Trigger nêo dispara"**
+Soluçêo: Conferir filtro. Teste com dados que atendem condiçêo
 
 **Limite de 100 tasks/mês:**
-- 1 email registrado = 2 tasks (1 criar interação + 1 atualizar lead)
+- 1 email registrado = 2 tasks (1 criar interaçêo + 1 atualizar lead)
 - ~50 emails/mês cabem no free
 - Se precisar de mais: Make ou pagar Zapier
 
@@ -704,7 +704,7 @@ Setup similar, mas interface visual de fluxograma.
 
 ## 4. Dashboard de Vendas Automático
 
-Dashboard que você não precisa atualizar. Acorda, abre, vê métricas atualizadas.
+Dashboard que você nêo precisa atualizar. Acorda, abre, vê métricas atualizadas.
 
 ### Métricas Que Importam
 
@@ -713,7 +713,7 @@ Dashboard que você não precisa atualizar. Acorda, abre, vê métricas atualiza
 =COUNTIFS(LEADS!B:B,">="&TODAY()-7,LEADS!B:B,"<="&TODAY())
 ```
 
-**Métrica 2: Taxa de Conversão**
+**Métrica 2: Taxa de Conversêo**
 ```
 =COUNTIF(LEADS!I:I,"Fechado - Ganho") / COUNTA(LEADS!C:C) * 100
 ```
@@ -750,11 +750,11 @@ Leads que:
 =COUNTIFS(LEADS!I:I,"<>Fechado - Ganho",LEADS!I:I,"<>Fechado - Perdido",LEADS!M:M,"<"&TODAY()-14)
 ```
 
-**Métrica 8: Previsão de Receita (Este Mês)**
+**Métrica 8: Previsêo de Receita (Este Mês)**
 
 Soma dos leads com:
 - Probabilidade > 50%
-- Data próxima ação < fim do mês
+- Data próxima açêo < fim do mês
 
 ```
 =SUMIFS(LEADS!R:R,LEADS!L:L,">50",LEADS!O:O,"<"&EOMONTH(TODAY(),0))
@@ -762,7 +762,7 @@ Soma dos leads com:
 
 ### Gráficos Automáticos no Sheets
 
-**Gráfico 1: Funil de Conversão**
+**Gráfico 1: Funil de Conversêo**
 
 Dados:
 ```
@@ -771,13 +771,13 @@ Dados:
 | Leads Novos | =COUNTIF(LEADS!I:I,"Novo") |
 | Qualificados | =COUNTIF(LEADS!I:I,"Qualificado") |
 | Proposta | =COUNTIF(LEADS!I:I,"Proposta enviada") |
-| Negociação | =COUNTIF(LEADS!I:I,"Negociação") |
+| Negociaçêo | =COUNTIF(LEADS!I:I,"Negociaçêo") |
 | Fechado | =COUNTIF(LEADS!I:I,"Fechado - Ganho") |
 ```
 
 Insert → Chart → Funnel Chart
 
-**Gráfico 2: Evolução de Leads (Últimos 30 Dias)**
+**Gráfico 2: Evoluçêo de Leads (Últimos 30 Dias)**
 
 Dados:
 ```
@@ -835,11 +835,11 @@ Resumo da semana passada:
 📊 Leads Novos: {{leads_novos}}
 💰 Pipeline Total: R$ {{pipeline_total}}
 ✅ Fechamentos: {{fechamentos}}
-📈 Taxa de Conversão: {{taxa_conversao}}%
+📈 Taxa de Conversêo: {{taxa_conversao}}%
 
 Leads em risco (>14 dias sem contato): {{leads_risco}}
 
-Ação: Priorizar follow-up dos leads em risco hoje!
+Açêo: Priorizar follow-up dos leads em risco hoje!
 
 Dashboard completo: [link do Google Sheet]
 
@@ -855,12 +855,12 @@ Bora fechar negócios! 🚀
 
 **Checklist do Dashboard:**
 
-✅ Cards de métricas no topo (visão geral em 5 segundos)
-✅ Gráfico de funil de conversão
-✅ Gráfico de evolução temporal (últimos 30/90 dias)
+✅ Cards de métricas no topo (visêo geral em 5 segundos)
+✅ Gráfico de funil de conversêo
+✅ Gráfico de evoluçêo temporal (últimos 30/90 dias)
 ✅ Tabela de leads em risco (action items)
 ✅ Performance por origem/responsável
-✅ Previsão de fechamentos do mês
+✅ Previsêo de fechamentos do mês
 ✅ Comparativo: Mês atual vs mês passado
 
 **Layout sugerido:**
@@ -873,16 +873,16 @@ Bora fechar negócios! 🚀
 +------------------------+------------------------+
 
 +------------------------------------------------+
-|        FUNIL DE CONVERSÃO (gráfico)            |
+|        FUNIL DE CONVERSêO (gráfico)            |
 +------------------------------------------------+
 
 +------------------------------------------------+
-|    EVOLUÇÃO DE LEADS - 30 DIAS (linha)        |
+|    EVOLUÇêO DE LEADS - 30 DIAS (linha)        |
 +------------------------------------------------+
 
 +------------------------------------------------+
 | LEADS EM RISCO                                 |
-| Nome | Dias Parado | Valor | Próxima Ação      |
+| Nome | Dias Parado | Valor | Próxima Açêo      |
 +------------------------------------------------+
 
 +------------------------------------------------+
@@ -894,12 +894,12 @@ Bora fechar negócios! 🚀
 
 ## 5. CRMs Gratuitos Recomendados
 
-Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pessoas), considere:
+Se Google Sheets nêo é suficiente (você tem >20 leads/semana ou time >5 pessoas), considere:
 
 ### HubSpot Free: Prós/Contras
 
 **Prós:**
-✅ Grátis para sempre (não é trial)
+✅ Grátis para sempre (nêo é trial)
 ✅ Interface bonita e intuitiva
 ✅ Email marketing incluso (2.000 envios/mês)
 ✅ Automações básicas
@@ -910,7 +910,7 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 
 **Contras:**
 ❌ Branding HubSpot em emails (remove só no pago)
-❌ Limite de 1 milhão de contatos (ok para 99% dos casos)
+❌ Limite de 1 milhêo de contatos (ok para 99% dos casos)
 ❌ Relatórios customizados só no pago
 ❌ Curva de aprendizado (1-2 semanas)
 ❌ Features avançadas tentam te empurrar para pago
@@ -921,26 +921,26 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 - Times que valorizam UX
 - Quem pode investir tempo em setup inicial
 
-**Setup time:** 4-8 horas (incluindo importação de contatos, configuração de pipeline)
+**Setup time:** 4-8 horas (incluindo importaçêo de contatos, configuraçêo de pipeline)
 
-**Case:** Agência de marketing digital migrou de Planilha para HubSpot Free. Motivo: precisavam de automação de email + CRM integrado. Resultado: Taxa de resposta de cold email subiu 40% (sequências automatizadas).
+**Case:** Agência de marketing digital migrou de Planilha para HubSpot Free. Motivo: precisavam de automaçêo de email + CRM integrado. Resultado: Taxa de resposta de cold email subiu 40% (sequências automatizadas).
 
 ### Pipedrive Trial: Quando Usar
 
 **Prós:**
-✅ Interface focada em VENDAS (não marketing)
-✅ Gamificação (ranking de vendedores)
-✅ Visualização em Kanban (arrasta e solta)
+✅ Interface focada em VENDAS (nêo marketing)
+✅ Gamificaçêo (ranking de vendedores)
+✅ Visualizaçêo em Kanban (arrasta e solta)
 ✅ Relatórios visuais excelentes
 ✅ Integrações com tudo (WhatsApp, Calendly, etc)
 ✅ Mobile app robusto
 ✅ Suporte em PT-BR
 
 **Contras:**
-❌ Não tem versão free (só trial 14 dias)
+❌ Nêo tem versêo free (só trial 14 dias)
 ❌ Plano mais barato: ~R$60/usuário/mês
 ❌ Email marketing separado (custo extra)
-❌ Não ideal para solo (mínimo 2-3 usuários pra valer)
+❌ Nêo ideal para solo (mínimo 2-3 usuários pra valer)
 
 **Para quem é ideal:**
 - Times comerciais estruturados (3+ vendedores)
@@ -950,9 +950,9 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 
 **Setup time:** 2-3 horas
 
-**Dica:** Use trial de 14 dias para testar SE vale a pena pagar. Não assine antes de testar com dados reais.
+**Dica:** Use trial de 14 dias para testar SE vale a pena pagar. Nêo assine antes de testar com dados reais.
 
-**Case:** Distribuidora B2B com 5 vendedores. Tentou Sheets, bagunçou (cada um tinha própria planilha). Pipedrive centralizou, criou competição saudável (ranking visível). Vendas subiram 25% em 3 meses.
+**Case:** Distribuidora B2B com 5 vendedores. Tentou Sheets, bagunçou (cada um tinha própria planilha). Pipedrive centralizou, criou competiçêo saudável (ranking visível). Vendas subiram 25% em 3 meses.
 
 ### Notion Database: Para Criativos
 
@@ -960,15 +960,15 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 ✅ Flexível demais (você molda do seu jeito)
 ✅ Conecta CRM com projetos, docs, wikis
 ✅ Interface linda
-✅ Colaboração em tempo real
-✅ Versão free robusta
+✅ Colaboraçêo em tempo real
+✅ Versêo free robusta
 ✅ Templates prontos de CRM
 
 **Contras:**
-❌ Não é CRM nativo (você cria do zero)
+❌ Nêo é CRM nativo (você cria do zero)
 ❌ Automações limitadas (precisa de Zapier)
 ❌ Curva de aprendizado alta
-❌ Não tem funil visual nativo
+❌ Nêo tem funil visual nativo
 ❌ Relatórios manuais
 
 **Para quem é ideal:**
@@ -977,13 +977,13 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 - Quem já usa Notion para tudo
 - Projetos + vendas no mesmo lugar
 
-**Setup time:** 3-5 horas (customização infinita = tempo infinito)
+**Setup time:** 3-5 horas (customizaçêo infinita = tempo infinito)
 
 **Dica:** Comece com template pronto (busque "CRM Notion template" no Google).
 
-**Case:** Designer freelancer usava Trello + Sheets + Google Docs. Migrou tudo para Notion. CRM virou aba do workspace principal. Economia de tempo: 4h/semana (não precisa alternar entre apps).
+**Case:** Designer freelancer usava Trello + Sheets + Google Docs. Migrou tudo para Notion. CRM virou aba do workspace principal. Economia de tempo: 4h/semana (nêo precisa alternar entre apps).
 
-### Comparação Rápida
+### Comparaçêo Rápida
 
 | Critério | Google Sheets | HubSpot Free | Pipedrive | Notion |
 |----------|---------------|--------------|-----------|--------|
@@ -991,30 +991,30 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 | **Setup** | 2h | 6h | 3h | 4h |
 | **Curva aprendizado** | Baixa | Média | Baixa | Alta |
 | **Ideal para** | 1-10 leads/sem | Crescimento | Time vendas | Criativos |
-| **Automação** | Via Zapier | Nativa básica | Nativa completa | Via Zapier |
+| **Automaçêo** | Via Zapier | Nativa básica | Nativa completa | Via Zapier |
 | **Mobile** | App Sheets | App nativo | App nativo | App nativo |
-| **Email integrado** | Não | Sim | Não (pago) | Não |
+| **Email integrado** | Nêo | Sim | Nêo (pago) | Nêo |
 | **Relatórios** | Manual | Básicos | Completos | Manual |
 
-**Decisão:**
+**Decisêo:**
 
 - **Começando do zero?** Google Sheets
 - **Precisa escalar rápido?** HubSpot Free
 - **Time comercial estruturado?** Pipedrive
 - **Quer tudo em um app?** Notion
 
-**Migração:** Não tenha medo de começar simples e migrar depois. Melhor usar Sheets hoje do que ficar 2 meses "escolhendo CRM" e não usar nada.
+**Migraçêo:** Nêo tenha medo de começar simples e migrar depois. Melhor usar Sheets hoje do que ficar 2 meses "escolhendo CRM" e nêo usar nada.
 
 ---
 
-## 6. Exercícios + Implementação
+## 6. Exercícios + Implementaçêo
 
 ### Exercício 1: Monte Seu CRM em 2 Horas (120min)
 
 **Objetivo:** Sair deste módulo com CRM funcionando.
 
 **Instruções:**
-1. Siga tutorial passo a passo da seção 2
+1. Siga tutorial passo a passo da seçêo 2
 2. Crie planilha completa (5 abas)
 3. Configure todas fórmulas
 4. Adicione 5 leads reais (ou fictícios)
@@ -1029,9 +1029,9 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 - [ ] Fórmulas calculando corretamente
 - [ ] Link de "enviar email" abrindo Gmail
 
-**Entrega:** Link do Google Sheet (compartilhe para visualização)
+**Entrega:** Link do Google Sheet (compartilhe para visualizaçêo)
 
-### Exercício 2: Primeira Automação (30min)
+### Exercício 2: Primeira Automaçêo (30min)
 
 **Objetivo:** Configurar 1 Zap funcionando.
 
@@ -1040,7 +1040,7 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 2. Configure Zap: Gmail → Google Sheets
 3. Envie 1 email teste com [CRM #1] no assunto
 4. Verifique se apareceu na aba INTERAÇÕES
-5. Debug se não funcionou
+5. Debug se nêo funcionou
 
 **Checklist:**
 - [ ] Zapier conectado ao Gmail
@@ -1055,7 +1055,7 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 
 **Exemplo 1:** Se você vende consultoria mensal:
 - Métrica: "Receita Recorrente Prevista (MRR)"
-- Gráfico: Evolução do MRR por mês
+- Gráfico: Evoluçêo do MRR por mês
 
 **Exemplo 2:** Se você vende projetos pontuais:
 - Métrica: "Ticket Médio por Origem"
@@ -1076,14 +1076,14 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 **Desafio:**
 - Use CRM durante 1 semana completa
 - Adicione TODO lead novo
-- Registre TODA interação
+- Registre TODA interaçêo
 - Atualize status diariamente
 - Ao final da semana, responda:
 
 **Perguntas:**
-1. Consegui usar todos os dias? Se não, o que bloqueou?
+1. Consegui usar todos os dias? Se nêo, o que bloqueou?
 2. Alguma coluna que nunca preenchi? (Elimine)
-3. Falta alguma informação importante? (Adicione)
+3. Falta alguma informaçêo importante? (Adicione)
 4. Quanto tempo/dia gastei atualizando? (Meta: <10min)
 5. Dashboard me deu insights úteis?
 
@@ -1099,29 +1099,29 @@ Se Google Sheets não é suficiente (você tem >20 leads/semana ou time >5 pesso
 **Instruções:**
 1. Grave vídeo loom de 5min mostrando:
    - Como adicionar lead
-   - Como registrar interação
+   - Como registrar interaçêo
    - Onde ver próximas ações
    - Como atualizar status
 
 2. Agende 30min com time:
    - Mostre vídeo
    - Cada pessoa adiciona 1 lead real
-   - Cada pessoa registra 1 interação
+   - Cada pessoa registra 1 interaçêo
    - Tire dúvidas
 
-3. Primeira semana: Acompanhe adoção
+3. Primeira semana: Acompanhe adoçêo
    - Segunda: "Pessoal, vamos usar CRM hoje!"
-   - Quarta: "Quem ainda não adicionou leads?"
+   - Quarta: "Quem ainda nêo adicionou leads?"
    - Sexta: Revise juntos, celebre quem usou
 
-**Meta:** 80%+ de adoção em 2 semanas.
+**Meta:** 80%+ de adoçêo em 2 semanas.
 
 ### Exercício Bônus: Relatório Automático
 
 **Objetivo:** Acordar segunda recebendo email com métricas.
 
 **Instruções:**
-1. Configure Zap de relatório semanal (seção 4)
+1. Configure Zap de relatório semanal (seçêo 4)
 2. Personalize email com métricas do SEU negócio
 3. Teste (force trigger manual)
 4. Ajuste copy do email
@@ -1139,7 +1139,7 @@ Dashboard da semana:
 ✅ Fechamentos: Z
 💰 Receita: R$ W
 
-🚨 AÇÃO NECESSÁRIA:
+🚨 AÇêO NECESSÁRIA:
 - [Lead Nome] está há 21 dias sem contato
 - [Lead Nome] recebeu proposta há 5 dias (follow-up!)
 
@@ -1154,23 +1154,23 @@ Boa semana de vendas!
 
 **O que você aprendeu:**
 
-1. **CRM não precisa ser complexo** - Sheets resolve 90% dos casos
+1. **CRM nêo precisa ser complexo** - Sheets resolve 90% dos casos
 2. **Setup em 2h** - Template completo com fórmulas e automações
-3. **Automação economiza tempo** - Email/reunião registra sozinho
+3. **Automaçêo economiza tempo** - Email/reuniêo registra sozinho
 4. **Dashboard automático** - Métricas sempre atualizadas
-5. **Alternativas gratuitas** - HubSpot, Notion quando Sheets não basta
+5. **Alternativas gratuitas** - HubSpot, Notion quando Sheets nêo basta
 
 **Próximos passos:**
 
 1. Monte seu CRM HOJE (use exercício 1)
-2. Configure 1 automação esta semana
+2. Configure 1 automaçêo esta semana
 3. Use durante 7 dias
-4. Ajuste o que não funcionar
+4. Ajuste o que nêo funcionar
 5. Escale (time, automações, integrações)
 
 **Mindset para levar:**
 
-CRM perfeito não existe. CRM que você USA é melhor que CRM complexo que fica abandonado.
+CRM perfeito nêo existe. CRM que você USA é melhor que CRM complexo que fica abandonado.
 
 Comece simples. Melhore com uso.
 
@@ -1183,15 +1183,15 @@ Comece simples. Melhore com uso.
 - Template Google Sheets CRM (copiar)
 - Vídeo: "Setup completo em 2h"
 - Zapier templates prontos (importar)
-- Checklist de adoção de CRM
+- Checklist de adoçêo de CRM
 
 **Comunidade:**
 
 Compartilhe seu CRM com o grupo:
 - Mostre seu dashboard
-- Que automação você criou?
+- Que automaçêo você criou?
 - Que métrica te surpreendeu?
 
-Gestão não precisa ser chata. Pode ser simples e funcionar.
+Gestêo nêo precisa ser chata. Pode ser simples e funcionar.
 
 Vamos implementar!

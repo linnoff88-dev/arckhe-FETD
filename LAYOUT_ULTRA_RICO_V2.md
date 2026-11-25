@@ -1,33 +1,33 @@
-# Layout ULTRA RICO v2.0 - Documentação Completa
+# Layout ULTRA RICO v2.0 - Documentaçêo Completa
 
-**Data de Criação:** 2025-01-19
-**Versão:** 2.0
+**Data de Criaçêo:** 2025-01-19
+**Versêo:** 2.0
 **Autor:** Claude Code + FETD Team
 
 ---
 
 ## 📋 Índice
 
-1. [Visão Geral](#visão-geral)
+1. [Visêo Geral](#visêo-geral)
 2. [Características Visuais](#características-visuais)
 3. [Como Usar o Conversor](#como-usar-o-conversor)
 4. [Elementos Visuais Detalhados](#elementos-visuais-detalhados)
 5. [Estrutura do HTML Gerado](#estrutura-do-html-gerado)
 6. [Exemplos de Código](#exemplos-de-código)
-7. [Personalização por Trilha](#personalização-por-trilha)
+7. [Personalizaçêo por Trilha](#personalizaçêo-por-trilha)
 
 ---
 
-## 🎯 Visão Geral
+## 🎯 Visêo Geral
 
-O Layout ULTRA RICO v2.0 é um sistema de conversão de Markdown para HTML que gera páginas visualmente impressionantes usando Tailwind CSS. Ele foi projetado especificamente para a plataforma FETD (Formação em Engenharia de Intenção).
+O Layout ULTRA RICO v2.0 é um sistema de conversêo de Markdown para HTML que gera páginas visualmente impressionantes usando Tailwind CSS. Ele foi projetado especificamente para a plataforma FETD (Formaçêo em Engenharia de Intençêo).
 
-### Melhorias em Relação à v1.0
+### Melhorias em Relaçêo à v1.0
 
 | Aspecto | v1.0 | v2.0 |
 |---------|------|------|
 | Hero Section | Gradiente simples | Gradiente triplo + grid pattern |
-| Box Objetivo | Não tinha | ✅ Com ícone e sombra |
+| Box Objetivo | Nêo tinha | ✅ Com ícone e sombra |
 | Cards Especiais | Básicos | 5 tipos com hover effects |
 | Tabelas | Simples | Header gradiente + hover |
 | Código | Fundo cinza | Estilo terminal com 3 bolinhas |
@@ -59,13 +59,13 @@ O Layout ULTRA RICO v2.0 é um sistema de conversão de Markdown para HTML que g
 │                                                 │
 │  Entender as oportunidades reais...            │
 │                                                 │
-│  📚 Teoria  •  💭 Reflexão  •  🛠️ Prática      │
+│  📚 Teoria  •  💭 Reflexêo  •  🛠️ Prática      │
 └─────────────────────────────────────────────────┘
 ```
 
 ### 2. Box de Objetivo Destacado
 
-Aparece logo após o botão de download, antes do conteúdo principal.
+Aparece logo após o botêo de download, antes do conteúdo principal.
 
 **Elementos:**
 - Ícone 🎯 grande (text-2xl)
@@ -91,28 +91,28 @@ Aparece logo após o botão de download, antes do conteúdo principal.
 O conversor detecta automaticamente o tipo de conteúdo e aplica o estilo apropriado:
 
 #### ❌ Cards de Mitos
-- **Detecção:** Título contém "❌", "MITO" ou "Mito"
+- **Detecçêo:** Título contém "❌", "MITO" ou "Mito"
 - **Cor:** Vermelho (`bg-red-50`, `border-red-500`)
 - **Efeito:** `shadow-md hover:shadow-lg transition-shadow`
 
 #### ✅ Cards de Verdades
-- **Detecção:** Título contém "✅", "VERDADE" ou "Verdade"
+- **Detecçêo:** Título contém "✅", "VERDADE" ou "Verdade"
 - **Cor:** Verde (`bg-green-50`, `border-green-500`)
 - **Efeito:** `shadow-md hover:shadow-lg transition-shadow`
 
 #### 💼 Cards de Exemplos
-- **Detecção:** Título contém "Exemplo", "Case" ou "Caso"
+- **Detecçêo:** Título contém "Exemplo", "Case" ou "Caso"
 - **Cor:** Cor da trilha (`bg-talento/10`, `border-talento/30`)
 - **Efeito:** `shadow-lg hover:shadow-xl transition-all`
 - **Border:** Duplo (`border-2`)
 
 #### 💡 Cards Importantes
-- **Detecção:** Título contém "💡", "Importante", "Atenção" ou "Nota"
+- **Detecçêo:** Título contém "💡", "Importante", "Atençêo" ou "Nota"
 - **Cor:** Amarelo (`bg-yellow-50`, `border-yellow-500`)
 - **Efeito:** `shadow-md`
 
 #### 📊 Cards de Dados
-- **Detecção:** Título contém "📊", "Dados", "Números" ou "Estatísticas"
+- **Detecçêo:** Título contém "📊", "Dados", "Números" ou "Estatísticas"
 - **Cor:** Azul (`bg-blue-50`, `border-blue-500`)
 - **Efeito:** `shadow-md`
 
@@ -224,7 +224,7 @@ Quando o conversor detecta listas com "Antes" e "Agora", cria um grid de 2 colun
 - Ícones detectados automaticamente
 - Bullets customizados (bolinhas coloridas)
 
-**Títulos de Seção (##):**
+**Títulos de Seçêo (##):**
 - Tamanho: `text-3xl md:text-4xl`
 - Border inferior com cor da trilha (opacity 20%)
 - Background gradiente sutil: `from-talento/10 to-transparent`
@@ -326,7 +326,7 @@ modulos/
 
 ---
 
-## 🎨 Personalização por Trilha
+## 🎨 Personalizaçêo por Trilha
 
 ### Cores Definidas
 
@@ -377,32 +377,32 @@ Cada trilha usa sua cor primária + cor secundária para gradientes.
 ```markdown
 # Módulo X: Título do Módulo
 
-**Duração:** 45-60 minutos
-**Objetivo:** Descrição do objetivo do módulo
+**Duraçêo:** 45-60 minutos
+**Objetivo:** Descriçêo do objetivo do módulo
 
 ---
 
-## 1. Primeira Seção
+## 1. Primeira Seçêo
 
-Conteúdo da seção...
+Conteúdo da seçêo...
 
-### 1.1 Subseção
+### 1.1 Subseçêo
 
-Conteúdo da subseção...
+Conteúdo da subseçêo...
 
 ### ❌ Mito 1: Este é um mito
 
-Explicação do mito...
+Explicaçêo do mito...
 
 ### ✅ Verdade: Esta é a verdade
 
-Explicação da verdade...
+Explicaçêo da verdade...
 
 ### 💼 Exemplo: Case de Sucesso
 
-Descrição do exemplo...
+Descriçêo do exemplo...
 
-## 2. Segunda Seção
+## 2. Segunda Seçêo
 
 ...
 ```
@@ -424,7 +424,7 @@ def funcao():
 ```
 ```
 
-**Listas não ordenadas:**
+**Listas nêo ordenadas:**
 ```markdown
 - Item 1
 - ✅ Item com ícone
@@ -440,7 +440,7 @@ def funcao():
 
 **Definições destacadas:**
 ```markdown
-**O que é:** Definição aqui explicando o conceito.
+**O que é:** Definiçêo aqui explicando o conceito.
 ```
 
 **Listas comparativas:**
@@ -454,7 +454,7 @@ def funcao():
 - ✅ Item novo 2
 ```
 
-**Formatação inline:**
+**Formataçêo inline:**
 - Negrito: `**texto**`
 - Itálico: `*texto*`
 - Código: `` `código` ``
@@ -466,10 +466,10 @@ def funcao():
 
 ### Adicionar Novo Tipo de Card
 
-No arquivo `converter_md_para_html_rico_v2.py`, na função `processar_subsecao()`:
+No arquivo `converter_md_para_html_rico_v2.py`, na funçêo `processar_subsecao()`:
 
 ```python
-# Adicionar nova detecção
+# Adicionar nova detecçêo
 e_dica = bool(re.search(r'💭|Dica|Tip', titulo, re.IGNORECASE))
 
 # Adicionar novo if
@@ -497,7 +497,7 @@ CORES_TRILHAS = {
 
 ### Customizar Tabelas
 
-Na função `processar_tabela()`, modifique:
+Na funçêo `processar_tabela()`, modifique:
 
 ```python
 # Alterar cor do header
@@ -511,7 +511,7 @@ html = f'''
 
 ---
 
-## 📊 Estatísticas de Conversão
+## 📊 Estatísticas de Conversêo
 
 ### Trilha Talento (Exemplo Real)
 
@@ -537,43 +537,43 @@ html = f'''
 3. **Adicione objetivo** no cabeçalho para aparecer no box destacado
 4. **Use listas "Antes/Agora"** para comparações visuais em grid
 
-### Na Conversão
+### Na Conversêo
 
 1. **Sempre teste localmente** antes de fazer deploy
 2. **Verifique dark mode** - todos os elementos têm suporte
 3. **Teste responsividade** - layout funciona de mobile a desktop
 4. **Valide links** - links quebrados aparecem normalmente
-5. **Commit frequente** - faça commit após cada conversão bem-sucedida
+5. **Commit frequente** - faça commit após cada conversêo bem-sucedida
 
 ---
 
 ## 🐛 Troubleshooting
 
-### Problema: Arquivo MD não encontrado
+### Problema: Arquivo MD nêo encontrado
 
 **Erro:**
 ```
-❌ Arquivo não encontrado: downloads/talento/modulo-01.md
+❌ Arquivo nêo encontrado: downloads/talento/modulo-01.md
 ```
 
-**Solução:**
+**Soluçêo:**
 - Verifique se o arquivo existe em `downloads/{trilha}/`
 - Confirme o nome do arquivo: `modulo-XX.md` (com zero à esquerda)
 
-### Problema: Cards não aparecem coloridos
+### Problema: Cards nêo aparecem coloridos
 
-**Causa:** Título da subseção não tem os keywords esperados
+**Causa:** Título da subseçêo nêo tem os keywords esperados
 
-**Solução:** Use os emojis/palavras-chave:
+**Soluçêo:** Use os emojis/palavras-chave:
 - ❌ ou "Mito" → card vermelho
 - ✅ ou "Verdade" → card verde
 - "Exemplo", "Case", "Caso" → card da cor da trilha
 
-### Problema: Tabela não renderiza
+### Problema: Tabela nêo renderiza
 
 **Causa:** Formato Markdown incorreto
 
-**Solução:** Use o formato exato:
+**Soluçêo:** Use o formato exato:
 ```markdown
 | Header 1 | Header 2 |
 |----------|----------|
@@ -582,11 +582,11 @@ html = f'''
 
 **Importante:** Linha separadora com `|---|---|` é obrigatória!
 
-### Problema: Código não tem estilo terminal
+### Problema: Código nêo tem estilo terminal
 
-**Causa:** Bloco não está usando ``` corretamente
+**Causa:** Bloco nêo está usando ``` corretamente
 
-**Solução:**
+**Soluçêo:**
 ```markdown
 ```python
 código aqui
@@ -603,7 +603,7 @@ código aqui
 
 **Layout:**
 - `max-w-4xl`, `max-w-7xl` - Larguras máximas
-- `mx-auto` - Centralização horizontal
+- `mx-auto` - Centralizaçêo horizontal
 - `px-4 sm:px-6 lg:px-8` - Padding responsivo
 
 **Cores:**
@@ -619,7 +619,7 @@ código aqui
 
 **Efeitos:**
 - `hover:shadow-xl` - Aumenta sombra no hover
-- `transition-all` - Transição suave em todas propriedades
+- `transition-all` - Transiçêo suave em todas propriedades
 - `backdrop-blur-sm` - Blur no fundo
 
 **Gradientes:**
@@ -640,23 +640,23 @@ O dark mode é controlado via localStorage e persiste entre sessões.
 
 ---
 
-## 🎉 Conclusão
+## 🎉 Conclusêo
 
-O Layout ULTRA RICO v2.0 transforma Markdown simples em páginas HTML visualmente impressionantes, mantendo a facilidade de edição dos arquivos fonte. É a solução perfeita para criar conteúdo educacional moderno e profissional.
+O Layout ULTRA RICO v2.0 transforma Markdown simples em páginas HTML visualmente impressionantes, mantendo a facilidade de ediçêo dos arquivos fonte. É a soluçêo perfeita para criar conteúdo educacional moderno e profissional.
 
 **Principais Vantagens:**
-- ✅ Conversão automática
+- ✅ Conversêo automática
 - ✅ Layout profissional
 - ✅ Dark mode nativo
 - ✅ Totalmente responsivo
 - ✅ Elementos interativos
-- ✅ Fácil manutenção
-- ✅ Personalização por trilha
+- ✅ Fácil manutençêo
+- ✅ Personalizaçêo por trilha
 
 **Para suporte ou dúvidas:**
 Consulte este documento ou o código fonte em `converter_md_para_html_rico_v2.py`.
 
 ---
 
-**Última atualização:** 2025-01-19
-**Versão do documento:** 1.0
+**Última atualizaçêo:** 2025-01-19
+**Versêo do documento:** 1.0

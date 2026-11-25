@@ -2,7 +2,7 @@
 """
 Conversor de Markdown para HTML Rico
 Converte os arquivos .md expandidos para HTML com estilo visual Tailwind CSS
-Mantém o padrão rico usado nas trilhas existentes
+Mantém o padrêo rico usado nas trilhas existentes
 """
 
 import re
@@ -25,11 +25,11 @@ NOMES_TRILHAS = {
 }
 
 def extrair_metadados_md(conteudo_md):
-    """Extrai título, duração e objetivo do Markdown"""
+    """Extrai título, duraçêo e objetivo do Markdown"""
     titulo_match = re.search(r'^#\s+(.+?)$', conteudo_md, re.MULTILINE)
     titulo = titulo_match.group(1) if titulo_match else "Módulo"
 
-    duracao_match = re.search(r'\*\*Duração:\*\*\s+(.+?)$', conteudo_md, re.MULTILINE)
+    duracao_match = re.search(r'\*\*Duraçêo:\*\*\s+(.+?)$', conteudo_md, re.MULTILINE)
     duracao = duracao_match.group(1) if duracao_match else "60 minutos"
 
     objetivo_match = re.search(r'\*\*Objetivo:\*\*\s+(.+?)$', conteudo_md, re.MULTILINE)
@@ -53,21 +53,21 @@ def converter_markdown_para_html_corpo(conteudo_md, trilha):
         if not secao.strip():
             continue
 
-        # Se não começa com ##, adiciona
+        # Se nêo começa com ##, adiciona
         if i > 0:
             secao = '## ' + secao
 
-        # Processa seção
+        # Processa seçêo
         html_secao = processar_secao(secao, cor)
         html_parts.append(html_secao)
 
     return '\n\n'.join(html_parts)
 
 def processar_secao(secao, cor):
-    """Processa uma seção (##) individual"""
+    """Processa uma seçêo (##) individual"""
     html_parts = []
 
-    # Extrai título da seção (##)
+    # Extrai título da seçêo (##)
     titulo_match = re.match(r'##\s+(.+?)$', secao, re.MULTILINE)
     if titulo_match:
         titulo = titulo_match.group(1)
@@ -76,12 +76,12 @@ def processar_secao(secao, cor):
         titulo_limpo = re.sub(r'^[🎯💡📊🔍✅❌⚡🚀📝🎨🔧💰📈🎓💼🌟]+\s*', '', titulo)
 
         html_parts.append(f'''
-      <!-- Seção: {titulo_limpo} -->
+      <!-- Seçêo: {titulo_limpo} -->
       <div class="mb-16">
         <h2 class="text-3xl font-bold mb-8 pb-4 border-b-2 border-{cor}/20">{titulo}</h2>
 ''')
 
-        # Remove título da seção do conteúdo
+        # Remove título da seçêo do conteúdo
         conteudo = re.sub(r'^##\s+.+?$', '', secao, count=1, flags=re.MULTILINE)
     else:
         conteudo = secao
@@ -104,10 +104,10 @@ def processar_secao(secao, cor):
     return '\n'.join(html_parts)
 
 def processar_subsecao(subsecao, cor):
-    """Processa uma subseção (###) individual"""
+    """Processa uma subseçêo (###) individual"""
     html_parts = []
 
-    # Extrai título da subseção
+    # Extrai título da subseçêo
     titulo_match = re.match(r'###\s+(.+?)$', subsecao, re.MULTILINE)
     if titulo_match:
         titulo = titulo_match.group(1)
@@ -172,13 +172,13 @@ def processar_conteudo(conteudo, cor):
             # Código
             html_parts.append(processar_codigo(bloco, cor))
         elif re.match(r'^[\*\-]\s+', bloco, re.MULTILINE):
-            # Lista não ordenada
+            # Lista nêo ordenada
             html_parts.append(processar_lista_nao_ordenada(bloco, cor))
         elif re.match(r'^\d+\.\s+', bloco, re.MULTILINE):
             # Lista ordenada
             html_parts.append(processar_lista_ordenada(bloco, cor))
         elif bloco.startswith('**') and ':**' in bloco[:50]:
-            # Definição destacada (ex: **O que é:** ...)
+            # Definiçêo destacada (ex: **O que é:** ...)
             html_parts.append(processar_definicao(bloco, cor))
         else:
             # Parágrafo normal
@@ -190,7 +190,7 @@ def processar_tabela(tabela_md, cor):
     """Converte tabela Markdown para HTML com estilo"""
     linhas = [l.strip() for l in tabela_md.split('\n') if l.strip()]
 
-    # Ignora linha de separação (|---|---|)
+    # Ignora linha de separaçêo (|---|---|)
     linhas = [l for l in linhas if not re.match(r'^\|[\s\-:]+\|$', l)]
 
     if len(linhas) < 2:
@@ -251,7 +251,7 @@ def processar_codigo(codigo_md, cor):
 '''
 
 def processar_lista_nao_ordenada(lista_md, cor):
-    """Converte lista não ordenada para HTML"""
+    """Converte lista nêo ordenada para HTML"""
     linhas = [l.strip() for l in lista_md.split('\n') if l.strip()]
 
     html = '          <ul class="space-y-3 mb-6">\n'
@@ -292,7 +292,7 @@ def processar_lista_ordenada(lista_md, cor):
     return html
 
 def processar_definicao(def_md, cor):
-    """Processa definição destacada (ex: **O que é:** ...)"""
+    """Processa definiçêo destacada (ex: **O que é:** ...)"""
     # Separa label e conteúdo
     match = re.match(r'\*\*(.+?):\*\*\s+(.+)', def_md, re.DOTALL)
     if match:
@@ -314,7 +314,7 @@ def processar_paragrafo(para_md, cor):
     return f'          <p class="text-lg text-neutral-700 dark:text-neutral-300 mb-6">{texto_formatado}</p>\n'
 
 def aplicar_formatacao_inline(texto):
-    """Aplica formatação inline (negrito, itálico, links, etc)"""
+    """Aplica formataçêo inline (negrito, itálico, links, etc)"""
     # Negrito
     texto = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', texto)
 
@@ -441,7 +441,7 @@ def gerar_html_completo(trilha, modulo_num, titulo, duracao, objetivo, corpo_htm
       <div class="flex items-center gap-4">
         <span class="text-white/80">📚 Teoria</span>
         <span class="text-white/80">•</span>
-        <span class="text-white/80">💭 Reflexão</span>
+        <span class="text-white/80">💭 Reflexêo</span>
         <span class="text-white/80">•</span>
         <span class="text-white/80">🛠️ Prática</span>
       </div>
@@ -465,7 +465,7 @@ def gerar_html_completo(trilha, modulo_num, titulo, duracao, objetivo, corpo_htm
     </div>
   </section>
 
-  <!-- Footer / Navegação -->
+  <!-- Footer / Navegaçêo -->
   <section class="py-12 bg-neutral-100 dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-700">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center">
@@ -534,7 +534,7 @@ def converter_modulo(trilha, modulo_num):
     html_path = f'modulos/{trilha}/modulo-{modulo_num:02d}.html'
 
     if not os.path.exists(md_path):
-        print(f"❌ Arquivo não encontrado: {md_path}")
+        print(f"❌ Arquivo nêo encontrado: {md_path}")
         return False
 
     # Lê Markdown
@@ -550,7 +550,7 @@ def converter_modulo(trilha, modulo_num):
     # Gera HTML completo
     html_completo = gerar_html_completo(trilha, modulo_num, titulo, duracao, objetivo, corpo_html)
 
-    # Cria diretório se não existe
+    # Cria diretório se nêo existe
     os.makedirs(os.path.dirname(html_path), exist_ok=True)
 
     # Salva HTML
@@ -570,7 +570,7 @@ def converter_trilha_completa(trilha):
     print(f"✅ {sucesso}/10 módulos convertidos\n")
 
 def main():
-    """Função principal"""
+    """Funçêo principal"""
     import sys
 
     if len(sys.argv) < 2:

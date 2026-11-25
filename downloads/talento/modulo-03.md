@@ -1,12 +1,12 @@
 # Módulo 3: Primeiras Ferramentas de IA
 
 **Trilha:** Talento Emergente
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Objetivo:** Dominar ChatGPT, Claude e Gemini para trabalho profissional
 
 ---
 
-## Introdução: A Era da IA Generativa
+## Introduçêo: A Era da IA Generativa
 
 Há 3 anos, usar IA no trabalho era privilégio de grandes empresas com orçamentos milionários. 
 
@@ -29,7 +29,7 @@ Neste módulo você vai aprender:
 1. ChatGPT vs Claude vs Gemini: quando usar cada um
 2. Prompt engineering: estrutura que funciona
 3. IA para análise de dados (sem código)
-4. Automação de tarefas repetitivas
+4. Automaçêo de tarefas repetitivas
 5. Casos reais de uso profissional
 6. Como monetizar essas habilidades
 
@@ -38,8 +38,8 @@ Neste módulo você vai aprender:
 ### 1.1 ChatGPT (OpenAI)
 
 **Melhor para:**
-- ✅ Criação de conteúdo rápido
-- ✅ Brainstorming e ideação
+- ✅ Criaçêo de conteúdo rápido
+- ✅ Brainstorming e ideaçêo
 - ✅ Tarefas gerais do dia-a-dia
 - ✅ Plugins e integrações
 - ✅ Análise de imagens (GPT-4)
@@ -49,15 +49,15 @@ Neste módulo você vai aprender:
 - Interface mais conhecida e intuitiva
 - Plugins expandem funcionalidades (browsing, wolfram, etc)
 - Code Interpreter para análise de dados e visualizações
-- DALL-E integrado (geração de imagens)
+- DALL-E integrado (geraçêo de imagens)
 - GPT Store com aplicações especializadas
 - API robusta para automações
 
 **Limitações:**
-- Às vezes "inventa" fatos (alucinação)
+- Às vezes "inventa" fatos (alucinaçêo)
 - Contexto menor que Claude (128k tokens vs 200k)
 - Pode ser verboso demais
-- Versão gratuita (3.5) bem inferior à paga
+- Versêo gratuita (3.5) bem inferior à paga
 
 **Quando usar:**
 ```
@@ -70,20 +70,20 @@ Neste módulo você vai aprender:
 ```
 
 **Planos:**
-- Grátis: GPT-3.5 (bom para testar, limitado para produção)
+- Grátis: GPT-3.5 (bom para testar, limitado para produçêo)
 - Pago ($20/mês): GPT-4 (muito melhor, vale investimento)
 - Plus: GPT-4 Turbo (mais rápido)
 - Team/Enterprise: Recursos extras + prioridade
 
 **Dica profissional:**
-Use GPT-4 para tarefas importantes. A diferença de qualidade é brutal. Se vai cobrar cliente, use versão paga.
+Use GPT-4 para tarefas importantes. A diferença de qualidade é brutal. Se vai cobrar cliente, use versêo paga.
 
 **Funcionalidades extras:**
 - **Custom GPTs:** crie assistentes especializados
 - **Code Interpreter:** análise de dados sem código
-- **DALL-E:** geração de imagens direto no chat
+- **DALL-E:** geraçêo de imagens direto no chat
 - **Vision:** análise de imagens e documentos
-- **Voice:** conversação por voz
+- **Voice:** conversaçêo por voz
 - **Memory:** lembra contexto entre conversas
 
 ### 1.2 Claude (Anthropic)
@@ -91,10 +91,10 @@ Use GPT-4 para tarefas importantes. A diferença de qualidade é brutal. Se vai 
 **Melhor para:**
 - ✅ Análises profundas e detalhadas
 - ✅ Trabalho com textos longos (livros, contratos, relatórios)
-- ✅ Precisão factual crítica
+- ✅ Precisêo factual crítica
 - ✅ Raciocínio complexo e nuanceado
 - ✅ Tarefas que exigem seguir instruções complexas
-- ✅ Análise de código e documentação técnica
+- ✅ Análise de código e documentaçêo técnica
 
 **Pontos fortes:**
 - Contexto ENORME (200k tokens = ~150k palavras)
@@ -105,19 +105,19 @@ Use GPT-4 para tarefas importantes. A diferença de qualidade é brutal. Se vai 
 - Melhor em raciocínio passo-a-passo
 
 **Limitações:**
-- Não tem plugins nativos
+- Nêo tem plugins nativos
 - Menos conhecido no Brasil
 - Às vezes mais "conservador" nas respostas
-- Sem geração de imagens
+- Sem geraçêo de imagens
 - Sem acesso web em tempo real
 
 **Quando usar:**
 ```
 ✅ Analisando documento longo (contratos, relatórios, livros)
-✅ Preciso de precisão máxima (análise legal, financeira)
+✅ Preciso de precisêo máxima (análise legal, financeira)
 ✅ Trabalho complexo que exige raciocínio profundo
 ✅ Análise de dados detalhada e meticulosa
-✅ Revisar código ou documentação técnica
+✅ Revisar código ou documentaçêo técnica
 ✅ Comparar múltiplos documentos
 ```
 
@@ -130,22 +130,22 @@ Para análise de planilhas grandes (5k+ linhas) ou documentos longos (50+ págin
 
 **Casos de uso premium:**
 - Análise de contratos completos
-- Revisão de código de repositórios inteiros
-- Comparação de propostas comerciais
+- Revisêo de código de repositórios inteiros
+- Comparaçêo de propostas comerciais
 - Análise financeira profunda
 - Pesquisa acadêmica
 
 ### 1.3 Gemini (Google)
 
 **Melhor para:**
-- ✅ Integração com Google Workspace
+- ✅ Integraçêo com Google Workspace
 - ✅ Busca em tempo real
 - ✅ Análise de dados do Google (Sheets, Analytics)
-- ✅ Tarefas que exigem informação atualizada
+- ✅ Tarefas que exigem informaçêo atualizada
 - ✅ Multimodalidade (texto, imagem, vídeo, áudio)
 
 **Pontos fortes:**
-- Acesso direto à busca Google (informação atualizada)
+- Acesso direto à busca Google (informaçêo atualizada)
 - Integra nativamente com Gmail, Drive, Docs, Sheets
 - Informações sempre atualizadas
 - Grátis (plano básico robusto)
@@ -155,28 +155,28 @@ Para análise de planilhas grandes (5k+ linhas) ou documentos longos (50+ págin
 **Limitações:**
 - Menos poderoso que GPT-4 e Claude (ainda)
 - Menos controle sobre comportamento
-- Ainda em evolução (menos maduro)
+- Ainda em evoluçêo (menos maduro)
 - Menos adotado profissionalmente
 
 **Quando usar:**
 ```
-✅ Preciso de informação atual/recente (notícias, preços, eventos)
+✅ Preciso de informaçêo atual/recente (notícias, preços, eventos)
 ✅ Trabalho dentro do ecossistema Google
 ✅ Quero buscar e resumir informações da web
 ✅ Análise de Google Sheets diretamente
-✅ Preciso de custo zero (versão gratuita boa)
+✅ Preciso de custo zero (versêo gratuita boa)
 ```
 
 **Dica profissional:**
-Combine Gemini (pesquisa) + Claude (análise) + ChatGPT (execução). Use cada um onde brilha.
+Combine Gemini (pesquisa) + Claude (análise) + ChatGPT (execuçêo). Use cada um onde brilha.
 
-**Integração Google Workspace:**
+**Integraçêo Google Workspace:**
 - Gemini in Gmail: escreve emails
-- Gemini in Docs: redação assistida
+- Gemini in Docs: redaçêo assistida
 - Gemini in Sheets: análise de dados
-- Gemini in Slides: criação de apresentações
+- Gemini in Slides: criaçêo de apresentações
 
-### 1.4 Comparação Prática: Mesma Tarefa, Resultados Diferentes
+### 1.4 Comparaçêo Prática: Mesma Tarefa, Resultados Diferentes
 
 **Cenário 1: Análise de planilha de vendas (5.000 linhas)**
 - 🥇 **Claude:** Melhor análise profunda, identifica padrões sutis, recomendações mais precisas
@@ -189,9 +189,9 @@ Combine Gemini (pesquisa) + Claude (análise) + ChatGPT (execução). Use cada u
 - 🥉 **Gemini:** Funciona mas resultado genérico
 
 **Cenário 3: Analisar contrato de 50 páginas**
-- 🥇 **Claude:** Contexto enorme, precisão nos detalhes, identifica cláusulas problemáticas
+- 🥇 **Claude:** Contexto enorme, precisêo nos detalhes, identifica cláusulas problemáticas
 - 🥈 **ChatGPT:** OK mas pode perder detalhes em documentos longos
-- 🥉 **Gemini:** Não recomendado para análise legal profunda
+- 🥉 **Gemini:** Nêo recomendado para análise legal profunda
 
 **Cenário 4: Pesquisar tendências de mercado 2025**
 - 🥇 **Gemini:** Acesso web em tempo real, dados atualizados
@@ -204,11 +204,11 @@ Combine Gemini (pesquisa) + Claude (análise) + ChatGPT (execução). Use cada u
 - 🥉 **Gemini:** Menos criativo para volume
 
 **Cenário 6: Análise de sentimento de 1.000 reviews**
-- 🥇 **Claude:** Análise profunda, identifica nuances, categorização precisa
+- 🥇 **Claude:** Análise profunda, identifica nuances, categorizaçêo precisa
 - 🥈 **ChatGPT:** Bom mas pode simplificar demais
 - 🥉 **Gemini:** Análise superficial
 
-**Minha recomendação:**
+**Minha recomendaçêo:**
 Tenha conta nas 3. Use cada uma pro que faz melhor. Investimento: R$ 0-40/mês. Retorno: horas economizadas + qualidade superior.
 
 ## 2. Prompt Engineering: A Habilidade de R$ 8.000-15.000/mês
@@ -239,13 +239,13 @@ Para cada insight:
 - Quantifique o impacto financeiro (R$)
 - Identifique causa raiz provável
 - Sugira 2-3 ações específicas e acionáveis
-- Estime ROI de cada ação
+- Estime ROI de cada açêo
 
 Formato: 
 1. Tabela resumo executivo
 2. Top 3 insights críticos (com $ impacto)
 3. Recomendações priorizadas por ROI esperado
-4. Quick wins (implementação < 1 semana)
+4. Quick wins (implementaçêo < 1 semana)
 
 Tom: profissional, orientado a dados, acionável."
 
@@ -282,8 +282,8 @@ para [objetivo final]"
 
 Exemplo:
 "Preciso que você crie sequência de 5 emails de onboarding
-focando em ativação rápida (primeiro valor em 48h)
-para aumentar retenção semana 1 de 60% para 80%"
+focando em ativaçêo rápida (primeiro valor em 48h)
+para aumentar retençêo semana 1 de 60% para 80%"
 ```
 
 **I - Instruções (Instructions)**
@@ -293,12 +293,12 @@ para aumentar retenção semana 1 de 60% para 80%"
 2. [Passo 2 específico]
 3. [Passo 3 específico]
 
-Não pule etapas. Mostre raciocínio."
+Nêo pule etapas. Mostre raciocínio."
 
 Exemplo:
 "1. Primeiro, identifique 3 quick wins no produto
 2. Depois, crie gancho emocional para cada email
-3. Então, estruture cada email: problema→solução→ação
+3. Entêo, estruture cada email: problema→soluçêo→açêo
 4. Por fim, adicione social proof específico"
 ```
 
@@ -319,19 +319,19 @@ Tom: casual-profissional, você/tu, amigável
 Elementos: pergunta inicial + social proof + urgência sutil"
 ```
 
-**P - Prova/Validação (Proof/Validation)**
+**P - Prova/Validaçêo (Proof/Validation)**
 ```
 "Antes de responder, valide se:
 - [Critério de qualidade 1]
 - [Critério de qualidade 2]
 - [Critério de qualidade 3]
 
-Se não passar validação, refaça."
+Se nêo passar validaçêo, refaça."
 
 Exemplo:
 "Antes de finalizar, confirme:
 - Cada email tem objetivo único e claro
-- CTAs são específicos e mensuráveis
+- CTAs sêo específicos e mensuráveis
 - Tom é consistente em todos
 - Sem jargões técnicos excessivos
 - Subject lines testadas mentalmente"
@@ -351,7 +351,7 @@ Analise esta base de clientes que cancelaram nos últimos 90 dias (CSV anexo).
 Objetivo: reduzir churn em 30% nos próximos 60 dias.
 
 Identifique:
-1. Principais indicadores preditivos de churn (correlação >0.6)
+1. Principais indicadores preditivos de churn (correlaçêo >0.6)
 2. Segmentos de maior risco (cluster analysis)
 3. Timing médio entre primeiros sinais e cancelamento
 4. Padrões de uso antes do churn vs clientes ativos
@@ -360,8 +360,8 @@ Identifique:
 INSTRUÇÕES:
 1. Primeiro, limpe e explore os dados (missing values, outliers)
 2. Depois, faça análise descritiva por segmento
-3. Então, identifique correlações e padrões temporais
-4. Crie modelo preditivo simples (regressão logística ou similar)
+3. Entêo, identifique correlações e padrões temporais
+4. Crie modelo preditivo simples (regressêo logística ou similar)
 5. Por fim, traduza insights em ações específicas
 
 SAÍDA:
@@ -370,8 +370,8 @@ Estruture resposta em:
 **Resumo Executivo** (3 bullets máximo)
 
 **Análise Detalhada:**
-- Tabela: Top 5 indicadores de churn (feature, correlação, exemplo)
-- Gráfico: Distribuição de churn por segmento (descreva)
+- Tabela: Top 5 indicadores de churn (feature, correlaçêo, exemplo)
+- Gráfico: Distribuiçêo de churn por segmento (descreva)
 - Timeline: Jornada típica até churn (dias/eventos)
 
 **Segmentos de Risco:**
@@ -381,26 +381,26 @@ Estruture resposta em:
 
 **Clientes em Risco Imediato:**
 - Lista: 10 clientes com maior probabilidade churn (próximos 30 dias)
-- Para cada: ID, score risco, motivo provável, ação sugerida
+- Para cada: ID, score risco, motivo provável, açêo sugerida
 
 **Recomendações Priorizadas:**
-1. [Ação]: [descrição], [impacto estimado], [esforço], [prazo]
-2. [Ação]: [descrição], [impacto estimado], [esforço], [prazo]
-3. [Ação]: [descrição], [impacto estimado], [esforço], [prazo]
+1. [Açêo]: [descriçêo], [impacto estimado], [esforço], [prazo]
+2. [Açêo]: [descriçêo], [impacto estimado], [esforço], [prazo]
+3. [Açêo]: [descriçêo], [impacto estimado], [esforço], [prazo]
 
-**Quick Wins** (implementação < 1 semana):
+**Quick Wins** (implementaçêo < 1 semana):
 - [Lista 3-5 ações rápidas]
 
-VALIDAÇÃO:
+VALIDAÇêO:
 Antes de responder, confirme:
 - Dados fazem sentido estatisticamente (soma 100%, sem anomalias)
-- Correlações são causais ou apenas correlações (explicite)
-- Recomendações são acionáveis (não genéricas tipo "melhorar suporte")
+- Correlações sêo causais ou apenas correlações (explicite)
+- Recomendações sêo acionáveis (nêo genéricas tipo "melhorar suporte")
 - Números batem (revenue perdido = soma dos segmentos)
-- Inclui COMO implementar cada recomendação, não só O QUE
+- Inclui COMO implementar cada recomendaçêo, nêo só O QUE
 ```
 
-**Exemplo 2: Criação de conteúdo LinkedIn B2B**
+**Exemplo 2: Criaçêo de conteúdo LinkedIn B2B**
 
 ```
 CONTEXTO:
@@ -412,8 +412,8 @@ REQUISITOS:
 Crie post sobre [tema: "Como IA está mudando vendas B2B"] que:
 - Pare scroll nos primeiros 2 segundos (gancho forte)
 - Eduque sobre problema real que executivos de vendas têm
-- Posicione IA como solução prática (não hype)
-- Gere engajamento genuíno (comentários, não só likes)
+- Posicione IA como soluçêo prática (nêo hype)
+- Gere engajamento genuíno (comentários, nêo só likes)
 - Estabeleça autoridade sem ser arrogante
 
 Público: Diretores de Vendas em empresas B2B (50-500 funcionários)
@@ -421,10 +421,10 @@ Público: Diretores de Vendas em empresas B2B (50-500 funcionários)
 INSTRUÇÕES:
 1. Comece com dado/estatística surpreendente (fonte)
 2. Apresente problema específico (dor real)
-3. Agite consequências (custo de não resolver)
-4. Introduza solução (como IA ajuda especificamente)
+3. Agite consequências (custo de nêo resolver)
+4. Introduza soluçêo (como IA ajuda especificamente)
 5. Dê exemplo concreto/case (números reais)
-6. CTA: pergunta que gera discussão genuína
+6. CTA: pergunta que gera discussêo genuína
 
 Estrutura:
 - Linha 1: Gancho (dado chocante)
@@ -432,18 +432,18 @@ Estrutura:
 - [espaço]
 - Parágrafo 2: Problema
 - [espaço]
-- Parágrafo 3: Agitação
+- Parágrafo 3: Agitaçêo
 - [espaço]
-- Parágrafo 4: Solução + exemplo
+- Parágrafo 4: Soluçêo + exemplo
 - [espaço]
 - CTA: Pergunta
 
 SAÍDA:
-- Máximo 150 palavras (LinkedIn favorece concisão)
+- Máximo 150 palavras (LinkedIn favorece concisêo)
 - 3-5 parágrafos curtos (2-3 linhas cada)
 - Máximo 2 emojis (profissional)
-- 1 pergunta final engajadora (não retórica)
-- 3-5 hashtags relevantes (não spam)
+- 1 pergunta final engajadora (nêo retórica)
+- 3-5 hashtags relevantes (nêo spam)
 
 Formato:
 ```
@@ -453,22 +453,22 @@ Formato:
 Hashtags: #vendas #ia #b2b [etc]
 ```
 
-VALIDAÇÃO:
+VALIDAÇêO:
 Antes de finalizar, confirme:
-- Gancho prende atenção (você pararia scroll?)
+- Gancho prende atençêo (você pararia scroll?)
 - Evita jargões técnicos excessivos (diretor entende?)
-- Tom: consultivo, não vendedor (compartilharia?)
-- Foco: problema do leitor, não em IA em si
-- Pergunta final gera discussão real (não "concorda?")
-- Dados são verificáveis (fonte existe?)
+- Tom: consultivo, nêo vendedor (compartilharia?)
+- Foco: problema do leitor, nêo em IA em si
+- Pergunta final gera discussêo real (nêo "concorda?")
+- Dados sêo verificáveis (fonte existe?)
 ```
 
-**Exemplo 3: Extração de informações estruturadas**
+**Exemplo 3: Extraçêo de informações estruturadas**
 
 ```
 CONTEXTO:
 Você é assistente de SDR (Sales Development Representative)
-especializado em qualificação de leads via email.
+especializado em qualificaçêo de leads via email.
 
 REQUISITOS:
 Analise estes 50 emails de leads interessados (anexo)
@@ -492,19 +492,19 @@ Regras:
 - Empresa: nome oficial (pesquise se necessário)
 - Cargo: padronize (CEO, CTO, Gerente, etc)
 - Produto_Interesse: nosso produto específico
-- Budget_Mencionado: número ou "não mencionado"
+- Budget_Mencionado: número ou "nêo mencionado"
 - Prazo_Decisao: dias ou "indefinido"
 - Urgencia: Alta/Média/Baixa
 - Objecoes_Principais: max 3, separadas por ";"
-- Next_Steps: ação específica para SDR
+- Next_Steps: açêo específica para SDR
 - Red_Flags: concerns (budget, autoridade, etc) ou "nenhum"
 
-VALIDAÇÃO:
+VALIDAÇêO:
 - 50 linhas (1 por email)
-- Sem células vazias (use "não mencionado")
+- Sem células vazias (use "nêo mencionado")
 - Urgencia só: Alta, Média ou Baixa
 - Budget em R$ quando mencionado
-- Next_Steps acionáveis (não genéricos)
+- Next_Steps acionáveis (nêo genéricos)
 ```
 
 ### 2.4 Técnicas Avançadas de Prompting
@@ -514,14 +514,14 @@ VALIDAÇÃO:
 Funciona como: "Veja estes exemplos bons, agora faça igual"
 
 ```
-Crie emails de follow-up para leads frios seguindo estes exemplos de alta conversão:
+Crie emails de follow-up para leads frios seguindo estes exemplos de alta conversêo:
 
 ━━━ EXEMPLO 1 (taxa abertura: 68%) ━━━
 Subject: Re: [produto] - ideia rápida
 
 Oi Maria,
 
-Vi que baixou nosso ebook sobre automação.
+Vi que baixou nosso ebook sobre automaçêo.
 
 Uma ideia: e se você pudesse cortar 15h/semana da sua equipe só automatizando aprovações?
 
@@ -536,7 +536,7 @@ Pedro,
 
 Direto ao ponto: ajudamos 3 empresas do seu setor crescer vendas 40-60% em 90 dias.
 
-Não é magia. É processo + tech.
+Nêo é magia. É processo + tech.
 
 Interessa ver como?
 
@@ -559,12 +559,12 @@ Força a IA a "pensar" antes de responder. Aumenta qualidade drasticamente.
 Tenho este problema complexo:
 [Vendas caíram 30% no trimestre, mas leads aumentaram 20%]
 
-NÃO responda direto.
+NêO responda direto.
 
 Primeiro, pense passo-a-passo:
 
 **Passo 1: Definir problema real**
-- Qual métrica importa? (vendas, conversão, ticket?)
+- Qual métrica importa? (vendas, conversêo, ticket?)
 - Problema é em qual etapa do funil?
 - Desde quando? (sazonalidade? mudança?)
 
@@ -572,7 +572,7 @@ Primeiro, pense passo-a-passo:
 - Liste 5-10 causas possíveis
 - Para cada, qual probabilidade (alta/média/baixa)?
 
-**Passo 3: Priorizar investigação**
+**Passo 3: Priorizar investigaçêo**
 - Quais causas validar primeiro?
 - Que dados precisamos? (temos?)
 - Quanto tempo para validar cada?
@@ -582,10 +582,10 @@ Primeiro, pense passo-a-passo:
 - Impacto vs esforço de cada?
 - Dependências entre soluções?
 
-**Passo 5: Plano de ação**
+**Passo 5: Plano de açêo**
 - Sequência de ações (próximos 30 dias)
-- Owner de cada ação
-- Métricas para validar solução funcionou
+- Owner de cada açêo
+- Métricas para validar soluçêo funcionou
 
 Mostre SEU RACIOCÍNIO em cada passo antes da resposta final.
 
@@ -601,20 +601,20 @@ Você é CFO experiente (20 anos, passou por 2 IPOs, 1 M&A).
 
 Características:
 - Cético por natureza (já viu muitos pitches ruins)
-- Orientado a dados (não aceita "achismos")
+- Orientado a dados (nêo aceita "achismos")
 - Avesso a risco (precisa de plano B sempre)
 - Foca ROI, payback, cash flow
-- Pergunta coisas que CEO não pensa
+- Pergunta coisas que CEO nêo pensa
 
 Analise esta proposta de investimento:
-[proposta de comprar software de automação por R$ 50k/ano]
+[proposta de comprar software de automaçêo por R$ 50k/ano]
 
 Procure ATIVAMENTE por:
-- Riscos não mencionados na proposta
+- Riscos nêo mencionados na proposta
 - Suposições otimistas demais (question everything)
 - Furos no modelo financeiro (sempre tem)
-- Custos ocultos (implementação, treinamento, manutenção)
-- Alternativas mais baratas (buy vs build vs não fazer nada)
+- Custos ocultos (implementaçêo, treinamento, manutençêo)
+- Alternativas mais baratas (buy vs build vs nêo fazer nada)
 
 Seja DURO na análise. Empresa conta com você para evitar bad calls.
 
@@ -625,20 +625,20 @@ Formato:
 2. Perguntas críticas (10-15 perguntas que CEO precisa responder)
 3. Riscos identificados (priorizados por impacto $)
 4. Análise financeira detalhada (ROI realista, payback, sensibilidade)
-5. Recomendação: Aprovar / Aprovar com condições / Rejeitar / Investigar mais
+5. Recomendaçêo: Aprovar / Aprovar com condições / Rejeitar / Investigar mais
 ```
 
-**4. Especificação de Formato Rigorosa**
+**4. Especificaçêo de Formato Rigorosa**
 
 Quando precisa output EXATAMENTE numa estrutura.
 
 ```
-Resuma esta reunião de product planning seguindo EXATAMENTE este formato:
+Resuma esta reuniêo de product planning seguindo EXATAMENTE este formato:
 
 ## 📋 Decisões Tomadas
-- [Decisão 1 - específica e clara]
-- [Decisão 2]
-- [Decisão 3]
+- [Decisêo 1 - específica e clara]
+- [Decisêo 2]
+- [Decisêo 3]
 
 ## 🎯 Próximos Passos
 | Tarefa | Responsável | Prazo | Dependências |
@@ -651,7 +651,7 @@ Resuma esta reunião de product planning seguindo EXATAMENTE este formato:
 - [Bloqueio 2]: [quem precisa resolver]
 
 ## 💡 Ideias (para retomar)
-- [Ideia 1 - não decidida ainda]
+- [Ideia 1 - nêo decidida ainda]
 - [Ideia 2]
 
 ## 📊 Métricas de Sucesso
@@ -659,24 +659,24 @@ Resuma esta reunião de product planning seguindo EXATAMENTE este formato:
 - [Métrica 2]: [target]
 
 REGRAS ESTRITAS:
-- NÃO adicione seções extras
-- NÃO mude formato da tabela (4 colunas exatas)
-- NÃO use emojis além dos indicados
-- NÃO escreva parágrafos (só bullets)
-- Decisões ≠ Próximos Passos (decisão = "o quê", passo = "quem faz quando")
-- Bloqueios = impedimentos, não tarefas difíceis
+- NêO adicione seções extras
+- NêO mude formato da tabela (4 colunas exatas)
+- NêO use emojis além dos indicados
+- NêO escreva parágrafos (só bullets)
+- Decisões ≠ Próximos Passos (decisêo = "o quê", passo = "quem faz quando")
+- Bloqueios = impedimentos, nêo tarefas difíceis
 
-Se formato não bater 100%, refaça.
+Se formato nêo bater 100%, refaça.
 ```
 
-**5. Iteração e Refinamento (Prompt dentro de Prompt)**
+**5. Iteraçêo e Refinamento (Prompt dentro de Prompt)**
 
 ```
 Vou te dar tarefa em 2 fases:
 
 **FASE 1: Rascunho**
 Crie email de vendas para [produto X] para [público Y].
-Não se preocupe com perfeição. Faça rápido.
+Nêo se preocupe com perfeiçêo. Faça rápido.
 
 [IA responde]
 
@@ -684,15 +684,15 @@ Não se preocupe com perfeição. Faça rápido.
 Agora você é editor crítico.
 
 Revise o email acima melhorando:
-1. Gancho: primeiras 10 palavras prendem? Se não, refaça.
-2. Clareza: tem jargão? Simplifique.
+1. Gancho: primeiras 10 palavras prendem? Se nêo, refaça.
+2. Clareza: tem jargêo? Simplifique.
 3. Especificidade: troque genérico por específico (números, exemplos)
-4. CTA: está CRISTALINO o que fazer? Se não, deixe óbvio.
+4. CTA: está CRISTALINO o que fazer? Se nêo, deixe óbvio.
 5. Tamanho: corte 30% (menos é mais)
 
 Mostre:
-- Versão original
-- Versão melhorada
+- Versêo original
+- Versêo melhorada
 - O que mudou e por quê (tabela comparativa)
 ```
 
@@ -707,7 +707,7 @@ ChatGPT Plus/Team tem Code Interpreter que executa Python por você.
 - ✅ Criar gráficos profissionais (matplotlib, seaborn, plotly)
 - ✅ Limpar e processar dados (remove duplicatas, corrige erros)
 - ✅ Encontrar padrões e correlações (análise estatística)
-- ✅ Fazer previsões simples (regressão, tendências)
+- ✅ Fazer previsões simples (regressêo, tendências)
 - ✅ Manipular imagens (resize, crop, filter)
 - ✅ Analisar arquivos (PDFs, logs, JSONs)
 
@@ -721,11 +721,11 @@ ChatGPT Plus/Team tem Code Interpreter que executa Python por você.
 Prompt:
 "Analise estas vendas do e-commerce e faça:
 
-1. **Visão geral:**
+1. **Visêo geral:**
    - Total vendido (R$)
    - Número de pedidos
    - Ticket médio
-   - Evolução mensal (gráfico linha)
+   - Evoluçêo mensal (gráfico linha)
 
 2. **Top performers:**
    - Top 10 produtos por receita (gráfico barras)
@@ -739,11 +739,11 @@ Prompt:
 
 4. **Correlações:**
    - Preço vs quantidade vendida (scatter plot)
-   - Frete grátis aumenta conversão? (compare)
+   - Frete grátis aumenta conversêo? (compare)
    - Desconto impacta ticket médio? (quanto?)
 
-5. **Previsão:**
-   - Tendência próximos 3 meses (regressão linear)
+5. **Previsêo:**
+   - Tendência próximos 3 meses (regressêo linear)
    - Qual produto vai explodir? (crescimento %)
 
 Crie visualizações PROFISSIONAIS (títulos, labels, cores).
@@ -759,7 +759,7 @@ Valor: Cobraria R$ 500-2.000 por essa análise.
 Custo: R$ 0,10 de compute.
 ```
 
-**Exemplo prático 2: Segmentação de clientes (RFM)**
+**Exemplo prático 2: Segmentaçêo de clientes (RFM)**
 
 ```
 [Upload: clientes.csv - 3.200 clientes]
@@ -779,18 +779,18 @@ Prompt:
    - Champions: RFM 444, 443, 434, 433
    - Loyal: F=4, R=2-4
    - At Risk: RFM 244, 344 (comprava bem, sumiu)
-   - Lost: R=1 (não compra há muito tempo)
-   - [outros segmentos padrão RFM]
+   - Lost: R=1 (nêo compra há muito tempo)
+   - [outros segmentos padrêo RFM]
 
 4. Para cada segmento:
    - Quantos clientes (% da base)
    - Valor médio ($)
    - Receita total do segmento
-   - Recomendação de campanha
+   - Recomendaçêo de campanha
 
 5. Visualize:
    - Heatmap RFM 3D
-   - Distribuição de clientes por segmento
+   - Distribuiçêo de clientes por segmento
    - Valor $ por segmento
 
 6. Liste top 20 clientes 'At Risk' (maior risco perder)
@@ -798,7 +798,7 @@ Prompt:
 Output: CSV com clientes segmentados + análise + gráficos"
 
 Resultado:
-- Segmentação profissional
+- Segmentaçêo profissional
 - Estratégia de marketing por segmento
 - Lista de clientes em risco
 - Gráficos para apresentar ao CEO
@@ -809,10 +809,10 @@ Valor: R$ 800-1.500 (analistas cobram isso)
 
 ### 3.2 Claude para Análise Profunda de Dados Textuais
 
-Claude não executa código, mas é EXCELENTE para:
+Claude nêo executa código, mas é EXCELENTE para:
 - Análise de planilhas (lê e interpreta)
 - Dados textuais (reviews, feedbacks, NPS)
-- Comparação de datasets
+- Comparaçêo de datasets
 - Encontrar padrões sutis
 
 **Exemplo: Análise de churn**
@@ -843,13 +843,13 @@ Dataset tem:
 
 2. **Padrões comportamentais:**
    - Identifique 5-7 padrões distintos de churn
-   - Para cada padrão:
-     * Descrição do perfil
+   - Para cada padrêo:
+     * Descriçêo do perfil
      * % da base de churn
      * Sinais antecedentes (o que acontece antes)
      * Timing (quantos dias entre sinal e churn)
 
-3. **Comparação churn vs ativos:**
+3. **Comparaçêo churn vs ativos:**
    - Tabela comparativa (médias/medianas)
    - Diferenças estatisticamente significantes
    - Correlações mais fortes com churn
@@ -860,7 +860,7 @@ Dataset tem:
    - Score de risco (1-10) e motivo
 
 5. **Recomendações:**
-   - Por padrão de churn, estratégia de retenção
+   - Por padrêo de churn, estratégia de retençêo
    - Priorize por impacto $ (quanto $ salvar)
    - Quick wins (ações que já podemos fazer)
    - Long term (mudanças produto/processo)
@@ -882,9 +882,9 @@ Segunda-feira, 9h:
 2. Upload no ChatGPT Code Interpreter
 3. Prompt salvo:
    "Crie dashboard semanal:
-   - Vendas: total, variação vs semana anterior (%), meta atingida?
-   - Conversão: funil completo, onde trava
-   - Ticket médio: evolução, por produto
+   - Vendas: total, variaçêo vs semana anterior (%), meta atingida?
+   - Conversêo: funil completo, onde trava
+   - Ticket médio: evoluçêo, por produto
    - Top 5 produtos: vendas, margem, quantidade
    - Alertas: produtos com queda >20%, categorias em alta
    - Gráficos: vendas diárias, funil, top produtos
@@ -933,11 +933,11 @@ Economia anual: ~100 horas
    Depois:
    - Gaps que podemos explorar (3-5)
    - Ameaças que precisamos endereçar (2-3)
-   - Oportunidades de diferenciação (3-5)
+   - Oportunidades de diferenciaçêo (3-5)
    - Recomendações estratégicas (priorize)"
 
 5. Salva análise
-6. Apresenta em reunião mensal
+6. Apresenta em reuniêo mensal
 
 Tempo: 45min total
 vs consultoria: R$ 5.000-15.000
@@ -972,8 +972,8 @@ vs consultoria: R$ 5.000-15.000
    - Para cada: quantas menções, quem pede (perfil)
    
    **Urgente:**
-   - Clientes em risco (mencionaram cancelar/frustração alta)
-   - Ação imediata sugerida
+   - Clientes em risco (mencionaram cancelar/frustraçêo alta)
+   - Açêo imediata sugerida
    
    Output: relatório + CSV com clientes em risco"
 
@@ -985,10 +985,10 @@ Tempo: 10min
 Valor: insights que salvam clientes
 ```
 
-**Workflow 4: Preparação para Reuniões (Ad-hoc)**
+**Workflow 4: Preparaçêo para Reuniões (Ad-hoc)**
 
 ```
-Reunião importante em 1h, precisa de dados:
+Reuniêo importante em 1h, precisa de dados:
 
 1. Junta tudo relevante:
    - Notas de reuniões anteriores
@@ -999,7 +999,7 @@ Reunião importante em 1h, precisa de dados:
 2. Upload no Claude (contexto grande)
 
 3. Prompt:
-   "Reunião em 1h com [pessoa/empresa] sobre [assunto].
+   "Reuniêo em 1h com [pessoa/empresa] sobre [assunto].
    
    Anexei contexto completo.
    
@@ -1014,14 +1014,14 @@ Reunião importante em 1h, precisa de dados:
    Tom: executivo, preparado, estratégico"
 
 4. Lê resumo
-5. Entra na reunião confiante
+5. Entra na reuniêo confiante
 
 Tempo: 10min
 vs ler tudo: 45min+
-Resultado: reunião muito melhor
+Resultado: reuniêo muito melhor
 ```
 
-## 4. Automação de Tarefas com IA
+## 4. Automaçêo de Tarefas com IA
 
 ### 4.1 Tarefas que IA Faz Melhor/Mais Rápido que Humanos
 
@@ -1039,19 +1039,19 @@ Analise este contrato e resuma em 3 seções:
 
 **1. Pontos Principais (bullets)**
 - Objeto do contrato (o quê)
-- Prazo e renovação
+- Prazo e renovaçêo
 - Valores e reajustes
 - Garantias e SLAs
-- Rescisão (condições)
+- Rescisêo (condições)
 
 **2. Riscos & Cláusulas Críticas**
 Liste cláusulas que:
 - Nos expõem a risco legal/financeiro
 - Limitam nossa flexibilidade
 - Tem penalidades significativas
-- São ambíguas (precisam esclarecimento)
+- Sêo ambíguas (precisam esclarecimento)
 
-Para cada: página, texto exato, risco, sugestão
+Para cada: página, texto exato, risco, sugestêo
 
 **3. Ações Necessárias**
 - O que precisamos fazer antes de assinar
@@ -1085,17 +1085,17 @@ CSV com colunas:
 - company
 - role (padronize: C-level, Director, Manager, Other)
 - product_interest (qual nosso produto mencionou)
-- budget (se mencionado, senão "N/A")
+- budget (se mencionado, senêo "N/A")
 - timeline (Urgent <30d, Soon 30-90d, Exploring >90d, N/A)
 - pain_points (max 3, separados por ";")
 - questions_asked (lista)
 - lead_score (1-10 baseado em: fit, urgência, budget)
 
 Regras:
-- Se dado não está no email, use "N/A"
-- Infira role se não explícito (contexto do email)
+- Se dado nêo está no email, use "N/A"
+- Infira role se nêo explícito (contexto do email)
 - Lead_score: 10=perfeito (fit+urgência+$), 1=ruim
-- Priorize precisão (não invente dados)
+- Priorize precisêo (nêo invente dados)
 
 No final:
 - Quantidade emails processados
@@ -1119,13 +1119,13 @@ Prompt:
 
 ━━━
 Headline: "Aumente vendas em 30 dias"
-Body: "Nossa plataforma de automação ajuda e-commerce vender mais gastando menos tempo. Teste grátis 14 dias."
+Body: "Nossa plataforma de automaçêo ajuda e-commerce vender mais gastando menos tempo. Teste grátis 14 dias."
 CTA: "Começar teste grátis"
 ━━━
 
 Performance: CTR 1,2% (média mercado: 0,9%)
 Custo/clique: R$ 2,30
-Conversão landing: 8%
+Conversêo landing: 8%
 
 Crie 50 variações para testar:
 
@@ -1136,14 +1136,14 @@ Crie 50 variações para testar:
 
 **Variações de Body (20):**
 - Tamanhos: 10-25 palavras
-- Estruturas: problema-solução, benefício-prova, urgência-escassez
+- Estruturas: problema-soluçêo, benefício-prova, urgência-escassez
 - Elementos: stats, testimonial, feature, outcome
 
 **Variações de CTA (10):**
-- Tipos: ação direta, benefício, baixo comprometimento, urgência
+- Tipos: açêo direta, benefício, baixo comprometimento, urgência
 - Exemplos estilos diferentes
 
-Para cada variação:
+Para cada variaçêo:
 - Texto
 - Tipo/categoria
 - Hipótese (por que pode funcionar melhor)
@@ -1165,13 +1165,13 @@ Use case: Adaptar conteúdo US pro Brasil
 Prompt:
 "Tenho este blogpost de marketing em inglês (3.000 palavras).
 
-NÃO quero tradução literal.
-Quero ADAPTAÇÃO pro mercado brasileiro.
+NêO quero traduçêo literal.
+Quero ADAPTAÇêO pro mercado brasileiro.
 
 **Adapte:**
 
 1. **Idioma:**
-   - Português BR (não PT)
+   - Português BR (nêo PT)
    - Tom casual-profissional (US é muito direto, suavize)
 
 2. **Referências culturais:**
@@ -1185,7 +1185,7 @@ Quero ADAPTAÇÃO pro mercado brasileiro.
 
 4. **Dados:**
    - Stats: procure equivalentes BR (IBGE, Sebrae, etc)
-   - Se não achar, contextualize ("Nos EUA... No Brasil, cenário similar...")
+   - Se nêo achar, contextualize ("Nos EUA... No Brasil, cenário similar...")
 
 5. **Leis/regulações:**
    - GDPR → LGPD
@@ -1195,12 +1195,12 @@ Quero ADAPTAÇÃO pro mercado brasileiro.
 6. **Tom:**
    - Menos "hard sell"
    - Mais storytelling
-   - Brasileiro gosta de relação antes de compra
+   - Brasileiro gosta de relaçêo antes de compra
 
 **Mantenha:**
 - Estrutura (seções, flow)
 - Mensagem principal
-- CTAs (adapte copy, não posição)
+- CTAs (adapte copy, nêo posiçêo)
 - Tamanho similar (±10%)
 
 Output:
@@ -1236,12 +1236,12 @@ Para cada, identifique:
 **Posicionamento:**
 - Proposta de valor única (1 frase)
 - Público-alvo principal (específico)
-- Diferenciação vs mercado
+- Diferenciaçêo vs mercado
 
 **Produto:**
 - Features principais (top 5)
 - Features únicas (só eles tem)
-- Gaps visíveis (não tem mas deveria)
+- Gaps visíveis (nêo tem mas deveria)
 
 **Pricing:**
 - Modelo (subscription, usage, etc)
@@ -1272,12 +1272,12 @@ Depois:
 
 **Recomendações:**
 1. Como nos diferenciar (3-5 estratégias específicas)
-2. Onde competir vs não competir
+2. Onde competir vs nêo competir
 3. Oportunidades rápidas (quick wins)
 4. Posicionamento ideal nosso
 ```
 
-**Criação de Buyer Personas (Data-Driven)**
+**Criaçêo de Buyer Personas (Data-Driven)**
 
 ```
 [Salvar como: persona_builder.txt]
@@ -1295,7 +1295,7 @@ Para cada persona:
 - Nome fictício (realista)
 - Idade / Cargo / Setor
 - Tamanho empresa
-- Localização
+- Localizaçêo
 
 **Profissional:**
 - Responsabilidades diárias (tópicas)
@@ -1305,21 +1305,21 @@ Para cada persona:
 
 **Desafios:**
 - Top 3 dores diárias (específicas)
-- Por que não consegue resolver sozinho
+- Por que nêo consegue resolver sozinho
 - Soluções tentou (que falharam)
-- Impacto de não resolver (custo $, tempo, oportunidade)
+- Impacto de nêo resolver (custo $, tempo, oportunidade)
 
 **Comportamento de Compra:**
 - Como descobre soluções (canais)
-- Processo de decisão (steps, timeline)
+- Processo de decisêo (steps, timeline)
 - Quem mais envolve (stakeholders)
 - Gatilhos de compra (o que faz buscar agora)
 - Objeções típicas (preço, time, fit, risco)
-- Critérios de decisão (prioridade 1-5)
+- Critérios de decisêo (prioridade 1-5)
 
 **Mensagem que Ressoa:**
 - Palavras/frases que usa (linguagem)
-- Ângulo emocional (medo, ambição, frustração)
+- Ângulo emocional (medo, ambiçêo, frustraçêo)
 - Benefício #1 que procura
 - Social proof que importa (cases, números, logos)
 
@@ -1328,7 +1328,7 @@ Para cada persona:
 - Horários ativos (quando engaja)
 - Formato prefere (vídeo, texto, podcast)
 
-**Citação:**
+**Citaçêo:**
 "[Frase real de cliente desse perfil sobre o problema]"
 
 Depois:
@@ -1336,7 +1336,7 @@ Depois:
 **Comparativo:**
 Tabela mostrando diferenças-chave entre as 3 personas
 
-**Priorização:**
+**Priorizaçêo:**
 Qual persona atacar primeiro (e por quê)
 ```
 
@@ -1357,7 +1357,7 @@ Crie calendário de conteúdo LinkedIn 90 dias:
 
 **Estrutura:**
 - 3 posts/semana (Segunda, Quarta, Sexta)
-- 9h da manhã (melhor horário BR)
+- 9h da manhê (melhor horário BR)
 - Mix de formatos:
   * 40% Educacional (dicas, how-tos, insights)
   * 30% Cases/provas (resultados, testimonials, numbers)
@@ -1384,7 +1384,7 @@ Para cada post (38 posts total):
 - Perguntas provocativas
 - Confissões/admissões
 - Listas ("5 erros...", "3 formas...")
-- Contrariano ("Por que X não funciona")
+- Contrariano ("Por que X nêo funciona")
 
 **CTAs rodar:**
 - Salve este post
@@ -1416,13 +1416,13 @@ Inclua:
    - Entrega insights + gráficos
    - Cobrar: R$ 300-1.500 por análise
 
-2. **Criação de Conteúdo em Massa**
+2. **Criaçêo de Conteúdo em Massa**
    - 20-50 posts LinkedIn
    - 10-20 emails marketing
    - Variações de ad copy
    - Cobrar: R$ 500-3.000 por pacote
 
-3. **Automação de Tarefas com IA**
+3. **Automaçêo de Tarefas com IA**
    - Identificar tarefas repetitivas cliente
    - Criar prompts/workflows com IA
    - Treinar equipe cliente
@@ -1450,11 +1450,11 @@ Inclua:
 
 ## Exercício Prático
 
-**Duração:** 90-120 minutos
+**Duraçêo:** 90-120 minutos
 
 **Objetivo:** Dominar as 3 IAs na prática e criar seu primeiro projeto profissional
 
-**Parte 1: Comparação Hands-On (30min)**
+**Parte 1: Comparaçêo Hands-On (30min)**
 
 Escolha 1 tarefa real sua (ou simule):
 - Analisar planilha
@@ -1471,7 +1471,7 @@ Compare:
 - Qualidade output
 - Velocidade
 - Facilidade uso
-- Qual você usaria em produção
+- Qual você usaria em produçêo
 
 Documente em tabela.
 
@@ -1508,11 +1508,11 @@ Crie 1 entrega que você poderia VENDER:
 Opções:
 A) Análise de dados completa (se tem planilha pra analisar)
 B) Content calendar 30 dias (escolha nicho)
-C) Biblioteca de prompts (escolha profissão)
+C) Biblioteca de prompts (escolha profissêo)
 D) Competitive analysis (escolha 3 empresas)
 
 Use IA para fazer 80% do trabalho.
-Você faz 20% (revisão, formatação, contexto).
+Você faz 20% (revisêo, formataçêo, contexto).
 
 Resultado final: algo que cobraria R$ 300-1.000.
 
@@ -1528,12 +1528,12 @@ Resultado final: algo que cobraria R$ 300-1.000.
 
 ## Próximos Passos
 
-**Módulo 4: Automação No-Code com Make**
+**Módulo 4: Automaçêo No-Code com Make**
 - Interface do Make
-- Primeira automação (passo-a-passo)
+- Primeira automaçêo (passo-a-passo)
 - Integrações poderosas
 - Casos de uso práticos
-- Integração Make + IA
+- Integraçêo Make + IA
 
 **O que você vai aprender:**
 - Automatizar tarefas repetitivas sem código
@@ -1548,4 +1548,4 @@ Nos vemos lá! 🚀
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

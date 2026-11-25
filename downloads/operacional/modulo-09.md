@@ -1,6 +1,6 @@
 # MÓDULO 9: Framework 4R's - Entregar Resultados
 
-**Objetivo:** Comunicar valor, conseguir reconhecimento e promoção
+**Objetivo:** Comunicar valor, conseguir reconhecimento e promoçêo
 
 ---
 
@@ -9,14 +9,14 @@
 ### Você Automatizou Tudo... E Agora?
 
 Parabéns! Você chegou até aqui. Nos últimos 8 módulos, você aprendeu a:
-- Automatizar emails e comunicação
+- Automatizar emails e comunicaçêo
 - Criar documentos com IA em segundos
 - Gerenciar tarefas sem esforço
 - Tornar reuniões 10x mais eficientes
 
 Você está economizando **10-20 horas por semana**.
 
-Seu trabalho está **impecável**. Você entrega tudo no prazo. Seus processos estão **rodando sozinhos**.
+Seu trabalho está **impecável**. Você entrega tudo no prazo. Seus processos estêo **rodando sozinhos**.
 
 **Mas tem um problema...**
 
@@ -30,13 +30,13 @@ Você foi ensinado que **"o trabalho fala por si"**. Que **"basta fazer bem feit
 
 A verdade dura: **Visibilidade > Competência** (na maioria das empresas).
 
-Não basta fazer bem. **Você precisa mostrar que fez bem.**
+Nêo basta fazer bem. **Você precisa mostrar que fez bem.**
 
-### Por Que "Fazer Bem" Não É Suficiente?
+### Por Que "Fazer Bem" Nêo É Suficiente?
 
-**Cenário Real #1: João vs. Maria**
+**Cenário Real #1: Joêo vs. Maria**
 
-**João:**
+**Joêo:**
 - Automatizou 5 processos críticos
 - Economizou 15h/semana da equipe
 - Nunca atrasa entregas
@@ -50,9 +50,9 @@ Não basta fazer bem. **Você precisa mostrar que fez bem.**
 - Documenta tudo, apresenta resultados mensalmente para o gestor
 - **Resultado:** Promovida em 8 meses + 25% de aumento
 
-**Diferença:** Maria sabe **COMUNICAR valor**. João só sabe **GERAR valor**.
+**Diferença:** Maria sabe **COMUNICAR valor**. Joêo só sabe **GERAR valor**.
 
-O gestor de João nem sabe que ele economizou 15h/semana. O gestor de Maria tem um dashboard com gráficos mostrando o impacto dela.
+O gestor de Joêo nem sabe que ele economizou 15h/semana. O gestor de Maria tem um dashboard com gráficos mostrando o impacto dela.
 
 **Quem você acha que vai ser promovido?**
 
@@ -70,23 +70,23 @@ Você literalmente **criou 3 meses extras** de produtividade para a empresa.
 **Valor em reais (salário R$ 50/h):**
 - 720 horas × R$ 50 = **R$ 36.000/ano de valor gerado**
 
-Agora imagine que seu gestor **não sabe disso**.
+Agora imagine que seu gestor **nêo sabe disso**.
 
 Fim de ano chega. Review de performance. Ele pensa:
 
-*"João é bom, faz o trabalho direitinho. Vou dar 3% de aumento (inflação)."*
+*"Joêo é bom, faz o trabalho direitinho. Vou dar 3% de aumento (inflaçêo)."*
 
 **Você gerou R$ 36.000, ganhou R$ 1.800 de aumento.**
 
 **ROI do gestor: 2000%**
-**ROI seu: Frustração + burnout**
+**ROI seu: Frustraçêo + burnout**
 
 ### Como Você É Visto vs. Como Quer Ser Visto
 
 **Como você é visto hoje (sem comunicar valor):**
 - "Faz o que precisa ser feito"
 - "É confiável"
-- "Não dá problema"
+- "Nêo dá problema"
 - Status: **Funcionário médio**
 
 **Como você QUER ser visto:**
@@ -96,7 +96,7 @@ Fim de ano chega. Review de performance. Ele pensa:
 - Status: **Talento de alto impacto**
 
 **A diferença entre os dois?**
-Não é o que você faz. **É como você comunica o que faz.**
+Nêo é o que você faz. **É como você comunica o que faz.**
 
 ### Cases de Quem Foi Promovido Mostrando Resultados
 
@@ -107,26 +107,26 @@ Não é o que você faz. **É como você comunica o que faz.**
 - Criou dashboard de métricas com Google Data Studio
 - Apresentava mensalmente: resultados, aprendizados, próximos passos
 
-**O que garantiu a promoção:**
+**O que garantiu a promoçêo:**
 - Mandava email semanal para diretoria com **highlights + números**
 - Documentou tudo em Google Docs (acessível para todos)
-- Em review anual, mostrou: **150% de aumento em leads, 40% de redução em custo por lead**
+- Em review anual, mostrou: **150% de aumento em leads, 40% de reduçêo em custo por lead**
 
-**Frase da diretora:** *"Ana me mostra claramente o valor que ela gera. Não tenho dúvida que ela merece liderar o time."*
+**Frase da diretora:** *"Ana me mostra claramente o valor que ela gera. Nêo tenho dúvida que ela merece liderar o time."*
 
 **CASE #2: Pedro - Dev Jr → Dev Pleno (10 meses)**
 
 **O que Pedro fez:**
 - Automatizou deploys (economizou 12h/mês da equipe)
-- Criou documentação de processos
+- Criou documentaçêo de processos
 - Refatorou código legado
 
-**O que garantiu a promoção:**
+**O que garantiu a promoçêo:**
 - A cada sprint, apresentava métricas: **bugs reduzidos (-40%), tempo de deploy (-65%)**
 - Criou um "before/after" visual (tinha dashboard)
-- Em 1-on-1 com gestor, sempre trazia: **problema → solução → impacto**
+- Em 1-on-1 com gestor, sempre trazia: **problema → soluçêo → impacto**
 
-**Frase do gestor:** *"Pedro não só resolve problemas. Ele me mostra quanto tempo e dinheiro economizamos. Isso é pensamento de Pleno/Senior."*
+**Frase do gestor:** *"Pedro nêo só resolve problemas. Ele me mostra quanto tempo e dinheiro economizamos. Isso é pensamento de Pleno/Senior."*
 
 **CASE #3: Carla - Assistente Administrativa → Coordenadora (12 meses)**
 
@@ -135,18 +135,18 @@ Não é o que você faz. **É como você comunica o que faz.**
 - Organizou arquivos da empresa (Google Drive estruturado)
 - Treinou 3 pessoas nos novos processos
 
-**O que garantiu a promoção:**
-- Criou apresentação trimestral: **tempo economizado, erros reduzidos, satisfação da equipe**
+**O que garantiu a promoçêo:**
+- Criou apresentaçêo trimestral: **tempo economizado, erros reduzidos, satisfaçêo da equipe**
 - Documentou todos os processos (virou referência da empresa)
-- Propôs melhorias futuras (mostrou visão estratégica)
+- Propôs melhorias futuras (mostrou visêo estratégica)
 
 **Frase da CEO:** *"Carla transformou o operacional da empresa. E o melhor: ela me mostra isso com dados. Preciso dela coordenando mais áreas."*
 
-### O Padrão nos 3 Cases
+### O Padrêo nos 3 Cases
 
 Você notou? Todos fizeram 3 coisas:
 
-1. **Geraram valor real** (automação, melhoria de processos)
+1. **Geraram valor real** (automaçêo, melhoria de processos)
 2. **Documentaram o valor** (métricas, dashboards, apresentações)
 3. **Comunicaram consistentemente** (emails, 1-on-1s, reviews)
 
@@ -156,7 +156,7 @@ Você vai aprender o **Framework 4R's**:
 - **Result** (Resultado): O QUE você entregou
 - **Roadmap** (Plano): COMO você chegou lá
 - **Risk** (Riscos): O que poderia dar errado e como você mitigou
-- **Review** (Revisão): Próximos passos e evolução contínua
+- **Review** (Revisêo): Próximos passos e evoluçêo contínua
 
 No final deste módulo, você vai ter um **sistema documentado** para:
 - Comunicar valor para seu gestor toda semana
@@ -181,7 +181,7 @@ Ele foi criado observando como **profissionais de alta performance** se comunica
 1. **RESULT** (Resultado): O QUE você entregou
 2. **ROADMAP** (Plano): COMO você chegou lá
 3. **RISK** (Riscos): O que poderia dar errado (e como você evitou)
-4. **REVIEW** (Revisão): Próximos passos e aprendizados
+4. **REVIEW** (Revisêo): Próximos passos e aprendizados
 
 ### Por Que 4R's Funciona?
 
@@ -189,7 +189,7 @@ Ele foi criado observando como **profissionais de alta performance** se comunica
 
 Gestores têm **pouco tempo** e **muitas decisões** para tomar.
 
-Eles precisam de **informação condensada, acionável e com contexto**.
+Eles precisam de **informaçêo condensada, acionável e com contexto**.
 
 O 4R's entrega exatamente isso:
 - **Result:** Satisfaz a necessidade de "O QUE foi feito?"
@@ -234,10 +234,10 @@ Exemplo: 20h/mês × R$ 50/h = R$ 1.000/mês = R$ 12.000/ano
 **3. Erro reduzido:**
 ```
 Taxa de erro antes - Taxa de erro depois = Melhoria
-Exemplo: 15% erro → 2% erro = 13% de melhoria (87% redução)
+Exemplo: 15% erro → 2% erro = 13% de melhoria (87% reduçêo)
 ```
 
-**4. Satisfação aumentada:**
+**4. Satisfaçêo aumentada:**
 ```
 NPS ou pesquisa antes vs depois
 Exemplo: NPS 30 → NPS 65 = +35 pontos (117% de aumento)
@@ -264,14 +264,14 @@ O passo a passo de COMO você chegou no resultado.
 1. Mapeei processo atual (identificamos 8 etapas manuais)
 2. Pesquisei ferramentas (testamos 3: Google Apps Script, Zapier, Make)
 3. Escolhemos Zapier por custo-benefício
-4. Criei automação em 4 horas
+4. Criei automaçêo em 4 horas
 5. Testamos por 2 semanas com equipe
 6. Refinamos baseado em feedback
 7. Documentamos processo completo
 8. Treinamos 5 pessoas para replicar
 
 **Destaque de obstáculos:**
-*"Maior desafio: Integrar API do CRM antigo. Solução: Usei Google Sheets como ponte temporária até migração."*
+*"Maior desafio: Integrar API do CRM antigo. Soluçêo: Usei Google Sheets como ponte temporária até migraçêo."*
 
 ### R3: RISK - Antecipar Problemas
 
@@ -285,32 +285,32 @@ Riscos que você identificou e como mitigou.
 
 **Como apresentar:**
 - Liste 2-5 riscos principais
-- Para cada risco: probabilidade + impacto + mitigação
+- Para cada risco: probabilidade + impacto + mitigaçêo
 
 **Template:**
 
-| Risco | Probabilidade | Impacto | Mitigação |
+| Risco | Probabilidade | Impacto | Mitigaçêo |
 |-------|---------------|---------|-----------|
-| [Descrição] | Alta/Média/Baixa | Alto/Médio/Baixo | [O que você fez] |
+| [Descriçêo] | Alta/Média/Baixa | Alto/Médio/Baixo | [O que você fez] |
 
 **Exemplo real:**
 
-*"Riscos identificados na automação de relatórios:"*
+*"Riscos identificados na automaçêo de relatórios:"*
 
 1. **Risco:** Dados incorretos do CRM
    - **Probabilidade:** Média
    - **Impacto:** Alto (decisões erradas)
-   - **Mitigação:** Validação cruzada semanal por 1 mês. Após confirmação de acurácia, reduzi para quinzenal.
+   - **Mitigaçêo:** Validaçêo cruzada semanal por 1 mês. Após confirmaçêo de acurácia, reduzi para quinzenal.
 
 2. **Risco:** Ferramenta paga (Zapier) ficar cara conforme escala
    - **Probabilidade:** Alta
    - **Impacto:** Médio
-   - **Mitigação:** Comecei no plano grátis. Documentei alternativa open-source (n8n) caso custo fique proibitivo.
+   - **Mitigaçêo:** Comecei no plano grátis. Documentei alternativa open-source (n8n) caso custo fique proibitivo.
 
-3. **Risco:** Dependência de uma pessoa (eu) para manutenção
+3. **Risco:** Dependência de uma pessoa (eu) para manutençêo
    - **Probabilidade:** Alta
    - **Impacto:** Alto
-   - **Mitigação:** Documentei tudo + treinei 2 pessoas da equipe como backup.
+   - **Mitigaçêo:** Documentei tudo + treinei 2 pessoas da equipe como backup.
 
 **O que seu gestor pensa ao ler isso:**
 
@@ -319,11 +319,11 @@ Riscos que você identificou e como mitigou.
 ### R4: REVIEW - Próximos Passos
 
 **O que é:**
-Aprendizados + plano de evolução contínua.
+Aprendizados + plano de evoluçêo contínua.
 
 **Por que importa:**
 - Mostra growth mindset (sempre melhorando)
-- Posiciona você como estratégico (não só operacional)
+- Posiciona você como estratégico (nêo só operacional)
 - Abre porta para recursos/budget
 
 **Como apresentar:**
@@ -334,8 +334,8 @@ Aprendizados + plano de evolução contínua.
 **Exemplo:**
 
 *"Aprendizados:"*
-1. Automação economiza mais tempo do que eu imaginava (fator 10x)
-2. Documentação é crucial - sem ela, conhecimento fica comigo
+1. Automaçêo economiza mais tempo do que eu imaginava (fator 10x)
+2. Documentaçêo é crucial - sem ela, conhecimento fica comigo
 3. Testar com usuários reais antes de lançar evita retrabalho
 
 *"Próximos passos:"*
@@ -343,9 +343,9 @@ Aprendizados + plano de evolução contínua.
   - Automatizar relatório de CS (mesmo modelo)
   - Treinar mais 3 pessoas
 - **Médio prazo (próximos 2 meses):**
-  - Escalar automação para outras 3 áreas
+  - Escalar automaçêo para outras 3 áreas
   - Criar biblioteca de automações da empresa
-  - Propor workshop de automação para todo time
+  - Propor workshop de automaçêo para todo time
 
 *"Preciso de:"*
 - Upgrade para Zapier Pro (R$ 200/mês) → ROI: 20h/mês economizadas = R$ 1.000 economizados
@@ -361,11 +361,11 @@ Aprendizados + plano de evolução contínua.
 
 ### Como Quantificar Resultados Operacionais
 
-A regra de ouro: **Se não pode ser medido, não pode ser melhorado.**
+A regra de ouro: **Se nêo pode ser medido, nêo pode ser melhorado.**
 
-E se não pode ser medido, **não pode ser comunicado com impacto**.
+E se nêo pode ser medido, **nêo pode ser comunicado com impacto**.
 
-Aqui estão as **5 categorias principais** de resultados que você pode (e deve) quantificar:
+Aqui estêo as **5 categorias principais** de resultados que você pode (e deve) quantificar:
 
 ### 1. Tempo Economizado
 
@@ -387,16 +387,16 @@ Total antes - Total depois = ECONOMIA DE TEMPO
 
 **Antes:**
 - Coleta manual de dados: 2 horas
-- Formatação no Excel: 1,5 hora
+- Formataçêo no Excel: 1,5 hora
 - Envio de emails: 0,5 hora
 - **Total por semana:** 4 horas
 - **Total por mês:** 16 horas
 
-**Depois (com automação):**
-- Automação coleta dados: 0 horas
-- Automação formata: 0 horas
-- Automação envia: 0 horas
-- Revisão manual (você confere): 0,5 hora
+**Depois (com automaçêo):**
+- Automaçêo coleta dados: 0 horas
+- Automaçêo formata: 0 horas
+- Automaçêo envia: 0 horas
+- Revisêo manual (você confere): 0,5 hora
 - **Total por semana:** 0,5 hora
 - **Total por mês:** 2 horas
 
@@ -430,25 +430,25 @@ Custo/hora = Salário mensal / 160 horas
 - 14h/mês × R$ 25/h = R$ 350/mês
 - R$ 350/mês × 12 meses = **R$ 4.200/ano**
 
-**Mas não para aí...**
+**Mas nêo para aí...**
 
-Se essa automação afeta **5 pessoas** da equipe:
+Se essa automaçêo afeta **5 pessoas** da equipe:
 - R$ 4.200/ano × 5 pessoas = **R$ 21.000/ano economizados**
 
 **Como apresentar:**
-*"Esta automação gera economia de R$ 21.000/ano em horas de trabalho, que podem ser realocadas para projetos de crescimento."*
+*"Esta automaçêo gera economia de R$ 21.000/ano em horas de trabalho, que podem ser realocadas para projetos de crescimento."*
 
 ### 3. Erros Reduzidos
 
 **Por que é poderoso:**
-Erros custam dinheiro (retrabalho, insatisfação, perda de cliente).
+Erros custam dinheiro (retrabalho, insatisfaçêo, perda de cliente).
 
 **Como calcular:**
 
 ```
 FÓRMULA:
-Taxa de erro ANTES - Taxa de erro DEPOIS = Redução absoluta
-(Redução absoluta ÷ Taxa de erro ANTES) × 100 = % de melhoria
+Taxa de erro ANTES - Taxa de erro DEPOIS = Reduçêo absoluta
+(Reduçêo absoluta ÷ Taxa de erro ANTES) × 100 = % de melhoria
 ```
 
 **Exemplo prático:**
@@ -460,14 +460,14 @@ Taxa de erro ANTES - Taxa de erro DEPOIS = Redução absoluta
 - 8 com erro (campos faltando, duplicados, etc.)
 - **Taxa de erro:** 16%
 
-**Depois (formulário validado + automação):**
+**Depois (formulário validado + automaçêo):**
 - 50 entradas/semana
 - 1 com erro (casos excepcionais)
 - **Taxa de erro:** 2%
 
 **Cálculo:**
-- Redução absoluta: 16% - 2% = 14 pontos percentuais
-- Melhoria: (14 ÷ 16) × 100 = **87,5% de redução de erros**
+- Reduçêo absoluta: 16% - 2% = 14 pontos percentuais
+- Melhoria: (14 ÷ 16) × 100 = **87,5% de reduçêo de erros**
 
 **Custo de um erro:**
 - Tempo para corrigir: 30 minutos/erro
@@ -475,7 +475,7 @@ Taxa de erro ANTES - Taxa de erro DEPOIS = Redução absoluta
 - 3,5h/semana × 4 semanas × R$ 25/h = **R$ 350/mês economizados** (só corrigindo erros)
 
 **Como apresentar:**
-*"Redução de 87,5% nos erros de cadastro. Economia de 3,5h/semana em retrabalho + aumento de satisfação do cliente (dados mais confiáveis)."*
+*"Reduçêo de 87,5% nos erros de cadastro. Economia de 3,5h/semana em retrabalho + aumento de satisfaçêo do cliente (dados mais confiáveis)."*
 
 ### 4. Processos Otimizados
 
@@ -486,13 +486,13 @@ Mostra pensamento sistêmico e maturidade.
 
 ```
 FÓRMULA:
-Etapas ANTES - Etapas DEPOIS = Simplificação
-Tempo de ciclo ANTES - Tempo de ciclo DEPOIS = Aceleração
+Etapas ANTES - Etapas DEPOIS = Simplificaçêo
+Tempo de ciclo ANTES - Tempo de ciclo DEPOIS = Aceleraçêo
 ```
 
 **Exemplo prático:**
 
-**Processo:** Aprovação de compras
+**Processo:** Aprovaçêo de compras
 
 **Antes:**
 1. Funcionário preenche formulário em papel
@@ -504,33 +504,33 @@ Tempo de ciclo ANTES - Tempo de ciclo DEPOIS = Aceleração
 7. Email volta para funcionário
 **Total:** 7 etapas, tempo médio 3-5 dias
 
-**Depois (Google Forms + Zapier + aprovação automática para <R$ 500):**
+**Depois (Google Forms + Zapier + aprovaçêo automática para <R$ 500):**
 1. Funcionário preenche Google Form
-2. Se < R$ 500: aprovação automática + notifica financeiro
-3. Se >= R$ 500: notifica supervisor por email (aprovação em 1 clique)
+2. Se < R$ 500: aprovaçêo automática + notifica financeiro
+3. Se >= R$ 500: notifica supervisor por email (aprovaçêo em 1 clique)
 4. Sistema lança automaticamente
 5. Email automático confirma ao funcionário
 **Total:** 3 etapas (4 automatizadas), tempo médio 2 horas
 
 **Cálculo:**
-- Simplificação: 7 etapas → 3 etapas visíveis (57% mais simples)
-- Aceleração: 3-5 dias → 2 horas (95% mais rápido)
-- Impacto: Satisfação dos funcionários + agilidade do negócio
+- Simplificaçêo: 7 etapas → 3 etapas visíveis (57% mais simples)
+- Aceleraçêo: 3-5 dias → 2 horas (95% mais rápido)
+- Impacto: Satisfaçêo dos funcionários + agilidade do negócio
 
 **Como apresentar:**
-*"Otimização do processo de aprovação de compras: Redução de 7 para 3 etapas (-57%), aceleração de 3-5 dias para 2 horas (-95%). Resultado: Maior agilidade operacional + satisfação da equipe."*
+*"Otimizaçêo do processo de aprovaçêo de compras: Reduçêo de 7 para 3 etapas (-57%), aceleraçêo de 3-5 dias para 2 horas (-95%). Resultado: Maior agilidade operacional + satisfaçêo da equipe."*
 
-### 5. Satisfação Aumentada
+### 5. Satisfaçêo Aumentada
 
 **Por que é poderoso:**
-Pessoas felizes = produtividade + retenção. Métricas de satisfação impressionam gestores.
+Pessoas felizes = produtividade + retençêo. Métricas de satisfaçêo impressionam gestores.
 
 **Como calcular:**
 
 ```
 MÉTODOS:
 1. NPS (Net Promoter Score): Pesquisa 0-10, "você recomendaria este processo?"
-2. Pesquisa de satisfação simples: Escala 1-5
+2. Pesquisa de satisfaçêo simples: Escala 1-5
 3. Taxa de reclamações: Antes vs. Depois
 ```
 
@@ -539,23 +539,23 @@ MÉTODOS:
 **Processo:** Onboarding de novos funcionários
 
 **Antes (manual, caótico):**
-- Pesquisa de satisfação com onboarding: **média 2,8/5**
-- Comentários comuns: "Demorado", "Confuso", "Muita informação de uma vez"
+- Pesquisa de satisfaçêo com onboarding: **média 2,8/5**
+- Comentários comuns: "Demorado", "Confuso", "Muita informaçêo de uma vez"
 
 **Depois (automatizado, estruturado):**
-- Pesquisa de satisfação: **média 4,6/5**
+- Pesquisa de satisfaçêo: **média 4,6/5**
 - Comentários comuns: "Organizado", "Consegui acompanhar", "Tudo no meu tempo"
 
 **Cálculo:**
 - Melhoria absoluta: 4,6 - 2,8 = +1,8 pontos
-- Melhoria percentual: (1,8 ÷ 2,8) × 100 = **64% de aumento em satisfação**
+- Melhoria percentual: (1,8 ÷ 2,8) × 100 = **64% de aumento em satisfaçêo**
 
 **Impacto no negócio:**
-- Retenção nos primeiros 90 dias: 60% → 85% (+42% de retenção)
+- Retençêo nos primeiros 90 dias: 60% → 85% (+42% de retençêo)
 - Custo de turnover evitado: 3 pessoas/ano × R$ 15.000 (custo de contratar + treinar) = **R$ 45.000/ano economizados**
 
 **Como apresentar:**
-*"Novo processo de onboarding: +64% de satisfação dos novos funcionários. Retenção nos primeiros 90 dias aumentou de 60% para 85%, economizando ~R$ 45.000/ano em turnover."*
+*"Novo processo de onboarding: +64% de satisfaçêo dos novos funcionários. Retençêo nos primeiros 90 dias aumentou de 60% para 85%, economizando ~R$ 45.000/ano em turnover."*
 
 ### 10 Exemplos Antes/Depois Poderosos
 
@@ -564,22 +564,22 @@ MÉTODOS:
    - Depois: 15min automático
    - **Economia: 31h/mês**
 
-2. **Aprovação de férias**
+2. **Aprovaçêo de férias**
    - Antes: 5 dias de espera
-   - Depois: 2 horas (aprovação automática para datas disponíveis)
-   - **Aceleração: 95%**
+   - Depois: 2 horas (aprovaçêo automática para datas disponíveis)
+   - **Aceleraçêo: 95%**
 
-3. **Gestão de emails**
+3. **Gestêo de emails**
    - Antes: 2h/dia lendo e organizando
    - Depois: 30min (filtros + respostas automáticas)
    - **Economia: 1,5h/dia = 30h/mês**
 
-4. **Criação de propostas comerciais**
+4. **Criaçêo de propostas comerciais**
    - Antes: 3h/proposta (do zero)
    - Depois: 20min (template + IA)
-   - **Aceleração: 89%**
+   - **Aceleraçêo: 89%**
 
-5. **Atualização de dashboard**
+5. **Atualizaçêo de dashboard**
    - Antes: 4h/semana manual
    - Depois: Tempo real automático
    - **Economia: 16h/mês**
@@ -592,24 +592,24 @@ MÉTODOS:
 7. **Controle de estoque**
    - Antes: Planilha manual, erros 20%
    - Depois: Sistema integrado, erros 3%
-   - **Redução de erro: 85%**
+   - **Reduçêo de erro: 85%**
 
 8. **Onboarding de clientes**
    - Antes: 2 semanas
    - Depois: 3 dias (emails automáticos + materiais pré-configurados)
-   - **Aceleração: 79%**
+   - **Aceleraçêo: 79%**
 
 9. **Reuniões de alinhamento**
    - Antes: 1h, sem ata
    - Depois: 30min, ata automática via IA
-   - **Economia: 50% + 100% de documentação**
+   - **Economia: 50% + 100% de documentaçêo**
 
 10. **Follow-up de tarefas**
-    - Antes: Taxa de conclusão 35%
+    - Antes: Taxa de conclusêo 35%
     - Depois: 85% (lembretes automáticos)
     - **Melhoria: +143%**
 
-### Template de Apresentação de Resultados
+### Template de Apresentaçêo de Resultados
 
 Use este template para comunicar QUALQUER resultado:
 
@@ -619,18 +619,18 @@ PROJETO: [Nome do que você automatizou/melhorou]
 ANTES:
 - Métrica 1: [Número]
 - Métrica 2: [Número]
-- Problema principal: [Descrição]
+- Problema principal: [Descriçêo]
 
 DEPOIS:
 - Métrica 1: [Número novo]
 - Métrica 2: [Número novo]
-- Solução: [O que você fez]
+- Soluçêo: [O que você fez]
 
 IMPACTO:
 - Tempo economizado: [X horas/mês]
 - Custo evitado: [R$ Y/ano]
-- Satisfação: [% aumento ou NPS]
-- Outro benefício: [Descrição]
+- Satisfaçêo: [% aumento ou NPS]
+- Outro benefício: [Descriçêo]
 
 ROI:
 - Investimento: [X horas suas + R$ ferramentas]
@@ -639,14 +639,14 @@ ROI:
 
 EVIDÊNCIA:
 - Dashboard: [Link]
-- Pesquisa de satisfação: [Anexo]
+- Pesquisa de satisfaçêo: [Anexo]
 - Antes/depois visual: [Screenshots]
 ```
 
 **Exemplo preenchido:**
 
 ```
-PROJETO: Automação de Relatórios de Vendas
+PROJETO: Automaçêo de Relatórios de Vendas
 
 ANTES:
 - Tempo gasto: 8h/semana
@@ -661,7 +661,7 @@ DEPOIS:
 IMPACTO:
 - Tempo economizado: 31h/mês
 - Custo evitado: R$ 18.600/ano (5 pessoas × 31h × R$ 50/h × 12 meses ÷ 5)
-- Satisfação: NPS do time de vendas aumentou de 45 para 78
+- Satisfaçêo: NPS do time de vendas aumentou de 45 para 78
 - Decisões mais rápidas: Gerência tem dados em tempo real
 
 ROI:
@@ -671,7 +671,7 @@ ROI:
 
 EVIDÊNCIA:
 - Dashboard: [link do Google Data Studio]
-- Pesquisa de satisfação: [Google Forms com respostas]
+- Pesquisa de satisfaçêo: [Google Forms com respostas]
 - Antes/depois: [Screenshots do processo manual vs. automático]
 ```
 
@@ -685,7 +685,7 @@ EVIDÊNCIA:
 
 Gestores adoram resultados. Mas **líderes** adoram **processos replicáveis**.
 
-Se você quer ser promovido, precisa mostrar que você não só **faz**, mas **sabe ensinar outros a fazer**.
+Se você quer ser promovido, precisa mostrar que você nêo só **faz**, mas **sabe ensinar outros a fazer**.
 
 **O Roadmap documenta seu pensamento estratégico.**
 
@@ -699,18 +699,18 @@ Gestor: *"Legal. Como você fez?"*
 
 Você: *"Ah, usei umas ferramentas, fuçei bastante, deu certo."*
 
-**Pensamento do gestor:** *"Ok, ele fez. Mas se precisar escalar isso, vai ter que fazer tudo de novo. Não é estratégico."*
+**Pensamento do gestor:** *"Ok, ele fez. Mas se precisar escalar isso, vai ter que fazer tudo de novo. Nêo é estratégico."*
 
 **Cenário 2: Com Roadmap**
 
 Você: *"Automatizei o processo de relatórios. Aqui está o roadmap que segui:"*
 
 1. Mapeamento do processo atual (5 etapas manuais identificadas)
-2. Pesquisa de ferramentas (comparei 4 opções, matriz de decisão anexa)
+2. Pesquisa de ferramentas (comparei 4 opções, matriz de decisêo anexa)
 3. Prova de conceito (testei com 1 relatório por 1 semana)
-4. Validação com stakeholders (3 ajustes baseados em feedback)
-5. Implementação completa (treinei 5 pessoas)
-6. Documentação (guia passo a passo para replicar em outros processos)
+4. Validaçêo com stakeholders (3 ajustes baseados em feedback)
+5. Implementaçêo completa (treinei 5 pessoas)
+6. Documentaçêo (guia passo a passo para replicar em outros processos)
 
 **Pensamento do gestor:** *"Uau. Ele é metódico. Pode liderar projetos maiores. E treinar outros. Potencial de liderança."*
 
@@ -732,13 +732,13 @@ Métrica de sucesso definida?
 ROADMAP (Passo a Passo):
 
 FASE 1: DESCOBERTA (tempo gasto: X horas)
-- O que fizemos: [Descrição]
+- O que fizemos: [Descriçêo]
 - Principais achados: [Lista]
-- Decisão: [O que decidimos fazer]
+- Decisêo: [O que decidimos fazer]
 
 FASE 2: PLANEJAMENTO (tempo gasto: X horas)
 - Opções consideradas: [Lista de alternativas]
-- Critérios de decisão: [O que pesou na escolha]
+- Critérios de decisêo: [O que pesou na escolha]
 - Escolha final: [Ferramenta/método escolhido]
 - Por quê: [Justificativa]
 
@@ -748,19 +748,19 @@ FASE 3: PROTOTIPAGEM (tempo gasto: X horas)
 - Feedback: [O que aprendemos]
 - Ajustes: [O que mudamos]
 
-FASE 4: IMPLEMENTAÇÃO (tempo gasto: X horas)
+FASE 4: IMPLEMENTAÇêO (tempo gasto: X horas)
 - Rollout: [Como lançamos]
 - Treinamento: [Quem treinamos]
-- Documentação: [O que documentamos]
+- Documentaçêo: [O que documentamos]
 
 FASE 5: MONITORAMENTO (ongoing)
 - Métricas acompanhadas: [Lista]
-- Frequência de revisão: [Semanal/mensal]
+- Frequência de revisêo: [Semanal/mensal]
 - Ajustes feitos: [Melhorias pós-lançamento]
 
 OBSTÁCULOS SUPERADOS:
-- Obstáculo 1: [Descrição] → Solução: [Como resolvemos]
-- Obstáculo 2: [Descrição] → Solução: [Como resolvemos]
+- Obstáculo 1: [Descriçêo] → Soluçêo: [Como resolvemos]
+- Obstáculo 2: [Descriçêo] → Soluçêo: [Como resolvemos]
 
 APRENDIZADOS:
 - [Learning 1]
@@ -768,21 +768,21 @@ APRENDIZADOS:
 - [Learning 3]
 
 PRÓXIMOS PASSOS:
-- [Evolução 1]
-- [Evolução 2]
+- [Evoluçêo 1]
+- [Evoluçêo 2]
 ```
 
 ### Exemplo Completo de Projeto Documentado
 
 ```
-TÍTULO: Automação de Relatórios de Vendas com Zapier + Google Data Studio
+TÍTULO: Automaçêo de Relatórios de Vendas com Zapier + Google Data Studio
 
 CONTEXTO:
 Time de vendas (5 pessoas) gastava 8h/semana cada montando relatório manual no Excel.
-Erros frequentes (12% dos dados), atrasos de 2-3 dias, frustração alta.
+Erros frequentes (12% dos dados), atrasos de 2-3 dias, frustraçêo alta.
 
 OBJETIVO:
-Reduzir tempo de criação de relatório para <30min/semana.
+Reduzir tempo de criaçêo de relatório para <30min/semana.
 Eliminar erros manuais.
 Disponibilizar dados em tempo real.
 
@@ -793,9 +793,9 @@ FASE 1: DESCOBERTA (4 horas)
 - Mapeei fluxo atual: 7 etapas manuais (coleta dados CRM, copia Excel, formata, calcula, gera gráficos, envia)
 - Principais achados:
   - 80% do tempo gasto em "copiar e colar"
-  - 12% de erro por digitação/fórmula errada
+  - 12% de erro por digitaçêo/fórmula errada
   - Ninguém gosta do processo (NPS: 2/10)
-- Decisão: Automatizar todo o fluxo, priorizar tempo real
+- Decisêo: Automatizar todo o fluxo, priorizar tempo real
 
 FASE 2: PLANEJAMENTO (6 horas)
 - Opções consideradas:
@@ -803,11 +803,11 @@ FASE 2: PLANEJAMENTO (6 horas)
   2. Zapier (pago, no-code)
   3. Make (pago, no-code, mais complexo)
   4. Power BI (caro, requer licença corporativa)
-- Critérios de decisão:
+- Critérios de decisêo:
   - Facilidade de uso (treinar outros)
   - Custo
-  - Tempo de implementação
-  - Integração com CRM atual (Pipedrive)
+  - Tempo de implementaçêo
+  - Integraçêo com CRM atual (Pipedrive)
 - Escolha final: Zapier + Google Data Studio
 - Por quê:
   - Zapier integra com Pipedrive nativamente
@@ -816,7 +816,7 @@ FASE 2: PLANEJAMENTO (6 horas)
   - Custo: R$ 200/mês vs. R$ 18.600/ano economizados
 
 FASE 3: PROTOTIPAGEM (8 horas)
-- MVP: Automação de 1 relatório (vendas por vendedor)
+- MVP: Automaçêo de 1 relatório (vendas por vendedor)
 - Teste: Rodou paralelo ao processo manual por 2 semanas
 - Feedback:
   - Dados bateram 98% com manual (2% de diferença = arredondamentos)
@@ -824,17 +824,17 @@ FASE 3: PROTOTIPAGEM (8 horas)
   - Pediram 3 métricas adicionais
 - Ajustes:
   - Adicionei 3 métricas solicitadas
-  - Ajustei formatação de data (estava em formato americano)
+  - Ajustei formataçêo de data (estava em formato americano)
 
-FASE 4: IMPLEMENTAÇÃO (10 horas)
+FASE 4: IMPLEMENTAÇêO (10 horas)
 - Rollout:
   - Apresentei para diretoria (aprovado)
   - Migrei 100% dos relatórios para novo sistema
   - Mantive manual ativo por 1 semana (backup)
 - Treinamento:
-  - 1 sessão de 1h com time de vendas
+  - 1 sessêo de 1h com time de vendas
   - Gravei tutorial em Loom (12min)
-- Documentação:
+- Documentaçêo:
   - Guia passo a passo de como replicar para outros relatórios
   - Troubleshooting de problemas comuns
 
@@ -842,30 +842,30 @@ FASE 5: MONITORAMENTO (ongoing)
 - Métricas acompanhadas:
   - Tempo gasto em relatórios (antes: 8h/semana → agora: 15min)
   - Taxa de erro (antes: 12% → agora: 1%)
-  - Satisfação do time (NPS: 2 → 8)
-- Frequência de revisão: Mensal nos primeiros 3 meses, depois trimestral
+  - Satisfaçêo do time (NPS: 2 → 8)
+- Frequência de revisêo: Mensal nos primeiros 3 meses, depois trimestral
 - Ajustes feitos:
-  - Mês 1: Adicionei filtro por região (pedido da diretoria)
-  - Mês 2: Criei versão mobile do dashboard
+  - Mês 1: Adicionei filtro por regiêo (pedido da diretoria)
+  - Mês 2: Criei versêo mobile do dashboard
 
 OBSTÁCULOS SUPERADOS:
-1. Integração com Pipedrive limitada no plano grátis do Zapier
-   → Solução: Upgrade para plano pago (ROI justificado: 620%)
+1. Integraçêo com Pipedrive limitada no plano grátis do Zapier
+   → Soluçêo: Upgrade para plano pago (ROI justificado: 620%)
 2. Resistência de 1 vendedor ("prefiro o Excel")
-   → Solução: Sessão 1-on-1, mostrei benefícios, hoje ele é o maior defensor
+   → Soluçêo: Sessêo 1-on-1, mostrei benefícios, hoje ele é o maior defensor
 
 APRENDIZADOS:
 - Sempre teste com usuários reais antes de lançar 100%
-- Documente enquanto faz, não depois (economiza tempo)
-- Stakeholder buy-in é crucial (apresentação para diretoria = fundament al)
+- Documente enquanto faz, nêo depois (economiza tempo)
+- Stakeholder buy-in é crucial (apresentaçêo para diretoria = fundament al)
 
 PRÓXIMOS PASSOS:
 - Replicar para relatórios de CS (mesmo modelo)
-- Criar biblioteca de templates de automação
+- Criar biblioteca de templates de automaçêo
 - Treinar mais 3 pessoas para escalar
 ```
 
-**Com esse roadmap, você não é só "alguém que fez algo". Você é "alguém que sabe resolver problemas complexos de forma estruturada".**
+**Com esse roadmap, você nêo é só "alguém que fez algo". Você é "alguém que sabe resolver problemas complexos de forma estruturada".**
 
 **Isso é potencial de liderança.**
 
@@ -877,9 +877,9 @@ PRÓXIMOS PASSOS:
 
 Gestores promovem pessoas que **minimizam surpresas**.
 
-Se você só mostra o lado positivo, gestor pensa: *"Ele é ingênuo, não está vendo os riscos."*
+Se você só mostra o lado positivo, gestor pensa: *"Ele é ingênuo, nêo está vendo os riscos."*
 
-Se você mostra riscos + mitigação, gestor pensa: *"Ele é maduro, posso confiar nele."*
+Se você mostra riscos + mitigaçêo, gestor pensa: *"Ele é maduro, posso confiar nele."*
 
 ### Matriz de Probabilidade × Impacto
 
@@ -896,39 +896,39 @@ B
 
 **Regra:** Sempre comunique riscos de prioridade 1, 2 e 3.
 
-### Planos de Contingência: 10 Riscos Comuns em Automação
+### Planos de Contingência: 10 Riscos Comuns em Automaçêo
 
 **RISCO 1: Ferramenta paga fica cara demais**
 - **Probabilidade:** Alta
 - **Impacto:** Médio
-- **Mitigação:**
+- **Mitigaçêo:**
   - Comece com plano grátis/trial
   - Documente alternativa open-source (n8n, Activepieces)
   - Calcule ROI claro (justifica custo)
-- **Plano B:** Migração para n8n se custo > R$ 500/mês
+- **Plano B:** Migraçêo para n8n se custo > R$ 500/mês
 
-**RISCO 2: Integração quebra (API muda)**
+**RISCO 2: Integraçêo quebra (API muda)**
 - **Probabilidade:** Média
 - **Impacto:** Alto
-- **Mitigação:**
+- **Mitigaçêo:**
   - Monitore changelog de APIs usadas
-  - Configure alertas se automação falhar
+  - Configure alertas se automaçêo falhar
   - Tenha backup manual documentado
 - **Plano B:** Google Sheets como ponte temporária
 
 **RISCO 3: Dados incorretos (garbage in, garbage out)**
 - **Probabilidade:** Alta
 - **Impacto:** Alto
-- **Mitigação:**
-  - Validação cruzada semanal (primeiras 4 semanas)
+- **Mitigaçêo:**
+  - Validaçêo cruzada semanal (primeiras 4 semanas)
   - Compare automático vs. manual
   - Configure alertas para valores fora do esperado
-- **Plano B:** Revisão manual até confiança 100%
+- **Plano B:** Revisêo manual até confiança 100%
 
 **RISCO 4: Equipe resiste à mudança**
 - **Probabilidade:** Média
 - **Impacto:** Médio
-- **Mitigação:**
+- **Mitigaçêo:**
   - Envolva stakeholders desde o início
   - Mostre benefícios claros (menos trabalho para eles)
   - Treinamento hands-on
@@ -937,7 +937,7 @@ B
 **RISCO 5: Dependência de uma pessoa (você)**
 - **Probabilidade:** Alta
 - **Impacto:** Alto
-- **Mitigação:**
+- **Mitigaçêo:**
   - Documente tudo (processo + troubleshooting)
   - Treine 2-3 pessoas como backup
   - Crie vídeos tutoriais
@@ -946,48 +946,48 @@ B
 **RISCO 6: Segurança/privacidade de dados**
 - **Probabilidade:** Baixa
 - **Impacto:** Alto
-- **Mitigação:**
-  - Use ferramentas com certificação (SOC 2, ISO 27001)
+- **Mitigaçêo:**
+  - Use ferramentas com certificaçêo (SOC 2, ISO 27001)
   - Nunca exponha senhas/API keys publicamente
   - Configure permissões mínimas necessárias
 - **Plano B:** Auditoria de segurança antes de escalar
 
-**RISCO 7: Automação falha e ninguém percebe**
+**RISCO 7: Automaçêo falha e ninguém percebe**
 - **Probabilidade:** Média
 - **Impacto:** Alto
-- **Mitigação:**
+- **Mitigaçêo:**
   - Configure notificações de erro
   - Monitore logs semanalmente
-  - Tenha checklist de validação mensal
-- **Plano B:** Alarme se dado não atualizar em 48h
+  - Tenha checklist de validaçêo mensal
+- **Plano B:** Alarme se dado nêo atualizar em 48h
 
-**RISCO 8: Escalabilidade (funciona para 10, não para 100)**
+**RISCO 8: Escalabilidade (funciona para 10, nêo para 100)**
 - **Probabilidade:** Média
 - **Impacto:** Médio
-- **Mitigação:**
+- **Mitigaçêo:**
   - Teste com volume 2x esperado
   - Pergunte à ferramenta sobre limites
-  - Planeje migração se escalar muito
+  - Planeje migraçêo se escalar muito
 - **Plano B:** Arquitetura modular (fácil trocar peças)
 
-**RISCO 9: Mudança de estratégia da empresa (automação fica obsoleta)**
+**RISCO 9: Mudança de estratégia da empresa (automaçêo fica obsoleta)**
 - **Probabilidade:** Baixa
 - **Impacto:** Médio
-- **Mitigação:**
-  - Alinhe automação com OKRs da empresa
+- **Mitigaçêo:**
+  - Alinhe automaçêo com OKRs da empresa
   - Revise trimestralmente se ainda faz sentido
-  - Documente para fácil desativação
-- **Plano B:** Desliga automação, volta ao manual (documentado)
+  - Documente para fácil desativaçêo
+- **Plano B:** Desliga automaçêo, volta ao manual (documentado)
 
-**RISCO 10: Budget cortado (não pode pagar ferramenta)**
+**RISCO 10: Budget cortado (nêo pode pagar ferramenta)**
 - **Probabilidade:** Baixa
 - **Impacto:** Alto
-- **Mitigação:**
+- **Mitigaçêo:**
   - Sempre tenha ROI claro (justifica investimento)
   - Alternativa grátis identificada
-- **Plano B:** Migração para Google Apps Script (grátis)
+- **Plano B:** Migraçêo para Google Apps Script (grátis)
 
-### Template de Comunicação de Riscos
+### Template de Comunicaçêo de Riscos
 
 ```
 RISCOS IDENTIFICADOS: [Projeto X]
@@ -997,22 +997,22 @@ RISCO DE ALTA PRIORIDADE:
 1. [Nome do Risco]
    PROBABILIDADE: Alta/Média/Baixa
    IMPACTO: Alto/Médio/Baixo
-   POR QUE É UM RISCO: [Explicação]
-   MITIGAÇÃO IMPLEMENTADA: [O que você fez]
+   POR QUE É UM RISCO: [Explicaçêo]
+   MITIGAÇêO IMPLEMENTADA: [O que você fez]
    PLANO B SE ACONTECER: [Contingência]
    STATUS: Monitorando / Resolvido / Aceito
 
 RISCOS DE MÉDIA PRIORIDADE:
 [Repetir estrutura para cada risco]
 
-RISCOS ACEITÁVEIS (documentados, mas não requerem ação):
+RISCOS ACEITÁVEIS (documentados, mas nêo requerem açêo):
 [Lista simples]
 ```
 
 **Exemplo preenchido:**
 
 ```
-RISCOS IDENTIFICADOS: Automação de Relatórios
+RISCOS IDENTIFICADOS: Automaçêo de Relatórios
 
 RISCO DE ALTA PRIORIDADE:
 
@@ -1020,18 +1020,18 @@ RISCO DE ALTA PRIORIDADE:
    PROBABILIDADE: Média
    IMPACTO: Alto
    POR QUE É UM RISCO: Se CRM tiver dados errados, relatório automático também terá. Decisões de negócio podem ser baseadas em dados incorretos.
-   MITIGAÇÃO IMPLEMENTADA:
-   - Validação cruzada: Comparei automático vs. manual semanalmente por 1 mês
-   - Acurácia confirmada: 98% de precisão
-   - Configurei alertas para valores fora do padrão (ex: venda >R$ 100k)
-   PLANO B SE ACONTECER: Revisão manual semanal até corrigir fonte
-   STATUS: Monitorando (revisão mensal)
+   MITIGAÇêO IMPLEMENTADA:
+   - Validaçêo cruzada: Comparei automático vs. manual semanalmente por 1 mês
+   - Acurácia confirmada: 98% de precisêo
+   - Configurei alertas para valores fora do padrêo (ex: venda >R$ 100k)
+   PLANO B SE ACONTECER: Revisêo manual semanal até corrigir fonte
+   STATUS: Monitorando (revisêo mensal)
 
 2. Ferramenta (Zapier) Fica Cara Demais
    PROBABILIDADE: Alta (se escalarmos muito)
    IMPACTO: Médio
    POR QUE É UM RISCO: Zapier cobra por "tasks". Se usarmos >5000 tasks/mês, custo sobe para R$ 600/mês.
-   MITIGAÇÃO IMPLEMENTADA:
+   MITIGAÇêO IMPLEMENTADA:
    - Comecei com plano de R$ 200/mês (limite: 2000 tasks)
    - Monitoramento mensal de uso
    - ROI calculado: Mesmo a R$ 600/mês, ROI é 300%
@@ -1040,7 +1040,7 @@ RISCO DE ALTA PRIORIDADE:
    STATUS: Monitorando
 
 RISCOS ACEITÁVEIS:
-- Mudança de estratégia da empresa (automação fica obsoleta) - Baixa probabilidade, fácil desativar
+- Mudança de estratégia da empresa (automaçêo fica obsoleta) - Baixa probabilidade, fácil desativar
 - Resistência pontual de 1-2 pessoas - Mitigado com treinamento
 ```
 
@@ -1052,14 +1052,14 @@ RISCOS ACEITÁVEIS:
 
 ## 6. R4: REVIEW - Próximos Passos (600 palavras)
 
-### Sempre Ter Proposta de Evolução
+### Sempre Ter Proposta de Evoluçêo
 
 **Regra de ouro:** Nunca apresente um resultado sem apresentar o próximo passo.
 
 **Por quê?**
-- Mostra que você pensa estrategicamente (não só operacionalmente)
-- Posiciona você como líder (visão de futuro)
-- Abre porta para mais responsabilidade = promoção
+- Mostra que você pensa estrategicamente (nêo só operacionalmente)
+- Posiciona você como líder (visêo de futuro)
+- Abre porta para mais responsabilidade = promoçêo
 
 ### Quick Wins vs. Projetos Grandes
 
@@ -1070,7 +1070,7 @@ RISCOS ACEITÁVEIS:
 
 **Por quê?**
 - Quick wins geram momentum e confiança
-- Projeto grande mostra ambição e pensamento estratégico
+- Projeto grande mostra ambiçêo e pensamento estratégico
 
 ### Como Pedir Recursos/Budget
 
@@ -1080,9 +1080,9 @@ RISCOS ACEITÁVEIS:
 PRÓXIMOS PASSOS: [Projeto X]
 
 QUICK WINS (próximas 2-4 semanas):
-1. [Ação 1] - Tempo: [X horas] - Impacto esperado: [Descrição]
-2. [Ação 2] - Tempo: [X horas] - Impacto esperado: [Descrição]
-3. [Ação 3] - Tempo: [X horas] - Impacto esperado: [Descrição]
+1. [Açêo 1] - Tempo: [X horas] - Impacto esperado: [Descriçêo]
+2. [Açêo 2] - Tempo: [X horas] - Impacto esperado: [Descriçêo]
+3. [Açêo 3] - Tempo: [X horas] - Impacto esperado: [Descriçêo]
 
 PROJETO GRANDE (próximos 2-6 meses):
 - OBJETIVO: [O que queremos alcançar]
@@ -1103,15 +1103,15 @@ Para executar esses próximos passos, preciso de:
 **Exemplo preenchido:**
 
 ```
-PRÓXIMOS PASSOS: Automação de Processos
+PRÓXIMOS PASSOS: Automaçêo de Processos
 
 QUICK WINS (próximas 4 semanas):
-1. Replicar automação de relatórios para CS - Tempo: 6h - Impacto: +12h/mês economizadas
+1. Replicar automaçêo de relatórios para CS - Tempo: 6h - Impacto: +12h/mês economizadas
 2. Treinar mais 3 pessoas em Zapier - Tempo: 4h - Impacto: Descentralizar conhecimento
 3. Criar biblioteca de templates - Tempo: 8h - Impacto: Acelerar futuras automações
 
 PROJETO GRANDE (próximos 3 meses):
-- OBJETIVO: Criar "Centro de Automação" da empresa
+- OBJETIVO: Criar "Centro de Automaçêo" da empresa
 - IMPACTO ESPERADO:
   - 10 processos automatizados (vs. 2 hoje)
   - 200h/mês economizadas no total (50h/semana)
@@ -1122,8 +1122,8 @@ PROJETO GRANDE (próximos 3 meses):
   - Pessoas: Acesso a líderes de cada área (para mapear processos)
 - TIMELINE:
   - Mês 1: Mapeamento de processos priorizados (5 áreas)
-  - Mês 2: Implementação de 5 automações
-  - Mês 3: Treinamento + documentação + escala
+  - Mês 2: Implementaçêo de 5 automações
+  - Mês 3: Treinamento + documentaçêo + escala
 
 PEDIDO:
 Para executar, preciso de:
@@ -1135,7 +1135,7 @@ Para executar, preciso de:
    - Justificativa: Automações que realmente resolvem dores reais
 ```
 
-**Com essa proposta, é MUITO difícil seu gestor dizer não.**
+**Com essa proposta, é MUITO difícil seu gestor dizer nêo.**
 
 ### Template de Proposta de Próximos Passos
 
@@ -1149,19 +1149,19 @@ APRENDIZADOS DO PROJETO: [Nome]
 OPORTUNIDADES IDENTIFICADAS:
 
 CURTO PRAZO (próximas 2-4 semanas):
-- [ ] [Ação 1]: [Descrição] - Esforço: [X horas] - Impacto: [Y economizados/melhorados]
-- [ ] [Ação 2]: [Descrição] - Esforço: [X horas] - Impacto: [Y economizados/melhorados]
-- [ ] [Ação 3]: [Descrição] - Esforço: [X horas] - Impacto: [Y economizados/melhorados]
+- [ ] [Açêo 1]: [Descriçêo] - Esforço: [X horas] - Impacto: [Y economizados/melhorados]
+- [ ] [Açêo 2]: [Descriçêo] - Esforço: [X horas] - Impacto: [Y economizados/melhorados]
+- [ ] [Açêo 3]: [Descriçêo] - Esforço: [X horas] - Impacto: [Y economizados/melhorados]
 
 MÉDIO PRAZO (próximos 2-3 meses):
-- [ ] [Projeto 1]: [Descrição resumida]
+- [ ] [Projeto 1]: [Descriçêo resumida]
   - Objetivo: [O quê]
   - Impacto esperado: [Números]
   - Recursos necessários: [O que preciso]
-- [ ] [Projeto 2]: [Descrição resumida]
+- [ ] [Projeto 2]: [Descriçêo resumida]
 
 LONGO PRAZO (próximos 6-12 meses):
-- Visão: [Onde queremos chegar]
+- Visêo: [Onde queremos chegar]
 - Impacto transformador: [O que muda na empresa]
 
 PRECISO DE (para executar curto prazo):
@@ -1173,7 +1173,7 @@ PRECISO DE (para executar curto prazo):
 
 ## 7. Aplicando 4R's na Prática (1000 palavras)
 
-### Reunião 1-on-1 com Gestor (Script)
+### Reuniêo 1-on-1 com Gestor (Script)
 
 **Frequência recomendada:** Semanal ou quinzenal (15-30 minutos)
 
@@ -1191,20 +1191,20 @@ R1 - RESULTS (O que entreguei essa semana):
 
 R2 - ROADMAP (Como estou fazendo):
 - Projeto X: Fase [Y] concluída, próxima: [Z]
-- Obstáculo superado: [Descrição breve]
+- Obstáculo superado: [Descriçêo breve]
 
 R3 - RISKS (O que pode dar errado):
-- Risco atual: [Descrição]
-- Como estou mitigando: [Ação]
+- Risco atual: [Descriçêo]
+- Como estou mitigando: [Açêo]
 - Preciso de suporte em: [Se aplicável]
 
 R4 - REVIEW (Próximos passos):
 - Semana que vem: [Foco principal]
-- Pergunta/decisão sua: [O que preciso de você]
+- Pergunta/decisêo sua: [O que preciso de você]
 
-AGENDA DA REUNIÃO:
+AGENDA DA REUNIêO:
 1. Seu feedback sobre resultados (5min)
-2. Discussão sobre [Tópico X] (10min)
+2. Discussêo sobre [Tópico X] (10min)
 3. Próximos passos e prioridades (5min)
 
 Algo que queira adicionar?
@@ -1213,45 +1213,45 @@ Algo que queira adicionar?
 **Exemplo preenchido:**
 
 ```
-João, segue update para nossa 1-on-1 de sexta:
+Joêo, segue update para nossa 1-on-1 de sexta:
 
 R1 - RESULTS:
 - Automatizei relatórios de vendas - Impacto: 31h/mês economizadas
 - Treinei 5 pessoas em Zapier - Resultado: Time consegue criar automações simples sozinho
-- Dashboard tempo real implementado - Satisfação do time vendas: NPS 2 → 8
+- Dashboard tempo real implementado - Satisfaçêo do time vendas: NPS 2 → 8
 
 R2 - ROADMAP:
-- Projeto automação: Fase de implementação concluída, próxima: escala para CS
-- Obstáculo superado: Resistência de 1 vendedor → solucionado com sessão 1-on-1
+- Projeto automaçêo: Fase de implementaçêo concluída, próxima: escala para CS
+- Obstáculo superado: Resistência de 1 vendedor → solucionado com sessêo 1-on-1
 
 R3 - RISKS:
 - Risco: Zapier pode ficar caro se escalarmos muito (>5000 tasks/mês)
-- Mitigação: Monitorando uso, alternativa open-source identificada (n8n)
-- Preciso de suporte: Aprovação de upgrade se ultrapassarmos limite (ROI justificado: 620%)
+- Mitigaçêo: Monitorando uso, alternativa open-source identificada (n8n)
+- Preciso de suporte: Aprovaçêo de upgrade se ultrapassarmos limite (ROI justificado: 620%)
 
 R4 - REVIEW:
-- Semana que vem: Iniciar replicação para CS + documentar aprendizados
+- Semana que vem: Iniciar replicaçêo para CS + documentar aprendizados
 - Pergunta: Quer que eu apresente isso para diretoria? Acho que pode interessar.
 
 AGENDA:
 1. Seu feedback sobre resultados (5min)
-2. Discussão sobre próximos processos a automatizar (10min)
+2. Discussêo sobre próximos processos a automatizar (10min)
 3. Plano de scaling + pedido de budget (5min)
 
 Algo mais?
 ```
 
 **Por que isso funciona:**
-- Gestor chega preparado (não perde tempo)
-- Você demonstra organização e pensamento estratégico
-- Métricas claras facilitam argumentação para promoção
+- Gestor chega preparado (nêo perde tempo)
+- Você demonstra organizaçêo e pensamento estratégico
+- Métricas claras facilitam argumentaçêo para promoçêo
 - Você lidera a conversa (postura de líder)
 
-### Apresentação Executiva (Template)
+### Apresentaçêo Executiva (Template)
 
-**Quando usar:** Review trimestral, apresentação de resultado de projeto, pedido de budget.
+**Quando usar:** Review trimestral, apresentaçêo de resultado de projeto, pedido de budget.
 
-**Estrutura de apresentação (Google Slides/PowerPoint):**
+**Estrutura de apresentaçêo (Google Slides/PowerPoint):**
 
 ```
 SLIDE 1: TÍTULO
@@ -1264,7 +1264,7 @@ SLIDE 2: CONTEXTO (R1 - setup)
 - Impacto do problema (métrica)
 - Por que precisávamos resolver?
 
-SLIDE 3: SOLUÇÃO (R2 - roadmap resumido)
+SLIDE 3: SOLUÇêO (R2 - roadmap resumido)
 - O que fizemos (3-5 bullets)
 - Timeline visual
 - Ferramentas/método usado
@@ -1272,7 +1272,7 @@ SLIDE 3: SOLUÇÃO (R2 - roadmap resumido)
 SLIDE 4: RESULTADOS (R1 - o dinheiro slide)
 - Métrica ANTES vs. DEPOIS (gráfico visual)
 - Impacto em R$ (se possível)
-- Satisfação ou outro benefício
+- Satisfaçêo ou outro benefício
 [Este é o slide mais importante - invista tempo aqui]
 
 SLIDE 5: APRENDIZADOS (R3 + R4 combinados)
@@ -1295,7 +1295,7 @@ SLIDE 7: PERGUNTAS
 **Exemplo de Slide 4 poderoso:**
 
 ```
-RESULTADOS - Automação de Relatórios de Vendas
+RESULTADOS - Automaçêo de Relatórios de Vendas
 
 [GRÁFICO DE BARRAS]
 Tempo Gasto em Relatórios
@@ -1329,7 +1329,7 @@ Segue resumo da semana:
 RESULTADOS:
 ✅ [Resultado 1] - [Métrica de impacto]
 ✅ [Resultado 2] - [Métrica de impacto]
-⏳ [Em andamento 1] - [% completo] - Previsão: [data]
+⏳ [Em andamento 1] - [% completo] - Previsêo: [data]
 
 DESTAQUES:
 - [Conquista da semana]
@@ -1340,7 +1340,7 @@ PRÓXIMA SEMANA:
 - [Prioridade 2]
 
 PRECISO DE VOCÊ:
-- [Pedido/decisão, se aplicável]
+- [Pedido/decisêo, se aplicável]
 
 MÉTRICAS (acumulado trimestre):
 - [Métrica 1]: [Número]
@@ -1390,7 +1390,7 @@ APRENDIZADOS:
 - [Aprendizado 1]
 - [Aprendizado 2]
 
-RISCOS & MITIGAÇÃO:
+RISCOS & MITIGAÇêO:
 - [Risco ativo]: [Como estamos gerenciando]
 
 PRÓXIMO MÊS:
@@ -1399,14 +1399,14 @@ PRÓXIMO MÊS:
 
 ANEXOS:
 - Dashboard: [Link]
-- Documentação: [Link]
+- Documentaçêo: [Link]
 ```
 
 ### Review Anual (Template)
 
-**Quando:** Preparação para avaliação de performance/promoção.
+**Quando:** Preparaçêo para avaliaçêo de performance/promoçêo.
 
-Este é o documento mais importante do ano. Use-o para argumentar promoção/aumento.
+Este é o documento mais importante do ano. Use-o para argumentar promoçêo/aumento.
 
 ```
 REVIEW ANUAL - [Seu Nome] - [Ano]
@@ -1417,7 +1417,7 @@ RESUMO EXECUTIVO:
 PRINCIPAIS CONQUISTAS (TOP 5):
 
 1. [Conquista 1]
-   - O QUE: [Descrição]
+   - O QUE: [Descriçêo]
    - COMO: [Roadmap resumido]
    - RESULTADO: [Métrica quantificada]
    - IMPACTO NO NEGÓCIO: [R$ ou outro benefício]
@@ -1431,7 +1431,7 @@ TOTAL QUANTIFICADO:
 - Processos otimizados: [Número]
 - Pessoas treinadas: [Número]
 
-EVOLUÇÃO vs. ANO ANTERIOR:
+EVOLUÇêO vs. ANO ANTERIOR:
 | Métrica | Ano Passado | Este Ano | Crescimento |
 |---------|-------------|----------|-------------|
 | [M1] | [X] | [Y] | [%] |
@@ -1444,7 +1444,7 @@ FEEDBACK DE STAKEHOLDERS:
 APRENDIZADOS & CRESCIMENTO:
 - [Habilidade 1 desenvolvida]
 - [Habilidade 2 desenvolvida]
-- [Curso/certificação concluída]
+- [Curso/certificaçêo concluída]
 
 OBJETIVOS PRÓXIMO ANO:
 - [Objetivo 1 com métrica]
@@ -1453,22 +1453,22 @@ OBJETIVOS PRÓXIMO ANO:
 
 PROPOSTA:
 Baseado nos resultados acima (R$ X economizados, Y processos otimizados, Z pessoas impactadas), proponho:
-- [Promoção para cargo Y]
+- [Promoçêo para cargo Y]
 ou
-- [Aumento de X% acima da inflação]
+- [Aumento de X% acima da inflaçêo]
 ou
 - [Novo projeto/responsabilidade Z]
 
-Justificativa: [ROI claro, alinhamento com objetivos da empresa, prontidão para próximo nível]
+Justificativa: [ROI claro, alinhamento com objetivos da empresa, prontidêo para próximo nível]
 ```
 
-**Dica:** Envie isso para seu gestor 2 semanas antes do review oficial. Facilita a argumentação dele com RH/diretoria.
+**Dica:** Envie isso para seu gestor 2 semanas antes do review oficial. Facilita a argumentaçêo dele com RH/diretoria.
 
 ---
 
 ## 8. Casos de Sucesso Finais (300 palavras)
 
-### 3 Alunos que Completaram FETD: Onde Estão Hoje?
+### 3 Alunos que Completaram FETD: Onde Estêo Hoje?
 
 **ALUNA 1: Júlia - Analista Administrativo → Gerente de Operações (18 meses)**
 
@@ -1481,45 +1481,45 @@ Justificativa: [ROI claro, alinhamento com objetivos da empresa, prontidão para
 **Resultados mensuráveis:**
 - 85h/mês economizadas (toda a equipe)
 - R$ 51.000/ano em custo evitado
-- Implementou "cultura de automação" (treinou 12 pessoas)
+- Implementou "cultura de automaçêo" (treinou 12 pessoas)
 
 **Onde está hoje:**
 - Promovida a Gerente de Operações (+40% salário)
 - Lidera equipe de 8 pessoas
 - Referência em eficiência operacional da empresa
 
-**Frase dela:** *"FETD mudou minha carreira. Não foi só aprender automação. Foi aprender a MOSTRAR meu valor. Hoje sou vista como estratégica, não operacional."*
+**Frase dela:** *"FETD mudou minha carreira. Nêo foi só aprender automaçêo. Foi aprender a MOSTRAR meu valor. Hoje sou vista como estratégica, nêo operacional."*
 
 **ALUNO 2: Rafael - Dev Júnior → Tech Lead (14 meses)**
 
 **O que Rafael fez:**
-- Completou FETD focado em automação de desenvolvimento (CI/CD, testes, deploys)
+- Completou FETD focado em automaçêo de desenvolvimento (CI/CD, testes, deploys)
 - Economizou 40h/mês da equipe de engenharia
 - Documentou com 4R's e apresentou em sprint reviews
-- Treinou 5 devs em automação
+- Treinou 5 devs em automaçêo
 
 **Resultados mensuráveis:**
 - Tempo de deploy: 4h → 15min (-93%)
-- Bugs em produção: -60%
+- Bugs em produçêo: -60%
 - Velocity do time: +35%
 
 **Onde está hoje:**
 - Promovido a Tech Lead (+55% salário)
 - Referência em DevOps da empresa
-- Mentor de automação para novos devs
+- Mentor de automaçêo para novos devs
 
 **Frase dele:** *"Eu sempre fui bom tecnicamente. FETD me ensinou a comunicar impacto. Isso foi o divisor de águas para liderança."*
 
 **ALUNA 3: Carla - Assistente de Marketing → Coordenadora de Marketing (12 meses)**
 
 **O que Carla fez:**
-- Completou FETD focado em marketing (automação de email, relatórios, social media)
+- Completou FETD focado em marketing (automaçêo de email, relatórios, social media)
 - Criou dashboards automáticos de performance
 - Documentou todo processo criativo com IA
 - Apresentou ROI de cada campanha com dados
 
 **Resultados mensuráveis:**
-- Campanhas de email: tempo de criação -70%
+- Campanhas de email: tempo de criaçêo -70%
 - Leads gerados: +180%
 - Custo por lead: -40%
 - Tempo gasto em relatórios: -85%
@@ -1529,14 +1529,14 @@ Justificativa: [ROI claro, alinhamento com objetivos da empresa, prontidão para
 - Gerencia budget de R$ 50k/mês
 - Palestra sobre "IA no Marketing" em eventos
 
-**Frase dela:** *"FETD não só me fez mais produtiva. Me posicionou como inovadora. Hoje lidero a transformação digital do marketing."*
+**Frase dela:** *"FETD nêo só me fez mais produtiva. Me posicionou como inovadora. Hoje lidero a transformaçêo digital do marketing."*
 
-### O Padrão nos 3 Casos:
+### O Padrêo nos 3 Casos:
 
-1. **Aprenderam automação + IA** (conteúdo do FETD)
+1. **Aprenderam automaçêo + IA** (conteúdo do FETD)
 2. **Documentaram resultados** (Framework 4R's)
 3. **Comunicaram valor consistentemente** (update semanal, apresentações)
-4. **Resultado:** Promoção em 12-18 meses + aumento salarial 35-55%
+4. **Resultado:** Promoçêo em 12-18 meses + aumento salarial 35-55%
 
 **Você é o próximo.**
 
@@ -1546,21 +1546,21 @@ Justificativa: [ROI claro, alinhamento com objetivos da empresa, prontidão para
 
 ### Exercício 1: Documentar 1 Projeto Seu com 4R's (1,5 horas)
 
-**Escolha UM projeto/automação que você fez (pode ser algo dos módulos anteriores).**
+**Escolha UM projeto/automaçêo que você fez (pode ser algo dos módulos anteriores).**
 
 **Tarefa:**
 1. Abra Google Docs
 2. Use o template de 4R's completo deste módulo
 3. Preencha TODOS os 4Rs:
-   - R1: Result (quantifique: tempo, custo, satisfação)
+   - R1: Result (quantifique: tempo, custo, satisfaçêo)
    - R2: Roadmap (passo a passo, obstáculos)
-   - R3: Risk (3-5 riscos + mitigação)
+   - R3: Risk (3-5 riscos + mitigaçêo)
    - R4: Review (aprendizados + próximos passos)
 
-**Validação:**
+**Validaçêo:**
 - [ ] Resultado está quantificado (tem número)
 - [ ] Roadmap tem 4-8 etapas claras
-- [ ] Riscos têm mitigação específica
+- [ ] Riscos têm mitigaçêo específica
 - [ ] Próximos passos têm ações e prazos
 
 **Bonus:** Compartilhe com 1 pessoa (gestor, colega, mentor) e peça feedback.
@@ -1572,30 +1572,30 @@ Justificativa: [ROI claro, alinhamento com objetivos da empresa, prontidão para
 2. Para cada uma, calcule:
    - Tempo economizado (horas/mês)
    - Custo evitado (R$/ano)
-   - Outros benefícios (erro reduzido, satisfação, etc.)
+   - Outros benefícios (erro reduzido, satisfaçêo, etc.)
 3. Some tudo
 4. Calcule ROI total
 
 **Template de cálculo:**
 
-| Automação | Tempo/mês | Custo/ano | Outro Benefício |
+| Automaçêo | Tempo/mês | Custo/ano | Outro Benefício |
 |-----------|-----------|-----------|-----------------|
 | [Auto 1] | 10h | R$ 6.000 | Erro -50% |
 | [Auto 2] | 5h | R$ 3.000 | NPS +20 |
 | **TOTAL** | **15h** | **R$ 9.000** | - |
 
-**Validação:**
+**Validaçêo:**
 - [ ] Todas automações listadas
 - [ ] ROI total calculado
 - [ ] Documento salvo (vai usar no review anual)
 
-### Exercício 3: Preparar Apresentação para Gestor (2 horas)
+### Exercício 3: Preparar Apresentaçêo para Gestor (2 horas)
 
 **Cenário:** Você vai ter 1-on-1 com seu gestor semana que vem.
 
 **Tarefa:**
-1. Use template de "Apresentação Executiva" deste módulo
-2. Crie apresentação com 5-7 slides sobre seus resultados (pode ser últimos 3 meses)
+1. Use template de "Apresentaçêo Executiva" deste módulo
+2. Crie apresentaçêo com 5-7 slides sobre seus resultados (pode ser últimos 3 meses)
 3. Inclua:
    - Slide de Contexto (qual problema você resolveu)
    - Slide de Resultados (números, gráficos)
@@ -1603,13 +1603,13 @@ Justificativa: [ROI claro, alinhamento com objetivos da empresa, prontidão para
 
 **Ferramentas:**
 - Google Slides ou PowerPoint
-- Use templates prontos (não reinvente design)
-- Foque no CONTEÚDO, não na beleza
+- Use templates prontos (nêo reinvente design)
+- Foque no CONTEÚDO, nêo na beleza
 
-**Validação:**
-- [ ] Apresentação tem 5-7 slides
+**Validaçêo:**
+- [ ] Apresentaçêo tem 5-7 slides
 - [ ] Pelo menos 1 slide tem gráfico/visual
-- [ ] Números estão claros e quantificados
+- [ ] Números estêo claros e quantificados
 - [ ] Há pedido/proposta no final
 
 **Meta:** Apresentar isso de verdade para seu gestor nas próximas 2 semanas.
@@ -1621,37 +1621,37 @@ Justificativa: [ROI claro, alinhamento com objetivos da empresa, prontidão para
 ### O Que Você Aprendeu:
 
 1. **O Problema da Invisibilidade:**
-   - Fazer bem não é suficiente, precisa mostrar que fez bem
-   - Gestores promovem quem comunica valor, não só quem gera valor
+   - Fazer bem nêo é suficiente, precisa mostrar que fez bem
+   - Gestores promovem quem comunica valor, nêo só quem gera valor
 
 2. **Framework 4R's:**
-   - **Result:** Quantifique resultados (tempo, R$, satisfação)
+   - **Result:** Quantifique resultados (tempo, R$, satisfaçêo)
    - **Roadmap:** Documente o processo (mostra pensamento estratégico)
    - **Risk:** Antecipe problemas (demonstra maturidade)
-   - **Review:** Próximos passos (mostra visão e crescimento)
+   - **Review:** Próximos passos (mostra visêo e crescimento)
 
-3. **Quantificação de Resultados:**
+3. **Quantificaçêo de Resultados:**
    - Tempo economizado = R$ economizados
    - Erro reduzido = Custo evitado
-   - Satisfação = Retenção/produtividade
+   - Satisfaçêo = Retençêo/produtividade
 
-4. **Aplicação Prática:**
+4. **Aplicaçêo Prática:**
    - 1-on-1 semanal com estrutura 4R's
    - Apresentações executivas com impacto
    - Emails de update consistentes
-   - Review anual preparado (argumentação para promoção)
+   - Review anual preparado (argumentaçêo para promoçêo)
 
 5. **Casos de Sucesso:**
    - 3 profissionais promovidos em 12-18 meses
    - Aumentos de 35-55%
-   - Padrão: Automação + Documentação + Comunicação
+   - Padrêo: Automaçêo + Documentaçêo + Comunicaçêo
 
 ### Impacto Esperado:
 
 - **Visibilidade aumentada:** Gestor sabe exatamente seu valor
 - **Confiança gerada:** Você é visto como estratégico e maduro
-- **Promoção acelerada:** 12-18 meses com argumentação sólida
-- **Aumento salarial:** 25-50%+ acima da inflação
+- **Promoçêo acelerada:** 12-18 meses com argumentaçêo sólida
+- **Aumento salarial:** 25-50%+ acima da inflaçêo
 - **Referência técnica:** Você se torna a pessoa que "faz acontecer"
 
 ### Próximos Passos:
@@ -1661,10 +1661,10 @@ No **Módulo 10 (FINAL)**, você vai:
 - Criar seu portfólio de automações
 - Planejar os próximos 90 dias pós-FETD
 - Definir roadmap de carreira (próximos 6-12 meses)
-- Celebrar sua transformação
+- Celebrar sua transformaçêo
 
 **Você está a 1 módulo de completar o FETD. Vamos fechar com chave de ouro!**
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

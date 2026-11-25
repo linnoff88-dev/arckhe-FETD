@@ -1,16 +1,16 @@
 # Módulo 09: Primeiros Freelances
 
 **Trilha:** Talento Emergente
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Objetivo:** Conseguir seus primeiros trabalhos pagos
 
 ---
 
-## Introdução: Hora de Monetizar
+## Introduçêo: Hora de Monetizar
 
 Você aprendeu muito. Agora é hora de transformar conhecimento em R$.
 
-**Realidade:** Primeiros R$ 500-2.000 são mais fáceis que você imagina.
+**Realidade:** Primeiros R$ 500-2.000 sêo mais fáceis que você imagina.
 
 **Dados Brasil 2024-2025:**
 - Freelancers iniciantes (0-6 meses): média R$ 800-2.500/mês
@@ -22,23 +22,23 @@ Você aprendeu muito. Agora é hora de transformar conhecimento em R$.
 **O que você vai aprender:**
 - Plataformas certas (onde trabalhos pagam bem)
 - Perfil que vende (primeiras impressões)
-- Precificação inteligente (cobrar certo)
-- Proposta que converte (40-60% aceitação)
-- Evitar ciladas (red flags, proteção)
+- Precificaçêo inteligente (cobrar certo)
+- Proposta que converte (40-60% aceitaçêo)
+- Evitar ciladas (red flags, proteçêo)
 - Primeiros clientes (estratégias testadas)
 
 ## 1. Plataformas Freelance (Onde Começar)
 
 ### 1.1 Plataformas Brasileiras
 
-**1. Workana (⭐ Top Recomendação Brasil)**
+**1. Workana (⭐ Top Recomendaçêo Brasil)**
 
 **Prós:**
 - Maior plataforma América Latina
-- Preços em R$ (sem conversão)
+- Preços em R$ (sem conversêo)
 - Público BR/LATAM
-- Menos competição que Upwork
-- Proteção pagamento (escrow)
+- Menos competiçêo que Upwork
+- Proteçêo pagamento (escrow)
 
 **Contras:**
 - Taxa 10-20% (diminui com volume)
@@ -46,7 +46,7 @@ Você aprendeu muito. Agora é hora de transformar conhecimento em R$.
 - Necessário destacar-se (muitos candidatos)
 
 **Tipos trabalho:**
-- Automação no-code (Make, Zapier)
+- Automaçêo no-code (Make, Zapier)
 - Setup Notion
 - Design (Canva, Figma básico)
 - IA/ChatGPT consulting
@@ -71,7 +71,7 @@ Você aprendeu muito. Agora é hora de transformar conhecimento em R$.
 
 **Contras:**
 - Menos projetos que Workana
-- Alguns clientes não-profissionais
+- Alguns clientes nêo-profissionais
 - Suporte limitado
 
 **Tipos trabalho:**
@@ -89,7 +89,7 @@ Você aprendeu muito. Agora é hora de transformar conhecimento em R$.
 
 **Contras:**
 - Você paga por lead (~R$ 5-20/lead)
-- Competição alta
+- Competiçêo alta
 - Mais adequado serviços presenciais
 
 **Tipos trabalho:**
@@ -105,23 +105,23 @@ Você aprendeu muito. Agora é hora de transformar conhecimento em R$.
 - Preços em USD ($$ >>> R$)
 - Projetos de alta qualidade
 - Clientes internacionais sérios
-- Proteção robusta
+- Proteçêo robusta
 - Payment processor integrado
 
 **Contras:**
-- Aprovação perfil difícil (rejeitam 80%)
-- Competição ALTA (globais)
+- Aprovaçêo perfil difícil (rejeitam 80%)
+- Competiçêo ALTA (globais)
 - Taxa 5-20%
 - Precisa inglês fluente (mínimo técnico)
 
 **Estratégia entrada:**
-- Nicho específico (não generalista)
+- Nicho específico (nêo generalista)
 - Portfolio FORTE (link projetos reais)
 - Inglês correto (sem erros)
 - Preço competitivo inicial ($10-20/h)
 
 **Tipos trabalho:**
-- Automação (Make, Zapier, n8n)
+- Automaçêo (Make, Zapier, n8n)
 - IA (ChatGPT, Claude integration)
 - Data analysis (Sheets, Python básico)
 - Virtual assistance (tools setup)
@@ -131,7 +131,7 @@ Você aprendeu muito. Agora é hora de transformar conhecimento em R$.
 **Prós:**
 - Fácil começar
 - Você cria "gig" (serviço fixo)
-- Cliente vem até você (não concorre em propostas)
+- Cliente vem até você (nêo concorre em propostas)
 - Global
 
 **Contras:**
@@ -141,7 +141,7 @@ Você aprendeu muito. Agora é hora de transformar conhecimento em R$.
 - Difícil destacar (milhões sellers)
 
 **Estratégia:**
-- Gig ultra-específico ("Notion setup for coaches", não "I'll do anything")
+- Gig ultra-específico ("Notion setup for coaches", nêo "I'll do anything")
 - Preço inicial $20-50 (pra ganhar reviews)
 - Depois aumenta $100-300
 - Pacotes (Basic/Standard/Premium)
@@ -167,19 +167,19 @@ Revisions: 2
 - Prestígio
 
 **Contras:**
-- Processo seleção rigoroso (3-5 semanas)
+- Processo seleçêo rigoroso (3-5 semanas)
 - Rejeitam 97%
 - Precisa expertise comprovada
 - Mínimo 2-3 anos experiência
 
-**Não recomendado pra iniciante.** Meta futura.
+**Nêo recomendado pra iniciante.** Meta futura.
 
 ### 1.3 Comunidades e Grupos (Underrated)
 
 **Discord/Slack communities:**
 - No-code Brasil
-- Automação BR
-- IA & Automação
+- Automaçêo BR
+- IA & Automaçêo
 - Startups BR
 
 **Como funciona:**
@@ -193,7 +193,7 @@ Revisions: 2
 - Comenta posts relevantes
 - DM em empresas (cold outreach)
 
-**Taxa conversão LinkedIn (bem feito):** 5-10%
+**Taxa conversêo LinkedIn (bem feito):** 5-10%
 
 ## 2. Perfil que Vende
 
@@ -212,10 +212,10 @@ Revisions: 2
 
 ✅ Bom:
 - Fundo neutro ou profissional
-- Iluminação boa
-- Roupa profissional (não precisa terno, mas arrumado)
+- Iluminaçêo boa
+- Roupa profissional (nêo precisa terno, mas arrumado)
 - Sorrindo (approachable)
-- Alta resolução
+- Alta resoluçêo
 
 **Dica:** Foto headshot gratuita → pede amigo fotógrafo ou usa timer câmera
 
@@ -228,7 +228,7 @@ Revisions: 2
 
 ✅ Bom (específico + benefício):
 ```
-"Automação no-code (Make/Zapier) que economiza 15h/semana"
+"Automaçêo no-code (Make/Zapier) que economiza 15h/semana"
 "Notion Specialist | Transformo caos em sistema organizado"
 "IA Operations | ChatGPT/Claude para empresas"
 ```
@@ -238,21 +238,21 @@ Revisions: 2
 [Skill específica] | [Resultado que entrega]
 ```
 
-**3. Descrição (Overview)**
+**3. Descriçêo (Overview)**
 
 **Estrutura CRISP:**
 
 **C - Credibilidade (Quem você é)**
 ```
-"Especialista em automação no-code com 25+ projetos entregues.
+"Especialista em automaçêo no-code com 25+ projetos entregues.
 Ajudei empresas economizarem 200+ horas/mês automatizando processos."
 ```
 
 **R - Resultados (O que entrega)**
 ```
 "Resultados típicos:
-✓ Redução 60-80% tempo tarefas repetitivas
-✓ Eliminação de erros manuais
+✓ Reduçêo 60-80% tempo tarefas repetitivas
+✓ Eliminaçêo de erros manuais
 ✓ ROI médio: 500% em 3 meses"
 ```
 
@@ -269,7 +269,7 @@ Ajudei empresas economizarem 200+ horas/mês automatizando processos."
 • Automações Make/Zapier
 • Setup Notion completo
 • IA workflows (ChatGPT/Claude)
-• Treinamento e documentação"
+• Treinamento e documentaçêo"
 ```
 
 **P - Proposta (CTA)**
@@ -286,16 +286,16 @@ Click 'Contact' ou envie mensagem!"
 
 **Screenshot/Visual:**
 - Antes/Depois
-- Diagrama da automação
+- Diagrama da automaçêo
 - Dashboard final
 - Print de resultados
 
 **Título:**
 ```
-"Automação e-commerce: Pedido → Envio (zero manual)"
+"Automaçêo e-commerce: Pedido → Envio (zero manual)"
 ```
 
-**Descrição (100-150 palavras):**
+**Descriçêo (100-150 palavras):**
 ```
 Cliente: E-commerce moda (50-100 pedidos/dia)
 
@@ -306,7 +306,7 @@ Problema: Processo manual (2h/dia):
 - Enviar tracking cliente
 - Atualizar planilha
 
-Solução (Make automação):
+Soluçêo (Make automaçêo):
 1. Shopify webhook → detecta pedido pago
 2. API Correios → calcula frete
 3. Gera etiqueta PDF
@@ -314,16 +314,16 @@ Solução (Make automação):
 5. Atualiza Google Sheets
 
 Resultado:
-✓ 2h/dia → 5min/dia (95% redução)
+✓ 2h/dia → 5min/dia (95% reduçêo)
 ✓ Zero erros (antes: 5-10 emails errados/semana)
-✓ Cliente satisfação: +40% (tracking instantâneo)
+✓ Cliente satisfaçêo: +40% (tracking instantâneo)
 ✓ ROI: 6 semanas
 
 Ferramentas: Make, Shopify, Gmail, Google Sheets
 ```
 
 **Link (se possível):**
-- Video demonstração (Loom)
+- Video demonstraçêo (Loom)
 - Documento case study
 - Testimonial cliente
 
@@ -349,7 +349,7 @@ Intermediate (sabe usar):
 - Zapier
 ```
 
-**Não minta.** Cliente testa.
+**Nêo minta.** Cliente testa.
 
 ### 2.2 Primeira Proposta (Template)
 
@@ -381,7 +381,7 @@ Se entendi certo, você precisa:
 Correto?
 ```
 
-**4. Solução (como você resolve)**
+**4. Soluçêo (como você resolve)**
 ```
 Minha abordagem:
 
@@ -404,9 +404,9 @@ Inclui:
 ✓ [Entrega 2]
 ✓ [Entrega 3]
 ✓ 7 dias suporte pós-entrega
-✓ Documentação completa
+✓ Documentaçêo completa
 
-Não inclui: [seja claro sobre limites]
+Nêo inclui: [seja claro sobre limites]
 ```
 
 **6. CTA (próximo passo)**
@@ -425,11 +425,11 @@ Abraço,
 
 **Tamanho total:** 200-300 palavras (not too long)
 
-**Taxa conversão esperada:**
+**Taxa conversêo esperada:**
 - Proposta genérica: 5-10%
 - Proposta CRISP: 40-60%
 
-### 2.3 Pricing (Precificação Estratégica)
+### 2.3 Pricing (Precificaçêo Estratégica)
 
 **Modelos:**
 
@@ -463,7 +463,7 @@ Sênior: $60-150/h
 
 **Vantagens:**
 - Cliente sabe custo total (preferem)
-- Você ganha por resultado, não tempo
+- Você ganha por resultado, nêo tempo
 - Eficiência = maior lucro
 - Pode escalar
 
@@ -489,7 +489,7 @@ Estimativa:
 - Build databases: 4h
 - Templates: 2h
 - Automações: 3h
-- Documentação: 1h
+- Documentaçêo: 1h
 - Treinamento: 2h
 TOTAL: 14h
 
@@ -510,11 +510,11 @@ Arredonda: R$ 1.700
 
 **3. Valor-Based (avançado - melhor ROI)**
 
-**Precifica baseado no VALOR que entrega pro cliente, não tempo.**
+**Precifica baseado no VALOR que entrega pro cliente, nêo tempo.**
 
 **Exemplo:**
 
-Cliente economiza 20h/semana com sua automação.
+Cliente economiza 20h/semana com sua automaçêo.
 - 20h × 4 semanas = 80h/mês
 - Funcionário custa R$ 50/h
 - Economia: R$ 4.000/mês = R$ 48.000/ano
@@ -541,10 +541,10 @@ R$ 1.500/mês:
 
 **Vantagens:**
 - Receita previsível
-- Relação longo prazo
-- Menos prospecção
+- Relaçêo longo prazo
+- Menos prospecçêo
 
-**Ideal para:** Consultoria, manutenção, suporte contínuo
+**Ideal para:** Consultoria, manutençêo, suporte contínuo
 
 **Estratégia iniciante:**
 
@@ -562,7 +562,7 @@ R$ 1.500/mês:
 "Manda proposta detalhada com mockups"
 ```
 
-**Resposta:** "Teste combinado fico feliz. Envio proposta com orçamento e após aprovação começo trabalho. Posso enviar portfolio pra você avaliar!"
+**Resposta:** "Teste combinado fico feliz. Envio proposta com orçamento e após aprovaçêo começo trabalho. Posso enviar portfolio pra você avaliar!"
 
 **🚩 Quer pagar só depois de "validar":**
 ```
@@ -570,7 +570,7 @@ R$ 1.500/mês:
 "Vamos testar primeiro, depois vejo se compensa"
 ```
 
-**Resposta:** "Trabalho com 50% adiantado, 50% na entrega. É prática padrão. Posso enviar exemplos trabalhos anteriores pra você ter certeza!"
+**Resposta:** "Trabalho com 50% adiantado, 50% na entrega. É prática padrêo. Posso enviar exemplos trabalhos anteriores pra você ter certeza!"
 
 **🚩 Preço muito ALTO (scam):**
 ```
@@ -579,12 +579,12 @@ R$ 1.500/mês:
 
 **Provavelmente:** Scam (vai pedir dados bancários, ou cheque falso)
 
-**🚩 Comunicação confusa/unprofessional:**
+**🚩 Comunicaçêo confusa/unprofessional:**
 ```
 "oi presiso mto urgente faser isso quanto vc cobra"
 ```
 
-**Sinal:** Cliente problemático (vai ter scope creep, não pagar, etc)
+**Sinal:** Cliente problemático (vai ter scope creep, nêo pagar, etc)
 
 **🚩 Sem contrato claro:**
 ```
@@ -595,13 +595,13 @@ R$ 1.500/mês:
 
 **🚩 Scope vago:**
 ```
-"Preciso automação de 'algumas coisas'"
+"Preciso automaçêo de 'algumas coisas'"
 "Website 'simples'"
 ```
 
 **Resposta:** "Ótimo! Vamos detalhar exatamente o que você precisa. Pode listar as funcionalidades?"
 
-### 3.2 Proteção (Como se Proteger)
+### 3.2 Proteçêo (Como se Proteger)
 
 **1. SEMPRE contrato (mesmo simples):**
 
@@ -613,7 +613,7 @@ Cliente: [Nome, Email]
 Freelancer: [Seu nome, Email]
 
 Serviço:
-[Descrição específica]
+[Descriçêo específica]
 
 Entregáveis:
 - [Lista exata]
@@ -628,7 +628,7 @@ Pagamento:
 Revisões: Até 2 rodadas inclusas
 
 Fora de escopo:
-[Lista o que NÃO está incluído]
+[Lista o que NêO está incluído]
 
 Assinaturas:
 
@@ -637,12 +637,12 @@ Cliente                Freelancer
 Data:                  Data:
 ```
 
-**2. Usa plataforma (não direto) inicial:**
+**2. Usa plataforma (nêo direto) inicial:**
 
 Vantagens escrow (Workana, Upwork):
 - Dinheiro garantido (cliente depositou)
-- Mediação se disputa
-- Proteção ambos lados
+- Mediaçêo se disputa
+- Proteçêo ambos lados
 
 **Aceita pagamento direto SÓ quando:**
 - Cliente verificado (projetos anteriores)
@@ -658,8 +658,8 @@ Inclui:
 ✓ [Item 2 específico]
 ✓ [Item 3 específico]
 
-NÃO inclui:
-✗ [Item que cliente pode pedir mas não tá incluído]
+NêO inclui:
+✗ [Item que cliente pode pedir mas nêo tá incluído]
 ✗ [Outro]
 
 Revisões: Até 2 rodadas
@@ -668,7 +668,7 @@ Revisões: Até 2 rodadas
 - Mudanças grandes = orçamento adicional
 ```
 
-**4. Comunicação escrita:**
+**4. Comunicaçêo escrita:**
 
 TUDO por escrito (email, chat plataforma).
 
@@ -679,15 +679,15 @@ Se decidir algo em call → confirma por escrito:
 "Oi [Nome], confirmando nossa call:
 
 Decidimos:
-- [Decisão 1]
-- [Decisão 2]
+- [Decisêo 1]
+- [Decisêo 2]
 
 Correto? Pode confirmar?"
 ```
 
 **5. Watermark até pagamento:**
 
-Entregas visuais (design, apresentação):
+Entregas visuais (design, apresentaçêo):
 - Envia preview com watermark
 - Recebeu pagamento → envia limpo
 
@@ -710,12 +710,12 @@ Se disputa, tem evidências.
 - Escolhe projetos interessantes (bom pra portfolio)
 
 **3 Projetos preço mercado:**
-- Cobra valor justo (não barato)
+- Cobra valor justo (nêo barato)
 - Clientes pagantes
-- Relação profissional
+- Relaçêo profissional
 
 **3 Projetos valor premium:**
-- Especialização
+- Especializaçêo
 - Preço alto
 - Clientes ideais
 
@@ -730,19 +730,19 @@ Se disputa, tem evidências.
 - Que usam ferramentas que você domina
 - Decisor (fundador, ops manager)
 
-**Passo 2: Conecta (pedido conexão personalizado)**
+**Passo 2: Conecta (pedido conexêo personalizado)**
 ```
 "Oi [Nome]! Vi que [Empresa] usa [Ferramenta X].
 Trabalho com automações nisso. Adoraria trocar ideias!
 
-Aceita conexão?"
+Aceita conexêo?"
 ```
 
-Taxa aceitação: 30-50%
+Taxa aceitaçêo: 30-50%
 
-**Passo 3: Valor primeiro (não vende)**
+**Passo 3: Valor primeiro (nêo vende)**
 
-Após conectar, aguarda 2-3 dias, então:
+Após conectar, aguarda 2-3 dias, entêo:
 ```
 "Oi [Nome]!
 
@@ -767,17 +767,17 @@ Falando com outras empresas [setor deles], comum terem [problema X].
 
 Vocês passam por isso?
 
-Resolvo isso com [solução]. Quer marcar call rápida pra ver se faz sentido?"
+Resolvo isso com [soluçêo]. Quer marcar call rápida pra ver se faz sentido?"
 ```
 
-**Taxa conversão:** 5-10% viram clientes
+**Taxa conversêo:** 5-10% viram clientes
 
 ### 4.3 Network (mais eficaz que parece)
 
 **Familia/Amigos:**
 - "Tô oferecendo [serviço]. Conhece alguém que precise?"
 
-**Não subestime.** Primeiros 3-5 clientes muitas vezes vêm de rede próxima.
+**Nêo subestime.** Primeiros 3-5 clientes muitas vezes vêm de rede próxima.
 
 **Ex-colegas trabalho:**
 - Empresas onde trabalhou
@@ -794,14 +794,14 @@ Resolvo isso com [solução]. Quer marcar call rápida pra ver se faz sentido?"
 
 Escolhe 1 plataforma (Workana recomendado Brasil):
 1. Cria conta
-2. Preenche perfil 100% (foto, headline, descrição)
+2. Preenche perfil 100% (foto, headline, descriçêo)
 3. Adiciona 3 projetos portfolio (pode ser fictício, mas realista)
 4. Lista skills honest
 
 **PARTE 2: Aplicações (20min)**
 
 Procura 5 projetos relevantes:
-1. Lê descrição completa
+1. Lê descriçêo completa
 2. Escreve proposta customizada (usa template CRISP)
 3. Envia
 4. Repete 5x
@@ -832,7 +832,7 @@ Cria tabela de preços seus:
 **Módulo 10: Próximos Passos na Carreira**
 - Roadmap 6-12 meses
 - Júnior → Pleno
-- Especialização vs Generalista
+- Especializaçêo vs Generalista
 - Freelance → CLT (quando/como)
 
 **Prepare-se para:** Planejar crescimento profissional!
@@ -841,4 +841,4 @@ Nos vemos lá! 🚀
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**

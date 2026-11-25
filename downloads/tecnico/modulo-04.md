@@ -1,6 +1,6 @@
 # Módulo 4: GitHub como Portfólio de Solucionador Técnico
 
-**Duração:** 75 minutos
+**Duraçêo:** 75 minutos
 **Nível:** Intermediário
 **Objetivo:** Transformar seu GitHub em vitrine de soluções reais que ajudam pessoas
 
@@ -11,9 +11,9 @@
 Ao final deste módulo, você será capaz de:
 
 ✅ Transformar GitHub de cemitério de código em portfólio vivo
-✅ Estruturar repositórios que mostram valor, não só código
+✅ Estruturar repositórios que mostram valor, nêo só código
 ✅ Criar READMEs que vendem suas soluções
-✅ Automatizar atualização do GitHub Profile
+✅ Automatizar atualizaçêo do GitHub Profile
 ✅ Usar GitHub para virar referência técnica
 
 **Resultado prático:** GitHub Profile profissional + 3 repositórios de soluções documentados.
@@ -27,7 +27,7 @@ Ao final deste módulo, você será capaz de:
 **README.md genérico:**
 ```markdown
 # Projeto X
-Aplicação em Node.js
+Aplicaçêo em Node.js
 
 ## Como rodar
 npm install
@@ -38,7 +38,7 @@ npm start
 - ❌ Ninguém entende o que faz
 - ❌ Ninguém sabe POR QUE existe
 - ❌ Ninguém usa
-- ❌ Recrutador vê e não entende o valor
+- ❌ Recrutador vê e nêo entende o valor
 - ❌ "Mais um projeto de to-do list"
 
 ### GitHub como Portfólio de Solucionador
@@ -51,7 +51,7 @@ npm start
 No meu time, deploy manual demorava 45 min e falhava 30% das vezes.
 Pessoas ficavam bloqueadas esperando DevOps fazer deploy.
 
-## ✨ A Solução
+## ✨ A Soluçêo
 Bot do Slack que faz deploy em 3 minutos com 1 comando.
 Qualquer dev pode fazer deploy sozinho, com rollback automático.
 
@@ -59,7 +59,7 @@ Qualquer dev pode fazer deploy sozinho, com rollback automático.
 - ⏱️ 42 minutos economizados por deploy
 - 📈 120 deploys/mês → economiza 84 horas/mês do time
 - 🎯 Taxa de erro: 30% → 2%
-- 😊 Satisfação do time: +40%
+- 😊 Satisfaçêo do time: +40%
 
 ## 🛠️ Stack Técnica
 [continua...]
@@ -69,7 +69,7 @@ Qualquer dev pode fazer deploy sozinho, com rollback automático.
 - ✅ Qualquer um entende o valor
 - ✅ Mostra que você resolve problemas REAIS
 - ✅ Recrutador vê ROI claro
-- ✅ Pessoas querem usar sua solução
+- ✅ Pessoas querem usar sua soluçêo
 - ✅ Você vira referência
 
 ---
@@ -88,7 +88,7 @@ Qualquer dev pode fazer deploy sozinho, com rollback automático.
 - `onboarding-automation` → "Onboarding de devs em 1 dia"
 - `api-docs-chatbot` → "ChatGPT que conhece nossa API"
 
-**Fórmula:** `[problema]-[solução]` + descrição clara
+**Fórmula:** `[problema]-[soluçêo]` + descriçêo clara
 
 ### 2. README Estruturado
 
@@ -97,7 +97,7 @@ Qualquer dev pode fazer deploy sozinho, com rollback automático.
 ```markdown
 # 🎯 [Nome do Projeto]
 
-> [Pitch de 1 linha: problema + solução]
+> [Pitch de 1 linha: problema + soluçêo]
 
 ## 💡 O Problema
 
@@ -108,7 +108,7 @@ Qualquer dev pode fazer deploy sozinho, com rollback automático.
 - ❌ [Dor específica 2]
 - ⏱️ [Tempo desperdiçado]
 
-## ✨ A Solução
+## ✨ A Soluçêo
 
 [Como sua ferramenta resolve]
 
@@ -122,7 +122,7 @@ Qualquer dev pode fazer deploy sozinho, com rollback automático.
 [Métricas concretas de uso/economia]
 - X pessoas usando
 - Y horas economizadas/mês
-- Z% de redução de erro
+- Z% de reduçêo de erro
 
 ## 🚀 Como Usar
 
@@ -162,7 +162,7 @@ meu-projeto/
     └── workflows/ (CI/CD se tiver)
 ```
 
-### 4. Documentação Visual
+### 4. Documentaçêo Visual
 
 **Screenshots com anotações:**
 ```markdown
@@ -200,13 +200,13 @@ Seu perfil `github.com/seu-usuario` pode ter README especial!
 ```markdown
 # 👋 Oi, sou [Seu Nome]
 
-## 🚀 Solucionador Técnico | DevOps | Automação
+## 🚀 Solucionador Técnico | DevOps | Automaçêo
 
 Transformo problemas técnicos recorrentes em soluções automatizadas.
 
 ### 💡 Problemas que Resolvo
 
-- ⚡ Automação de deploys e workflows
+- ⚡ Automaçêo de deploys e workflows
 - 🤖 Chatbots técnicos com IA
 - 📊 Dashboards e self-service tools
 - 🔧 Developer Experience (DX)
@@ -215,7 +215,7 @@ Transformo problemas técnicos recorrentes em soluções automatizadas.
 
 - 🕐 +200h/mês economizadas com automações
 - 👥 50+ pessoas usando minhas ferramentas
-- 📉 70% redução em tickets de suporte
+- 📉 70% reduçêo em tickets de suporte
 
 ### 🛠️ Stack Principal
 
@@ -230,10 +230,10 @@ Transformo problemas técnicos recorrentes em soluções automatizadas.
 Bot de Slack que automatiza deploys. **84h/mês economizadas.**
 
 #### [📖 API Docs Chatbot](https://github.com/usuario/api-chatbot)
-RAG chatbot com documentação da API. **-60% tickets de suporte.**
+RAG chatbot com documentaçêo da API. **-60% tickets de suporte.**
 
 #### [⚡ Dev Onboarding](https://github.com/usuario/onboarding-automation)
-Automação de setup de ambiente. **3 dias → 1 dia.**
+Automaçêo de setup de ambiente. **3 dias → 1 dia.**
 
 ### 📊 GitHub Stats
 
@@ -313,7 +313,7 @@ No README:
 
 ## 🎨 Exemplos de Repositórios de Solucionador
 
-### Exemplo 1: Automação de Onboarding
+### Exemplo 1: Automaçêo de Onboarding
 
 **Repositório:** `dev-onboarding-automation`
 
@@ -322,7 +322,7 @@ No README:
 ```markdown
 # 🚀 Dev Onboarding Automation
 
-> Setup completo de ambiente de dev em 20 minutos, sem intervenção humana
+> Setup completo de ambiente de dev em 20 minutos, sem intervençêo humana
 
 ## 💡 O Problema
 
@@ -331,10 +331,10 @@ No nosso time de 30 devs, onboarding de novo desenvolvedor demorava 3-5 dias:
 - ❌ Instalar 15+ ferramentas manualmente
 - ❌ Configurar acessos em 10 sistemas diferentes
 - ❌ Depender de senior dev para explicar setup
-- ❌ Documentação desatualizada
+- ❌ Documentaçêo desatualizada
 - ⏱️ **40 horas de trabalho** (dev novo + senior ajudando)
 
-## ✨ A Solução
+## ✨ A Soluçêo
 
 Script automatizado que faz todo setup via CLI:
 
@@ -356,7 +356,7 @@ Script automatizado que faz todo setup via CLI:
 - ⏱️ Setup: **3 dias → 20 minutos**
 - 👥 **18 devs onboardados** com sucesso
 - 🕐 **~500 horas economizadas** (dev novo + seniors)
-- 📈 Satisfação de novos devs: **4.8/5** (antes: 3.2/5)
+- 📈 Satisfaçêo de novos devs: **4.8/5** (antes: 3.2/5)
 - 🎯 Taxa de erro no setup: **80% → 0%**
 
 ## 🚀 Como Usar
@@ -377,15 +377,15 @@ cp .env.example .env
 
 ## 🛠️ Stack Técnica
 
-- **Shell Script** (orquestração)
+- **Shell Script** (orquestraçêo)
 - **Python** (APIs e validações)
 - **Slack API** (notificações)
 - **GitHub API** (repos e permissões)
-- **Jira API** (criação de conta)
+- **Jira API** (criaçêo de conta)
 
 **Por que essas escolhas:**
 - Shell: roda em qualquer Unix/Mac
-- Python: fácil integração com APIs
+- Python: fácil integraçêo com APIs
 - APIs oficiais: menos breaking changes
 
 ## 📸 Demo
@@ -396,18 +396,18 @@ cp .env.example .env
 
 1. **Idempotência é crítica:** Script pode falhar no meio, precisa poder rodar de novo
 2. **Logging detalhado:** Quando falha, precisa saber exatamente onde
-3. **Validação em camadas:** Checar que tudo está ok antes de seguir
+3. **Validaçêo em camadas:** Checar que tudo está ok antes de seguir
 4. **UX importa:** Barra de progresso e mensagens claras fazem diferença
 
 ## 🔗 Links Relacionados
 
 - [📝 Artigo: Como automatizamos onboarding](https://blog.dev/onboarding-automation)
 - [🎥 Vídeo demo (3 min)](https://youtube.com/watch?v=xxx)
-- [📊 Slides da apresentação interna](docs/slides.pdf)
+- [📊 Slides da apresentaçêo interna](docs/slides.pdf)
 
 ## 🤝 Contribuindo
 
-PRs são bem-vindos! Veja [CONTRIBUTING.md](CONTRIBUTING.md)
+PRs sêo bem-vindos! Veja [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Ideias para melhorias:**
 - [ ] Suporte para Windows
@@ -434,14 +434,14 @@ PRs são bem-vindos! Veja [CONTRIBUTING.md](CONTRIBUTING.md)
 Canal #help-tech recebia 50+ perguntas/dia:
 - "API retornando 502"
 - "Como fazer rollback?"
-- "Onde ver logs de produção?"
+- "Onde ver logs de produçêo?"
 
 **Antes:**
 - ⏱️ Tempo médio de resposta: **2 horas**
 - 😰 3 seniors gastando **15h/semana** respondendo
 - 🔁 **80% eram perguntas repetidas**
 
-## ✨ A Solução
+## ✨ A Soluçêo
 
 Bot que responde automaticamente perguntas comuns + busca em runbooks.
 
@@ -456,7 +456,7 @@ Bot: 🔍 Checando status da API...
 
 **502 Bad Gateway** geralmente significa:
 1. Backend está down
-2. Nginx não consegue conectar
+2. Nginx nêo consegue conectar
 
 **Passos:**
 1. Checar saúde: `kubectl get pods -n api`
@@ -492,9 +492,9 @@ Resolveu? 👍 Ainda com problema? 👎
 ```markdown
 # Awesome DevOps Tools 🚀
 
-> Ferramentas e recursos que uso diariamente (testadas em produção)
+> Ferramentas e recursos que uso diariamente (testadas em produçêo)
 
-## 🤖 Automação de Deploy
+## 🤖 Automaçêo de Deploy
 
 ### [Deploy Bot](https://github.com/usuario/deploy-bot) ⭐ Meu projeto
 Deploy via Slack. **Economiza 84h/mês.**
@@ -590,7 +590,7 @@ cd dotfiles
 
 **Segunda (20 min):**
 - Revisar projetos do trabalho
-- Identificar 1 script/automação útil
+- Identificar 1 script/automaçêo útil
 - Criar repo ou atualizar existente
 
 **Quarta (30 min):**
@@ -610,7 +610,7 @@ cd dotfiles
 
 ### Crescimento Orgânico
 
-**Mês 1-2: Fundação**
+**Mês 1-2: Fundaçêo**
 - ✅ GitHub Profile README profissional
 - ✅ 3-5 repos de soluções documentados
 - ✅ TIL com 10-15 entradas
@@ -630,7 +630,7 @@ cd dotfiles
 
 ### Métricas que Importam
 
-**Vaidade (não foque muito):**
+**Vaidade (nêo foque muito):**
 - Total de stars
 - Followers
 
@@ -639,7 +639,7 @@ cd dotfiles
 - 📧 **Mensagens diretas** sobre seus projetos
 - 💼 **Recrutadores mencionando** seus repos
 - 🤝 **Convites para** contribuir em outros projetos
-- 📈 **Clones/forks** ativos (não bots)
+- 📈 **Clones/forks** ativos (nêo bots)
 
 ---
 
@@ -656,7 +656,7 @@ sudo apt install gh  # Linux
 gh repo create meu-projeto --public --clone
 
 # Abrir issues
-gh issue create --title "Feature X" --body "Descrição..."
+gh issue create --title "Feature X" --body "Descriçêo..."
 
 # Ver PRs
 gh pr list
@@ -726,14 +726,14 @@ Crie um README.md profissional para meu projeto:
 **Projeto:** Bot de Slack para deploys automáticos
 **Stack:** Python, Slack API, GitHub Actions
 **Problema que resolve:** Deploy manual demora 45 min
-**Solução:** Deploy em 3 min via comando /deploy
+**Soluçêo:** Deploy em 3 min via comando /deploy
 **Impacto:** 84h/mês economizadas, 30% → 2% de erro
 
 Use template com:
 - Título chamativo
-- Seção "O Problema" com dores específicas
-- Seção "A Solução" com benefícios
-- Seção "Impacto Real" com métricas
+- Seçêo "O Problema" com dores específicas
+- Seçêo "A Soluçêo" com benefícios
+- Seçêo "Impacto Real" com métricas
 - Como usar (passos)
 - Stack técnica
 - Demo (placeholder para GIF)
@@ -750,7 +750,7 @@ Depois você refina com detalhes reais!
 
 - [ ] Repositório `seu-usuario/seu-usuario` criado
 - [ ] README.md com:
-  - [ ] Introdução clara (quem você é, o que faz)
+  - [ ] Introduçêo clara (quem você é, o que faz)
   - [ ] Problemas que resolve
   - [ ] 3-5 projetos em destaque (com métricas)
   - [ ] Stack técnica com badges
@@ -762,14 +762,14 @@ Depois você refina com detalhes reais!
 ### Repositórios
 
 **Pelo menos 3 repos com:**
-- [ ] Nome descritivo (não genérico)
-- [ ] Descrição de 1 linha clara
-- [ ] README completo (problema, solução, impacto)
+- [ ] Nome descritivo (nêo genérico)
+- [ ] Descriçêo de 1 linha clara
+- [ ] README completo (problema, soluçêo, impacto)
 - [ ] Código organizado em pastas
 - [ ] LICENSE file
 - [ ] .gitignore adequado
 - [ ] Screenshots/GIFs (se aplicável)
-- [ ] Documentação em `/docs` (se complexo)
+- [ ] Documentaçêo em `/docs` (se complexo)
 - [ ] Topics/tags relevantes
 
 ### Extras (diferencial)
@@ -798,7 +798,7 @@ Critérios:
 
 Use o template:
 1. Problema (dores específicas)
-2. Solução (como resolve)
+2. Soluçêo (como resolve)
 3. Impacto (métricas reais ou estimadas)
 4. Como usar (3-5 passos)
 5. Stack (ferramentas + por quê)
@@ -824,7 +824,7 @@ Use o template:
   Código open source: [link]
   ```
 
-**Meta:** 5+ reações no LinkedIn, 1+ estrela de alguém que não conhece
+**Meta:** 5+ reações no LinkedIn, 1+ estrela de alguém que nêo conhece
 
 ---
 
@@ -856,11 +856,11 @@ Use o template:
 
 - ✅ 3 repos impecáveis > 30 repos abandonados
 - ✅ Melhor ter 5 projetos com métricas reais
-- ❌ Não publique tudo (só o que tem valor)
+- ❌ Nêo publique tudo (só o que tem valor)
 
 ### 2. Pense em SEO
 
-READMEs são indexados pelo Google!
+READMEs sêo indexados pelo Google!
 
 **Keywords importantes:**
 - Nome da tecnologia (Python, Docker, etc)
@@ -879,7 +879,7 @@ Vai aparecer em:
 - "automated deployment slack"
 - "github actions slack integration"
 
-### 3. Mostre, Não Conte
+### 3. Mostre, Nêo Conte
 
 ❌ "Ferramenta muito rápida"
 ✅ "Deploy em 3 min (antes: 45 min)"
@@ -894,7 +894,7 @@ Vai aparecer em:
 
 Repo abandonado = red flag
 
-**Se não vai manter:**
+**Se nêo vai manter:**
 - Adicione no README: "⚠️ Projeto arquivado, use [alternativa]"
 - Archive o repo no GitHub (Settings → Archive)
 
@@ -908,8 +908,8 @@ Repo abandonado = red flag
 
 - Escolha projeto que você USA
 - Procure issues marcadas "good first issue"
-- Melhore documentação (sempre aceito)
-- Reporte bugs com reprodução clara
+- Melhore documentaçêo (sempre aceito)
+- Reporte bugs com reproduçêo clara
 
 **Por quê:**
 - Aparece no seu perfil
@@ -921,10 +921,10 @@ Repo abandonado = red flag
 
 ## 🚀 Próximos Passos
 
-**Nível 1: Fundação** ✅
+**Nível 1: Fundaçêo** ✅
 - GitHub Profile profissional
 - 3 repos de soluções documentados
-- READMEs com problema/solução/impacto
+- READMEs com problema/soluçêo/impacto
 
 **Nível 2: Consistência**
 - TIL com commits regulares
@@ -940,7 +940,7 @@ Repo abandonado = red flag
 
 **Nível 4: Autoridade**
 - 500+ stars
-- Projeto usado em produção (outras empresas)
+- Projeto usado em produçêo (outras empresas)
 - Convites para manter projetos conhecidos
 - GitHub Sponsors habilitado
 
@@ -950,13 +950,13 @@ Repo abandonado = red flag
 
 **O que você aprendeu:**
 
-✅ **GitHub é vitrine, não cemitério**
-- Mostre VALOR, não só código
+✅ **GitHub é vitrine, nêo cemitério**
+- Mostre VALOR, nêo só código
 - Conte histórias de problemas resolvidos
 - Métricas de impacto > descrições técnicas
 
 ✅ **README é seu pitch**
-- Problema → Solução → Impacto
+- Problema → Soluçêo → Impacto
 - Screenshots/demos vendem
 - SEO importa
 
@@ -965,7 +965,7 @@ Repo abandonado = red flag
 - Pinned repos estratégicos
 - Stats e atividade visíveis
 
-✅ **Consistência > perfeição**
+✅ **Consistência > perfeiçêo**
 - Melhor 3 repos ótimos que 30 medíocres
 - Mantenha vivo ou archive
 - Contribua regularmente
@@ -977,7 +977,7 @@ Vamos criar seu **blog técnico** e sistema de conteúdo que roda quase sozinho 
 
 ## 📚 Recursos Adicionais
 
-**Inspiração:**
+**Inspiraçêo:**
 - [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
 - [Best README Template](https://github.com/othneildrew/Best-README-Template)
 - [Shields.io](https://shields.io/) - Badges
@@ -989,13 +989,13 @@ Vamos criar seu **blog técnico** e sistema de conteúdo que roda quase sozinho 
 
 **Exemplos:**
 - [Sindre Sorhus](https://github.com/sindresorhus) (muitos projetos)
-- [Kent C. Dodds](https://github.com/kentcdodds) (educação)
+- [Kent C. Dodds](https://github.com/kentcdodds) (educaçêo)
 - [TJ Holowaychuk](https://github.com/tj) (qualidade)
 
 ---
 
 **Tempo estimado:** 3-4 horas (setup inicial completo)
 
-**Manutenção:** 1-2h/semana para manter ativo
+**Manutençêo:** 1-2h/semana para manter ativo
 
 **Próximo módulo:** Módulo 5 - Blog Técnico com IA

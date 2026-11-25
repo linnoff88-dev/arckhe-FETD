@@ -1,27 +1,27 @@
 # 🔧 Troubleshooting - FETD
 
-Documentação de problemas encontrados e soluções aplicadas.
+Documentaçêo de problemas encontrados e soluções aplicadas.
 
 ---
 
 ## ❌ Erro: Tailwind CDN Bloqueado (18/11/2025)
 
-### 📋 Descrição do Problema
+### 📋 Descriçêo do Problema
 
 O layout do site parou de funcionar completamente em todos os navegadores (Firefox, Chrome, Edge) e tanto no localhost quanto no GitHub Pages.
 
 **Sintomas:**
-- Página carregava sem nenhuma formatação CSS
+- Página carregava sem nenhuma formataçêo CSS
 - Apenas texto preto e branco, sem cores ou layout
 - Erro no console do navegador: `Uncaught ReferenceError: tailwind is not defined`
 - Erro de rede: `OpaqueResponseBlocking` bloqueando `cdn.tailwindcss.com`
 
-### 🕵️ Investigação
+### 🕵️ Investigaçêo
 
 **Linha do tempo:**
 - **17/11 18:52 até 18/11 06:29:** Site funcionando normalmente com `cdn.tailwindcss.com`
 - **18/11 10:23:** Usuário reportou que layout estava quebrado
-- **18/11 10:23-11:01:** Várias tentativas de correção (reset para commits anteriores, clear cache, etc.)
+- **18/11 10:23-11:01:** Várias tentativas de correçêo (reset para commits anteriores, clear cache, etc.)
 - **18/11 11:01:** Mesmo voltando para commit a9fa6bf (onde estava funcionando), problema persistiu
 
 **Teste de conectividade:**
@@ -37,12 +37,12 @@ server: cloudflare
 
 **O servidor `cdn.tailwindcss.com` teve uma falha (HTTP 500 - Internal Server Error).**
 
-- Não foi problema de código
-- Não foi problema de configuração local
-- Não foi problema de navegador ou extensões
+- Nêo foi problema de código
+- Nêo foi problema de configuraçêo local
+- Nêo foi problema de navegador ou extensões
 - Foi uma **queda/instabilidade no servidor do CDN oficial do Tailwind**
 
-### ✅ Solução Aplicada
+### ✅ Soluçêo Aplicada
 
 Substituímos o CDN oficial por um CDN alternativo mais estável:
 
@@ -99,7 +99,7 @@ git push
 ### 📊 Vantagens do jsdelivr CDN
 
 1. ✅ **Mais estável** - Menos quedas e problemas
-2. ✅ **Versionado** - Usa versão específica (3.4.1), mais previsível
+2. ✅ **Versionado** - Usa versêo específica (3.4.1), mais previsível
 3. ✅ **Múltiplos mirrors** - Se um servidor cai, outro assume
 4. ✅ **Faster** - CDN global otimizado
 5. ✅ **Usado por milhões** - Altamente confiável
@@ -107,9 +107,9 @@ git push
 ### 📝 Lições Aprendidas
 
 1. **CDNs podem cair** - Sempre ter alternativa (jsdelivr, unpkg, cdnjs)
-2. **Testar em produção** - GitHub Pages pode ter comportamento diferente do localhost
+2. **Testar em produçêo** - GitHub Pages pode ter comportamento diferente do localhost
 3. **Monitorar status** - Sites como https://status.tailwindcss.com (se existir)
-4. **Versionar CDNs** - Usar versão específica em vez de `@latest`
+4. **Versionar CDNs** - Usar versêo específica em vez de `@latest`
 
 ### 🔗 Links Úteis
 
@@ -149,10 +149,10 @@ time curl -s https://cdn.tailwindcss.com > /dev/null
 - [ ] Mobile (iOS/Android)
 
 ### Teste 4: Validar GitHub Pages
-1. Fazer push de alteração
+1. Fazer push de alteraçêo
 2. Aguardar 2-3 minutos
 3. Abrir: https://linnoff88-dev.github.io/
-4. Verificar console (F12) - não deve ter erros
+4. Verificar console (F12) - nêo deve ter erros
 5. Verificar layout - deve estar formatado
 
 ---
@@ -167,7 +167,7 @@ time curl -s https://cdn.tailwindcss.com > /dev/null
 
 ---
 
-**Última atualização:** 18/11/2025
+**Última atualizaçêo:** 18/11/2025
 **Problema resolvido:** ✅ Sim
-**Solução permanente:** jsdelivr CDN
+**Soluçêo permanente:** jsdelivr CDN
 **Status atual:** Funcionando em todos os ambientes

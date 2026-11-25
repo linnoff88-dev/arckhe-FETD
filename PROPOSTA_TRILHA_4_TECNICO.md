@@ -1,21 +1,21 @@
 # 🟠 Trilha 4: Técnico Comunicador - Proposta de Módulos
 
-**Público-alvo:** Profissionais técnicos (devs, engenheiros, analistas, suporte) que precisam transformar expertise em autoridade e comunicação eficaz
+**Público-alvo:** Profissionais técnicos (devs, engenheiros, analistas, suporte) que precisam transformar expertise em autoridade e comunicaçêo eficaz
 
-**Objetivo da Trilha:** Ensinar técnicos a documentar, explicar e promover seu trabalho usando IA e automação, transformando conhecimento técnico em influência profissional.
+**Objetivo da Trilha:** Ensinar técnicos a documentar, explicar e promover seu trabalho usando IA e automaçêo, transformando conhecimento técnico em influência profissional.
 
-**Duração Total:** 10 módulos (~8-10 horas)
+**Duraçêo Total:** 10 módulos (~8-10 horas)
 
 ---
 
 ## 🎯 Perfil do Aluno
 
 ### Dores:
-- "Sei fazer, mas não sei explicar"
+- "Sei fazer, mas nêo sei explicar"
 - "Meu trabalho é invisível para o resto da empresa"
-- "Não tenho tempo para documentar"
-- "Não sei como mostrar valor do meu trabalho técnico"
-- "Preciso virar tech lead/referência mas não sei comunicar"
+- "Nêo tenho tempo para documentar"
+- "Nêo sei como mostrar valor do meu trabalho técnico"
+- "Preciso virar tech lead/referência mas nêo sei comunicar"
 
 ### Objetivos:
 - Documentar projetos técnicos rapidamente
@@ -29,57 +29,57 @@
 ## 📚 Estrutura dos 10 Módulos
 
 ### **Módulo 1: O Técnico Invisível vs O Técnico Influente**
-**Duração:** 45-60 minutos
-**Objetivo:** Entender por que comunicação é a habilidade que falta para sua evolução profissional
+**Duraçêo:** 45-60 minutos
+**Objetivo:** Entender por que comunicaçêo é a habilidade que falta para sua evoluçêo profissional
 
 **Conteúdo:**
 - Por que o melhor técnico raramente é promovido
-- Dados: Comunicação = 70% do sucesso em cargos seniores
+- Dados: Comunicaçêo = 70% do sucesso em cargos seniores
 - 3 Mitos que impedem técnicos de comunicar
   - ❌ "Meu código fala por si"
-  - ❌ "Não tenho tempo para isso"
-  - ❌ "Não sou bom com palavras"
-- Como IA resolve 80% do trabalho de comunicação
+  - ❌ "Nêo tenho tempo para isso"
+  - ❌ "Nêo sou bom com palavras"
+- Como IA resolve 80% do trabalho de comunicaçêo
 - Cases: Técnicos que viraram referências usando IA
 - **Exercício:** Listar 3 projetos técnicos que você fez e ninguém sabe
 
 ---
 
-### **Módulo 2: Documentação Automática - Nunca Mais "Falta Doc"**
-**Duração:** 60-75 minutos
-**Objetivo:** Criar sistema de documentação técnica automática usando IA
+### **Módulo 2: Documentaçêo Automática - Nunca Mais "Falta Doc"**
+**Duraçêo:** 60-75 minutos
+**Objetivo:** Criar sistema de documentaçêo técnica automática usando IA
 
 **Conteúdo:**
-- Por que documentação técnica é abandonada (e como IA resolve)
+- Por que documentaçêo técnica é abandonada (e como IA resolve)
 - **Ferramentas:**
   - ChatGPT/Claude para gerar docs de código
-  - GitHub Copilot Docs (automação de READMEs)
+  - GitHub Copilot Docs (automaçêo de READMEs)
   - Mintlify/GitBook + IA para docs interativas
   - Notion AI para wikis técnicas
-- Estruturas de documentação que funcionam:
+- Estruturas de documentaçêo que funcionam:
   - README.md perfeito (template + IA)
   - API Docs automáticas
   - Runbooks e troubleshooting guides
   - Onboarding docs para novos devs
 - **Projeto prático:**
-  - Escolher 1 projeto seu sem documentação
+  - Escolher 1 projeto seu sem documentaçêo
   - Gerar README completo com IA em 15 minutos
   - Criar API docs básica
 
-**Resultado:** Sistema de documentação que se atualiza sozinho
+**Resultado:** Sistema de documentaçêo que se atualiza sozinho
 
 ---
 
 ### **Módulo 3: Explicando Conceitos Complexos - IA como Tradutor**
-**Duração:** 60 minutos
-**Objetivo:** Transformar jargão técnico em explicações que qualquer um entende
+**Duraçêo:** 60 minutos
+**Objetivo:** Transformar jargêo técnico em explicações que qualquer um entende
 
 **Conteúdo:**
 - A técnica ELI5 (Explain Like I'm 5) com IA
 - Como usar ChatGPT/Claude para:
   - Traduzir conceitos técnicos para stakeholders
   - Criar analogias que funcionam
-  - Adaptar explicação por nível (júnior, gestor, C-level)
+  - Adaptar explicaçêo por nível (júnior, gestor, C-level)
 - Framework 3C: Contexto → Conceito → Consequência
 - **Ferramentas:**
   - Claude (melhor para explicações longas)
@@ -94,9 +94,9 @@
 
 ---
 
-### **Módulo 4: Relatórios Técnicos em 10 Minutos (Automação Total)**
-**Duração:** 60-75 minutos
-**Objetivo:** Automatizar criação de relatórios de incidentes, sprints e performance
+### **Módulo 4: Relatórios Técnicos em 10 Minutos (Automaçêo Total)**
+**Duraçêo:** 60-75 minutos
+**Objetivo:** Automatizar criaçêo de relatórios de incidentes, sprints e performance
 
 **Conteúdo:**
 - Templates de relatórios técnicos essenciais:
@@ -104,7 +104,7 @@
   - Sprint review/retrospectiva
   - Performance reports (uptime, bugs, deploys)
   - Status de projetos técnicos
-- **Stack de automação:**
+- **Stack de automaçêo:**
   - Zapier/Make + Jira/GitHub → Google Docs
   - ChatGPT API para gerar narrativas dos dados
   - Notion AI para dashboards executivos
@@ -120,24 +120,24 @@
 ---
 
 ### **Módulo 5: Criando Conteúdo Técnico (Blog, LinkedIn, Dev.to)**
-**Duração:** 75-90 minutos
+**Duraçêo:** 75-90 minutos
 **Objetivo:** Virar referência técnica criando conteúdo em escala com IA
 
 **Conteúdo:**
 - Por que devs que escrevem ganham 30-50% mais
 - Estratégia de conteúdo técnico:
-  - Encontrar seu nicho (não precisa ser "expert mundial")
+  - Encontrar seu nicho (nêo precisa ser "expert mundial")
   - Formatos que funcionam: TIL, tutoriais, post-mortems, comparações
-- **Sistema de criação com IA:**
-  - Ideação: ChatGPT gera 20 ideias de posts por semana
-  - Estruturação: Outline automático
+- **Sistema de criaçêo com IA:**
+  - Ideaçêo: ChatGPT gera 20 ideias de posts por semana
+  - Estruturaçêo: Outline automático
   - Escrita: IA escreve rascunho, você revisa/adiciona expertise
-  - SEO: Otimização automática de títulos e keywords
+  - SEO: Otimizaçêo automática de títulos e keywords
 - **Ferramentas:**
   - Hashnode/Dev.to (plataformas prontas)
   - Notion AI (escrever + publicar)
   - ChatGPT + Claude (pesquisa + escrita)
-  - Grammarly AI (revisão)
+  - Grammarly AI (revisêo)
 - **Calendário editorial automatizado**
 - **Projeto prático:**
   - Escrever e publicar 1 post técnico em 30 minutos
@@ -148,7 +148,7 @@
 ---
 
 ### **Módulo 6: Apresentações Técnicas que Impressionam**
-**Duração:** 60-75 minutos
+**Duraçêo:** 60-75 minutos
 **Objetivo:** Criar slides e apresentações técnicas de alto impacto usando IA
 
 **Conteúdo:**
@@ -158,11 +158,11 @@
   - Apresentações para stakeholders
 - **IA para criar slides:**
   - Gamma.ai (texto → slides prontos em 2 min)
-  - Tome.app (IA gera apresentação completa)
+  - Tome.app (IA gera apresentaçêo completa)
   - Canva AI (design automático)
   - Beautiful.ai (templates técnicos)
 - Como usar ChatGPT para:
-  - Estruturar apresentação
+  - Estruturar apresentaçêo
   - Gerar script de fala
   - Criar analogias e exemplos
   - Antecipar perguntas difíceis
@@ -171,16 +171,16 @@
   - Mermaid + IA (diagramas automáticos)
   - Excalidraw AI (desenhos técnicos)
 - **Projeto prático:**
-  - Criar apresentação de 10 slides sobre projeto técnico recente
+  - Criar apresentaçêo de 10 slides sobre projeto técnico recente
   - Usar IA para gerar: outline, conteúdo, design
   - Gravar pitch de 3 minutos
 
-**Resultado:** Apresentação técnica profissional em 20 minutos
+**Resultado:** Apresentaçêo técnica profissional em 20 minutos
 
 ---
 
 ### **Módulo 7: Video Content para Técnicos (YouTube, Loom, LinkedIn)**
-**Duração:** 60-75 minutos
+**Duraçêo:** 60-75 minutos
 **Objetivo:** Criar vídeos técnicos sem aparecer ou com mínimo esforço
 
 **Conteúdo:**
@@ -191,16 +191,16 @@
   - Loom (5 min explicando feature/bug)
   - Screencasts de code walkthroughs
   - LinkedIn vídeos de 1 minuto
-- **Stack de produção mínima:**
+- **Stack de produçêo mínima:**
   - OBS Studio (gravar tela)
   - Loom AI (gravar + transcrever + resumir)
-  - Descript (edição por texto + IA remove "ãh, hum")
+  - Descript (ediçêo por texto + IA remove "êh, hum")
   - Pictory/OpusClip (corta vídeo longo em clips curtos)
 - **IA para vídeo:**
   - ChatGPT gera roteiro
-  - ElevenLabs (voiceover se não quiser falar)
+  - ElevenLabs (voiceover se nêo quiser falar)
   - Captions automáticas (Descript, CapCut)
-- **Estratégia de publicação:**
+- **Estratégia de publicaçêo:**
   - YouTube (tutoriais longos)
   - LinkedIn (clips de 1-2 min)
   - Dev.to (embedar vídeos nos posts)
@@ -214,7 +214,7 @@
 ---
 
 ### **Módulo 8: Portfolio Técnico Automático (GitHub, Site, Resume)**
-**Duração:** 75-90 minutos
+**Duraçêo:** 75-90 minutos
 **Objetivo:** Criar presença online profissional que atualiza sozinha
 
 **Conteúdo:**
@@ -231,7 +231,7 @@
   - ChatGPT gera resume adaptado para cada vaga
   - Creddle.io + IA (design automático)
   - JSON Resume (1 arquivo → múltiplos formatos)
-- **Automação:**
+- **Automaçêo:**
   - GitHub commits → auto-atualiza portfolio
   - Posts publicados → aparecem no site
   - Zapier monitora menções → adiciona ao portfolio
@@ -245,7 +245,7 @@
 ---
 
 ### **Módulo 9: LinkedIn para Devs - Autoridade em 15 min/semana**
-**Duração:** 60 minutos
+**Duraçêo:** 60 minutos
 **Objetivo:** Construir marca pessoal no LinkedIn sem virar "influencer chato"
 
 **Conteúdo:**
@@ -279,7 +279,7 @@
 ---
 
 ### **Módulo 10: Sistema Completo - De Técnico Invisível a Referência**
-**Duração:** 90-120 minutos
+**Duraçêo:** 90-120 minutos
 **Objetivo:** Integrar tudo em um sistema semanal de 1-2 horas que constrói autoridade
 
 **Conteúdo:**
@@ -292,7 +292,7 @@
 
   **Quarta (30 min):**
   - Escrever 1 post/artigo técnico com IA
-  - Atualizar documentação de 1 projeto
+  - Atualizar documentaçêo de 1 projeto
 
   **Sexta (40 min):**
   - Gravar 1 vídeo curto (5 min)
@@ -305,10 +305,10 @@
 
 - **Stack completa integrada:**
   - Notion (hub central)
-  - ChatGPT/Claude (criação de conteúdo)
+  - ChatGPT/Claude (criaçêo de conteúdo)
   - Zapier (automações)
   - GitHub (código + portfolio)
-  - LinkedIn (distribuição)
+  - LinkedIn (distribuiçêo)
 
 - **Métricas que importam:**
   - Visitas no GitHub profile
@@ -336,8 +336,8 @@
 
 | Aspecto | Trilha 4 (Técnico) |
 |---------|-------------------|
-| **Foco** | Comunicação + Autoridade técnica |
-| **Ferramentas** | 80% IA + automação de conteúdo |
+| **Foco** | Comunicaçêo + Autoridade técnica |
+| **Ferramentas** | 80% IA + automaçêo de conteúdo |
 | **Resultado** | Técnico invisível → Referência reconhecida |
 | **Tempo** | 1-2h/semana mantendo o sistema |
 | **ROI** | Promoções, +30-50% salário, melhores vagas |
@@ -347,17 +347,17 @@
 ## 💡 Stack Tecnológica da Trilha
 
 **IA Generativa:**
-- ChatGPT / Claude (criação de conteúdo)
+- ChatGPT / Claude (criaçêo de conteúdo)
 - GitHub Copilot (código + docs)
-- Notion AI (organização)
+- Notion AI (organizaçêo)
 
-**Criação de Conteúdo:**
+**Criaçêo de Conteúdo:**
 - Gamma.ai / Tome (apresentações)
 - Canva AI (design)
 - Descript (vídeo)
 - Loom AI (screencasts)
 
-**Automação:**
+**Automaçêo:**
 - Zapier / Make (integrações)
 - GitHub Actions (portfolio)
 - Buffer/Hypefury (agendamento)
@@ -374,10 +374,10 @@
 
 Após completar a trilha + seguir o sistema por 3 meses:
 
-✅ **Documentação:**
+✅ **Documentaçêo:**
 - 5-10 projetos bem documentados
 - Wiki técnica do time atualizada
-- 0 "falta documentação" em code reviews
+- 0 "falta documentaçêo" em code reviews
 
 ✅ **Conteúdo:**
 - 12+ posts técnicos publicados
@@ -408,7 +408,7 @@ Após completar a trilha + seguir o sistema por 3 meses:
 - 2-3 horas/semana disponíveis
 - Quer evoluir na carreira técnica
 
-**Não precisa:**
+**Nêo precisa:**
 - ❌ Ser "expert" (júnior pode começar)
 - ❌ Saber escrever bem (IA resolve)
 - ❌ Ter audiência prévia
@@ -416,13 +416,13 @@ Após completar a trilha + seguir o sistema por 3 meses:
 
 ---
 
-## 📝 Notas de Implementação
+## 📝 Notas de Implementaçêo
 
-**Ordem de prioridade para criação:**
+**Ordem de prioridade para criaçêo:**
 1. Módulos 1, 2, 5 (base + quick wins)
-2. Módulos 3, 4, 9 (comunicação essencial)
-3. Módulos 6, 7, 8 (expansão de presença)
-4. Módulo 10 (integração final)
+2. Módulos 3, 4, 9 (comunicaçêo essencial)
+3. Módulos 6, 7, 8 (expansêo de presença)
+4. Módulo 10 (integraçêo final)
 
 **Conteúdo bônus possível:**
 - Templates prontos (READMEs, posts, slides)
@@ -432,5 +432,5 @@ Após completar a trilha + seguir o sistema por 3 meses:
 
 ---
 
-**Última atualização:** 2025-01-19
-**Status:** Proposta para avaliação
+**Última atualizaçêo:** 2025-01-19
+**Status:** Proposta para avaliaçêo

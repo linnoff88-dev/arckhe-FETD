@@ -1,8 +1,8 @@
-# Módulo 1: A Revolução do Atendimento
+# Módulo 1: A Revoluçêo do Atendimento
 
 **Trilha:** Comunicador Estratégico
-**Duração:** 30min
-**Objetivo:** Entender como IA e automação transformaram vendas e atendimento
+**Duraçêo:** 30min
+**Objetivo:** Entender como IA e automaçêo transformaram vendas e atendimento
 **Público:** Vendedores, atendentes, consultores que lidam com clientes diariamente
 
 ---
@@ -13,61 +13,61 @@
 
 Pense em como era o trabalho de um vendedor ou atendente há apenas dois anos. A rotina começava com a abertura do e-mail, onde dezenas (às vezes centenas) de mensagens aguardavam resposta. Cada lead precisava ser contatado manualmente, cada dúvida demandava uma resposta digitada do zero, cada follow-up dependia da memória humana ou de anotações espalhadas em planilhas, post-its e cadernos.
 
-O vendedor típico trabalhava assim: chegava às 8h da manhã, abria o CRM (quando tinha um), verificava os leads do dia e começava a fazer ligações. Entre uma ligação e outra, respondia WhatsApp, checava e-mails, atualizava a planilha de controle. Almoçava correndo, voltava e continuava até às 18h. No final do dia, conseguia falar efetivamente com 12 a 15 pessoas. Os outros 30, 40 ou 50 leads do dia? Ficavam para "amanhã" - um amanhã que raramente chegava.
+O vendedor típico trabalhava assim: chegava às 8h da manhê, abria o CRM (quando tinha um), verificava os leads do dia e começava a fazer ligações. Entre uma ligaçêo e outra, respondia WhatsApp, checava e-mails, atualizava a planilha de controle. Almoçava correndo, voltava e continuava até às 18h. No final do dia, conseguia falar efetivamente com 12 a 15 pessoas. Os outros 30, 40 ou 50 leads do dia? Ficavam para "amanhê" - um amanhê que raramente chegava.
 
-A agenda estava sempre cheia, mas a produtividade era limitada por uma barreira intransponível: o tempo humano. Não importa o quão dedicado você fosse, não importa quantas horas extras fizesse, havia um limite físico de quantas conversas você podia ter, quantas propostas podia escrever, quantos clientes podia atender com qualidade.
+A agenda estava sempre cheia, mas a produtividade era limitada por uma barreira intransponível: o tempo humano. Nêo importa o quêo dedicado você fosse, nêo importa quantas horas extras fizesse, havia um limite físico de quantas conversas você podia ter, quantas propostas podia escrever, quantos clientes podia atender com qualidade.
 
 ### Limitações: só 8h/dia, memória humana falha, follow-up manual
 
 Vamos detalhar as três grandes limitações do modelo tradicional:
 
-**Limitação 1: Barreira Temporal**
-Você tem apenas 8 horas úteis por dia. Subtraia reuniões internas, pausas necessárias, deslocamentos, tempo de almoço. Sobram talvez 5-6 horas de trabalho efetivo. Se cada atendimento/ligação leva 15-20 minutos (somando conversa + anotações + follow-up), você chega no máximo a 15-18 interações de qualidade por dia. Isso é tudo. Seu teto está definido.
+**Limitaçêo 1: Barreira Temporal**
+Você tem apenas 8 horas úteis por dia. Subtraia reuniões internas, pausas necessárias, deslocamentos, tempo de almoço. Sobram talvez 5-6 horas de trabalho efetivo. Se cada atendimento/ligaçêo leva 15-20 minutos (somando conversa + anotações + follow-up), você chega no máximo a 15-18 interações de qualidade por dia. Isso é tudo. Seu teto está definido.
 
-**Limitação 2: Memória Humana Falível**
-João ligou na segunda-feira interessado no plano Premium, mas pediu para você retornar na sexta. Você anotou? Onde? No CRM? Na agenda? No papel? Até sexta-feira, você terá atendido outras 50 pessoas. Você se lembrará do contexto exato da conversa com João? Das objeções dele? Do orçamento que ele mencionou? Das preferências específicas?
+**Limitaçêo 2: Memória Humana Falível**
+Joêo ligou na segunda-feira interessado no plano Premium, mas pediu para você retornar na sexta. Você anotou? Onde? No CRM? Na agenda? No papel? Até sexta-feira, você terá atendido outras 50 pessoas. Você se lembrará do contexto exato da conversa com Joêo? Das objeções dele? Do orçamento que ele mencionou? Das preferências específicas?
 
-A realidade é que esquecemos. Esquecemos nomes, contextos, promessas. E cada vez que esquecemos, perdemos credibilidade e oportunidades. O cliente percebe quando você não se lembra dele. E isso afasta.
+A realidade é que esquecemos. Esquecemos nomes, contextos, promessas. E cada vez que esquecemos, perdemos credibilidade e oportunidades. O cliente percebe quando você nêo se lembra dele. E isso afasta.
 
-**Limitação 3: Follow-up Manual**
+**Limitaçêo 3: Follow-up Manual**
 Você sabe que deveria fazer follow-up com aquele lead que pediu "mais tempo para pensar" há 4 dias. Você sabe que deveria mandar aquele conteúdo complementar para a cliente que demonstrou interesse. Você sabe que deveria checar se o produto chegou bem para aquele comprador de semana passada.
 
-Mas entre o "deveria" e o "fazer", há um abismo chamado rotina. As urgências do dia consomem toda atenção. Os follow-ups ficam para depois. E depois vira nunca. Resultado: taxas de conversão entre 2% e 5%, quando poderiam ser 15% ou 20% com follow-up consistente.
+Mas entre o "deveria" e o "fazer", há um abismo chamado rotina. As urgências do dia consomem toda atençêo. Os follow-ups ficam para depois. E depois vira nunca. Resultado: taxas de conversêo entre 2% e 5%, quando poderiam ser 15% ou 20% com follow-up consistente.
 
-### O que mudou com IA + Automação
+### O que mudou com IA + Automaçêo
 
-Então chegou 2023. E com ele, uma revolução silenciosa mas profunda. Ferramentas de IA generativa como o ChatGPT tornaram-se acessíveis a qualquer pessoa. Plataformas de automação como Zapier, Make e n8n democratizaram integrações que antes custavam dezenas de milhares de reais em desenvolvimento.
+Entêo chegou 2023. E com ele, uma revoluçêo silenciosa mas profunda. Ferramentas de IA generativa como o ChatGPT tornaram-se acessíveis a qualquer pessoa. Plataformas de automaçêo como Zapier, Make e n8n democratizaram integrações que antes custavam dezenas de milhares de reais em desenvolvimento.
 
 O que mudou especificamente?
 
 **Mudança 1: Você pode estar em vários lugares ao mesmo tempo**
-Enquanto você está em uma reunião fechando um negócio importante, um chatbot com IA está respondendo 15 leads em paralelo no seu site. Enquanto você almoça, sequências automatizadas de e-mail estão nutrindo prospects. Enquanto você dorme, um sistema está qualificando leads, separando os quentes dos frios, e agendando reuniões na sua agenda para o dia seguinte.
+Enquanto você está em uma reuniêo fechando um negócio importante, um chatbot com IA está respondendo 15 leads em paralelo no seu site. Enquanto você almoça, sequências automatizadas de e-mail estêo nutrindo prospects. Enquanto você dorme, um sistema está qualificando leads, separando os quentes dos frios, e agendando reuniões na sua agenda para o dia seguinte.
 
 **Mudança 2: Memória perfeita e infinita**
-Sistemas com IA agora guardam TODO o histórico de cada cliente. Cada e-mail trocado, cada mensagem no WhatsApp, cada ligação (se gravada e transcrita), cada interação no site. E não só guardam: contextualizam. Quando você vai falar com um cliente, o sistema te mostra em 30 segundos: histórico completo, preferências identificadas, objeções anteriores, comportamento de compra, até o tom emocional das últimas interações.
+Sistemas com IA agora guardam TODO o histórico de cada cliente. Cada e-mail trocado, cada mensagem no WhatsApp, cada ligaçêo (se gravada e transcrita), cada interaçêo no site. E nêo só guardam: contextualizam. Quando você vai falar com um cliente, o sistema te mostra em 30 segundos: histórico completo, preferências identificadas, objeções anteriores, comportamento de compra, até o tom emocional das últimas interações.
 
 **Mudança 3: Follow-up automatizado e inteligente**
-Você não precisa mais lembrar de fazer follow-up. O sistema faz. No tempo certo, com a mensagem certa, personalizada com base no comportamento de cada lead. E não é um robô burro mandando spam. É IA que escreve mensagens contextualizadas, que sabe quando insistir e quando dar espaço, que adapta abordagem baseada em resposta.
+Você nêo precisa mais lembrar de fazer follow-up. O sistema faz. No tempo certo, com a mensagem certa, personalizada com base no comportamento de cada lead. E nêo é um robô burro mandando spam. É IA que escreve mensagens contextualizadas, que sabe quando insistir e quando dar espaço, que adapta abordagem baseada em resposta.
 
 ### Por que AGORA é o melhor momento para comunicadores
 
-Se você trabalha com vendas, atendimento ou qualquer forma de comunicação com clientes, este é literalmente o melhor momento da história para estar vivo e trabalhando.
+Se você trabalha com vendas, atendimento ou qualquer forma de comunicaçêo com clientes, este é literalmente o melhor momento da história para estar vivo e trabalhando.
 
 Por quê?
 
-**Razão 1: Tecnologia acessível a todos**
-Pela primeira vez, as mesmas ferramentas que empresas bilionárias usam estão disponíveis para você por R$ 0 a R$ 200/mês. ChatGPT, ferramentas de automação gratuitas, CRMs com plano free poderoso. Não há mais desculpa de "é só pra empresa grande".
+**Razêo 1: Tecnologia acessível a todos**
+Pela primeira vez, as mesmas ferramentas que empresas bilionárias usam estêo disponíveis para você por R$ 0 a R$ 200/mês. ChatGPT, ferramentas de automaçêo gratuitas, CRMs com plano free poderoso. Nêo há mais desculpa de "é só pra empresa grande".
 
-**Razão 2: Diferencial competitivo massivo**
-A maioria dos seus concorrentes AINDA não adotou essas tecnologias. Ainda trabalham no modelo antigo. Isso significa que, se você aprender e implementar agora, terá 6-24 meses de vantagem competitiva antes que vire commodidade.
+**Razêo 2: Diferencial competitivo massivo**
+A maioria dos seus concorrentes AINDA nêo adotou essas tecnologias. Ainda trabalham no modelo antigo. Isso significa que, se você aprender e implementar agora, terá 6-24 meses de vantagem competitiva antes que vire commodidade.
 
-**Razão 3: Seus clientes já esperam isso**
-Os clientes de 2024 foram treinados por Amazon, Netflix, iFood. Eles esperam resposta rápida, personalização, disponibilidade 24/7. Se você não oferece, eles vão para quem oferece. A boa notícia? Agora você PODE oferecer, mesmo sendo uma pessoa só.
+**Razêo 3: Seus clientes já esperam isso**
+Os clientes de 2024 foram treinados por Amazon, Netflix, iFood. Eles esperam resposta rápida, personalizaçêo, disponibilidade 24/7. Se você nêo oferece, eles vêo para quem oferece. A boa notícia? Agora você PODE oferecer, mesmo sendo uma pessoa só.
 
-**Razão 4: Escalabilidade sem contratação**
-Antes, para atender 5x mais clientes, você precisava de uma equipe 5x maior. Hoje, você + IA + automação pode atender 5x, 10x mais clientes com a mesma (ou até menor) estrutura. Isso muda completamente a economia do seu negócio ou da sua carreira.
+**Razêo 4: Escalabilidade sem contrataçêo**
+Antes, para atender 5x mais clientes, você precisava de uma equipe 5x maior. Hoje, você + IA + automaçêo pode atender 5x, 10x mais clientes com a mesma (ou até menor) estrutura. Isso muda completamente a economia do seu negócio ou da sua carreira.
 
-### Comparação visual de produtividade
+### Comparaçêo visual de produtividade
 
 Vamos comparar dois vendedores fictícios, mas baseados em dados reais:
 
@@ -75,7 +75,7 @@ Vamos comparar dois vendedores fictícios, mas baseados em dados reais:
 - Horário: 8h às 18h (10h trabalho)
 - Leads recebidos/dia: 40
 - Leads contatados/dia: 15
-- Taxa de conversão: 4%
+- Taxa de conversêo: 4%
 - Vendas/mês: 12
 - Receita/mês: R$ 12.000
 - Tempo livre: 0h
@@ -85,8 +85,8 @@ Vamos comparar dois vendedores fictícios, mas baseados em dados reais:
 **VENDEDOR B (Modelo Híbrido com IA - 2024)**
 - Horário: 8h às 17h (9h trabalho)
 - Leads recebidos/dia: 40
-- Leads contatados/dia: 40 (automação + humano)
-- Taxa de conversão: 12%
+- Leads contatados/dia: 40 (automaçêo + humano)
+- Taxa de conversêo: 12%
 - Vendas/mês: 96
 - Receita/mês: R$ 96.000
 - Tempo livre: 1-2h/dia
@@ -95,7 +95,7 @@ Vamos comparar dois vendedores fictícios, mas baseados em dados reais:
 
 A diferença? Vendedor B usa:
 - Chatbot IA para triagem inicial (responde 100% dos leads em < 2min)
-- Automação de follow-up (sequências personalizadas)
+- Automaçêo de follow-up (sequências personalizadas)
 - CRM com IA que prioriza leads quentes
 - Templates inteligentes que se adaptam a cada cliente
 - IA para escrever propostas em 5min (vs. 40min manual)
@@ -108,25 +108,25 @@ Resultado: 8x mais vendas, trabalhando 1h MENOS por dia.
 
 ### Rafael: O comunicador acumulado (persona real)
 
-Rafael trabalha como consultor comercial em uma empresa de software B2B. Tem 28 anos, é formado em Administração, fez curso de vendas consultivas. É bom no que faz - quando consegue fazer.
+Rafael trabalha como consultor comercial em uma empresa de software B2B. Tem 28 anos, é formado em Administraçêo, fez curso de vendas consultivas. É bom no que faz - quando consegue fazer.
 
 Seu dia típico:
 
 **7h30** - Chega no escritório (30min antes) para "se organizar"
-**8h00** - Abre o e-mail: 47 mensagens não lidas
+**8h00** - Abre o e-mail: 47 mensagens nêo lidas
 **8h15** - Abre o CRM: 18 tarefas atrasadas, 33 leads novos
-**8h20** - Primeira reunião (não planejada, emergência do gestor)
+**8h20** - Primeira reuniêo (nêo planejada, emergência do gestor)
 **9h00** - Tenta retomar trabalho, WhatsApp explode com 12 mensagens
 **9h30** - Começa a ligar para leads do dia
-**11h00** - Conseguiu falar com 4 pessoas, 11 não atenderam
+**11h00** - Conseguiu falar com 4 pessoas, 11 nêo atenderam
 **12h00** - Almoço rápido (20min)
 **12h30** - Retorna ligações, responde e-mails acumulados
-**14h00** - Reunião interna (1h)
+**14h00** - Reuniêo interna (1h)
 **15h00** - Tenta recuperar o atraso
 **17h30** - Olha a lista de tarefas: fez 30% do planejado
-**18h00** - Vai embora frustrado, prometendo "amanhã eu recupero"
+**18h00** - Vai embora frustrado, prometendo "amanhê eu recupero"
 
-Rafael não é preguiçoso. Não é desorganizado. Ele está SOBRECARREGADO por um sistema que não escala.
+Rafael nêo é preguiçoso. Nêo é desorganizado. Ele está SOBRECARREGADO por um sistema que nêo escala.
 
 ### 50 leads por dia, consegue falar com 15
 
@@ -135,30 +135,30 @@ A empresa de Rafael investiu em marketing. Isso é bom, certo? Gerando 40-50 lea
 Vamos fazer a matemática:
 
 - 50 leads/dia
-- Tempo médio por lead (ligação + e-mail + CRM): 20 minutos
+- Tempo médio por lead (ligaçêo + e-mail + CRM): 20 minutos
 - Tempo necessário: 50 × 20min = 1.000 minutos = 16,7 horas
 - Tempo disponível: 8 horas = 480 minutos
 - Déficit: 8,7 horas/dia
 
-É matematicamente impossível. Rafael precisaria de mais de 2 versões de si mesmo para dar conta. Então ele faz triagem inconsciente: atende os que respondem rápido, os que parecem mais quentes, os que estão gritando mais alto. Os outros 35? Ficam na fila. E na fila do dia seguinte há mais 50. E assim o buraco só aumenta.
+É matematicamente impossível. Rafael precisaria de mais de 2 versões de si mesmo para dar conta. Entêo ele faz triagem inconsciente: atende os que respondem rápido, os que parecem mais quentes, os que estêo gritando mais alto. Os outros 35? Ficam na fila. E na fila do dia seguinte há mais 50. E assim o buraco só aumenta.
 
 ### 35 oportunidades perdidas diariamente
 
-Desses 35 leads que Rafael não consegue atender adequadamente por dia, o que acontece?
+Desses 35 leads que Rafael nêo consegue atender adequadamente por dia, o que acontece?
 
-- 40% (14 leads) desistem e vão para o concorrente
+- 40% (14 leads) desistem e vêo para o concorrente
 - 30% (10 leads) esfriam e nunca mais respondem
 - 20% (7 leads) reclamam do tempo de resposta
-- 10% (4 leads) eventualmente são atendidos, mas com experiência ruim
+- 10% (4 leads) eventualmente sêo atendidos, mas com experiência ruim
 
-Todos os dias, 35 oportunidades escorrem pelos dedos. Não por falta de vontade, mas por falta de estrutura.
+Todos os dias, 35 oportunidades escorrem pelos dedos. Nêo por falta de vontade, mas por falta de estrutura.
 
 ### Cálculo do custo: R$ 500/lead × 35 = R$ 17.500/dia perdidos
 
 Vamos ao que dói: dinheiro.
 
 Ticket médio do produto de Rafael: R$ 5.000
-Taxa de conversão média da empresa: 10%
+Taxa de conversêo média da empresa: 10%
 Valor médio por lead: R$ 500
 
 Leads perdidos por dia: 35
@@ -166,70 +166,70 @@ Perda diária: 35 × R$ 500 = R$ 17.500
 Perda mensal (22 dias úteis): R$ 385.000
 Perda anual: R$ 4.620.000
 
-Quase CINCO MILHÕES DE REAIS deixados na mesa por ano. Por um vendedor. Agora imagine uma equipe de 10 vendedores na mesma situação.
+Quase CINCO MILHÕES DE REAIS deixados na mesa por ano. Por um vendedor. Agora imagine uma equipe de 10 vendedores na mesma situaçêo.
 
-E o pior: Rafael sabe disso. Ele vê os números. Ele sente a frustração de saber que cada lead não atendido é dinheiro e oportunidade perdida. Isso gera ansiedade, burnout, rotatividade.
+E o pior: Rafael sabe disso. Ele vê os números. Ele sente a frustraçêo de saber que cada lead nêo atendido é dinheiro e oportunidade perdida. Isso gera ansiedade, burnout, rotatividade.
 
-### O ciclo vicioso: mais leads → menos tempo → pior atendimento → menos conversão
+### O ciclo vicioso: mais leads → menos tempo → pior atendimento → menos conversêo
 
 Aqui está o paradoxo cruel:
 
 1. Marketing faz campanha bem-sucedida → Gera mais leads
 2. Vendedor fica mais sobrecarregado → Atende cada lead com menos tempo/qualidade
-3. Atendimento pior → Taxa de conversão cai
-4. Taxa de conversão cai → Empresa aumenta metas de leads
+3. Atendimento pior → Taxa de conversêo cai
+4. Taxa de conversêo cai → Empresa aumenta metas de leads
 5. Mais leads → Volta ao passo 2
 
 É um ciclo vicioso que só termina em duas situações:
-- O vendedor pede demissão (burnout)
-- A empresa decide investir em estrutura (automação/mais pessoas)
+- O vendedor pede demissêo (burnout)
+- A empresa decide investir em estrutura (automaçêo/mais pessoas)
 
-A solução tradicional era contratar mais vendedores. Mas isso tem custo, tempo de treinamento, gestão. A solução moderna? Um vendedor + IA + automação fazendo o trabalho de 5.
+A soluçêo tradicional era contratar mais vendedores. Mas isso tem custo, tempo de treinamento, gestêo. A soluçêo moderna? Um vendedor + IA + automaçêo fazendo o trabalho de 5.
 
 ---
 
 ## 3. Os 3 Mitos do Atendimento Automatizado
 
-### MITO 1: "Cliente quer falar com humano, não com robô"
+### MITO 1: "Cliente quer falar com humano, nêo com robô"
 
 Este é o mito mais comum e o mais equivocado. Vamos desmontá-lo.
 
-**A VERDADE: Cliente quer VELOCIDADE e SOLUÇÃO**
+**A VERDADE: Cliente quer VELOCIDADE e SOLUÇêO**
 
 Faça um exercício mental. Você manda uma mensagem para uma empresa às 14h de uma terça-feira. Duas opções:
 
-**Opção A:** Um robô responde em 30 segundos, entende sua dúvida, oferece solução relevante ou agenda atendimento humano para daqui 1 hora.
+**Opçêo A:** Um robô responde em 30 segundos, entende sua dúvida, oferece soluçêo relevante ou agenda atendimento humano para daqui 1 hora.
 
-**Opção B:** Ninguém responde. Às 17h você recebe um "Oi! Em que posso ajudar?" de um humano.
+**Opçêo B:** Ninguém responde. Às 17h você recebe um "Oi! Em que posso ajudar?" de um humano.
 
 Qual você prefere? Seja honesto.
 
-A pesquisa confirma a intuição: segundo estudo da Salesforce de 2023, 82% dos consumidores preferem resposta imediata (mesmo que automatizada) versus esperar atendimento humano. O que as pessoas valorizam, na verdade:
+A pesquisa confirma a intuiçêo: segundo estudo da Salesforce de 2023, 82% dos consumidores preferem resposta imediata (mesmo que automatizada) versus esperar atendimento humano. O que as pessoas valorizam, na verdade:
 
 1. **Velocidade:** Quanto mais rápido o problema é resolvido, melhor
-2. **Resolução:** O problema foi resolvido? Isso importa mais que quem resolveu
-3. **Personalização:** A resposta foi genérica ou levou em conta meu contexto?
+2. **Resoluçêo:** O problema foi resolvido? Isso importa mais que quem resolveu
+3. **Personalizaçêo:** A resposta foi genérica ou levou em conta meu contexto?
 4. **Continuidade:** A empresa "lembra" de mim nas próximas interações?
 
-Humanos NÃO são automaticamente melhores em nenhum desses quatro pontos. Na verdade, com a tecnologia atual, IA + automação supera humanos em 3 dos 4 (velocidade, personalização via dados, continuidade via memória perfeita).
+Humanos NêO sêo automaticamente melhores em nenhum desses quatro pontos. Na verdade, com a tecnologia atual, IA + automaçêo supera humanos em 3 dos 4 (velocidade, personalizaçêo via dados, continuidade via memória perfeita).
 
-**O que clientes realmente valorizam: rapidez, personalização, continuidade**
+**O que clientes realmente valorizam: rapidez, personalizaçêo, continuidade**
 
 Vamos detalhar:
 
 **Rapidez:** Cliente moderno foi educado por Amazon (entrega em 1 dia), iFood (30 minutos), Netflix (instantâneo). Esperar 3 horas por resposta em 2024 é inaceitável. IA responde em segundos. 24/7. Sempre.
 
-**Personalização:** "Oi! Em que posso ajudar?" é genérico. "Oi Maria! Vi que você baixou nosso e-book sobre automação de vendas na semana passada. Quer ajuda para implementar algo específico na sua operação de seguros?" é personalizado. IA consegue isso para 1.000 clientes simultaneamente. Humano consegue para 1 por vez.
+**Personalizaçêo:** "Oi! Em que posso ajudar?" é genérico. "Oi Maria! Vi que você baixou nosso e-book sobre automaçêo de vendas na semana passada. Quer ajuda para implementar algo específico na sua operaçêo de seguros?" é personalizado. IA consegue isso para 1.000 clientes simultaneamente. Humano consegue para 1 por vez.
 
 **Continuidade:** Você já teve que recontar sua história para 3 atendentes diferentes da mesma empresa? Irritante, né? IA nunca esquece. Toda conversa está no contexto. Sempre.
 
 **Quando usar IA vs. quando usar humano**
 
-A resposta não é "um ou outro". É "quando cada um".
+A resposta nêo é "um ou outro". É "quando cada um".
 
 **IA é melhor para:**
 - Triagem inicial (entender o que o cliente quer)
-- Perguntas frequentes (90% das dúvidas são repetitivas)
+- Perguntas frequentes (90% das dúvidas sêo repetitivas)
 - Coleta de informações (nome, e-mail, interesse, orçamento)
 - Agendamento (checar disponibilidade e marcar)
 - Follow-ups de rotina (lembretes, check-ins)
@@ -240,7 +240,7 @@ A resposta não é "um ou outro". É "quando cada um".
 - Negociações complexas (quando há trade-offs e criatividade)
 - Empatia profunda (crises, reclamações emocionais)
 - Vendas consultivas de alto ticket (relacionamento)
-- Tomada de decisão em casos únicos
+- Tomada de decisêo em casos únicos
 - Fechamento de negócios importantes
 - Situações que exigem julgamento moral/ético
 
@@ -248,7 +248,7 @@ A fórmula vencedora: **IA filtra, qualifica e prepara → Humano fecha e encant
 
 **Exemplo: Chatbot responde em 30seg vs. humano em 3h**
 
-Empresa X, e-commerce de moda. Antes da automação:
+Empresa X, e-commerce de moda. Antes da automaçêo:
 
 - Cliente manda mensagem no Instagram às 15h: "Vocês têm esse vestido em azul tamanho M?"
 - Atendente (que está almoçando) vê às 15h40
@@ -256,62 +256,62 @@ Empresa X, e-commerce de moda. Antes da automação:
 - Checa sistema, responde às 16h15: "Temos sim! Quer que eu separe?"
 - Cliente já comprou no concorrente que respondeu em 2 minutos
 
-Depois da automação com IA:
+Depois da automaçêo com IA:
 
 - Cliente manda mensagem no Instagram às 15h
 - IA responde em 18 segundos: "Oi! O vestido Modelo Luna está disponível em azul, tamanho M, por R$ 189,90. Tenho 3 unidades em estoque. Quer que eu reserve uma para você? É só confirmar seu CPF e forma de pagamento preferida!"
-- Cliente: "Quero! Cartão em 3x"
+- Cliente: "Quero! Cartêo em 3x"
 - IA: "Perfeito! Reservei para você. Link de pagamento seguro: [link]. Prazo de entrega: 2-3 dias úteis. Precisa de algo mais?"
 - Venda fechada em 2 minutos. Atendente humano nem precisou intervir.
 
-### MITO 2: "Automação despersonaliza o atendimento"
+### MITO 2: "Automaçêo despersonaliza o atendimento"
 
-Este mito nasce da experiência ruim com automações antigas e burras. URAs terríveis, chatbots que não entendem nada, e-mails genéricos de "Prezado Cliente".
+Este mito nasce da experiência ruim com automações antigas e burras. URAs terríveis, chatbots que nêo entendem nada, e-mails genéricos de "Prezado Cliente".
 
-**FALSO: Automação + IA = MAIS personalização**
+**FALSO: Automaçêo + IA = MAIS personalizaçêo**
 
-A verdade contraintuitiva: automação BEM FEITA com IA personaliza MAIS que humanos.
+A verdade contraintuitiva: automaçêo BEM FEITA com IA personaliza MAIS que humanos.
 
 Por quê? Três razões:
 
-**Razão 1: Escala de atenção**
+**Razêo 1: Escala de atençêo**
 Um humano consegue manter contexto personalizado de 20-30 clientes ativos. Mais que isso, começa a confundir, esquecer, generalizar.
 
-IA consegue manter contexto personalizado de 10.000 clientes. Simultaneamente. Com perfeição.
+IA consegue manter contexto personalizado de 10.000 clientes. Simultaneamente. Com perfeiçêo.
 
-**Razão 2: Dados integrados**
+**Razêo 2: Dados integrados**
 Para você personalizar atendimento, precisa lembrar ou consultar: histórico de compras, interações anteriores, preferências declaradas, comportamento no site, tickets abertos, e-mails trocados.
 
-Isso leva tempo. Geralmente você não faz, então trata todos genericamente.
+Isso leva tempo. Geralmente você nêo faz, entêo trata todos genericamente.
 
 IA acessa tudo isso em milissegundos. SEMPRE. Para TODOS.
 
-**Razão 3: Consistência**
-Você em um dia bom personaliza bem. Você em um dia ruim (dormiu mal, brigou em casa, 40 clientes antes) não consegue.
+**Razêo 3: Consistência**
+Você em um dia bom personaliza bem. Você em um dia ruim (dormiu mal, brigou em casa, 40 clientes antes) nêo consegue.
 
-IA entrega o mesmo nível de personalização sempre. No 1º cliente e no 1.000º.
+IA entrega o mesmo nível de personalizaçêo sempre. No 1º cliente e no 1.000º.
 
 **IA lembra de TUDO sobre cada cliente**
 
 Exemplo prático:
 
-João comprou um notebook na sua loja há 3 meses. Na época, comentou que estava montando home office. Perguntou sobre cadeiras ergonômicas mas não comprou.
+Joêo comprou um notebook na sua loja há 3 meses. Na época, comentou que estava montando home office. Perguntou sobre cadeiras ergonômicas mas nêo comprou.
 
 Hoje ele volta ao site.
 
 **Sem IA:** "Olá! Bem-vindo! Como posso ajudar?"
 
-**Com IA:** "Oi João! Como está o notebook Lenovo que você comprou em fevereiro? Está servindo bem para o home office? Vi que você teve interesse em cadeiras ergonômicas na época. Temos uma promoção excelente hoje na linha Diretor Comfort, quer que eu mostre?"
+**Com IA:** "Oi Joêo! Como está o notebook Lenovo que você comprou em fevereiro? Está servindo bem para o home office? Vi que você teve interesse em cadeiras ergonômicas na época. Temos uma promoçêo excelente hoje na linha Diretor Comfort, quer que eu mostre?"
 
-Qual gera mais conexão?
+Qual gera mais conexêo?
 
 **Humanos esquecem, IA nunca esquece**
 
 Seja brutalmente honesto: você lembra dos detalhes de uma conversa que teve com um cliente 2 meses atrás? Lembra do nome do filho dele que ele mencionou? Da preferência de cor que ele comentou de passagem?
 
-Não. Você é humano. Você esquece. E está tudo bem - exceto que isso limita seu poder de personalização.
+Nêo. Você é humano. Você esquece. E está tudo bem - exceto que isso limita seu poder de personalizaçêo.
 
-IA não esquece. Nunca. Cada detalhe, cada preferência, cada comentário casual fica registrado e acessível.
+IA nêo esquece. Nunca. Cada detalhe, cada preferência, cada comentário casual fica registrado e acessível.
 
 **Exemplo: Sistema que lembra preferências, histórico, contexto**
 
@@ -321,7 +321,7 @@ Cliente liga: "Maria, quero viajar nas férias de julho"
 
 Maria: "Ótimo! Para onde você estava pensando?"
 
-Cliente: "Não sei, você tem alguma sugestão?"
+Cliente: "Nêo sei, você tem alguma sugestêo?"
 
 Maria (sem ter ideia do histórico): "Depende... você prefere praia ou montanha?"
 
@@ -331,13 +331,13 @@ Agora Maria usa CRM com IA:
 
 Cliente liga: "Maria, quero viajar nas férias de julho"
 
-Maria (olhando dashboard de IA): "Que legal! Vi aqui que você foi para Gramado ano passado e amou. Quer algo similar (montanha, friozinho) ou quer variar para praia dessa vez? Ah, e lembrei que você mencionou que seu filho tem alergia a frutos do mar, então já vou evitar destinos muito focados em gastronomia marinha."
+Maria (olhando dashboard de IA): "Que legal! Vi aqui que você foi para Gramado ano passado e amou. Quer algo similar (montanha, friozinho) ou quer variar para praia dessa vez? Ah, e lembrei que você mencionou que seu filho tem alergia a frutos do mar, entêo já vou evitar destinos muito focados em gastronomia marinha."
 
 Cliente: "Nossa, você lembra de tudo! Isso sim é atendimento!"
 
-Maria não lembra de tudo. A IA lembra. Mas o cliente percebe como atenção e cuidado pessoal.
+Maria nêo lembra de tudo. A IA lembra. Mas o cliente percebe como atençêo e cuidado pessoal.
 
-**Case: Vendedor com IA atende 100 pessoas mantendo personalização**
+**Case: Vendedor com IA atende 100 pessoas mantendo personalizaçêo**
 
 Thiago, vendedor B2B de consultoria empresarial.
 
@@ -345,12 +345,12 @@ Thiago, vendedor B2B de consultoria empresarial.
 - 20 clientes ativos
 - Conhecia bem cada um
 - Atendimento muito personalizado
-- Limite: não conseguia pegar mais clientes sem perder qualidade
+- Limite: nêo conseguia pegar mais clientes sem perder qualidade
 
 **Depois (com IA):**
 - 100 clientes ativos
 - IA mantém perfil detalhado de cada um
-- Antes de cada reunião/ligação, Thiago vê dashboard de 30 segundos: resumo do cliente, histórico, preferências, contexto atual, sugestões de abordagem
+- Antes de cada reuniêo/ligaçêo, Thiago vê dashboard de 30 segundos: resumo do cliente, histórico, preferências, contexto atual, sugestões de abordagem
 - Atendimento continua personalizado (até mais, pois ele nunca esquece nada)
 - Triplicou receita mantendo NPS alto
 
@@ -362,7 +362,7 @@ Este é o mito que mais impede pequenos negócios e profissionais autônomos de 
 
 **FALSO: Ferramentas gratuitas/baratas para todos**
 
-A verdade: NUNCA foi tão barato e acessível automatizar.
+A verdade: NUNCA foi têo barato e acessível automatizar.
 
 Em 2015, construir um chatbot decente custava R$ 50.000+ em desenvolvimento. Hoje você faz de graça com ferramentas no-code em 1 tarde.
 
@@ -375,9 +375,9 @@ Ferramentas que você pode começar a usar HOJE, sem pagar nada:
 **CRMs Gratuitos:**
 - HubSpot CRM (free forever, robusto)
 - Bitrix24 (plano gratuito generoso)
-- Zoho CRM (versão free para até 3 usuários)
+- Zoho CRM (versêo free para até 3 usuários)
 
-**Automação:**
+**Automaçêo:**
 - Zapier (100 tarefas/mês grátis)
 - Make/Integromat (1.000 operações/mês grátis)
 - n8n (open-source, grátis ilimitado se auto-hospedar)
@@ -395,7 +395,7 @@ Ferramentas que você pode começar a usar HOJE, sem pagar nada:
 
 **Chatbots:**
 - ManyChat (1.000 contatos grátis)
-- Landbot (versão free)
+- Landbot (versêo free)
 - Botpress (open-source)
 
 Somando tudo: R$ 0/mês para começar. Conforme cresce, R$ 50-200/mês cobre necessidades de 90% dos pequenos negócios.
@@ -404,19 +404,19 @@ Somando tudo: R$ 0/mês para começar. Conforme cresce, R$ 50-200/mês cobre nec
 
 Juliana, designer freelancer.
 
-**Situação inicial:**
+**Situaçêo inicial:**
 - Recebia 30-40 pedidos de orçamento/semana via Instagram/WhatsApp
 - Conseguia responder 10-15 com qualidade
 - Perdia os outros por demora
 - Faturava R$ 6k/mês trabalhando 60h/semana
 
-**Decisão:** "Vou tentar essas ferramentas gratuitas que vi no YouTube"
+**Decisêo:** "Vou tentar essas ferramentas gratuitas que vi no YouTube"
 
-**Implementação (2 semanas, 0 investimento):**
+**Implementaçêo (2 semanas, 0 investimento):**
 
 1. Criou conta Zapier free
 2. Conectou Instagram + WhatsApp Business + Google Sheets
-3. Configurou automação: toda mensagem nova cai numa planilha + recebe resposta automática com formulário de briefing
+3. Configurou automaçêo: toda mensagem nova cai numa planilha + recebe resposta automática com formulário de briefing
 4. Criou conta ChatGPT e fez prompts para gerar orçamentos baseados no briefing
 5. Configurou Calendly (free) para agendamento de reuniões
 6. Criou sequência de follow-up automático no WhatsApp (via API grátis)
@@ -425,7 +425,7 @@ Juliana, designer freelancer.
 - Atende 100% dos leads (vs. 30% antes)
 - Resposta inicial em < 5 minutos (vs. horas/dias antes)
 - Orçamentos enviados em 1h (vs. 1-2 dias antes)
-- Taxa de conversão subiu de 15% para 35%
+- Taxa de conversêo subiu de 15% para 35%
 - Faturamento: R$ 23k/mês
 - Horas trabalhadas: 40h/semana
 
@@ -451,11 +451,11 @@ Compare com contratar uma pessoa: R$ 2.500-5.000/mês + encargos.
 
 Ou com perder leads por falta de capacidade: R$ 5.000-20.000/mês em oportunidades perdidas.
 
-Investir R$ 50-200/mês em automação é o melhor ROI que existe.
+Investir R$ 50-200/mês em automaçêo é o melhor ROI que existe.
 
 ---
 
-## 4. Casos Reais de Transformação
+## 4. Casos Reais de Transformaçêo
 
 ### CASE 1: Luana - Consultora de Marketing Digital
 
@@ -471,48 +471,48 @@ Rotina típica:
 Total: 60-65h/semana
 
 Problemas:
-- Recusava novos clientes porque não tinha tempo
+- Recusava novos clientes porque nêo tinha tempo
 - Follow-up de leads era inexistente (sem tempo)
 - Relatórios atrasavam (clientes reclamavam)
 - Burnout se aproximando
 - Renda estagnada em R$ 8k/mês
 
-**AUTOMAÇÕES: Follow-up email, qualificação com chatbot, propostas automáticas**
+**AUTOMAÇÕES: Follow-up email, qualificaçêo com chatbot, propostas automáticas**
 
-Luana assistiu um webinar sobre automação e decidiu tentar. Implementou em 8 semanas:
+Luana assistiu um webinar sobre automaçêo e decidiu tentar. Implementou em 8 semanas:
 
-**Semanas 1-2: Automação de Captação**
+**Semanas 1-2: Automaçêo de Captaçêo**
 - Criou formulário inteligente no site (TypeForm free)
 - Conectou com Zapier
-- Todo lead preenche formulário → dados vão pro Google Sheets → recebe e-mail automático com案例 studies
+- Todo lead preenche formulário → dados vêo pro Google Sheets → recebe e-mail automático com案例 studies
 - Implementou chatbot no site (ManyChat free) para responder dúvidas comuns
 
-**Semanas 3-4: Automação de Qualificação**
+**Semanas 3-4: Automaçêo de Qualificaçêo**
 - Criou sequência de e-mails automática (Mailchimp free)
 - Leads que abrem e-mail + clicam em links → marcados como "quentes"
-- Leads quentes recebem convite automático para agendar reunião (Calendly)
+- Leads quentes recebem convite automático para agendar reuniêo (Calendly)
 - Leads frios recebem conteúdo educativo por mais 30 dias antes de novo convite
 
-**Semanas 5-6: Automação de Propostas**
+**Semanas 5-6: Automaçêo de Propostas**
 - Criou templates de proposta no Google Docs
 - Usou ChatGPT para criar prompts que geram propostas personalizadas
-- Fluxo: Reunião com cliente → preenche formulário de briefing → ChatGPT gera proposta em 5min → Luana revisa e envia
+- Fluxo: Reuniêo com cliente → preenche formulário de briefing → ChatGPT gera proposta em 5min → Luana revisa e envia
 
-**Semanas 7-8: Automação de Relatórios**
+**Semanas 7-8: Automaçêo de Relatórios**
 - Conectou Google Analytics + Meta Ads + Google Sheets via Zapier
 - Criou template de relatório que se alimenta automaticamente dos dados
-- Todo dia 1 do mês, relatórios são gerados e enviados automaticamente
+- Todo dia 1 do mês, relatórios sêo gerados e enviados automaticamente
 
 **DEPOIS: 40 clientes, trabalha 35h/semana, R$ 28k/mês**
 
-Transformação em 6 meses:
+Transformaçêo em 6 meses:
 
 **Números:**
 - Clientes: 12 → 40
 - Faturamento: R$ 8k → R$ 28k (+250%)
 - Horas/semana: 60h → 35h (-42%)
-- Leads/mês: 15 → 80 (automação captou mais)
-- Taxa conversão: 30% → 45% (follow-up consistente)
+- Leads/mês: 15 → 80 (automaçêo captou mais)
+- Taxa conversêo: 30% → 45% (follow-up consistente)
 
 **Qualidade de vida:**
 - Fim de semana 100% livre
@@ -522,7 +522,7 @@ Transformação em 6 meses:
 
 **TEMPO: 8 semanas para implementar**
 
-Importante: não foi instantâneo. Levou 8 semanas de trabalho focado:
+Importante: nêo foi instantâneo. Levou 8 semanas de trabalho focado:
 - 2h/dia nos primeiros 14 dias aprendendo ferramentas
 - 1h/dia nas semanas seguintes ajustando e testando
 - Primeiros resultados visíveis na semana 4
@@ -530,7 +530,7 @@ Importante: não foi instantâneo. Levou 8 semanas de trabalho focado:
 
 **FERRAMENTAS: Zapier + ChatGPT + Notion**
 
-Stack de ferramentas de Luana (versão final):
+Stack de ferramentas de Luana (versêo final):
 
 - **Zapier** (plano free → depois basic R$ 50/mês): Conecta tudo
 - **ChatGPT** (free, depois Plus R$ 100/mês): Gera propostas, e-mails, ideias
@@ -551,12 +551,12 @@ Para quem quer replicar:
    - Identificou 7 processos candidatos
 
 2. **Priorizou top 3** (3 dias)
-   - Captação de leads (maior dor)
+   - Captaçêo de leads (maior dor)
    - Propostas comerciais (tomava muito tempo)
    - Relatórios mensais (atrasavam sempre)
 
 3. **Automatizou um por vez** (6 semanas)
-   - Semana 1-2: Captação
+   - Semana 1-2: Captaçêo
    - Semana 3-4: Propostas
    - Semana 5-6: Relatórios
 
@@ -569,11 +569,11 @@ Para quem quer replicar:
    - Criou SOPs no Notion
    - Garantiu que consegue manter/escalar
 
-Total: 8 semanas da decisão até sistema rodando.
+Total: 8 semanas da decisêo até sistema rodando.
 
 ### CASE 2: Bruno - Vendedor B2B de SaaS
 
-**ANTES: 200 leads/mês, fechava 8 (4% conversão), R$ 24k comissão**
+**ANTES: 200 leads/mês, fechava 8 (4% conversêo), R$ 24k comissêo**
 
 Bruno trabalhava como SDR/Closer em empresa de software B2B. Ticket médio: R$ 15k/ano.
 
@@ -581,9 +581,9 @@ Modelo de trabalho:
 - Leads vinham de marketing (cold)
 - Bruno tinha que ligar, qualificar, agendar demo, fazer demo, negociar, fechar
 - 200 leads/mês = ~10 por dia
-- Conseguia falar de fato com 4-5 por dia (outros não atendiam/respondiam)
-- Fechava 8 vendas/mês = 4% de conversão
-- Comissão: 20% primeira mensalidade = R$ 24k/mês
+- Conseguia falar de fato com 4-5 por dia (outros nêo atendiam/respondiam)
+- Fechava 8 vendas/mês = 4% de conversêo
+- Comissêo: 20% primeira mensalidade = R$ 24k/mês
 
 Problemas:
 - 150 leads/mês ficavam sem follow-up adequado
@@ -606,42 +606,42 @@ Bruno teve autonomia para implementar automações. Empresa aprovou porque ele p
   - Comportamento no site (tempo, páginas visitadas)
   - Engajamento com e-mails
 - Leads com score > 70 = "quentes" (prioridade)
-- Leads 40-70 = "mornos" (nutrição automática)
-- Leads < 40 = "frios" (descartados ou nutrição longa)
+- Leads 40-70 = "mornos" (nutriçêo automática)
+- Leads < 40 = "frios" (descartados ou nutriçêo longa)
 
 **2. Sequências automáticas de e-mail (HubSpot + ChatGPT)**
 - Criou 3 sequências:
-  - Leads quentes: 3 e-mails em 5 dias + ligação
+  - Leads quentes: 3 e-mails em 5 dias + ligaçêo
   - Leads mornos: 7 e-mails em 21 dias com conteúdo educativo
   - Pós-demo: 4 e-mails em 10 dias lembrando, resgatando objeções
 - Usou ChatGPT para escrever variações personalizadas
 - A/B testou tudo
 
-**3. Automação de agendamento (Calendly + Zapier)**
+**3. Automaçêo de agendamento (Calendly + Zapier)**
 - Link de agendamento em todo e-mail
 - Integrado com Google Calendar + HubSpot
-- Lembretes automáticos 1 dia antes e 1h antes (redução de no-show de 30% para 8%)
+- Lembretes automáticos 1 dia antes e 1h antes (reduçêo de no-show de 30% para 8%)
 
 **4. Biblioteca de demos gravadas (Loom)**
 - Gravou demos para casos de uso comuns
 - Enviava vídeo personalizado antes da demo ao vivo
-- Reunião ao vivo focava só em dúvidas específicas (reduziu tempo de 1h para 25min)
+- Reuniêo ao vivo focava só em dúvidas específicas (reduziu tempo de 1h para 25min)
 
-**DEPOIS: 500 leads/mês, fecha 60 (12% conversão), R$ 180k comissão**
+**DEPOIS: 500 leads/mês, fecha 60 (12% conversêo), R$ 180k comissêo**
 
-Transformação em 12 semanas:
+Transformaçêo em 12 semanas:
 
 **Números:**
 - Leads processados: 200 → 500/mês (pediu mais leads ao marketing)
-- Conversão: 4% → 12%
+- Conversêo: 4% → 12%
 - Vendas: 8 → 60/mês
-- Comissão: R$ 24k → R$ 180k/mês
-- Tempo por venda: 4h → 1,5h (automação qualificou melhor)
+- Comissêo: R$ 24k → R$ 180k/mês
+- Tempo por venda: 4h → 1,5h (automaçêo qualificou melhor)
 
 **Como conseguiu 500 leads:**
 Bruno provou com dados que conseguia processar 2,5x mais leads. Marketing aumentou investimento.
 
-**Segredo da conversão 3x maior:**
+**Segredo da conversêo 3x maior:**
 - Parou de perder tempo com leads frios (scoring filtrou)
 - Follow-up consistente (sequências automáticas)
 - Velocidade (respondia leads quentes em < 2h)
@@ -651,10 +651,10 @@ Bruno provou com dados que conseguia processar 2,5x mais leads. Marketing aument
 
 Timeline:
 
-- **Semanas 1-3:** Setup de HubSpot, importação de dados históricos, configuração de lead scoring
-- **Semanas 4-6:** Criação de sequências de e-mail, testes, ajustes
-- **Semanas 7-9:** Gravação de biblioteca de demos, automação de agendamento
-- **Semanas 10-12:** Otimização, A/B tests, documentação
+- **Semanas 1-3:** Setup de HubSpot, importaçêo de dados históricos, configuraçêo de lead scoring
+- **Semanas 4-6:** Criaçêo de sequências de e-mail, testes, ajustes
+- **Semanas 7-9:** Gravaçêo de biblioteca de demos, automaçêo de agendamento
+- **Semanas 10-12:** Otimizaçêo, A/B tests, documentaçêo
 
 Primeiros resultados em semana 5. Resultados completos em mês 4.
 
@@ -663,10 +663,10 @@ Primeiros resultados em semana 5. Resultados completos em mês 4.
 Stack:
 
 - **HubSpot CRM** (free tier): CRM, e-mail sequences, lead scoring
-- **Make** (R$ 30/mês): Automações mais complexas que HubSpot free não fazia
-- **ChatGPT** (Plus, R$ 100/mês): Copywriting de e-mails, personalização em escala
+- **Make** (R$ 30/mês): Automações mais complexas que HubSpot free nêo fazia
+- **ChatGPT** (Plus, R$ 100/mês): Copywriting de e-mails, personalizaçêo em escala
 - **Calendly** (free): Agendamento
-- **Loom** (free): Gravação de demos
+- **Loom** (free): Gravaçêo de demos
 - **LinkedIn Sales Navigator** (R$ 250/mês): Enriquecimento de dados de leads
 
 Investimento: R$ 380/mês
@@ -692,7 +692,7 @@ ROI: 41.000%
 
 4. **Otimizou demos** (3 semanas)
    - Gravou vídeos para casos comuns
-   - Reduziu tempo de reunião
+   - Reduziu tempo de reuniêo
    - Aumentou taxa de fechamento
 
 5. **Escalou** (3 semanas)
@@ -718,7 +718,7 @@ Problemas:
 
 **AUTOMAÇÕES: Triagem automática, respostas pré-aprovadas com IA, escalonamento inteligente**
 
-Mariana convenceu o gerente a testar automação por 30 dias.
+Mariana convenceu o gerente a testar automaçêo por 30 dias.
 
 **O que implementou:**
 
@@ -736,11 +736,11 @@ Mariana convenceu o gerente a testar automação por 30 dias.
 - "Onde está meu pedido?" → Bot acessa sistema, retorna tracking em tempo real
 - "Quero trocar" → Bot envia instruções + gera código de postagem
 - "Qual prazo?" → Bot consulta CEP e retorna prazo
-- Isso resolvia 60% dos tickets SEM intervenção humana
+- Isso resolvia 60% dos tickets SEM intervençêo humana
 
 **3. Escalonamento inteligente**
-- Tickets não resolvidos por bot → vão para fila humana JÁ CLASSIFICADOS
-- Priorização automática:
+- Tickets nêo resolvidos por bot → vêo para fila humana JÁ CLASSIFICADOS
+- Priorizaçêo automática:
   - Reclamações = urgente (SLA 1h)
   - Pré-venda = importante (SLA 2h)
   - Outros = normal (SLA 4h)
@@ -752,13 +752,13 @@ Mariana convenceu o gerente a testar automação por 30 dias.
 
 **DEPOIS: 120 tickets/dia, 98% resolvidos, NPS subiu de 6.2 para 8.9**
 
-Transformação em 4 semanas:
+Transformaçêo em 4 semanas:
 
 **Números:**
 - Tickets/dia por pessoa: 30 → 120 (4x)
-- Taxa de resolução: 85% → 98%
+- Taxa de resoluçêo: 85% → 98%
 - Tempo de primeira resposta: 4h → 8min
-- Tempo médio de resolução: 12h → 45min
+- Tempo médio de resoluçêo: 12h → 45min
 - NPS: 6.2 → 8.9
 - Custo por ticket: R$ 12 → R$ 3
 
@@ -767,16 +767,16 @@ Transformação em 4 semanas:
 - 40% restantes levam 1/3 do tempo (IA sugere resposta)
 
 **Por que NPS subiu:**
-- Velocidade (respostas em minutos, não horas)
+- Velocidade (respostas em minutos, nêo horas)
 - Disponibilidade (bot 24/7)
 - Consistência (qualidade sempre alta)
-- Resolução (98% vs. 85%)
+- Resoluçêo (98% vs. 85%)
 
 **TEMPO: 4 semanas**
 
 Timeline:
 
-- **Semana 1:** Setup técnico, integração ChatGPT + Zendesk
+- **Semana 1:** Setup técnico, integraçêo ChatGPT + Zendesk
 - **Semana 2:** Treinamento do bot com histórico de 6 meses de tickets
 - **Semana 3:** Testes internos, ajustes
 - **Semana 4:** Lançamento gradual (20% tráfego → 100%)
@@ -822,19 +822,19 @@ ROI: 1.300%
 
 ### Você + IA = Supercomunicador
 
-A revolução que estamos vivendo não é "humanos vs. máquinas". É "humanos medianos vs. humanos potencializados por máquinas".
+A revoluçêo que estamos vivendo nêo é "humanos vs. máquinas". É "humanos medianos vs. humanos potencializados por máquinas".
 
 Pense em analogia histórica:
 
-- **Antes da calculadora:** Contador bom era quem fazia contas rápido na mão
+- **Antes da calculadora:** Contador bom era quem fazia contas rápido na mêo
 - **Depois da calculadora:** Contador bom é quem entende finanças e usa calculadora como ferramenta
 
-Com IA + automação, estamos na mesma transição:
+Com IA + automaçêo, estamos na mesma transiçêo:
 
 - **Antes (até 2022):** Comunicador bom era quem atendia rápido e lembrava de tudo
 - **Agora (2024+):** Comunicador bom é quem tem empatia, fecha negócios, e usa IA para escalar
 
-Você não está competindo com IA. Você está competindo com OUTROS HUMANOS que usam IA.
+Você nêo está competindo com IA. Você está competindo com OUTROS HUMANOS que usam IA.
 
 E a diferença é brutal.
 
@@ -847,7 +847,7 @@ Seja humilde: há coisas que IA simplesmente faz melhor que você. Aceite isso.
 - Você: Responde em 2-20 minutos (se estiver disponível)
 
 **2. Memória perfeita**
-- IA: Lembra de 100% de toda interação com 10.000 clientes
+- IA: Lembra de 100% de toda interaçêo com 10.000 clientes
 - Você: Lembra de 80% de 20 clientes (se tiver boa memória)
 
 **3. Escalabilidade**
@@ -855,7 +855,7 @@ Seja humilde: há coisas que IA simplesmente faz melhor que você. Aceite isso.
 - Você: Atende 1 por vez
 
 **4. Disponibilidade**
-- IA: 24/7/365, nunca cansa, não tira férias, não fica doente
+- IA: 24/7/365, nunca cansa, nêo tira férias, nêo fica doente
 - Você: 8h/dia, 5 dias/semana (e precisa de pausas)
 
 **5. Consistência**
@@ -864,22 +864,22 @@ Seja humilde: há coisas que IA simplesmente faz melhor que você. Aceite isso.
 
 Se essa lista te assusta, respire fundo. Porque vem a boa notícia:
 
-### O que você faz melhor: empatia, nuance, negociação complexa, fechar negócio
+### O que você faz melhor: empatia, nuance, negociaçêo complexa, fechar negócio
 
 Há coisas que (por enquanto) só humanos fazem bem:
 
 **1. Empatia verdadeira**
 - Cliente nervoso, chateado, frustrado precisa de HUMANO
-- IA simula empatia, mas não sente
+- IA simula empatia, mas nêo sente
 - Você sente, se conecta, acalma
 
 **2. Leitura de nuance**
 - Cliente diz "está tudo bem", mas TOM diz "estou insatisfeito"
-- IA não pega sutileza (ainda)
+- IA nêo pega sutileza (ainda)
 - Você pega
 
-**3. Negociação criativa**
-- "Não posso pagar R$ 5k, mas posso R$ 3k + divulgação nas redes"
+**3. Negociaçêo criativa**
+- "Nêo posso pagar R$ 5k, mas posso R$ 3k + divulgaçêo nas redes"
 - IA segue regras, você improvisa soluções
 - Fechamento de negócios complexos ainda é jogo humano
 
@@ -890,59 +890,59 @@ Há coisas que (por enquanto) só humanos fazem bem:
 
 **5. Julgamento ético e moral**
 - Cliente pede algo que tecnicamente pode mas eticamente é questionável
-- IA não tem bússola moral
+- IA nêo tem bússola moral
 - Você tem
 
 **6. Criatividade e improviso**
-- Situação nova, sem script, sem precedente
+- Situaçêo nova, sem script, sem precedente
 - IA fica travada, você improvisa
-- Inovação vem de humanos
+- Inovaçêo vem de humanos
 
 ### A fórmula: IA qualifica e prepara → Você fecha e encanta
 
-A combinação perfeita:
+A combinaçêo perfeita:
 
 **ETAPA 1: IA faz triagem (automático)**
 - Lead chega
 - IA pergunta: nome, interesse, orçamento, urgência, contexto
 - IA classifica: frio/morno/quente
-- IA agenda reunião (se quente)
+- IA agenda reuniêo (se quente)
 
 **ETAPA 2: IA prepara contexto (automático)**
-- Antes da reunião, IA gera briefing:
+- Antes da reuniêo, IA gera briefing:
   - Quem é o cliente
   - O que ele quer
   - Histórico (se houver)
   - Objeções prováveis (baseado em padrões)
   - Abordagem sugerida
 
-**ETAPA 3: Você faz reunião (humano)**
+**ETAPA 3: Você faz reuniêo (humano)**
 - Você entra JÁ contextualizado
-- Foca em empatia, conexão, entendimento profundo
-- Faz pergunta que IA não faria
+- Foca em empatia, conexêo, entendimento profundo
+- Faz pergunta que IA nêo faria
 - Adapta oferta criativamente
 - Constrói confiança
 
 **ETAPA 4: IA faz follow-up (automático)**
-- Depois da reunião, IA:
+- Depois da reuniêo, IA:
   - Envia resumo e próximos passos
   - Coloca lembretes na agenda
   - Faz follow-ups periódicos
   - Alerta você se lead esfria ou esquenta
 
 **ETAPA 5: Você fecha (humano)**
-- Na hora H, negociação final, você entra
+- Na hora H, negociaçêo final, você entra
 - IA preparou tudo, você finaliza
-- Aperto de mão (literal ou virtual) é humano
+- Aperto de mêo (literal ou virtual) é humano
 
-**ETAPA 6: IA cuida da retenção (híbrido)**
+**ETAPA 6: IA cuida da retençêo (híbrido)**
 - Após venda, IA:
   - Envia onboarding automatizado
-  - Checa satisfação periodicamente
-  - Alerta você se cliente demonstra insatisfação
-- Você entra em momentos críticos (renovação, upsell, crise)
+  - Checa satisfaçêo periodicamente
+  - Alerta você se cliente demonstra insatisfaçêo
+- Você entra em momentos críticos (renovaçêo, upsell, crise)
 
-### Visão: Você gerenciando 5x mais clientes com MAIS qualidade
+### Visêo: Você gerenciando 5x mais clientes com MAIS qualidade
 
 Imagine daqui 6 meses:
 
@@ -962,17 +962,17 @@ Imagine daqui 6 meses:
 - Controle total
 - Receita: R$ 50k/mês
 
-Isso não é ficção científica. É realidade de quem já adotou.
+Isso nêo é ficçêo científica. É realidade de quem já adotou.
 
-A pergunta não é "será possível?". É "quando VOCÊ vai começar?".
+A pergunta nêo é "será possível?". É "quando VOCÊ vai começar?".
 
 ---
 
-## 6. O Custo de NÃO Automatizar
+## 6. O Custo de NêO Automatizar
 
-### Cenário A (sem automação): Estagnação, burnout, perda de mercado
+### Cenário A (sem automaçêo): Estagnaçêo, burnout, perda de mercado
 
-Imagine que você decide não fazer nada. Continuar como está.
+Imagine que você decide nêo fazer nada. Continuar como está.
 
 **12 meses depois:**
 
@@ -988,7 +988,7 @@ Dois fins possíveis:
 1. Burnout, você desiste da área
 2. Fica preso num trabalho cada vez mais difícil ganhando cada vez menos
 
-### Cenário B (com automação): Crescimento, escalabilidade, reconhecimento
+### Cenário B (com automaçêo): Crescimento, escalabilidade, reconhecimento
 
 Agora imagine que você dedica 8 semanas para implementar automações básicas.
 
@@ -1006,16 +1006,16 @@ Mercado te reconhece. Você vira referência. Recebe convites para palestrar, co
 
 Dois fins possíveis:
 1. Continua crescendo, abre empresa, contrata equipe
-2. Mantém operação enxuta, alta rentabilidade, liberdade
+2. Mantém operaçêo enxuta, alta rentabilidade, liberdade
 
-### Cálculo: Quanto você perde por mês não automatizando?
+### Cálculo: Quanto você perde por mês nêo automatizando?
 
 Faça o cálculo para SUA realidade:
 
-**1. Quantos leads/clientes você PODERIA atender se tivesse automação?**
+**1. Quantos leads/clientes você PODERIA atender se tivesse automaçêo?**
 Exemplo: 50 (vs. 15 hoje)
 
-**2. Qual sua taxa de conversão atual?**
+**2. Qual sua taxa de conversêo atual?**
 Exemplo: 20%
 
 **3. Qual seu ticket médio?**
@@ -1034,7 +1034,7 @@ Coloque SEUS números:
 
 - Leads/clientes potenciais: _____
 - Leads/clientes atuais: _____
-- Taxa de conversão: _____
+- Taxa de conversêo: _____
 - Ticket médio: _____
 - Vendas perdidas/mês: _____
 - Receita perdida/mês: _____
@@ -1042,16 +1042,16 @@ Coloque SEUS números:
 
 Dói, né? Mas precisa doer. Porque isso é dinheiro que está indo pelo ralo TODO MÊS.
 
-### Urgência: Concorrentes já estão fazendo isso AGORA
+### Urgência: Concorrentes já estêo fazendo isso AGORA
 
-Última verdade incômoda: enquanto você lê isso, seus concorrentes estão implementando.
+Última verdade incômoda: enquanto você lê isso, seus concorrentes estêo implementando.
 
 Dados de pesquisa McKinsey 2024:
-- 67% das empresas B2B já usam alguma automação em vendas
+- 67% das empresas B2B já usam alguma automaçêo em vendas
 - 43% usam IA em atendimento
 - Crescimento de 320% no uso de IA em vendas entre 2022-2024
 
-Tradução: seus concorrentes JÁ ESTÃO fazendo isso.
+Traduçêo: seus concorrentes JÁ ESTêO fazendo isso.
 
 A janela de vantagem competitiva está fechando. Em 2022, você seria pioneiro. Em 2024, você está recuperando atraso. Em 2025, será tarde demais - todo mundo vai ter.
 
@@ -1059,7 +1059,7 @@ Mas HOJE, ainda dá tempo de estar na frente da maioria.
 
 ---
 
-## Exercícios de Reflexão
+## Exercícios de Reflexêo
 
 Pare agora. Pegue papel e caneta (ou abra um documento).
 
@@ -1068,7 +1068,7 @@ Responda honestamente:
 ### 1. Quantos leads/clientes você perde por semana por falta de tempo?
 
 Pense na última semana:
-- Quantas mensagens você não respondeu?
+- Quantas mensagens você nêo respondeu?
 - Quantos follow-ups você pulou?
 - Quantos leads esfriaram porque você demorou?
 
@@ -1094,7 +1094,7 @@ Agora pergunta honesta: o que você faria com esse dinheiro extra?
 - Trabalharia menos?
 - Contrataria ajuda?
 
-Essa não é fantasia. É realidade de quem automatizou. Pode ser SUA realidade em 6-12 meses.
+Essa nêo é fantasia. É realidade de quem automatizou. Pode ser SUA realidade em 6-12 meses.
 
 ### 3. Qual parte do seu atendimento é REPETITIVA e poderia ser automatizada?
 
@@ -1129,20 +1129,20 @@ Vamos mapear seu processo atual de vendas/atendimento.
 2. Para cada etapa, marque:
    - 🔄 se é repetitiva (você faz igual para todos)
    - ⏰ se toma muito tempo
-3. Identifique 3 candidatas para automação
+3. Identifique 3 candidatas para automaçêo
 
 **TEMPLATE:**
 
-| Etapa | Descrição | Repetitiva? | Toma Tempo? | Candidata? |
+| Etapa | Descriçêo | Repetitiva? | Toma Tempo? | Candidata? |
 |-------|-----------|-------------|-------------|-----------|
 | 1 | Lead manda mensagem pedindo info | 🔄 | ⏰ | ✅ |
-| 2 | Respondo com pergunta de qualificação | 🔄 | ⏰ | ✅ |
+| 2 | Respondo com pergunta de qualificaçêo | 🔄 | ⏰ | ✅ |
 | 3 | Lead responde | | | |
-| 4 | Agendo reunião (vai e volta de datas) | 🔄 | ⏰ | ✅ |
-| 5 | Faço reunião | | | |
+| 4 | Agendo reuniêo (vai e volta de datas) | 🔄 | ⏰ | ✅ |
+| 5 | Faço reuniêo | | | |
 | 6 | Envio proposta | 🔄 | ⏰ | ✅ |
 | 7 | Follow-up em 3 dias | 🔄 | | ✅ |
-| 8 | Negociação | | | |
+| 8 | Negociaçêo | | | |
 | 9 | Fechamento | | | |
 | 10 | Onboarding/entrega | 🔄 | ⏰ | ✅ |
 
@@ -1161,7 +1161,7 @@ Vamos mapear seu processo atual de vendas/atendimento.
 | 9 | | | | |
 | 10 | | | | |
 
-**TOP 3 CANDIDATAS PARA AUTOMAÇÃO:**
+**TOP 3 CANDIDATAS PARA AUTOMAÇêO:**
 
 1. _____________________________
 2. _____________________________
@@ -1179,19 +1179,19 @@ No próximo módulo, vamos aprender o framework **Golden Trinity** para estrutur
 
 ---
 
-## Conclusão
+## Conclusêo
 
-Você acabou de completar o Módulo 1: A Revolução do Atendimento.
+Você acabou de completar o Módulo 1: A Revoluçêo do Atendimento.
 
 **O que você aprendeu:**
 
 ✅ Como o atendimento mudou de 2022 para 2024
 ✅ Por que limitações humanas (tempo, memória) criam gargalos
-✅ Os 3 grandes mitos (e suas verdades) sobre automação
+✅ Os 3 grandes mitos (e suas verdades) sobre automaçêo
 ✅ 3 casos reais de profissionais que transformaram resultados
 ✅ A fórmula do Comunicador Híbrido: Você + IA
-✅ O custo real de NÃO automatizar
-✅ Seu funil mapeado com candidatas para automação
+✅ O custo real de NêO automatizar
+✅ Seu funil mapeado com candidatas para automaçêo
 
 **Próximos Passos:**
 
@@ -1200,15 +1200,15 @@ No **Módulo 2: Golden Trinity**, você vai aprender:
 - O framework completo: Atrair → Converter → Reter
 - Como IA atua em cada etapa do funil
 - Ferramentas específicas para cada fase
-- Como construir seu ecossistema de automação
+- Como construir seu ecossistema de automaçêo
 - Exercício prático: desenhar SEU sistema
 
-**Ação Imediata:**
+**Açêo Imediata:**
 
 Antes de ir para o Módulo 2, faça:
 
-1. ✅ Complete o exercício de mapeamento do funil (se ainda não fez)
-2. ✅ Identifique suas top 3 candidatas para automação
+1. ✅ Complete o exercício de mapeamento do funil (se ainda nêo fez)
+2. ✅ Identifique suas top 3 candidatas para automaçêo
 3. ✅ Anote uma métrica atual: quantos leads/clientes você atende hoje e quanto fatura
 
 Isso será seu baseline para medir progresso.
@@ -1217,4 +1217,4 @@ Isso será seu baseline para medir progresso.
 
 ---
 
-**© 2025 FETD - Formação em Engenharia de Intenção**
+**© 2025 FETD - Formaçêo em Engenharia de Intençêo**
